@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "note": "广告购买体力",
+    "count": 1,
+    "refresh": 1
+  },
+  {
+    "id": 2,
+    "note": "复活",
+    "count": 0,
+    "refresh": 0
+  },
+  {
+    "id": 3,
+    "note": "每日特惠广告礼包",
+    "count": 1,
+    "refresh": 1
+  },
+  {
+    "id": 4,
+    "note": "每周特惠广告礼包",
+    "count": 1,
+    "refresh": 7
+  },
+  {
+    "id": 5,
+    "note": "每月特惠广告礼包",
+    "count": 1,
+    "refresh": 30
+  },
+  {
+    "id": 6,
+    "note": "快速巡逻广告",
+    "count": 2,
+    "refresh": 1
+  },
+  {
+    "id": 7,
+    "note": "金币洞窟",
+    "count": 1,
+    "refresh": 1
+  },
+  {
+    "id": 8,
+    "note": "世界boss",
+    "count": 1,
+    "refresh": 1
+  },
+  {
+    "id": 9,
+    "note": "金币商店广告礼包",
+    "count": 1,
+    "refresh": 1
+  },
+  {
+    "id": 10,
+    "note": "符文商店广告礼包",
+    "count": 1,
+    "refresh": 1
+  },
+  {
+    "id": 11,
+    "note": "广告购买试练塔门票",
+    "count": 3,
+    "refresh": 1
+  },
+  {
+    "id": 12,
+    "note": "黑店每日免费",
+    "count": 1,
+    "refresh": 1
+  },
+  {
+    "id": 13,
+    "note": "特惠小铺每日免费",
+    "count": 1,
+    "refresh": 1
+  },
+  {
+    "id": 14,
+    "note": "公会Boss挑战",
+    "count": 1,
+    "refresh": 1
+  },
+  {
+    "id": 15,
+    "note": "活动挖矿广告礼包",
+    "count": 1,
+    "refresh": 1
+  },
+  {
+    "id": 16,
+    "note": "活动钓鱼广告礼包",
+    "count": 1,
+    "refresh": 1
+  }
+]

@@ -1,0 +1,31 @@
+{
+  "name": "EventDiving_DiveInsertGrid",
+  "assembly": "HotFixBattle.dll",
+  "read_impl_rva": "0x6a6e7fc",
+  "fields": [
+    {
+      "type": "int",
+      "name": "ID",
+      "offset": 32,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "Type",
+      "offset": 36,
+      "reader": "readInt"
+    },
+    {
+      "type": "int[]",
+      "name": "Grid",
+      "offset": 40,
+      "reader": "readArrayint"
+    }
+  ],
+  "native_reader_calls": [
+    "readInt",
+    "readInt",
+    "readArrayint"
+  ],
+  "field_count_matches_native_calls": true
+}

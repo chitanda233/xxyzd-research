@@ -1,0 +1,73 @@
+{
+  "name": "EventFishing_SpecialArea",
+  "assembly": "HotFixBattle.dll",
+  "read_impl_rva": "0x6a779b4",
+  "fields": [
+    {
+      "type": "int",
+      "name": "id",
+      "offset": 32,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "TriggerConditionAreaId",
+      "offset": 36,
+      "reader": "readInt"
+    },
+    {
+      "type": "int[]",
+      "name": "TriggerConditionCount",
+      "offset": 40,
+      "reader": "readArrayint"
+    },
+    {
+      "type": "int",
+      "name": "TriggerConditionWeight",
+      "offset": 48,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "SpecialAreaId",
+      "offset": 52,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "MaxCastRod",
+      "offset": 56,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "MaxMultipy",
+      "offset": 60,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "MaxTriggerCount",
+      "offset": 64,
+      "reader": "readInt"
+    },
+    {
+      "type": "int[][]",
+      "name": "EnterReward",
+      "offset": 72,
+      "reader": "readArrayArrayint"
+    }
+  ],
+  "native_reader_calls": [
+    "readInt",
+    "readInt",
+    "readArrayint",
+    "readInt",
+    "readInt",
+    "readInt",
+    "readInt",
+    "readInt",
+    "readArrayArrayint"
+  ],
+  "field_count_matches_native_calls": true
+}

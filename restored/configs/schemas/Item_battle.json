@@ -1,0 +1,101 @@
+{
+  "name": "Item_battle",
+  "assembly": "HotFixBattle.dll",
+  "read_impl_rva": "0x6aac6d4",
+  "fields": [
+    {
+      "type": "int",
+      "name": "id",
+      "offset": 32,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "dropType",
+      "offset": 36,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "parameter",
+      "offset": 40,
+      "reader": "readInt"
+    },
+    {
+      "type": "FP",
+      "name": "life",
+      "offset": 48,
+      "reader": "readFp"
+    },
+    {
+      "type": "FP",
+      "name": "shineTime",
+      "offset": 56,
+      "reader": "readFp"
+    },
+    {
+      "type": "int",
+      "name": "prefabId",
+      "offset": 64,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "collectEffectId",
+      "offset": 68,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "posType",
+      "offset": 72,
+      "reader": "readInt"
+    },
+    {
+      "type": "FP",
+      "name": "EffectScale",
+      "offset": 80,
+      "reader": "readFp"
+    },
+    {
+      "type": "FP",
+      "name": "EffectTime",
+      "offset": 88,
+      "reader": "readFp"
+    },
+    {
+      "type": "int",
+      "name": "collectSoundId",
+      "offset": 96,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "dropSoundId",
+      "offset": 100,
+      "reader": "readInt"
+    },
+    {
+      "type": "FP",
+      "name": "DropSpeed",
+      "offset": 104,
+      "reader": "readFp"
+    }
+  ],
+  "native_reader_calls": [
+    "readInt",
+    "readInt",
+    "readInt",
+    "readFp",
+    "readFp",
+    "readInt",
+    "readInt",
+    "readInt",
+    "readFp",
+    "readFp",
+    "readInt",
+    "readInt",
+    "readFp"
+  ],
+  "field_count_matches_native_calls": true
+}

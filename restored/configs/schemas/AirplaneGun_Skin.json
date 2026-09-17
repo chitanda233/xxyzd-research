@@ -1,0 +1,129 @@
+{
+  "name": "AirplaneGun_Skin",
+  "assembly": "HotFixBattle.dll",
+  "read_impl_rva": "0x66ffa70",
+  "fields": [
+    {
+      "type": "int",
+      "name": "id",
+      "offset": 32,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "SecondWeaponType",
+      "offset": 36,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "skinNumber",
+      "offset": 40,
+      "reader": "readInt"
+    },
+    {
+      "type": "string",
+      "name": "skinName",
+      "offset": 48,
+      "reader": "readLocalString"
+    },
+    {
+      "type": "string",
+      "name": "skinDesc",
+      "offset": 56,
+      "reader": "readLocalString"
+    },
+    {
+      "type": "int",
+      "name": "skillId",
+      "offset": 64,
+      "reader": "readInt"
+    },
+    {
+      "type": "string",
+      "name": "skinIcon",
+      "offset": 72,
+      "reader": "readLocalString"
+    },
+    {
+      "type": "int",
+      "name": "skinAtlas",
+      "offset": 80,
+      "reader": "readInt"
+    },
+    {
+      "type": "string",
+      "name": "previewVideo",
+      "offset": 88,
+      "reader": "readLocalString"
+    },
+    {
+      "type": "int",
+      "name": "weaponModelId",
+      "offset": 96,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "bulletId",
+      "offset": 100,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "fireEffectId",
+      "offset": 104,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "hitEffectId",
+      "offset": 108,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "unlockType",
+      "offset": 112,
+      "reader": "readInt"
+    },
+    {
+      "type": "string",
+      "name": "unlockParam",
+      "offset": 120,
+      "reader": "readLocalString"
+    },
+    {
+      "type": "string",
+      "name": "unlockDesc",
+      "offset": 128,
+      "reader": "readLocalString"
+    },
+    {
+      "type": "int",
+      "name": "order",
+      "offset": 136,
+      "reader": "readInt"
+    }
+  ],
+  "native_reader_calls": [
+    "readInt",
+    "readInt",
+    "readInt",
+    "readLocalString",
+    "readLocalString",
+    "readInt",
+    "readLocalString",
+    "readInt",
+    "readLocalString",
+    "readInt",
+    "readInt",
+    "readInt",
+    "readInt",
+    "readInt",
+    "readLocalString",
+    "readLocalString",
+    "readInt"
+  ],
+  "field_count_matches_native_calls": true
+}

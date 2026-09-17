@@ -1,0 +1,242 @@
+[
+  {
+    "Id": 40100,
+    "WeaponType": 1,
+    "Quality": 40,
+    "PilotNameId": "Weapon_20101",
+    "PilotDesId": "",
+    "Atlas": 10130,
+    "Icon": "stg_AirPlaneGun_icon_08",
+    "ShowIcon": "stg_AirPlaneGun_08",
+    "UnlockCost": [
+      [
+        40100,
+        1
+      ]
+    ],
+    "Order": 100,
+    "SkillPreview": 0,
+    "ShowModel": "Assets/_Resources/Prefab/UI/PilotUI/PilotUI/model_polit_1.prefab",
+    "ShowModelForBase": "Assets/_Resources/Prefab/UI/PilotUI/PilotCamp/CampPilot_1.prefab"
+  },
+  {
+    "Id": 40101,
+    "WeaponType": 1,
+    "Quality": 50,
+    "PilotNameId": "Weapon_20101",
+    "PilotDesId": "",
+    "Atlas": 10130,
+    "Icon": "stg_AirPlaneGun_icon_08",
+    "ShowIcon": "stg_AirPlaneGun_08",
+    "UnlockCost": [
+      [
+        40101,
+        1
+      ]
+    ],
+    "Order": 101,
+    "SkillPreview": 10601011,
+    "ShowModel": "Assets/_Resources/Prefab/UI/PlaneUI/model_plane_7.prefab",
+    "ShowModelForBase": "Assets/_Resources/Prefab/UI/CampPlane/CampPlane7.prefab"
+  },
+  {
+    "Id": 40200,
+    "WeaponType": 2,
+    "Quality": 50,
+    "PilotNameId": "Weapon_20201",
+    "PilotDesId": "",
+    "Atlas": 10130,
+    "Icon": "stg_AirPlaneGun_icon_01",
+    "ShowIcon": "stg_AirPlaneGun_01",
+    "UnlockCost": [
+      [
+        40200,
+        1
+      ]
+    ],
+    "Order": 200,
+    "SkillPreview": 10607011,
+    "ShowModel": "Assets/_Resources/Prefab/UI/PlaneUI/model_plane_8.prefab",
+    "ShowModelForBase": "Assets/_Resources/Prefab/UI/CampPlane/CampPlane8.prefab"
+  },
+  {
+    "Id": 40300,
+    "WeaponType": 3,
+    "Quality": 50,
+    "PilotNameId": "Weapon_20301",
+    "PilotDesId": "",
+    "Atlas": 10130,
+    "Icon": "stg_AirPlaneGun_icon_07",
+    "ShowIcon": "stg_AirPlaneGun_07",
+    "UnlockCost": [
+      [
+        40300,
+        1
+      ]
+    ],
+    "Order": 300,
+    "SkillPreview": 10615011,
+    "ShowModel": "Assets/_Resources/Prefab/UI/PlaneUI/model_plane_9.prefab",
+    "ShowModelForBase": "Assets/_Resources/Prefab/UI/CampPlane/CampPlane9.prefab"
+  },
+  {
+    "Id": 40400,
+    "WeaponType": 4,
+    "Quality": 50,
+    "PilotNameId": "Weapon_20401",
+    "PilotDesId": "",
+    "Atlas": 10130,
+    "Icon": "stg_AirPlaneGun_icon_03",
+    "ShowIcon": "stg_AirPlaneGun_03",
+    "UnlockCost": [
+      [
+        40400,
+        1
+      ]
+    ],
+    "Order": 400,
+    "SkillPreview": 10602011,
+    "ShowModel": "Assets/_Resources/Prefab/UI/PlaneUI/model_plane_10.prefab",
+    "ShowModelForBase": "Assets/_Resources/Prefab/UI/CampPlane/CampPlane10.prefab"
+  },
+  {
+    "Id": 40500,
+    "WeaponType": 5,
+    "Quality": 50,
+    "PilotNameId": "Weapon_20501",
+    "PilotDesId": "",
+    "Atlas": 10130,
+    "Icon": "stg_AirPlaneGun_icon_02",
+    "ShowIcon": "stg_AirPlaneGun_02",
+    "UnlockCost": [
+      [
+        40500,
+        1
+      ]
+    ],
+    "Order": 500,
+    "SkillPreview": 10606011,
+    "ShowModel": "Assets/_Resources/Prefab/UI/PlaneUI/model_plane_14.prefab",
+    "ShowModelForBase": "Assets/_Resources/Prefab/UI/CampPlane/CampPlane14.prefab"
+  },
+  {
+    "Id": 40600,
+    "WeaponType": 6,
+    "Quality": 50,
+    "PilotNameId": "Weapon_20601",
+    "PilotDesId": "",
+    "Atlas": 10130,
+    "Icon": "stg_AirPlaneGun_icon_09",
+    "ShowIcon": "stg_AirPlaneGun_09",
+    "UnlockCost": [
+      [
+        40600,
+        1
+      ]
+    ],
+    "Order": 600,
+    "SkillPreview": 10604011,
+    "ShowModel": "Assets/_Resources/Prefab/UI/PlaneUI/model_plane_12.prefab",
+    "ShowModelForBase": "Assets/_Resources/Prefab/UI/CampPlane/CampPlane12.prefab"
+  },
+  {
+    "Id": 40700,
+    "WeaponType": 7,
+    "Quality": 50,
+    "PilotNameId": "Weapon_20701",
+    "PilotDesId": "",
+    "Atlas": 10130,
+    "Icon": "stg_AirPlaneGun_icon_04",
+    "ShowIcon": "stg_AirPlaneGun_04",
+    "UnlockCost": [
+      [
+        40700,
+        1
+      ]
+    ],
+    "Order": 700,
+    "SkillPreview": 10617011,
+    "ShowModel": "Assets/_Resources/Prefab/UI/PlaneUI/model_plane_13.prefab",
+    "ShowModelForBase": "Assets/_Resources/Prefab/UI/CampPlane/CampPlane13.prefab"
+  },
+  {
+    "Id": 40800,
+    "WeaponType": 8,
+    "Quality": 50,
+    "PilotNameId": "Weapon_20801",
+    "PilotDesId": "",
+    "Atlas": 10130,
+    "Icon": "stg_AirPlaneGun_icon_11",
+    "ShowIcon": "stg_AirPlaneGun_11",
+    "UnlockCost": [
+      [
+        40800,
+        1
+      ]
+    ],
+    "Order": 800,
+    "SkillPreview": 10611011,
+    "ShowModel": "Assets/_Resources/Prefab/UI/PlaneUI/model_plane_11.prefab",
+    "ShowModelForBase": "Assets/_Resources/Prefab/UI/CampPlane/CampPlane11.prefab"
+  },
+  {
+    "Id": 40900,
+    "WeaponType": 9,
+    "Quality": 50,
+    "PilotNameId": "Weapon_20901",
+    "PilotDesId": "",
+    "Atlas": 10130,
+    "Icon": "stg_AirPlaneGun_icon_05",
+    "ShowIcon": "stg_AirPlaneGun_05",
+    "UnlockCost": [
+      [
+        40900,
+        1
+      ]
+    ],
+    "Order": 900,
+    "SkillPreview": 10616011,
+    "ShowModel": "Assets/_Resources/Prefab/UI/PlaneUI/model_plane_7.prefab",
+    "ShowModelForBase": "Assets/_Resources/Prefab/UI/CampPlane/CampPlane7.prefab"
+  },
+  {
+    "Id": 41000,
+    "WeaponType": 10,
+    "Quality": 50,
+    "PilotNameId": "Weapon_21001",
+    "PilotDesId": "",
+    "Atlas": 10130,
+    "Icon": "stg_AirPlaneGun_icon_06",
+    "ShowIcon": "stg_AirPlaneGun_06",
+    "UnlockCost": [
+      [
+        41000,
+        1
+      ]
+    ],
+    "Order": 1000,
+    "SkillPreview": 10603011,
+    "ShowModel": "Assets/_Resources/Prefab/UI/PlaneUI/model_plane_8.prefab",
+    "ShowModelForBase": "Assets/_Resources/Prefab/UI/CampPlane/CampPlane8.prefab"
+  },
+  {
+    "Id": 41100,
+    "WeaponType": 11,
+    "Quality": 50,
+    "PilotNameId": "Weapon_21101",
+    "PilotDesId": "",
+    "Atlas": 10130,
+    "Icon": "stg_AirPlaneGun_icon_10",
+    "ShowIcon": "stg_AirPlaneGun_10",
+    "UnlockCost": [
+      [
+        41100,
+        1
+      ]
+    ],
+    "Order": 1100,
+    "SkillPreview": 10609011,
+    "ShowModel": "Assets/_Resources/Prefab/UI/PlaneUI/model_plane_9.prefab",
+    "ShowModelForBase": "Assets/_Resources/Prefab/UI/CampPlane/CampPlane9.prefab"
+  }
+]

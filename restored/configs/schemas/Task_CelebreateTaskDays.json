@@ -1,0 +1,45 @@
+{
+  "name": "Task_CelebreateTaskDays",
+  "assembly": "HotFixBattle.dll",
+  "read_impl_rva": "0x6b12164",
+  "fields": [
+    {
+      "type": "int",
+      "name": "ID",
+      "offset": 32,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "CelebrateID",
+      "offset": 36,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "Days",
+      "offset": 40,
+      "reader": "readInt"
+    },
+    {
+      "type": "int[]",
+      "name": "Tasks",
+      "offset": 48,
+      "reader": "readArrayint"
+    },
+    {
+      "type": "int[]",
+      "name": "ShopGoods",
+      "offset": 56,
+      "reader": "readArrayint"
+    }
+  ],
+  "native_reader_calls": [
+    "readInt",
+    "readInt",
+    "readInt",
+    "readArrayint",
+    "readArrayint"
+  ],
+  "field_count_matches_native_calls": true
+}

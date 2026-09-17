@@ -1,0 +1,4349 @@
+[
+  {
+    "ID": 10001,
+    "ShopId": 13,
+    "GroupId": 1,
+    "WeightInGroup": 1,
+    "GoodsId": 51001,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 10002,
+    "ShopId": 13,
+    "GroupId": 1,
+    "WeightInGroup": 1,
+    "GoodsId": 51002,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 10003,
+    "ShopId": 13,
+    "GroupId": 1,
+    "WeightInGroup": 1,
+    "GoodsId": 51003,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 27201,
+    "ShopId": 13,
+    "GroupId": 2,
+    "WeightInGroup": 3,
+    "GoodsId": 52701,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 27202,
+    "ShopId": 13,
+    "GroupId": 2,
+    "WeightInGroup": 3,
+    "GoodsId": 52702,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 27203,
+    "ShopId": 13,
+    "GroupId": 2,
+    "WeightInGroup": 3,
+    "GoodsId": 52703,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 27204,
+    "ShopId": 13,
+    "GroupId": 2,
+    "WeightInGroup": 3,
+    "GoodsId": 52704,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 27205,
+    "ShopId": 13,
+    "GroupId": 2,
+    "WeightInGroup": 3,
+    "GoodsId": 52705,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 27206,
+    "ShopId": 13,
+    "GroupId": 2,
+    "WeightInGroup": 1,
+    "GoodsId": 52706,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 27207,
+    "ShopId": 13,
+    "GroupId": 2,
+    "WeightInGroup": 1,
+    "GoodsId": 52707,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 27208,
+    "ShopId": 13,
+    "GroupId": 2,
+    "WeightInGroup": 1,
+    "GoodsId": 52708,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 27209,
+    "ShopId": 13,
+    "GroupId": 2,
+    "WeightInGroup": 1,
+    "GoodsId": 52709,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 27210,
+    "ShopId": 13,
+    "GroupId": 2,
+    "WeightInGroup": 1,
+    "GoodsId": 52710,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 27211,
+    "ShopId": 13,
+    "GroupId": 2,
+    "WeightInGroup": 1,
+    "GoodsId": 52711,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 27212,
+    "ShopId": 13,
+    "GroupId": 2,
+    "WeightInGroup": 1,
+    "GoodsId": 52712,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 27213,
+    "ShopId": 13,
+    "GroupId": 2,
+    "WeightInGroup": 1,
+    "GoodsId": 52713,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 27214,
+    "ShopId": 13,
+    "GroupId": 2,
+    "WeightInGroup": 1,
+    "GoodsId": 52714,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 27215,
+    "ShopId": 13,
+    "GroupId": 2,
+    "WeightInGroup": 1,
+    "GoodsId": 52715,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 27216,
+    "ShopId": 13,
+    "GroupId": 2,
+    "WeightInGroup": 1,
+    "GoodsId": 52716,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 27217,
+    "ShopId": 13,
+    "GroupId": 2,
+    "WeightInGroup": 6,
+    "GoodsId": 52717,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 27218,
+    "ShopId": 13,
+    "GroupId": 2,
+    "WeightInGroup": 6,
+    "GoodsId": 52718,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 27219,
+    "ShopId": 13,
+    "GroupId": 2,
+    "WeightInGroup": 6,
+    "GoodsId": 52719,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 27220,
+    "ShopId": 13,
+    "GroupId": 2,
+    "WeightInGroup": 6,
+    "GoodsId": 52720,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 27301,
+    "ShopId": 13,
+    "GroupId": 2,
+    "WeightInGroup": 3,
+    "GoodsId": 53701,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 27302,
+    "ShopId": 13,
+    "GroupId": 2,
+    "WeightInGroup": 3,
+    "GoodsId": 53702,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 27303,
+    "ShopId": 13,
+    "GroupId": 2,
+    "WeightInGroup": 3,
+    "GoodsId": 53703,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 27304,
+    "ShopId": 13,
+    "GroupId": 2,
+    "WeightInGroup": 3,
+    "GoodsId": 53704,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 27305,
+    "ShopId": 13,
+    "GroupId": 2,
+    "WeightInGroup": 3,
+    "GoodsId": 53705,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 27306,
+    "ShopId": 13,
+    "GroupId": 2,
+    "WeightInGroup": 1,
+    "GoodsId": 53706,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 27307,
+    "ShopId": 13,
+    "GroupId": 2,
+    "WeightInGroup": 1,
+    "GoodsId": 53707,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 27308,
+    "ShopId": 13,
+    "GroupId": 2,
+    "WeightInGroup": 1,
+    "GoodsId": 53708,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 27309,
+    "ShopId": 13,
+    "GroupId": 2,
+    "WeightInGroup": 1,
+    "GoodsId": 53709,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 27310,
+    "ShopId": 13,
+    "GroupId": 2,
+    "WeightInGroup": 1,
+    "GoodsId": 53710,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 27311,
+    "ShopId": 13,
+    "GroupId": 2,
+    "WeightInGroup": 1,
+    "GoodsId": 53711,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 27312,
+    "ShopId": 13,
+    "GroupId": 2,
+    "WeightInGroup": 1,
+    "GoodsId": 53712,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 27313,
+    "ShopId": 13,
+    "GroupId": 2,
+    "WeightInGroup": 1,
+    "GoodsId": 53713,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 27314,
+    "ShopId": 13,
+    "GroupId": 2,
+    "WeightInGroup": 1,
+    "GoodsId": 53714,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 27315,
+    "ShopId": 13,
+    "GroupId": 2,
+    "WeightInGroup": 1,
+    "GoodsId": 53715,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 27316,
+    "ShopId": 13,
+    "GroupId": 2,
+    "WeightInGroup": 1,
+    "GoodsId": 53716,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 27317,
+    "ShopId": 13,
+    "GroupId": 2,
+    "WeightInGroup": 6,
+    "GoodsId": 53717,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 27318,
+    "ShopId": 13,
+    "GroupId": 2,
+    "WeightInGroup": 6,
+    "GoodsId": 53718,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 27319,
+    "ShopId": 13,
+    "GroupId": 2,
+    "WeightInGroup": 6,
+    "GoodsId": 53719,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 27320,
+    "ShopId": 13,
+    "GroupId": 2,
+    "WeightInGroup": 6,
+    "GoodsId": 53720,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 28201,
+    "ShopId": 13,
+    "GroupId": 2,
+    "WeightInGroup": 3,
+    "GoodsId": 52801,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 28202,
+    "ShopId": 13,
+    "GroupId": 2,
+    "WeightInGroup": 3,
+    "GoodsId": 52802,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 28203,
+    "ShopId": 13,
+    "GroupId": 2,
+    "WeightInGroup": 3,
+    "GoodsId": 52803,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 28204,
+    "ShopId": 13,
+    "GroupId": 2,
+    "WeightInGroup": 3,
+    "GoodsId": 52804,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 28205,
+    "ShopId": 13,
+    "GroupId": 2,
+    "WeightInGroup": 3,
+    "GoodsId": 52805,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 28206,
+    "ShopId": 13,
+    "GroupId": 2,
+    "WeightInGroup": 1,
+    "GoodsId": 52806,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 28207,
+    "ShopId": 13,
+    "GroupId": 2,
+    "WeightInGroup": 1,
+    "GoodsId": 52807,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 28208,
+    "ShopId": 13,
+    "GroupId": 2,
+    "WeightInGroup": 1,
+    "GoodsId": 52808,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 28209,
+    "ShopId": 13,
+    "GroupId": 2,
+    "WeightInGroup": 1,
+    "GoodsId": 52809,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 28210,
+    "ShopId": 13,
+    "GroupId": 2,
+    "WeightInGroup": 1,
+    "GoodsId": 52810,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 28211,
+    "ShopId": 13,
+    "GroupId": 2,
+    "WeightInGroup": 1,
+    "GoodsId": 52811,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 28212,
+    "ShopId": 13,
+    "GroupId": 2,
+    "WeightInGroup": 1,
+    "GoodsId": 52812,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 28213,
+    "ShopId": 13,
+    "GroupId": 2,
+    "WeightInGroup": 1,
+    "GoodsId": 52813,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 28214,
+    "ShopId": 13,
+    "GroupId": 2,
+    "WeightInGroup": 1,
+    "GoodsId": 52814,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 28215,
+    "ShopId": 13,
+    "GroupId": 2,
+    "WeightInGroup": 1,
+    "GoodsId": 52815,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 28216,
+    "ShopId": 13,
+    "GroupId": 2,
+    "WeightInGroup": 1,
+    "GoodsId": 52816,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 28217,
+    "ShopId": 13,
+    "GroupId": 2,
+    "WeightInGroup": 6,
+    "GoodsId": 52817,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 28218,
+    "ShopId": 13,
+    "GroupId": 2,
+    "WeightInGroup": 6,
+    "GoodsId": 52818,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 28219,
+    "ShopId": 13,
+    "GroupId": 2,
+    "WeightInGroup": 6,
+    "GoodsId": 52819,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 28220,
+    "ShopId": 13,
+    "GroupId": 2,
+    "WeightInGroup": 6,
+    "GoodsId": 52820,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 28301,
+    "ShopId": 13,
+    "GroupId": 2,
+    "WeightInGroup": 3,
+    "GoodsId": 53801,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 28302,
+    "ShopId": 13,
+    "GroupId": 2,
+    "WeightInGroup": 3,
+    "GoodsId": 53802,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 28303,
+    "ShopId": 13,
+    "GroupId": 2,
+    "WeightInGroup": 3,
+    "GoodsId": 53803,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 28304,
+    "ShopId": 13,
+    "GroupId": 2,
+    "WeightInGroup": 3,
+    "GoodsId": 53804,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 28305,
+    "ShopId": 13,
+    "GroupId": 2,
+    "WeightInGroup": 3,
+    "GoodsId": 53805,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 28306,
+    "ShopId": 13,
+    "GroupId": 2,
+    "WeightInGroup": 1,
+    "GoodsId": 53806,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 28307,
+    "ShopId": 13,
+    "GroupId": 2,
+    "WeightInGroup": 1,
+    "GoodsId": 53807,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 28308,
+    "ShopId": 13,
+    "GroupId": 2,
+    "WeightInGroup": 1,
+    "GoodsId": 53808,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 28309,
+    "ShopId": 13,
+    "GroupId": 2,
+    "WeightInGroup": 1,
+    "GoodsId": 53809,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 28310,
+    "ShopId": 13,
+    "GroupId": 2,
+    "WeightInGroup": 1,
+    "GoodsId": 53810,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 28311,
+    "ShopId": 13,
+    "GroupId": 2,
+    "WeightInGroup": 1,
+    "GoodsId": 53811,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 28312,
+    "ShopId": 13,
+    "GroupId": 2,
+    "WeightInGroup": 1,
+    "GoodsId": 53812,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 28313,
+    "ShopId": 13,
+    "GroupId": 2,
+    "WeightInGroup": 1,
+    "GoodsId": 53813,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 28314,
+    "ShopId": 13,
+    "GroupId": 2,
+    "WeightInGroup": 1,
+    "GoodsId": 53814,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 28315,
+    "ShopId": 13,
+    "GroupId": 2,
+    "WeightInGroup": 1,
+    "GoodsId": 53815,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 28316,
+    "ShopId": 13,
+    "GroupId": 2,
+    "WeightInGroup": 1,
+    "GoodsId": 53816,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 28317,
+    "ShopId": 13,
+    "GroupId": 2,
+    "WeightInGroup": 6,
+    "GoodsId": 53817,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 28318,
+    "ShopId": 13,
+    "GroupId": 2,
+    "WeightInGroup": 6,
+    "GoodsId": 53818,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 28319,
+    "ShopId": 13,
+    "GroupId": 2,
+    "WeightInGroup": 6,
+    "GoodsId": 53819,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 28320,
+    "ShopId": 13,
+    "GroupId": 2,
+    "WeightInGroup": 6,
+    "GoodsId": 53820,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 29201,
+    "ShopId": 13,
+    "GroupId": 2,
+    "WeightInGroup": 3,
+    "GoodsId": 52901,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 29202,
+    "ShopId": 13,
+    "GroupId": 2,
+    "WeightInGroup": 3,
+    "GoodsId": 52902,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 29203,
+    "ShopId": 13,
+    "GroupId": 2,
+    "WeightInGroup": 3,
+    "GoodsId": 52903,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 29204,
+    "ShopId": 13,
+    "GroupId": 2,
+    "WeightInGroup": 3,
+    "GoodsId": 52904,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 29205,
+    "ShopId": 13,
+    "GroupId": 2,
+    "WeightInGroup": 3,
+    "GoodsId": 52905,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 29206,
+    "ShopId": 13,
+    "GroupId": 2,
+    "WeightInGroup": 1,
+    "GoodsId": 52906,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 29207,
+    "ShopId": 13,
+    "GroupId": 2,
+    "WeightInGroup": 1,
+    "GoodsId": 52907,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 29208,
+    "ShopId": 13,
+    "GroupId": 2,
+    "WeightInGroup": 1,
+    "GoodsId": 52908,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 29209,
+    "ShopId": 13,
+    "GroupId": 2,
+    "WeightInGroup": 1,
+    "GoodsId": 52909,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 29210,
+    "ShopId": 13,
+    "GroupId": 2,
+    "WeightInGroup": 1,
+    "GoodsId": 52910,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 29211,
+    "ShopId": 13,
+    "GroupId": 2,
+    "WeightInGroup": 1,
+    "GoodsId": 52911,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 29212,
+    "ShopId": 13,
+    "GroupId": 2,
+    "WeightInGroup": 1,
+    "GoodsId": 52912,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 29213,
+    "ShopId": 13,
+    "GroupId": 2,
+    "WeightInGroup": 1,
+    "GoodsId": 52913,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 29214,
+    "ShopId": 13,
+    "GroupId": 2,
+    "WeightInGroup": 1,
+    "GoodsId": 52914,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 29215,
+    "ShopId": 13,
+    "GroupId": 2,
+    "WeightInGroup": 1,
+    "GoodsId": 52915,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 29216,
+    "ShopId": 13,
+    "GroupId": 2,
+    "WeightInGroup": 1,
+    "GoodsId": 52916,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 29217,
+    "ShopId": 13,
+    "GroupId": 2,
+    "WeightInGroup": 6,
+    "GoodsId": 52917,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 29218,
+    "ShopId": 13,
+    "GroupId": 2,
+    "WeightInGroup": 6,
+    "GoodsId": 52918,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 29219,
+    "ShopId": 13,
+    "GroupId": 2,
+    "WeightInGroup": 6,
+    "GoodsId": 52919,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 29220,
+    "ShopId": 13,
+    "GroupId": 2,
+    "WeightInGroup": 6,
+    "GoodsId": 52920,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 29301,
+    "ShopId": 13,
+    "GroupId": 2,
+    "WeightInGroup": 3,
+    "GoodsId": 53901,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 29302,
+    "ShopId": 13,
+    "GroupId": 2,
+    "WeightInGroup": 3,
+    "GoodsId": 53902,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 29303,
+    "ShopId": 13,
+    "GroupId": 2,
+    "WeightInGroup": 3,
+    "GoodsId": 53903,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 29304,
+    "ShopId": 13,
+    "GroupId": 2,
+    "WeightInGroup": 3,
+    "GoodsId": 53904,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 29305,
+    "ShopId": 13,
+    "GroupId": 2,
+    "WeightInGroup": 3,
+    "GoodsId": 53905,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 29306,
+    "ShopId": 13,
+    "GroupId": 2,
+    "WeightInGroup": 1,
+    "GoodsId": 53906,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 29307,
+    "ShopId": 13,
+    "GroupId": 2,
+    "WeightInGroup": 1,
+    "GoodsId": 53907,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 29308,
+    "ShopId": 13,
+    "GroupId": 2,
+    "WeightInGroup": 1,
+    "GoodsId": 53908,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 29309,
+    "ShopId": 13,
+    "GroupId": 2,
+    "WeightInGroup": 1,
+    "GoodsId": 53909,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 29310,
+    "ShopId": 13,
+    "GroupId": 2,
+    "WeightInGroup": 1,
+    "GoodsId": 53910,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 29311,
+    "ShopId": 13,
+    "GroupId": 2,
+    "WeightInGroup": 1,
+    "GoodsId": 53911,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 29312,
+    "ShopId": 13,
+    "GroupId": 2,
+    "WeightInGroup": 1,
+    "GoodsId": 53912,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 29313,
+    "ShopId": 13,
+    "GroupId": 2,
+    "WeightInGroup": 1,
+    "GoodsId": 53913,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 29314,
+    "ShopId": 13,
+    "GroupId": 2,
+    "WeightInGroup": 1,
+    "GoodsId": 53914,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 29315,
+    "ShopId": 13,
+    "GroupId": 2,
+    "WeightInGroup": 1,
+    "GoodsId": 53915,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 29316,
+    "ShopId": 13,
+    "GroupId": 2,
+    "WeightInGroup": 1,
+    "GoodsId": 53916,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 29317,
+    "ShopId": 13,
+    "GroupId": 2,
+    "WeightInGroup": 6,
+    "GoodsId": 53917,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 29318,
+    "ShopId": 13,
+    "GroupId": 2,
+    "WeightInGroup": 6,
+    "GoodsId": 53918,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 29319,
+    "ShopId": 13,
+    "GroupId": 2,
+    "WeightInGroup": 6,
+    "GoodsId": 53919,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 29320,
+    "ShopId": 13,
+    "GroupId": 2,
+    "WeightInGroup": 6,
+    "GoodsId": 53920,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 35201,
+    "ShopId": 13,
+    "GroupId": 3,
+    "WeightInGroup": 3,
+    "GoodsId": 52501,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 35202,
+    "ShopId": 13,
+    "GroupId": 3,
+    "WeightInGroup": 3,
+    "GoodsId": 52502,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 35203,
+    "ShopId": 13,
+    "GroupId": 3,
+    "WeightInGroup": 3,
+    "GoodsId": 52503,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 35204,
+    "ShopId": 13,
+    "GroupId": 3,
+    "WeightInGroup": 3,
+    "GoodsId": 52504,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 35205,
+    "ShopId": 13,
+    "GroupId": 3,
+    "WeightInGroup": 3,
+    "GoodsId": 52505,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 35206,
+    "ShopId": 13,
+    "GroupId": 3,
+    "WeightInGroup": 1,
+    "GoodsId": 52506,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 35207,
+    "ShopId": 13,
+    "GroupId": 3,
+    "WeightInGroup": 1,
+    "GoodsId": 52507,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 35208,
+    "ShopId": 13,
+    "GroupId": 3,
+    "WeightInGroup": 1,
+    "GoodsId": 52508,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 35209,
+    "ShopId": 13,
+    "GroupId": 3,
+    "WeightInGroup": 1,
+    "GoodsId": 52509,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 35210,
+    "ShopId": 13,
+    "GroupId": 3,
+    "WeightInGroup": 1,
+    "GoodsId": 52510,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 35211,
+    "ShopId": 13,
+    "GroupId": 3,
+    "WeightInGroup": 1,
+    "GoodsId": 52511,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 35212,
+    "ShopId": 13,
+    "GroupId": 3,
+    "WeightInGroup": 1,
+    "GoodsId": 52512,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 35213,
+    "ShopId": 13,
+    "GroupId": 3,
+    "WeightInGroup": 1,
+    "GoodsId": 52513,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 35214,
+    "ShopId": 13,
+    "GroupId": 3,
+    "WeightInGroup": 1,
+    "GoodsId": 52514,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 35215,
+    "ShopId": 13,
+    "GroupId": 3,
+    "WeightInGroup": 1,
+    "GoodsId": 52515,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 35216,
+    "ShopId": 13,
+    "GroupId": 3,
+    "WeightInGroup": 1,
+    "GoodsId": 52516,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 35217,
+    "ShopId": 13,
+    "GroupId": 3,
+    "WeightInGroup": 6,
+    "GoodsId": 52517,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 35218,
+    "ShopId": 13,
+    "GroupId": 3,
+    "WeightInGroup": 6,
+    "GoodsId": 52518,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 35219,
+    "ShopId": 13,
+    "GroupId": 3,
+    "WeightInGroup": 6,
+    "GoodsId": 52519,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 35220,
+    "ShopId": 13,
+    "GroupId": 3,
+    "WeightInGroup": 6,
+    "GoodsId": 52520,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 35301,
+    "ShopId": 13,
+    "GroupId": 3,
+    "WeightInGroup": 3,
+    "GoodsId": 53501,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 35302,
+    "ShopId": 13,
+    "GroupId": 3,
+    "WeightInGroup": 3,
+    "GoodsId": 53502,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 35303,
+    "ShopId": 13,
+    "GroupId": 3,
+    "WeightInGroup": 3,
+    "GoodsId": 53503,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 35304,
+    "ShopId": 13,
+    "GroupId": 3,
+    "WeightInGroup": 3,
+    "GoodsId": 53504,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 35305,
+    "ShopId": 13,
+    "GroupId": 3,
+    "WeightInGroup": 3,
+    "GoodsId": 53505,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 35306,
+    "ShopId": 13,
+    "GroupId": 3,
+    "WeightInGroup": 1,
+    "GoodsId": 53506,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 35307,
+    "ShopId": 13,
+    "GroupId": 3,
+    "WeightInGroup": 1,
+    "GoodsId": 53507,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 35308,
+    "ShopId": 13,
+    "GroupId": 3,
+    "WeightInGroup": 1,
+    "GoodsId": 53508,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 35309,
+    "ShopId": 13,
+    "GroupId": 3,
+    "WeightInGroup": 1,
+    "GoodsId": 53509,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 35310,
+    "ShopId": 13,
+    "GroupId": 3,
+    "WeightInGroup": 1,
+    "GoodsId": 53510,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 35311,
+    "ShopId": 13,
+    "GroupId": 3,
+    "WeightInGroup": 1,
+    "GoodsId": 53511,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 35312,
+    "ShopId": 13,
+    "GroupId": 3,
+    "WeightInGroup": 1,
+    "GoodsId": 53512,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 35313,
+    "ShopId": 13,
+    "GroupId": 3,
+    "WeightInGroup": 1,
+    "GoodsId": 53513,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 35314,
+    "ShopId": 13,
+    "GroupId": 3,
+    "WeightInGroup": 1,
+    "GoodsId": 53514,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 35315,
+    "ShopId": 13,
+    "GroupId": 3,
+    "WeightInGroup": 1,
+    "GoodsId": 53515,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 35316,
+    "ShopId": 13,
+    "GroupId": 3,
+    "WeightInGroup": 1,
+    "GoodsId": 53516,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 35317,
+    "ShopId": 13,
+    "GroupId": 3,
+    "WeightInGroup": 6,
+    "GoodsId": 53517,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 35318,
+    "ShopId": 13,
+    "GroupId": 3,
+    "WeightInGroup": 6,
+    "GoodsId": 53518,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 35319,
+    "ShopId": 13,
+    "GroupId": 3,
+    "WeightInGroup": 6,
+    "GoodsId": 53519,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 35320,
+    "ShopId": 13,
+    "GroupId": 3,
+    "WeightInGroup": 6,
+    "GoodsId": 53520,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 36201,
+    "ShopId": 13,
+    "GroupId": 3,
+    "WeightInGroup": 3,
+    "GoodsId": 52601,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 36202,
+    "ShopId": 13,
+    "GroupId": 3,
+    "WeightInGroup": 3,
+    "GoodsId": 52602,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 36203,
+    "ShopId": 13,
+    "GroupId": 3,
+    "WeightInGroup": 3,
+    "GoodsId": 52603,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 36204,
+    "ShopId": 13,
+    "GroupId": 3,
+    "WeightInGroup": 3,
+    "GoodsId": 52604,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 36205,
+    "ShopId": 13,
+    "GroupId": 3,
+    "WeightInGroup": 3,
+    "GoodsId": 52605,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 36206,
+    "ShopId": 13,
+    "GroupId": 3,
+    "WeightInGroup": 1,
+    "GoodsId": 52606,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 36207,
+    "ShopId": 13,
+    "GroupId": 3,
+    "WeightInGroup": 1,
+    "GoodsId": 52607,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 36208,
+    "ShopId": 13,
+    "GroupId": 3,
+    "WeightInGroup": 1,
+    "GoodsId": 52608,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 36209,
+    "ShopId": 13,
+    "GroupId": 3,
+    "WeightInGroup": 1,
+    "GoodsId": 52609,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 36210,
+    "ShopId": 13,
+    "GroupId": 3,
+    "WeightInGroup": 1,
+    "GoodsId": 52610,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 36211,
+    "ShopId": 13,
+    "GroupId": 3,
+    "WeightInGroup": 1,
+    "GoodsId": 52611,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 36212,
+    "ShopId": 13,
+    "GroupId": 3,
+    "WeightInGroup": 1,
+    "GoodsId": 52612,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 36213,
+    "ShopId": 13,
+    "GroupId": 3,
+    "WeightInGroup": 1,
+    "GoodsId": 52613,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 36214,
+    "ShopId": 13,
+    "GroupId": 3,
+    "WeightInGroup": 1,
+    "GoodsId": 52614,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 36215,
+    "ShopId": 13,
+    "GroupId": 3,
+    "WeightInGroup": 1,
+    "GoodsId": 52615,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 36216,
+    "ShopId": 13,
+    "GroupId": 3,
+    "WeightInGroup": 1,
+    "GoodsId": 52616,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 36217,
+    "ShopId": 13,
+    "GroupId": 3,
+    "WeightInGroup": 6,
+    "GoodsId": 52617,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 36218,
+    "ShopId": 13,
+    "GroupId": 3,
+    "WeightInGroup": 6,
+    "GoodsId": 52618,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 36219,
+    "ShopId": 13,
+    "GroupId": 3,
+    "WeightInGroup": 6,
+    "GoodsId": 52619,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 36220,
+    "ShopId": 13,
+    "GroupId": 3,
+    "WeightInGroup": 6,
+    "GoodsId": 52620,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 36301,
+    "ShopId": 13,
+    "GroupId": 3,
+    "WeightInGroup": 3,
+    "GoodsId": 53601,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 36302,
+    "ShopId": 13,
+    "GroupId": 3,
+    "WeightInGroup": 3,
+    "GoodsId": 53602,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 36303,
+    "ShopId": 13,
+    "GroupId": 3,
+    "WeightInGroup": 3,
+    "GoodsId": 53603,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 36304,
+    "ShopId": 13,
+    "GroupId": 3,
+    "WeightInGroup": 3,
+    "GoodsId": 53604,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 36305,
+    "ShopId": 13,
+    "GroupId": 3,
+    "WeightInGroup": 3,
+    "GoodsId": 53605,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 36306,
+    "ShopId": 13,
+    "GroupId": 3,
+    "WeightInGroup": 1,
+    "GoodsId": 53606,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 36307,
+    "ShopId": 13,
+    "GroupId": 3,
+    "WeightInGroup": 1,
+    "GoodsId": 53607,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 36308,
+    "ShopId": 13,
+    "GroupId": 3,
+    "WeightInGroup": 1,
+    "GoodsId": 53608,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 36309,
+    "ShopId": 13,
+    "GroupId": 3,
+    "WeightInGroup": 1,
+    "GoodsId": 53609,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 36310,
+    "ShopId": 13,
+    "GroupId": 3,
+    "WeightInGroup": 1,
+    "GoodsId": 53610,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 36311,
+    "ShopId": 13,
+    "GroupId": 3,
+    "WeightInGroup": 1,
+    "GoodsId": 53611,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 36312,
+    "ShopId": 13,
+    "GroupId": 3,
+    "WeightInGroup": 1,
+    "GoodsId": 53612,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 36313,
+    "ShopId": 13,
+    "GroupId": 3,
+    "WeightInGroup": 1,
+    "GoodsId": 53613,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 36314,
+    "ShopId": 13,
+    "GroupId": 3,
+    "WeightInGroup": 1,
+    "GoodsId": 53614,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 36315,
+    "ShopId": 13,
+    "GroupId": 3,
+    "WeightInGroup": 1,
+    "GoodsId": 53615,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 36316,
+    "ShopId": 13,
+    "GroupId": 3,
+    "WeightInGroup": 1,
+    "GoodsId": 53616,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 36317,
+    "ShopId": 13,
+    "GroupId": 3,
+    "WeightInGroup": 6,
+    "GoodsId": 53617,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 36318,
+    "ShopId": 13,
+    "GroupId": 3,
+    "WeightInGroup": 6,
+    "GoodsId": 53618,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 36319,
+    "ShopId": 13,
+    "GroupId": 3,
+    "WeightInGroup": 6,
+    "GoodsId": 53619,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 36320,
+    "ShopId": 13,
+    "GroupId": 3,
+    "WeightInGroup": 6,
+    "GoodsId": 53620,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 37201,
+    "ShopId": 13,
+    "GroupId": 3,
+    "WeightInGroup": 3,
+    "GoodsId": 52701,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 37202,
+    "ShopId": 13,
+    "GroupId": 3,
+    "WeightInGroup": 3,
+    "GoodsId": 52702,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 37203,
+    "ShopId": 13,
+    "GroupId": 3,
+    "WeightInGroup": 3,
+    "GoodsId": 52703,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 37204,
+    "ShopId": 13,
+    "GroupId": 3,
+    "WeightInGroup": 3,
+    "GoodsId": 52704,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 37205,
+    "ShopId": 13,
+    "GroupId": 3,
+    "WeightInGroup": 3,
+    "GoodsId": 52705,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 37206,
+    "ShopId": 13,
+    "GroupId": 3,
+    "WeightInGroup": 1,
+    "GoodsId": 52706,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 37207,
+    "ShopId": 13,
+    "GroupId": 3,
+    "WeightInGroup": 1,
+    "GoodsId": 52707,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 37208,
+    "ShopId": 13,
+    "GroupId": 3,
+    "WeightInGroup": 1,
+    "GoodsId": 52708,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 37209,
+    "ShopId": 13,
+    "GroupId": 3,
+    "WeightInGroup": 1,
+    "GoodsId": 52709,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 37210,
+    "ShopId": 13,
+    "GroupId": 3,
+    "WeightInGroup": 1,
+    "GoodsId": 52710,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 37211,
+    "ShopId": 13,
+    "GroupId": 3,
+    "WeightInGroup": 1,
+    "GoodsId": 52711,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 37212,
+    "ShopId": 13,
+    "GroupId": 3,
+    "WeightInGroup": 1,
+    "GoodsId": 52712,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 37213,
+    "ShopId": 13,
+    "GroupId": 3,
+    "WeightInGroup": 1,
+    "GoodsId": 52713,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 37214,
+    "ShopId": 13,
+    "GroupId": 3,
+    "WeightInGroup": 1,
+    "GoodsId": 52714,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 37215,
+    "ShopId": 13,
+    "GroupId": 3,
+    "WeightInGroup": 1,
+    "GoodsId": 52715,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 37216,
+    "ShopId": 13,
+    "GroupId": 3,
+    "WeightInGroup": 1,
+    "GoodsId": 52716,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 37217,
+    "ShopId": 13,
+    "GroupId": 3,
+    "WeightInGroup": 6,
+    "GoodsId": 52717,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 37218,
+    "ShopId": 13,
+    "GroupId": 3,
+    "WeightInGroup": 6,
+    "GoodsId": 52718,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 37219,
+    "ShopId": 13,
+    "GroupId": 3,
+    "WeightInGroup": 6,
+    "GoodsId": 52719,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 37220,
+    "ShopId": 13,
+    "GroupId": 3,
+    "WeightInGroup": 6,
+    "GoodsId": 52720,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 37301,
+    "ShopId": 13,
+    "GroupId": 3,
+    "WeightInGroup": 3,
+    "GoodsId": 53701,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 37302,
+    "ShopId": 13,
+    "GroupId": 3,
+    "WeightInGroup": 3,
+    "GoodsId": 53702,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 37303,
+    "ShopId": 13,
+    "GroupId": 3,
+    "WeightInGroup": 3,
+    "GoodsId": 53703,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 37304,
+    "ShopId": 13,
+    "GroupId": 3,
+    "WeightInGroup": 3,
+    "GoodsId": 53704,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 37305,
+    "ShopId": 13,
+    "GroupId": 3,
+    "WeightInGroup": 3,
+    "GoodsId": 53705,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 37306,
+    "ShopId": 13,
+    "GroupId": 3,
+    "WeightInGroup": 1,
+    "GoodsId": 53706,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 37307,
+    "ShopId": 13,
+    "GroupId": 3,
+    "WeightInGroup": 1,
+    "GoodsId": 53707,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 37308,
+    "ShopId": 13,
+    "GroupId": 3,
+    "WeightInGroup": 1,
+    "GoodsId": 53708,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 37309,
+    "ShopId": 13,
+    "GroupId": 3,
+    "WeightInGroup": 1,
+    "GoodsId": 53709,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 37310,
+    "ShopId": 13,
+    "GroupId": 3,
+    "WeightInGroup": 1,
+    "GoodsId": 53710,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 37311,
+    "ShopId": 13,
+    "GroupId": 3,
+    "WeightInGroup": 1,
+    "GoodsId": 53711,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 37312,
+    "ShopId": 13,
+    "GroupId": 3,
+    "WeightInGroup": 1,
+    "GoodsId": 53712,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 37313,
+    "ShopId": 13,
+    "GroupId": 3,
+    "WeightInGroup": 1,
+    "GoodsId": 53713,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 37314,
+    "ShopId": 13,
+    "GroupId": 3,
+    "WeightInGroup": 1,
+    "GoodsId": 53714,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 37315,
+    "ShopId": 13,
+    "GroupId": 3,
+    "WeightInGroup": 1,
+    "GoodsId": 53715,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 37316,
+    "ShopId": 13,
+    "GroupId": 3,
+    "WeightInGroup": 1,
+    "GoodsId": 53716,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 37317,
+    "ShopId": 13,
+    "GroupId": 3,
+    "WeightInGroup": 6,
+    "GoodsId": 53717,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 37318,
+    "ShopId": 13,
+    "GroupId": 3,
+    "WeightInGroup": 6,
+    "GoodsId": 53718,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 37319,
+    "ShopId": 13,
+    "GroupId": 3,
+    "WeightInGroup": 6,
+    "GoodsId": 53719,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 37320,
+    "ShopId": 13,
+    "GroupId": 3,
+    "WeightInGroup": 6,
+    "GoodsId": 53720,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 38201,
+    "ShopId": 13,
+    "GroupId": 3,
+    "WeightInGroup": 3,
+    "GoodsId": 52801,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 38202,
+    "ShopId": 13,
+    "GroupId": 3,
+    "WeightInGroup": 3,
+    "GoodsId": 52802,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 38203,
+    "ShopId": 13,
+    "GroupId": 3,
+    "WeightInGroup": 3,
+    "GoodsId": 52803,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 38204,
+    "ShopId": 13,
+    "GroupId": 3,
+    "WeightInGroup": 3,
+    "GoodsId": 52804,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 38205,
+    "ShopId": 13,
+    "GroupId": 3,
+    "WeightInGroup": 3,
+    "GoodsId": 52805,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 38206,
+    "ShopId": 13,
+    "GroupId": 3,
+    "WeightInGroup": 1,
+    "GoodsId": 52806,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 38207,
+    "ShopId": 13,
+    "GroupId": 3,
+    "WeightInGroup": 1,
+    "GoodsId": 52807,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 38208,
+    "ShopId": 13,
+    "GroupId": 3,
+    "WeightInGroup": 1,
+    "GoodsId": 52808,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 38209,
+    "ShopId": 13,
+    "GroupId": 3,
+    "WeightInGroup": 1,
+    "GoodsId": 52809,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 38210,
+    "ShopId": 13,
+    "GroupId": 3,
+    "WeightInGroup": 1,
+    "GoodsId": 52810,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 38211,
+    "ShopId": 13,
+    "GroupId": 3,
+    "WeightInGroup": 1,
+    "GoodsId": 52811,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 38212,
+    "ShopId": 13,
+    "GroupId": 3,
+    "WeightInGroup": 1,
+    "GoodsId": 52812,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 38213,
+    "ShopId": 13,
+    "GroupId": 3,
+    "WeightInGroup": 1,
+    "GoodsId": 52813,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 38214,
+    "ShopId": 13,
+    "GroupId": 3,
+    "WeightInGroup": 1,
+    "GoodsId": 52814,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 38215,
+    "ShopId": 13,
+    "GroupId": 3,
+    "WeightInGroup": 1,
+    "GoodsId": 52815,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 38216,
+    "ShopId": 13,
+    "GroupId": 3,
+    "WeightInGroup": 1,
+    "GoodsId": 52816,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 38217,
+    "ShopId": 13,
+    "GroupId": 3,
+    "WeightInGroup": 6,
+    "GoodsId": 52817,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 38218,
+    "ShopId": 13,
+    "GroupId": 3,
+    "WeightInGroup": 6,
+    "GoodsId": 52818,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 38219,
+    "ShopId": 13,
+    "GroupId": 3,
+    "WeightInGroup": 6,
+    "GoodsId": 52819,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 38220,
+    "ShopId": 13,
+    "GroupId": 3,
+    "WeightInGroup": 6,
+    "GoodsId": 52820,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 38301,
+    "ShopId": 13,
+    "GroupId": 3,
+    "WeightInGroup": 3,
+    "GoodsId": 53801,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 38302,
+    "ShopId": 13,
+    "GroupId": 3,
+    "WeightInGroup": 3,
+    "GoodsId": 53802,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 38303,
+    "ShopId": 13,
+    "GroupId": 3,
+    "WeightInGroup": 3,
+    "GoodsId": 53803,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 38304,
+    "ShopId": 13,
+    "GroupId": 3,
+    "WeightInGroup": 3,
+    "GoodsId": 53804,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 38305,
+    "ShopId": 13,
+    "GroupId": 3,
+    "WeightInGroup": 3,
+    "GoodsId": 53805,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 38306,
+    "ShopId": 13,
+    "GroupId": 3,
+    "WeightInGroup": 1,
+    "GoodsId": 53806,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 38307,
+    "ShopId": 13,
+    "GroupId": 3,
+    "WeightInGroup": 1,
+    "GoodsId": 53807,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 38308,
+    "ShopId": 13,
+    "GroupId": 3,
+    "WeightInGroup": 1,
+    "GoodsId": 53808,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 38309,
+    "ShopId": 13,
+    "GroupId": 3,
+    "WeightInGroup": 1,
+    "GoodsId": 53809,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 38310,
+    "ShopId": 13,
+    "GroupId": 3,
+    "WeightInGroup": 1,
+    "GoodsId": 53810,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 38311,
+    "ShopId": 13,
+    "GroupId": 3,
+    "WeightInGroup": 1,
+    "GoodsId": 53811,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 38312,
+    "ShopId": 13,
+    "GroupId": 3,
+    "WeightInGroup": 1,
+    "GoodsId": 53812,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 38313,
+    "ShopId": 13,
+    "GroupId": 3,
+    "WeightInGroup": 1,
+    "GoodsId": 53813,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 38314,
+    "ShopId": 13,
+    "GroupId": 3,
+    "WeightInGroup": 1,
+    "GoodsId": 53814,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 38315,
+    "ShopId": 13,
+    "GroupId": 3,
+    "WeightInGroup": 1,
+    "GoodsId": 53815,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 38316,
+    "ShopId": 13,
+    "GroupId": 3,
+    "WeightInGroup": 1,
+    "GoodsId": 53816,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 38317,
+    "ShopId": 13,
+    "GroupId": 3,
+    "WeightInGroup": 6,
+    "GoodsId": 53817,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 38318,
+    "ShopId": 13,
+    "GroupId": 3,
+    "WeightInGroup": 6,
+    "GoodsId": 53818,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 38319,
+    "ShopId": 13,
+    "GroupId": 3,
+    "WeightInGroup": 6,
+    "GoodsId": 53819,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 38320,
+    "ShopId": 13,
+    "GroupId": 3,
+    "WeightInGroup": 6,
+    "GoodsId": 53820,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 43201,
+    "ShopId": 13,
+    "GroupId": 4,
+    "WeightInGroup": 3,
+    "GoodsId": 52301,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 43202,
+    "ShopId": 13,
+    "GroupId": 4,
+    "WeightInGroup": 3,
+    "GoodsId": 52302,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 43203,
+    "ShopId": 13,
+    "GroupId": 4,
+    "WeightInGroup": 3,
+    "GoodsId": 52303,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 43204,
+    "ShopId": 13,
+    "GroupId": 4,
+    "WeightInGroup": 3,
+    "GoodsId": 52304,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 43205,
+    "ShopId": 13,
+    "GroupId": 4,
+    "WeightInGroup": 3,
+    "GoodsId": 52305,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 43206,
+    "ShopId": 13,
+    "GroupId": 4,
+    "WeightInGroup": 1,
+    "GoodsId": 52306,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 43207,
+    "ShopId": 13,
+    "GroupId": 4,
+    "WeightInGroup": 1,
+    "GoodsId": 52307,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 43208,
+    "ShopId": 13,
+    "GroupId": 4,
+    "WeightInGroup": 1,
+    "GoodsId": 52308,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 43209,
+    "ShopId": 13,
+    "GroupId": 4,
+    "WeightInGroup": 1,
+    "GoodsId": 52309,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 43210,
+    "ShopId": 13,
+    "GroupId": 4,
+    "WeightInGroup": 1,
+    "GoodsId": 52310,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 43211,
+    "ShopId": 13,
+    "GroupId": 4,
+    "WeightInGroup": 1,
+    "GoodsId": 52311,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 43212,
+    "ShopId": 13,
+    "GroupId": 4,
+    "WeightInGroup": 1,
+    "GoodsId": 52312,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 43213,
+    "ShopId": 13,
+    "GroupId": 4,
+    "WeightInGroup": 1,
+    "GoodsId": 52313,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 43214,
+    "ShopId": 13,
+    "GroupId": 4,
+    "WeightInGroup": 1,
+    "GoodsId": 52314,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 43215,
+    "ShopId": 13,
+    "GroupId": 4,
+    "WeightInGroup": 1,
+    "GoodsId": 52315,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 43216,
+    "ShopId": 13,
+    "GroupId": 4,
+    "WeightInGroup": 1,
+    "GoodsId": 52316,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 43217,
+    "ShopId": 13,
+    "GroupId": 4,
+    "WeightInGroup": 6,
+    "GoodsId": 52317,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 43218,
+    "ShopId": 13,
+    "GroupId": 4,
+    "WeightInGroup": 6,
+    "GoodsId": 52318,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 43219,
+    "ShopId": 13,
+    "GroupId": 4,
+    "WeightInGroup": 6,
+    "GoodsId": 52319,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 43220,
+    "ShopId": 13,
+    "GroupId": 4,
+    "WeightInGroup": 6,
+    "GoodsId": 52320,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 43301,
+    "ShopId": 13,
+    "GroupId": 4,
+    "WeightInGroup": 3,
+    "GoodsId": 53301,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 43302,
+    "ShopId": 13,
+    "GroupId": 4,
+    "WeightInGroup": 3,
+    "GoodsId": 53302,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 43303,
+    "ShopId": 13,
+    "GroupId": 4,
+    "WeightInGroup": 3,
+    "GoodsId": 53303,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 43304,
+    "ShopId": 13,
+    "GroupId": 4,
+    "WeightInGroup": 3,
+    "GoodsId": 53304,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 43305,
+    "ShopId": 13,
+    "GroupId": 4,
+    "WeightInGroup": 3,
+    "GoodsId": 53305,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 43306,
+    "ShopId": 13,
+    "GroupId": 4,
+    "WeightInGroup": 1,
+    "GoodsId": 53306,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 43307,
+    "ShopId": 13,
+    "GroupId": 4,
+    "WeightInGroup": 1,
+    "GoodsId": 53307,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 43308,
+    "ShopId": 13,
+    "GroupId": 4,
+    "WeightInGroup": 1,
+    "GoodsId": 53308,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 43309,
+    "ShopId": 13,
+    "GroupId": 4,
+    "WeightInGroup": 1,
+    "GoodsId": 53309,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 43310,
+    "ShopId": 13,
+    "GroupId": 4,
+    "WeightInGroup": 1,
+    "GoodsId": 53310,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 43311,
+    "ShopId": 13,
+    "GroupId": 4,
+    "WeightInGroup": 1,
+    "GoodsId": 53311,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 43312,
+    "ShopId": 13,
+    "GroupId": 4,
+    "WeightInGroup": 1,
+    "GoodsId": 53312,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 43313,
+    "ShopId": 13,
+    "GroupId": 4,
+    "WeightInGroup": 1,
+    "GoodsId": 53313,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 43314,
+    "ShopId": 13,
+    "GroupId": 4,
+    "WeightInGroup": 1,
+    "GoodsId": 53314,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 43315,
+    "ShopId": 13,
+    "GroupId": 4,
+    "WeightInGroup": 1,
+    "GoodsId": 53315,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 43316,
+    "ShopId": 13,
+    "GroupId": 4,
+    "WeightInGroup": 1,
+    "GoodsId": 53316,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 43317,
+    "ShopId": 13,
+    "GroupId": 4,
+    "WeightInGroup": 6,
+    "GoodsId": 53317,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 43318,
+    "ShopId": 13,
+    "GroupId": 4,
+    "WeightInGroup": 6,
+    "GoodsId": 53318,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 43319,
+    "ShopId": 13,
+    "GroupId": 4,
+    "WeightInGroup": 6,
+    "GoodsId": 53319,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 43320,
+    "ShopId": 13,
+    "GroupId": 4,
+    "WeightInGroup": 6,
+    "GoodsId": 53320,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 44201,
+    "ShopId": 13,
+    "GroupId": 4,
+    "WeightInGroup": 3,
+    "GoodsId": 52401,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 44202,
+    "ShopId": 13,
+    "GroupId": 4,
+    "WeightInGroup": 3,
+    "GoodsId": 52402,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 44203,
+    "ShopId": 13,
+    "GroupId": 4,
+    "WeightInGroup": 3,
+    "GoodsId": 52403,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 44204,
+    "ShopId": 13,
+    "GroupId": 4,
+    "WeightInGroup": 3,
+    "GoodsId": 52404,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 44205,
+    "ShopId": 13,
+    "GroupId": 4,
+    "WeightInGroup": 3,
+    "GoodsId": 52405,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 44206,
+    "ShopId": 13,
+    "GroupId": 4,
+    "WeightInGroup": 1,
+    "GoodsId": 52406,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 44207,
+    "ShopId": 13,
+    "GroupId": 4,
+    "WeightInGroup": 1,
+    "GoodsId": 52407,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 44208,
+    "ShopId": 13,
+    "GroupId": 4,
+    "WeightInGroup": 1,
+    "GoodsId": 52408,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 44209,
+    "ShopId": 13,
+    "GroupId": 4,
+    "WeightInGroup": 1,
+    "GoodsId": 52409,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 44210,
+    "ShopId": 13,
+    "GroupId": 4,
+    "WeightInGroup": 1,
+    "GoodsId": 52410,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 44211,
+    "ShopId": 13,
+    "GroupId": 4,
+    "WeightInGroup": 1,
+    "GoodsId": 52411,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 44212,
+    "ShopId": 13,
+    "GroupId": 4,
+    "WeightInGroup": 1,
+    "GoodsId": 52412,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 44213,
+    "ShopId": 13,
+    "GroupId": 4,
+    "WeightInGroup": 1,
+    "GoodsId": 52413,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 44214,
+    "ShopId": 13,
+    "GroupId": 4,
+    "WeightInGroup": 1,
+    "GoodsId": 52414,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 44215,
+    "ShopId": 13,
+    "GroupId": 4,
+    "WeightInGroup": 1,
+    "GoodsId": 52415,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 44216,
+    "ShopId": 13,
+    "GroupId": 4,
+    "WeightInGroup": 1,
+    "GoodsId": 52416,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 44217,
+    "ShopId": 13,
+    "GroupId": 4,
+    "WeightInGroup": 6,
+    "GoodsId": 52417,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 44218,
+    "ShopId": 13,
+    "GroupId": 4,
+    "WeightInGroup": 6,
+    "GoodsId": 52418,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 44219,
+    "ShopId": 13,
+    "GroupId": 4,
+    "WeightInGroup": 6,
+    "GoodsId": 52419,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 44220,
+    "ShopId": 13,
+    "GroupId": 4,
+    "WeightInGroup": 6,
+    "GoodsId": 52420,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 44301,
+    "ShopId": 13,
+    "GroupId": 4,
+    "WeightInGroup": 3,
+    "GoodsId": 53401,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 44302,
+    "ShopId": 13,
+    "GroupId": 4,
+    "WeightInGroup": 3,
+    "GoodsId": 53402,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 44303,
+    "ShopId": 13,
+    "GroupId": 4,
+    "WeightInGroup": 3,
+    "GoodsId": 53403,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 44304,
+    "ShopId": 13,
+    "GroupId": 4,
+    "WeightInGroup": 3,
+    "GoodsId": 53404,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 44305,
+    "ShopId": 13,
+    "GroupId": 4,
+    "WeightInGroup": 3,
+    "GoodsId": 53405,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 44306,
+    "ShopId": 13,
+    "GroupId": 4,
+    "WeightInGroup": 1,
+    "GoodsId": 53406,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 44307,
+    "ShopId": 13,
+    "GroupId": 4,
+    "WeightInGroup": 1,
+    "GoodsId": 53407,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 44308,
+    "ShopId": 13,
+    "GroupId": 4,
+    "WeightInGroup": 1,
+    "GoodsId": 53408,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 44309,
+    "ShopId": 13,
+    "GroupId": 4,
+    "WeightInGroup": 1,
+    "GoodsId": 53409,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 44310,
+    "ShopId": 13,
+    "GroupId": 4,
+    "WeightInGroup": 1,
+    "GoodsId": 53410,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 44311,
+    "ShopId": 13,
+    "GroupId": 4,
+    "WeightInGroup": 1,
+    "GoodsId": 53411,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 44312,
+    "ShopId": 13,
+    "GroupId": 4,
+    "WeightInGroup": 1,
+    "GoodsId": 53412,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 44313,
+    "ShopId": 13,
+    "GroupId": 4,
+    "WeightInGroup": 1,
+    "GoodsId": 53413,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 44314,
+    "ShopId": 13,
+    "GroupId": 4,
+    "WeightInGroup": 1,
+    "GoodsId": 53414,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 44315,
+    "ShopId": 13,
+    "GroupId": 4,
+    "WeightInGroup": 1,
+    "GoodsId": 53415,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 44316,
+    "ShopId": 13,
+    "GroupId": 4,
+    "WeightInGroup": 1,
+    "GoodsId": 53416,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 44317,
+    "ShopId": 13,
+    "GroupId": 4,
+    "WeightInGroup": 6,
+    "GoodsId": 53417,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 44318,
+    "ShopId": 13,
+    "GroupId": 4,
+    "WeightInGroup": 6,
+    "GoodsId": 53418,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 44319,
+    "ShopId": 13,
+    "GroupId": 4,
+    "WeightInGroup": 6,
+    "GoodsId": 53419,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 44320,
+    "ShopId": 13,
+    "GroupId": 4,
+    "WeightInGroup": 6,
+    "GoodsId": 53420,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 45201,
+    "ShopId": 13,
+    "GroupId": 4,
+    "WeightInGroup": 3,
+    "GoodsId": 52501,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 45202,
+    "ShopId": 13,
+    "GroupId": 4,
+    "WeightInGroup": 3,
+    "GoodsId": 52502,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 45203,
+    "ShopId": 13,
+    "GroupId": 4,
+    "WeightInGroup": 3,
+    "GoodsId": 52503,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 45204,
+    "ShopId": 13,
+    "GroupId": 4,
+    "WeightInGroup": 3,
+    "GoodsId": 52504,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 45205,
+    "ShopId": 13,
+    "GroupId": 4,
+    "WeightInGroup": 3,
+    "GoodsId": 52505,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 45206,
+    "ShopId": 13,
+    "GroupId": 4,
+    "WeightInGroup": 1,
+    "GoodsId": 52506,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 45207,
+    "ShopId": 13,
+    "GroupId": 4,
+    "WeightInGroup": 1,
+    "GoodsId": 52507,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 45208,
+    "ShopId": 13,
+    "GroupId": 4,
+    "WeightInGroup": 1,
+    "GoodsId": 52508,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 45209,
+    "ShopId": 13,
+    "GroupId": 4,
+    "WeightInGroup": 1,
+    "GoodsId": 52509,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 45210,
+    "ShopId": 13,
+    "GroupId": 4,
+    "WeightInGroup": 1,
+    "GoodsId": 52510,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 45211,
+    "ShopId": 13,
+    "GroupId": 4,
+    "WeightInGroup": 1,
+    "GoodsId": 52511,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 45212,
+    "ShopId": 13,
+    "GroupId": 4,
+    "WeightInGroup": 1,
+    "GoodsId": 52512,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 45213,
+    "ShopId": 13,
+    "GroupId": 4,
+    "WeightInGroup": 1,
+    "GoodsId": 52513,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 45214,
+    "ShopId": 13,
+    "GroupId": 4,
+    "WeightInGroup": 1,
+    "GoodsId": 52514,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 45215,
+    "ShopId": 13,
+    "GroupId": 4,
+    "WeightInGroup": 1,
+    "GoodsId": 52515,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 45216,
+    "ShopId": 13,
+    "GroupId": 4,
+    "WeightInGroup": 1,
+    "GoodsId": 52516,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 45217,
+    "ShopId": 13,
+    "GroupId": 4,
+    "WeightInGroup": 6,
+    "GoodsId": 52517,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 45218,
+    "ShopId": 13,
+    "GroupId": 4,
+    "WeightInGroup": 6,
+    "GoodsId": 52518,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 45219,
+    "ShopId": 13,
+    "GroupId": 4,
+    "WeightInGroup": 6,
+    "GoodsId": 52519,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 45220,
+    "ShopId": 13,
+    "GroupId": 4,
+    "WeightInGroup": 6,
+    "GoodsId": 52520,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 45301,
+    "ShopId": 13,
+    "GroupId": 4,
+    "WeightInGroup": 3,
+    "GoodsId": 53501,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 45302,
+    "ShopId": 13,
+    "GroupId": 4,
+    "WeightInGroup": 3,
+    "GoodsId": 53502,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 45303,
+    "ShopId": 13,
+    "GroupId": 4,
+    "WeightInGroup": 3,
+    "GoodsId": 53503,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 45304,
+    "ShopId": 13,
+    "GroupId": 4,
+    "WeightInGroup": 3,
+    "GoodsId": 53504,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 45305,
+    "ShopId": 13,
+    "GroupId": 4,
+    "WeightInGroup": 3,
+    "GoodsId": 53505,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 45306,
+    "ShopId": 13,
+    "GroupId": 4,
+    "WeightInGroup": 1,
+    "GoodsId": 53506,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 45307,
+    "ShopId": 13,
+    "GroupId": 4,
+    "WeightInGroup": 1,
+    "GoodsId": 53507,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 45308,
+    "ShopId": 13,
+    "GroupId": 4,
+    "WeightInGroup": 1,
+    "GoodsId": 53508,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 45309,
+    "ShopId": 13,
+    "GroupId": 4,
+    "WeightInGroup": 1,
+    "GoodsId": 53509,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 45310,
+    "ShopId": 13,
+    "GroupId": 4,
+    "WeightInGroup": 1,
+    "GoodsId": 53510,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 45311,
+    "ShopId": 13,
+    "GroupId": 4,
+    "WeightInGroup": 1,
+    "GoodsId": 53511,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 45312,
+    "ShopId": 13,
+    "GroupId": 4,
+    "WeightInGroup": 1,
+    "GoodsId": 53512,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 45313,
+    "ShopId": 13,
+    "GroupId": 4,
+    "WeightInGroup": 1,
+    "GoodsId": 53513,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 45314,
+    "ShopId": 13,
+    "GroupId": 4,
+    "WeightInGroup": 1,
+    "GoodsId": 53514,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 45315,
+    "ShopId": 13,
+    "GroupId": 4,
+    "WeightInGroup": 1,
+    "GoodsId": 53515,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 45316,
+    "ShopId": 13,
+    "GroupId": 4,
+    "WeightInGroup": 1,
+    "GoodsId": 53516,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 45317,
+    "ShopId": 13,
+    "GroupId": 4,
+    "WeightInGroup": 6,
+    "GoodsId": 53517,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 45318,
+    "ShopId": 13,
+    "GroupId": 4,
+    "WeightInGroup": 6,
+    "GoodsId": 53518,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 45319,
+    "ShopId": 13,
+    "GroupId": 4,
+    "WeightInGroup": 6,
+    "GoodsId": 53519,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 45320,
+    "ShopId": 13,
+    "GroupId": 4,
+    "WeightInGroup": 6,
+    "GoodsId": 53520,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 46201,
+    "ShopId": 13,
+    "GroupId": 4,
+    "WeightInGroup": 3,
+    "GoodsId": 52601,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 46202,
+    "ShopId": 13,
+    "GroupId": 4,
+    "WeightInGroup": 3,
+    "GoodsId": 52602,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 46203,
+    "ShopId": 13,
+    "GroupId": 4,
+    "WeightInGroup": 3,
+    "GoodsId": 52603,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 46204,
+    "ShopId": 13,
+    "GroupId": 4,
+    "WeightInGroup": 3,
+    "GoodsId": 52604,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 46205,
+    "ShopId": 13,
+    "GroupId": 4,
+    "WeightInGroup": 3,
+    "GoodsId": 52605,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 46206,
+    "ShopId": 13,
+    "GroupId": 4,
+    "WeightInGroup": 1,
+    "GoodsId": 52606,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 46207,
+    "ShopId": 13,
+    "GroupId": 4,
+    "WeightInGroup": 1,
+    "GoodsId": 52607,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 46208,
+    "ShopId": 13,
+    "GroupId": 4,
+    "WeightInGroup": 1,
+    "GoodsId": 52608,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 46209,
+    "ShopId": 13,
+    "GroupId": 4,
+    "WeightInGroup": 1,
+    "GoodsId": 52609,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 46210,
+    "ShopId": 13,
+    "GroupId": 4,
+    "WeightInGroup": 1,
+    "GoodsId": 52610,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 46211,
+    "ShopId": 13,
+    "GroupId": 4,
+    "WeightInGroup": 1,
+    "GoodsId": 52611,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 46212,
+    "ShopId": 13,
+    "GroupId": 4,
+    "WeightInGroup": 1,
+    "GoodsId": 52612,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 46213,
+    "ShopId": 13,
+    "GroupId": 4,
+    "WeightInGroup": 1,
+    "GoodsId": 52613,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 46214,
+    "ShopId": 13,
+    "GroupId": 4,
+    "WeightInGroup": 1,
+    "GoodsId": 52614,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 46215,
+    "ShopId": 13,
+    "GroupId": 4,
+    "WeightInGroup": 1,
+    "GoodsId": 52615,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 46216,
+    "ShopId": 13,
+    "GroupId": 4,
+    "WeightInGroup": 1,
+    "GoodsId": 52616,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 46217,
+    "ShopId": 13,
+    "GroupId": 4,
+    "WeightInGroup": 6,
+    "GoodsId": 52617,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 46218,
+    "ShopId": 13,
+    "GroupId": 4,
+    "WeightInGroup": 6,
+    "GoodsId": 52618,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 46219,
+    "ShopId": 13,
+    "GroupId": 4,
+    "WeightInGroup": 6,
+    "GoodsId": 52619,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 46220,
+    "ShopId": 13,
+    "GroupId": 4,
+    "WeightInGroup": 6,
+    "GoodsId": 52620,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 46301,
+    "ShopId": 13,
+    "GroupId": 4,
+    "WeightInGroup": 3,
+    "GoodsId": 53601,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 46302,
+    "ShopId": 13,
+    "GroupId": 4,
+    "WeightInGroup": 3,
+    "GoodsId": 53602,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 46303,
+    "ShopId": 13,
+    "GroupId": 4,
+    "WeightInGroup": 3,
+    "GoodsId": 53603,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 46304,
+    "ShopId": 13,
+    "GroupId": 4,
+    "WeightInGroup": 3,
+    "GoodsId": 53604,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 46305,
+    "ShopId": 13,
+    "GroupId": 4,
+    "WeightInGroup": 3,
+    "GoodsId": 53605,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 46306,
+    "ShopId": 13,
+    "GroupId": 4,
+    "WeightInGroup": 1,
+    "GoodsId": 53606,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 46307,
+    "ShopId": 13,
+    "GroupId": 4,
+    "WeightInGroup": 1,
+    "GoodsId": 53607,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 46308,
+    "ShopId": 13,
+    "GroupId": 4,
+    "WeightInGroup": 1,
+    "GoodsId": 53608,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 46309,
+    "ShopId": 13,
+    "GroupId": 4,
+    "WeightInGroup": 1,
+    "GoodsId": 53609,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 46310,
+    "ShopId": 13,
+    "GroupId": 4,
+    "WeightInGroup": 1,
+    "GoodsId": 53610,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 46311,
+    "ShopId": 13,
+    "GroupId": 4,
+    "WeightInGroup": 1,
+    "GoodsId": 53611,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 46312,
+    "ShopId": 13,
+    "GroupId": 4,
+    "WeightInGroup": 1,
+    "GoodsId": 53612,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 46313,
+    "ShopId": 13,
+    "GroupId": 4,
+    "WeightInGroup": 1,
+    "GoodsId": 53613,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 46314,
+    "ShopId": 13,
+    "GroupId": 4,
+    "WeightInGroup": 1,
+    "GoodsId": 53614,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 46315,
+    "ShopId": 13,
+    "GroupId": 4,
+    "WeightInGroup": 1,
+    "GoodsId": 53615,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 46316,
+    "ShopId": 13,
+    "GroupId": 4,
+    "WeightInGroup": 1,
+    "GoodsId": 53616,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 46317,
+    "ShopId": 13,
+    "GroupId": 4,
+    "WeightInGroup": 6,
+    "GoodsId": 53617,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 46318,
+    "ShopId": 13,
+    "GroupId": 4,
+    "WeightInGroup": 6,
+    "GoodsId": 53618,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 46319,
+    "ShopId": 13,
+    "GroupId": 4,
+    "WeightInGroup": 6,
+    "GoodsId": 53619,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 46320,
+    "ShopId": 13,
+    "GroupId": 4,
+    "WeightInGroup": 6,
+    "GoodsId": 53620,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 47201,
+    "ShopId": 13,
+    "GroupId": 4,
+    "WeightInGroup": 3,
+    "GoodsId": 52701,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 47202,
+    "ShopId": 13,
+    "GroupId": 4,
+    "WeightInGroup": 3,
+    "GoodsId": 52702,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 47203,
+    "ShopId": 13,
+    "GroupId": 4,
+    "WeightInGroup": 3,
+    "GoodsId": 52703,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 47204,
+    "ShopId": 13,
+    "GroupId": 4,
+    "WeightInGroup": 3,
+    "GoodsId": 52704,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 47205,
+    "ShopId": 13,
+    "GroupId": 4,
+    "WeightInGroup": 3,
+    "GoodsId": 52705,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 47206,
+    "ShopId": 13,
+    "GroupId": 4,
+    "WeightInGroup": 1,
+    "GoodsId": 52706,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 47207,
+    "ShopId": 13,
+    "GroupId": 4,
+    "WeightInGroup": 1,
+    "GoodsId": 52707,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 47208,
+    "ShopId": 13,
+    "GroupId": 4,
+    "WeightInGroup": 1,
+    "GoodsId": 52708,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 47209,
+    "ShopId": 13,
+    "GroupId": 4,
+    "WeightInGroup": 1,
+    "GoodsId": 52709,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 47210,
+    "ShopId": 13,
+    "GroupId": 4,
+    "WeightInGroup": 1,
+    "GoodsId": 52710,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 47211,
+    "ShopId": 13,
+    "GroupId": 4,
+    "WeightInGroup": 1,
+    "GoodsId": 52711,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 47212,
+    "ShopId": 13,
+    "GroupId": 4,
+    "WeightInGroup": 1,
+    "GoodsId": 52712,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 47213,
+    "ShopId": 13,
+    "GroupId": 4,
+    "WeightInGroup": 1,
+    "GoodsId": 52713,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 47214,
+    "ShopId": 13,
+    "GroupId": 4,
+    "WeightInGroup": 1,
+    "GoodsId": 52714,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 47215,
+    "ShopId": 13,
+    "GroupId": 4,
+    "WeightInGroup": 1,
+    "GoodsId": 52715,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 47216,
+    "ShopId": 13,
+    "GroupId": 4,
+    "WeightInGroup": 1,
+    "GoodsId": 52716,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 47217,
+    "ShopId": 13,
+    "GroupId": 4,
+    "WeightInGroup": 6,
+    "GoodsId": 52717,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 47218,
+    "ShopId": 13,
+    "GroupId": 4,
+    "WeightInGroup": 6,
+    "GoodsId": 52718,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 47219,
+    "ShopId": 13,
+    "GroupId": 4,
+    "WeightInGroup": 6,
+    "GoodsId": 52719,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 47220,
+    "ShopId": 13,
+    "GroupId": 4,
+    "WeightInGroup": 6,
+    "GoodsId": 52720,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 47301,
+    "ShopId": 13,
+    "GroupId": 4,
+    "WeightInGroup": 3,
+    "GoodsId": 53701,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 47302,
+    "ShopId": 13,
+    "GroupId": 4,
+    "WeightInGroup": 3,
+    "GoodsId": 53702,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 47303,
+    "ShopId": 13,
+    "GroupId": 4,
+    "WeightInGroup": 3,
+    "GoodsId": 53703,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 47304,
+    "ShopId": 13,
+    "GroupId": 4,
+    "WeightInGroup": 3,
+    "GoodsId": 53704,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 47305,
+    "ShopId": 13,
+    "GroupId": 4,
+    "WeightInGroup": 3,
+    "GoodsId": 53705,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 47306,
+    "ShopId": 13,
+    "GroupId": 4,
+    "WeightInGroup": 1,
+    "GoodsId": 53706,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 47307,
+    "ShopId": 13,
+    "GroupId": 4,
+    "WeightInGroup": 1,
+    "GoodsId": 53707,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 47308,
+    "ShopId": 13,
+    "GroupId": 4,
+    "WeightInGroup": 1,
+    "GoodsId": 53708,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 47309,
+    "ShopId": 13,
+    "GroupId": 4,
+    "WeightInGroup": 1,
+    "GoodsId": 53709,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 47310,
+    "ShopId": 13,
+    "GroupId": 4,
+    "WeightInGroup": 1,
+    "GoodsId": 53710,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 47311,
+    "ShopId": 13,
+    "GroupId": 4,
+    "WeightInGroup": 1,
+    "GoodsId": 53711,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 47312,
+    "ShopId": 13,
+    "GroupId": 4,
+    "WeightInGroup": 1,
+    "GoodsId": 53712,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 47313,
+    "ShopId": 13,
+    "GroupId": 4,
+    "WeightInGroup": 1,
+    "GoodsId": 53713,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 47314,
+    "ShopId": 13,
+    "GroupId": 4,
+    "WeightInGroup": 1,
+    "GoodsId": 53714,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 47315,
+    "ShopId": 13,
+    "GroupId": 4,
+    "WeightInGroup": 1,
+    "GoodsId": 53715,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 47316,
+    "ShopId": 13,
+    "GroupId": 4,
+    "WeightInGroup": 1,
+    "GoodsId": 53716,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 47317,
+    "ShopId": 13,
+    "GroupId": 4,
+    "WeightInGroup": 6,
+    "GoodsId": 53717,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 47318,
+    "ShopId": 13,
+    "GroupId": 4,
+    "WeightInGroup": 6,
+    "GoodsId": 53718,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 47319,
+    "ShopId": 13,
+    "GroupId": 4,
+    "WeightInGroup": 6,
+    "GoodsId": 53719,
+    "Sort": 0,
+    "LevelRequirements": 0
+  },
+  {
+    "ID": 47320,
+    "ShopId": 13,
+    "GroupId": 4,
+    "WeightInGroup": 6,
+    "GoodsId": 53720,
+    "Sort": 0,
+    "LevelRequirements": 0
+  }
+]

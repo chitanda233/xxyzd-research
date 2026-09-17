@@ -1,0 +1,101 @@
+{
+  "name": "ServerList_serverList",
+  "assembly": "HotFixBattle.dll",
+  "read_impl_rva": "0x6ae81d0",
+  "fields": [
+    {
+      "type": "int",
+      "name": "id",
+      "offset": 32,
+      "reader": "readInt"
+    },
+    {
+      "type": "string",
+      "name": "desc",
+      "offset": 40,
+      "reader": "readLocalString"
+    },
+    {
+      "type": "int[]",
+      "name": "range",
+      "offset": 48,
+      "reader": "readArrayint"
+    },
+    {
+      "type": "string",
+      "name": "env",
+      "offset": 56,
+      "reader": "readLocalString"
+    },
+    {
+      "type": "string[]",
+      "name": "mark",
+      "offset": 64,
+      "reader": "readArraystring"
+    },
+    {
+      "type": "int",
+      "name": "conditionCountMax",
+      "offset": 72,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "conditionCountMin",
+      "offset": 76,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "conditionDay",
+      "offset": 80,
+      "reader": "readInt"
+    },
+    {
+      "type": "int[]",
+      "name": "statusNew",
+      "offset": 88,
+      "reader": "readArrayint"
+    },
+    {
+      "type": "int[]",
+      "name": "statusFull",
+      "offset": 96,
+      "reader": "readArrayint"
+    },
+    {
+      "type": "int",
+      "name": "sortId",
+      "offset": 104,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "serverPrefix",
+      "offset": 108,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "nameId",
+      "offset": 112,
+      "reader": "readInt"
+    }
+  ],
+  "native_reader_calls": [
+    "readInt",
+    "readLocalString",
+    "readArrayint",
+    "readLocalString",
+    "readArraystring",
+    "readInt",
+    "readInt",
+    "readInt",
+    "readArrayint",
+    "readArrayint",
+    "readInt",
+    "readInt",
+    "readInt"
+  ],
+  "field_count_matches_native_calls": true
+}

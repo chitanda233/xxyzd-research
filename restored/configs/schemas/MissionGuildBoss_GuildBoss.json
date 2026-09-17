@@ -1,0 +1,171 @@
+{
+  "name": "MissionGuildBoss_GuildBoss",
+  "assembly": "HotFixBattle.dll",
+  "read_impl_rva": "0x6ab736c",
+  "fields": [
+    {
+      "type": "int",
+      "name": "id",
+      "offset": 32,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "wave",
+      "offset": 36,
+      "reader": "readInt"
+    },
+    {
+      "type": "FP",
+      "name": "time",
+      "offset": 40,
+      "reader": "readFp"
+    },
+    {
+      "type": "FP",
+      "name": "delayTime",
+      "offset": 48,
+      "reader": "readFp"
+    },
+    {
+      "type": "int",
+      "name": "missinType",
+      "offset": 56,
+      "reader": "readInt"
+    },
+    {
+      "type": "FP[]",
+      "name": "interval",
+      "offset": 64,
+      "reader": "readArrayfp"
+    },
+    {
+      "type": "int[]",
+      "name": "pathMonster",
+      "offset": 72,
+      "reader": "readArrayint"
+    },
+    {
+      "type": "int",
+      "name": "positionMonster",
+      "offset": 80,
+      "reader": "readInt"
+    },
+    {
+      "type": "int[]",
+      "name": "Monster",
+      "offset": 88,
+      "reader": "readArrayint"
+    },
+    {
+      "type": "int[]",
+      "name": "MultiHp",
+      "offset": 96,
+      "reader": "readArrayint"
+    },
+    {
+      "type": "int[]",
+      "name": "positionGroupMonster",
+      "offset": 104,
+      "reader": "readArrayint"
+    },
+    {
+      "type": "int[]",
+      "name": "randomMonster",
+      "offset": 112,
+      "reader": "readArrayint"
+    },
+    {
+      "type": "int",
+      "name": "numberRandom",
+      "offset": 120,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "heightRandom",
+      "offset": 124,
+      "reader": "readInt"
+    },
+    {
+      "type": "FP",
+      "name": "hpUpgrade",
+      "offset": 128,
+      "reader": "readFp"
+    },
+    {
+      "type": "FP",
+      "name": "attackUp",
+      "offset": 136,
+      "reader": "readFp"
+    },
+    {
+      "type": "FP",
+      "name": "addExpUpgrade",
+      "offset": 144,
+      "reader": "readFp"
+    },
+    {
+      "type": "FP",
+      "name": "HPPickUpAddPercent",
+      "offset": 152,
+      "reader": "readFp"
+    },
+    {
+      "type": "int",
+      "name": "RandomNpc",
+      "offset": 160,
+      "reader": "readInt"
+    },
+    {
+      "type": "int[]",
+      "name": "MonsterFlushConfigId",
+      "offset": 168,
+      "reader": "readArrayint"
+    },
+    {
+      "type": "int",
+      "name": "refreshCount",
+      "offset": 176,
+      "reader": "readInt"
+    },
+    {
+      "type": "string",
+      "name": "missionTypeParam",
+      "offset": 184,
+      "reader": "readLocalString"
+    },
+    {
+      "type": "string[]",
+      "name": "missionPool",
+      "offset": 192,
+      "reader": "readArraystring"
+    }
+  ],
+  "native_reader_calls": [
+    "readInt",
+    "readInt",
+    "readFp",
+    "readFp",
+    "readInt",
+    "readArrayfp",
+    "readArrayint",
+    "readInt",
+    "readArrayint",
+    "readArrayint",
+    "readArrayint",
+    "readArrayint",
+    "readInt",
+    "readInt",
+    "readFp",
+    "readFp",
+    "readFp",
+    "readFp",
+    "readInt",
+    "readArrayint",
+    "readInt",
+    "readLocalString",
+    "readArraystring"
+  ],
+  "field_count_matches_native_calls": true
+}

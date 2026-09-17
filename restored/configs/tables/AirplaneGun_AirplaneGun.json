@@ -1,0 +1,486 @@
+[
+  {
+    "Id": 20101,
+    "SecondWeaponType": 13,
+    "skinNumber": 0,
+    "Quality": 50,
+    "NameId": "Weapon_20101",
+    "DesId": "",
+    "Atlas": 10130,
+    "Icon": "stg_AirPlaneGun_icon_08",
+    "ShowIcon": "stg_AirPlaneGun_08",
+    "UnlockCost": [
+      [
+        20101,
+        1
+      ]
+    ],
+    "Order": 100,
+    "IsShow": 1,
+    "SkillIconAtlas": 10121,
+    "SkillIcon": "stg_skillLab_iconX_08",
+    "previewVideo": ""
+  },
+  {
+    "Id": 20201,
+    "SecondWeaponType": 1,
+    "skinNumber": 0,
+    "Quality": 50,
+    "NameId": "Weapon_20201",
+    "DesId": "",
+    "Atlas": 10130,
+    "Icon": "stg_AirPlaneGun_icon_01",
+    "ShowIcon": "stg_AirPlaneGun_01",
+    "UnlockCost": [
+      [
+        20201,
+        1
+      ]
+    ],
+    "Order": 200,
+    "IsShow": 1,
+    "SkillIconAtlas": 10121,
+    "SkillIcon": "stg_skillLab_iconX_01",
+    "previewVideo": ""
+  },
+  {
+    "Id": 20301,
+    "SecondWeaponType": 11,
+    "skinNumber": 0,
+    "Quality": 50,
+    "NameId": "Weapon_20301",
+    "DesId": "",
+    "Atlas": 10130,
+    "Icon": "stg_AirPlaneGun_icon_07",
+    "ShowIcon": "stg_AirPlaneGun_07",
+    "UnlockCost": [
+      [
+        20301,
+        1
+      ]
+    ],
+    "Order": 300,
+    "IsShow": 1,
+    "SkillIconAtlas": 10121,
+    "SkillIcon": "stg_skillLab_iconX_07",
+    "previewVideo": ""
+  },
+  {
+    "Id": 20401,
+    "SecondWeaponType": 10,
+    "skinNumber": 0,
+    "Quality": 50,
+    "NameId": "Weapon_20401",
+    "DesId": "",
+    "Atlas": 10130,
+    "Icon": "stg_AirPlaneGun_icon_03",
+    "ShowIcon": "stg_AirPlaneGun_03",
+    "UnlockCost": [
+      [
+        20401,
+        1
+      ]
+    ],
+    "Order": 400,
+    "IsShow": 1,
+    "SkillIconAtlas": 10121,
+    "SkillIcon": "stg_skillLab_iconX_03",
+    "previewVideo": ""
+  },
+  {
+    "Id": 20501,
+    "SecondWeaponType": 14,
+    "skinNumber": 0,
+    "Quality": 50,
+    "NameId": "Weapon_20501",
+    "DesId": "",
+    "Atlas": 10130,
+    "Icon": "stg_AirPlaneGun_icon_02",
+    "ShowIcon": "stg_AirPlaneGun_02",
+    "UnlockCost": [
+      [
+        20501,
+        1
+      ]
+    ],
+    "Order": 500,
+    "IsShow": 1,
+    "SkillIconAtlas": 10121,
+    "SkillIcon": "stg_skillLab_iconX_02",
+    "previewVideo": ""
+  },
+  {
+    "Id": 20601,
+    "SecondWeaponType": 6,
+    "skinNumber": 0,
+    "Quality": 50,
+    "NameId": "Weapon_20601",
+    "DesId": "",
+    "Atlas": 10130,
+    "Icon": "stg_AirPlaneGun_icon_09",
+    "ShowIcon": "stg_AirPlaneGun_09",
+    "UnlockCost": [
+      [
+        20601,
+        1
+      ]
+    ],
+    "Order": 600,
+    "IsShow": 1,
+    "SkillIconAtlas": 10121,
+    "SkillIcon": "stg_skillLab_iconX_09",
+    "previewVideo": ""
+  },
+  {
+    "Id": 20701,
+    "SecondWeaponType": 15,
+    "skinNumber": 0,
+    "Quality": 50,
+    "NameId": "Weapon_20701",
+    "DesId": "",
+    "Atlas": 10130,
+    "Icon": "stg_AirPlaneGun_icon_04",
+    "ShowIcon": "stg_AirPlaneGun_04",
+    "UnlockCost": [
+      [
+        20701,
+        1
+      ]
+    ],
+    "Order": 700,
+    "IsShow": 1,
+    "SkillIconAtlas": 10121,
+    "SkillIcon": "stg_skillLab_iconX_04",
+    "previewVideo": ""
+  },
+  {
+    "Id": 20801,
+    "SecondWeaponType": 4,
+    "skinNumber": 0,
+    "Quality": 50,
+    "NameId": "Weapon_20801",
+    "DesId": "",
+    "Atlas": 10130,
+    "Icon": "stg_AirPlaneGun_icon_11",
+    "ShowIcon": "stg_AirPlaneGun_11",
+    "UnlockCost": [
+      [
+        20801,
+        1
+      ]
+    ],
+    "Order": 800,
+    "IsShow": 1,
+    "SkillIconAtlas": 10121,
+    "SkillIcon": "stg_skillLab_iconX_11",
+    "previewVideo": ""
+  },
+  {
+    "Id": 20901,
+    "SecondWeaponType": 8,
+    "skinNumber": 0,
+    "Quality": 50,
+    "NameId": "Weapon_20901",
+    "DesId": "",
+    "Atlas": 10130,
+    "Icon": "stg_AirPlaneGun_icon_05",
+    "ShowIcon": "stg_AirPlaneGun_05",
+    "UnlockCost": [
+      [
+        20901,
+        1
+      ]
+    ],
+    "Order": 900,
+    "IsShow": 1,
+    "SkillIconAtlas": 10121,
+    "SkillIcon": "stg_skillLab_iconX_05",
+    "previewVideo": ""
+  },
+  {
+    "Id": 21001,
+    "SecondWeaponType": 9,
+    "skinNumber": 0,
+    "Quality": 50,
+    "NameId": "Weapon_21001",
+    "DesId": "",
+    "Atlas": 10130,
+    "Icon": "stg_AirPlaneGun_icon_06",
+    "ShowIcon": "stg_AirPlaneGun_06",
+    "UnlockCost": [
+      [
+        21001,
+        1
+      ]
+    ],
+    "Order": 1000,
+    "IsShow": 1,
+    "SkillIconAtlas": 10121,
+    "SkillIcon": "stg_skillLab_iconX_06",
+    "previewVideo": ""
+  },
+  {
+    "Id": 21101,
+    "SecondWeaponType": 12,
+    "skinNumber": 0,
+    "Quality": 50,
+    "NameId": "Weapon_21101",
+    "DesId": "",
+    "Atlas": 10130,
+    "Icon": "stg_AirPlaneGun_icon_10",
+    "ShowIcon": "stg_AirPlaneGun_10",
+    "UnlockCost": [
+      [
+        21101,
+        1
+      ]
+    ],
+    "Order": 1100,
+    "IsShow": 1,
+    "SkillIconAtlas": 10121,
+    "SkillIcon": "stg_skillLab_iconX_10",
+    "previewVideo": ""
+  },
+  {
+    "Id": 20102,
+    "SecondWeaponType": 13,
+    "skinNumber": 1,
+    "Quality": 60,
+    "NameId": "Weapon_20102",
+    "DesId": "Weapon_des_20102",
+    "Atlas": 10130,
+    "Icon": "stg_AirPlaneGun_icon_12",
+    "ShowIcon": "stg_AirPlaneGun_12",
+    "UnlockCost": [
+      [
+        20102,
+        1
+      ]
+    ],
+    "Order": 101,
+    "IsShow": 0,
+    "SkillIconAtlas": 10121,
+    "SkillIcon": "stg_skillLab_iconX_08",
+    "previewVideo": "Assets/_Resources/Video/Weapon/jiatelin.mp4"
+  },
+  {
+    "Id": 20202,
+    "SecondWeaponType": 1,
+    "skinNumber": 1,
+    "Quality": 60,
+    "NameId": "Weapon_20202",
+    "DesId": "Weapon_des_20202",
+    "Atlas": 10130,
+    "Icon": "stg_AirPlaneGun_icon_13",
+    "ShowIcon": "stg_AirPlaneGun_13",
+    "UnlockCost": [
+      [
+        20202,
+        1
+      ]
+    ],
+    "Order": 201,
+    "IsShow": 0,
+    "SkillIconAtlas": 10121,
+    "SkillIcon": "stg_skillLab_iconX_01",
+    "previewVideo": "Assets/_Resources/Video/Weapon/yanhuadan.mp4"
+  },
+  {
+    "Id": 20302,
+    "SecondWeaponType": 11,
+    "skinNumber": 1,
+    "Quality": 60,
+    "NameId": "Weapon_20302",
+    "DesId": "Weapon_des_20302",
+    "Atlas": 10130,
+    "Icon": "stg_AirPlaneGun_icon_18",
+    "ShowIcon": "stg_AirPlaneGun_18",
+    "UnlockCost": [
+      [
+        20302,
+        1
+      ]
+    ],
+    "Order": 301,
+    "IsShow": 0,
+    "SkillIconAtlas": 10121,
+    "SkillIcon": "stg_skillLab_iconX_07",
+    "previewVideo": "Assets/_Resources/Video/Weapon/xingchenjiguang.mp4"
+  },
+  {
+    "Id": 20402,
+    "SecondWeaponType": 10,
+    "skinNumber": 1,
+    "Quality": 60,
+    "NameId": "Weapon_20402",
+    "DesId": "Weapon_des_20402",
+    "Atlas": 10130,
+    "Icon": "stg_AirPlaneGun_icon_19",
+    "ShowIcon": "stg_AirPlaneGun_19",
+    "UnlockCost": [
+      [
+        20402,
+        1
+      ]
+    ],
+    "Order": 401,
+    "IsShow": 0,
+    "SkillIconAtlas": 10121,
+    "SkillIcon": "stg_skillLab_iconX_03",
+    "previewVideo": "Assets/_Resources/Video/Weapon/shilaimu.mp4"
+  },
+  {
+    "Id": 20502,
+    "SecondWeaponType": 14,
+    "skinNumber": 1,
+    "Quality": 60,
+    "NameId": "Weapon_20502",
+    "DesId": "Weapon_des_20502",
+    "Atlas": 10130,
+    "Icon": "stg_AirPlaneGun_icon_14",
+    "ShowIcon": "stg_AirPlaneGun_14",
+    "UnlockCost": [
+      [
+        20502,
+        1
+      ]
+    ],
+    "Order": 501,
+    "IsShow": 0,
+    "SkillIconAtlas": 10121,
+    "SkillIcon": "stg_skillLab_iconX_02",
+    "previewVideo": "Assets/_Resources/Video/Weapon/bingdie.mp4"
+  },
+  {
+    "Id": 20602,
+    "SecondWeaponType": 6,
+    "skinNumber": 1,
+    "Quality": 60,
+    "NameId": "Weapon_20602",
+    "DesId": "Weapon_des_20602",
+    "Atlas": 10130,
+    "Icon": "stg_AirPlaneGun_icon_20",
+    "ShowIcon": "stg_AirPlaneGun_20",
+    "UnlockCost": [
+      [
+        20602,
+        1
+      ]
+    ],
+    "Order": 601,
+    "IsShow": 0,
+    "SkillIconAtlas": 10121,
+    "SkillIcon": "stg_skillLab_iconX_09",
+    "previewVideo": "Assets/_Resources/Video/Weapon/yinfuxiandan.mp4"
+  },
+  {
+    "Id": 20702,
+    "SecondWeaponType": 15,
+    "skinNumber": 1,
+    "Quality": 60,
+    "NameId": "Weapon_20702",
+    "DesId": "Weapon_des_20702",
+    "Atlas": 10130,
+    "Icon": "stg_AirPlaneGun_icon_15",
+    "ShowIcon": "stg_AirPlaneGun_15",
+    "UnlockCost": [
+      [
+        20702,
+        1
+      ]
+    ],
+    "Order": 701,
+    "IsShow": 0,
+    "SkillIconAtlas": 10121,
+    "SkillIcon": "stg_skillLab_iconX_04",
+    "previewVideo": "Assets/_Resources/Video/Weapon/huahuoshexian.mp4"
+  },
+  {
+    "Id": 20802,
+    "SecondWeaponType": 4,
+    "skinNumber": 1,
+    "Quality": 60,
+    "NameId": "Weapon_20802",
+    "DesId": "Weapon_des_20802",
+    "Atlas": 10130,
+    "Icon": "stg_AirPlaneGun_icon_16",
+    "ShowIcon": "stg_AirPlaneGun_16",
+    "UnlockCost": [
+      [
+        20802,
+        1
+      ]
+    ],
+    "Order": 801,
+    "IsShow": 0,
+    "SkillIconAtlas": 10121,
+    "SkillIcon": "stg_skillLab_iconX_11",
+    "previewVideo": "Assets/_Resources/Video/Weapon/xingkongjian.mp4"
+  },
+  {
+    "Id": 20902,
+    "SecondWeaponType": 8,
+    "skinNumber": 1,
+    "Quality": 60,
+    "NameId": "Weapon_20902",
+    "DesId": "Weapon_des_20902",
+    "Atlas": 10130,
+    "Icon": "stg_AirPlaneGun_icon_17",
+    "ShowIcon": "stg_AirPlaneGun_17",
+    "UnlockCost": [
+      [
+        20902,
+        1
+      ]
+    ],
+    "Order": 901,
+    "IsShow": 0,
+    "SkillIconAtlas": 10121,
+    "SkillIcon": "stg_skillLab_iconX_05",
+    "previewVideo": "Assets/_Resources/Video/Weapon/bingciqiu.mp4"
+  },
+  {
+    "Id": 21002,
+    "SecondWeaponType": 9,
+    "skinNumber": 1,
+    "Quality": 60,
+    "NameId": "Weapon_21002",
+    "DesId": "Weapon_des_21002",
+    "Atlas": 10130,
+    "Icon": "stg_AirPlaneGun_icon_21",
+    "ShowIcon": "stg_AirPlaneGun_21",
+    "UnlockCost": [
+      [
+        21002,
+        1
+      ]
+    ],
+    "Order": 1001,
+    "IsShow": 0,
+    "SkillIconAtlas": 10121,
+    "SkillIcon": "stg_skillLab_iconX_06",
+    "previewVideo": "Assets/_Resources/Video/Weapon/yinfudianhu.mp4"
+  },
+  {
+    "Id": 21102,
+    "SecondWeaponType": 12,
+    "skinNumber": 1,
+    "Quality": 60,
+    "NameId": "Weapon_21102",
+    "DesId": "Weapon_des_21102",
+    "Atlas": 10130,
+    "Icon": "stg_AirPlaneGun_icon_22",
+    "ShowIcon": "stg_AirPlaneGun_22",
+    "UnlockCost": [
+      [
+        21102,
+        1
+      ]
+    ],
+    "Order": 1101,
+    "IsShow": 0,
+    "SkillIconAtlas": 10121,
+    "SkillIcon": "stg_skillLab_iconX_10",
+    "previewVideo": "Assets/_Resources/Video/Weapon/dazuiheidong.mp4"
+  }
+]

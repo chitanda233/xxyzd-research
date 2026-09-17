@@ -1,0 +1,52 @@
+{
+  "name": "WorldBoss_RankReward",
+  "assembly": "HotFixBattle.dll",
+  "read_impl_rva": "0x6b23c8c",
+  "fields": [
+    {
+      "type": "int",
+      "name": "ID",
+      "offset": 32,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "Tag",
+      "offset": 36,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "SubsectionID",
+      "offset": 40,
+      "reader": "readInt"
+    },
+    {
+      "type": "int[]",
+      "name": "RankRange",
+      "offset": 48,
+      "reader": "readArrayint"
+    },
+    {
+      "type": "int[][]",
+      "name": "RoundReward",
+      "offset": 56,
+      "reader": "readArrayArrayint"
+    },
+    {
+      "type": "int[][]",
+      "name": "SeasonReward",
+      "offset": 64,
+      "reader": "readArrayArrayint"
+    }
+  ],
+  "native_reader_calls": [
+    "readInt",
+    "readInt",
+    "readInt",
+    "readArrayint",
+    "readArrayArrayint",
+    "readArrayArrayint"
+  ],
+  "field_count_matches_native_calls": true
+}

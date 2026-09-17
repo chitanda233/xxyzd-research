@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1001,
+    "path": "Assets/_Resources/Prefab/Game/Member/Player_1001.prefab"
+  },
+  {
+    "id": 20001,
+    "path": "Assets/_Resources/Prefab/Game/Monster/monster_xiyiren_green.prefab"
+  },
+  {
+    "id": 20002,
+    "path": "Assets/_Resources/Prefab/Game/Monster/monster_kulougongjianshou_red.prefab"
+  },
+  {
+    "id": 30001,
+    "path": "Assets/_Resources/Prefab/Game/Monster/monster_duyanjuren.prefab"
+  },
+  {
+    "id": 40001,
+    "path": "Assets/_Resources/Prefab/Game/Monster/boss_kulouwang.prefab"
+  }
+]

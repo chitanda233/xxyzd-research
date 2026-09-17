@@ -1,0 +1,52 @@
+{
+  "name": "GuildBOSS_guildBossMonster",
+  "assembly": "HotFixBattle.dll",
+  "read_impl_rva": "0x6a87bec",
+  "fields": [
+    {
+      "type": "int",
+      "name": "id",
+      "offset": 32,
+      "reader": "readInt"
+    },
+    {
+      "type": "string",
+      "name": "pos1",
+      "offset": 40,
+      "reader": "readLocalString"
+    },
+    {
+      "type": "string",
+      "name": "pos2",
+      "offset": 48,
+      "reader": "readLocalString"
+    },
+    {
+      "type": "string",
+      "name": "pos3",
+      "offset": 56,
+      "reader": "readLocalString"
+    },
+    {
+      "type": "string",
+      "name": "pos4",
+      "offset": 64,
+      "reader": "readLocalString"
+    },
+    {
+      "type": "string",
+      "name": "pos5",
+      "offset": 72,
+      "reader": "readLocalString"
+    }
+  ],
+  "native_reader_calls": [
+    "readInt",
+    "readLocalString",
+    "readLocalString",
+    "readLocalString",
+    "readLocalString",
+    "readLocalString"
+  ],
+  "field_count_matches_native_calls": true
+}

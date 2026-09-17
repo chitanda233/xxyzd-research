@@ -1,0 +1,22 @@
+[
+  {
+    "key": "BlackShopRefreshCount",
+    "Desc": "黑市每日免费刷新次数",
+    "TypeInt": 3,
+    "TypeIntArray": [],
+    "TypeString": "",
+    "TypeFloat": 0.0,
+    "TypeFloatArray": [],
+    "TypeStringArray": []
+  },
+  {
+    "key": "BlackShopRefreshCost",
+    "Desc": "每次的消费，取不到时，取最后一个",
+    "TypeInt": 0,
+    "TypeIntArray": [],
+    "TypeString": "1,500|1,500|1,500|1,500|1,500|1,500|1,500",
+    "TypeFloat": 0.0,
+    "TypeFloatArray": [],
+    "TypeStringArray": []
+  }
+]

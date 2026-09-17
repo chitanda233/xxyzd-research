@@ -1,0 +1,128 @@
+[
+  {
+    "ID": 1001,
+    "Type": 1,
+    "IsInit": 1,
+    "Child": 0,
+    "Weight": 100,
+    "AccumulationType": 1,
+    "Need": 1,
+    "Reward": [
+      "7000001,10",
+      "7000002,10"
+    ],
+    "OtherReward": [
+      "7000003,10"
+    ],
+    "Condition": [
+      1,
+      100
+    ],
+    "languageId": "7100001"
+  },
+  {
+    "ID": 2001,
+    "Type": 2,
+    "IsInit": 1,
+    "Child": 0,
+    "Weight": 100,
+    "AccumulationType": 1,
+    "Need": 1,
+    "Reward": [
+      "7000001,10",
+      "7000002,10"
+    ],
+    "OtherReward": [
+      "7000003,10"
+    ],
+    "Condition": [
+      1,
+      100
+    ],
+    "languageId": "7100002"
+  },
+  {
+    "ID": 2002,
+    "Type": 2,
+    "IsInit": 1,
+    "Child": 0,
+    "Weight": 100,
+    "AccumulationType": 1,
+    "Need": 2,
+    "Reward": [
+      "7000001,10",
+      "7000002,10"
+    ],
+    "OtherReward": [
+      "7000003,10"
+    ],
+    "Condition": [
+      1,
+      100
+    ],
+    "languageId": "7100002"
+  },
+  {
+    "ID": 2003,
+    "Type": 2,
+    "IsInit": 1,
+    "Child": 0,
+    "Weight": 100,
+    "AccumulationType": 1,
+    "Need": 3,
+    "Reward": [
+      "7000001,10",
+      "7000002,10"
+    ],
+    "OtherReward": [
+      "7000003,10"
+    ],
+    "Condition": [
+      1,
+      100
+    ],
+    "languageId": "7100002"
+  },
+  {
+    "ID": 2004,
+    "Type": 2,
+    "IsInit": 1,
+    "Child": 0,
+    "Weight": 100,
+    "AccumulationType": 1,
+    "Need": 4,
+    "Reward": [
+      "7000001,10",
+      "7000002,10"
+    ],
+    "OtherReward": [
+      "7000003,10"
+    ],
+    "Condition": [
+      1,
+      100
+    ],
+    "languageId": "7100002"
+  },
+  {
+    "ID": 2005,
+    "Type": 2,
+    "IsInit": 1,
+    "Child": 0,
+    "Weight": 100,
+    "AccumulationType": 1,
+    "Need": 4,
+    "Reward": [
+      "7000001,10",
+      "7000002,10"
+    ],
+    "OtherReward": [
+      "7000003,10"
+    ],
+    "Condition": [
+      1,
+      100
+    ],
+    "languageId": "7100002"
+  }
+]

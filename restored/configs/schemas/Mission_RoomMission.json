@@ -1,0 +1,94 @@
+{
+  "name": "Mission_RoomMission",
+  "assembly": "HotFixBattle.dll",
+  "read_impl_rva": "0x6ac4858",
+  "fields": [
+    {
+      "type": "int",
+      "name": "id",
+      "offset": 32,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "MissionType",
+      "offset": 36,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "IsMuitWave",
+      "offset": 40,
+      "reader": "readInt"
+    },
+    {
+      "type": "string[]",
+      "name": "firstConfigPool",
+      "offset": 48,
+      "reader": "readArraystring"
+    },
+    {
+      "type": "string[]",
+      "name": "configPool",
+      "offset": 56,
+      "reader": "readArraystring"
+    },
+    {
+      "type": "int",
+      "name": "ignoreRepeat",
+      "offset": 64,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "MapIndex",
+      "offset": 68,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "Door1",
+      "offset": 72,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "Door2",
+      "offset": 76,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "Door2Probability",
+      "offset": 80,
+      "reader": "readInt"
+    },
+    {
+      "type": "FP",
+      "name": "hpUpgrade",
+      "offset": 88,
+      "reader": "readFp"
+    },
+    {
+      "type": "FP",
+      "name": "attackUp",
+      "offset": 96,
+      "reader": "readFp"
+    }
+  ],
+  "native_reader_calls": [
+    "readInt",
+    "readInt",
+    "readInt",
+    "readArraystring",
+    "readArraystring",
+    "readInt",
+    "readInt",
+    "readInt",
+    "readInt",
+    "readInt",
+    "readFp",
+    "readFp"
+  ],
+  "field_count_matches_native_calls": true
+}

@@ -1,0 +1,103 @@
+[
+  {
+    "ID": 101,
+    "key": "DailyFreeTimes",
+    "Notes": "每天免费次数",
+    "TypeInt": 2,
+    "TypeIntArray": [],
+    "TypeString": ""
+  },
+  {
+    "ID": 102,
+    "key": "DailyADTimes",
+    "Notes": "广告次数",
+    "TypeInt": 1,
+    "TypeIntArray": [],
+    "TypeString": ""
+  },
+  {
+    "ID": 103,
+    "key": "ChallengeReward",
+    "Notes": "单次挑战奖励",
+    "TypeInt": 0,
+    "TypeIntArray": [],
+    "TypeString": "7,100|128,50"
+  },
+  {
+    "ID": 104,
+    "key": "GuildBossrewardByMail",
+    "Notes": "公会奖励结算邮件",
+    "TypeInt": 0,
+    "TypeIntArray": [],
+    "TypeString": "20260529194741230|20260529195150494"
+  },
+  {
+    "ID": 105,
+    "key": "PersonalrewardByMail",
+    "Notes": "个人排行结算邮件",
+    "TypeInt": 0,
+    "TypeIntArray": [],
+    "TypeString": "20260529195612896|20260529200100811"
+  },
+  {
+    "ID": 106,
+    "key": "GuildBossRankValidDays",
+    "Notes": "排行榜最大有效期（天）",
+    "TypeInt": 30,
+    "TypeIntArray": [],
+    "TypeString": ""
+  },
+  {
+    "ID": 107,
+    "key": "UnlockDifficultyLevel",
+    "Notes": "不同难度解锁需要的公会等级",
+    "TypeInt": 0,
+    "TypeIntArray": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "TypeString": ""
+  },
+  {
+    "ID": 108,
+    "key": "GuildBossChatTip",
+    "Notes": "公会结算奖励升级聊天广播",
+    "TypeInt": 0,
+    "TypeIntArray": [],
+    "TypeString": "GuildBoss_ChatTip_Text1"
+  },
+  {
+    "ID": 109,
+    "key": "GuildBossChatTipMVP",
+    "Notes": "MVP倍率升级聊天广播",
+    "TypeInt": 0,
+    "TypeIntArray": [],
+    "TypeString": "GuildBoss_ChatTip_Text2"
+  },
+  {
+    "ID": 110,
+    "key": "GuildBossChatTipEnd",
+    "Notes": "公会boss挑战战报聊天广播",
+    "TypeInt": 0,
+    "TypeIntArray": [],
+    "TypeString": "GuildBoss_ChatTip_Text3"
+  },
+  {
+    "ID": 111,
+    "key": "GuildBossrewardByMail_CN",
+    "Notes": "公会奖励结算邮件",
+    "TypeInt": 0,
+    "TypeIntArray": [],
+    "TypeString": "20260529194741230|20260529195150494"
+  },
+  {
+    "ID": 112,
+    "key": "PersonalrewardByMail_CN",
+    "Notes": "个人排行结算邮件",
+    "TypeInt": 0,
+    "TypeIntArray": [],
+    "TypeString": "20260529195612896|20260529200100811"
+  }
+]

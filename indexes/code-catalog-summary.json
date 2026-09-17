@@ -1,0 +1,12 @@
+{
+  "assemblies": 146,
+  "types": 29025,
+  "bundle_files_in_apk": 1023,
+  "bundle_list_entries": 1022,
+  "bundle_list_missing_from_fullres": [],
+  "addressables_internal_ids": 7380,
+  "limitations": [
+    "IL2CPP C# method bodies are placeholders; native code remains in libil2cpp.so.",
+    "Addressables entries describe packaged build; online current content is not verified."
+  ]
+}

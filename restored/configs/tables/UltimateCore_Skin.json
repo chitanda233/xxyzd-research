@@ -1,0 +1,128 @@
+[
+  {
+    "Id": 71001,
+    "CoreId": 70001,
+    "Name": 170001,
+    "Desc": 170001,
+    "Cost": [
+      [
+        71001,
+        1
+      ]
+    ],
+    "Sort": 1,
+    "CoreRes": "",
+    "Atlas": 10119,
+    "Icon": "stg_ultimateCore_protagonist03",
+    "Quality": 50,
+    "EntityId": 100001
+  },
+  {
+    "Id": 71002,
+    "CoreId": 70001,
+    "Name": 170002,
+    "Desc": 170002,
+    "Cost": [
+      [
+        71002,
+        1
+      ]
+    ],
+    "Sort": 2,
+    "CoreRes": "",
+    "Atlas": 10119,
+    "Icon": "stg_ultimateCore_protagonist01",
+    "Quality": 60,
+    "EntityId": 100001
+  },
+  {
+    "Id": 71003,
+    "CoreId": 70002,
+    "Name": 170003,
+    "Desc": 170003,
+    "Cost": [
+      [
+        71003,
+        1
+      ]
+    ],
+    "Sort": 1,
+    "CoreRes": "",
+    "Atlas": 10119,
+    "Icon": "stg_ultimateCore_protagonist01",
+    "Quality": 50,
+    "EntityId": 100001
+  },
+  {
+    "Id": 71004,
+    "CoreId": 70002,
+    "Name": 170003,
+    "Desc": 170003,
+    "Cost": [
+      [
+        71004,
+        1
+      ]
+    ],
+    "Sort": 2,
+    "CoreRes": "",
+    "Atlas": 10119,
+    "Icon": "stg_ultimateCore_protagonist03",
+    "Quality": 50,
+    "EntityId": 100001
+  },
+  {
+    "Id": 71005,
+    "CoreId": 70002,
+    "Name": 170003,
+    "Desc": 170003,
+    "Cost": [
+      [
+        71005,
+        1
+      ]
+    ],
+    "Sort": 3,
+    "CoreRes": "",
+    "Atlas": 10119,
+    "Icon": "stg_ultimateCore_protagonist01",
+    "Quality": 60,
+    "EntityId": 100001
+  },
+  {
+    "Id": 71006,
+    "CoreId": 70002,
+    "Name": 170003,
+    "Desc": 170003,
+    "Cost": [
+      [
+        71006,
+        1
+      ]
+    ],
+    "Sort": 4,
+    "CoreRes": "",
+    "Atlas": 10119,
+    "Icon": "stg_ultimateCore_protagonist03",
+    "Quality": 60,
+    "EntityId": 100001
+  },
+  {
+    "Id": 71007,
+    "CoreId": 70002,
+    "Name": 170003,
+    "Desc": 170003,
+    "Cost": [
+      [
+        71007,
+        1
+      ]
+    ],
+    "Sort": 5,
+    "CoreRes": "",
+    "Atlas": 10119,
+    "Icon": "stg_ultimateCore_protagonist01",
+    "Quality": 60,
+    "EntityId": 100001
+  }
+]

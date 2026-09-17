@@ -1,0 +1,157 @@
+{
+  "name": "Pet_Pet",
+  "assembly": "HotFixBattle.dll",
+  "read_impl_rva": "0x6acf6c4",
+  "fields": [
+    {
+      "type": "int",
+      "name": "Id",
+      "offset": 32,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "NameID",
+      "offset": 36,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "StoryID",
+      "offset": 40,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "Atlas",
+      "offset": 44,
+      "reader": "readInt"
+    },
+    {
+      "type": "string",
+      "name": "Icon",
+      "offset": 48,
+      "reader": "readLocalString"
+    },
+    {
+      "type": "int",
+      "name": "ItemIconAtlas",
+      "offset": 56,
+      "reader": "readInt"
+    },
+    {
+      "type": "string",
+      "name": "ItemIcon",
+      "offset": 64,
+      "reader": "readLocalString"
+    },
+    {
+      "type": "int",
+      "name": "EntityId",
+      "offset": 72,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "LvUpAttackAdd",
+      "offset": 76,
+      "reader": "readInt"
+    },
+    {
+      "type": "int[]",
+      "name": "StarAttackAdd",
+      "offset": 80,
+      "reader": "readArrayint"
+    },
+    {
+      "type": "string[]",
+      "name": "AttributesForMaster",
+      "offset": 88,
+      "reader": "readArraystring"
+    },
+    {
+      "type": "string[]",
+      "name": "LvUpAttrAdd",
+      "offset": 96,
+      "reader": "readArraystring"
+    },
+    {
+      "type": "string[]",
+      "name": "StarToTwoAttr",
+      "offset": 104,
+      "reader": "readArraystring"
+    },
+    {
+      "type": "string[]",
+      "name": "StarToThreeAttr",
+      "offset": 112,
+      "reader": "readArraystring"
+    },
+    {
+      "type": "string[]",
+      "name": "StarToFourAttr",
+      "offset": 120,
+      "reader": "readArraystring"
+    },
+    {
+      "type": "string[]",
+      "name": "StarToFiveAttr",
+      "offset": 128,
+      "reader": "readArraystring"
+    },
+    {
+      "type": "string[]",
+      "name": "StarToSixAttr",
+      "offset": 136,
+      "reader": "readArraystring"
+    },
+    {
+      "type": "string[]",
+      "name": "StarToSevenAttr",
+      "offset": 144,
+      "reader": "readArraystring"
+    },
+    {
+      "type": "string[]",
+      "name": "StarToEightAttr",
+      "offset": 152,
+      "reader": "readArraystring"
+    },
+    {
+      "type": "string[]",
+      "name": "StarFeature",
+      "offset": 160,
+      "reader": "readArraystring"
+    },
+    {
+      "type": "int[]",
+      "name": "LvMaxByStar",
+      "offset": 168,
+      "reader": "readArrayint"
+    }
+  ],
+  "native_reader_calls": [
+    "readInt",
+    "readInt",
+    "readInt",
+    "readInt",
+    "readLocalString",
+    "readInt",
+    "readLocalString",
+    "readInt",
+    "readInt",
+    "readArrayint",
+    "readArraystring",
+    "readArraystring",
+    "readArraystring",
+    "readArraystring",
+    "readArraystring",
+    "readArraystring",
+    "readArraystring",
+    "readArraystring",
+    "readArraystring",
+    "readArraystring",
+    "readArrayint"
+  ],
+  "field_count_matches_native_calls": true
+}

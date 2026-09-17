@@ -1,0 +1,451 @@
+{
+  "name": "Chapter_MainChapter",
+  "assembly": "HotFixBattle.dll",
+  "read_impl_rva": "0x68ae14c",
+  "fields": [
+    {
+      "type": "int",
+      "name": "id",
+      "offset": 32,
+      "reader": "readInt"
+    },
+    {
+      "type": "string",
+      "name": "chapterNameLanguageId",
+      "offset": 40,
+      "reader": "readLocalString"
+    },
+    {
+      "type": "int",
+      "name": "chapterType",
+      "offset": 48,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "SkillGroupWeight",
+      "offset": 52,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "SkillGroupWeight_B",
+      "offset": 56,
+      "reader": "readInt"
+    },
+    {
+      "type": "int[]",
+      "name": "ResultType",
+      "offset": 64,
+      "reader": "readArrayint"
+    },
+    {
+      "type": "int",
+      "name": "waveNum",
+      "offset": 72,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "missionIdPrev",
+      "offset": 76,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "ProtectTemplate",
+      "offset": 80,
+      "reader": "readInt"
+    },
+    {
+      "type": "FP",
+      "name": "hpUpgrade",
+      "offset": 88,
+      "reader": "readFp"
+    },
+    {
+      "type": "FP",
+      "name": "attackUp",
+      "offset": 96,
+      "reader": "readFp"
+    },
+    {
+      "type": "FP",
+      "name": "hpUpgrade_B",
+      "offset": 104,
+      "reader": "readFp"
+    },
+    {
+      "type": "FP",
+      "name": "attackUp_B",
+      "offset": 112,
+      "reader": "readFp"
+    },
+    {
+      "type": "FP",
+      "name": "addExpUpgrade",
+      "offset": 120,
+      "reader": "readFp"
+    },
+    {
+      "type": "FP",
+      "name": "HPPickUpAddPercent",
+      "offset": 128,
+      "reader": "readFp"
+    },
+    {
+      "type": "int",
+      "name": "waveId",
+      "offset": 136,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "mapStyle",
+      "offset": 140,
+      "reader": "readInt"
+    },
+    {
+      "type": "int[]",
+      "name": "PreviewMonsters",
+      "offset": 144,
+      "reader": "readArrayint"
+    },
+    {
+      "type": "int[]",
+      "name": "NewMonsters",
+      "offset": 152,
+      "reader": "readArrayint"
+    },
+    {
+      "type": "int[]",
+      "name": "SuggestedSkills",
+      "offset": 160,
+      "reader": "readArrayint"
+    },
+    {
+      "type": "int",
+      "name": "missionIdPrev_B",
+      "offset": 168,
+      "reader": "readInt"
+    },
+    {
+      "type": "FP",
+      "name": "addExpUpgrade_B",
+      "offset": 176,
+      "reader": "readFp"
+    },
+    {
+      "type": "FP",
+      "name": "HPPickUpAddPercent_B",
+      "offset": 184,
+      "reader": "readFp"
+    },
+    {
+      "type": "int",
+      "name": "waveId_B",
+      "offset": 192,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "mapStyle_B",
+      "offset": 196,
+      "reader": "readInt"
+    },
+    {
+      "type": "int[]",
+      "name": "PreviewMonsters_B",
+      "offset": 200,
+      "reader": "readArrayint"
+    },
+    {
+      "type": "int[]",
+      "name": "NewMonsters_B",
+      "offset": 208,
+      "reader": "readArrayint"
+    },
+    {
+      "type": "int[]",
+      "name": "SuggestedSkills_B",
+      "offset": 216,
+      "reader": "readArrayint"
+    },
+    {
+      "type": "int[]",
+      "name": "SuggestedFunction",
+      "offset": 224,
+      "reader": "readArrayint"
+    },
+    {
+      "type": "int[]",
+      "name": "ChapterFeature",
+      "offset": 232,
+      "reader": "readArrayint"
+    },
+    {
+      "type": "string[]",
+      "name": "textureName",
+      "offset": 240,
+      "reader": "readArraystring"
+    },
+    {
+      "type": "string",
+      "name": "dataPath",
+      "offset": 248,
+      "reader": "readLocalString"
+    },
+    {
+      "type": "int",
+      "name": "music",
+      "offset": 256,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "SkillType",
+      "offset": 260,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "ChestType",
+      "offset": 264,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "WaitUpLevel",
+      "offset": 268,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "cameraId",
+      "offset": 272,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "DropGoldBaseValue",
+      "offset": 276,
+      "reader": "readInt"
+    },
+    {
+      "type": "int[][]",
+      "name": "FirstReward",
+      "offset": 280,
+      "reader": "readArrayArrayint"
+    },
+    {
+      "type": "int[]",
+      "name": "FinishReward",
+      "offset": 288,
+      "reader": "readArrayint"
+    },
+    {
+      "type": "int[]",
+      "name": "starCondition",
+      "offset": 296,
+      "reader": "readArrayint"
+    },
+    {
+      "type": "int",
+      "name": "ResurrectionTimes",
+      "offset": 304,
+      "reader": "readInt"
+    },
+    {
+      "type": "int[]",
+      "name": "NewPlayerProtect",
+      "offset": 312,
+      "reader": "readArrayint"
+    },
+    {
+      "type": "string",
+      "name": "missionPrefabName",
+      "offset": 320,
+      "reader": "readLocalString"
+    },
+    {
+      "type": "int",
+      "name": "unLockNeedLayer",
+      "offset": 328,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "isHide",
+      "offset": 332,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "worldRecordOnShow",
+      "offset": 336,
+      "reader": "readInt"
+    },
+    {
+      "type": "int[]",
+      "name": "skill3SelectCreditsRandom",
+      "offset": 344,
+      "reader": "readArrayint"
+    },
+    {
+      "type": "int[]",
+      "name": "skill2SelectCreditsRandom",
+      "offset": 352,
+      "reader": "readArrayint"
+    },
+    {
+      "type": "int",
+      "name": "TwoSkillsProtectLevel",
+      "offset": 360,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "skillSelectPassiveGold",
+      "offset": 364,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "waveGold",
+      "offset": 368,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "waveExp",
+      "offset": 372,
+      "reader": "readInt"
+    },
+    {
+      "type": "int[]",
+      "name": "MonsterDropGroup",
+      "offset": 376,
+      "reader": "readArrayint"
+    },
+    {
+      "type": "int[]",
+      "name": "MonsterDropLimit",
+      "offset": 384,
+      "reader": "readArrayint"
+    },
+    {
+      "type": "int[]",
+      "name": "MonsterDropRate",
+      "offset": 392,
+      "reader": "readArrayint"
+    },
+    {
+      "type": "int[]",
+      "name": "BossDropGroup",
+      "offset": 400,
+      "reader": "readArrayint"
+    },
+    {
+      "type": "int[]",
+      "name": "BossDropLimit",
+      "offset": 408,
+      "reader": "readArrayint"
+    },
+    {
+      "type": "int[]",
+      "name": "BossDropRate",
+      "offset": 416,
+      "reader": "readArrayint"
+    },
+    {
+      "type": "int[]",
+      "name": "BossDropGuarantee",
+      "offset": 424,
+      "reader": "readArrayint"
+    },
+    {
+      "type": "int[]",
+      "name": "goldFortune",
+      "offset": 432,
+      "reader": "readArrayint"
+    },
+    {
+      "type": "int[]",
+      "name": "scrollFortune",
+      "offset": 440,
+      "reader": "readArrayint"
+    }
+  ],
+  "native_reader_calls": [
+    "readInt",
+    "readLocalString",
+    "readInt",
+    "readInt",
+    "readInt",
+    "readArrayint",
+    "readInt",
+    "readInt",
+    "readInt",
+    "readFp",
+    "readFp",
+    "readFp",
+    "readFp",
+    "readFp",
+    "readFp",
+    "readInt",
+    "readInt",
+    "readArrayint",
+    "readArrayint",
+    "readArrayint",
+    "readInt",
+    "readFp",
+    "readFp",
+    "readInt",
+    "readInt",
+    "readArrayint",
+    "readArrayint",
+    "readArrayint",
+    "readArrayint",
+    "readArrayint",
+    "readArraystring",
+    "readLocalString",
+    "readInt",
+    "readInt",
+    "readInt",
+    "readInt",
+    "readInt",
+    "readInt",
+    "readArrayArrayint",
+    "readArrayint",
+    "readArrayint",
+    "readInt",
+    "readArrayint",
+    "readLocalString",
+    "readInt",
+    "readInt",
+    "readInt",
+    "readArrayint",
+    "readArrayint",
+    "readInt",
+    "readInt",
+    "readInt",
+    "readInt",
+    "readArrayint",
+    "readArrayint",
+    "readArrayint",
+    "readArrayint",
+    "readArrayint",
+    "readArrayint",
+    "readArrayint",
+    "readArrayint",
+    "readArrayint"
+  ],
+  "field_count_matches_native_calls": true,
+  "nonserialized_fields": [
+    {
+      "type": "int",
+      "name": "bloodDropMinPower",
+      "offset": 448
+    }
+  ]
+}

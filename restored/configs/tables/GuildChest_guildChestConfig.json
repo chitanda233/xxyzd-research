@@ -1,0 +1,79 @@
+[
+  {
+    "ID": 1001,
+    "key": "GuildChestChatCardExpireTime",
+    "TypeInt": 86400,
+    "TypeIntArray": [],
+    "TypeString": ""
+  },
+  {
+    "ID": 1002,
+    "key": "GuildChestHelpLogMaxCount",
+    "TypeInt": 50,
+    "TypeIntArray": [],
+    "TypeString": ""
+  },
+  {
+    "ID": 1003,
+    "key": "GuildChestDailyAskHelpLimit",
+    "TypeInt": 99,
+    "TypeIntArray": [],
+    "TypeString": ""
+  },
+  {
+    "ID": 1004,
+    "key": "GuildChestDailyHelpLimit",
+    "TypeInt": 999,
+    "TypeIntArray": [],
+    "TypeString": ""
+  },
+  {
+    "ID": 1005,
+    "key": "GuildChestHelpRewardId",
+    "TypeInt": 0,
+    "TypeIntArray": [],
+    "TypeString": "128,10"
+  },
+  {
+    "ID": 1006,
+    "key": "GuildChestHelpRewardDailyLimit",
+    "TypeInt": 20,
+    "TypeIntArray": [],
+    "TypeString": ""
+  },
+  {
+    "ID": 1007,
+    "key": "GuildChestHelpReduceTime",
+    "TypeInt": 120,
+    "TypeIntArray": [],
+    "TypeString": ""
+  },
+  {
+    "ID": 1008,
+    "key": "GuildChestDiamondReduceTime",
+    "TypeInt": 120,
+    "TypeIntArray": [],
+    "TypeString": ""
+  },
+  {
+    "ID": 1009,
+    "key": "GuildChestHelpReduceLimit",
+    "TypeInt": 99,
+    "TypeIntArray": [],
+    "TypeString": ""
+  },
+  {
+    "ID": 1010,
+    "key": "GuildChestUnlockCondition",
+    "TypeInt": 1,
+    "TypeIntArray": [],
+    "TypeString": ""
+  },
+  {
+    "ID": 1011,
+    "key": "GuildChestHelpReducePer",
+    "TypeInt": 5,
+    "TypeIntArray": [],
+    "TypeString": ""
+  }
+]

@@ -1,0 +1,31 @@
+{
+  "name": "ServerList_serverGroup",
+  "assembly": "HotFixBattle.dll",
+  "read_impl_rva": "0x6ae73dc",
+  "fields": [
+    {
+      "type": "int",
+      "name": "id",
+      "offset": 32,
+      "reader": "readInt"
+    },
+    {
+      "type": "int[]",
+      "name": "range",
+      "offset": 40,
+      "reader": "readArrayint"
+    },
+    {
+      "type": "int",
+      "name": "groupName",
+      "offset": 48,
+      "reader": "readInt"
+    }
+  ],
+  "native_reader_calls": [
+    "readInt",
+    "readArrayint",
+    "readInt"
+  ],
+  "field_count_matches_native_calls": true
+}

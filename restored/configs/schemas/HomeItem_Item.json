@@ -1,0 +1,38 @@
+{
+  "name": "HomeItem_Item",
+  "assembly": "HotFixBattle.dll",
+  "read_impl_rva": "0x6a98ca4",
+  "fields": [
+    {
+      "type": "int",
+      "name": "id",
+      "offset": 32,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "itemID",
+      "offset": 36,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "value",
+      "offset": 40,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "weight",
+      "offset": 44,
+      "reader": "readInt"
+    }
+  ],
+  "native_reader_calls": [
+    "readInt",
+    "readInt",
+    "readInt",
+    "readInt"
+  ],
+  "field_count_matches_native_calls": true
+}

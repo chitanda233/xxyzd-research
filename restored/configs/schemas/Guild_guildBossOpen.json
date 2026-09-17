@@ -1,0 +1,38 @@
+{
+  "name": "Guild_guildBossOpen",
+  "assembly": "HotFixBattle.dll",
+  "read_impl_rva": "0x6a8e468",
+  "fields": [
+    {
+      "type": "int",
+      "name": "ID",
+      "offset": 32,
+      "reader": "readInt"
+    },
+    {
+      "type": "int[]",
+      "name": "OpenTime",
+      "offset": 40,
+      "reader": "readArrayint"
+    },
+    {
+      "type": "int[]",
+      "name": "BossId",
+      "offset": 48,
+      "reader": "readArrayint"
+    },
+    {
+      "type": "int[]",
+      "name": "KillBossBoxId",
+      "offset": 56,
+      "reader": "readArrayint"
+    }
+  ],
+  "native_reader_calls": [
+    "readInt",
+    "readArrayint",
+    "readArrayint",
+    "readArrayint"
+  ],
+  "field_count_matches_native_calls": true
+}

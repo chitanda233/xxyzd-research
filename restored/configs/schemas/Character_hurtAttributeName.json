@@ -1,0 +1,38 @@
+{
+  "name": "Character_hurtAttributeName",
+  "assembly": "HotFixBattle.dll",
+  "read_impl_rva": "0x68c8030",
+  "fields": [
+    {
+      "type": "int",
+      "name": "ID",
+      "offset": 32,
+      "reader": "readInt"
+    },
+    {
+      "type": "string",
+      "name": "attributeName",
+      "offset": 40,
+      "reader": "readLocalString"
+    },
+    {
+      "type": "int",
+      "name": "fieldType",
+      "offset": 48,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "hurtType",
+      "offset": 52,
+      "reader": "readInt"
+    }
+  ],
+  "native_reader_calls": [
+    "readInt",
+    "readLocalString",
+    "readInt",
+    "readInt"
+  ],
+  "field_count_matches_native_calls": true
+}

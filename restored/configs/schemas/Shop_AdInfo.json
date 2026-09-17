@@ -1,0 +1,38 @@
+{
+  "name": "Shop_AdInfo",
+  "assembly": "HotFixBattle.dll",
+  "read_impl_rva": "0x6aea114",
+  "fields": [
+    {
+      "type": "int",
+      "name": "id",
+      "offset": 32,
+      "reader": "readInt"
+    },
+    {
+      "type": "string",
+      "name": "note",
+      "offset": 40,
+      "reader": "readLocalString"
+    },
+    {
+      "type": "int",
+      "name": "count",
+      "offset": 48,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "refresh",
+      "offset": 52,
+      "reader": "readInt"
+    }
+  ],
+  "native_reader_calls": [
+    "readInt",
+    "readLocalString",
+    "readInt",
+    "readInt"
+  ],
+  "field_count_matches_native_calls": true
+}

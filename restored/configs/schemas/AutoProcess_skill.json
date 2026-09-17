@@ -1,0 +1,45 @@
+{
+  "name": "AutoProcess_skill",
+  "assembly": "HotFixBattle.dll",
+  "read_impl_rva": "0x68835f4",
+  "fields": [
+    {
+      "type": "int",
+      "name": "id",
+      "offset": 32,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "SkillType",
+      "offset": 36,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "SuitID",
+      "offset": 40,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "SuitSkillID",
+      "offset": 44,
+      "reader": "readInt"
+    },
+    {
+      "type": "int[]",
+      "name": "skills",
+      "offset": 48,
+      "reader": "readArrayint"
+    }
+  ],
+  "native_reader_calls": [
+    "readInt",
+    "readInt",
+    "readInt",
+    "readInt",
+    "readArrayint"
+  ],
+  "field_count_matches_native_calls": true
+}

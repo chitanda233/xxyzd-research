@@ -1,0 +1,101 @@
+{
+  "name": "Pilot_Pilot",
+  "assembly": "HotFixBattle.dll",
+  "read_impl_rva": "0x6ad111c",
+  "fields": [
+    {
+      "type": "int",
+      "name": "Id",
+      "offset": 32,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "WeaponType",
+      "offset": 36,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "Quality",
+      "offset": 40,
+      "reader": "readInt"
+    },
+    {
+      "type": "string",
+      "name": "PilotNameId",
+      "offset": 48,
+      "reader": "readLocalString"
+    },
+    {
+      "type": "string",
+      "name": "PilotDesId",
+      "offset": 56,
+      "reader": "readLocalString"
+    },
+    {
+      "type": "int",
+      "name": "Atlas",
+      "offset": 64,
+      "reader": "readInt"
+    },
+    {
+      "type": "string",
+      "name": "Icon",
+      "offset": 72,
+      "reader": "readLocalString"
+    },
+    {
+      "type": "string",
+      "name": "ShowIcon",
+      "offset": 80,
+      "reader": "readLocalString"
+    },
+    {
+      "type": "int[][]",
+      "name": "UnlockCost",
+      "offset": 88,
+      "reader": "readArrayArrayint"
+    },
+    {
+      "type": "int",
+      "name": "Order",
+      "offset": 96,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "SkillPreview",
+      "offset": 100,
+      "reader": "readInt"
+    },
+    {
+      "type": "string",
+      "name": "ShowModel",
+      "offset": 104,
+      "reader": "readLocalString"
+    },
+    {
+      "type": "string",
+      "name": "ShowModelForBase",
+      "offset": 112,
+      "reader": "readLocalString"
+    }
+  ],
+  "native_reader_calls": [
+    "readInt",
+    "readInt",
+    "readInt",
+    "readLocalString",
+    "readLocalString",
+    "readInt",
+    "readLocalString",
+    "readLocalString",
+    "readArrayArrayint",
+    "readInt",
+    "readInt",
+    "readLocalString",
+    "readLocalString"
+  ],
+  "field_count_matches_native_calls": true
+}

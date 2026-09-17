@@ -1,0 +1,74 @@
+[
+  {
+    "Id": 1,
+    "PilotID": 40100,
+    "RoleID": 1,
+    "PilotIdelAnim": "1"
+  },
+  {
+    "Id": 2,
+    "PilotID": 40101,
+    "RoleID": 1,
+    "PilotIdelAnim": "1"
+  },
+  {
+    "Id": 3,
+    "PilotID": 40200,
+    "RoleID": 1,
+    "PilotIdelAnim": "2"
+  },
+  {
+    "Id": 4,
+    "PilotID": 40300,
+    "RoleID": 1,
+    "PilotIdelAnim": "3"
+  },
+  {
+    "Id": 5,
+    "PilotID": 40400,
+    "RoleID": 1,
+    "PilotIdelAnim": "4"
+  },
+  {
+    "Id": 6,
+    "PilotID": 40500,
+    "RoleID": 1,
+    "PilotIdelAnim": "5"
+  },
+  {
+    "Id": 7,
+    "PilotID": 40600,
+    "RoleID": 1,
+    "PilotIdelAnim": "6"
+  },
+  {
+    "Id": 8,
+    "PilotID": 40700,
+    "RoleID": 1,
+    "PilotIdelAnim": "7"
+  },
+  {
+    "Id": 9,
+    "PilotID": 40800,
+    "RoleID": 1,
+    "PilotIdelAnim": "8"
+  },
+  {
+    "Id": 10,
+    "PilotID": 40900,
+    "RoleID": 1,
+    "PilotIdelAnim": "9"
+  },
+  {
+    "Id": 11,
+    "PilotID": 41000,
+    "RoleID": 1,
+    "PilotIdelAnim": "10"
+  },
+  {
+    "Id": 12,
+    "PilotID": 41100,
+    "RoleID": 1,
+    "PilotIdelAnim": "11"
+  }
+]

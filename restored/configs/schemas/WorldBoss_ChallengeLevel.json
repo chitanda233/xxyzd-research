@@ -1,0 +1,38 @@
+{
+  "name": "WorldBoss_ChallengeLevel",
+  "assembly": "HotFixBattle.dll",
+  "read_impl_rva": "0x6b23044",
+  "fields": [
+    {
+      "type": "int",
+      "name": "ID",
+      "offset": 32,
+      "reader": "readInt"
+    },
+    {
+      "type": "int[][]",
+      "name": "UnlockCondition",
+      "offset": 40,
+      "reader": "readArrayArrayint"
+    },
+    {
+      "type": "int[][]",
+      "name": "Reward",
+      "offset": 48,
+      "reader": "readArrayArrayint"
+    },
+    {
+      "type": "int[]",
+      "name": "RunePool",
+      "offset": 56,
+      "reader": "readArrayint"
+    }
+  ],
+  "native_reader_calls": [
+    "readInt",
+    "readArrayArrayint",
+    "readArrayArrayint",
+    "readArrayint"
+  ],
+  "field_count_matches_native_calls": true
+}

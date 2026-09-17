@@ -1,0 +1,115 @@
+{
+  "name": "Character_HandBook",
+  "assembly": "HotFixBattle.dll",
+  "read_impl_rva": "0x68c689c",
+  "fields": [
+    {
+      "type": "int",
+      "name": "id",
+      "offset": 32,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "position",
+      "offset": 36,
+      "reader": "readInt"
+    },
+    {
+      "type": "string",
+      "name": "name",
+      "offset": 40,
+      "reader": "readLocalString"
+    },
+    {
+      "type": "string",
+      "name": "des",
+      "offset": 48,
+      "reader": "readLocalString"
+    },
+    {
+      "type": "int",
+      "name": "flag",
+      "offset": 56,
+      "reader": "readInt"
+    },
+    {
+      "type": "int[]",
+      "name": "reward",
+      "offset": 64,
+      "reader": "readArrayint"
+    },
+    {
+      "type": "int",
+      "name": "modelId",
+      "offset": 72,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "type",
+      "offset": 76,
+      "reader": "readInt"
+    },
+    {
+      "type": "int[]",
+      "name": "tag",
+      "offset": 80,
+      "reader": "readArrayint"
+    },
+    {
+      "type": "int",
+      "name": "characterid",
+      "offset": 88,
+      "reader": "readInt"
+    },
+    {
+      "type": "int[]",
+      "name": "Skillid",
+      "offset": 96,
+      "reader": "readArrayint"
+    },
+    {
+      "type": "string",
+      "name": "modeSd",
+      "offset": 104,
+      "reader": "readLocalString"
+    },
+    {
+      "type": "string",
+      "name": "modePrefab",
+      "offset": 112,
+      "reader": "readLocalString"
+    },
+    {
+      "type": "FP",
+      "name": "Scale",
+      "offset": 120,
+      "reader": "readFp"
+    },
+    {
+      "type": "int",
+      "name": "atlas",
+      "offset": 128,
+      "reader": "readInt"
+    }
+  ],
+  "native_reader_calls": [
+    "readInt",
+    "readInt",
+    "readLocalString",
+    "readLocalString",
+    "readInt",
+    "readArrayint",
+    "readInt",
+    "readInt",
+    "readArrayint",
+    "readInt",
+    "readArrayint",
+    "readLocalString",
+    "readLocalString",
+    "readFp",
+    "readInt"
+  ],
+  "field_count_matches_native_calls": true
+}

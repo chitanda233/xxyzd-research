@@ -1,0 +1,18 @@
+[
+  {
+    "id": 101,
+    "name": 7300001,
+    "eventLanguage": 7300011,
+    "eventAtlas": "uiguild",
+    "eventShow": "specialBtn",
+    "eventSort": 1
+  },
+  {
+    "id": 102,
+    "name": 7300002,
+    "eventLanguage": 7300012,
+    "eventAtlas": "uiguild",
+    "eventShow": "normalChallenge",
+    "eventSort": 1
+  }
+]

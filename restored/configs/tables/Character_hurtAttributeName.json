@@ -1,0 +1,74 @@
+[
+  {
+    "ID": 1,
+    "attributeName": "Attack",
+    "fieldType": 1,
+    "hurtType": 1
+  },
+  {
+    "ID": 2,
+    "attributeName": "AddAttack",
+    "fieldType": 2,
+    "hurtType": 1
+  },
+  {
+    "ID": 3,
+    "attributeName": "ElementAttackFire",
+    "fieldType": 1,
+    "hurtType": 2
+  },
+  {
+    "ID": 4,
+    "attributeName": "AddElementAttackFire",
+    "fieldType": 2,
+    "hurtType": 2
+  },
+  {
+    "ID": 5,
+    "attributeName": "ElementAttackPoison",
+    "fieldType": 1,
+    "hurtType": 3
+  },
+  {
+    "ID": 6,
+    "attributeName": "AddElementAttackPoison",
+    "fieldType": 2,
+    "hurtType": 3
+  },
+  {
+    "ID": 7,
+    "attributeName": "ElementAttackIce",
+    "fieldType": 1,
+    "hurtType": 4
+  },
+  {
+    "ID": 8,
+    "attributeName": "AddElementAttackIce",
+    "fieldType": 2,
+    "hurtType": 4
+  },
+  {
+    "ID": 9,
+    "attributeName": "ElementAttackThunder",
+    "fieldType": 1,
+    "hurtType": 5
+  },
+  {
+    "ID": 10,
+    "attributeName": "AddElementAttackThunder",
+    "fieldType": 2,
+    "hurtType": 5
+  },
+  {
+    "ID": 11,
+    "attributeName": "BodyAttack",
+    "fieldType": 1,
+    "hurtType": 6
+  },
+  {
+    "ID": 12,
+    "attributeName": "RecoverHP",
+    "fieldType": 1,
+    "hurtType": 7
+  }
+]

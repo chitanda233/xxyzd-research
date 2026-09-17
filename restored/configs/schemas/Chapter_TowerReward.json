@@ -1,0 +1,38 @@
+{
+  "name": "Chapter_TowerReward",
+  "assembly": "HotFixBattle.dll",
+  "read_impl_rva": "0x68ba448",
+  "fields": [
+    {
+      "type": "int",
+      "name": "id",
+      "offset": 32,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "missionId",
+      "offset": 36,
+      "reader": "readInt"
+    },
+    {
+      "type": "int[][]",
+      "name": "missionReward",
+      "offset": 40,
+      "reader": "readArrayArrayint"
+    },
+    {
+      "type": "int[][]",
+      "name": "levelReward",
+      "offset": 48,
+      "reader": "readArrayArrayint"
+    }
+  ],
+  "native_reader_calls": [
+    "readInt",
+    "readInt",
+    "readArrayArrayint",
+    "readArrayArrayint"
+  ],
+  "field_count_matches_native_calls": true
+}

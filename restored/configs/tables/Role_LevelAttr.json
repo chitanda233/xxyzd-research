@@ -1,0 +1,392 @@
+[
+  {
+    "Id": 10100020,
+    "AttrSelf": [
+      "Attack%=3",
+      "Attack%=3"
+    ],
+    "FeatureSelf": [],
+    "AttrAll": [],
+    "FeatureAll": []
+  },
+  {
+    "Id": 10100040,
+    "AttrSelf": [],
+    "FeatureSelf": [
+      "{\"Type\":\"Attr\",\"Args\":\"HPMax%=3\"}"
+    ],
+    "AttrAll": [],
+    "FeatureAll": []
+  },
+  {
+    "Id": 10100060,
+    "AttrSelf": [],
+    "FeatureSelf": [],
+    "AttrAll": [
+      "Attack%=3",
+      "Attack%=3"
+    ],
+    "FeatureAll": []
+  },
+  {
+    "Id": 10100080,
+    "AttrSelf": [],
+    "FeatureSelf": [],
+    "AttrAll": [],
+    "FeatureAll": [
+      "{\"Type\":\"Attr\",\"Args\":\"HPMax%=3\"}"
+    ]
+  },
+  {
+    "Id": 10100100,
+    "AttrSelf": [
+      "Attack%=3",
+      "Attack%=3"
+    ],
+    "FeatureSelf": [],
+    "AttrAll": [],
+    "FeatureAll": []
+  },
+  {
+    "Id": 10100120,
+    "AttrSelf": [
+      "Attack%=3",
+      "Attack%=3"
+    ],
+    "FeatureSelf": [],
+    "AttrAll": [],
+    "FeatureAll": []
+  },
+  {
+    "Id": 10100140,
+    "AttrSelf": [
+      "Attack%=3",
+      "Attack%=3"
+    ],
+    "FeatureSelf": [],
+    "AttrAll": [],
+    "FeatureAll": []
+  },
+  {
+    "Id": 10100160,
+    "AttrSelf": [
+      "Attack%=3",
+      "Attack%=3"
+    ],
+    "FeatureSelf": [],
+    "AttrAll": [],
+    "FeatureAll": []
+  },
+  {
+    "Id": 10200020,
+    "AttrSelf": [
+      "Attack%=3",
+      "Attack%=3"
+    ],
+    "FeatureSelf": [],
+    "AttrAll": [],
+    "FeatureAll": []
+  },
+  {
+    "Id": 10200040,
+    "AttrSelf": [],
+    "FeatureSelf": [
+      "{\"Type\":\"Attr\",\"Args\":\"HPMax%=3\"}"
+    ],
+    "AttrAll": [],
+    "FeatureAll": []
+  },
+  {
+    "Id": 10200060,
+    "AttrSelf": [],
+    "FeatureSelf": [],
+    "AttrAll": [
+      "Attack%=3",
+      "Attack%=3"
+    ],
+    "FeatureAll": []
+  },
+  {
+    "Id": 10200080,
+    "AttrSelf": [],
+    "FeatureSelf": [],
+    "AttrAll": [],
+    "FeatureAll": [
+      "{\"Type\":\"Attr\",\"Args\":\"HPMax%=3\"}"
+    ]
+  },
+  {
+    "Id": 10200100,
+    "AttrSelf": [
+      "Attack%=3",
+      "Attack%=3"
+    ],
+    "FeatureSelf": [],
+    "AttrAll": [],
+    "FeatureAll": []
+  },
+  {
+    "Id": 10200120,
+    "AttrSelf": [
+      "Attack%=3",
+      "Attack%=3"
+    ],
+    "FeatureSelf": [],
+    "AttrAll": [],
+    "FeatureAll": []
+  },
+  {
+    "Id": 10200140,
+    "AttrSelf": [
+      "Attack%=3",
+      "Attack%=3"
+    ],
+    "FeatureSelf": [],
+    "AttrAll": [],
+    "FeatureAll": []
+  },
+  {
+    "Id": 10200160,
+    "AttrSelf": [
+      "Attack%=3",
+      "Attack%=3"
+    ],
+    "FeatureSelf": [],
+    "AttrAll": [],
+    "FeatureAll": []
+  },
+  {
+    "Id": 10300020,
+    "AttrSelf": [
+      "Attack%=3",
+      "Attack%=3"
+    ],
+    "FeatureSelf": [],
+    "AttrAll": [],
+    "FeatureAll": []
+  },
+  {
+    "Id": 10300040,
+    "AttrSelf": [],
+    "FeatureSelf": [
+      "{\"Type\":\"Attr\",\"Args\":\"HPMax%=3\"}"
+    ],
+    "AttrAll": [],
+    "FeatureAll": []
+  },
+  {
+    "Id": 10300060,
+    "AttrSelf": [],
+    "FeatureSelf": [],
+    "AttrAll": [
+      "Attack%=3",
+      "Attack%=3"
+    ],
+    "FeatureAll": []
+  },
+  {
+    "Id": 10300080,
+    "AttrSelf": [],
+    "FeatureSelf": [],
+    "AttrAll": [],
+    "FeatureAll": [
+      "{\"Type\":\"Attr\",\"Args\":\"HPMax%=3\"}"
+    ]
+  },
+  {
+    "Id": 10300100,
+    "AttrSelf": [
+      "Attack%=3",
+      "Attack%=3"
+    ],
+    "FeatureSelf": [],
+    "AttrAll": [],
+    "FeatureAll": []
+  },
+  {
+    "Id": 10300120,
+    "AttrSelf": [
+      "Attack%=3",
+      "Attack%=3"
+    ],
+    "FeatureSelf": [],
+    "AttrAll": [],
+    "FeatureAll": []
+  },
+  {
+    "Id": 10300140,
+    "AttrSelf": [
+      "Attack%=3",
+      "Attack%=3"
+    ],
+    "FeatureSelf": [],
+    "AttrAll": [],
+    "FeatureAll": []
+  },
+  {
+    "Id": 10300160,
+    "AttrSelf": [
+      "Attack%=3",
+      "Attack%=3"
+    ],
+    "FeatureSelf": [],
+    "AttrAll": [],
+    "FeatureAll": []
+  },
+  {
+    "Id": 10400020,
+    "AttrSelf": [
+      "Attack%=3",
+      "Attack%=3"
+    ],
+    "FeatureSelf": [],
+    "AttrAll": [],
+    "FeatureAll": []
+  },
+  {
+    "Id": 10400040,
+    "AttrSelf": [],
+    "FeatureSelf": [
+      "{\"Type\":\"Attr\",\"Args\":\"HPMax%=3\"}"
+    ],
+    "AttrAll": [],
+    "FeatureAll": []
+  },
+  {
+    "Id": 10400060,
+    "AttrSelf": [],
+    "FeatureSelf": [],
+    "AttrAll": [
+      "Attack%=3",
+      "Attack%=3"
+    ],
+    "FeatureAll": []
+  },
+  {
+    "Id": 10400080,
+    "AttrSelf": [],
+    "FeatureSelf": [],
+    "AttrAll": [],
+    "FeatureAll": [
+      "{\"Type\":\"Attr\",\"Args\":\"HPMax%=3\"}"
+    ]
+  },
+  {
+    "Id": 10400100,
+    "AttrSelf": [
+      "Attack%=3",
+      "Attack%=3"
+    ],
+    "FeatureSelf": [],
+    "AttrAll": [],
+    "FeatureAll": []
+  },
+  {
+    "Id": 10400120,
+    "AttrSelf": [
+      "Attack%=3",
+      "Attack%=3"
+    ],
+    "FeatureSelf": [],
+    "AttrAll": [],
+    "FeatureAll": []
+  },
+  {
+    "Id": 10400140,
+    "AttrSelf": [
+      "Attack%=3",
+      "Attack%=3"
+    ],
+    "FeatureSelf": [],
+    "AttrAll": [],
+    "FeatureAll": []
+  },
+  {
+    "Id": 10400160,
+    "AttrSelf": [
+      "Attack%=3",
+      "Attack%=3"
+    ],
+    "FeatureSelf": [],
+    "AttrAll": [],
+    "FeatureAll": []
+  },
+  {
+    "Id": 10600020,
+    "AttrSelf": [
+      "Attack%=3",
+      "Attack%=3"
+    ],
+    "FeatureSelf": [],
+    "AttrAll": [],
+    "FeatureAll": []
+  },
+  {
+    "Id": 10600040,
+    "AttrSelf": [],
+    "FeatureSelf": [
+      "{\"Type\":\"Attr\",\"Args\":\"HPMax%=3\"}"
+    ],
+    "AttrAll": [],
+    "FeatureAll": []
+  },
+  {
+    "Id": 10600060,
+    "AttrSelf": [],
+    "FeatureSelf": [],
+    "AttrAll": [
+      "Attack%=3",
+      "Attack%=3"
+    ],
+    "FeatureAll": []
+  },
+  {
+    "Id": 10600080,
+    "AttrSelf": [],
+    "FeatureSelf": [],
+    "AttrAll": [],
+    "FeatureAll": [
+      "{\"Type\":\"Attr\",\"Args\":\"HPMax%=3\"}"
+    ]
+  },
+  {
+    "Id": 10600100,
+    "AttrSelf": [
+      "Attack%=3",
+      "Attack%=3"
+    ],
+    "FeatureSelf": [],
+    "AttrAll": [],
+    "FeatureAll": []
+  },
+  {
+    "Id": 10600120,
+    "AttrSelf": [
+      "Attack%=3",
+      "Attack%=3"
+    ],
+    "FeatureSelf": [],
+    "AttrAll": [],
+    "FeatureAll": []
+  },
+  {
+    "Id": 10600140,
+    "AttrSelf": [
+      "Attack%=3",
+      "Attack%=3"
+    ],
+    "FeatureSelf": [],
+    "AttrAll": [],
+    "FeatureAll": []
+  },
+  {
+    "Id": 10600160,
+    "AttrSelf": [
+      "Attack%=3",
+      "Attack%=3"
+    ],
+    "FeatureSelf": [],
+    "AttrAll": [],
+    "FeatureAll": []
+  }
+]

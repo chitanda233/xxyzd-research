@@ -1,0 +1,826 @@
+[
+  {
+    "id": 10101,
+    "GroupId": 1,
+    "area": 1,
+    "ItemId": 3001,
+    "type": 1,
+    "icon": "stg_fishing_Weightdi_blue",
+    "number": 8,
+    "weight": 800,
+    "weightFloat": [
+      75,
+      125
+    ],
+    "dropId": [
+      [
+        10003002,
+        1
+      ]
+    ],
+    "initialDamage": 25,
+    "strength": 1250,
+    "speed": 400,
+    "actionList": [
+      1,
+      2
+    ],
+    "atlasID": 10135
+  },
+  {
+    "id": 10102,
+    "GroupId": 1,
+    "area": 1,
+    "ItemId": 3002,
+    "type": 1,
+    "icon": "stg_fishing_Weightdi_blue",
+    "number": 6,
+    "weight": 1600,
+    "weightFloat": [
+      75,
+      125
+    ],
+    "dropId": [
+      [
+        10003002,
+        1
+      ]
+    ],
+    "initialDamage": 25,
+    "strength": 1250,
+    "speed": 400,
+    "actionList": [
+      1,
+      2
+    ],
+    "atlasID": 10135
+  },
+  {
+    "id": 10103,
+    "GroupId": 1,
+    "area": 1,
+    "ItemId": 3003,
+    "type": 1,
+    "icon": "stg_fishing_Weightdi_blue",
+    "number": 6,
+    "weight": 1600,
+    "weightFloat": [
+      75,
+      125
+    ],
+    "dropId": [
+      [
+        10003002,
+        1
+      ]
+    ],
+    "initialDamage": 25,
+    "strength": 1250,
+    "speed": 400,
+    "actionList": [
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "atlasID": 10135
+  },
+  {
+    "id": 10104,
+    "GroupId": 1,
+    "area": 1,
+    "ItemId": 3025,
+    "type": 1,
+    "icon": "stg_fishing_Weightdi_blue",
+    "number": 4,
+    "weight": 2400,
+    "weightFloat": [
+      75,
+      125
+    ],
+    "dropId": [
+      [
+        10003002,
+        1
+      ]
+    ],
+    "initialDamage": 25,
+    "strength": 1250,
+    "speed": 400,
+    "actionList": [
+      1,
+      2
+    ],
+    "atlasID": 10135
+  },
+  {
+    "id": 10105,
+    "GroupId": 1,
+    "area": 1,
+    "ItemId": 3004,
+    "type": 2,
+    "icon": "stg_fishing_Weightdi_purple",
+    "number": 3,
+    "weight": 4000,
+    "weightFloat": [
+      75,
+      125
+    ],
+    "dropId": [
+      [
+        10003002,
+        1
+      ]
+    ],
+    "initialDamage": 35,
+    "strength": 1300,
+    "speed": 450,
+    "actionList": [
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "atlasID": 10135
+  },
+  {
+    "id": 10106,
+    "GroupId": 1,
+    "area": 1,
+    "ItemId": 3005,
+    "type": 2,
+    "icon": "stg_fishing_Weightdi_purple",
+    "number": 2,
+    "weight": 8000,
+    "weightFloat": [
+      75,
+      125
+    ],
+    "dropId": [
+      [
+        10003002,
+        1
+      ]
+    ],
+    "initialDamage": 35,
+    "strength": 1300,
+    "speed": 450,
+    "actionList": [
+      5,
+      6,
+      7,
+      8
+    ],
+    "atlasID": 10135
+  },
+  {
+    "id": 10107,
+    "GroupId": 1,
+    "area": 1,
+    "ItemId": 3006,
+    "type": 3,
+    "icon": "stg_fishing_Weightdi_yellow",
+    "number": 1,
+    "weight": 16000,
+    "weightFloat": [
+      75,
+      125
+    ],
+    "dropId": [
+      [
+        10003003,
+        1
+      ]
+    ],
+    "initialDamage": 50,
+    "strength": 1350,
+    "speed": 550,
+    "actionList": [
+      5,
+      6,
+      7,
+      8
+    ],
+    "atlasID": 10135
+  },
+  {
+    "id": 10201,
+    "GroupId": 1,
+    "area": 2,
+    "ItemId": 3007,
+    "type": 1,
+    "icon": "stg_fishing_Weightdi_blue",
+    "number": 8,
+    "weight": 1200,
+    "weightFloat": [
+      75,
+      125
+    ],
+    "dropId": [
+      [
+        10003002,
+        1
+      ]
+    ],
+    "initialDamage": 40,
+    "strength": 1450,
+    "speed": 900,
+    "actionList": [
+      1,
+      2
+    ],
+    "atlasID": 10135
+  },
+  {
+    "id": 10202,
+    "GroupId": 1,
+    "area": 2,
+    "ItemId": 3008,
+    "type": 1,
+    "icon": "stg_fishing_Weightdi_blue",
+    "number": 6,
+    "weight": 2400,
+    "weightFloat": [
+      75,
+      125
+    ],
+    "dropId": [
+      [
+        10003002,
+        1
+      ]
+    ],
+    "initialDamage": 40,
+    "strength": 1450,
+    "speed": 900,
+    "actionList": [
+      1,
+      2
+    ],
+    "atlasID": 10135
+  },
+  {
+    "id": 10203,
+    "GroupId": 1,
+    "area": 2,
+    "ItemId": 3009,
+    "type": 1,
+    "icon": "stg_fishing_Weightdi_blue",
+    "number": 6,
+    "weight": 2400,
+    "weightFloat": [
+      75,
+      125
+    ],
+    "dropId": [
+      [
+        10003002,
+        1
+      ]
+    ],
+    "initialDamage": 40,
+    "strength": 1450,
+    "speed": 900,
+    "actionList": [
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "atlasID": 10135
+  },
+  {
+    "id": 10204,
+    "GroupId": 1,
+    "area": 2,
+    "ItemId": 3026,
+    "type": 1,
+    "icon": "stg_fishing_Weightdi_blue",
+    "number": 4,
+    "weight": 3600,
+    "weightFloat": [
+      75,
+      125
+    ],
+    "dropId": [
+      [
+        10003002,
+        1
+      ]
+    ],
+    "initialDamage": 40,
+    "strength": 1450,
+    "speed": 900,
+    "actionList": [
+      1,
+      2
+    ],
+    "atlasID": 10135
+  },
+  {
+    "id": 10205,
+    "GroupId": 1,
+    "area": 2,
+    "ItemId": 3010,
+    "type": 2,
+    "icon": "stg_fishing_Weightdi_purple",
+    "number": 3,
+    "weight": 6000,
+    "weightFloat": [
+      75,
+      125
+    ],
+    "dropId": [
+      [
+        10003002,
+        1
+      ]
+    ],
+    "initialDamage": 50,
+    "strength": 1500,
+    "speed": 950,
+    "actionList": [
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "atlasID": 10135
+  },
+  {
+    "id": 10206,
+    "GroupId": 1,
+    "area": 2,
+    "ItemId": 3011,
+    "type": 2,
+    "icon": "stg_fishing_Weightdi_purple",
+    "number": 2,
+    "weight": 12000,
+    "weightFloat": [
+      75,
+      125
+    ],
+    "dropId": [
+      [
+        10003002,
+        1
+      ]
+    ],
+    "initialDamage": 50,
+    "strength": 1500,
+    "speed": 950,
+    "actionList": [
+      5,
+      6,
+      7,
+      8
+    ],
+    "atlasID": 10135
+  },
+  {
+    "id": 10207,
+    "GroupId": 1,
+    "area": 2,
+    "ItemId": 3012,
+    "type": 3,
+    "icon": "stg_fishing_Weightdi_yellow",
+    "number": 1,
+    "weight": 24000,
+    "weightFloat": [
+      75,
+      125
+    ],
+    "dropId": [
+      [
+        10003003,
+        1
+      ]
+    ],
+    "initialDamage": 65,
+    "strength": 1550,
+    "speed": 1000,
+    "actionList": [
+      5,
+      6,
+      7,
+      8
+    ],
+    "atlasID": 10135
+  },
+  {
+    "id": 10301,
+    "GroupId": 1,
+    "area": 3,
+    "ItemId": 3013,
+    "type": 1,
+    "icon": "stg_fishing_Weightdi_blue",
+    "number": 8,
+    "weight": 1600,
+    "weightFloat": [
+      75,
+      125
+    ],
+    "dropId": [
+      [
+        10003002,
+        1
+      ]
+    ],
+    "initialDamage": 65,
+    "strength": 1650,
+    "speed": 1300,
+    "actionList": [
+      1,
+      2
+    ],
+    "atlasID": 10135
+  },
+  {
+    "id": 10302,
+    "GroupId": 1,
+    "area": 3,
+    "ItemId": 3014,
+    "type": 1,
+    "icon": "stg_fishing_Weightdi_blue",
+    "number": 6,
+    "weight": 3200,
+    "weightFloat": [
+      75,
+      125
+    ],
+    "dropId": [
+      [
+        10003002,
+        1
+      ]
+    ],
+    "initialDamage": 65,
+    "strength": 1650,
+    "speed": 1300,
+    "actionList": [
+      1,
+      2
+    ],
+    "atlasID": 10135
+  },
+  {
+    "id": 10303,
+    "GroupId": 1,
+    "area": 3,
+    "ItemId": 3015,
+    "type": 1,
+    "icon": "stg_fishing_Weightdi_blue",
+    "number": 6,
+    "weight": 3200,
+    "weightFloat": [
+      75,
+      125
+    ],
+    "dropId": [
+      [
+        10003002,
+        1
+      ]
+    ],
+    "initialDamage": 65,
+    "strength": 1650,
+    "speed": 1300,
+    "actionList": [
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "atlasID": 10135
+  },
+  {
+    "id": 10304,
+    "GroupId": 1,
+    "area": 3,
+    "ItemId": 3027,
+    "type": 1,
+    "icon": "stg_fishing_Weightdi_blue",
+    "number": 4,
+    "weight": 4800,
+    "weightFloat": [
+      75,
+      125
+    ],
+    "dropId": [
+      [
+        10003002,
+        1
+      ]
+    ],
+    "initialDamage": 65,
+    "strength": 1650,
+    "speed": 1300,
+    "actionList": [
+      1,
+      2
+    ],
+    "atlasID": 10135
+  },
+  {
+    "id": 10305,
+    "GroupId": 1,
+    "area": 3,
+    "ItemId": 3016,
+    "type": 2,
+    "icon": "stg_fishing_Weightdi_purple",
+    "number": 3,
+    "weight": 8000,
+    "weightFloat": [
+      75,
+      125
+    ],
+    "dropId": [
+      [
+        10003002,
+        1
+      ]
+    ],
+    "initialDamage": 75,
+    "strength": 1700,
+    "speed": 1350,
+    "actionList": [
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "atlasID": 10135
+  },
+  {
+    "id": 10306,
+    "GroupId": 1,
+    "area": 3,
+    "ItemId": 3017,
+    "type": 2,
+    "icon": "stg_fishing_Weightdi_purple",
+    "number": 2,
+    "weight": 16000,
+    "weightFloat": [
+      75,
+      125
+    ],
+    "dropId": [
+      [
+        10003002,
+        1
+      ]
+    ],
+    "initialDamage": 75,
+    "strength": 1700,
+    "speed": 1350,
+    "actionList": [
+      5,
+      6,
+      7,
+      8
+    ],
+    "atlasID": 10135
+  },
+  {
+    "id": 10307,
+    "GroupId": 1,
+    "area": 3,
+    "ItemId": 3018,
+    "type": 3,
+    "icon": "stg_fishing_Weightdi_yellow",
+    "number": 1,
+    "weight": 32000,
+    "weightFloat": [
+      75,
+      125
+    ],
+    "dropId": [
+      [
+        10003003,
+        1
+      ]
+    ],
+    "initialDamage": 90,
+    "strength": 1750,
+    "speed": 1400,
+    "actionList": [
+      5,
+      6,
+      7,
+      8
+    ],
+    "atlasID": 10135
+  },
+  {
+    "id": 10401,
+    "GroupId": 1,
+    "area": 4,
+    "ItemId": 3019,
+    "type": 1,
+    "icon": "stg_fishing_Weightdi_blue",
+    "number": 8,
+    "weight": 2400,
+    "weightFloat": [
+      75,
+      125
+    ],
+    "dropId": [
+      [
+        10003002,
+        1
+      ]
+    ],
+    "initialDamage": 90,
+    "strength": 1850,
+    "speed": 1750,
+    "actionList": [
+      1,
+      2
+    ],
+    "atlasID": 10135
+  },
+  {
+    "id": 10402,
+    "GroupId": 1,
+    "area": 4,
+    "ItemId": 3020,
+    "type": 1,
+    "icon": "stg_fishing_Weightdi_blue",
+    "number": 6,
+    "weight": 4800,
+    "weightFloat": [
+      75,
+      125
+    ],
+    "dropId": [
+      [
+        10003002,
+        1
+      ]
+    ],
+    "initialDamage": 90,
+    "strength": 1850,
+    "speed": 1750,
+    "actionList": [
+      1,
+      2
+    ],
+    "atlasID": 10135
+  },
+  {
+    "id": 10403,
+    "GroupId": 1,
+    "area": 4,
+    "ItemId": 3021,
+    "type": 1,
+    "icon": "stg_fishing_Weightdi_blue",
+    "number": 6,
+    "weight": 4800,
+    "weightFloat": [
+      75,
+      125
+    ],
+    "dropId": [
+      [
+        10003002,
+        1
+      ]
+    ],
+    "initialDamage": 90,
+    "strength": 1850,
+    "speed": 1750,
+    "actionList": [
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "atlasID": 10135
+  },
+  {
+    "id": 10404,
+    "GroupId": 1,
+    "area": 4,
+    "ItemId": 3028,
+    "type": 1,
+    "icon": "stg_fishing_Weightdi_blue",
+    "number": 4,
+    "weight": 7200,
+    "weightFloat": [
+      75,
+      125
+    ],
+    "dropId": [
+      [
+        10003002,
+        1
+      ]
+    ],
+    "initialDamage": 90,
+    "strength": 1850,
+    "speed": 1750,
+    "actionList": [
+      1,
+      2
+    ],
+    "atlasID": 10135
+  },
+  {
+    "id": 10405,
+    "GroupId": 1,
+    "area": 4,
+    "ItemId": 3022,
+    "type": 2,
+    "icon": "stg_fishing_Weightdi_purple",
+    "number": 3,
+    "weight": 12000,
+    "weightFloat": [
+      75,
+      125
+    ],
+    "dropId": [
+      [
+        10003002,
+        1
+      ]
+    ],
+    "initialDamage": 100,
+    "strength": 1900,
+    "speed": 1790,
+    "actionList": [
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "atlasID": 10135
+  },
+  {
+    "id": 10406,
+    "GroupId": 1,
+    "area": 4,
+    "ItemId": 3023,
+    "type": 2,
+    "icon": "stg_fishing_Weightdi_purple",
+    "number": 2,
+    "weight": 24000,
+    "weightFloat": [
+      75,
+      125
+    ],
+    "dropId": [
+      [
+        10003002,
+        1
+      ]
+    ],
+    "initialDamage": 100,
+    "strength": 1900,
+    "speed": 1790,
+    "actionList": [
+      5,
+      6,
+      7,
+      8
+    ],
+    "atlasID": 10135
+  },
+  {
+    "id": 10407,
+    "GroupId": 1,
+    "area": 4,
+    "ItemId": 3024,
+    "type": 3,
+    "icon": "stg_fishing_Weightdi_yellow",
+    "number": 1,
+    "weight": 48000,
+    "weightFloat": [
+      75,
+      125
+    ],
+    "dropId": [
+      [
+        10003003,
+        1
+      ]
+    ],
+    "initialDamage": 120,
+    "strength": 1925,
+    "speed": 1825,
+    "actionList": [
+      5,
+      6,
+      7,
+      8
+    ],
+    "atlasID": 10135
+  }
+]

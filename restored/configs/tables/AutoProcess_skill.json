@@ -1,0 +1,509 @@
+[
+  {
+    "id": 5100101,
+    "SkillType": 1,
+    "SuitID": 5100201,
+    "SuitSkillID": 5200001,
+    "skills": [
+      5100101,
+      5100111
+    ]
+  },
+  {
+    "id": 5100102,
+    "SkillType": 1,
+    "SuitID": 5100201,
+    "SuitSkillID": 5200001,
+    "skills": [
+      5100102,
+      5100112
+    ]
+  },
+  {
+    "id": 5100103,
+    "SkillType": 1,
+    "SuitID": 5100201,
+    "SuitSkillID": 5200001,
+    "skills": [
+      5100103,
+      5100113
+    ]
+  },
+  {
+    "id": 5100201,
+    "SkillType": 1,
+    "SuitID": 5100101,
+    "SuitSkillID": 5200001,
+    "skills": [
+      5100201
+    ]
+  },
+  {
+    "id": 5100202,
+    "SkillType": 1,
+    "SuitID": 5100101,
+    "SuitSkillID": 5200001,
+    "skills": [
+      5100202
+    ]
+  },
+  {
+    "id": 5100203,
+    "SkillType": 1,
+    "SuitID": 5100101,
+    "SuitSkillID": 5200001,
+    "skills": [
+      5100203
+    ]
+  },
+  {
+    "id": 5100301,
+    "SkillType": 1,
+    "SuitID": 5100401,
+    "SuitSkillID": 5200002,
+    "skills": [
+      5100301
+    ]
+  },
+  {
+    "id": 5100302,
+    "SkillType": 1,
+    "SuitID": 5100401,
+    "SuitSkillID": 5200002,
+    "skills": [
+      5100302
+    ]
+  },
+  {
+    "id": 5100303,
+    "SkillType": 1,
+    "SuitID": 5100401,
+    "SuitSkillID": 5200002,
+    "skills": [
+      5100303
+    ]
+  },
+  {
+    "id": 5100401,
+    "SkillType": 1,
+    "SuitID": 5100301,
+    "SuitSkillID": 5200002,
+    "skills": [
+      5100401
+    ]
+  },
+  {
+    "id": 5100402,
+    "SkillType": 1,
+    "SuitID": 5100301,
+    "SuitSkillID": 5200002,
+    "skills": [
+      5100402
+    ]
+  },
+  {
+    "id": 5100403,
+    "SkillType": 1,
+    "SuitID": 5100301,
+    "SuitSkillID": 5200002,
+    "skills": [
+      5100403
+    ]
+  },
+  {
+    "id": 5100501,
+    "SkillType": 1,
+    "SuitID": 5100601,
+    "SuitSkillID": 5200003,
+    "skills": [
+      5100501
+    ]
+  },
+  {
+    "id": 5100502,
+    "SkillType": 1,
+    "SuitID": 5100601,
+    "SuitSkillID": 5200003,
+    "skills": [
+      5100502
+    ]
+  },
+  {
+    "id": 5100503,
+    "SkillType": 1,
+    "SuitID": 5100601,
+    "SuitSkillID": 5200003,
+    "skills": [
+      5100503
+    ]
+  },
+  {
+    "id": 5100601,
+    "SkillType": 1,
+    "SuitID": 5100501,
+    "SuitSkillID": 5200003,
+    "skills": [
+      5100601
+    ]
+  },
+  {
+    "id": 5100602,
+    "SkillType": 1,
+    "SuitID": 5100501,
+    "SuitSkillID": 5200003,
+    "skills": [
+      5100602
+    ]
+  },
+  {
+    "id": 5100603,
+    "SkillType": 1,
+    "SuitID": 5100501,
+    "SuitSkillID": 5200003,
+    "skills": [
+      5100603
+    ]
+  },
+  {
+    "id": 5100701,
+    "SkillType": 1,
+    "SuitID": 5100801,
+    "SuitSkillID": 5200004,
+    "skills": [
+      5100701
+    ]
+  },
+  {
+    "id": 5100702,
+    "SkillType": 1,
+    "SuitID": 5100801,
+    "SuitSkillID": 5200004,
+    "skills": [
+      5100702
+    ]
+  },
+  {
+    "id": 5100703,
+    "SkillType": 1,
+    "SuitID": 5100801,
+    "SuitSkillID": 5200004,
+    "skills": [
+      5100703
+    ]
+  },
+  {
+    "id": 5100801,
+    "SkillType": 1,
+    "SuitID": 5100701,
+    "SuitSkillID": 5200004,
+    "skills": [
+      5100801
+    ]
+  },
+  {
+    "id": 5100802,
+    "SkillType": 1,
+    "SuitID": 5100701,
+    "SuitSkillID": 5200004,
+    "skills": [
+      5100802
+    ]
+  },
+  {
+    "id": 5100803,
+    "SkillType": 1,
+    "SuitID": 5100701,
+    "SuitSkillID": 5200004,
+    "skills": [
+      5100803
+    ]
+  },
+  {
+    "id": 5100901,
+    "SkillType": 1,
+    "SuitID": 5101001,
+    "SuitSkillID": 5200005,
+    "skills": [
+      5100901
+    ]
+  },
+  {
+    "id": 5100902,
+    "SkillType": 1,
+    "SuitID": 5101001,
+    "SuitSkillID": 5200005,
+    "skills": [
+      5100902
+    ]
+  },
+  {
+    "id": 5100903,
+    "SkillType": 1,
+    "SuitID": 5101001,
+    "SuitSkillID": 5200005,
+    "skills": [
+      5100903
+    ]
+  },
+  {
+    "id": 5101001,
+    "SkillType": 1,
+    "SuitID": 5100901,
+    "SuitSkillID": 5200005,
+    "skills": [
+      5101001
+    ]
+  },
+  {
+    "id": 5101002,
+    "SkillType": 1,
+    "SuitID": 5100901,
+    "SuitSkillID": 5200005,
+    "skills": [
+      5101002
+    ]
+  },
+  {
+    "id": 5101003,
+    "SkillType": 1,
+    "SuitID": 5100901,
+    "SuitSkillID": 5200005,
+    "skills": [
+      5101003
+    ]
+  },
+  {
+    "id": 5101101,
+    "SkillType": 1,
+    "SuitID": 5101201,
+    "SuitSkillID": 5200006,
+    "skills": [
+      5101101
+    ]
+  },
+  {
+    "id": 5101102,
+    "SkillType": 1,
+    "SuitID": 5101201,
+    "SuitSkillID": 5200006,
+    "skills": [
+      5101102
+    ]
+  },
+  {
+    "id": 5101103,
+    "SkillType": 1,
+    "SuitID": 5101201,
+    "SuitSkillID": 5200006,
+    "skills": [
+      5101103
+    ]
+  },
+  {
+    "id": 5101201,
+    "SkillType": 1,
+    "SuitID": 5101101,
+    "SuitSkillID": 5200006,
+    "skills": [
+      5101201
+    ]
+  },
+  {
+    "id": 5101202,
+    "SkillType": 1,
+    "SuitID": 5101101,
+    "SuitSkillID": 5200006,
+    "skills": [
+      5101202
+    ]
+  },
+  {
+    "id": 5101203,
+    "SkillType": 1,
+    "SuitID": 5101101,
+    "SuitSkillID": 5200006,
+    "skills": [
+      5101203
+    ]
+  },
+  {
+    "id": 5101301,
+    "SkillType": 1,
+    "SuitID": 5101401,
+    "SuitSkillID": 5200007,
+    "skills": [
+      5101301
+    ]
+  },
+  {
+    "id": 5101302,
+    "SkillType": 1,
+    "SuitID": 5101401,
+    "SuitSkillID": 5200007,
+    "skills": [
+      5101302
+    ]
+  },
+  {
+    "id": 5101303,
+    "SkillType": 1,
+    "SuitID": 5101401,
+    "SuitSkillID": 5200007,
+    "skills": [
+      5101303
+    ]
+  },
+  {
+    "id": 5101401,
+    "SkillType": 1,
+    "SuitID": 5101301,
+    "SuitSkillID": 5200007,
+    "skills": [
+      5101401
+    ]
+  },
+  {
+    "id": 5101402,
+    "SkillType": 1,
+    "SuitID": 5101301,
+    "SuitSkillID": 5200007,
+    "skills": [
+      5101402
+    ]
+  },
+  {
+    "id": 5101403,
+    "SkillType": 1,
+    "SuitID": 5101301,
+    "SuitSkillID": 5200007,
+    "skills": [
+      5101403
+    ]
+  },
+  {
+    "id": 5101501,
+    "SkillType": 1,
+    "SuitID": 5101601,
+    "SuitSkillID": 5200008,
+    "skills": [
+      5101501
+    ]
+  },
+  {
+    "id": 5101502,
+    "SkillType": 1,
+    "SuitID": 5101601,
+    "SuitSkillID": 5200008,
+    "skills": [
+      5101502
+    ]
+  },
+  {
+    "id": 5101503,
+    "SkillType": 1,
+    "SuitID": 5101601,
+    "SuitSkillID": 5200008,
+    "skills": [
+      5101503
+    ]
+  },
+  {
+    "id": 5101601,
+    "SkillType": 1,
+    "SuitID": 5101501,
+    "SuitSkillID": 5200008,
+    "skills": [
+      5101601
+    ]
+  },
+  {
+    "id": 5101602,
+    "SkillType": 1,
+    "SuitID": 5101501,
+    "SuitSkillID": 5200008,
+    "skills": [
+      5101602
+    ]
+  },
+  {
+    "id": 5101603,
+    "SkillType": 1,
+    "SuitID": 5101501,
+    "SuitSkillID": 5200008,
+    "skills": [
+      5101603
+    ]
+  },
+  {
+    "id": 5200001,
+    "SkillType": 10,
+    "SuitID": 0,
+    "SuitSkillID": 5200001,
+    "skills": [
+      5200001
+    ]
+  },
+  {
+    "id": 5200002,
+    "SkillType": 10,
+    "SuitID": 0,
+    "SuitSkillID": 5200002,
+    "skills": [
+      5200002
+    ]
+  },
+  {
+    "id": 5200003,
+    "SkillType": 10,
+    "SuitID": 0,
+    "SuitSkillID": 5200003,
+    "skills": [
+      5200003
+    ]
+  },
+  {
+    "id": 5200004,
+    "SkillType": 10,
+    "SuitID": 0,
+    "SuitSkillID": 5200004,
+    "skills": [
+      5200004
+    ]
+  },
+  {
+    "id": 5200005,
+    "SkillType": 10,
+    "SuitID": 0,
+    "SuitSkillID": 5200005,
+    "skills": [
+      5200005
+    ]
+  },
+  {
+    "id": 5200006,
+    "SkillType": 10,
+    "SuitID": 0,
+    "SuitSkillID": 5200006,
+    "skills": [
+      5200006
+    ]
+  },
+  {
+    "id": 5200007,
+    "SkillType": 10,
+    "SuitID": 0,
+    "SuitSkillID": 5200007,
+    "skills": [
+      5200007
+    ]
+  },
+  {
+    "id": 5200008,
+    "SkillType": 10,
+    "SuitID": 0,
+    "SuitSkillID": 5200008,
+    "skills": [
+      5200008
+    ]
+  }
+]

@@ -1,0 +1,59 @@
+{
+  "name": "Emoji_Emoji",
+  "assembly": "HotFixBattle.dll",
+  "read_impl_rva": "0x6a63b08",
+  "fields": [
+    {
+      "type": "int",
+      "name": "id",
+      "offset": 32,
+      "reader": "readInt"
+    },
+    {
+      "type": "string",
+      "name": "notes",
+      "offset": 40,
+      "reader": "readLocalString"
+    },
+    {
+      "type": "int",
+      "name": "group",
+      "offset": 48,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "languageid",
+      "offset": 52,
+      "reader": "readInt"
+    },
+    {
+      "type": "string",
+      "name": "path",
+      "offset": 56,
+      "reader": "readLocalString"
+    },
+    {
+      "type": "int",
+      "name": "atlasId",
+      "offset": 64,
+      "reader": "readInt"
+    },
+    {
+      "type": "string",
+      "name": "icon",
+      "offset": 72,
+      "reader": "readLocalString"
+    }
+  ],
+  "native_reader_calls": [
+    "readInt",
+    "readLocalString",
+    "readInt",
+    "readInt",
+    "readLocalString",
+    "readInt",
+    "readLocalString"
+  ],
+  "field_count_matches_native_calls": true
+}

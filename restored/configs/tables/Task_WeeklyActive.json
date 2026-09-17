@@ -1,0 +1,52 @@
+[
+  {
+    "ID": 1,
+    "Requirements": 20,
+    "Reward": [
+      [
+        2,
+        200
+      ]
+    ]
+  },
+  {
+    "ID": 2,
+    "Requirements": 40,
+    "Reward": [
+      [
+        112,
+        1
+      ]
+    ]
+  },
+  {
+    "ID": 3,
+    "Requirements": 60,
+    "Reward": [
+      [
+        125,
+        2
+      ]
+    ]
+  },
+  {
+    "ID": 4,
+    "Requirements": 80,
+    "Reward": [
+      [
+        113,
+        1
+      ]
+    ]
+  },
+  {
+    "ID": 5,
+    "Requirements": 100,
+    "Reward": [
+      [
+        115,
+        2
+      ]
+    ]
+  }
+]

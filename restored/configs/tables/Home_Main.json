@@ -1,0 +1,352 @@
+[
+  {
+    "ID": 10100,
+    "conditionId": [],
+    "conditionParams": [],
+    "cost": [],
+    "outward": 0
+  },
+  {
+    "ID": 10101,
+    "conditionId": [
+      1
+    ],
+    "conditionParams": [
+      "{\"Lv\":\">=1\"}"
+    ],
+    "cost": [],
+    "outward": 0
+  },
+  {
+    "ID": 10102,
+    "conditionId": [
+      1
+    ],
+    "conditionParams": [
+      "{\"Lv\":\">=5\"}"
+    ],
+    "cost": [
+      [
+        1,
+        2000
+      ]
+    ],
+    "outward": 0
+  },
+  {
+    "ID": 10103,
+    "conditionId": [
+      1
+    ],
+    "conditionParams": [
+      "{\"Lv\":\">=9\"}"
+    ],
+    "cost": [
+      [
+        1,
+        999999
+      ]
+    ],
+    "outward": 0
+  },
+  {
+    "ID": 10200,
+    "conditionId": [],
+    "conditionParams": [],
+    "cost": [],
+    "outward": 0
+  },
+  {
+    "ID": 10201,
+    "conditionId": [
+      1
+    ],
+    "conditionParams": [
+      "{\"Lv\":\">=3\"}"
+    ],
+    "cost": [],
+    "outward": 0
+  },
+  {
+    "ID": 10202,
+    "conditionId": [
+      1
+    ],
+    "conditionParams": [
+      "{\"Lv\":\">=7\"}"
+    ],
+    "cost": [
+      [
+        1,
+        2000
+      ]
+    ],
+    "outward": 0
+  },
+  {
+    "ID": 10203,
+    "conditionId": [
+      1
+    ],
+    "conditionParams": [
+      "{\"Lv\":\">=11\"}"
+    ],
+    "cost": [
+      [
+        1,
+        999999
+      ]
+    ],
+    "outward": 0
+  },
+  {
+    "ID": 10300,
+    "conditionId": [],
+    "conditionParams": [],
+    "cost": [],
+    "outward": 0
+  },
+  {
+    "ID": 10301,
+    "conditionId": [
+      1
+    ],
+    "conditionParams": [
+      "{\"Lv\":\">=6\"}"
+    ],
+    "cost": [],
+    "outward": 0
+  },
+  {
+    "ID": 10302,
+    "conditionId": [
+      1
+    ],
+    "conditionParams": [
+      "{\"Lv\":\">=10\"}"
+    ],
+    "cost": [
+      [
+        1,
+        2000
+      ]
+    ],
+    "outward": 0
+  },
+  {
+    "ID": 10303,
+    "conditionId": [
+      1
+    ],
+    "conditionParams": [
+      "{\"Lv\":\">=14\"}"
+    ],
+    "cost": [
+      [
+        1,
+        999999
+      ]
+    ],
+    "outward": 0
+  },
+  {
+    "ID": 10400,
+    "conditionId": [],
+    "conditionParams": [],
+    "cost": [],
+    "outward": 0
+  },
+  {
+    "ID": 10401,
+    "conditionId": [
+      1
+    ],
+    "conditionParams": [
+      "{\"Lv\":\">=9\"}"
+    ],
+    "cost": [],
+    "outward": 0
+  },
+  {
+    "ID": 10402,
+    "conditionId": [
+      1
+    ],
+    "conditionParams": [
+      "{\"Lv\":\">=13\"}"
+    ],
+    "cost": [
+      [
+        1,
+        2000
+      ]
+    ],
+    "outward": 0
+  },
+  {
+    "ID": 10403,
+    "conditionId": [
+      1
+    ],
+    "conditionParams": [
+      "{\"Lv\":\">=17\"}"
+    ],
+    "cost": [
+      [
+        1,
+        999999
+      ]
+    ],
+    "outward": 0
+  },
+  {
+    "ID": 20100,
+    "conditionId": [],
+    "conditionParams": [],
+    "cost": [],
+    "outward": 0
+  },
+  {
+    "ID": 20101,
+    "conditionId": [
+      1
+    ],
+    "conditionParams": [
+      "{\"Lv\":\">=2\"}"
+    ],
+    "cost": [],
+    "outward": 0
+  },
+  {
+    "ID": 20102,
+    "conditionId": [
+      1
+    ],
+    "conditionParams": [
+      "{\"Lv\":\">=12\"}"
+    ],
+    "cost": [
+      [
+        1,
+        2000
+      ]
+    ],
+    "outward": 0
+  },
+  {
+    "ID": 20103,
+    "conditionId": [
+      1
+    ],
+    "conditionParams": [
+      "{\"Lv\":\">=22\"}"
+    ],
+    "cost": [
+      [
+        1,
+        999999
+      ]
+    ],
+    "outward": 0
+  },
+  {
+    "ID": 30100,
+    "conditionId": [],
+    "conditionParams": [],
+    "cost": [],
+    "outward": 0
+  },
+  {
+    "ID": 30101,
+    "conditionId": [
+      1
+    ],
+    "conditionParams": [
+      "{\"Lv\":\">=4\"}"
+    ],
+    "cost": [],
+    "outward": 0
+  },
+  {
+    "ID": 30102,
+    "conditionId": [
+      1
+    ],
+    "conditionParams": [
+      "{\"Lv\":\">=9\"}"
+    ],
+    "cost": [
+      [
+        2,
+        100
+      ]
+    ],
+    "outward": 0
+  },
+  {
+    "ID": 30103,
+    "conditionId": [
+      1
+    ],
+    "conditionParams": [
+      "{\"Lv\":\">=14\"}"
+    ],
+    "cost": [
+      [
+        2,
+        200
+      ]
+    ],
+    "outward": 0
+  },
+  {
+    "ID": 60100,
+    "conditionId": [],
+    "conditionParams": [],
+    "cost": [],
+    "outward": 0
+  },
+  {
+    "ID": 60101,
+    "conditionId": [
+      1
+    ],
+    "conditionParams": [
+      "{\"Lv\":\">=2\"}"
+    ],
+    "cost": [],
+    "outward": 0
+  },
+  {
+    "ID": 60102,
+    "conditionId": [
+      1
+    ],
+    "conditionParams": [
+      "{\"Lv\":\">=6\"}"
+    ],
+    "cost": [
+      [
+        1,
+        2000
+      ]
+    ],
+    "outward": 0
+  },
+  {
+    "ID": 60103,
+    "conditionId": [
+      1
+    ],
+    "conditionParams": [
+      "{\"Lv\":\">=10\"}"
+    ],
+    "cost": [
+      [
+        1,
+        999999
+      ]
+    ],
+    "outward": 0
+  }
+]

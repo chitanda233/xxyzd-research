@@ -1,0 +1,38 @@
+{
+  "name": "EventDiving_DiveRewardGroup",
+  "assembly": "HotFixBattle.dll",
+  "read_impl_rva": "0x6a6f710",
+  "fields": [
+    {
+      "type": "int",
+      "name": "ID",
+      "offset": 32,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "RewardGroupID",
+      "offset": 36,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "BridgeNeed",
+      "offset": 40,
+      "reader": "readInt"
+    },
+    {
+      "type": "int[][]",
+      "name": "Rewards",
+      "offset": 48,
+      "reader": "readArrayArrayint"
+    }
+  ],
+  "native_reader_calls": [
+    "readInt",
+    "readInt",
+    "readInt",
+    "readArrayArrayint"
+  ],
+  "field_count_matches_native_calls": true
+}

@@ -1,0 +1,32 @@
+[
+  {
+    "key": "ActivityCalendarStartTime",
+    "Desc": "冲刺活动循环的开启时间(第n天开)",
+    "TypeInt": 1,
+    "TypeIntArray": [],
+    "TypeString": "",
+    "TypeFloat": 0.0,
+    "TypeFloatArray": [],
+    "TypeStringArray": []
+  },
+  {
+    "key": "CalendarRoundTarget",
+    "Desc": "冲刺活动目标类型-参数:\n101:抽装备TargetType，普抽装备积分，高抽装备积分\n102:抽芯片TargetType，普抽芯片积分，高抽芯片积分\n",
+    "TypeInt": 0,
+    "TypeIntArray": [],
+    "TypeString": "101,1,1|102,1,5",
+    "TypeFloat": 0.0,
+    "TypeFloatArray": [],
+    "TypeStringArray": []
+  },
+  {
+    "key": "CalendarBoxRoundTarget",
+    "Desc": "冲刺活动目标类型-参数:\n按顺序，抽不同宝箱1次可以获得的积分：\n1：装备宝箱高级\n2：装备宝箱\n3：芯片宝箱高级\n4：芯片宝箱\n5：僚机宝箱\n",
+    "TypeInt": 0,
+    "TypeIntArray": [],
+    "TypeString": "5,1,5,1,5",
+    "TypeFloat": 0.0,
+    "TypeFloatArray": [],
+    "TypeStringArray": []
+  }
+]

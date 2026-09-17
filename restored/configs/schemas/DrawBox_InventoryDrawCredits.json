@@ -1,0 +1,31 @@
+{
+  "name": "DrawBox_InventoryDrawCredits",
+  "assembly": "HotFixBattle.dll",
+  "read_impl_rva": "0x6a5abe8",
+  "fields": [
+    {
+      "type": "int",
+      "name": "ID",
+      "offset": 32,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "Quality",
+      "offset": 36,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "Credits",
+      "offset": 40,
+      "reader": "readInt"
+    }
+  ],
+  "native_reader_calls": [
+    "readInt",
+    "readInt",
+    "readInt"
+  ],
+  "field_count_matches_native_calls": true
+}

@@ -1,0 +1,17 @@
+model_plane_5.png
+size:1024,512
+filter:Linear,Linear
+pma:true
+plane_model_5_01
+bounds:293,270,297,203
+offsets:26,65,350,350
+plane_model_5_02
+bounds:0,247,291,226
+offsets:24,52,350,350
+plane_model_5_03
+bounds:0,0,270,245
+offsets:29,41,350,350
+plane_model_5_04
+bounds:592,221,252,258
+offsets:32,34,350,350
+rotate:90

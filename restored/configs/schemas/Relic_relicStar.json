@@ -1,0 +1,52 @@
+{
+  "name": "Relic_relicStar",
+  "assembly": "HotFixBattle.dll",
+  "read_impl_rva": "0x6ada29c",
+  "fields": [
+    {
+      "type": "int",
+      "name": "Id",
+      "offset": 32,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "SupremeId",
+      "offset": 36,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "Star",
+      "offset": 40,
+      "reader": "readInt"
+    },
+    {
+      "type": "int[][]",
+      "name": "StarUpCost",
+      "offset": 48,
+      "reader": "readArrayArrayint"
+    },
+    {
+      "type": "string[]",
+      "name": "FeatureOnStarUpSelf",
+      "offset": 56,
+      "reader": "readArraystring"
+    },
+    {
+      "type": "string[]",
+      "name": "FeatureOnStarUpAll",
+      "offset": 64,
+      "reader": "readArraystring"
+    }
+  ],
+  "native_reader_calls": [
+    "readInt",
+    "readInt",
+    "readInt",
+    "readArrayArrayint",
+    "readArraystring",
+    "readArraystring"
+  ],
+  "field_count_matches_native_calls": true
+}

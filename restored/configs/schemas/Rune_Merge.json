@@ -1,0 +1,52 @@
+{
+  "name": "Rune_Merge",
+  "assembly": "HotFixBattle.dll",
+  "read_impl_rva": "0x6ae37e8",
+  "fields": [
+    {
+      "type": "int",
+      "name": "ID",
+      "offset": 32,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "Quality",
+      "offset": 36,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "NextQuality",
+      "offset": 40,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "RuneType",
+      "offset": 44,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "MergeCount",
+      "offset": 48,
+      "reader": "readInt"
+    },
+    {
+      "type": "string",
+      "name": "DropNameLanguageId",
+      "offset": 56,
+      "reader": "readLocalString"
+    }
+  ],
+  "native_reader_calls": [
+    "readInt",
+    "readInt",
+    "readInt",
+    "readInt",
+    "readInt",
+    "readLocalString"
+  ],
+  "field_count_matches_native_calls": true
+}

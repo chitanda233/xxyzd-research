@@ -1,0 +1,31 @@
+{
+  "name": "EventBigA_MineRandomRewards",
+  "assembly": "HotFixBattle.dll",
+  "read_impl_rva": "0x6a6a144",
+  "fields": [
+    {
+      "type": "int",
+      "name": "ID",
+      "offset": 32,
+      "reader": "readInt"
+    },
+    {
+      "type": "int[][]",
+      "name": "MineParameter",
+      "offset": 40,
+      "reader": "readArrayArrayint"
+    },
+    {
+      "type": "int[][]",
+      "name": "reward",
+      "offset": 48,
+      "reader": "readArrayArrayint"
+    }
+  ],
+  "native_reader_calls": [
+    "readInt",
+    "readArrayArrayint",
+    "readArrayArrayint"
+  ],
+  "field_count_matches_native_calls": true
+}

@@ -1,0 +1,38 @@
+{
+  "name": "Character_MonsterTrait",
+  "assembly": "HotFixBattle.dll",
+  "read_impl_rva": "0x68ca0bc",
+  "fields": [
+    {
+      "type": "int",
+      "name": "ID",
+      "offset": 32,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "SkillId",
+      "offset": 36,
+      "reader": "readInt"
+    },
+    {
+      "type": "string",
+      "name": "MaterialId",
+      "offset": 40,
+      "reader": "readLocalString"
+    },
+    {
+      "type": "string",
+      "name": "IconId",
+      "offset": 48,
+      "reader": "readLocalString"
+    }
+  ],
+  "native_reader_calls": [
+    "readInt",
+    "readInt",
+    "readLocalString",
+    "readLocalString"
+  ],
+  "field_count_matches_native_calls": true
+}

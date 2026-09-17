@@ -1,0 +1,80 @@
+{
+  "name": "Drop_drop",
+  "assembly": "HotFixBattle.dll",
+  "read_impl_rva": "0x6a62048",
+  "fields": [
+    {
+      "type": "int",
+      "name": "drop_id",
+      "offset": 32,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "atlasId",
+      "offset": 36,
+      "reader": "readInt"
+    },
+    {
+      "type": "string",
+      "name": "icon",
+      "offset": 40,
+      "reader": "readLocalString"
+    },
+    {
+      "type": "int",
+      "name": "quality",
+      "offset": 48,
+      "reader": "readInt"
+    },
+    {
+      "type": "string",
+      "name": "nameID",
+      "offset": 56,
+      "reader": "readLocalString"
+    },
+    {
+      "type": "string",
+      "name": "describeID",
+      "offset": 64,
+      "reader": "readLocalString"
+    },
+    {
+      "type": "int[][]",
+      "name": "Rand1",
+      "offset": 72,
+      "reader": "readArrayArrayint"
+    },
+    {
+      "type": "string",
+      "name": "iconB",
+      "offset": 80,
+      "reader": "readLocalString"
+    },
+    {
+      "type": "string",
+      "name": "nameIDB",
+      "offset": 88,
+      "reader": "readLocalString"
+    },
+    {
+      "type": "string",
+      "name": "describeIDB",
+      "offset": 96,
+      "reader": "readLocalString"
+    }
+  ],
+  "native_reader_calls": [
+    "readInt",
+    "readInt",
+    "readLocalString",
+    "readInt",
+    "readLocalString",
+    "readLocalString",
+    "readArrayArrayint",
+    "readLocalString",
+    "readLocalString",
+    "readLocalString"
+  ],
+  "field_count_matches_native_calls": true
+}

@@ -1,0 +1,17 @@
+model_plane_2.png
+size:512,512
+filter:Linear,Linear
+pma:true
+plane_model_2_01
+bounds:216,27,218,208
+offsets:65,67,350,350
+plane_model_2_02
+bounds:0,223,214,216
+offsets:64,62,350,350
+plane_model_2_03
+bounds:0,0,208,221
+offsets:65,59,350,350
+plane_model_2_04
+bounds:216,237,202,226
+offsets:67,54,350,350
+rotate:90

@@ -1,0 +1,45 @@
+{
+  "name": "GuildChest_guildChestConfig",
+  "assembly": "HotFixBattle.dll",
+  "read_impl_rva": "0x6a89924",
+  "fields": [
+    {
+      "type": "int",
+      "name": "ID",
+      "offset": 32,
+      "reader": "readInt"
+    },
+    {
+      "type": "string",
+      "name": "key",
+      "offset": 40,
+      "reader": "readLocalString"
+    },
+    {
+      "type": "int",
+      "name": "TypeInt",
+      "offset": 48,
+      "reader": "readInt"
+    },
+    {
+      "type": "int[]",
+      "name": "TypeIntArray",
+      "offset": 56,
+      "reader": "readArrayint"
+    },
+    {
+      "type": "string",
+      "name": "TypeString",
+      "offset": 64,
+      "reader": "readLocalString"
+    }
+  ],
+  "native_reader_calls": [
+    "readInt",
+    "readLocalString",
+    "readInt",
+    "readArrayint",
+    "readLocalString"
+  ],
+  "field_count_matches_native_calls": true
+}

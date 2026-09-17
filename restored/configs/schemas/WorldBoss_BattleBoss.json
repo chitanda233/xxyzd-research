@@ -1,0 +1,38 @@
+{
+  "name": "WorldBoss_BattleBoss",
+  "assembly": "HotFixBattle.dll",
+  "read_impl_rva": "0x6b22334",
+  "fields": [
+    {
+      "type": "int",
+      "name": "ID",
+      "offset": 32,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "Tag",
+      "offset": 36,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "Bossid",
+      "offset": 40,
+      "reader": "readInt"
+    },
+    {
+      "type": "int[][]",
+      "name": "TimeReward",
+      "offset": 48,
+      "reader": "readArrayArrayint"
+    }
+  ],
+  "native_reader_calls": [
+    "readInt",
+    "readInt",
+    "readInt",
+    "readArrayArrayint"
+  ],
+  "field_count_matches_native_calls": true
+}

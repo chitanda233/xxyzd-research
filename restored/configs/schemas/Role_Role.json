@@ -1,0 +1,220 @@
+{
+  "name": "Role_Role",
+  "assembly": "HotFixBattle.dll",
+  "read_impl_rva": "0x6adec70",
+  "fields": [
+    {
+      "type": "int",
+      "name": "Id",
+      "offset": 32,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "NameId",
+      "offset": 36,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "Quality",
+      "offset": 40,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "Sort",
+      "offset": 44,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "StoryId",
+      "offset": 48,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "FromDes",
+      "offset": 52,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "Atlas",
+      "offset": 56,
+      "reader": "readInt"
+    },
+    {
+      "type": "string",
+      "name": "Icon",
+      "offset": 64,
+      "reader": "readLocalString"
+    },
+    {
+      "type": "string",
+      "name": "IconQualityBg",
+      "offset": 72,
+      "reader": "readLocalString"
+    },
+    {
+      "type": "string",
+      "name": "RoleRes",
+      "offset": 80,
+      "reader": "readLocalString"
+    },
+    {
+      "type": "string",
+      "name": "RoleQualityBgRes",
+      "offset": 88,
+      "reader": "readLocalString"
+    },
+    {
+      "type": "string",
+      "name": "ShowModel",
+      "offset": 96,
+      "reader": "readLocalString"
+    },
+    {
+      "type": "string",
+      "name": "ShowModelForBase",
+      "offset": 104,
+      "reader": "readLocalString"
+    },
+    {
+      "type": "int",
+      "name": "ShowModelID",
+      "offset": 112,
+      "reader": "readInt"
+    },
+    {
+      "type": "string",
+      "name": "ShowModel_B",
+      "offset": 120,
+      "reader": "readLocalString"
+    },
+    {
+      "type": "string",
+      "name": "ShowModelForBase_B",
+      "offset": 128,
+      "reader": "readLocalString"
+    },
+    {
+      "type": "int",
+      "name": "ShowModelID_B",
+      "offset": 136,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "SkillAtlas",
+      "offset": 140,
+      "reader": "readInt"
+    },
+    {
+      "type": "string",
+      "name": "SkillIcon",
+      "offset": 144,
+      "reader": "readLocalString"
+    },
+    {
+      "type": "int",
+      "name": "skillName",
+      "offset": 152,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "EntityId",
+      "offset": 156,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "SuperSkill",
+      "offset": 160,
+      "reader": "readInt"
+    },
+    {
+      "type": "int[]",
+      "name": "FeatureSkills",
+      "offset": 168,
+      "reader": "readArrayint"
+    },
+    {
+      "type": "int[]",
+      "name": "LevelStage",
+      "offset": 176,
+      "reader": "readArrayint"
+    },
+    {
+      "type": "int[]",
+      "name": "LevelStageAttr",
+      "offset": 184,
+      "reader": "readArrayint"
+    },
+    {
+      "type": "int",
+      "name": "FragmentId",
+      "offset": 192,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "UnLockFragmentCount",
+      "offset": 196,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "RoleEntity",
+      "offset": 200,
+      "reader": "readInt"
+    },
+    {
+      "type": "int[]",
+      "name": "Skins",
+      "offset": 208,
+      "reader": "readArrayint"
+    },
+    {
+      "type": "int",
+      "name": "ShopGoodsId",
+      "offset": 216,
+      "reader": "readInt"
+    }
+  ],
+  "native_reader_calls": [
+    "readInt",
+    "readInt",
+    "readInt",
+    "readInt",
+    "readInt",
+    "readInt",
+    "readInt",
+    "readLocalString",
+    "readLocalString",
+    "readLocalString",
+    "readLocalString",
+    "readLocalString",
+    "readLocalString",
+    "readInt",
+    "readLocalString",
+    "readLocalString",
+    "readInt",
+    "readInt",
+    "readLocalString",
+    "readInt",
+    "readInt",
+    "readInt",
+    "readArrayint",
+    "readArrayint",
+    "readArrayint",
+    "readInt",
+    "readInt",
+    "readInt",
+    "readArrayint",
+    "readInt"
+  ],
+  "field_count_matches_native_calls": true
+}

@@ -1,0 +1,87 @@
+{
+  "name": "Mission_WaveMission",
+  "assembly": "HotFixBattle.dll",
+  "read_impl_rva": "0x6ac7864",
+  "fields": [
+    {
+      "type": "int",
+      "name": "id",
+      "offset": 32,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "GroupId",
+      "offset": 36,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "MapIndex",
+      "offset": 40,
+      "reader": "readInt"
+    },
+    {
+      "type": "string[]",
+      "name": "missionPool",
+      "offset": 48,
+      "reader": "readArraystring"
+    },
+    {
+      "type": "string[]",
+      "name": "firstMissionPool",
+      "offset": 56,
+      "reader": "readArraystring"
+    },
+    {
+      "type": "FP",
+      "name": "refreshTime",
+      "offset": 64,
+      "reader": "readFp"
+    },
+    {
+      "type": "int",
+      "name": "refreshCount",
+      "offset": 72,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "missinType",
+      "offset": 76,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "bgMusic",
+      "offset": 80,
+      "reader": "readInt"
+    },
+    {
+      "type": "FP",
+      "name": "hpUpgrade",
+      "offset": 88,
+      "reader": "readFp"
+    },
+    {
+      "type": "FP",
+      "name": "attackUp",
+      "offset": 96,
+      "reader": "readFp"
+    }
+  ],
+  "native_reader_calls": [
+    "readInt",
+    "readInt",
+    "readInt",
+    "readArraystring",
+    "readArraystring",
+    "readFp",
+    "readInt",
+    "readInt",
+    "readInt",
+    "readFp",
+    "readFp"
+  ],
+  "field_count_matches_native_calls": true
+}

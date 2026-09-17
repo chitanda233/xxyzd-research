@@ -1,0 +1,94 @@
+{
+  "name": "IAP_PushGift",
+  "assembly": "HotFixBattle.dll",
+  "read_impl_rva": "0x6aa7834",
+  "fields": [
+    {
+      "type": "int",
+      "name": "id",
+      "offset": 32,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "UIGroup",
+      "offset": 36,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "UIStyle",
+      "offset": 40,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "BtnType",
+      "offset": 44,
+      "reader": "readInt"
+    },
+    {
+      "type": "string",
+      "name": "Title",
+      "offset": 48,
+      "reader": "readLocalString"
+    },
+    {
+      "type": "string",
+      "name": "Desc",
+      "offset": 56,
+      "reader": "readLocalString"
+    },
+    {
+      "type": "long",
+      "name": "LastTime",
+      "offset": 64,
+      "reader": "readLong"
+    },
+    {
+      "type": "int",
+      "name": "ShopId",
+      "offset": 72,
+      "reader": "readInt"
+    },
+    {
+      "type": "int[]",
+      "name": "GoodsId",
+      "offset": 80,
+      "reader": "readArrayint"
+    },
+    {
+      "type": "string",
+      "name": "Unlock",
+      "offset": 88,
+      "reader": "readLocalString"
+    },
+    {
+      "type": "int",
+      "name": "PopCount",
+      "offset": 96,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "PopCD",
+      "offset": 100,
+      "reader": "readInt"
+    }
+  ],
+  "native_reader_calls": [
+    "readInt",
+    "readInt",
+    "readInt",
+    "readInt",
+    "readLocalString",
+    "readLocalString",
+    "readLong",
+    "readInt",
+    "readArrayint",
+    "readLocalString",
+    "readInt",
+    "readInt"
+  ],
+  "field_count_matches_native_calls": true
+}

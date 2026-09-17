@@ -1,0 +1,14 @@
+[
+  {
+    "ID": 1,
+    "DesId": "DrawBox_RateName_3",
+    "LootBoxId": 1,
+    "MaxCount": 10
+  },
+  {
+    "ID": 2,
+    "DesId": "DrawBox_RateName_4",
+    "LootBoxId": 2,
+    "MaxCount": 10
+  }
+]

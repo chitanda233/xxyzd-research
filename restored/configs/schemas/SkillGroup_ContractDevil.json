@@ -1,0 +1,31 @@
+{
+  "name": "SkillGroup_ContractDevil",
+  "assembly": "HotFixBattle.dll",
+  "read_impl_rva": "0x6af6c14",
+  "fields": [
+    {
+      "type": "int",
+      "name": "EventID",
+      "offset": 32,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "GetID",
+      "offset": 36,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "Weight",
+      "offset": 40,
+      "reader": "readInt"
+    }
+  ],
+  "native_reader_calls": [
+    "readInt",
+    "readInt",
+    "readInt"
+  ],
+  "field_count_matches_native_calls": true
+}

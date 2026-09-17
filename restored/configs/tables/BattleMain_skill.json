@@ -1,0 +1,321 @@
+[
+  {
+    "ID": 10002,
+    "skillType": 1,
+    "skillList": [
+      100021,
+      100022,
+      100023,
+      100024
+    ],
+    "breakSkillId": 0
+  },
+  {
+    "ID": 10003,
+    "skillType": 1,
+    "skillList": [
+      100031,
+      100032,
+      100033,
+      100034
+    ],
+    "breakSkillId": 0
+  },
+  {
+    "ID": 10004,
+    "skillType": 1,
+    "skillList": [
+      100041,
+      100042,
+      100043,
+      100044
+    ],
+    "breakSkillId": 0
+  },
+  {
+    "ID": 10005,
+    "skillType": 1,
+    "skillList": [
+      100051,
+      100052,
+      100053,
+      100054
+    ],
+    "breakSkillId": 0
+  },
+  {
+    "ID": 10006,
+    "skillType": 1,
+    "skillList": [
+      100061,
+      100062,
+      100063,
+      100064
+    ],
+    "breakSkillId": 0
+  },
+  {
+    "ID": 10007,
+    "skillType": 1,
+    "skillList": [
+      100071,
+      100072,
+      100073,
+      100074
+    ],
+    "breakSkillId": 0
+  },
+  {
+    "ID": 10008,
+    "skillType": 1,
+    "skillList": [
+      100081,
+      100082,
+      100083,
+      100084
+    ],
+    "breakSkillId": 0
+  },
+  {
+    "ID": 10009,
+    "skillType": 1,
+    "skillList": [
+      100091,
+      100092,
+      100093,
+      100094
+    ],
+    "breakSkillId": 0
+  },
+  {
+    "ID": 10010,
+    "skillType": 1,
+    "skillList": [
+      100101,
+      100102,
+      100103,
+      100104
+    ],
+    "breakSkillId": 0
+  },
+  {
+    "ID": 10011,
+    "skillType": 1,
+    "skillList": [
+      100111,
+      100102,
+      100103,
+      100104
+    ],
+    "breakSkillId": 0
+  },
+  {
+    "ID": 10012,
+    "skillType": 1,
+    "skillList": [
+      100121,
+      100122,
+      100123,
+      100124
+    ],
+    "breakSkillId": 0
+  },
+  {
+    "ID": 10013,
+    "skillType": 1,
+    "skillList": [
+      100131,
+      100132,
+      100133,
+      100134
+    ],
+    "breakSkillId": 0
+  },
+  {
+    "ID": 10014,
+    "skillType": 1,
+    "skillList": [
+      100141,
+      100142,
+      100143,
+      100144
+    ],
+    "breakSkillId": 0
+  },
+  {
+    "ID": 10015,
+    "skillType": 1,
+    "skillList": [
+      100151,
+      100152,
+      100153,
+      100154
+    ],
+    "breakSkillId": 0
+  },
+  {
+    "ID": 10018,
+    "skillType": 1,
+    "skillList": [
+      100181,
+      100182,
+      100183,
+      100184
+    ],
+    "breakSkillId": 0
+  },
+  {
+    "ID": 10022,
+    "skillType": 1,
+    "skillList": [
+      100221,
+      100222,
+      100223,
+      100224
+    ],
+    "breakSkillId": 0
+  },
+  {
+    "ID": 10023,
+    "skillType": 1,
+    "skillList": [
+      100231,
+      100232,
+      100233,
+      100234
+    ],
+    "breakSkillId": 0
+  },
+  {
+    "ID": 10024,
+    "skillType": 1,
+    "skillList": [
+      100241,
+      100242,
+      100243,
+      100244
+    ],
+    "breakSkillId": 0
+  },
+  {
+    "ID": 10025,
+    "skillType": 1,
+    "skillList": [
+      100251,
+      100252,
+      100253,
+      100254
+    ],
+    "breakSkillId": 0
+  },
+  {
+    "ID": 10026,
+    "skillType": 1,
+    "skillList": [
+      100261,
+      100262,
+      100263,
+      100264
+    ],
+    "breakSkillId": 0
+  },
+  {
+    "ID": 10027,
+    "skillType": 1,
+    "skillList": [
+      100271,
+      100272,
+      100273,
+      100274
+    ],
+    "breakSkillId": 0
+  },
+  {
+    "ID": 20001,
+    "skillType": 2,
+    "skillList": [
+      200011
+    ],
+    "breakSkillId": 0
+  },
+  {
+    "ID": 20012,
+    "skillType": 2,
+    "skillList": [
+      200121
+    ],
+    "breakSkillId": 0
+  },
+  {
+    "ID": 20014,
+    "skillType": 2,
+    "skillList": [
+      200141
+    ],
+    "breakSkillId": 0
+  },
+  {
+    "ID": 20018,
+    "skillType": 2,
+    "skillList": [
+      200181
+    ],
+    "breakSkillId": 0
+  },
+  {
+    "ID": 20020,
+    "skillType": 2,
+    "skillList": [
+      200201
+    ],
+    "breakSkillId": 0
+  },
+  {
+    "ID": 20021,
+    "skillType": 2,
+    "skillList": [
+      200211
+    ],
+    "breakSkillId": 0
+  },
+  {
+    "ID": 20022,
+    "skillType": 2,
+    "skillList": [
+      200221
+    ],
+    "breakSkillId": 0
+  },
+  {
+    "ID": 20024,
+    "skillType": 2,
+    "skillList": [
+      200241
+    ],
+    "breakSkillId": 0
+  },
+  {
+    "ID": 20025,
+    "skillType": 2,
+    "skillList": [
+      200251
+    ],
+    "breakSkillId": 0
+  },
+  {
+    "ID": 20026,
+    "skillType": 2,
+    "skillList": [
+      200261
+    ],
+    "breakSkillId": 0
+  },
+  {
+    "ID": 20027,
+    "skillType": 2,
+    "skillList": [
+      200271
+    ],
+    "breakSkillId": 0
+  }
+]

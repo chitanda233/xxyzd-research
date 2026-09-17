@@ -1,0 +1,30 @@
+[
+  {
+    "Id": 1,
+    "Skill1": 10204,
+    "Skill2": 10205,
+    "Skill3": 0,
+    "FinalSkill": 10206
+  },
+  {
+    "Id": 2,
+    "Skill1": 10204,
+    "Skill2": 10203,
+    "Skill3": 0,
+    "FinalSkill": 10207
+  },
+  {
+    "Id": 3,
+    "Skill1": 10205,
+    "Skill2": 10203,
+    "Skill3": 0,
+    "FinalSkill": 10208
+  },
+  {
+    "Id": 4,
+    "Skill1": 10204,
+    "Skill2": 10205,
+    "Skill3": 10203,
+    "FinalSkill": 10209
+  }
+]

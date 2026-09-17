@@ -1,0 +1,31 @@
+{
+  "name": "ColorRelace_ColorType",
+  "assembly": "HotFixBattle.dll",
+  "read_impl_rva": "0x68cf420",
+  "fields": [
+    {
+      "type": "int",
+      "name": "id",
+      "offset": 32,
+      "reader": "readInt"
+    },
+    {
+      "type": "string",
+      "name": "OriColor",
+      "offset": 40,
+      "reader": "readLocalString"
+    },
+    {
+      "type": "string",
+      "name": "TargetColor",
+      "offset": 48,
+      "reader": "readLocalString"
+    }
+  ],
+  "native_reader_calls": [
+    "readInt",
+    "readLocalString",
+    "readLocalString"
+  ],
+  "field_count_matches_native_calls": true
+}

@@ -1,0 +1,45 @@
+{
+  "name": "Home_Main",
+  "assembly": "HotFixBattle.dll",
+  "read_impl_rva": "0x6a99930",
+  "fields": [
+    {
+      "type": "int",
+      "name": "ID",
+      "offset": 32,
+      "reader": "readInt"
+    },
+    {
+      "type": "int[]",
+      "name": "conditionId",
+      "offset": 40,
+      "reader": "readArrayint"
+    },
+    {
+      "type": "string[]",
+      "name": "conditionParams",
+      "offset": 48,
+      "reader": "readArraystring"
+    },
+    {
+      "type": "int[][]",
+      "name": "cost",
+      "offset": 56,
+      "reader": "readArrayArrayint"
+    },
+    {
+      "type": "int",
+      "name": "outward",
+      "offset": 64,
+      "reader": "readInt"
+    }
+  ],
+  "native_reader_calls": [
+    "readInt",
+    "readArrayint",
+    "readArraystring",
+    "readArrayArrayint",
+    "readInt"
+  ],
+  "field_count_matches_native_calls": true
+}

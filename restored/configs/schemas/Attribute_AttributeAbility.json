@@ -1,0 +1,24 @@
+{
+  "name": "Attribute_AttributeAbility",
+  "assembly": "HotFixBattle.dll",
+  "read_impl_rva": "0x6703770",
+  "fields": [
+    {
+      "type": "string",
+      "name": "ID",
+      "offset": 32,
+      "reader": "readLocalString"
+    },
+    {
+      "type": "float",
+      "name": "Value",
+      "offset": 40,
+      "reader": "readFloat"
+    }
+  ],
+  "native_reader_calls": [
+    "readLocalString",
+    "readFloat"
+  ],
+  "field_count_matches_native_calls": true
+}

@@ -1,0 +1,213 @@
+{
+  "name": "Mission_XMission",
+  "assembly": "HotFixBattle.dll",
+  "read_impl_rva": "0x6ac9704",
+  "fields": [
+    {
+      "type": "int",
+      "name": "id",
+      "offset": 32,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "time",
+      "offset": 36,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "noticType",
+      "offset": 40,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "clearType",
+      "offset": 44,
+      "reader": "readInt"
+    },
+    {
+      "type": "FP",
+      "name": "hpUpgrade",
+      "offset": 48,
+      "reader": "readFp"
+    },
+    {
+      "type": "FP",
+      "name": "attackUp",
+      "offset": 56,
+      "reader": "readFp"
+    },
+    {
+      "type": "int",
+      "name": "cameraType",
+      "offset": 64,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "bgMusic",
+      "offset": 68,
+      "reader": "readInt"
+    },
+    {
+      "type": "int[]",
+      "name": "specialEventGroup",
+      "offset": 72,
+      "reader": "readArrayint"
+    },
+    {
+      "type": "int[]",
+      "name": "EntityId",
+      "offset": 80,
+      "reader": "readArrayint"
+    },
+    {
+      "type": "int",
+      "name": "TrackId",
+      "offset": 88,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "RefreshType",
+      "offset": 92,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "RefreshCount",
+      "offset": 96,
+      "reader": "readInt"
+    },
+    {
+      "type": "int[]",
+      "name": "EntityId2",
+      "offset": 104,
+      "reader": "readArrayint"
+    },
+    {
+      "type": "int",
+      "name": "TrackId2",
+      "offset": 112,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "RefreshType2",
+      "offset": 116,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "RefreshCount2",
+      "offset": 120,
+      "reader": "readInt"
+    },
+    {
+      "type": "int[]",
+      "name": "EntityId3",
+      "offset": 128,
+      "reader": "readArrayint"
+    },
+    {
+      "type": "int",
+      "name": "TrackId3",
+      "offset": 136,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "RefreshType3",
+      "offset": 140,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "RefreshCount3",
+      "offset": 144,
+      "reader": "readInt"
+    },
+    {
+      "type": "int[]",
+      "name": "EntityId4",
+      "offset": 152,
+      "reader": "readArrayint"
+    },
+    {
+      "type": "int",
+      "name": "TrackId4",
+      "offset": 160,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "RefreshType4",
+      "offset": 164,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "RefreshCount4",
+      "offset": 168,
+      "reader": "readInt"
+    },
+    {
+      "type": "int[]",
+      "name": "EntityId5",
+      "offset": 176,
+      "reader": "readArrayint"
+    },
+    {
+      "type": "int",
+      "name": "TrackId5",
+      "offset": 184,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "RefreshType5",
+      "offset": 188,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "RefreshCount5",
+      "offset": 192,
+      "reader": "readInt"
+    }
+  ],
+  "native_reader_calls": [
+    "readInt",
+    "readInt",
+    "readInt",
+    "readInt",
+    "readFp",
+    "readFp",
+    "readInt",
+    "readInt",
+    "readArrayint",
+    "readArrayint",
+    "readInt",
+    "readInt",
+    "readInt",
+    "readArrayint",
+    "readInt",
+    "readInt",
+    "readInt",
+    "readArrayint",
+    "readInt",
+    "readInt",
+    "readInt",
+    "readArrayint",
+    "readInt",
+    "readInt",
+    "readInt",
+    "readArrayint",
+    "readInt",
+    "readInt",
+    "readInt"
+  ],
+  "field_count_matches_native_calls": true
+}

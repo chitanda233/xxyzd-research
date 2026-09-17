@@ -1,0 +1,59 @@
+{
+  "name": "GuildBOSS_guildBossActivity",
+  "assembly": "HotFixBattle.dll",
+  "read_impl_rva": "0x6a84060",
+  "fields": [
+    {
+      "type": "int",
+      "name": "ID",
+      "offset": 32,
+      "reader": "readInt"
+    },
+    {
+      "type": "string",
+      "name": "DifficultyStartTime",
+      "offset": 40,
+      "reader": "readLocalString"
+    },
+    {
+      "type": "string",
+      "name": "StartTime",
+      "offset": 48,
+      "reader": "readLocalString"
+    },
+    {
+      "type": "string",
+      "name": "EndTime",
+      "offset": 56,
+      "reader": "readLocalString"
+    },
+    {
+      "type": "string",
+      "name": "SettleEndTime",
+      "offset": 64,
+      "reader": "readLocalString"
+    },
+    {
+      "type": "int",
+      "name": "BossGroupId",
+      "offset": 72,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "Chapterid",
+      "offset": 76,
+      "reader": "readInt"
+    }
+  ],
+  "native_reader_calls": [
+    "readInt",
+    "readLocalString",
+    "readLocalString",
+    "readLocalString",
+    "readLocalString",
+    "readInt",
+    "readInt"
+  ],
+  "field_count_matches_native_calls": true
+}

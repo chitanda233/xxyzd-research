@@ -1,0 +1,18 @@
+[
+  {
+    "ID": 1,
+    "path": "Assets/_Resources/Scene/Other/Login.unity"
+  },
+  {
+    "ID": 2,
+    "path": "Assets/_Resources/Scene/Other/Main.unity"
+  },
+  {
+    "ID": 3,
+    "path": "Assets/_Resources/Scene/Other/World.unity"
+  },
+  {
+    "ID": 10001,
+    "path": "Assets/_Resources/Scene/Levels/Level1.unity"
+  }
+]

@@ -1,0 +1,95 @@
+[
+  {
+    "Id": 1,
+    "Type": 101,
+    "Round": 4,
+    "GroupIDs": [
+      101,
+      102,
+      103,
+      104
+    ],
+    "FinalRewardID": [
+      101,
+      102,
+      103,
+      104
+    ],
+    "Duration": 7,
+    "RankID": 1,
+    "ShopID": 33,
+    "JumpInterface": 6,
+    "BannerBg": "stg_sprint_target_BG",
+    "Name": "UI_Calendar_Title_0001",
+    "JumpInterfaceName": "UI_Calendar_Title_0003",
+    "Rule": "ActivityWeekTaskPageItem_Text9",
+    "SimplRule": "ActivityWeekTaskPageItem_Text7",
+    "roundRewardMail": "20250904174139400",
+    "Currency": [
+      11
+    ],
+    "ActvDes": 41
+  },
+  {
+    "Id": 2,
+    "Type": 102,
+    "Round": 4,
+    "GroupIDs": [
+      201,
+      202,
+      203,
+      204
+    ],
+    "FinalRewardID": [
+      201,
+      202,
+      203,
+      204
+    ],
+    "Duration": 7,
+    "RankID": 1,
+    "ShopID": 34,
+    "JumpInterface": 7,
+    "BannerBg": "stg_sprint_giftpack_BG",
+    "Name": "UI_Calendar_Title_0002",
+    "JumpInterfaceName": "UI_Calendar_Title_0004",
+    "Rule": "ActivityWeekTaskPageItem_Text10",
+    "SimplRule": "ActivityWeekTaskPageItem_Text8",
+    "roundRewardMail": "20250904174139400",
+    "Currency": [
+      30
+    ],
+    "ActvDes": 41
+  },
+  {
+    "Id": 3,
+    "Type": 103,
+    "Round": 4,
+    "GroupIDs": [
+      301,
+      302,
+      303,
+      304
+    ],
+    "FinalRewardID": [
+      301,
+      302,
+      303,
+      304
+    ],
+    "Duration": 7,
+    "RankID": 2,
+    "ShopID": 39,
+    "JumpInterface": 6,
+    "BannerBg": "stg_sprint_allbox_BG",
+    "Name": "UI_Calendar_Title_0010",
+    "JumpInterfaceName": "UI_Calendar_Title_0011",
+    "Rule": "ActivityWeekTaskPageItem_Text11",
+    "SimplRule": "ActivityWeekTaskPageItem_Text12",
+    "roundRewardMail": "20250904174139400",
+    "Currency": [
+      30
+    ],
+    "ActvDes": 41
+  }
+]

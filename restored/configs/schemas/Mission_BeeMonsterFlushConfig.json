@@ -1,0 +1,59 @@
+{
+  "name": "Mission_BeeMonsterFlushConfig",
+  "assembly": "HotFixBattle.dll",
+  "read_impl_rva": "0x6ac1aa4",
+  "fields": [
+    {
+      "type": "int",
+      "name": "id",
+      "offset": 32,
+      "reader": "readInt"
+    },
+    {
+      "type": "FP",
+      "name": "StartFlushInterval",
+      "offset": 40,
+      "reader": "readFp"
+    },
+    {
+      "type": "FP",
+      "name": "FlushInterval",
+      "offset": 48,
+      "reader": "readFp"
+    },
+    {
+      "type": "int",
+      "name": "MonsterId",
+      "offset": 56,
+      "reader": "readInt"
+    },
+    {
+      "type": "FP[]",
+      "name": "Point",
+      "offset": 64,
+      "reader": "readArrayfp"
+    },
+    {
+      "type": "FP",
+      "name": "BornInternal",
+      "offset": 72,
+      "reader": "readFp"
+    },
+    {
+      "type": "int",
+      "name": "FlushCount",
+      "offset": 80,
+      "reader": "readInt"
+    }
+  ],
+  "native_reader_calls": [
+    "readInt",
+    "readFp",
+    "readFp",
+    "readInt",
+    "readArrayfp",
+    "readFp",
+    "readInt"
+  ],
+  "field_count_matches_native_calls": true
+}

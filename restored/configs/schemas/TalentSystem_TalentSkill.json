@@ -1,0 +1,66 @@
+{
+  "name": "TalentSystem_TalentSkill",
+  "assembly": "HotFixBattle.dll",
+  "read_impl_rva": "0x6b10a94",
+  "fields": [
+    {
+      "type": "int",
+      "name": "id",
+      "offset": 32,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "SkillLv",
+      "offset": 36,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "DesLanguage",
+      "offset": 40,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "SkillType",
+      "offset": 44,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "NextLv",
+      "offset": 48,
+      "reader": "readInt"
+    },
+    {
+      "type": "string[]",
+      "name": "Attributes",
+      "offset": 56,
+      "reader": "readArraystring"
+    },
+    {
+      "type": "int[]",
+      "name": "SkillIds",
+      "offset": 64,
+      "reader": "readArrayint"
+    },
+    {
+      "type": "string[]",
+      "name": "NeedItem",
+      "offset": 72,
+      "reader": "readArraystring"
+    }
+  ],
+  "native_reader_calls": [
+    "readInt",
+    "readInt",
+    "readInt",
+    "readInt",
+    "readInt",
+    "readArraystring",
+    "readArrayint",
+    "readArraystring"
+  ],
+  "field_count_matches_native_calls": true
+}

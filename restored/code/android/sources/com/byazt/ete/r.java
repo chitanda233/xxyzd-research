@@ -1,0 +1,68 @@
+package com.byazt.ete;
+
+import com.bykv.vk.component.ttvideo.player.MediaPlayer;
+
+/* JADX INFO: loaded from: classes.dex */
+@com.byazt.zqa.c(c = {0, 1, 8, 957})
+public class r {
+    public int c;
+    public int tt;
+    public int ve;
+
+    public int c() {
+        return this.c;
+    }
+
+    public void c(int i) {
+        if (i != 1 && i != 2) {
+            i = 0;
+        }
+        this.c = i;
+    }
+
+    public int tt() {
+        return this.tt;
+    }
+
+    public void tt(int i) {
+        if (i <= 0 || i >= uj()) {
+            int i2 = this.c;
+            if (i2 == 1) {
+                this.tt = 90;
+                return;
+            } else {
+                if (i2 == 2) {
+                    this.tt = MediaPlayer.MEDIA_PLAYER_OPTION_GET_VIDEO_OUTPUT_FPS;
+                    return;
+                }
+                return;
+            }
+        }
+        this.tt = i;
+    }
+
+    public int ve() {
+        return this.ve;
+    }
+
+    public void ve(int i) {
+        if (i <= 0 || i >= uj()) {
+            int i2 = this.c;
+            if (i2 == 1) {
+                this.ve = 90;
+                return;
+            } else {
+                if (i2 == 2) {
+                    this.ve = MediaPlayer.MEDIA_PLAYER_OPTION_GET_VIDEO_OUTPUT_FPS;
+                    return;
+                }
+                return;
+            }
+        }
+        this.ve = i;
+    }
+
+    private int uj() {
+        return com.byazt.aas.pf.uj(com.byazt.omf.gt.getContext(), com.byazt.aas.pf.n(com.byazt.omf.gt.getContext()));
+    }
+}

@@ -1,0 +1,1972 @@
+[
+  {
+    "id": 1001,
+    "GroupID": 1,
+    "level": 1,
+    "LevelUpNeedExp": 30,
+    "TotalNeedExp": 0,
+    "RewardLevel1": [
+      [
+        1,
+        1000
+      ]
+    ],
+    "RewardLevel2": [
+      [
+        2,
+        500
+      ]
+    ],
+    "RewardLevel3": [
+      [
+        2,
+        1200
+      ]
+    ]
+  },
+  {
+    "id": 1002,
+    "GroupID": 1,
+    "level": 2,
+    "LevelUpNeedExp": 30,
+    "TotalNeedExp": 30,
+    "RewardLevel1": [
+      [
+        10010007,
+        20
+      ]
+    ],
+    "RewardLevel2": [
+      [
+        907,
+        1
+      ]
+    ],
+    "RewardLevel3": [
+      [
+        909,
+        1
+      ]
+    ]
+  },
+  {
+    "id": 1003,
+    "GroupID": 1,
+    "level": 3,
+    "LevelUpNeedExp": 30,
+    "TotalNeedExp": 60,
+    "RewardLevel1": [
+      [
+        113,
+        1
+      ]
+    ],
+    "RewardLevel2": [
+      [
+        1,
+        1000
+      ]
+    ],
+    "RewardLevel3": [
+      [
+        111,
+        1
+      ]
+    ]
+  },
+  {
+    "id": 1004,
+    "GroupID": 1,
+    "level": 4,
+    "LevelUpNeedExp": 30,
+    "TotalNeedExp": 90,
+    "RewardLevel1": [
+      [
+        10010008,
+        10
+      ]
+    ],
+    "RewardLevel2": [
+      [
+        10010007,
+        20
+      ]
+    ],
+    "RewardLevel3": [
+      [
+        111,
+        1
+      ]
+    ]
+  },
+  {
+    "id": 1005,
+    "GroupID": 1,
+    "level": 5,
+    "LevelUpNeedExp": 30,
+    "TotalNeedExp": 120,
+    "RewardLevel1": [
+      [
+        1,
+        1000
+      ]
+    ],
+    "RewardLevel2": [
+      [
+        113,
+        1
+      ]
+    ],
+    "RewardLevel3": [
+      [
+        111,
+        1
+      ]
+    ]
+  },
+  {
+    "id": 1006,
+    "GroupID": 1,
+    "level": 6,
+    "LevelUpNeedExp": 30,
+    "TotalNeedExp": 150,
+    "RewardLevel1": [
+      [
+        10010007,
+        20
+      ]
+    ],
+    "RewardLevel2": [
+      [
+        112,
+        1
+      ]
+    ],
+    "RewardLevel3": [
+      [
+        111,
+        1
+      ]
+    ]
+  },
+  {
+    "id": 1007,
+    "GroupID": 1,
+    "level": 7,
+    "LevelUpNeedExp": 30,
+    "TotalNeedExp": 180,
+    "RewardLevel1": [
+      [
+        113,
+        1
+      ]
+    ],
+    "RewardLevel2": [
+      [
+        1,
+        1000
+      ]
+    ],
+    "RewardLevel3": [
+      [
+        111,
+        1
+      ]
+    ]
+  },
+  {
+    "id": 1008,
+    "GroupID": 1,
+    "level": 8,
+    "LevelUpNeedExp": 30,
+    "TotalNeedExp": 210,
+    "RewardLevel1": [
+      [
+        10010008,
+        10
+      ]
+    ],
+    "RewardLevel2": [
+      [
+        10010007,
+        20
+      ]
+    ],
+    "RewardLevel3": [
+      [
+        111,
+        1
+      ]
+    ]
+  },
+  {
+    "id": 1009,
+    "GroupID": 1,
+    "level": 9,
+    "LevelUpNeedExp": 30,
+    "TotalNeedExp": 240,
+    "RewardLevel1": [
+      [
+        1,
+        1000
+      ]
+    ],
+    "RewardLevel2": [
+      [
+        113,
+        1
+      ]
+    ],
+    "RewardLevel3": [
+      [
+        111,
+        1
+      ]
+    ]
+  },
+  {
+    "id": 1010,
+    "GroupID": 1,
+    "level": 10,
+    "LevelUpNeedExp": 30,
+    "TotalNeedExp": 270,
+    "RewardLevel1": [
+      [
+        10010007,
+        20
+      ]
+    ],
+    "RewardLevel2": [
+      [
+        112,
+        1
+      ]
+    ],
+    "RewardLevel3": [
+      [
+        909,
+        1
+      ]
+    ]
+  },
+  {
+    "id": 1011,
+    "GroupID": 1,
+    "level": 11,
+    "LevelUpNeedExp": 30,
+    "TotalNeedExp": 300,
+    "RewardLevel1": [
+      [
+        113,
+        1
+      ]
+    ],
+    "RewardLevel2": [
+      [
+        1,
+        1000
+      ]
+    ],
+    "RewardLevel3": [
+      [
+        111,
+        1
+      ]
+    ]
+  },
+  {
+    "id": 1012,
+    "GroupID": 1,
+    "level": 12,
+    "LevelUpNeedExp": 30,
+    "TotalNeedExp": 330,
+    "RewardLevel1": [
+      [
+        10010008,
+        10
+      ]
+    ],
+    "RewardLevel2": [
+      [
+        10010007,
+        20
+      ]
+    ],
+    "RewardLevel3": [
+      [
+        111,
+        1
+      ]
+    ]
+  },
+  {
+    "id": 1013,
+    "GroupID": 1,
+    "level": 13,
+    "LevelUpNeedExp": 30,
+    "TotalNeedExp": 360,
+    "RewardLevel1": [
+      [
+        1,
+        1000
+      ]
+    ],
+    "RewardLevel2": [
+      [
+        113,
+        1
+      ]
+    ],
+    "RewardLevel3": [
+      [
+        111,
+        1
+      ]
+    ]
+  },
+  {
+    "id": 1014,
+    "GroupID": 1,
+    "level": 14,
+    "LevelUpNeedExp": 30,
+    "TotalNeedExp": 390,
+    "RewardLevel1": [
+      [
+        10010007,
+        20
+      ]
+    ],
+    "RewardLevel2": [
+      [
+        112,
+        1
+      ]
+    ],
+    "RewardLevel3": [
+      [
+        111,
+        1
+      ]
+    ]
+  },
+  {
+    "id": 1015,
+    "GroupID": 1,
+    "level": 15,
+    "LevelUpNeedExp": 30,
+    "TotalNeedExp": 420,
+    "RewardLevel1": [
+      [
+        113,
+        1
+      ]
+    ],
+    "RewardLevel2": [
+      [
+        1,
+        1000
+      ]
+    ],
+    "RewardLevel3": [
+      [
+        111,
+        1
+      ]
+    ]
+  },
+  {
+    "id": 1016,
+    "GroupID": 1,
+    "level": 16,
+    "LevelUpNeedExp": 30,
+    "TotalNeedExp": 450,
+    "RewardLevel1": [
+      [
+        10010008,
+        10
+      ]
+    ],
+    "RewardLevel2": [
+      [
+        10010007,
+        20
+      ]
+    ],
+    "RewardLevel3": [
+      [
+        111,
+        1
+      ]
+    ]
+  },
+  {
+    "id": 1017,
+    "GroupID": 1,
+    "level": 17,
+    "LevelUpNeedExp": 30,
+    "TotalNeedExp": 480,
+    "RewardLevel1": [
+      [
+        1,
+        1000
+      ]
+    ],
+    "RewardLevel2": [
+      [
+        113,
+        1
+      ]
+    ],
+    "RewardLevel3": [
+      [
+        111,
+        1
+      ]
+    ]
+  },
+  {
+    "id": 1018,
+    "GroupID": 1,
+    "level": 18,
+    "LevelUpNeedExp": 30,
+    "TotalNeedExp": 510,
+    "RewardLevel1": [
+      [
+        10010007,
+        20
+      ]
+    ],
+    "RewardLevel2": [
+      [
+        112,
+        1
+      ]
+    ],
+    "RewardLevel3": [
+      [
+        111,
+        1
+      ]
+    ]
+  },
+  {
+    "id": 1019,
+    "GroupID": 1,
+    "level": 19,
+    "LevelUpNeedExp": 30,
+    "TotalNeedExp": 540,
+    "RewardLevel1": [
+      [
+        113,
+        1
+      ]
+    ],
+    "RewardLevel2": [
+      [
+        1,
+        1000
+      ]
+    ],
+    "RewardLevel3": [
+      [
+        111,
+        1
+      ]
+    ]
+  },
+  {
+    "id": 1020,
+    "GroupID": 1,
+    "level": 20,
+    "LevelUpNeedExp": 30,
+    "TotalNeedExp": 570,
+    "RewardLevel1": [
+      [
+        10010008,
+        10
+      ]
+    ],
+    "RewardLevel2": [
+      [
+        907,
+        1
+      ]
+    ],
+    "RewardLevel3": [
+      [
+        909,
+        1
+      ]
+    ]
+  },
+  {
+    "id": 1021,
+    "GroupID": 1,
+    "level": 21,
+    "LevelUpNeedExp": 30,
+    "TotalNeedExp": 600,
+    "RewardLevel1": [
+      [
+        1,
+        1000
+      ]
+    ],
+    "RewardLevel2": [
+      [
+        1,
+        1000
+      ]
+    ],
+    "RewardLevel3": [
+      [
+        111,
+        1
+      ]
+    ]
+  },
+  {
+    "id": 1022,
+    "GroupID": 1,
+    "level": 22,
+    "LevelUpNeedExp": 30,
+    "TotalNeedExp": 630,
+    "RewardLevel1": [
+      [
+        10010007,
+        20
+      ]
+    ],
+    "RewardLevel2": [
+      [
+        10010007,
+        20
+      ]
+    ],
+    "RewardLevel3": [
+      [
+        111,
+        1
+      ]
+    ]
+  },
+  {
+    "id": 1023,
+    "GroupID": 1,
+    "level": 23,
+    "LevelUpNeedExp": 30,
+    "TotalNeedExp": 660,
+    "RewardLevel1": [
+      [
+        113,
+        1
+      ]
+    ],
+    "RewardLevel2": [
+      [
+        113,
+        1
+      ]
+    ],
+    "RewardLevel3": [
+      [
+        111,
+        1
+      ]
+    ]
+  },
+  {
+    "id": 1024,
+    "GroupID": 1,
+    "level": 24,
+    "LevelUpNeedExp": 30,
+    "TotalNeedExp": 690,
+    "RewardLevel1": [
+      [
+        10010008,
+        10
+      ]
+    ],
+    "RewardLevel2": [
+      [
+        112,
+        1
+      ]
+    ],
+    "RewardLevel3": [
+      [
+        111,
+        1
+      ]
+    ]
+  },
+  {
+    "id": 1025,
+    "GroupID": 1,
+    "level": 25,
+    "LevelUpNeedExp": 30,
+    "TotalNeedExp": 720,
+    "RewardLevel1": [
+      [
+        129,
+        1
+      ]
+    ],
+    "RewardLevel2": [
+      [
+        1,
+        1000
+      ]
+    ],
+    "RewardLevel3": [
+      [
+        111,
+        1
+      ]
+    ]
+  },
+  {
+    "id": 1026,
+    "GroupID": 1,
+    "level": 26,
+    "LevelUpNeedExp": 30,
+    "TotalNeedExp": 750,
+    "RewardLevel1": [
+      [
+        1,
+        1000
+      ]
+    ],
+    "RewardLevel2": [
+      [
+        10010007,
+        20
+      ]
+    ],
+    "RewardLevel3": [
+      [
+        111,
+        1
+      ]
+    ]
+  },
+  {
+    "id": 1027,
+    "GroupID": 1,
+    "level": 27,
+    "LevelUpNeedExp": 30,
+    "TotalNeedExp": 780,
+    "RewardLevel1": [
+      [
+        10010007,
+        20
+      ]
+    ],
+    "RewardLevel2": [
+      [
+        113,
+        1
+      ]
+    ],
+    "RewardLevel3": [
+      [
+        111,
+        1
+      ]
+    ]
+  },
+  {
+    "id": 1028,
+    "GroupID": 1,
+    "level": 28,
+    "LevelUpNeedExp": 30,
+    "TotalNeedExp": 810,
+    "RewardLevel1": [
+      [
+        113,
+        1
+      ]
+    ],
+    "RewardLevel2": [
+      [
+        112,
+        1
+      ]
+    ],
+    "RewardLevel3": [
+      [
+        111,
+        1
+      ]
+    ]
+  },
+  {
+    "id": 1029,
+    "GroupID": 1,
+    "level": 29,
+    "LevelUpNeedExp": 30,
+    "TotalNeedExp": 840,
+    "RewardLevel1": [
+      [
+        10010008,
+        10
+      ]
+    ],
+    "RewardLevel2": [
+      [
+        1,
+        1000
+      ]
+    ],
+    "RewardLevel3": [
+      [
+        111,
+        1
+      ]
+    ]
+  },
+  {
+    "id": 1030,
+    "GroupID": 1,
+    "level": 30,
+    "LevelUpNeedExp": 30,
+    "TotalNeedExp": 870,
+    "RewardLevel1": [
+      [
+        129,
+        1
+      ]
+    ],
+    "RewardLevel2": [
+      [
+        10010007,
+        20
+      ]
+    ],
+    "RewardLevel3": [
+      [
+        909,
+        1
+      ]
+    ]
+  },
+  {
+    "id": 1031,
+    "GroupID": 1,
+    "level": 31,
+    "LevelUpNeedExp": 30,
+    "TotalNeedExp": 900,
+    "RewardLevel1": [
+      [
+        1,
+        1000
+      ]
+    ],
+    "RewardLevel2": [
+      [
+        113,
+        1
+      ]
+    ],
+    "RewardLevel3": [
+      [
+        111,
+        1
+      ]
+    ]
+  },
+  {
+    "id": 1032,
+    "GroupID": 1,
+    "level": 32,
+    "LevelUpNeedExp": 30,
+    "TotalNeedExp": 930,
+    "RewardLevel1": [
+      [
+        10010007,
+        20
+      ]
+    ],
+    "RewardLevel2": [
+      [
+        112,
+        1
+      ]
+    ],
+    "RewardLevel3": [
+      [
+        111,
+        1
+      ]
+    ]
+  },
+  {
+    "id": 1033,
+    "GroupID": 1,
+    "level": 33,
+    "LevelUpNeedExp": 30,
+    "TotalNeedExp": 960,
+    "RewardLevel1": [
+      [
+        113,
+        1
+      ]
+    ],
+    "RewardLevel2": [
+      [
+        1,
+        1000
+      ]
+    ],
+    "RewardLevel3": [
+      [
+        111,
+        1
+      ]
+    ]
+  },
+  {
+    "id": 1034,
+    "GroupID": 1,
+    "level": 34,
+    "LevelUpNeedExp": 30,
+    "TotalNeedExp": 990,
+    "RewardLevel1": [
+      [
+        10010008,
+        10
+      ]
+    ],
+    "RewardLevel2": [
+      [
+        10010007,
+        20
+      ]
+    ],
+    "RewardLevel3": [
+      [
+        111,
+        1
+      ]
+    ]
+  },
+  {
+    "id": 1035,
+    "GroupID": 1,
+    "level": 35,
+    "LevelUpNeedExp": 30,
+    "TotalNeedExp": 1020,
+    "RewardLevel1": [
+      [
+        129,
+        1
+      ]
+    ],
+    "RewardLevel2": [
+      [
+        113,
+        1
+      ]
+    ],
+    "RewardLevel3": [
+      [
+        111,
+        1
+      ]
+    ]
+  },
+  {
+    "id": 1036,
+    "GroupID": 1,
+    "level": 36,
+    "LevelUpNeedExp": 30,
+    "TotalNeedExp": 1050,
+    "RewardLevel1": [
+      [
+        1,
+        1000
+      ]
+    ],
+    "RewardLevel2": [
+      [
+        112,
+        1
+      ]
+    ],
+    "RewardLevel3": [
+      [
+        111,
+        1
+      ]
+    ]
+  },
+  {
+    "id": 1037,
+    "GroupID": 1,
+    "level": 37,
+    "LevelUpNeedExp": 30,
+    "TotalNeedExp": 1080,
+    "RewardLevel1": [
+      [
+        10010007,
+        20
+      ]
+    ],
+    "RewardLevel2": [
+      [
+        1,
+        1000
+      ]
+    ],
+    "RewardLevel3": [
+      [
+        111,
+        1
+      ]
+    ]
+  },
+  {
+    "id": 1038,
+    "GroupID": 1,
+    "level": 38,
+    "LevelUpNeedExp": 30,
+    "TotalNeedExp": 1110,
+    "RewardLevel1": [
+      [
+        113,
+        1
+      ]
+    ],
+    "RewardLevel2": [
+      [
+        10010007,
+        20
+      ]
+    ],
+    "RewardLevel3": [
+      [
+        111,
+        1
+      ]
+    ]
+  },
+  {
+    "id": 1039,
+    "GroupID": 1,
+    "level": 39,
+    "LevelUpNeedExp": 30,
+    "TotalNeedExp": 1140,
+    "RewardLevel1": [
+      [
+        10010008,
+        10
+      ]
+    ],
+    "RewardLevel2": [
+      [
+        113,
+        1
+      ]
+    ],
+    "RewardLevel3": [
+      [
+        111,
+        1
+      ]
+    ]
+  },
+  {
+    "id": 1040,
+    "GroupID": 1,
+    "level": 40,
+    "LevelUpNeedExp": 30,
+    "TotalNeedExp": 1170,
+    "RewardLevel1": [
+      [
+        129,
+        1
+      ]
+    ],
+    "RewardLevel2": [
+      [
+        112,
+        1
+      ]
+    ],
+    "RewardLevel3": [
+      [
+        909,
+        1
+      ]
+    ]
+  },
+  {
+    "id": 1041,
+    "GroupID": 1,
+    "level": 41,
+    "LevelUpNeedExp": 30,
+    "TotalNeedExp": 1200,
+    "RewardLevel1": [
+      [
+        1,
+        1000
+      ]
+    ],
+    "RewardLevel2": [
+      [
+        1,
+        1000
+      ]
+    ],
+    "RewardLevel3": [
+      [
+        111,
+        1
+      ]
+    ]
+  },
+  {
+    "id": 1042,
+    "GroupID": 1,
+    "level": 42,
+    "LevelUpNeedExp": 30,
+    "TotalNeedExp": 1230,
+    "RewardLevel1": [
+      [
+        10010007,
+        20
+      ]
+    ],
+    "RewardLevel2": [
+      [
+        10010007,
+        20
+      ]
+    ],
+    "RewardLevel3": [
+      [
+        111,
+        1
+      ]
+    ]
+  },
+  {
+    "id": 1043,
+    "GroupID": 1,
+    "level": 43,
+    "LevelUpNeedExp": 30,
+    "TotalNeedExp": 1260,
+    "RewardLevel1": [
+      [
+        113,
+        1
+      ]
+    ],
+    "RewardLevel2": [
+      [
+        113,
+        1
+      ]
+    ],
+    "RewardLevel3": [
+      [
+        111,
+        1
+      ]
+    ]
+  },
+  {
+    "id": 1044,
+    "GroupID": 1,
+    "level": 44,
+    "LevelUpNeedExp": 30,
+    "TotalNeedExp": 1290,
+    "RewardLevel1": [
+      [
+        10010008,
+        10
+      ]
+    ],
+    "RewardLevel2": [
+      [
+        112,
+        1
+      ]
+    ],
+    "RewardLevel3": [
+      [
+        111,
+        1
+      ]
+    ]
+  },
+  {
+    "id": 1045,
+    "GroupID": 1,
+    "level": 45,
+    "LevelUpNeedExp": 30,
+    "TotalNeedExp": 1320,
+    "RewardLevel1": [
+      [
+        129,
+        1
+      ]
+    ],
+    "RewardLevel2": [
+      [
+        1,
+        1000
+      ]
+    ],
+    "RewardLevel3": [
+      [
+        111,
+        1
+      ]
+    ]
+  },
+  {
+    "id": 1046,
+    "GroupID": 1,
+    "level": 46,
+    "LevelUpNeedExp": 30,
+    "TotalNeedExp": 1350,
+    "RewardLevel1": [
+      [
+        1,
+        1000
+      ]
+    ],
+    "RewardLevel2": [
+      [
+        10010007,
+        20
+      ]
+    ],
+    "RewardLevel3": [
+      [
+        111,
+        1
+      ]
+    ]
+  },
+  {
+    "id": 1047,
+    "GroupID": 1,
+    "level": 47,
+    "LevelUpNeedExp": 30,
+    "TotalNeedExp": 1380,
+    "RewardLevel1": [
+      [
+        10010007,
+        20
+      ]
+    ],
+    "RewardLevel2": [
+      [
+        113,
+        1
+      ]
+    ],
+    "RewardLevel3": [
+      [
+        111,
+        1
+      ]
+    ]
+  },
+  {
+    "id": 1048,
+    "GroupID": 1,
+    "level": 48,
+    "LevelUpNeedExp": 30,
+    "TotalNeedExp": 1410,
+    "RewardLevel1": [
+      [
+        113,
+        1
+      ]
+    ],
+    "RewardLevel2": [
+      [
+        112,
+        1
+      ]
+    ],
+    "RewardLevel3": [
+      [
+        111,
+        1
+      ]
+    ]
+  },
+  {
+    "id": 1049,
+    "GroupID": 1,
+    "level": 49,
+    "LevelUpNeedExp": 30,
+    "TotalNeedExp": 1440,
+    "RewardLevel1": [
+      [
+        10010008,
+        10
+      ]
+    ],
+    "RewardLevel2": [
+      [
+        1,
+        1000
+      ]
+    ],
+    "RewardLevel3": [
+      [
+        111,
+        1
+      ]
+    ]
+  },
+  {
+    "id": 1050,
+    "GroupID": 1,
+    "level": 50,
+    "LevelUpNeedExp": 30,
+    "TotalNeedExp": 1470,
+    "RewardLevel1": [
+      [
+        129,
+        1
+      ]
+    ],
+    "RewardLevel2": [
+      [
+        907,
+        1
+      ]
+    ],
+    "RewardLevel3": [
+      [
+        129,
+        5
+      ]
+    ]
+  },
+  {
+    "id": 2001,
+    "GroupID": 2,
+    "level": 1,
+    "LevelUpNeedExp": 5,
+    "TotalNeedExp": 0,
+    "RewardLevel1": [
+      [
+        1018,
+        1
+      ]
+    ],
+    "RewardLevel2": [
+      [
+        2,
+        500
+      ],
+      [
+        61018,
+        1
+      ]
+    ],
+    "RewardLevel3": []
+  },
+  {
+    "id": 2002,
+    "GroupID": 2,
+    "level": 2,
+    "LevelUpNeedExp": 5,
+    "TotalNeedExp": 5,
+    "RewardLevel1": [
+      [
+        1018,
+        1
+      ]
+    ],
+    "RewardLevel2": [
+      [
+        1020,
+        2
+      ],
+      [
+        1018,
+        5
+      ]
+    ],
+    "RewardLevel3": []
+  },
+  {
+    "id": 2003,
+    "GroupID": 2,
+    "level": 3,
+    "LevelUpNeedExp": 5,
+    "TotalNeedExp": 10,
+    "RewardLevel1": [
+      [
+        1018,
+        1
+      ]
+    ],
+    "RewardLevel2": [
+      [
+        1020,
+        2
+      ],
+      [
+        1018,
+        5
+      ]
+    ],
+    "RewardLevel3": []
+  },
+  {
+    "id": 2004,
+    "GroupID": 2,
+    "level": 4,
+    "LevelUpNeedExp": 5,
+    "TotalNeedExp": 15,
+    "RewardLevel1": [
+      [
+        1018,
+        1
+      ]
+    ],
+    "RewardLevel2": [
+      [
+        1020,
+        2
+      ],
+      [
+        1018,
+        5
+      ]
+    ],
+    "RewardLevel3": []
+  },
+  {
+    "id": 2005,
+    "GroupID": 2,
+    "level": 5,
+    "LevelUpNeedExp": 5,
+    "TotalNeedExp": 20,
+    "RewardLevel1": [
+      [
+        1018,
+        1
+      ]
+    ],
+    "RewardLevel2": [
+      [
+        1020,
+        2
+      ],
+      [
+        1018,
+        5
+      ]
+    ],
+    "RewardLevel3": []
+  },
+  {
+    "id": 2006,
+    "GroupID": 2,
+    "level": 6,
+    "LevelUpNeedExp": 5,
+    "TotalNeedExp": 25,
+    "RewardLevel1": [
+      [
+        1018,
+        1
+      ]
+    ],
+    "RewardLevel2": [
+      [
+        1020,
+        2
+      ],
+      [
+        1018,
+        5
+      ]
+    ],
+    "RewardLevel3": []
+  },
+  {
+    "id": 2007,
+    "GroupID": 2,
+    "level": 7,
+    "LevelUpNeedExp": 5,
+    "TotalNeedExp": 30,
+    "RewardLevel1": [
+      [
+        1018,
+        1
+      ]
+    ],
+    "RewardLevel2": [
+      [
+        1020,
+        2
+      ],
+      [
+        1018,
+        5
+      ]
+    ],
+    "RewardLevel3": []
+  },
+  {
+    "id": 2008,
+    "GroupID": 2,
+    "level": 8,
+    "LevelUpNeedExp": 5,
+    "TotalNeedExp": 35,
+    "RewardLevel1": [
+      [
+        1018,
+        1
+      ]
+    ],
+    "RewardLevel2": [
+      [
+        1020,
+        2
+      ],
+      [
+        1018,
+        5
+      ]
+    ],
+    "RewardLevel3": []
+  },
+  {
+    "id": 2009,
+    "GroupID": 2,
+    "level": 9,
+    "LevelUpNeedExp": 5,
+    "TotalNeedExp": 40,
+    "RewardLevel1": [
+      [
+        1018,
+        1
+      ]
+    ],
+    "RewardLevel2": [
+      [
+        1020,
+        2
+      ],
+      [
+        1018,
+        5
+      ]
+    ],
+    "RewardLevel3": []
+  },
+  {
+    "id": 2010,
+    "GroupID": 2,
+    "level": 10,
+    "LevelUpNeedExp": 5,
+    "TotalNeedExp": 45,
+    "RewardLevel1": [
+      [
+        1018,
+        1
+      ]
+    ],
+    "RewardLevel2": [
+      [
+        1020,
+        2
+      ],
+      [
+        1018,
+        5
+      ]
+    ],
+    "RewardLevel3": []
+  },
+  {
+    "id": 2011,
+    "GroupID": 2,
+    "level": 11,
+    "LevelUpNeedExp": 5,
+    "TotalNeedExp": 50,
+    "RewardLevel1": [
+      [
+        1018,
+        1
+      ]
+    ],
+    "RewardLevel2": [
+      [
+        1020,
+        2
+      ],
+      [
+        1018,
+        5
+      ]
+    ],
+    "RewardLevel3": []
+  },
+  {
+    "id": 2012,
+    "GroupID": 2,
+    "level": 12,
+    "LevelUpNeedExp": 5,
+    "TotalNeedExp": 55,
+    "RewardLevel1": [
+      [
+        1018,
+        1
+      ]
+    ],
+    "RewardLevel2": [
+      [
+        1020,
+        2
+      ],
+      [
+        1018,
+        5
+      ]
+    ],
+    "RewardLevel3": []
+  },
+  {
+    "id": 2013,
+    "GroupID": 2,
+    "level": 13,
+    "LevelUpNeedExp": 5,
+    "TotalNeedExp": 60,
+    "RewardLevel1": [
+      [
+        1018,
+        1
+      ]
+    ],
+    "RewardLevel2": [
+      [
+        1020,
+        2
+      ],
+      [
+        1018,
+        5
+      ]
+    ],
+    "RewardLevel3": []
+  },
+  {
+    "id": 2014,
+    "GroupID": 2,
+    "level": 14,
+    "LevelUpNeedExp": 5,
+    "TotalNeedExp": 65,
+    "RewardLevel1": [
+      [
+        1018,
+        1
+      ]
+    ],
+    "RewardLevel2": [
+      [
+        1020,
+        2
+      ],
+      [
+        1018,
+        5
+      ]
+    ],
+    "RewardLevel3": []
+  },
+  {
+    "id": 2015,
+    "GroupID": 2,
+    "level": 15,
+    "LevelUpNeedExp": 5,
+    "TotalNeedExp": 70,
+    "RewardLevel1": [
+      [
+        1018,
+        1
+      ]
+    ],
+    "RewardLevel2": [
+      [
+        1020,
+        2
+      ],
+      [
+        1018,
+        5
+      ]
+    ],
+    "RewardLevel3": []
+  },
+  {
+    "id": 2016,
+    "GroupID": 2,
+    "level": 16,
+    "LevelUpNeedExp": 5,
+    "TotalNeedExp": 75,
+    "RewardLevel1": [
+      [
+        1018,
+        1
+      ]
+    ],
+    "RewardLevel2": [
+      [
+        1020,
+        2
+      ],
+      [
+        1018,
+        5
+      ]
+    ],
+    "RewardLevel3": []
+  },
+  {
+    "id": 2017,
+    "GroupID": 2,
+    "level": 17,
+    "LevelUpNeedExp": 5,
+    "TotalNeedExp": 80,
+    "RewardLevel1": [
+      [
+        1018,
+        1
+      ]
+    ],
+    "RewardLevel2": [
+      [
+        1020,
+        2
+      ],
+      [
+        1018,
+        5
+      ]
+    ],
+    "RewardLevel3": []
+  },
+  {
+    "id": 2018,
+    "GroupID": 2,
+    "level": 18,
+    "LevelUpNeedExp": 5,
+    "TotalNeedExp": 85,
+    "RewardLevel1": [
+      [
+        1018,
+        1
+      ]
+    ],
+    "RewardLevel2": [
+      [
+        1020,
+        2
+      ],
+      [
+        1018,
+        5
+      ]
+    ],
+    "RewardLevel3": []
+  },
+  {
+    "id": 2019,
+    "GroupID": 2,
+    "level": 19,
+    "LevelUpNeedExp": 5,
+    "TotalNeedExp": 90,
+    "RewardLevel1": [
+      [
+        1018,
+        1
+      ]
+    ],
+    "RewardLevel2": [
+      [
+        1020,
+        2
+      ],
+      [
+        1018,
+        5
+      ]
+    ],
+    "RewardLevel3": []
+  },
+  {
+    "id": 2020,
+    "GroupID": 2,
+    "level": 20,
+    "LevelUpNeedExp": 5,
+    "TotalNeedExp": 95,
+    "RewardLevel1": [
+      [
+        1018,
+        1
+      ]
+    ],
+    "RewardLevel2": [
+      [
+        1020,
+        2
+      ],
+      [
+        1018,
+        5
+      ]
+    ],
+    "RewardLevel3": []
+  },
+  {
+    "id": 2021,
+    "GroupID": 2,
+    "level": 21,
+    "LevelUpNeedExp": 5,
+    "TotalNeedExp": 100,
+    "RewardLevel1": [
+      [
+        1018,
+        1
+      ]
+    ],
+    "RewardLevel2": [
+      [
+        1020,
+        2
+      ],
+      [
+        1018,
+        5
+      ]
+    ],
+    "RewardLevel3": []
+  },
+  {
+    "id": 2022,
+    "GroupID": 2,
+    "level": 22,
+    "LevelUpNeedExp": 5,
+    "TotalNeedExp": 105,
+    "RewardLevel1": [
+      [
+        1018,
+        1
+      ]
+    ],
+    "RewardLevel2": [
+      [
+        1020,
+        2
+      ],
+      [
+        1018,
+        5
+      ]
+    ],
+    "RewardLevel3": []
+  },
+  {
+    "id": 2023,
+    "GroupID": 2,
+    "level": 23,
+    "LevelUpNeedExp": 5,
+    "TotalNeedExp": 110,
+    "RewardLevel1": [
+      [
+        1018,
+        1
+      ]
+    ],
+    "RewardLevel2": [
+      [
+        1020,
+        2
+      ],
+      [
+        1018,
+        5
+      ]
+    ],
+    "RewardLevel3": []
+  },
+  {
+    "id": 2024,
+    "GroupID": 2,
+    "level": 24,
+    "LevelUpNeedExp": 5,
+    "TotalNeedExp": 115,
+    "RewardLevel1": [
+      [
+        1018,
+        1
+      ]
+    ],
+    "RewardLevel2": [
+      [
+        1020,
+        2
+      ],
+      [
+        1018,
+        5
+      ]
+    ],
+    "RewardLevel3": []
+  },
+  {
+    "id": 2025,
+    "GroupID": 2,
+    "level": 25,
+    "LevelUpNeedExp": 5,
+    "TotalNeedExp": 120,
+    "RewardLevel1": [
+      [
+        1018,
+        1
+      ]
+    ],
+    "RewardLevel2": [
+      [
+        1020,
+        2
+      ],
+      [
+        1018,
+        5
+      ]
+    ],
+    "RewardLevel3": []
+  },
+  {
+    "id": 2026,
+    "GroupID": 2,
+    "level": 26,
+    "LevelUpNeedExp": 5,
+    "TotalNeedExp": 125,
+    "RewardLevel1": [
+      [
+        1018,
+        1
+      ]
+    ],
+    "RewardLevel2": [
+      [
+        1020,
+        2
+      ],
+      [
+        1018,
+        5
+      ]
+    ],
+    "RewardLevel3": []
+  },
+  {
+    "id": 2027,
+    "GroupID": 2,
+    "level": 27,
+    "LevelUpNeedExp": 5,
+    "TotalNeedExp": 130,
+    "RewardLevel1": [
+      [
+        1018,
+        1
+      ]
+    ],
+    "RewardLevel2": [
+      [
+        1020,
+        2
+      ],
+      [
+        1018,
+        5
+      ]
+    ],
+    "RewardLevel3": []
+  },
+  {
+    "id": 2028,
+    "GroupID": 2,
+    "level": 28,
+    "LevelUpNeedExp": 5,
+    "TotalNeedExp": 135,
+    "RewardLevel1": [
+      [
+        1018,
+        1
+      ]
+    ],
+    "RewardLevel2": [
+      [
+        1020,
+        2
+      ],
+      [
+        1018,
+        5
+      ]
+    ],
+    "RewardLevel3": []
+  },
+  {
+    "id": 2029,
+    "GroupID": 2,
+    "level": 29,
+    "LevelUpNeedExp": 5,
+    "TotalNeedExp": 140,
+    "RewardLevel1": [
+      [
+        1018,
+        1
+      ]
+    ],
+    "RewardLevel2": [
+      [
+        1020,
+        2
+      ],
+      [
+        1018,
+        5
+      ]
+    ],
+    "RewardLevel3": []
+  },
+  {
+    "id": 2030,
+    "GroupID": 2,
+    "level": 30,
+    "LevelUpNeedExp": 5,
+    "TotalNeedExp": 145,
+    "RewardLevel1": [
+      [
+        1018,
+        1
+      ]
+    ],
+    "RewardLevel2": [
+      [
+        1020,
+        2
+      ],
+      [
+        1018,
+        5
+      ]
+    ],
+    "RewardLevel3": []
+  }
+]

@@ -1,0 +1,24 @@
+{
+  "name": "Character_MonsterTagName",
+  "assembly": "HotFixBattle.dll",
+  "read_impl_rva": "0x68c9b00",
+  "fields": [
+    {
+      "type": "int",
+      "name": "id",
+      "offset": 32,
+      "reader": "readInt"
+    },
+    {
+      "type": "string",
+      "name": "languageid",
+      "offset": 40,
+      "reader": "readLocalString"
+    }
+  ],
+  "native_reader_calls": [
+    "readInt",
+    "readLocalString"
+  ],
+  "field_count_matches_native_calls": true
+}

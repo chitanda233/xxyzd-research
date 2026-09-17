@@ -1,0 +1,45 @@
+{
+  "name": "Drone_TalentNode",
+  "assembly": "HotFixBattle.dll",
+  "read_impl_rva": "0x6a61410",
+  "fields": [
+    {
+      "type": "int",
+      "name": "ID",
+      "offset": 32,
+      "reader": "readInt"
+    },
+    {
+      "type": "string",
+      "name": "NodeAttrAll",
+      "offset": 40,
+      "reader": "readLocalString"
+    },
+    {
+      "type": "string[]",
+      "name": "MajoNodeFeatureJson",
+      "offset": 48,
+      "reader": "readArraystring"
+    },
+    {
+      "type": "int",
+      "name": "Atlas",
+      "offset": 56,
+      "reader": "readInt"
+    },
+    {
+      "type": "string",
+      "name": "NodeIcon",
+      "offset": 64,
+      "reader": "readLocalString"
+    }
+  ],
+  "native_reader_calls": [
+    "readInt",
+    "readLocalString",
+    "readArraystring",
+    "readInt",
+    "readLocalString"
+  ],
+  "field_count_matches_native_calls": true
+}

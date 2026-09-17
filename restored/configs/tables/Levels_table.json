@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "notes": "select",
+    "levelName": "select",
+    "titleName": 0,
+    "isShow": 0
+  },
+  {
+    "id": 10000,
+    "notes": "tutorial新手关",
+    "levelName": "tutorial",
+    "titleName": 1,
+    "isShow": 1
+  },
+  {
+    "id": 10001,
+    "notes": "关卡1",
+    "levelName": "level_1",
+    "titleName": 2,
+    "isShow": 1
+  },
+  {
+    "id": 10002,
+    "notes": "关卡2",
+    "levelName": "level_2",
+    "titleName": 2,
+    "isShow": 1
+  },
+  {
+    "id": 10003,
+    "notes": "关卡3",
+    "levelName": "level_3",
+    "titleName": 2,
+    "isShow": 1
+  }
+]

@@ -1,0 +1,45 @@
+[
+  {
+    "id": 3004001,
+    "time": 0,
+    "noticType": 0,
+    "clearType": 0,
+    "hpUpgrade": {
+      "serialized_int32": 1160000,
+      "decimal": 116.0,
+      "fp_raw": 7602176,
+      "runtime_value": 116.0
+    },
+    "attackUp": {
+      "serialized_int32": 1610000,
+      "decimal": 161.0,
+      "fp_raw": 10551296,
+      "runtime_value": 161.0
+    },
+    "cameraType": 1,
+    "bgMusic": 0,
+    "specialEventGroup": [],
+    "EntityId": [
+      300010
+    ],
+    "TrackId": 0,
+    "RefreshType": 1,
+    "RefreshCount": 5,
+    "EntityId2": [],
+    "TrackId2": 0,
+    "RefreshType2": 0,
+    "RefreshCount2": 0,
+    "EntityId3": [],
+    "TrackId3": 0,
+    "RefreshType3": 0,
+    "RefreshCount3": 0,
+    "EntityId4": [],
+    "TrackId4": 0,
+    "RefreshType4": 0,
+    "RefreshCount4": 0,
+    "EntityId5": [],
+    "TrackId5": 0,
+    "RefreshType5": 0,
+    "RefreshCount5": 0
+  }
+]

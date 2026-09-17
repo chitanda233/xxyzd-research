@@ -1,0 +1,87 @@
+{
+  "name": "SevenDay_SevenDayTask",
+  "assembly": "HotFixBattle.dll",
+  "read_impl_rva": "0x6ae9824",
+  "fields": [
+    {
+      "type": "int",
+      "name": "ID",
+      "offset": 32,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "Day",
+      "offset": 36,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "TaskType",
+      "offset": 40,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "StatisticsType",
+      "offset": 44,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "Need",
+      "offset": 48,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "Describe",
+      "offset": 52,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "ProgressType",
+      "offset": 56,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "Active",
+      "offset": 60,
+      "reader": "readInt"
+    },
+    {
+      "type": "string[]",
+      "name": "Reward",
+      "offset": 64,
+      "reader": "readArraystring"
+    },
+    {
+      "type": "int",
+      "name": "Jump",
+      "offset": 72,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "UnlockNeed",
+      "offset": 76,
+      "reader": "readInt"
+    }
+  ],
+  "native_reader_calls": [
+    "readInt",
+    "readInt",
+    "readInt",
+    "readInt",
+    "readInt",
+    "readInt",
+    "readInt",
+    "readInt",
+    "readArraystring",
+    "readInt",
+    "readInt"
+  ],
+  "field_count_matches_native_calls": true
+}

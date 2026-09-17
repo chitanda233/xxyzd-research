@@ -1,0 +1,355 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="40" android:versionName="1.0.16" android:installLocation="2" android:compileSdkVersion="36" android:compileSdkVersionCodename="16" package="com.fhzj.game" platformBuildVersionCode="36" platformBuildVersionName="16">
+  <uses-sdk android:minSdkVersion="26" android:targetSdkVersion="36"/>
+  <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+  <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+  <uses-permission android:name="android.permission.INTERNET"/>
+  <supports-screens android:anyDensity="true" android:smallScreens="true" android:normalScreens="true" android:largeScreens="true" android:resizeable="true" android:xlargeScreens="true"/>
+  <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"/>
+  <uses-permission android:name="com.google.android.gms.permission.AD_ID"/>
+  <uses-permission android:name="android.permission.VIBRATE"/>
+  <uses-feature android:glEsVersion="0x00030000"/>
+  <uses-feature android:name="android.hardware.vulkan.version" android:required="false"/>
+  <uses-feature android:name="android.hardware.touchscreen" android:required="false"/>
+  <uses-feature android:name="android.hardware.touchscreen.multitouch" android:required="false"/>
+  <uses-feature android:name="android.hardware.touchscreen.multitouch.distinct" android:required="false"/>
+  <uses-permission android:name="com.android.vending.BILLING"/>
+  <queries>
+    <intent>
+      <action android:name="com.android.vending.billing.InAppBillingService.BIND"/>
+    </intent>
+    <intent>
+      <action android:name="com.google.android.apps.play.billingtestcompanion.BillingOverrideService.BIND"/>
+    </intent>
+    <provider android:authorities="com.huawei.appmarket.commondata"/>
+    <package android:name="com.facebook.katana"/>
+    <package android:name="com.instagram.android"/>
+    <package android:name="com.facebook.lite"/>
+    <intent>
+      <action android:name="*"/>
+      <data android:scheme="tbopen"/>
+    </intent>
+    <package android:name="com.eg.android.AlipayGphone"/>
+    <package android:name="com.eg.android.AlipayGphoneRC"/>
+    <package android:name="hk.alipay.wallet"/>
+    <package android:name="hk.alipay.walletRC"/>
+    <package android:name="com.ss.android.ugc.aweme"/>
+    <package android:name="com.ss.android.ugc.aweme.lite"/>
+    <package android:name="com.ss.android.article.news"/>
+    <package android:name="com.ss.android.article.lite"/>
+    <package android:name="com.dragon.read"/>
+    <package android:name="com.xiaomi.mipicks"/>
+    <package android:name="com.sec.android.app.samsungapps"/>
+    <intent>
+      <action android:name="android.intent.action.SEND"/>
+      <data android:mimeType="*/*"/>
+    </intent>
+    <intent>
+      <action android:name="android.intent.action.SEND_MULTIPLE"/>
+      <data android:mimeType="*/*"/>
+    </intent>
+    <intent>
+      <action android:name="android.intent.action.VIEW"/>
+      <category android:name="android.intent.category.BROWSABLE"/>
+      <data android:scheme="https"/>
+    </intent>
+    <package android:name="com.smile.gifmaker"/>
+    <package android:name="com.kuaishou.nebula"/>
+    <package android:name="com.tencent.mm"/>
+    <intent>
+      <action android:name="android.intent.action.MAIN"/>
+      <category android:name="android.intent.category.LAUNCHER"/>
+    </intent>
+  </queries>
+  <permission android:name="com.fhzj.game.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" android:protectionLevel="0x00000002"/>
+  <uses-permission android:name="com.fhzj.game.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"/>
+  <uses-permission android:name="com.huawei.appmarket.service.commondata.permission.GET_COMMON_DATA"/>
+  <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE"/>
+  <permission android:name="com.fhzj.game.gdt.qq.SEND_PERMISSION" android:protectionLevel="0x00000002"/>
+  <permission android:name="com.fhzj.game.gdt.qq.RECEIVE_PERMISSION" android:protectionLevel="0x00000002"/>
+  <uses-permission android:name="com.fhzj.game.gdt.qq.SEND_PERMISSION"/>
+  <uses-permission android:name="com.fhzj.game.gdt.qq.RECEIVE_PERMISSION"/>
+  <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+  <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+  <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+  <uses-permission android:name="com.asus.msa.SupplementaryDID.ACCESS"/>
+  <uses-permission android:name="com.fhzj.game.openadsdk.permission.TT_PANGOLIN"/>
+  <permission android:name="com.fhzj.game.openadsdk.permission.TT_PANGOLIN" android:protectionLevel="0x00000002"/>
+  <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+  <uses-permission android:name="android.permission.WAKE_LOCK"/>
+  <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES"/>
+  <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES"/>
+  <uses-permission android:name="freemme.permission.msa"/>
+  <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+  <uses-permission android:name="android.permission.REORDER_TASKS"/>
+  <uses-permission android:name="android.permission.POST_NOTIFICATIONS"/>
+  <uses-permission android:name="android.permission.GET_TASKS"/>
+  <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+  <uses-permission android:name="android.permission.RECEIVE_USER_PRESENT"/>
+  <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+  <uses-permission android:name="android.permission.EXPAND_STATUS_BAR"/>
+  <application android:theme="@android:01030007" android:label="@7F0E0033" android:icon="@7F0C0000" android:debuggable="false" android:allowBackup="false" android:hardwareAccelerated="true" android:supportsRtl="true" android:extractNativeLibs="true" android:usesCleartextTraffic="true" android:networkSecurityConfig="@7F110005" android:roundIcon="@7F0C0001" android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:requestLegacyExternalStorage="true" android:enableOnBackInvokedCallback="true">
+    <meta-data android:name="unity.splash-mode" android:value="0"/>
+    <meta-data android:name="unity.splash-enable" android:value="true"/>
+    <meta-data android:name="unity.launch-fullscreen" android:value="true"/>
+    <meta-data android:name="unity.render-outside-safearea" android:value="true"/>
+    <meta-data android:name="notch.config" android:value="portrait|landscape"/>
+    <meta-data android:name="unity.auto-report-fully-drawn" android:value="true"/>
+    <activity android:theme="@7F0F00C0" android:name="com.gorilla.privacystartup.PrivacyStartupActivity" android:exported="true" android:screenOrientation="1" android:hardwareAccelerated="true">
+      <intent-filter>
+        <category android:name="android.intent.category.LAUNCHER"/>
+        <action android:name="android.intent.action.MAIN"/>
+      </intent-filter>
+      <meta-data android:name="notch_support" android:value="true"/>
+    </activity>
+    <activity android:theme="@7F0F0132" android:label="@7F0E0033" android:name="com.unity3d.player.DxxUnityActivity" android:exported="true" android:launchMode="2" android:screenOrientation="1" android:configChanges="0x40003FFF" android:hardwareAccelerated="false" android:resizeableActivity="false">
+      <intent-filter android:autoVerify="true">
+        <category android:name="android.intent.category.DEFAULT"/>
+        <category android:name="android.intent.category.BROWSABLE"/>
+        <data android:scheme="https"/>
+        <data android:host="applink.archero2.com"/>
+        <action android:name="android.intent.action.VIEW"/>
+      </intent-filter>
+      <meta-data android:name="unityplayer.UnityActivity" android:value="true"/>
+    </activity>
+    <meta-data android:name="com.google.android.play.billingclient.version" android:value="8.0.0"/>
+    <activity android:theme="@android:01030010" android:name="com.android.billingclient.api.ProxyBillingActivity" android:exported="false" android:configChanges="0x000005B0"/>
+    <activity android:theme="@android:01030010" android:name="com.android.billingclient.api.ProxyBillingActivityV2" android:exported="false" android:configChanges="0x000005B0"/>
+    <activity android:theme="@android:01030010" android:name="com.google.android.gms.common.api.GoogleApiActivity" android:exported="false"/>
+    <meta-data android:name="com.google.android.gms.version" android:value="@7F090004"/>
+    <uses-library android:name="org.apache.http.legacy" android:required="false"/>
+    <activity android:theme="@android:01030006" android:name="com.alipay.sdk.app.H5PayActivity" android:exported="false" android:configChanges="0x40003DF4"/>
+    <activity android:theme="@android:01030006" android:name="com.alipay.sdk.app.H5AuthActivity" android:exported="false" android:configChanges="0x40003DF4"/>
+    <activity android:theme="@android:01030010" android:name="com.alipay.sdk.app.PayResultActivity" android:exported="true" android:launchMode="3" android:configChanges="0x40003DF4"/>
+    <activity android:theme="@android:01030010" android:name="com.alipay.sdk.app.AlipayResultActivity" android:exported="true" android:launchMode="2" android:configChanges="0x40003DF4"/>
+    <activity android:name="com.alipay.sdk.app.H5OpenAuthActivity" android:exported="false" android:screenOrientation="3" android:configChanges="0x40003DF4" android:windowSoftInputMode="0x00000012"/>
+    <activity android:theme="@android:01030010" android:name="com.alipay.sdk.app.APayEntranceActivity" android:exported="false" android:configChanges="0x40003DF4"/>
+    <meta-data android:name="hume_convert.AppConvert.sdk.version" android:value="2.0.4"/>
+    <activity android:theme="@7F0F0006" android:name="com.bytedance.ads.convert.BDBridgeActivity" android:exported="true"/>
+    <activity android:theme="@android:0103000F" android:name="com.chuanglan.shanyan_sdk.view.CmccLoginAuthActivity" android:exported="false" android:excludeFromRecents="true" android:launchMode="1" android:configChanges="0x000004A0"/>
+    <activity-alias android:theme="@android:0103000F" android:name="com.cmic.gen.sdk.view.GenLoginAuthActivity" android:exported="false" android:taskAffinity="" android:excludeFromRecents="true" android:launchMode="1" android:configChanges="0x000004A0" android:targetActivity="com.chuanglan.shanyan_sdk.view.CmccLoginAuthActivity"/>
+    <receiver android:name="cn.thinkingdata.analytics.utils.broadcast.TDReceiver" android:enabled="false" android:exported="false"/>
+    <provider android:name="com.qq.gdt.action.GDTInitProvider" android:exported="false" android:authorities="com.fhzj.game.GDTInitProvider"/>
+    <provider android:name="com.baidu.mobads.sdk.api.BdFileProvider" android:exported="false" android:authorities="com.fhzj.game.bd.provider" android:grantUriPermissions="true">
+      <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@7F110000"/>
+    </provider>
+    <activity android:theme="@android:01030006" android:name="com.baidu.mobads.sdk.api.AppActivity" android:configChanges="0x000004B0"/>
+    <activity android:name="com.baidu.oauth.sdkbqt.view.WebViewActivity" android:screenOrientation="1" android:configChanges="0x000000A0" android:windowSoftInputMode="0x00000002"/>
+    <activity android:theme="@android:01030010" android:name="com.baidu.mobads.sdk.api.MobRewardVideoActivity" android:configChanges="0x000006A0"/>
+    <activity android:theme="@android:01030010" android:name="com.baidu.mobads.sdk.api.BdShellActivity" android:configChanges="0x00000DB0"/>
+    <provider android:name="com.gorilla.base.InitializeProvider" android:exported="false" android:authorities="com.fhzj.game.InitializeProvider" android:initOrder="1000"/>
+    <provider android:name="com.gorilla.base.provider.GorillaShareFileProvider" android:exported="false" android:authorities="com.fhzj.game.gorilla.fileprovider" android:grantUriPermissions="true">
+      <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@7F110006"/>
+    </provider>
+    <receiver android:name="com.byazt.za.Collector" android:enabled="true" android:exported="false"/>
+    <activity android:theme="@android:01030010" android:name="com.ss.android.downloadlib.activity.TTDelegateActivity" android:exported="false" android:launchMode="2"/>
+    <activity android:theme="@android:01030010" android:name="com.byazt.bm.JumpKllkActivity" android:exported="false" android:launchMode="2"/>
+    <receiver android:name="com.byazt.zs.DownloadReceiver" android:exported="false"/>
+    <activity android:name="com.ss.android.socialbase.appdownloader.view.DownloadHandleNotificationActivity" android:exported="false" android:launchMode="2"/>
+    <service android:name="com.byazt.z.DownloadHandlerService" android:exported="false" android:stopWithTask="true"/>
+    <activity android:theme="@android:0103000B" android:name="com.ss.android.socialbase.appdownloader.view.DownloadTaskDeleteActivity" android:exported="false" android:launchMode="2"/>
+    <activity android:theme="@android:0103000B" android:name="com.byazt.y.JumpUnknownSourceActivity" android:exported="false" android:launchMode="2"/>
+    <service android:name="com.byazt.z.RetryJobSchedulerService" android:permission="android.permission.BIND_JOB_SERVICE" android:enabled="true" android:exported="false" android:stopWithTask="true"/>
+    <service android:name="com.byazt.n.DownloadNotificationService" android:exported="false" android:stopWithTask="true"/>
+    <service android:name="com.byazt.zz.CSJDownloadService" android:exported="false" android:stopWithTask="true"/>
+    <service android:name="com.byazt.b.DownloadHandleService" android:exported="false" android:stopWithTask="true"/>
+    <service android:name="com.byazt.zz.SqlDownloadCacheService" android:exported="false" android:stopWithTask="true"/>
+    <service android:name="com.byazt.zz.CSJIndependentProcessDownloadService" android:exported="false" android:process=":downloader" android:stopWithTask="true">
+      <intent-filter>
+        <action android:name="com.ss.android.socialbase.downloader.remote"/>
+      </intent-filter>
+    </service>
+    <activity android:name="com.bytedance.sdk.openadsdk.core.activity.base.TTNativePageActivity" android:exported="false" android:launchMode="0" android:configChanges="0x000004A0" android:windowSoftInputMode="0x00000002"/>
+    <activity android:name="com.bytedance.sdk.openadsdk.core.activity.base.TTWebPageActivity" android:exported="false" android:launchMode="0" android:configChanges="0x000004A0" android:windowSoftInputMode="0x00000002"/>
+    <activity android:theme="@android:01030010" android:name="com.bytedance.sdk.openadsdk.core.activity.base.TTSevenScreenWebPageActivity" android:exported="false" android:launchMode="0" android:configChanges="0x000004A0" android:windowSoftInputMode="0x00000002"/>
+    <activity android:name="com.bytedance.sdk.openadsdk.core.activity.base.TTVideoWebPageActivity" android:exported="false" android:launchMode="0" android:configChanges="0x000004A0" android:windowSoftInputMode="0x00000002"/>
+    <activity android:name="com.bytedance.sdk.openadsdk.core.activity.base.TTVideoScrollWebPageActivity" android:exported="false" android:launchMode="0" android:configChanges="0x000004A0" android:windowSoftInputMode="0x00000002"/>
+    <activity android:theme="@android:01030010" android:name="com.bytedance.sdk.openadsdk.core.activity.base.TTDelegateActivity" android:exported="false" android:launchMode="0"/>
+    <activity android:name="com.bytedance.sdk.openadsdk.core.component.reward.activity.TTRewardVideoActivity" android:exported="false" android:launchMode="0" android:screenOrientation="1" android:configChanges="0x000004A0"/>
+    <activity android:name="com.bytedance.sdk.openadsdk.core.component.reward.activity.TTFullScreenVideoActivity" android:exported="false" android:launchMode="0" android:screenOrientation="1" android:configChanges="0x000004A0"/>
+    <activity android:name="com.bytedance.sdk.openadsdk.core.component.reward.activity.TTRewardVideoLandscapeActivity" android:exported="false" android:launchMode="0" android:screenOrientation="0" android:configChanges="0x000004A0"/>
+    <activity android:name="com.bytedance.sdk.openadsdk.core.component.reward.activity.TTFullScreenVideoLandscapeActivity" android:exported="false" android:launchMode="0" android:screenOrientation="0" android:configChanges="0x000004A0"/>
+    <service android:name="com.byazt.wzi.BinderPoolService" android:exported="false"/>
+    <activity android:theme="@android:01030006" android:name="com.byazt.qde.Stub_Standard_Activity" android:exported="false" android:launchMode="0" android:configChanges="0x000004E0" android:windowSoftInputMode="0x00000012"/>
+    <activity android:theme="@android:01030006" android:name="com.byazt.qde.Stub_Standard_Portrait_Activity" android:exported="false" android:launchMode="0" android:screenOrientation="1" android:configChanges="0x000006E0" android:windowSoftInputMode="0x00000012"/>
+    <activity android:theme="@android:0103000F" android:name="com.byazt.qde.Stub_Standard_Activity_T" android:exported="false" android:launchMode="0" android:configChanges="0x000004E0" android:windowSoftInputMode="0x00000012"/>
+    <activity android:theme="@android:01030006" android:name="com.byazt.qde.Stub_Standard_Landscape_Activity" android:exported="false" android:launchMode="0" android:screenOrientation="0" android:configChanges="0x000006E0" android:windowSoftInputMode="0x00000012"/>
+    <activity android:theme="@android:01030006" android:name="com.byazt.qde.Stub_Activity" android:exported="false" android:configChanges="0x000004E0" android:windowSoftInputMode="0x00000012"/>
+    <activity android:theme="@android:0103000F" android:name="com.byazt.qde.Stub_SingleTask_Activity_T" android:exported="false" android:launchMode="2" android:configChanges="0x000004E0" android:windowSoftInputMode="0x00000012"/>
+    <activity android:name="com.byazt.qde.Stub_SingleTask_Activity" android:exported="false" android:launchMode="2" android:configChanges="0x000004E0" android:windowSoftInputMode="0x00000012"/>
+    <provider android:name="com.byazt.gg.DownloaderServerManager" android:exported="false" android:process=":downloader" android:authorities="com.fhzj.game.pangle.servermanager.downloader.com.bytedance.sdk.openadsdk.adhost"/>
+    <provider android:name="com.byazt.gg.MainServerManager" android:exported="false" android:authorities="com.fhzj.game.pangle.servermanager.main"/>
+    <provider android:name="com.byazt.vf.TTMultiProvider" android:exported="false" android:authorities="com.fhzj.game.TTMultiProvider"/>
+    <service android:name="com.byazt.nu.ApiDownloadHandlerService" android:exported="false" android:stopWithTask="true"/>
+    <activity android:name="com.byazt.nu.ApiDownloadHandleNotificationActivity" android:exported="false" android:launchMode="2"/>
+    <provider android:name="com.byazt.quv.MainServerManager" android:exported="false" android:authorities="com.fhzj.game.pangle.servermanager.main"/>
+    <provider android:name="com.byazt.sj.MainProcessProviderProxy" android:exported="false" android:authorities="com.fhzj.game.pangle.provider.proxy.main"/>
+    <provider android:name="com.byazt.uk.FileProvider" android:exported="false" android:authorities="com.fhzj.game.pangle.fileprovider" android:grantUriPermissions="true"/>
+    <activity android:name="com.bytedance.android.openliveplugin.stub.activity.DouyinAuthorizeActivityProxy" android:exported="true"/>
+    <activity android:name="com.bytedance.android.openliveplugin.stub.activity.DouyinAuthorizeActivityLiveProcessProxy" android:exported="true" android:process=":bytelive"/>
+    <provider android:name="com.bytedance.android.openliveplugin.process.server.LiveServerManager" android:exported="false" android:process=":bytelive" android:authorities="com.fhzj.game.bytedance.android.openliveplugin.process.server.LiveServerManager"/>
+    <activity android:theme="@android:0103000D" android:name="com.bytedance.android.openliveplugin.stub.activity.StubActivity$Activity_Portrait" android:exported="false" android:screenOrientation="1" android:configChanges="0x000042A0"/>
+    <activity android:theme="@android:0103000D" android:name="com.bytedance.android.openliveplugin.stub.activity.StubActivity$Activity_Portrait2" android:exported="false" android:screenOrientation="1" android:configChanges="0x000042A0"/>
+    <activity android:theme="@android:0103000D" android:name="com.bytedance.android.openliveplugin.stub.activity.StubActivity$Activity_Portrait3" android:exported="false" android:screenOrientation="1" android:configChanges="0x000042A0"/>
+    <activity android:theme="@android:0103000D" android:name="com.bytedance.android.openliveplugin.stub.activity.StubActivity$Activity_Portrait4" android:exported="false" android:screenOrientation="1" android:configChanges="0x000042A0"/>
+    <activity android:theme="@android:0103000D" android:name="com.bytedance.android.openliveplugin.stub.activity.StubActivity$Activity_Portrait5" android:exported="false" android:screenOrientation="1" android:configChanges="0x000042A0"/>
+    <activity android:name="com.byted.live.lite.Activity_bytelive_singleTask4" android:exported="false" android:process=":bytelive" android:launchMode="2" android:configChanges="0x000004E0" android:windowSoftInputMode="0x00000012"/>
+    <activity android:name="com.byted.live.lite.Activity_bytelive_singleTop3" android:exported="false" android:process=":bytelive" android:launchMode="1" android:configChanges="0x000004E0" android:windowSoftInputMode="0x00000012"/>
+    <activity android:name="com.byted.live.lite.Activity_bytelive_singleTop2" android:exported="false" android:process=":bytelive" android:launchMode="1" android:configChanges="0x000004E0" android:windowSoftInputMode="0x00000012"/>
+    <activity android:name="com.byted.live.lite.Activity_bytelive_singleTop5" android:exported="false" android:process=":bytelive" android:launchMode="1" android:configChanges="0x000004E0" android:windowSoftInputMode="0x00000012"/>
+    <activity android:name="com.byted.live.lite.Activity_bytelive_singleTop4" android:exported="false" android:process=":bytelive" android:launchMode="1" android:configChanges="0x000004E0" android:windowSoftInputMode="0x00000012"/>
+    <activity android:name="com.byted.live.lite.Activity_bytelive_standard" android:exported="false" android:process=":bytelive" android:launchMode="0" android:configChanges="0x000004E0" android:windowSoftInputMode="0x00000012"/>
+    <activity android:name="com.byted.live.lite.Activity_bytelive_singleTop1" android:exported="false" android:process=":bytelive" android:launchMode="1" android:configChanges="0x000004E0" android:windowSoftInputMode="0x00000012"/>
+    <activity android:name="com.byted.live.lite.Activity_bytelive_singleTask1" android:exported="false" android:process=":bytelive" android:launchMode="2" android:configChanges="0x000004E0" android:windowSoftInputMode="0x00000012"/>
+    <activity android:name="com.byted.live.lite.Activity_bytelive_singleTop6" android:exported="false" android:process=":bytelive" android:launchMode="1" android:configChanges="0x000004E0" android:windowSoftInputMode="0x00000012"/>
+    <activity android:name="com.byted.live.lite.Activity_bytelive_singleTask2" android:exported="false" android:process=":bytelive" android:launchMode="2" android:configChanges="0x000004E0" android:windowSoftInputMode="0x00000012"/>
+    <activity android:name="com.byted.live.lite.Activity_bytelive_singleTask3" android:exported="false" android:process=":bytelive" android:launchMode="2" android:configChanges="0x000004E0" android:windowSoftInputMode="0x00000012"/>
+    <activity android:name="com.byted.live.lite.Activity_main_singleTask1" android:exported="false" android:launchMode="2" android:configChanges="0x000004E0" android:windowSoftInputMode="0x00000012"/>
+    <activity android:name="com.byted.live.lite.Activity_main_singleTask2" android:exported="false" android:launchMode="2" android:configChanges="0x000004E0" android:windowSoftInputMode="0x00000012"/>
+    <activity android:name="com.byted.live.lite.Activity_main_singleTask3" android:exported="false" android:launchMode="2" android:configChanges="0x000004E0" android:windowSoftInputMode="0x00000012"/>
+    <activity android:name="com.byted.live.lite.Activity_main_singleTask4" android:exported="false" android:launchMode="2" android:configChanges="0x000004E0" android:windowSoftInputMode="0x00000012"/>
+    <activity android:name="com.byted.live.lite.Activity_main_standard" android:exported="false" android:launchMode="0" android:configChanges="0x000004E0" android:windowSoftInputMode="0x00000012"/>
+    <activity android:name="com.byted.live.lite.Activity_main_singleTop1" android:exported="false" android:launchMode="1" android:configChanges="0x000004E0" android:windowSoftInputMode="0x00000012"/>
+    <activity android:name="com.byted.live.lite.Activity_main_singleTop2" android:exported="false" android:launchMode="1" android:configChanges="0x000004E0" android:windowSoftInputMode="0x00000012"/>
+    <activity android:name="com.byted.live.lite.Activity_main_singleInstance1" android:exported="false" android:launchMode="3" android:configChanges="0x000004E0" android:windowSoftInputMode="0x00000012"/>
+    <activity android:name="com.byted.live.lite.Activity_main_singleTop5" android:exported="false" android:launchMode="1" android:configChanges="0x000004E0" android:windowSoftInputMode="0x00000012"/>
+    <activity android:name="com.byted.live.lite.Activity_main_singleTop6" android:exported="false" android:launchMode="1" android:configChanges="0x000004E0" android:windowSoftInputMode="0x00000012"/>
+    <activity android:name="com.byted.live.lite.Activity_main_singleTop3" android:exported="false" android:launchMode="1" android:configChanges="0x000004E0" android:windowSoftInputMode="0x00000012"/>
+    <activity android:name="com.byted.live.lite.Activity_main_singleTop4" android:exported="false" android:launchMode="1" android:configChanges="0x000004E0" android:windowSoftInputMode="0x00000012"/>
+    <activity android:name="com.byted.live.lite.Activity_bytelive_singleInstance1" android:exported="false" android:process=":bytelive" android:launchMode="3" android:configChanges="0x000004E0" android:windowSoftInputMode="0x00000012"/>
+    <provider android:name="com.byted.live.lite.ServerManager_bytelive" android:exported="false" android:process=":bytelive" android:authorities="com.fhzj.game.pangle.servermanager.bytelive.com.byted.live.lite"/>
+    <provider android:name="com.byted.live.lite.ServerManager_push" android:exported="false" android:process=":push" android:authorities="com.fhzj.game.pangle.servermanager.push.com.byted.live.lite"/>
+    <provider android:name="com.byted.live.lite.ServerManager_downloader" android:exported="false" android:process=":downloader" android:authorities="com.fhzj.game.pangle.servermanager.downloader.com.byted.live.lite"/>
+    <activity android:theme="@android:01030010" android:name="com.bytedance.msdk.api.activity.TTDelegateActivity" android:exported="false"/>
+    <activity android:theme="@android:01030010" android:name="com.bytedance.msdk.api.activity.TTTransparentActivity" android:exported="false" android:configChanges="0x00000490"/>
+    <provider android:name="com.sigmob.sdk.SigmobFileProvider" android:exported="false" android:authorities="com.fhzj.game.sigprovider" android:initOrder="200" android:grantUriPermissions="true">
+      <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@7F11000B"/>
+    </provider>
+    <activity android:theme="@7F0F019E" android:name="com.sigmob.sdk.base.common.TransparentAdActivity" android:exported="false" android:multiprocess="true" android:screenOrientation="3" android:configChanges="0x000017B0" android:hardwareAccelerated="true"/>
+    <activity android:theme="@android:0103000D" android:name="com.sigmob.sdk.base.common.AdActivity" android:exported="false" android:multiprocess="true" android:screenOrientation="3" android:configChanges="0x000017B0" android:hardwareAccelerated="true"/>
+    <activity android:theme="@android:0103000D" android:name="com.sigmob.sdk.base.common.PortraitAdActivity" android:exported="false" android:multiprocess="true" android:screenOrientation="7" android:configChanges="0x000017B0" android:hardwareAccelerated="true"/>
+    <activity android:theme="@android:0103000D" android:name="com.sigmob.sdk.base.common.LandscapeAdActivity" android:exported="false" android:multiprocess="true" android:screenOrientation="6" android:configChanges="0x000017B0" android:hardwareAccelerated="true"/>
+    <activity android:theme="@7F0F019E" android:name="com.sigmob.sdk.base.common.PortraitTransparentAdActivity" android:exported="false" android:multiprocess="true" android:screenOrientation="7" android:configChanges="0x000017B0" android:hardwareAccelerated="true"/>
+    <activity android:theme="@7F0F019E" android:name="com.sigmob.sdk.base.common.LandscapeTransparentAdActivity" android:exported="false" android:multiprocess="true" android:screenOrientation="6" android:configChanges="0x000017B0" android:hardwareAccelerated="true"/>
+    <activity android:theme="@android:0103000D" android:name="com.kwad.sdk.api.proxy.app.AdWebViewActivity" android:screenOrientation="1" android:configChanges="0x000005A4"/>
+    <activity android:theme="@android:0103000A" android:name="com.kwad.sdk.api.proxy.app.KsFullScreenVideoActivity" android:screenOrientation="1" android:configChanges="0x000005A4"/>
+    <activity android:theme="@android:0103000A" android:name="com.kwad.sdk.api.proxy.app.KsFullScreenLandScapeVideoActivity" android:screenOrientation="0" android:configChanges="0x000005A4"/>
+    <activity android:theme="@android:0103000A" android:name="com.kwad.sdk.api.proxy.app.KsRewardVideoActivity" android:screenOrientation="1" android:configChanges="0x000005A4"/>
+    <activity android:theme="@android:0103000A" android:name="com.kwad.sdk.api.proxy.app.KSRewardLandScapeVideoActivity" android:screenOrientation="0" android:configChanges="0x000005A4"/>
+    <activity android:theme="@android:0103000A" android:name="com.kwad.sdk.api.proxy.app.FeedDownloadActivity" android:screenOrientation="1" android:configChanges="0x000005A4"/>
+    <activity android:theme="@android:0103000D" android:name="com.kwad.sdk.api.proxy.app.BaseFragmentActivity$KsTrendsActivity" android:screenOrientation="1" android:configChanges="0x000004A0"/>
+    <activity android:name="com.kwad.sdk.api.proxy.app.BaseFragmentActivity$ProfileHomeActivity" android:screenOrientation="1" android:configChanges="0x000004A0"/>
+    <activity android:name="com.kwad.sdk.api.proxy.app.BaseFragmentActivity$ProfileVideoDetailActivity" android:screenOrientation="1" android:configChanges="0x000004A0"/>
+    <activity android:name="com.kwad.sdk.api.proxy.app.BaseFragmentActivity$TubeProfileActivity" android:screenOrientation="1" android:configChanges="0x000004A0"/>
+    <activity android:name="com.kwad.sdk.api.proxy.app.BaseFragmentActivity$ChannelDetailActivity" android:screenOrientation="1" android:configChanges="0x000004A0"/>
+    <activity android:name="com.kwad.sdk.api.proxy.app.BaseFragmentActivity$TubeDetailActivity" android:screenOrientation="1" android:configChanges="0x000004A0"/>
+    <activity android:name="com.kwad.sdk.api.proxy.app.BaseFragmentActivity$EpisodeDetailActivity" android:screenOrientation="1" android:configChanges="0x000004A0"/>
+    <activity android:theme="@7F0F0131" android:name="com.kwad.sdk.api.proxy.app.BaseFragmentActivity$RequestInstallPermissionActivity" android:exported="false" android:configChanges="0x000004A0">
+      <intent-filter>
+        <action android:name="intent.action.requestInstallPermission"/>
+        <category android:name="android.intent.category.DEFAULT"/>
+      </intent-filter>
+    </activity>
+    <activity android:theme="@android:0103000E" android:name="com.kwad.sdk.api.proxy.app.BaseFragmentActivity$FragmentActivity1" android:screenOrientation="1" android:configChanges="0x000004A0"/>
+    <activity android:name="com.kwad.sdk.api.proxy.app.BaseFragmentActivity$GoodsPlayBackActivity" android:screenOrientation="1" android:configChanges="0x000004A0"/>
+    <activity android:theme="@android:0103000E" android:name="com.kwad.sdk.api.proxy.app.BaseFragmentActivity$FragmentActivity2" android:screenOrientation="1" android:configChanges="0x000004A0"/>
+    <activity android:theme="@android:0103000E" android:name="com.kwad.sdk.api.proxy.app.BaseFragmentActivity$FragmentActivity3" android:screenOrientation="1" android:configChanges="0x000004A0"/>
+    <activity android:name="com.kwad.sdk.api.proxy.app.BaseFragmentActivity$FragmentActivity4" android:screenOrientation="1" android:configChanges="0x000004A0"/>
+    <activity android:name="com.kwad.sdk.api.proxy.app.BaseFragmentActivity$FragmentActivity5" android:screenOrientation="1" android:configChanges="0x000004A0"/>
+    <activity android:name="com.kwad.sdk.api.proxy.app.BaseFragmentActivity$FragmentActivity6" android:screenOrientation="1" android:configChanges="0x000004A0"/>
+    <activity android:name="com.kwad.sdk.api.proxy.app.BaseFragmentActivity$FragmentActivity7" android:screenOrientation="1" android:configChanges="0x000004A0"/>
+    <activity android:name="com.kwad.sdk.api.proxy.app.BaseFragmentActivity$FragmentActivity8" android:screenOrientation="1" android:configChanges="0x000004A0"/>
+    <activity android:theme="@android:01030010" android:name="com.kwad.sdk.api.proxy.app.BaseFragmentActivity$FragmentActivity9" android:screenOrientation="1" android:configChanges="0x000005A4"/>
+    <activity android:theme="@android:01030010" android:name="com.kwad.sdk.api.proxy.app.BaseFragmentActivity$FragmentActivity10" android:screenOrientation="3" android:configChanges="0x000005A4" android:windowSoftInputMode="0x00000022"/>
+    <activity android:theme="@android:01030010" android:name="com.kwad.sdk.api.proxy.app.BaseFragmentActivity$FragmentActivity11" android:screenOrientation="3" android:configChanges="0x000005A4"/>
+    <activity android:theme="@android:01030010" android:name="com.kwad.sdk.api.proxy.app.BaseFragmentActivity$FragmentActivity12" android:screenOrientation="3" android:configChanges="0x000005A4"/>
+    <activity android:name="com.kwad.sdk.api.proxy.app.BaseFragmentActivity$FragmentActivity13" android:screenOrientation="1" android:configChanges="0x000005A4"/>
+    <activity android:name="com.kwad.sdk.api.proxy.app.BaseFragmentActivity$FragmentActivity14" android:screenOrientation="1" android:configChanges="0x000005A4"/>
+    <activity android:name="com.kwad.sdk.api.proxy.app.BaseFragmentActivity$FragmentActivity15" android:screenOrientation="1" android:configChanges="0x000005A4"/>
+    <activity android:name="com.kwad.sdk.api.proxy.app.BaseFragmentActivity$FragmentActivity16" android:screenOrientation="1" android:configChanges="0x000005A4"/>
+    <activity android:name="com.kwad.sdk.api.proxy.app.BaseFragmentActivity$FragmentActivity17" android:screenOrientation="1" android:configChanges="0x000005A4"/>
+    <activity android:name="com.kwad.sdk.api.proxy.app.BaseFragmentActivity$FragmentActivity18" android:screenOrientation="1" android:configChanges="0x000005A4"/>
+    <activity android:name="com.kwad.sdk.api.proxy.app.BaseFragmentActivity$FragmentActivitySingleTop1" android:launchMode="1" android:screenOrientation="1" android:configChanges="0x000005A4"/>
+    <activity android:name="com.kwad.sdk.api.proxy.app.BaseFragmentActivity$FragmentActivitySingleTop2" android:launchMode="1" android:screenOrientation="1" android:configChanges="0x000005A4"/>
+    <activity android:name="com.kwad.sdk.api.proxy.app.BaseFragmentActivity$FragmentActivitySingleTop3" android:launchMode="1" android:screenOrientation="1" android:configChanges="0x000005A4"/>
+    <activity android:name="com.kwad.sdk.api.proxy.app.BaseFragmentActivity$FragmentActivitySingleInstance1" android:launchMode="3" android:screenOrientation="1" android:configChanges="0x000004A0"/>
+    <activity android:name="com.kwad.sdk.api.proxy.app.BaseFragmentActivity$FragmentActivitySingleInstance2" android:launchMode="3" android:screenOrientation="1" android:configChanges="0x000004A0"/>
+    <activity android:name="com.kwad.sdk.api.proxy.app.BaseFragmentActivity$FragmentActivitySingleInstance3" android:launchMode="3" android:screenOrientation="1" android:configChanges="0x000004A0"/>
+    <activity android:theme="@7F0F0193" android:label="handler" android:name="com.kwad.auth.login.KwadRouteHandlerActivity" android:exported="true" android:screenOrientation="3" android:configChanges="0x000004B0"/>
+    <activity-alias android:name="com.fhzj.game.kwad.KwadHandlerActivity" android:exported="true" android:screenOrientation="3" android:configChanges="0x000004B0" android:targetActivity="com.kwad.auth.login.KwadRouteHandlerActivity"/>
+    <activity android:theme="@android:0103000E" android:name="com.kwad.sdk.api.proxy.app.BaseFragmentActivity$DeveloperConfigActivity" android:launchMode="3" android:screenOrientation="1" android:configChanges="0x000004A0"/>
+    <activity android:theme="@7F0F0127" android:name="com.kwad.sdk.api.proxy.app.BaseFragmentActivity$LandscapeFragmentActivity" android:screenOrientation="0" android:configChanges="0x000004A0"/>
+    <activity android:theme="@7F0F0127" android:name="com.kwad.sdk.api.proxy.app.BaseFragmentActivity$LandscapeFragmentActivitySingleTop1" android:launchMode="1" android:screenOrientation="0" android:configChanges="0x000004A0"/>
+    <activity android:theme="@7F0F0127" android:name="com.kwad.sdk.api.proxy.app.BaseFragmentActivity$LandscapeFragmentActivitySingleTop2" android:launchMode="1" android:screenOrientation="0" android:configChanges="0x000004A0"/>
+    <activity android:theme="@7F0F0127" android:name="com.kwad.sdk.api.proxy.app.BaseFragmentActivity$LandscapeFragmentActivitySingleTask1" android:launchMode="2" android:screenOrientation="0" android:configChanges="0x000004A0"/>
+    <activity android:theme="@7F0F0127" android:name="com.kwad.sdk.api.proxy.app.BaseFragmentActivity$LandscapeFragmentActivitySingleTask2" android:launchMode="2" android:screenOrientation="0" android:configChanges="0x000004A0"/>
+    <activity android:theme="@7F0F0127" android:name="com.kwad.sdk.api.proxy.app.BaseFragmentActivity$LandscapeFragmentActivitySingleInstance1" android:launchMode="3" android:screenOrientation="0" android:configChanges="0x000004A0"/>
+    <activity android:theme="@7F0F0127" android:name="com.kwad.sdk.api.proxy.app.BaseFragmentActivity$LandscapeFragmentActivitySingleInstance2" android:launchMode="3" android:screenOrientation="0" android:configChanges="0x000004A0"/>
+    <activity android:theme="@android:0103000D" android:name="com.kwad.sdk.api.proxy.app.WebPageActivity" android:screenOrientation="1" android:configChanges="0x000005A4"/>
+    <activity android:theme="@android:0103000D" android:name="com.kwad.sdk.api.proxy.app.PayResultActivity" android:screenOrientation="1" android:configChanges="0x000005A4"/>
+    <service android:name="com.kwad.sdk.api.proxy.app.FileDownloadService$SharedMainProcessService"/>
+    <service android:name="com.kwad.sdk.api.proxy.app.FileDownloadService$SeparateProcessService"/>
+    <service android:name="com.kwad.sdk.api.proxy.app.DownloadService" android:exported="false"/>
+    <service android:name="com.kwad.sdk.api.proxy.app.ServiceProxyRemote" android:exported="false" android:process=":kssdk_remote"/>
+    <provider android:name="com.kwad.sdk.api.proxy.app.AdSdkFileProvider" android:exported="false" android:authorities="com.fhzj.game.adFileProvider" android:grantUriPermissions="true">
+      <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@7F110008"/>
+    </provider>
+    <activity android:name="com.onevcat.uniwebview.UniWebViewProxyActivity" android:configChanges="0x000004A0"/>
+    <provider android:name="com.onevcat.uniwebview.UniWebViewFileProvider" android:exported="false" android:authorities="com.fhzj.game.uniwebview_fileprovider" android:grantUriPermissions="true">
+      <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@7F110003"/>
+    </provider>
+    <activity android:theme="@android:01030010" android:name="com.gorilla.plugin.wechat.WeChatHandlerActivity" android:exported="false" android:taskAffinity="com.fhzj.game" android:launchMode="2"/>
+    <activity-alias android:theme="@android:01030010" android:name="com.fhzj.game.wxapi.WXEntryActivity" android:exported="true" android:taskAffinity="com.fhzj.game" android:launchMode="2" android:targetActivity="com.gorilla.plugin.wechat.WeChatHandlerActivity"/>
+    <activity-alias android:theme="@android:01030010" android:name="com.fhzj.game.wxapi.WXPayEntryActivity" android:exported="true" android:taskAffinity="com.fhzj.game" android:launchMode="2" android:targetActivity="com.gorilla.plugin.wechat.WeChatHandlerActivity"/>
+    <meta-data android:name="gorillaWeChatAppId" android:value="wx38dc0d1cf847e38f"/>
+    <meta-data android:name="gorillaWeChatEnableDebug" android:value="true"/>
+    <service android:name="com.qq.e.comm.DownloadService" android:exported="false" android:multiprocess="true"/>
+    <activity android:name="com.qq.e.ads.ADActivity" android:exported="false" android:multiprocess="true" android:configChanges="0x000005B0"/>
+    <activity android:theme="@android:0103000D" android:name="com.qq.e.ads.PortraitADActivity" android:exported="false" android:multiprocess="true" android:screenOrientation="1" android:configChanges="0x000005B0"/>
+    <activity android:theme="@android:0103000D" android:name="com.qq.e.ads.LandscapeADActivity" android:exported="false" android:multiprocess="true" android:screenOrientation="6" android:configChanges="0x000005B0"/>
+    <activity android:theme="@android:0103000D" android:name="com.qq.e.ads.RewardvideoPortraitADActivity" android:exported="false" android:multiprocess="true" android:configChanges="0x000004B0">
+      <meta-data android:name="android.notch_support" android:value="true"/>
+    </activity>
+    <activity android:theme="@android:0103000D" android:name="com.qq.e.ads.RewardvideoLandscapeADActivity" android:exported="false" android:multiprocess="true" android:screenOrientation="0" android:configChanges="0x000004B0">
+      <meta-data android:name="android.notch_support" android:value="true"/>
+    </activity>
+    <activity android:theme="@android:01030011" android:name="com.qq.e.ads.DialogActivity" android:exported="false" android:multiprocess="true"/>
+    <meta-data android:name="gorillaAliPayAppId" android:value="gorilla_alipay_app_id:2021006169609086"/>
+    <meta-data android:name="gorillaAliPaySandbox" android:value="false"/>
+    <activity android:theme="@7F0F0187" android:name="com.chuanglan.shanyan_sdk.view.ShanYanOneKeyActivity" android:launchMode="1" android:screenOrientation="10" android:configChanges="0x000004A0"/>
+    <activity android:theme="@7F0F0188" android:name="com.chuanglan.shanyan_sdk.view.CTCCPrivacyProtocolActivity" android:launchMode="1" android:screenOrientation="10" android:configChanges="0x000004A0"/>
+    <receiver android:name="com.unity.androidnotifications.UnityNotificationManager" android:exported="false"/>
+    <meta-data android:name="com.unity.androidnotifications.exact_scheduling" android:value="0"/>
+    <meta-data android:name="custom_notification_android_activity" android:value="com.unity3d.player.UnityPlayerActivity"/>
+    <meta-data android:name="test" android:value="one"/>
+    <meta-data android:name="channel" android:value="two"/>
+    <meta-data android:name="Channel_app" android:value="three"/>
+    <provider android:name="com.bytedance.sdk.openadsdk.TTFileProvider" android:exported="false" android:authorities="com.fhzj.game.TTFileProvider" android:grantUriPermissions="true">
+      <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@7F110002"/>
+    </provider>
+    <provider android:name="com.qq.e.comm.GDTFileProvider" android:exported="false" android:authorities="com.fhzj.game.gdt.fileprovider" android:grantUriPermissions="true">
+      <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@7F110004"/>
+    </provider>
+    <service android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery" android:exported="false">
+      <meta-data android:name="backend:com.google.android.datatransport.cct.CctBackendFactory" android:value="cct"/>
+    </service>
+    <service android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService" android:permission="android.permission.BIND_JOB_SERVICE" android:exported="false"/>
+    <receiver android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver" android:exported="false"/>
+    <provider android:name="androidx.startup.InitializationProvider" android:exported="false" android:authorities="com.fhzj.game.androidx-startup">
+      <meta-data android:name="androidx.profileinstaller.ProfileInstallerInitializer" android:value="androidx.startup"/>
+    </provider>
+    <receiver android:name="androidx.profileinstaller.ProfileInstallReceiver" android:permission="android.permission.DUMP" android:enabled="true" android:exported="true" android:directBootAware="false">
+      <intent-filter>
+        <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE"/>
+      </intent-filter>
+      <intent-filter>
+        <action android:name="androidx.profileinstaller.action.SKIP_FILE"/>
+      </intent-filter>
+      <intent-filter>
+        <action android:name="androidx.profileinstaller.action.SAVE_PROFILE"/>
+      </intent-filter>
+      <intent-filter>
+        <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION"/>
+      </intent-filter>
+    </receiver>
+  </application>
+</manifest>

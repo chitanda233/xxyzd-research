@@ -1,0 +1,80 @@
+{
+  "name": "CrossArena_CrossArenaLevel",
+  "assembly": "HotFixBattle.dll",
+  "read_impl_rva": "0x6a54130",
+  "fields": [
+    {
+      "type": "int",
+      "name": "Level",
+      "offset": 32,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "name",
+      "offset": 36,
+      "reader": "readInt"
+    },
+    {
+      "type": "string",
+      "name": "Notes",
+      "offset": 40,
+      "reader": "readLocalString"
+    },
+    {
+      "type": "int",
+      "name": "playerNum",
+      "offset": 48,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "PromotionRank",
+      "offset": 52,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "DemoteRank",
+      "offset": 56,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "RetentionRate",
+      "offset": 60,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "atlasID",
+      "offset": 64,
+      "reader": "readInt"
+    },
+    {
+      "type": "string",
+      "name": "icon",
+      "offset": 72,
+      "reader": "readLocalString"
+    },
+    {
+      "type": "int",
+      "name": "RobotCount",
+      "offset": 80,
+      "reader": "readInt"
+    }
+  ],
+  "native_reader_calls": [
+    "readInt",
+    "readInt",
+    "readLocalString",
+    "readInt",
+    "readInt",
+    "readInt",
+    "readInt",
+    "readInt",
+    "readLocalString",
+    "readInt"
+  ],
+  "field_count_matches_native_calls": true
+}

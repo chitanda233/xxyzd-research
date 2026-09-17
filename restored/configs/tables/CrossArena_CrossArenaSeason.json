@@ -1,0 +1,14 @@
+[
+  {
+    "ID": 1,
+    "Days": 7,
+    "OpenTime": "00:00:00",
+    "CloseTime": "23:50:00",
+    "TicketId": 116,
+    "TicketDailyRecover": 5,
+    "missionId": 110000,
+    "RefreshCost": [],
+    "TicketShopId": 11,
+    "TicketGoodsId": 1001
+  }
+]

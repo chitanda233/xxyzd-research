@@ -1,0 +1,31 @@
+{
+  "name": "Module_moduleInfo",
+  "assembly": "HotFixBattle.dll",
+  "read_impl_rva": "0x6acab0c",
+  "fields": [
+    {
+      "type": "int",
+      "name": "id",
+      "offset": 32,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "nameId",
+      "offset": 36,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "infoId",
+      "offset": 40,
+      "reader": "readInt"
+    }
+  ],
+  "native_reader_calls": [
+    "readInt",
+    "readInt",
+    "readInt"
+  ],
+  "field_count_matches_native_calls": true
+}

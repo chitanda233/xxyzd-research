@@ -1,0 +1,52 @@
+[
+  {
+    "ID": 1,
+    "Notes": "通用Buff",
+    "className": "Buff_Default"
+  },
+  {
+    "ID": 4,
+    "Notes": "麻痹（短暂眩晕）",
+    "className": "Buff_Para"
+  },
+  {
+    "ID": 5,
+    "Notes": "冰冻Buff(眩晕)",
+    "className": "Buff_Frozen"
+  },
+  {
+    "ID": 6,
+    "Notes": "无敌Buff",
+    "className": "Buff_Invincible"
+  },
+  {
+    "ID": 7,
+    "Notes": "TriggerBuff",
+    "className": "Buff_Trigger"
+  },
+  {
+    "ID": 8,
+    "Notes": "护盾buff",
+    "className": "Buff_Shield"
+  },
+  {
+    "ID": 9,
+    "Notes": "创建武器buff",
+    "className": "Buff_CreateWeapon"
+  },
+  {
+    "ID": 10,
+    "Notes": "Buff属性增益同步给子弹",
+    "className": "BuffSync2Bullets"
+  },
+  {
+    "ID": 11,
+    "Notes": "禁止武器发射子弹",
+    "className": "Buff_ForbidWeapon"
+  },
+  {
+    "ID": 12,
+    "Notes": "复活无敌Buff",
+    "className": "Buff_InvinciblePlayerReborn"
+  }
+]

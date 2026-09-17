@@ -1,0 +1,59 @@
+{
+  "name": "Skill_Ring",
+  "assembly": "HotFixBattle.dll",
+  "read_impl_rva": "0x6b0b3b0",
+  "fields": [
+    {
+      "type": "int",
+      "name": "Id",
+      "offset": 32,
+      "reader": "readInt"
+    },
+    {
+      "type": "string",
+      "name": "ClassName",
+      "offset": 40,
+      "reader": "readLocalString"
+    },
+    {
+      "type": "int",
+      "name": "EffectId",
+      "offset": 48,
+      "reader": "readInt"
+    },
+    {
+      "type": "FP",
+      "name": "Radius",
+      "offset": 56,
+      "reader": "readFp"
+    },
+    {
+      "type": "string",
+      "name": "Parameter",
+      "offset": 64,
+      "reader": "readLocalString"
+    },
+    {
+      "type": "int[]",
+      "name": "TargetType",
+      "offset": 72,
+      "reader": "readArrayint"
+    },
+    {
+      "type": "int",
+      "name": "TargetCamp",
+      "offset": 80,
+      "reader": "readInt"
+    }
+  ],
+  "native_reader_calls": [
+    "readInt",
+    "readLocalString",
+    "readInt",
+    "readFp",
+    "readLocalString",
+    "readArrayint",
+    "readInt"
+  ],
+  "field_count_matches_native_calls": true
+}

@@ -1,0 +1,12 @@
+[
+  {
+    "EventID": 1,
+    "GetID": 10000001,
+    "Weight": 100
+  },
+  {
+    "EventID": 2,
+    "GetID": 10000002,
+    "Weight": 100
+  }
+]

@@ -1,0 +1,38 @@
+{
+  "name": "EventBigA_MineTask",
+  "assembly": "HotFixBattle.dll",
+  "read_impl_rva": "0x6a6a760",
+  "fields": [
+    {
+      "type": "int",
+      "name": "Id",
+      "offset": 32,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "BeginTime",
+      "offset": 36,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "EndTime",
+      "offset": 40,
+      "reader": "readInt"
+    },
+    {
+      "type": "int[]",
+      "name": "MineTaskId",
+      "offset": 48,
+      "reader": "readArrayint"
+    }
+  ],
+  "native_reader_calls": [
+    "readInt",
+    "readInt",
+    "readInt",
+    "readArrayint"
+  ],
+  "field_count_matches_native_calls": true
+}

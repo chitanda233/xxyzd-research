@@ -1,0 +1,206 @@
+[
+  {
+    "ID": 1,
+    "BaseOpenTimes": 1,
+    "BaseQuality": 40,
+    "QualityUpgradeRate": [
+      [
+        1,
+        60
+      ],
+      [
+        2,
+        30
+      ],
+      [
+        3,
+        10
+      ]
+    ],
+    "InitialOpenTimes": [
+      [
+        129,
+        2,
+        12500
+      ],
+      [
+        1020,
+        2,
+        12500
+      ],
+      [
+        2,
+        50,
+        12500
+      ],
+      [
+        126,
+        1,
+        12500
+      ],
+      [
+        113,
+        1,
+        12500
+      ],
+      [
+        110,
+        1,
+        12500
+      ],
+      [
+        10010007,
+        50,
+        12500
+      ],
+      [
+        10010008,
+        25,
+        12500
+      ]
+    ],
+    "TreasureBoxAtlas": 10138,
+    "TreasureBoxIcon": "stg_BigActivity_Mining_box01",
+    "TreasureBoxIconPreview": "stg_BigActivity_Mining_box01s",
+    "TreasureSize": [
+      1,
+      1
+    ]
+  },
+  {
+    "ID": 2,
+    "BaseOpenTimes": 1,
+    "BaseQuality": 40,
+    "QualityUpgradeRate": [
+      [
+        1,
+        60
+      ],
+      [
+        2,
+        30
+      ],
+      [
+        3,
+        10
+      ]
+    ],
+    "InitialOpenTimes": [
+      [
+        129,
+        6,
+        12500
+      ],
+      [
+        1020,
+        5,
+        12500
+      ],
+      [
+        2,
+        100,
+        12500
+      ],
+      [
+        151,
+        1,
+        12500
+      ],
+      [
+        113,
+        1,
+        12500
+      ],
+      [
+        110,
+        1,
+        12500
+      ],
+      [
+        10010007,
+        100,
+        12500
+      ],
+      [
+        10010008,
+        50,
+        12500
+      ]
+    ],
+    "TreasureBoxAtlas": 10138,
+    "TreasureBoxIcon": "stg_BigActivity_Mining_box02",
+    "TreasureBoxIconPreview": "stg_BigActivity_Mining_box02s",
+    "TreasureSize": [
+      2,
+      2
+    ]
+  },
+  {
+    "ID": 3,
+    "BaseOpenTimes": 1,
+    "BaseQuality": 50,
+    "QualityUpgradeRate": [
+      [
+        1,
+        60
+      ],
+      [
+        2,
+        30
+      ],
+      [
+        3,
+        10
+      ]
+    ],
+    "InitialOpenTimes": [
+      [
+        129,
+        12,
+        12500
+      ],
+      [
+        1020,
+        10,
+        12500
+      ],
+      [
+        2,
+        200,
+        12500
+      ],
+      [
+        151,
+        1,
+        12500
+      ],
+      [
+        112,
+        1,
+        12500
+      ],
+      [
+        111,
+        1,
+        12500
+      ],
+      [
+        10010007,
+        200,
+        12500
+      ],
+      [
+        10010008,
+        100,
+        12500
+      ]
+    ],
+    "TreasureBoxAtlas": 10138,
+    "TreasureBoxIcon": "stg_BigActivity_Mining_box03",
+    "TreasureBoxIconPreview": "stg_BigActivity_Mining_box03s",
+    "TreasureSize": [
+      2,
+      3
+    ]
+  }
+]

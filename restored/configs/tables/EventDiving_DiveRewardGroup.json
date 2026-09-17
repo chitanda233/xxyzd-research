@@ -1,0 +1,266 @@
+[
+  {
+    "ID": 1,
+    "RewardGroupID": 1,
+    "BridgeNeed": 5,
+    "Rewards": [
+      [
+        1007,
+        1
+      ]
+    ]
+  },
+  {
+    "ID": 2,
+    "RewardGroupID": 1,
+    "BridgeNeed": 10,
+    "Rewards": [
+      [
+        1007,
+        1
+      ]
+    ]
+  },
+  {
+    "ID": 3,
+    "RewardGroupID": 1,
+    "BridgeNeed": 20,
+    "Rewards": [
+      [
+        1007,
+        1
+      ]
+    ]
+  },
+  {
+    "ID": 4,
+    "RewardGroupID": 1,
+    "BridgeNeed": 30,
+    "Rewards": [
+      [
+        1008,
+        1
+      ]
+    ]
+  },
+  {
+    "ID": 5,
+    "RewardGroupID": 1,
+    "BridgeNeed": 50,
+    "Rewards": [
+      [
+        1007,
+        1
+      ]
+    ]
+  },
+  {
+    "ID": 6,
+    "RewardGroupID": 1,
+    "BridgeNeed": 100,
+    "Rewards": [
+      [
+        1007,
+        1
+      ]
+    ]
+  },
+  {
+    "ID": 7,
+    "RewardGroupID": 1,
+    "BridgeNeed": 150,
+    "Rewards": [
+      [
+        1007,
+        1
+      ]
+    ]
+  },
+  {
+    "ID": 8,
+    "RewardGroupID": 1,
+    "BridgeNeed": 200,
+    "Rewards": [
+      [
+        1008,
+        1
+      ]
+    ]
+  },
+  {
+    "ID": 9,
+    "RewardGroupID": 1,
+    "BridgeNeed": 250,
+    "Rewards": [
+      [
+        1008,
+        1
+      ]
+    ]
+  },
+  {
+    "ID": 10,
+    "RewardGroupID": 1,
+    "BridgeNeed": 300,
+    "Rewards": [
+      [
+        1008,
+        1
+      ]
+    ]
+  },
+  {
+    "ID": 11,
+    "RewardGroupID": 1,
+    "BridgeNeed": 350,
+    "Rewards": [
+      [
+        1008,
+        1
+      ]
+    ]
+  },
+  {
+    "ID": 12,
+    "RewardGroupID": 1,
+    "BridgeNeed": 400,
+    "Rewards": [
+      [
+        1008,
+        1
+      ]
+    ]
+  },
+  {
+    "ID": 13,
+    "RewardGroupID": 1,
+    "BridgeNeed": 450,
+    "Rewards": [
+      [
+        1008,
+        1
+      ]
+    ]
+  },
+  {
+    "ID": 14,
+    "RewardGroupID": 1,
+    "BridgeNeed": 500,
+    "Rewards": [
+      [
+        1008,
+        1
+      ]
+    ]
+  },
+  {
+    "ID": 15,
+    "RewardGroupID": 1,
+    "BridgeNeed": 550,
+    "Rewards": [
+      [
+        1008,
+        1
+      ]
+    ]
+  },
+  {
+    "ID": 16,
+    "RewardGroupID": 1,
+    "BridgeNeed": 600,
+    "Rewards": [
+      [
+        1008,
+        1
+      ]
+    ]
+  },
+  {
+    "ID": 17,
+    "RewardGroupID": 1,
+    "BridgeNeed": 650,
+    "Rewards": [
+      [
+        1008,
+        1
+      ]
+    ]
+  },
+  {
+    "ID": 18,
+    "RewardGroupID": 1,
+    "BridgeNeed": 700,
+    "Rewards": [
+      [
+        1008,
+        1
+      ]
+    ]
+  },
+  {
+    "ID": 19,
+    "RewardGroupID": 1,
+    "BridgeNeed": 750,
+    "Rewards": [
+      [
+        1008,
+        1
+      ]
+    ]
+  },
+  {
+    "ID": 20,
+    "RewardGroupID": 1,
+    "BridgeNeed": 800,
+    "Rewards": [
+      [
+        1008,
+        1
+      ]
+    ]
+  },
+  {
+    "ID": 21,
+    "RewardGroupID": 1,
+    "BridgeNeed": 850,
+    "Rewards": [
+      [
+        1008,
+        1
+      ]
+    ]
+  },
+  {
+    "ID": 22,
+    "RewardGroupID": 1,
+    "BridgeNeed": 900,
+    "Rewards": [
+      [
+        1008,
+        1
+      ]
+    ]
+  },
+  {
+    "ID": 23,
+    "RewardGroupID": 1,
+    "BridgeNeed": 950,
+    "Rewards": [
+      [
+        1008,
+        1
+      ]
+    ]
+  },
+  {
+    "ID": 24,
+    "RewardGroupID": 1,
+    "BridgeNeed": 1000,
+    "Rewards": [
+      [
+        1008,
+        1
+      ]
+    ]
+  }
+]

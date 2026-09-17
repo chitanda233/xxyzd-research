@@ -1,0 +1,38 @@
+{
+  "name": "BattleMain_skill",
+  "assembly": "HotFixBattle.dll",
+  "read_impl_rva": "0x68845d8",
+  "fields": [
+    {
+      "type": "int",
+      "name": "ID",
+      "offset": 32,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "skillType",
+      "offset": 36,
+      "reader": "readInt"
+    },
+    {
+      "type": "int[]",
+      "name": "skillList",
+      "offset": 40,
+      "reader": "readArrayint"
+    },
+    {
+      "type": "int",
+      "name": "breakSkillId",
+      "offset": 48,
+      "reader": "readInt"
+    }
+  ],
+  "native_reader_calls": [
+    "readInt",
+    "readInt",
+    "readArrayint",
+    "readInt"
+  ],
+  "field_count_matches_native_calls": true
+}

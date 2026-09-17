@@ -1,0 +1,42 @@
+[
+  {
+    "EventID": 1,
+    "GetID": 1000108,
+    "Weight": 10
+  },
+  {
+    "EventID": 2,
+    "GetID": 1000921,
+    "Weight": 10
+  },
+  {
+    "EventID": 3,
+    "GetID": 1000109,
+    "Weight": 10
+  },
+  {
+    "EventID": 4,
+    "GetID": 1000101,
+    "Weight": 10
+  },
+  {
+    "EventID": 5,
+    "GetID": 1000102,
+    "Weight": 10
+  },
+  {
+    "EventID": 6,
+    "GetID": 10808,
+    "Weight": 10
+  },
+  {
+    "EventID": 7,
+    "GetID": 108004,
+    "Weight": 10
+  },
+  {
+    "EventID": 8,
+    "GetID": 1000107,
+    "Weight": 10
+  }
+]

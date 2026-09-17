@@ -1,0 +1,31 @@
+{
+  "name": "GameHover_hover",
+  "assembly": "HotFixBattle.dll",
+  "read_impl_rva": "0x6a7ebd4",
+  "fields": [
+    {
+      "type": "int",
+      "name": "ID",
+      "offset": 32,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "modelId",
+      "offset": 36,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "PosType",
+      "offset": 40,
+      "reader": "readInt"
+    }
+  ],
+  "native_reader_calls": [
+    "readInt",
+    "readInt",
+    "readInt"
+  ],
+  "field_count_matches_native_calls": true
+}

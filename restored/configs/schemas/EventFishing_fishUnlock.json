@@ -1,0 +1,52 @@
+{
+  "name": "EventFishing_fishUnlock",
+  "assembly": "HotFixBattle.dll",
+  "read_impl_rva": "0x6a76e3c",
+  "fields": [
+    {
+      "type": "int",
+      "name": "id",
+      "offset": 32,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "GroupId",
+      "offset": 36,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "UnlockWeight",
+      "offset": 40,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "UnlockFishRod",
+      "offset": 44,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "UnlockArea",
+      "offset": 48,
+      "reader": "readInt"
+    },
+    {
+      "type": "string",
+      "name": "UnlockLanguage",
+      "offset": 56,
+      "reader": "readLocalString"
+    }
+  ],
+  "native_reader_calls": [
+    "readInt",
+    "readInt",
+    "readInt",
+    "readInt",
+    "readInt",
+    "readLocalString"
+  ],
+  "field_count_matches_native_calls": true
+}

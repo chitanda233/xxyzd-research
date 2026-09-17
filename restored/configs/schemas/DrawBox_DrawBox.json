@@ -1,0 +1,115 @@
+{
+  "name": "DrawBox_DrawBox",
+  "assembly": "HotFixBattle.dll",
+  "read_impl_rva": "0x6a58d50",
+  "fields": [
+    {
+      "type": "int",
+      "name": "ID",
+      "offset": 32,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "Key_ID",
+      "offset": 36,
+      "reader": "readInt"
+    },
+    {
+      "type": "int[]",
+      "name": "Single",
+      "offset": 40,
+      "reader": "readArrayint"
+    },
+    {
+      "type": "int",
+      "name": "Ten",
+      "offset": 48,
+      "reader": "readInt"
+    },
+    {
+      "type": "string",
+      "name": "Title",
+      "offset": 56,
+      "reader": "readLocalString"
+    },
+    {
+      "type": "string",
+      "name": "Des",
+      "offset": 64,
+      "reader": "readLocalString"
+    },
+    {
+      "type": "string",
+      "name": "SRankDes",
+      "offset": 72,
+      "reader": "readLocalString"
+    },
+    {
+      "type": "string",
+      "name": "DesId",
+      "offset": 80,
+      "reader": "readLocalString"
+    },
+    {
+      "type": "string",
+      "name": "SRankDesId",
+      "offset": 88,
+      "reader": "readLocalString"
+    },
+    {
+      "type": "int[]",
+      "name": "DrawBoxRateInfo",
+      "offset": 96,
+      "reader": "readArrayint"
+    },
+    {
+      "type": "int",
+      "name": "FreeCD",
+      "offset": 104,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "DayLimit",
+      "offset": 108,
+      "reader": "readInt"
+    },
+    {
+      "type": "string[]",
+      "name": "ScoreReward",
+      "offset": 112,
+      "reader": "readArraystring"
+    },
+    {
+      "type": "string",
+      "name": "DrawBoxBgA",
+      "offset": 120,
+      "reader": "readLocalString"
+    },
+    {
+      "type": "string",
+      "name": "DrawBoxBgB",
+      "offset": 128,
+      "reader": "readLocalString"
+    }
+  ],
+  "native_reader_calls": [
+    "readInt",
+    "readInt",
+    "readArrayint",
+    "readInt",
+    "readLocalString",
+    "readLocalString",
+    "readLocalString",
+    "readLocalString",
+    "readLocalString",
+    "readArrayint",
+    "readInt",
+    "readInt",
+    "readArraystring",
+    "readLocalString",
+    "readLocalString"
+  ],
+  "field_count_matches_native_calls": true
+}

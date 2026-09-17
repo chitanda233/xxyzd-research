@@ -1,0 +1,298 @@
+[
+  {
+    "id": 1,
+    "Type": 1,
+    "NodeJoinSpeed": {
+      "serialized_int32": 100000,
+      "decimal": 10.0,
+      "fp_raw": 655360,
+      "runtime_value": 10.0
+    },
+    "NodeMoveSpeed": {
+      "serialized_int32": 100000,
+      "decimal": 10.0,
+      "fp_raw": 655360,
+      "runtime_value": 10.0
+    },
+    "CircleRadius": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "MoveSpeed": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "AngleSpeed": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "ForwardToTarget": 0,
+    "MoveType": 0,
+    "Params": ""
+  },
+  {
+    "id": 2,
+    "Type": 1,
+    "NodeJoinSpeed": {
+      "serialized_int32": 100000,
+      "decimal": 10.0,
+      "fp_raw": 655360,
+      "runtime_value": 10.0
+    },
+    "NodeMoveSpeed": {
+      "serialized_int32": 200000,
+      "decimal": 20.0,
+      "fp_raw": 1310720,
+      "runtime_value": 20.0
+    },
+    "CircleRadius": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "MoveSpeed": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "AngleSpeed": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "ForwardToTarget": 0,
+    "MoveType": 0,
+    "Params": ""
+  },
+  {
+    "id": 3,
+    "Type": 2,
+    "NodeJoinSpeed": {
+      "serialized_int32": 60000,
+      "decimal": 6.0,
+      "fp_raw": 393216,
+      "runtime_value": 6.0
+    },
+    "NodeMoveSpeed": {
+      "serialized_int32": 99990000,
+      "decimal": 9999.0,
+      "fp_raw": 655294464,
+      "runtime_value": 9999.0
+    },
+    "CircleRadius": {
+      "serialized_int32": 30000,
+      "decimal": 3.0,
+      "fp_raw": 196608,
+      "runtime_value": 3.0
+    },
+    "MoveSpeed": {
+      "serialized_int32": 40000,
+      "decimal": 4.0,
+      "fp_raw": 262144,
+      "runtime_value": 4.0
+    },
+    "AngleSpeed": {
+      "serialized_int32": 500000,
+      "decimal": 50.0,
+      "fp_raw": 3276800,
+      "runtime_value": 50.0
+    },
+    "ForwardToTarget": 1,
+    "MoveType": 2,
+    "Params": "{\"WalkTimeMin\":5,\"WalkTimeMlax\":5,\"WaitTime\":1}"
+  },
+  {
+    "id": 4,
+    "Type": 2,
+    "NodeJoinSpeed": {
+      "serialized_int32": 30000,
+      "decimal": 3.0,
+      "fp_raw": 196608,
+      "runtime_value": 3.0
+    },
+    "NodeMoveSpeed": {
+      "serialized_int32": 30000,
+      "decimal": 3.0,
+      "fp_raw": 196608,
+      "runtime_value": 3.0
+    },
+    "CircleRadius": {
+      "serialized_int32": 50000,
+      "decimal": 5.0,
+      "fp_raw": 327680,
+      "runtime_value": 5.0
+    },
+    "MoveSpeed": {
+      "serialized_int32": 20000,
+      "decimal": 2.0,
+      "fp_raw": 131072,
+      "runtime_value": 2.0
+    },
+    "AngleSpeed": {
+      "serialized_int32": 200000,
+      "decimal": 20.0,
+      "fp_raw": 1310720,
+      "runtime_value": 20.0
+    },
+    "ForwardToTarget": 1,
+    "MoveType": 1,
+    "Params": "{\"Entity\":[100001]}"
+  },
+  {
+    "id": 5,
+    "Type": 2,
+    "NodeJoinSpeed": {
+      "serialized_int32": 60000,
+      "decimal": 6.0,
+      "fp_raw": 393216,
+      "runtime_value": 6.0
+    },
+    "NodeMoveSpeed": {
+      "serialized_int32": 99990000,
+      "decimal": 9999.0,
+      "fp_raw": 655294464,
+      "runtime_value": 9999.0
+    },
+    "CircleRadius": {
+      "serialized_int32": 20000,
+      "decimal": 2.0,
+      "fp_raw": 131072,
+      "runtime_value": 2.0
+    },
+    "MoveSpeed": {
+      "serialized_int32": 99990000,
+      "decimal": 9999.0,
+      "fp_raw": 655294464,
+      "runtime_value": 9999.0
+    },
+    "AngleSpeed": {
+      "serialized_int32": 600000,
+      "decimal": 60.0,
+      "fp_raw": 3932160,
+      "runtime_value": 60.0
+    },
+    "ForwardToTarget": 1,
+    "MoveType": 1,
+    "Params": "{\"Entity\":[200030]}"
+  },
+  {
+    "id": 6,
+    "Type": 2,
+    "NodeJoinSpeed": {
+      "serialized_int32": 60000,
+      "decimal": 6.0,
+      "fp_raw": 393216,
+      "runtime_value": 6.0
+    },
+    "NodeMoveSpeed": {
+      "serialized_int32": 99990000,
+      "decimal": 9999.0,
+      "fp_raw": 655294464,
+      "runtime_value": 9999.0
+    },
+    "CircleRadius": {
+      "serialized_int32": 20000,
+      "decimal": 2.0,
+      "fp_raw": 131072,
+      "runtime_value": 2.0
+    },
+    "MoveSpeed": {
+      "serialized_int32": 99990000,
+      "decimal": 9999.0,
+      "fp_raw": 655294464,
+      "runtime_value": 9999.0
+    },
+    "AngleSpeed": {
+      "serialized_int32": 600000,
+      "decimal": 60.0,
+      "fp_raw": 3932160,
+      "runtime_value": 60.0
+    },
+    "ForwardToTarget": 1,
+    "MoveType": 2,
+    "Params": "{\"WalkTimeMin\":1,\"WalkTimeMlax\":2,\"WaitTime\":1}"
+  },
+  {
+    "id": 7,
+    "Type": 2,
+    "NodeJoinSpeed": {
+      "serialized_int32": 60000,
+      "decimal": 6.0,
+      "fp_raw": 393216,
+      "runtime_value": 6.0
+    },
+    "NodeMoveSpeed": {
+      "serialized_int32": 99990000,
+      "decimal": 9999.0,
+      "fp_raw": 655294464,
+      "runtime_value": 9999.0
+    },
+    "CircleRadius": {
+      "serialized_int32": 30000,
+      "decimal": 3.0,
+      "fp_raw": 196608,
+      "runtime_value": 3.0
+    },
+    "MoveSpeed": {
+      "serialized_int32": 40000,
+      "decimal": 4.0,
+      "fp_raw": 262144,
+      "runtime_value": 4.0
+    },
+    "AngleSpeed": {
+      "serialized_int32": 1000000,
+      "decimal": 100.0,
+      "fp_raw": 6553600,
+      "runtime_value": 100.0
+    },
+    "ForwardToTarget": 1,
+    "MoveType": 1,
+    "Params": "{\"Entity\":[200056]}"
+  },
+  {
+    "id": 8,
+    "Type": 2,
+    "NodeJoinSpeed": {
+      "serialized_int32": 60000,
+      "decimal": 6.0,
+      "fp_raw": 393216,
+      "runtime_value": 6.0
+    },
+    "NodeMoveSpeed": {
+      "serialized_int32": 99990000,
+      "decimal": 9999.0,
+      "fp_raw": 655294464,
+      "runtime_value": 9999.0
+    },
+    "CircleRadius": {
+      "serialized_int32": 30000,
+      "decimal": 3.0,
+      "fp_raw": 196608,
+      "runtime_value": 3.0
+    },
+    "MoveSpeed": {
+      "serialized_int32": 40000,
+      "decimal": 4.0,
+      "fp_raw": 262144,
+      "runtime_value": 4.0
+    },
+    "AngleSpeed": {
+      "serialized_int32": 1000000,
+      "decimal": 100.0,
+      "fp_raw": 6553600,
+      "runtime_value": 100.0
+    },
+    "ForwardToTarget": 1,
+    "MoveType": 1,
+    "Params": "{\"Entity\":[200062]}"
+  }
+]

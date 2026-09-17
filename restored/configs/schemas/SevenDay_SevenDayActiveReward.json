@@ -1,0 +1,38 @@
+{
+  "name": "SevenDay_SevenDayActiveReward",
+  "assembly": "HotFixBattle.dll",
+  "read_impl_rva": "0x6ae8bb4",
+  "fields": [
+    {
+      "type": "int",
+      "name": "ID",
+      "offset": 32,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "NeedActive",
+      "offset": 36,
+      "reader": "readInt"
+    },
+    {
+      "type": "string[]",
+      "name": "Reward",
+      "offset": 40,
+      "reader": "readArraystring"
+    },
+    {
+      "type": "int",
+      "name": "IfEquip",
+      "offset": 48,
+      "reader": "readInt"
+    }
+  ],
+  "native_reader_calls": [
+    "readInt",
+    "readInt",
+    "readArraystring",
+    "readInt"
+  ],
+  "field_count_matches_native_calls": true
+}

@@ -1,0 +1,80 @@
+{
+  "name": "Character_AttackPos",
+  "assembly": "HotFixBattle.dll",
+  "read_impl_rva": "0x68be150",
+  "fields": [
+    {
+      "type": "int",
+      "name": "ID",
+      "offset": 32,
+      "reader": "readInt"
+    },
+    {
+      "type": "int[]",
+      "name": "Pos0",
+      "offset": 40,
+      "reader": "readArrayint"
+    },
+    {
+      "type": "int",
+      "name": "Pos1",
+      "offset": 48,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "Pos2",
+      "offset": 52,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "Pos3",
+      "offset": 56,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "Pos4",
+      "offset": 60,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "Pos5",
+      "offset": 64,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "Pos6",
+      "offset": 68,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "Pos7",
+      "offset": 72,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "Pos8",
+      "offset": 76,
+      "reader": "readInt"
+    }
+  ],
+  "native_reader_calls": [
+    "readInt",
+    "readArrayint",
+    "readInt",
+    "readInt",
+    "readInt",
+    "readInt",
+    "readInt",
+    "readInt",
+    "readInt",
+    "readInt"
+  ],
+  "field_count_matches_native_calls": true
+}

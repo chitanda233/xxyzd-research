@@ -1,0 +1,94 @@
+{
+  "name": "ChapterWave_Waves",
+  "assembly": "HotFixBattle.dll",
+  "read_impl_rva": "0x68a0114",
+  "fields": [
+    {
+      "type": "int",
+      "name": "id",
+      "offset": 32,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "StopByEliteOrBossKilled",
+      "offset": 36,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "WaveAllExp",
+      "offset": 40,
+      "reader": "readInt"
+    },
+    {
+      "type": "int[]",
+      "name": "WaveStartSpecialUIType",
+      "offset": 48,
+      "reader": "readArrayint"
+    },
+    {
+      "type": "int[]",
+      "name": "WaveEndSpecialUIType",
+      "offset": 56,
+      "reader": "readArrayint"
+    },
+    {
+      "type": "FP",
+      "name": "refreshType",
+      "offset": 64,
+      "reader": "readFp"
+    },
+    {
+      "type": "FP",
+      "name": "hpUpgrade",
+      "offset": 72,
+      "reader": "readFp"
+    },
+    {
+      "type": "FP",
+      "name": "attackUp",
+      "offset": 80,
+      "reader": "readFp"
+    },
+    {
+      "type": "FP",
+      "name": "addExpUpgrade",
+      "offset": 88,
+      "reader": "readFp"
+    },
+    {
+      "type": "FP",
+      "name": "HPPickUpAddPercent",
+      "offset": 96,
+      "reader": "readFp"
+    },
+    {
+      "type": "int",
+      "name": "bgMusic",
+      "offset": 104,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "MonsterTotalGold",
+      "offset": 108,
+      "reader": "readInt"
+    }
+  ],
+  "native_reader_calls": [
+    "readInt",
+    "readInt",
+    "readInt",
+    "readArrayint",
+    "readArrayint",
+    "readFp",
+    "readFp",
+    "readFp",
+    "readFp",
+    "readFp",
+    "readInt",
+    "readInt"
+  ],
+  "field_count_matches_native_calls": true
+}

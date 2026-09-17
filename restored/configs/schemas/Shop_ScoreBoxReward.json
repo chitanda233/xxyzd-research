@@ -1,0 +1,45 @@
+{
+  "name": "Shop_ScoreBoxReward",
+  "assembly": "HotFixBattle.dll",
+  "read_impl_rva": "0x6aedc60",
+  "fields": [
+    {
+      "type": "int",
+      "name": "ID",
+      "offset": 32,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "Level",
+      "offset": 36,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "ScoreBoxId",
+      "offset": 40,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "Score",
+      "offset": 44,
+      "reader": "readInt"
+    },
+    {
+      "type": "int[][]",
+      "name": "Reward",
+      "offset": 48,
+      "reader": "readArrayArrayint"
+    }
+  ],
+  "native_reader_calls": [
+    "readInt",
+    "readInt",
+    "readInt",
+    "readInt",
+    "readArrayArrayint"
+  ],
+  "field_count_matches_native_calls": true
+}

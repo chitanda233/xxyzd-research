@@ -1,0 +1,38 @@
+{
+  "name": "GuildBOSS_rankRewards",
+  "assembly": "HotFixBattle.dll",
+  "read_impl_rva": "0x6a891c0",
+  "fields": [
+    {
+      "type": "int",
+      "name": "ID",
+      "offset": 32,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "Round",
+      "offset": 36,
+      "reader": "readInt"
+    },
+    {
+      "type": "int[]",
+      "name": "RankRange",
+      "offset": 40,
+      "reader": "readArrayint"
+    },
+    {
+      "type": "int[][]",
+      "name": "Reward",
+      "offset": 48,
+      "reader": "readArrayArrayint"
+    }
+  ],
+  "native_reader_calls": [
+    "readInt",
+    "readInt",
+    "readArrayint",
+    "readArrayArrayint"
+  ],
+  "field_count_matches_native_calls": true
+}

@@ -1,0 +1,66 @@
+{
+  "name": "IAP_BPReward",
+  "assembly": "HotFixBattle.dll",
+  "read_impl_rva": "0x6aa039c",
+  "fields": [
+    {
+      "type": "int",
+      "name": "id",
+      "offset": 32,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "GroupID",
+      "offset": 36,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "level",
+      "offset": 40,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "LevelUpNeedExp",
+      "offset": 44,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "TotalNeedExp",
+      "offset": 48,
+      "reader": "readInt"
+    },
+    {
+      "type": "int[][]",
+      "name": "RewardLevel1",
+      "offset": 56,
+      "reader": "readArrayArrayint"
+    },
+    {
+      "type": "int[][]",
+      "name": "RewardLevel2",
+      "offset": 64,
+      "reader": "readArrayArrayint"
+    },
+    {
+      "type": "int[][]",
+      "name": "RewardLevel3",
+      "offset": 72,
+      "reader": "readArrayArrayint"
+    }
+  ],
+  "native_reader_calls": [
+    "readInt",
+    "readInt",
+    "readInt",
+    "readInt",
+    "readInt",
+    "readArrayArrayint",
+    "readArrayArrayint",
+    "readArrayArrayint"
+  ],
+  "field_count_matches_native_calls": true
+}

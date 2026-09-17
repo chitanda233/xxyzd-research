@@ -1,0 +1,31 @@
+{
+  "name": "Rune_Reforge",
+  "assembly": "HotFixBattle.dll",
+  "read_impl_rva": "0x6ae4488",
+  "fields": [
+    {
+      "type": "int",
+      "name": "ID",
+      "offset": 32,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "Quality",
+      "offset": 36,
+      "reader": "readInt"
+    },
+    {
+      "type": "int[][]",
+      "name": "Cost",
+      "offset": 40,
+      "reader": "readArrayArrayint"
+    }
+  ],
+  "native_reader_calls": [
+    "readInt",
+    "readInt",
+    "readArrayArrayint"
+  ],
+  "field_count_matches_native_calls": true
+}

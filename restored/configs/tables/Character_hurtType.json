@@ -1,0 +1,30 @@
+[
+  {
+    "ID": 1,
+    "className": "HurtNormal"
+  },
+  {
+    "ID": 2,
+    "className": "HurtElementFire"
+  },
+  {
+    "ID": 3,
+    "className": "HurtElementPoison"
+  },
+  {
+    "ID": 4,
+    "className": "HurtElementIce"
+  },
+  {
+    "ID": 5,
+    "className": "HurtElementThunder"
+  },
+  {
+    "ID": 6,
+    "className": "HurtBody"
+  },
+  {
+    "ID": 7,
+    "className": "HurtRecoverHP"
+  }
+]

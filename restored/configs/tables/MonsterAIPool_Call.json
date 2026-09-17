@@ -1,0 +1,182 @@
+[
+  {
+    "Callid": 1,
+    "Note": 1001,
+    "CallTime": {
+      "serialized_int32": 20000,
+      "decimal": 2.0,
+      "fp_raw": 131072,
+      "runtime_value": 2.0
+    },
+    "ExecuteNonCallAI": 0,
+    "CDTime": {
+      "serialized_int32": 100000,
+      "decimal": 10.0,
+      "fp_raw": 655360,
+      "runtime_value": 10.0
+    },
+    "MinInterval": {
+      "serialized_int32": 10000,
+      "decimal": 1.0,
+      "fp_raw": 65536,
+      "runtime_value": 1.0
+    },
+    "MaxInterval": {
+      "serialized_int32": 10000,
+      "decimal": 1.0,
+      "fp_raw": 65536,
+      "runtime_value": 1.0
+    },
+    "CallPos": 1,
+    "PosConfig": "5",
+    "MonsterId": [
+      320017
+    ],
+    "CallNum": 1,
+    "Reward": 0
+  },
+  {
+    "Callid": 2,
+    "Note": 1002,
+    "CallTime": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "ExecuteNonCallAI": 0,
+    "CDTime": {
+      "serialized_int32": 100000,
+      "decimal": 10.0,
+      "fp_raw": 655360,
+      "runtime_value": 10.0
+    },
+    "MinInterval": {
+      "serialized_int32": 10000,
+      "decimal": 1.0,
+      "fp_raw": 65536,
+      "runtime_value": 1.0
+    },
+    "MaxInterval": {
+      "serialized_int32": 10000,
+      "decimal": 1.0,
+      "fp_raw": 65536,
+      "runtime_value": 1.0
+    },
+    "CallPos": 2,
+    "PosConfig": "5",
+    "MonsterId": [
+      320017
+    ],
+    "CallNum": 3,
+    "Reward": 0
+  },
+  {
+    "Callid": 3,
+    "Note": 1003,
+    "CallTime": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "ExecuteNonCallAI": 0,
+    "CDTime": {
+      "serialized_int32": 100000,
+      "decimal": 10.0,
+      "fp_raw": 655360,
+      "runtime_value": 10.0
+    },
+    "MinInterval": {
+      "serialized_int32": 10000,
+      "decimal": 1.0,
+      "fp_raw": 65536,
+      "runtime_value": 1.0
+    },
+    "MaxInterval": {
+      "serialized_int32": 10000,
+      "decimal": 1.0,
+      "fp_raw": 65536,
+      "runtime_value": 1.0
+    },
+    "CallPos": 3,
+    "PosConfig": "S_1_47_1005",
+    "MonsterId": [
+      320017
+    ],
+    "CallNum": 3,
+    "Reward": 0
+  },
+  {
+    "Callid": 4,
+    "Note": 1004,
+    "CallTime": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "ExecuteNonCallAI": 0,
+    "CDTime": {
+      "serialized_int32": 100000,
+      "decimal": 10.0,
+      "fp_raw": 655360,
+      "runtime_value": 10.0
+    },
+    "MinInterval": {
+      "serialized_int32": 10000,
+      "decimal": 1.0,
+      "fp_raw": 65536,
+      "runtime_value": 1.0
+    },
+    "MaxInterval": {
+      "serialized_int32": 10000,
+      "decimal": 1.0,
+      "fp_raw": 65536,
+      "runtime_value": 1.0
+    },
+    "CallPos": 1,
+    "PosConfig": "",
+    "MonsterId": [
+      320017
+    ],
+    "CallNum": 3,
+    "Reward": 0
+  },
+  {
+    "Callid": 5,
+    "Note": 1005,
+    "CallTime": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "ExecuteNonCallAI": 0,
+    "CDTime": {
+      "serialized_int32": 100000,
+      "decimal": 10.0,
+      "fp_raw": 655360,
+      "runtime_value": 10.0
+    },
+    "MinInterval": {
+      "serialized_int32": 10000,
+      "decimal": 1.0,
+      "fp_raw": 65536,
+      "runtime_value": 1.0
+    },
+    "MaxInterval": {
+      "serialized_int32": 10000,
+      "decimal": 1.0,
+      "fp_raw": 65536,
+      "runtime_value": 1.0
+    },
+    "CallPos": 0,
+    "PosConfig": "",
+    "MonsterId": [
+      320017
+    ],
+    "CallNum": 3,
+    "Reward": 0
+  }
+]

@@ -1,0 +1,7152 @@
+[
+  {
+    "ID": 4100110,
+    "NextID": 4100120,
+    "equipType": 1,
+    "rank": 0,
+    "seq": 1,
+    "school": 0,
+    "quality": 10,
+    "baseAttribute": [
+      "HPMax=120"
+    ],
+    "AttributeOnLevelUp": [
+      "HPMax=36"
+    ],
+    "AttributeIcon": [
+      "atr_equip_hp"
+    ],
+    "FeatureJson": "",
+    "name": "EquipName_4100100",
+    "desc": "EquipDesc_4100100",
+    "atlasId": 3,
+    "icon": "stg_equip_4100100",
+    "nameB": "EquipName_4100100b",
+    "descB": "EquipDesc_4100100b",
+    "iconB": "stg_equip_4100100b"
+  },
+  {
+    "ID": 4100120,
+    "NextID": 4100130,
+    "equipType": 1,
+    "rank": 0,
+    "seq": 1,
+    "school": 0,
+    "quality": 20,
+    "baseAttribute": [
+      "HPMax=240"
+    ],
+    "AttributeOnLevelUp": [
+      "HPMax=48"
+    ],
+    "AttributeIcon": [
+      "atr_equip_hp"
+    ],
+    "FeatureJson": "{\"Type\":\"Attr\",\"Args\":\"HPMax=150\"}",
+    "name": "EquipName_4100100",
+    "desc": "EquipDesc_4100100",
+    "atlasId": 3,
+    "icon": "stg_equip_4100100",
+    "nameB": "EquipName_4100100b",
+    "descB": "EquipDesc_4100100b",
+    "iconB": "stg_equip_4100100b"
+  },
+  {
+    "ID": 4100130,
+    "NextID": 4100140,
+    "equipType": 1,
+    "rank": 0,
+    "seq": 1,
+    "school": 0,
+    "quality": 30,
+    "baseAttribute": [
+      "HPMax=360"
+    ],
+    "AttributeOnLevelUp": [
+      "HPMax=60"
+    ],
+    "AttributeIcon": [
+      "atr_equip_hp"
+    ],
+    "FeatureJson": "{\"Type\":\"Attr\",\"Args\":\"HPPickUpAdd%=10\"}",
+    "name": "EquipName_4100100",
+    "desc": "EquipDesc_4100100",
+    "atlasId": 3,
+    "icon": "stg_equip_4100100",
+    "nameB": "EquipName_4100100b",
+    "descB": "EquipDesc_4100100b",
+    "iconB": "stg_equip_4100100b"
+  },
+  {
+    "ID": 4100140,
+    "NextID": 4100141,
+    "equipType": 1,
+    "rank": 0,
+    "seq": 1,
+    "school": 0,
+    "quality": 40,
+    "baseAttribute": [
+      "HPMax=600"
+    ],
+    "AttributeOnLevelUp": [
+      "HPMax=72"
+    ],
+    "AttributeIcon": [
+      "atr_equip_hp"
+    ],
+    "FeatureJson": "{\"Type\":\"Skill\",\"Args\":\"210111\"}",
+    "name": "EquipName_4100100",
+    "desc": "EquipDesc_4100100",
+    "atlasId": 3,
+    "icon": "stg_equip_4100100",
+    "nameB": "EquipName_4100100b",
+    "descB": "EquipDesc_4100100b",
+    "iconB": "stg_equip_4100100b"
+  },
+  {
+    "ID": 4100141,
+    "NextID": 4100142,
+    "equipType": 1,
+    "rank": 0,
+    "seq": 1,
+    "school": 0,
+    "quality": 41,
+    "baseAttribute": [
+      "HPMax=780"
+    ],
+    "AttributeOnLevelUp": [
+      "HPMax=84"
+    ],
+    "AttributeIcon": [
+      "atr_equip_hp"
+    ],
+    "FeatureJson": "",
+    "name": "EquipName_4100100",
+    "desc": "EquipDesc_4100100",
+    "atlasId": 3,
+    "icon": "stg_equip_4100100",
+    "nameB": "EquipName_4100100b",
+    "descB": "EquipDesc_4100100b",
+    "iconB": "stg_equip_4100100b"
+  },
+  {
+    "ID": 4100142,
+    "NextID": 4100150,
+    "equipType": 1,
+    "rank": 0,
+    "seq": 1,
+    "school": 0,
+    "quality": 42,
+    "baseAttribute": [
+      "HPMax=960"
+    ],
+    "AttributeOnLevelUp": [
+      "HPMax=96"
+    ],
+    "AttributeIcon": [
+      "atr_equip_hp"
+    ],
+    "FeatureJson": "",
+    "name": "EquipName_4100100",
+    "desc": "EquipDesc_4100100",
+    "atlasId": 3,
+    "icon": "stg_equip_4100100",
+    "nameB": "EquipName_4100100b",
+    "descB": "EquipDesc_4100100b",
+    "iconB": "stg_equip_4100100b"
+  },
+  {
+    "ID": 4100150,
+    "NextID": 4100151,
+    "equipType": 1,
+    "rank": 0,
+    "seq": 1,
+    "school": 0,
+    "quality": 50,
+    "baseAttribute": [
+      "HPMax=1200"
+    ],
+    "AttributeOnLevelUp": [
+      "HPMax=120"
+    ],
+    "AttributeIcon": [
+      "atr_equip_hp"
+    ],
+    "FeatureJson": "{\"Type\":\"Skill\",\"Args\":\"210121\"}",
+    "name": "EquipName_4100100",
+    "desc": "EquipDesc_4100100",
+    "atlasId": 3,
+    "icon": "stg_equip_4100100",
+    "nameB": "EquipName_4100100b",
+    "descB": "EquipDesc_4100100b",
+    "iconB": "stg_equip_4100100b"
+  },
+  {
+    "ID": 4100151,
+    "NextID": 4100152,
+    "equipType": 1,
+    "rank": 0,
+    "seq": 1,
+    "school": 0,
+    "quality": 51,
+    "baseAttribute": [
+      "HPMax=1440"
+    ],
+    "AttributeOnLevelUp": [
+      "HPMax=144"
+    ],
+    "AttributeIcon": [
+      "atr_equip_hp"
+    ],
+    "FeatureJson": "",
+    "name": "EquipName_4100100",
+    "desc": "EquipDesc_4100100",
+    "atlasId": 3,
+    "icon": "stg_equip_4100100",
+    "nameB": "EquipName_4100100b",
+    "descB": "EquipDesc_4100100b",
+    "iconB": "stg_equip_4100100b"
+  },
+  {
+    "ID": 4100152,
+    "NextID": 4100153,
+    "equipType": 1,
+    "rank": 0,
+    "seq": 1,
+    "school": 0,
+    "quality": 52,
+    "baseAttribute": [
+      "HPMax=1680"
+    ],
+    "AttributeOnLevelUp": [
+      "HPMax=168"
+    ],
+    "AttributeIcon": [
+      "atr_equip_hp"
+    ],
+    "FeatureJson": "",
+    "name": "EquipName_4100100",
+    "desc": "EquipDesc_4100100",
+    "atlasId": 3,
+    "icon": "stg_equip_4100100",
+    "nameB": "EquipName_4100100b",
+    "descB": "EquipDesc_4100100b",
+    "iconB": "stg_equip_4100100b"
+  },
+  {
+    "ID": 4100153,
+    "NextID": 4100160,
+    "equipType": 1,
+    "rank": 0,
+    "seq": 1,
+    "school": 0,
+    "quality": 53,
+    "baseAttribute": [
+      "HPMax=1920"
+    ],
+    "AttributeOnLevelUp": [
+      "HPMax=192"
+    ],
+    "AttributeIcon": [
+      "atr_equip_hp"
+    ],
+    "FeatureJson": "",
+    "name": "EquipName_4100100",
+    "desc": "EquipDesc_4100100",
+    "atlasId": 3,
+    "icon": "stg_equip_4100100",
+    "nameB": "EquipName_4100100b",
+    "descB": "EquipDesc_4100100b",
+    "iconB": "stg_equip_4100100b"
+  },
+  {
+    "ID": 4100160,
+    "NextID": 0,
+    "equipType": 1,
+    "rank": 0,
+    "seq": 1,
+    "school": 0,
+    "quality": 60,
+    "baseAttribute": [
+      "HPMax=2400"
+    ],
+    "AttributeOnLevelUp": [
+      "HPMax=240"
+    ],
+    "AttributeIcon": [
+      "atr_equip_hp"
+    ],
+    "FeatureJson": "{\"Type\":\"Skill\",\"Args\":\"210112\"}",
+    "name": "EquipName_4100100",
+    "desc": "EquipDesc_4100100",
+    "atlasId": 3,
+    "icon": "stg_equip_4100100",
+    "nameB": "EquipName_4100100b",
+    "descB": "EquipDesc_4100100b",
+    "iconB": "stg_equip_4100100b"
+  },
+  {
+    "ID": 4100210,
+    "NextID": 4100220,
+    "equipType": 1,
+    "rank": 0,
+    "seq": 2,
+    "school": 0,
+    "quality": 10,
+    "baseAttribute": [
+      "HPMax=120"
+    ],
+    "AttributeOnLevelUp": [
+      "HPMax=36"
+    ],
+    "AttributeIcon": [
+      "atr_equip_hp"
+    ],
+    "FeatureJson": "",
+    "name": "EquipName_4100200",
+    "desc": "EquipDesc_4100200",
+    "atlasId": 3,
+    "icon": "stg_equip_4100200",
+    "nameB": "EquipName_4100200b",
+    "descB": "EquipDesc_4100200b",
+    "iconB": "stg_equip_4100200b"
+  },
+  {
+    "ID": 4100220,
+    "NextID": 4100230,
+    "equipType": 1,
+    "rank": 0,
+    "seq": 2,
+    "school": 0,
+    "quality": 20,
+    "baseAttribute": [
+      "HPMax=240"
+    ],
+    "AttributeOnLevelUp": [
+      "HPMax=48"
+    ],
+    "AttributeIcon": [
+      "atr_equip_hp"
+    ],
+    "FeatureJson": "{\"Type\":\"Attr\",\"Args\":\"HPMax=150\"}",
+    "name": "EquipName_4100200",
+    "desc": "EquipDesc_4100200",
+    "atlasId": 3,
+    "icon": "stg_equip_4100200",
+    "nameB": "EquipName_4100200b",
+    "descB": "EquipDesc_4100200b",
+    "iconB": "stg_equip_4100200b"
+  },
+  {
+    "ID": 4100230,
+    "NextID": 4100240,
+    "equipType": 1,
+    "rank": 0,
+    "seq": 2,
+    "school": 0,
+    "quality": 30,
+    "baseAttribute": [
+      "HPMax=360"
+    ],
+    "AttributeOnLevelUp": [
+      "HPMax=60"
+    ],
+    "AttributeIcon": [
+      "atr_equip_hp"
+    ],
+    "FeatureJson": "{\"Type\":\"Attr\",\"Args\":\"HPPickUpAdd%=10\"}",
+    "name": "EquipName_4100200",
+    "desc": "EquipDesc_4100200",
+    "atlasId": 3,
+    "icon": "stg_equip_4100200",
+    "nameB": "EquipName_4100200b",
+    "descB": "EquipDesc_4100200b",
+    "iconB": "stg_equip_4100200b"
+  },
+  {
+    "ID": 4100240,
+    "NextID": 4100241,
+    "equipType": 1,
+    "rank": 0,
+    "seq": 2,
+    "school": 0,
+    "quality": 40,
+    "baseAttribute": [
+      "HPMax=600"
+    ],
+    "AttributeOnLevelUp": [
+      "HPMax=72"
+    ],
+    "AttributeIcon": [
+      "atr_equip_hp"
+    ],
+    "FeatureJson": "{\"Type\":\"Skill\",\"Args\":\"210211\"}",
+    "name": "EquipName_4100200",
+    "desc": "EquipDesc_4100200",
+    "atlasId": 3,
+    "icon": "stg_equip_4100200",
+    "nameB": "EquipName_4100200b",
+    "descB": "EquipDesc_4100200b",
+    "iconB": "stg_equip_4100200b"
+  },
+  {
+    "ID": 4100241,
+    "NextID": 4100242,
+    "equipType": 1,
+    "rank": 0,
+    "seq": 2,
+    "school": 0,
+    "quality": 41,
+    "baseAttribute": [
+      "HPMax=780"
+    ],
+    "AttributeOnLevelUp": [
+      "HPMax=84"
+    ],
+    "AttributeIcon": [
+      "atr_equip_hp"
+    ],
+    "FeatureJson": "",
+    "name": "EquipName_4100200",
+    "desc": "EquipDesc_4100200",
+    "atlasId": 3,
+    "icon": "stg_equip_4100200",
+    "nameB": "EquipName_4100200b",
+    "descB": "EquipDesc_4100200b",
+    "iconB": "stg_equip_4100200b"
+  },
+  {
+    "ID": 4100242,
+    "NextID": 4100250,
+    "equipType": 1,
+    "rank": 0,
+    "seq": 2,
+    "school": 0,
+    "quality": 42,
+    "baseAttribute": [
+      "HPMax=960"
+    ],
+    "AttributeOnLevelUp": [
+      "HPMax=96"
+    ],
+    "AttributeIcon": [
+      "atr_equip_hp"
+    ],
+    "FeatureJson": "",
+    "name": "EquipName_4100200",
+    "desc": "EquipDesc_4100200",
+    "atlasId": 3,
+    "icon": "stg_equip_4100200",
+    "nameB": "EquipName_4100200b",
+    "descB": "EquipDesc_4100200b",
+    "iconB": "stg_equip_4100200b"
+  },
+  {
+    "ID": 4100250,
+    "NextID": 4100251,
+    "equipType": 1,
+    "rank": 0,
+    "seq": 2,
+    "school": 0,
+    "quality": 50,
+    "baseAttribute": [
+      "HPMax=1200"
+    ],
+    "AttributeOnLevelUp": [
+      "HPMax=120"
+    ],
+    "AttributeIcon": [
+      "atr_equip_hp"
+    ],
+    "FeatureJson": "{\"Type\":\"Skill\",\"Args\":\"210221\"}",
+    "name": "EquipName_4100200",
+    "desc": "EquipDesc_4100200",
+    "atlasId": 3,
+    "icon": "stg_equip_4100200",
+    "nameB": "EquipName_4100200b",
+    "descB": "EquipDesc_4100200b",
+    "iconB": "stg_equip_4100200b"
+  },
+  {
+    "ID": 4100251,
+    "NextID": 4100252,
+    "equipType": 1,
+    "rank": 0,
+    "seq": 2,
+    "school": 0,
+    "quality": 51,
+    "baseAttribute": [
+      "HPMax=1440"
+    ],
+    "AttributeOnLevelUp": [
+      "HPMax=144"
+    ],
+    "AttributeIcon": [
+      "atr_equip_hp"
+    ],
+    "FeatureJson": "",
+    "name": "EquipName_4100200",
+    "desc": "EquipDesc_4100200",
+    "atlasId": 3,
+    "icon": "stg_equip_4100200",
+    "nameB": "EquipName_4100200b",
+    "descB": "EquipDesc_4100200b",
+    "iconB": "stg_equip_4100200b"
+  },
+  {
+    "ID": 4100252,
+    "NextID": 4100253,
+    "equipType": 1,
+    "rank": 0,
+    "seq": 2,
+    "school": 0,
+    "quality": 52,
+    "baseAttribute": [
+      "HPMax=1680"
+    ],
+    "AttributeOnLevelUp": [
+      "HPMax=168"
+    ],
+    "AttributeIcon": [
+      "atr_equip_hp"
+    ],
+    "FeatureJson": "",
+    "name": "EquipName_4100200",
+    "desc": "EquipDesc_4100200",
+    "atlasId": 3,
+    "icon": "stg_equip_4100200",
+    "nameB": "EquipName_4100200b",
+    "descB": "EquipDesc_4100200b",
+    "iconB": "stg_equip_4100200b"
+  },
+  {
+    "ID": 4100253,
+    "NextID": 4100260,
+    "equipType": 1,
+    "rank": 0,
+    "seq": 2,
+    "school": 0,
+    "quality": 53,
+    "baseAttribute": [
+      "HPMax=1920"
+    ],
+    "AttributeOnLevelUp": [
+      "HPMax=192"
+    ],
+    "AttributeIcon": [
+      "atr_equip_hp"
+    ],
+    "FeatureJson": "",
+    "name": "EquipName_4100200",
+    "desc": "EquipDesc_4100200",
+    "atlasId": 3,
+    "icon": "stg_equip_4100200",
+    "nameB": "EquipName_4100200b",
+    "descB": "EquipDesc_4100200b",
+    "iconB": "stg_equip_4100200b"
+  },
+  {
+    "ID": 4100260,
+    "NextID": 0,
+    "equipType": 1,
+    "rank": 0,
+    "seq": 2,
+    "school": 0,
+    "quality": 60,
+    "baseAttribute": [
+      "HPMax=2400"
+    ],
+    "AttributeOnLevelUp": [
+      "HPMax=240"
+    ],
+    "AttributeIcon": [
+      "atr_equip_hp"
+    ],
+    "FeatureJson": "{\"Type\":\"Skill\",\"Args\":\"210212\"}",
+    "name": "EquipName_4100200",
+    "desc": "EquipDesc_4100200",
+    "atlasId": 3,
+    "icon": "stg_equip_4100200",
+    "nameB": "EquipName_4100200b",
+    "descB": "EquipDesc_4100200b",
+    "iconB": "stg_equip_4100200b"
+  },
+  {
+    "ID": 4100310,
+    "NextID": 4100320,
+    "equipType": 1,
+    "rank": 0,
+    "seq": 3,
+    "school": 0,
+    "quality": 10,
+    "baseAttribute": [
+      "HPMax=120"
+    ],
+    "AttributeOnLevelUp": [
+      "HPMax=36"
+    ],
+    "AttributeIcon": [
+      "atr_equip_hp"
+    ],
+    "FeatureJson": "",
+    "name": "EquipName_4100300",
+    "desc": "EquipDesc_4100300",
+    "atlasId": 3,
+    "icon": "stg_equip_4100300",
+    "nameB": "EquipName_4100300b",
+    "descB": "EquipDesc_4100300b",
+    "iconB": "stg_equip_4100300b"
+  },
+  {
+    "ID": 4100320,
+    "NextID": 4100330,
+    "equipType": 1,
+    "rank": 0,
+    "seq": 3,
+    "school": 0,
+    "quality": 20,
+    "baseAttribute": [
+      "HPMax=240"
+    ],
+    "AttributeOnLevelUp": [
+      "HPMax=48"
+    ],
+    "AttributeIcon": [
+      "atr_equip_hp"
+    ],
+    "FeatureJson": "{\"Type\":\"Attr\",\"Args\":\"HPMax=150\"}",
+    "name": "EquipName_4100300",
+    "desc": "EquipDesc_4100300",
+    "atlasId": 3,
+    "icon": "stg_equip_4100300",
+    "nameB": "EquipName_4100300b",
+    "descB": "EquipDesc_4100300b",
+    "iconB": "stg_equip_4100300b"
+  },
+  {
+    "ID": 4100330,
+    "NextID": 4100340,
+    "equipType": 1,
+    "rank": 0,
+    "seq": 3,
+    "school": 0,
+    "quality": 30,
+    "baseAttribute": [
+      "HPMax=360"
+    ],
+    "AttributeOnLevelUp": [
+      "HPMax=60"
+    ],
+    "AttributeIcon": [
+      "atr_equip_hp"
+    ],
+    "FeatureJson": "{\"Type\":\"Attr\",\"Args\":\"HPPickUpAdd%=10\"}",
+    "name": "EquipName_4100300",
+    "desc": "EquipDesc_4100300",
+    "atlasId": 3,
+    "icon": "stg_equip_4100300",
+    "nameB": "EquipName_4100300b",
+    "descB": "EquipDesc_4100300b",
+    "iconB": "stg_equip_4100300b"
+  },
+  {
+    "ID": 4100340,
+    "NextID": 4100341,
+    "equipType": 1,
+    "rank": 0,
+    "seq": 3,
+    "school": 0,
+    "quality": 40,
+    "baseAttribute": [
+      "HPMax=600"
+    ],
+    "AttributeOnLevelUp": [
+      "HPMax=72"
+    ],
+    "AttributeIcon": [
+      "atr_equip_hp"
+    ],
+    "FeatureJson": "{\"Type\":\"Skill\",\"Args\":\"210311\"}",
+    "name": "EquipName_4100300",
+    "desc": "EquipDesc_4100300",
+    "atlasId": 3,
+    "icon": "stg_equip_4100300",
+    "nameB": "EquipName_4100300b",
+    "descB": "EquipDesc_4100300b",
+    "iconB": "stg_equip_4100300b"
+  },
+  {
+    "ID": 4100341,
+    "NextID": 4100342,
+    "equipType": 1,
+    "rank": 0,
+    "seq": 3,
+    "school": 0,
+    "quality": 41,
+    "baseAttribute": [
+      "HPMax=780"
+    ],
+    "AttributeOnLevelUp": [
+      "HPMax=84"
+    ],
+    "AttributeIcon": [
+      "atr_equip_hp"
+    ],
+    "FeatureJson": "",
+    "name": "EquipName_4100300",
+    "desc": "EquipDesc_4100300",
+    "atlasId": 3,
+    "icon": "stg_equip_4100300",
+    "nameB": "EquipName_4100300b",
+    "descB": "EquipDesc_4100300b",
+    "iconB": "stg_equip_4100300b"
+  },
+  {
+    "ID": 4100342,
+    "NextID": 4100350,
+    "equipType": 1,
+    "rank": 0,
+    "seq": 3,
+    "school": 0,
+    "quality": 42,
+    "baseAttribute": [
+      "HPMax=960"
+    ],
+    "AttributeOnLevelUp": [
+      "HPMax=96"
+    ],
+    "AttributeIcon": [
+      "atr_equip_hp"
+    ],
+    "FeatureJson": "",
+    "name": "EquipName_4100300",
+    "desc": "EquipDesc_4100300",
+    "atlasId": 3,
+    "icon": "stg_equip_4100300",
+    "nameB": "EquipName_4100300b",
+    "descB": "EquipDesc_4100300b",
+    "iconB": "stg_equip_4100300b"
+  },
+  {
+    "ID": 4100350,
+    "NextID": 4100351,
+    "equipType": 1,
+    "rank": 0,
+    "seq": 3,
+    "school": 0,
+    "quality": 50,
+    "baseAttribute": [
+      "HPMax=1200"
+    ],
+    "AttributeOnLevelUp": [
+      "HPMax=120"
+    ],
+    "AttributeIcon": [
+      "atr_equip_hp"
+    ],
+    "FeatureJson": "{\"Type\":\"Skill\",\"Args\":\"210321\"}",
+    "name": "EquipName_4100300",
+    "desc": "EquipDesc_4100300",
+    "atlasId": 3,
+    "icon": "stg_equip_4100300",
+    "nameB": "EquipName_4100300b",
+    "descB": "EquipDesc_4100300b",
+    "iconB": "stg_equip_4100300b"
+  },
+  {
+    "ID": 4100351,
+    "NextID": 4100352,
+    "equipType": 1,
+    "rank": 0,
+    "seq": 3,
+    "school": 0,
+    "quality": 51,
+    "baseAttribute": [
+      "HPMax=1440"
+    ],
+    "AttributeOnLevelUp": [
+      "HPMax=144"
+    ],
+    "AttributeIcon": [
+      "atr_equip_hp"
+    ],
+    "FeatureJson": "",
+    "name": "EquipName_4100300",
+    "desc": "EquipDesc_4100300",
+    "atlasId": 3,
+    "icon": "stg_equip_4100300",
+    "nameB": "EquipName_4100300b",
+    "descB": "EquipDesc_4100300b",
+    "iconB": "stg_equip_4100300b"
+  },
+  {
+    "ID": 4100352,
+    "NextID": 4100353,
+    "equipType": 1,
+    "rank": 0,
+    "seq": 3,
+    "school": 0,
+    "quality": 52,
+    "baseAttribute": [
+      "HPMax=1680"
+    ],
+    "AttributeOnLevelUp": [
+      "HPMax=168"
+    ],
+    "AttributeIcon": [
+      "atr_equip_hp"
+    ],
+    "FeatureJson": "",
+    "name": "EquipName_4100300",
+    "desc": "EquipDesc_4100300",
+    "atlasId": 3,
+    "icon": "stg_equip_4100300",
+    "nameB": "EquipName_4100300b",
+    "descB": "EquipDesc_4100300b",
+    "iconB": "stg_equip_4100300b"
+  },
+  {
+    "ID": 4100353,
+    "NextID": 4100360,
+    "equipType": 1,
+    "rank": 0,
+    "seq": 3,
+    "school": 0,
+    "quality": 53,
+    "baseAttribute": [
+      "HPMax=1920"
+    ],
+    "AttributeOnLevelUp": [
+      "HPMax=192"
+    ],
+    "AttributeIcon": [
+      "atr_equip_hp"
+    ],
+    "FeatureJson": "",
+    "name": "EquipName_4100300",
+    "desc": "EquipDesc_4100300",
+    "atlasId": 3,
+    "icon": "stg_equip_4100300",
+    "nameB": "EquipName_4100300b",
+    "descB": "EquipDesc_4100300b",
+    "iconB": "stg_equip_4100300b"
+  },
+  {
+    "ID": 4100360,
+    "NextID": 0,
+    "equipType": 1,
+    "rank": 0,
+    "seq": 3,
+    "school": 0,
+    "quality": 60,
+    "baseAttribute": [
+      "HPMax=2400"
+    ],
+    "AttributeOnLevelUp": [
+      "HPMax=240"
+    ],
+    "AttributeIcon": [
+      "atr_equip_hp"
+    ],
+    "FeatureJson": "{\"Type\":\"Skill\",\"Args\":\"210312\"}",
+    "name": "EquipName_4100300",
+    "desc": "EquipDesc_4100300",
+    "atlasId": 3,
+    "icon": "stg_equip_4100300",
+    "nameB": "EquipName_4100300b",
+    "descB": "EquipDesc_4100300b",
+    "iconB": "stg_equip_4100300b"
+  },
+  {
+    "ID": 4100410,
+    "NextID": 4100420,
+    "equipType": 1,
+    "rank": 0,
+    "seq": 4,
+    "school": 0,
+    "quality": 10,
+    "baseAttribute": [
+      "HPMax=120"
+    ],
+    "AttributeOnLevelUp": [
+      "HPMax=36"
+    ],
+    "AttributeIcon": [
+      "atr_equip_hp"
+    ],
+    "FeatureJson": "",
+    "name": "EquipName_4100400",
+    "desc": "EquipDesc_4100400",
+    "atlasId": 3,
+    "icon": "stg_equip_4100400",
+    "nameB": "EquipName_4100400b",
+    "descB": "EquipDesc_4100400b",
+    "iconB": "stg_equip_4100400b"
+  },
+  {
+    "ID": 4100420,
+    "NextID": 4100430,
+    "equipType": 1,
+    "rank": 0,
+    "seq": 4,
+    "school": 0,
+    "quality": 20,
+    "baseAttribute": [
+      "HPMax=240"
+    ],
+    "AttributeOnLevelUp": [
+      "HPMax=48"
+    ],
+    "AttributeIcon": [
+      "atr_equip_hp"
+    ],
+    "FeatureJson": "{\"Type\":\"Attr\",\"Args\":\"HPMax=150\"}",
+    "name": "EquipName_4100400",
+    "desc": "EquipDesc_4100400",
+    "atlasId": 3,
+    "icon": "stg_equip_4100400",
+    "nameB": "EquipName_4100400b",
+    "descB": "EquipDesc_4100400b",
+    "iconB": "stg_equip_4100400b"
+  },
+  {
+    "ID": 4100430,
+    "NextID": 4100440,
+    "equipType": 1,
+    "rank": 0,
+    "seq": 4,
+    "school": 0,
+    "quality": 30,
+    "baseAttribute": [
+      "HPMax=360"
+    ],
+    "AttributeOnLevelUp": [
+      "HPMax=60"
+    ],
+    "AttributeIcon": [
+      "atr_equip_hp"
+    ],
+    "FeatureJson": "{\"Type\":\"Attr\",\"Args\":\"HPPickUpAdd%=10\"}",
+    "name": "EquipName_4100400",
+    "desc": "EquipDesc_4100400",
+    "atlasId": 3,
+    "icon": "stg_equip_4100400",
+    "nameB": "EquipName_4100400b",
+    "descB": "EquipDesc_4100400b",
+    "iconB": "stg_equip_4100400b"
+  },
+  {
+    "ID": 4100440,
+    "NextID": 4100441,
+    "equipType": 1,
+    "rank": 0,
+    "seq": 4,
+    "school": 0,
+    "quality": 40,
+    "baseAttribute": [
+      "HPMax=600"
+    ],
+    "AttributeOnLevelUp": [
+      "HPMax=72"
+    ],
+    "AttributeIcon": [
+      "atr_equip_hp"
+    ],
+    "FeatureJson": "{\"Type\":\"Skill\",\"Args\":\"210411\"}",
+    "name": "EquipName_4100400",
+    "desc": "EquipDesc_4100400",
+    "atlasId": 3,
+    "icon": "stg_equip_4100400",
+    "nameB": "EquipName_4100400b",
+    "descB": "EquipDesc_4100400b",
+    "iconB": "stg_equip_4100400b"
+  },
+  {
+    "ID": 4100441,
+    "NextID": 4100442,
+    "equipType": 1,
+    "rank": 0,
+    "seq": 4,
+    "school": 0,
+    "quality": 41,
+    "baseAttribute": [
+      "HPMax=780"
+    ],
+    "AttributeOnLevelUp": [
+      "HPMax=84"
+    ],
+    "AttributeIcon": [
+      "atr_equip_hp"
+    ],
+    "FeatureJson": "",
+    "name": "EquipName_4100400",
+    "desc": "EquipDesc_4100400",
+    "atlasId": 3,
+    "icon": "stg_equip_4100400",
+    "nameB": "EquipName_4100400b",
+    "descB": "EquipDesc_4100400b",
+    "iconB": "stg_equip_4100400b"
+  },
+  {
+    "ID": 4100442,
+    "NextID": 4100450,
+    "equipType": 1,
+    "rank": 0,
+    "seq": 4,
+    "school": 0,
+    "quality": 42,
+    "baseAttribute": [
+      "HPMax=960"
+    ],
+    "AttributeOnLevelUp": [
+      "HPMax=96"
+    ],
+    "AttributeIcon": [
+      "atr_equip_hp"
+    ],
+    "FeatureJson": "",
+    "name": "EquipName_4100400",
+    "desc": "EquipDesc_4100400",
+    "atlasId": 3,
+    "icon": "stg_equip_4100400",
+    "nameB": "EquipName_4100400b",
+    "descB": "EquipDesc_4100400b",
+    "iconB": "stg_equip_4100400b"
+  },
+  {
+    "ID": 4100450,
+    "NextID": 4100451,
+    "equipType": 1,
+    "rank": 0,
+    "seq": 4,
+    "school": 0,
+    "quality": 50,
+    "baseAttribute": [
+      "HPMax=1200"
+    ],
+    "AttributeOnLevelUp": [
+      "HPMax=120"
+    ],
+    "AttributeIcon": [
+      "atr_equip_hp"
+    ],
+    "FeatureJson": "{\"Type\":\"Skill\",\"Args\":\"210421\"}",
+    "name": "EquipName_4100400",
+    "desc": "EquipDesc_4100400",
+    "atlasId": 3,
+    "icon": "stg_equip_4100400",
+    "nameB": "EquipName_4100400b",
+    "descB": "EquipDesc_4100400b",
+    "iconB": "stg_equip_4100400b"
+  },
+  {
+    "ID": 4100451,
+    "NextID": 4100452,
+    "equipType": 1,
+    "rank": 0,
+    "seq": 4,
+    "school": 0,
+    "quality": 51,
+    "baseAttribute": [
+      "HPMax=1440"
+    ],
+    "AttributeOnLevelUp": [
+      "HPMax=144"
+    ],
+    "AttributeIcon": [
+      "atr_equip_hp"
+    ],
+    "FeatureJson": "",
+    "name": "EquipName_4100400",
+    "desc": "EquipDesc_4100400",
+    "atlasId": 3,
+    "icon": "stg_equip_4100400",
+    "nameB": "EquipName_4100400b",
+    "descB": "EquipDesc_4100400b",
+    "iconB": "stg_equip_4100400b"
+  },
+  {
+    "ID": 4100452,
+    "NextID": 4100453,
+    "equipType": 1,
+    "rank": 0,
+    "seq": 4,
+    "school": 0,
+    "quality": 52,
+    "baseAttribute": [
+      "HPMax=1680"
+    ],
+    "AttributeOnLevelUp": [
+      "HPMax=168"
+    ],
+    "AttributeIcon": [
+      "atr_equip_hp"
+    ],
+    "FeatureJson": "",
+    "name": "EquipName_4100400",
+    "desc": "EquipDesc_4100400",
+    "atlasId": 3,
+    "icon": "stg_equip_4100400",
+    "nameB": "EquipName_4100400b",
+    "descB": "EquipDesc_4100400b",
+    "iconB": "stg_equip_4100400b"
+  },
+  {
+    "ID": 4100453,
+    "NextID": 4100460,
+    "equipType": 1,
+    "rank": 0,
+    "seq": 4,
+    "school": 0,
+    "quality": 53,
+    "baseAttribute": [
+      "HPMax=1920"
+    ],
+    "AttributeOnLevelUp": [
+      "HPMax=192"
+    ],
+    "AttributeIcon": [
+      "atr_equip_hp"
+    ],
+    "FeatureJson": "",
+    "name": "EquipName_4100400",
+    "desc": "EquipDesc_4100400",
+    "atlasId": 3,
+    "icon": "stg_equip_4100400",
+    "nameB": "EquipName_4100400b",
+    "descB": "EquipDesc_4100400b",
+    "iconB": "stg_equip_4100400b"
+  },
+  {
+    "ID": 4100460,
+    "NextID": 0,
+    "equipType": 1,
+    "rank": 0,
+    "seq": 4,
+    "school": 0,
+    "quality": 60,
+    "baseAttribute": [
+      "HPMax=2400"
+    ],
+    "AttributeOnLevelUp": [
+      "HPMax=240"
+    ],
+    "AttributeIcon": [
+      "atr_equip_hp"
+    ],
+    "FeatureJson": "{\"Type\":\"Skill\",\"Args\":\"210412\"}",
+    "name": "EquipName_4100400",
+    "desc": "EquipDesc_4100400",
+    "atlasId": 3,
+    "icon": "stg_equip_4100400",
+    "nameB": "EquipName_4100400b",
+    "descB": "EquipDesc_4100400b",
+    "iconB": "stg_equip_4100400b"
+  },
+  {
+    "ID": 4110110,
+    "NextID": 4110120,
+    "equipType": 1,
+    "rank": 1,
+    "seq": 1,
+    "school": 0,
+    "quality": 10,
+    "baseAttribute": [
+      "HPMax=180"
+    ],
+    "AttributeOnLevelUp": [
+      "HPMax=54"
+    ],
+    "AttributeIcon": [
+      "atr_equip_hp"
+    ],
+    "FeatureJson": "",
+    "name": "EquipName_4110100",
+    "desc": "EquipDesc_4110100",
+    "atlasId": 3,
+    "icon": "stg_equip_4110100",
+    "nameB": "EquipName_4110100b",
+    "descB": "EquipDesc_4110100b",
+    "iconB": "stg_equip_4110100b"
+  },
+  {
+    "ID": 4110120,
+    "NextID": 4110130,
+    "equipType": 1,
+    "rank": 1,
+    "seq": 1,
+    "school": 0,
+    "quality": 20,
+    "baseAttribute": [
+      "HPMax=360"
+    ],
+    "AttributeOnLevelUp": [
+      "HPMax=72"
+    ],
+    "AttributeIcon": [
+      "atr_equip_hp"
+    ],
+    "FeatureJson": "{\"Type\":\"Attr\",\"Args\":\"HPPickUpAdd%=15\"}",
+    "name": "EquipName_4110100",
+    "desc": "EquipDesc_4110100",
+    "atlasId": 3,
+    "icon": "stg_equip_4110100",
+    "nameB": "EquipName_4110100b",
+    "descB": "EquipDesc_4110100b",
+    "iconB": "stg_equip_4110100b"
+  },
+  {
+    "ID": 4110130,
+    "NextID": 4110140,
+    "equipType": 1,
+    "rank": 1,
+    "seq": 1,
+    "school": 0,
+    "quality": 30,
+    "baseAttribute": [
+      "HPMax=540"
+    ],
+    "AttributeOnLevelUp": [
+      "HPMax=90"
+    ],
+    "AttributeIcon": [
+      "atr_equip_hp"
+    ],
+    "FeatureJson": "{\"Type\":\"Skill\",\"Args\":\"211101\"}",
+    "name": "EquipName_4110100",
+    "desc": "EquipDesc_4110100",
+    "atlasId": 3,
+    "icon": "stg_equip_4110100",
+    "nameB": "EquipName_4110100b",
+    "descB": "EquipDesc_4110100b",
+    "iconB": "stg_equip_4110100b"
+  },
+  {
+    "ID": 4110140,
+    "NextID": 4110141,
+    "equipType": 1,
+    "rank": 1,
+    "seq": 1,
+    "school": 0,
+    "quality": 40,
+    "baseAttribute": [
+      "HPMax=900"
+    ],
+    "AttributeOnLevelUp": [
+      "HPMax=108"
+    ],
+    "AttributeIcon": [
+      "atr_equip_hp"
+    ],
+    "FeatureJson": "{\"Type\":\"Skill\",\"Args\":\"211111\"}",
+    "name": "EquipName_4110100",
+    "desc": "EquipDesc_4110100",
+    "atlasId": 3,
+    "icon": "stg_equip_4110100",
+    "nameB": "EquipName_4110100b",
+    "descB": "EquipDesc_4110100b",
+    "iconB": "stg_equip_4110100b"
+  },
+  {
+    "ID": 4110141,
+    "NextID": 4110142,
+    "equipType": 1,
+    "rank": 1,
+    "seq": 1,
+    "school": 0,
+    "quality": 41,
+    "baseAttribute": [
+      "HPMax=1170"
+    ],
+    "AttributeOnLevelUp": [
+      "HPMax=126"
+    ],
+    "AttributeIcon": [
+      "atr_equip_hp"
+    ],
+    "FeatureJson": "",
+    "name": "EquipName_4110100",
+    "desc": "EquipDesc_4110100",
+    "atlasId": 3,
+    "icon": "stg_equip_4110100",
+    "nameB": "EquipName_4110100b",
+    "descB": "EquipDesc_4110100b",
+    "iconB": "stg_equip_4110100b"
+  },
+  {
+    "ID": 4110142,
+    "NextID": 4110150,
+    "equipType": 1,
+    "rank": 1,
+    "seq": 1,
+    "school": 0,
+    "quality": 42,
+    "baseAttribute": [
+      "HPMax=1440"
+    ],
+    "AttributeOnLevelUp": [
+      "HPMax=144"
+    ],
+    "AttributeIcon": [
+      "atr_equip_hp"
+    ],
+    "FeatureJson": "",
+    "name": "EquipName_4110100",
+    "desc": "EquipDesc_4110100",
+    "atlasId": 3,
+    "icon": "stg_equip_4110100",
+    "nameB": "EquipName_4110100b",
+    "descB": "EquipDesc_4110100b",
+    "iconB": "stg_equip_4110100b"
+  },
+  {
+    "ID": 4110150,
+    "NextID": 4110151,
+    "equipType": 1,
+    "rank": 1,
+    "seq": 1,
+    "school": 0,
+    "quality": 50,
+    "baseAttribute": [
+      "HPMax=1800"
+    ],
+    "AttributeOnLevelUp": [
+      "HPMax=180"
+    ],
+    "AttributeIcon": [
+      "atr_equip_hp"
+    ],
+    "FeatureJson": "{\"Type\":\"Skill\",\"Args\":\"211112\"}",
+    "name": "EquipName_4110100",
+    "desc": "EquipDesc_4110100",
+    "atlasId": 3,
+    "icon": "stg_equip_4110100",
+    "nameB": "EquipName_4110100b",
+    "descB": "EquipDesc_4110100b",
+    "iconB": "stg_equip_4110100b"
+  },
+  {
+    "ID": 4110151,
+    "NextID": 4110152,
+    "equipType": 1,
+    "rank": 1,
+    "seq": 1,
+    "school": 0,
+    "quality": 51,
+    "baseAttribute": [
+      "HPMax=2160"
+    ],
+    "AttributeOnLevelUp": [
+      "HPMax=216"
+    ],
+    "AttributeIcon": [
+      "atr_equip_hp"
+    ],
+    "FeatureJson": "",
+    "name": "EquipName_4110100",
+    "desc": "EquipDesc_4110100",
+    "atlasId": 3,
+    "icon": "stg_equip_4110100",
+    "nameB": "EquipName_4110100b",
+    "descB": "EquipDesc_4110100b",
+    "iconB": "stg_equip_4110100b"
+  },
+  {
+    "ID": 4110152,
+    "NextID": 4110153,
+    "equipType": 1,
+    "rank": 1,
+    "seq": 1,
+    "school": 0,
+    "quality": 52,
+    "baseAttribute": [
+      "HPMax=2520"
+    ],
+    "AttributeOnLevelUp": [
+      "HPMax=252"
+    ],
+    "AttributeIcon": [
+      "atr_equip_hp"
+    ],
+    "FeatureJson": "",
+    "name": "EquipName_4110100",
+    "desc": "EquipDesc_4110100",
+    "atlasId": 3,
+    "icon": "stg_equip_4110100",
+    "nameB": "EquipName_4110100b",
+    "descB": "EquipDesc_4110100b",
+    "iconB": "stg_equip_4110100b"
+  },
+  {
+    "ID": 4110153,
+    "NextID": 4110160,
+    "equipType": 1,
+    "rank": 1,
+    "seq": 1,
+    "school": 0,
+    "quality": 53,
+    "baseAttribute": [
+      "HPMax=2880"
+    ],
+    "AttributeOnLevelUp": [
+      "HPMax=288"
+    ],
+    "AttributeIcon": [
+      "atr_equip_hp"
+    ],
+    "FeatureJson": "",
+    "name": "EquipName_4110100",
+    "desc": "EquipDesc_4110100",
+    "atlasId": 3,
+    "icon": "stg_equip_4110100",
+    "nameB": "EquipName_4110100b",
+    "descB": "EquipDesc_4110100b",
+    "iconB": "stg_equip_4110100b"
+  },
+  {
+    "ID": 4110160,
+    "NextID": 0,
+    "equipType": 1,
+    "rank": 1,
+    "seq": 1,
+    "school": 0,
+    "quality": 60,
+    "baseAttribute": [
+      "HPMax=3600"
+    ],
+    "AttributeOnLevelUp": [
+      "HPMax=360"
+    ],
+    "AttributeIcon": [
+      "atr_equip_hp"
+    ],
+    "FeatureJson": "{\"Type\":\"Skill\",\"Args\":\"211113\"}",
+    "name": "EquipName_4110100",
+    "desc": "EquipDesc_4110100",
+    "atlasId": 3,
+    "icon": "stg_equip_4110100",
+    "nameB": "EquipName_4110100b",
+    "descB": "EquipDesc_4110100b",
+    "iconB": "stg_equip_4110100b"
+  },
+  {
+    "ID": 4200110,
+    "NextID": 4200120,
+    "equipType": 2,
+    "rank": 0,
+    "seq": 1,
+    "school": 0,
+    "quality": 10,
+    "baseAttribute": [
+      "Attack=20"
+    ],
+    "AttributeOnLevelUp": [
+      "Attack=6"
+    ],
+    "AttributeIcon": [
+      "atr_equip_atk"
+    ],
+    "FeatureJson": "",
+    "name": "EquipName_4200100",
+    "desc": "EquipDesc_4200100",
+    "atlasId": 3,
+    "icon": "stg_equip_4200100",
+    "nameB": "EquipName_4200100b",
+    "descB": "EquipDesc_4200100b",
+    "iconB": "stg_equip_4200100b"
+  },
+  {
+    "ID": 4200120,
+    "NextID": 4200130,
+    "equipType": 2,
+    "rank": 0,
+    "seq": 1,
+    "school": 0,
+    "quality": 20,
+    "baseAttribute": [
+      "Attack=40"
+    ],
+    "AttributeOnLevelUp": [
+      "Attack=8"
+    ],
+    "AttributeIcon": [
+      "atr_equip_atk"
+    ],
+    "FeatureJson": "{\"Type\":\"Attr\",\"Args\":\"Attack=25\"}",
+    "name": "EquipName_4200100",
+    "desc": "EquipDesc_4200100",
+    "atlasId": 3,
+    "icon": "stg_equip_4200100",
+    "nameB": "EquipName_4200100b",
+    "descB": "EquipDesc_4200100b",
+    "iconB": "stg_equip_4200100b"
+  },
+  {
+    "ID": 4200130,
+    "NextID": 4200140,
+    "equipType": 2,
+    "rank": 0,
+    "seq": 1,
+    "school": 0,
+    "quality": 30,
+    "baseAttribute": [
+      "Attack=60"
+    ],
+    "AttributeOnLevelUp": [
+      "Attack=10"
+    ],
+    "AttributeIcon": [
+      "atr_equip_atk"
+    ],
+    "FeatureJson": "{\"Type\":\"Attr\",\"Args\":\"Attack%=5\"}",
+    "name": "EquipName_4200100",
+    "desc": "EquipDesc_4200100",
+    "atlasId": 3,
+    "icon": "stg_equip_4200100",
+    "nameB": "EquipName_4200100b",
+    "descB": "EquipDesc_4200100b",
+    "iconB": "stg_equip_4200100b"
+  },
+  {
+    "ID": 4200140,
+    "NextID": 4200141,
+    "equipType": 2,
+    "rank": 0,
+    "seq": 1,
+    "school": 0,
+    "quality": 40,
+    "baseAttribute": [
+      "Attack=100"
+    ],
+    "AttributeOnLevelUp": [
+      "Attack=12"
+    ],
+    "AttributeIcon": [
+      "atr_equip_atk"
+    ],
+    "FeatureJson": "{\"Type\":\"Skill\",\"Args\":\"220111\"}",
+    "name": "EquipName_4200100",
+    "desc": "EquipDesc_4200100",
+    "atlasId": 3,
+    "icon": "stg_equip_4200100",
+    "nameB": "EquipName_4200100b",
+    "descB": "EquipDesc_4200100b",
+    "iconB": "stg_equip_4200100b"
+  },
+  {
+    "ID": 4200141,
+    "NextID": 4200142,
+    "equipType": 2,
+    "rank": 0,
+    "seq": 1,
+    "school": 0,
+    "quality": 41,
+    "baseAttribute": [
+      "Attack=130"
+    ],
+    "AttributeOnLevelUp": [
+      "Attack=14"
+    ],
+    "AttributeIcon": [
+      "atr_equip_atk"
+    ],
+    "FeatureJson": "",
+    "name": "EquipName_4200100",
+    "desc": "EquipDesc_4200100",
+    "atlasId": 3,
+    "icon": "stg_equip_4200100",
+    "nameB": "EquipName_4200100b",
+    "descB": "EquipDesc_4200100b",
+    "iconB": "stg_equip_4200100b"
+  },
+  {
+    "ID": 4200142,
+    "NextID": 4200150,
+    "equipType": 2,
+    "rank": 0,
+    "seq": 1,
+    "school": 0,
+    "quality": 42,
+    "baseAttribute": [
+      "Attack=160"
+    ],
+    "AttributeOnLevelUp": [
+      "Attack=16"
+    ],
+    "AttributeIcon": [
+      "atr_equip_atk"
+    ],
+    "FeatureJson": "",
+    "name": "EquipName_4200100",
+    "desc": "EquipDesc_4200100",
+    "atlasId": 3,
+    "icon": "stg_equip_4200100",
+    "nameB": "EquipName_4200100b",
+    "descB": "EquipDesc_4200100b",
+    "iconB": "stg_equip_4200100b"
+  },
+  {
+    "ID": 4200150,
+    "NextID": 4200151,
+    "equipType": 2,
+    "rank": 0,
+    "seq": 1,
+    "school": 0,
+    "quality": 50,
+    "baseAttribute": [
+      "Attack=200"
+    ],
+    "AttributeOnLevelUp": [
+      "Attack=20"
+    ],
+    "AttributeIcon": [
+      "atr_equip_atk"
+    ],
+    "FeatureJson": "{\"Type\":\"Skill\",\"Args\":\"220121\"}",
+    "name": "EquipName_4200100",
+    "desc": "EquipDesc_4200100",
+    "atlasId": 3,
+    "icon": "stg_equip_4200100",
+    "nameB": "EquipName_4200100b",
+    "descB": "EquipDesc_4200100b",
+    "iconB": "stg_equip_4200100b"
+  },
+  {
+    "ID": 4200151,
+    "NextID": 4200152,
+    "equipType": 2,
+    "rank": 0,
+    "seq": 1,
+    "school": 0,
+    "quality": 51,
+    "baseAttribute": [
+      "Attack=240"
+    ],
+    "AttributeOnLevelUp": [
+      "Attack=24"
+    ],
+    "AttributeIcon": [
+      "atr_equip_atk"
+    ],
+    "FeatureJson": "",
+    "name": "EquipName_4200100",
+    "desc": "EquipDesc_4200100",
+    "atlasId": 3,
+    "icon": "stg_equip_4200100",
+    "nameB": "EquipName_4200100b",
+    "descB": "EquipDesc_4200100b",
+    "iconB": "stg_equip_4200100b"
+  },
+  {
+    "ID": 4200152,
+    "NextID": 4200153,
+    "equipType": 2,
+    "rank": 0,
+    "seq": 1,
+    "school": 0,
+    "quality": 52,
+    "baseAttribute": [
+      "Attack=280"
+    ],
+    "AttributeOnLevelUp": [
+      "Attack=28"
+    ],
+    "AttributeIcon": [
+      "atr_equip_atk"
+    ],
+    "FeatureJson": "",
+    "name": "EquipName_4200100",
+    "desc": "EquipDesc_4200100",
+    "atlasId": 3,
+    "icon": "stg_equip_4200100",
+    "nameB": "EquipName_4200100b",
+    "descB": "EquipDesc_4200100b",
+    "iconB": "stg_equip_4200100b"
+  },
+  {
+    "ID": 4200153,
+    "NextID": 4200160,
+    "equipType": 2,
+    "rank": 0,
+    "seq": 1,
+    "school": 0,
+    "quality": 53,
+    "baseAttribute": [
+      "Attack=320"
+    ],
+    "AttributeOnLevelUp": [
+      "Attack=32"
+    ],
+    "AttributeIcon": [
+      "atr_equip_atk"
+    ],
+    "FeatureJson": "",
+    "name": "EquipName_4200100",
+    "desc": "EquipDesc_4200100",
+    "atlasId": 3,
+    "icon": "stg_equip_4200100",
+    "nameB": "EquipName_4200100b",
+    "descB": "EquipDesc_4200100b",
+    "iconB": "stg_equip_4200100b"
+  },
+  {
+    "ID": 4200160,
+    "NextID": 0,
+    "equipType": 2,
+    "rank": 0,
+    "seq": 1,
+    "school": 0,
+    "quality": 60,
+    "baseAttribute": [
+      "Attack=400"
+    ],
+    "AttributeOnLevelUp": [
+      "Attack=40"
+    ],
+    "AttributeIcon": [
+      "atr_equip_atk"
+    ],
+    "FeatureJson": "{\"Type\":\"Skill\",\"Args\":\"220112\"}",
+    "name": "EquipName_4200100",
+    "desc": "EquipDesc_4200100",
+    "atlasId": 3,
+    "icon": "stg_equip_4200100",
+    "nameB": "EquipName_4200100b",
+    "descB": "EquipDesc_4200100b",
+    "iconB": "stg_equip_4200100b"
+  },
+  {
+    "ID": 4200210,
+    "NextID": 4200220,
+    "equipType": 2,
+    "rank": 0,
+    "seq": 2,
+    "school": 0,
+    "quality": 10,
+    "baseAttribute": [
+      "Attack=20"
+    ],
+    "AttributeOnLevelUp": [
+      "Attack=6"
+    ],
+    "AttributeIcon": [
+      "atr_equip_atk"
+    ],
+    "FeatureJson": "",
+    "name": "EquipName_4200200",
+    "desc": "EquipDesc_4200200",
+    "atlasId": 3,
+    "icon": "stg_equip_4200200",
+    "nameB": "EquipName_4200200b",
+    "descB": "EquipDesc_4200200b",
+    "iconB": "stg_equip_4200200b"
+  },
+  {
+    "ID": 4200220,
+    "NextID": 4200230,
+    "equipType": 2,
+    "rank": 0,
+    "seq": 2,
+    "school": 0,
+    "quality": 20,
+    "baseAttribute": [
+      "Attack=40"
+    ],
+    "AttributeOnLevelUp": [
+      "Attack=8"
+    ],
+    "AttributeIcon": [
+      "atr_equip_atk"
+    ],
+    "FeatureJson": "{\"Type\":\"Attr\",\"Args\":\"Attack=25\"}",
+    "name": "EquipName_4200200",
+    "desc": "EquipDesc_4200200",
+    "atlasId": 3,
+    "icon": "stg_equip_4200200",
+    "nameB": "EquipName_4200200b",
+    "descB": "EquipDesc_4200200b",
+    "iconB": "stg_equip_4200200b"
+  },
+  {
+    "ID": 4200230,
+    "NextID": 4200240,
+    "equipType": 2,
+    "rank": 0,
+    "seq": 2,
+    "school": 0,
+    "quality": 30,
+    "baseAttribute": [
+      "Attack=60"
+    ],
+    "AttributeOnLevelUp": [
+      "Attack=10"
+    ],
+    "AttributeIcon": [
+      "atr_equip_atk"
+    ],
+    "FeatureJson": "{\"Type\":\"Attr\",\"Args\":\"Attack%=5\"}",
+    "name": "EquipName_4200200",
+    "desc": "EquipDesc_4200200",
+    "atlasId": 3,
+    "icon": "stg_equip_4200200",
+    "nameB": "EquipName_4200200b",
+    "descB": "EquipDesc_4200200b",
+    "iconB": "stg_equip_4200200b"
+  },
+  {
+    "ID": 4200240,
+    "NextID": 4200241,
+    "equipType": 2,
+    "rank": 0,
+    "seq": 2,
+    "school": 0,
+    "quality": 40,
+    "baseAttribute": [
+      "Attack=100"
+    ],
+    "AttributeOnLevelUp": [
+      "Attack=12"
+    ],
+    "AttributeIcon": [
+      "atr_equip_atk"
+    ],
+    "FeatureJson": "{\"Type\":\"Skill\",\"Args\":\"220211\"}",
+    "name": "EquipName_4200200",
+    "desc": "EquipDesc_4200200",
+    "atlasId": 3,
+    "icon": "stg_equip_4200200",
+    "nameB": "EquipName_4200200b",
+    "descB": "EquipDesc_4200200b",
+    "iconB": "stg_equip_4200200b"
+  },
+  {
+    "ID": 4200241,
+    "NextID": 4200242,
+    "equipType": 2,
+    "rank": 0,
+    "seq": 2,
+    "school": 0,
+    "quality": 41,
+    "baseAttribute": [
+      "Attack=130"
+    ],
+    "AttributeOnLevelUp": [
+      "Attack=14"
+    ],
+    "AttributeIcon": [
+      "atr_equip_atk"
+    ],
+    "FeatureJson": "",
+    "name": "EquipName_4200200",
+    "desc": "EquipDesc_4200200",
+    "atlasId": 3,
+    "icon": "stg_equip_4200200",
+    "nameB": "EquipName_4200200b",
+    "descB": "EquipDesc_4200200b",
+    "iconB": "stg_equip_4200200b"
+  },
+  {
+    "ID": 4200242,
+    "NextID": 4200250,
+    "equipType": 2,
+    "rank": 0,
+    "seq": 2,
+    "school": 0,
+    "quality": 42,
+    "baseAttribute": [
+      "Attack=160"
+    ],
+    "AttributeOnLevelUp": [
+      "Attack=16"
+    ],
+    "AttributeIcon": [
+      "atr_equip_atk"
+    ],
+    "FeatureJson": "",
+    "name": "EquipName_4200200",
+    "desc": "EquipDesc_4200200",
+    "atlasId": 3,
+    "icon": "stg_equip_4200200",
+    "nameB": "EquipName_4200200b",
+    "descB": "EquipDesc_4200200b",
+    "iconB": "stg_equip_4200200b"
+  },
+  {
+    "ID": 4200250,
+    "NextID": 4200251,
+    "equipType": 2,
+    "rank": 0,
+    "seq": 2,
+    "school": 0,
+    "quality": 50,
+    "baseAttribute": [
+      "Attack=200"
+    ],
+    "AttributeOnLevelUp": [
+      "Attack=20"
+    ],
+    "AttributeIcon": [
+      "atr_equip_atk"
+    ],
+    "FeatureJson": "{\"Type\":\"Skill\",\"Args\":\"220221\"}",
+    "name": "EquipName_4200200",
+    "desc": "EquipDesc_4200200",
+    "atlasId": 3,
+    "icon": "stg_equip_4200200",
+    "nameB": "EquipName_4200200b",
+    "descB": "EquipDesc_4200200b",
+    "iconB": "stg_equip_4200200b"
+  },
+  {
+    "ID": 4200251,
+    "NextID": 4200252,
+    "equipType": 2,
+    "rank": 0,
+    "seq": 2,
+    "school": 0,
+    "quality": 51,
+    "baseAttribute": [
+      "Attack=240"
+    ],
+    "AttributeOnLevelUp": [
+      "Attack=24"
+    ],
+    "AttributeIcon": [
+      "atr_equip_atk"
+    ],
+    "FeatureJson": "",
+    "name": "EquipName_4200200",
+    "desc": "EquipDesc_4200200",
+    "atlasId": 3,
+    "icon": "stg_equip_4200200",
+    "nameB": "EquipName_4200200b",
+    "descB": "EquipDesc_4200200b",
+    "iconB": "stg_equip_4200200b"
+  },
+  {
+    "ID": 4200252,
+    "NextID": 4200253,
+    "equipType": 2,
+    "rank": 0,
+    "seq": 2,
+    "school": 0,
+    "quality": 52,
+    "baseAttribute": [
+      "Attack=280"
+    ],
+    "AttributeOnLevelUp": [
+      "Attack=28"
+    ],
+    "AttributeIcon": [
+      "atr_equip_atk"
+    ],
+    "FeatureJson": "",
+    "name": "EquipName_4200200",
+    "desc": "EquipDesc_4200200",
+    "atlasId": 3,
+    "icon": "stg_equip_4200200",
+    "nameB": "EquipName_4200200b",
+    "descB": "EquipDesc_4200200b",
+    "iconB": "stg_equip_4200200b"
+  },
+  {
+    "ID": 4200253,
+    "NextID": 4200260,
+    "equipType": 2,
+    "rank": 0,
+    "seq": 2,
+    "school": 0,
+    "quality": 53,
+    "baseAttribute": [
+      "Attack=320"
+    ],
+    "AttributeOnLevelUp": [
+      "Attack=32"
+    ],
+    "AttributeIcon": [
+      "atr_equip_atk"
+    ],
+    "FeatureJson": "",
+    "name": "EquipName_4200200",
+    "desc": "EquipDesc_4200200",
+    "atlasId": 3,
+    "icon": "stg_equip_4200200",
+    "nameB": "EquipName_4200200b",
+    "descB": "EquipDesc_4200200b",
+    "iconB": "stg_equip_4200200b"
+  },
+  {
+    "ID": 4200260,
+    "NextID": 0,
+    "equipType": 2,
+    "rank": 0,
+    "seq": 2,
+    "school": 0,
+    "quality": 60,
+    "baseAttribute": [
+      "Attack=400"
+    ],
+    "AttributeOnLevelUp": [
+      "Attack=40"
+    ],
+    "AttributeIcon": [
+      "atr_equip_atk"
+    ],
+    "FeatureJson": "{\"Type\":\"Skill\",\"Args\":\"220212\"}",
+    "name": "EquipName_4200200",
+    "desc": "EquipDesc_4200200",
+    "atlasId": 3,
+    "icon": "stg_equip_4200200",
+    "nameB": "EquipName_4200200b",
+    "descB": "EquipDesc_4200200b",
+    "iconB": "stg_equip_4200200b"
+  },
+  {
+    "ID": 4200310,
+    "NextID": 4200320,
+    "equipType": 2,
+    "rank": 0,
+    "seq": 3,
+    "school": 0,
+    "quality": 10,
+    "baseAttribute": [
+      "Attack=20"
+    ],
+    "AttributeOnLevelUp": [
+      "Attack=6"
+    ],
+    "AttributeIcon": [
+      "atr_equip_atk"
+    ],
+    "FeatureJson": "",
+    "name": "EquipName_4200300",
+    "desc": "EquipDesc_4200300",
+    "atlasId": 3,
+    "icon": "stg_equip_4200300",
+    "nameB": "EquipName_4200300b",
+    "descB": "EquipDesc_4200300b",
+    "iconB": "stg_equip_4200300b"
+  },
+  {
+    "ID": 4200320,
+    "NextID": 4200330,
+    "equipType": 2,
+    "rank": 0,
+    "seq": 3,
+    "school": 0,
+    "quality": 20,
+    "baseAttribute": [
+      "Attack=40"
+    ],
+    "AttributeOnLevelUp": [
+      "Attack=8"
+    ],
+    "AttributeIcon": [
+      "atr_equip_atk"
+    ],
+    "FeatureJson": "{\"Type\":\"Attr\",\"Args\":\"Attack=25\"}",
+    "name": "EquipName_4200300",
+    "desc": "EquipDesc_4200300",
+    "atlasId": 3,
+    "icon": "stg_equip_4200300",
+    "nameB": "EquipName_4200300b",
+    "descB": "EquipDesc_4200300b",
+    "iconB": "stg_equip_4200300b"
+  },
+  {
+    "ID": 4200330,
+    "NextID": 4200340,
+    "equipType": 2,
+    "rank": 0,
+    "seq": 3,
+    "school": 0,
+    "quality": 30,
+    "baseAttribute": [
+      "Attack=60"
+    ],
+    "AttributeOnLevelUp": [
+      "Attack=10"
+    ],
+    "AttributeIcon": [
+      "atr_equip_atk"
+    ],
+    "FeatureJson": "{\"Type\":\"Attr\",\"Args\":\"Attack%=5\"}",
+    "name": "EquipName_4200300",
+    "desc": "EquipDesc_4200300",
+    "atlasId": 3,
+    "icon": "stg_equip_4200300",
+    "nameB": "EquipName_4200300b",
+    "descB": "EquipDesc_4200300b",
+    "iconB": "stg_equip_4200300b"
+  },
+  {
+    "ID": 4200340,
+    "NextID": 4200341,
+    "equipType": 2,
+    "rank": 0,
+    "seq": 3,
+    "school": 0,
+    "quality": 40,
+    "baseAttribute": [
+      "Attack=100"
+    ],
+    "AttributeOnLevelUp": [
+      "Attack=12"
+    ],
+    "AttributeIcon": [
+      "atr_equip_atk"
+    ],
+    "FeatureJson": "{\"Type\":\"Skill\",\"Args\":\"220311\"}",
+    "name": "EquipName_4200300",
+    "desc": "EquipDesc_4200300",
+    "atlasId": 3,
+    "icon": "stg_equip_4200300",
+    "nameB": "EquipName_4200300b",
+    "descB": "EquipDesc_4200300b",
+    "iconB": "stg_equip_4200300b"
+  },
+  {
+    "ID": 4200341,
+    "NextID": 4200342,
+    "equipType": 2,
+    "rank": 0,
+    "seq": 3,
+    "school": 0,
+    "quality": 41,
+    "baseAttribute": [
+      "Attack=130"
+    ],
+    "AttributeOnLevelUp": [
+      "Attack=14"
+    ],
+    "AttributeIcon": [
+      "atr_equip_atk"
+    ],
+    "FeatureJson": "",
+    "name": "EquipName_4200300",
+    "desc": "EquipDesc_4200300",
+    "atlasId": 3,
+    "icon": "stg_equip_4200300",
+    "nameB": "EquipName_4200300b",
+    "descB": "EquipDesc_4200300b",
+    "iconB": "stg_equip_4200300b"
+  },
+  {
+    "ID": 4200342,
+    "NextID": 4200350,
+    "equipType": 2,
+    "rank": 0,
+    "seq": 3,
+    "school": 0,
+    "quality": 42,
+    "baseAttribute": [
+      "Attack=160"
+    ],
+    "AttributeOnLevelUp": [
+      "Attack=16"
+    ],
+    "AttributeIcon": [
+      "atr_equip_atk"
+    ],
+    "FeatureJson": "",
+    "name": "EquipName_4200300",
+    "desc": "EquipDesc_4200300",
+    "atlasId": 3,
+    "icon": "stg_equip_4200300",
+    "nameB": "EquipName_4200300b",
+    "descB": "EquipDesc_4200300b",
+    "iconB": "stg_equip_4200300b"
+  },
+  {
+    "ID": 4200350,
+    "NextID": 4200351,
+    "equipType": 2,
+    "rank": 0,
+    "seq": 3,
+    "school": 0,
+    "quality": 50,
+    "baseAttribute": [
+      "Attack=200"
+    ],
+    "AttributeOnLevelUp": [
+      "Attack=20"
+    ],
+    "AttributeIcon": [
+      "atr_equip_atk"
+    ],
+    "FeatureJson": "{\"Type\":\"Skill\",\"Args\":\"220321\"}",
+    "name": "EquipName_4200300",
+    "desc": "EquipDesc_4200300",
+    "atlasId": 3,
+    "icon": "stg_equip_4200300",
+    "nameB": "EquipName_4200300b",
+    "descB": "EquipDesc_4200300b",
+    "iconB": "stg_equip_4200300b"
+  },
+  {
+    "ID": 4200351,
+    "NextID": 4200352,
+    "equipType": 2,
+    "rank": 0,
+    "seq": 3,
+    "school": 0,
+    "quality": 51,
+    "baseAttribute": [
+      "Attack=240"
+    ],
+    "AttributeOnLevelUp": [
+      "Attack=24"
+    ],
+    "AttributeIcon": [
+      "atr_equip_atk"
+    ],
+    "FeatureJson": "",
+    "name": "EquipName_4200300",
+    "desc": "EquipDesc_4200300",
+    "atlasId": 3,
+    "icon": "stg_equip_4200300",
+    "nameB": "EquipName_4200300b",
+    "descB": "EquipDesc_4200300b",
+    "iconB": "stg_equip_4200300b"
+  },
+  {
+    "ID": 4200352,
+    "NextID": 4200353,
+    "equipType": 2,
+    "rank": 0,
+    "seq": 3,
+    "school": 0,
+    "quality": 52,
+    "baseAttribute": [
+      "Attack=280"
+    ],
+    "AttributeOnLevelUp": [
+      "Attack=28"
+    ],
+    "AttributeIcon": [
+      "atr_equip_atk"
+    ],
+    "FeatureJson": "",
+    "name": "EquipName_4200300",
+    "desc": "EquipDesc_4200300",
+    "atlasId": 3,
+    "icon": "stg_equip_4200300",
+    "nameB": "EquipName_4200300b",
+    "descB": "EquipDesc_4200300b",
+    "iconB": "stg_equip_4200300b"
+  },
+  {
+    "ID": 4200353,
+    "NextID": 4200360,
+    "equipType": 2,
+    "rank": 0,
+    "seq": 3,
+    "school": 0,
+    "quality": 53,
+    "baseAttribute": [
+      "Attack=320"
+    ],
+    "AttributeOnLevelUp": [
+      "Attack=32"
+    ],
+    "AttributeIcon": [
+      "atr_equip_atk"
+    ],
+    "FeatureJson": "",
+    "name": "EquipName_4200300",
+    "desc": "EquipDesc_4200300",
+    "atlasId": 3,
+    "icon": "stg_equip_4200300",
+    "nameB": "EquipName_4200300b",
+    "descB": "EquipDesc_4200300b",
+    "iconB": "stg_equip_4200300b"
+  },
+  {
+    "ID": 4200360,
+    "NextID": 0,
+    "equipType": 2,
+    "rank": 0,
+    "seq": 3,
+    "school": 0,
+    "quality": 60,
+    "baseAttribute": [
+      "Attack=400"
+    ],
+    "AttributeOnLevelUp": [
+      "Attack=40"
+    ],
+    "AttributeIcon": [
+      "atr_equip_atk"
+    ],
+    "FeatureJson": "{\"Type\":\"Skill\",\"Args\":\"220312\"}",
+    "name": "EquipName_4200300",
+    "desc": "EquipDesc_4200300",
+    "atlasId": 3,
+    "icon": "stg_equip_4200300",
+    "nameB": "EquipName_4200300b",
+    "descB": "EquipDesc_4200300b",
+    "iconB": "stg_equip_4200300b"
+  },
+  {
+    "ID": 4200410,
+    "NextID": 4200420,
+    "equipType": 2,
+    "rank": 0,
+    "seq": 4,
+    "school": 0,
+    "quality": 10,
+    "baseAttribute": [
+      "Attack=20"
+    ],
+    "AttributeOnLevelUp": [
+      "Attack=6"
+    ],
+    "AttributeIcon": [
+      "atr_equip_atk"
+    ],
+    "FeatureJson": "",
+    "name": "EquipName_4200400",
+    "desc": "EquipDesc_4200400",
+    "atlasId": 3,
+    "icon": "stg_equip_4200400",
+    "nameB": "EquipName_4200400b",
+    "descB": "EquipDesc_4200400b",
+    "iconB": "stg_equip_4200400b"
+  },
+  {
+    "ID": 4200420,
+    "NextID": 4200430,
+    "equipType": 2,
+    "rank": 0,
+    "seq": 4,
+    "school": 0,
+    "quality": 20,
+    "baseAttribute": [
+      "Attack=40"
+    ],
+    "AttributeOnLevelUp": [
+      "Attack=8"
+    ],
+    "AttributeIcon": [
+      "atr_equip_atk"
+    ],
+    "FeatureJson": "{\"Type\":\"Attr\",\"Args\":\"Attack=25\"}",
+    "name": "EquipName_4200400",
+    "desc": "EquipDesc_4200400",
+    "atlasId": 3,
+    "icon": "stg_equip_4200400",
+    "nameB": "EquipName_4200400b",
+    "descB": "EquipDesc_4200400b",
+    "iconB": "stg_equip_4200400b"
+  },
+  {
+    "ID": 4200430,
+    "NextID": 4200440,
+    "equipType": 2,
+    "rank": 0,
+    "seq": 4,
+    "school": 0,
+    "quality": 30,
+    "baseAttribute": [
+      "Attack=60"
+    ],
+    "AttributeOnLevelUp": [
+      "Attack=10"
+    ],
+    "AttributeIcon": [
+      "atr_equip_atk"
+    ],
+    "FeatureJson": "{\"Type\":\"Attr\",\"Args\":\"Attack%=5\"}",
+    "name": "EquipName_4200400",
+    "desc": "EquipDesc_4200400",
+    "atlasId": 3,
+    "icon": "stg_equip_4200400",
+    "nameB": "EquipName_4200400b",
+    "descB": "EquipDesc_4200400b",
+    "iconB": "stg_equip_4200400b"
+  },
+  {
+    "ID": 4200440,
+    "NextID": 4200441,
+    "equipType": 2,
+    "rank": 0,
+    "seq": 4,
+    "school": 0,
+    "quality": 40,
+    "baseAttribute": [
+      "Attack=100"
+    ],
+    "AttributeOnLevelUp": [
+      "Attack=12"
+    ],
+    "AttributeIcon": [
+      "atr_equip_atk"
+    ],
+    "FeatureJson": "{\"Type\":\"Skill\",\"Args\":\"220411\"}",
+    "name": "EquipName_4200400",
+    "desc": "EquipDesc_4200400",
+    "atlasId": 3,
+    "icon": "stg_equip_4200400",
+    "nameB": "EquipName_4200400b",
+    "descB": "EquipDesc_4200400b",
+    "iconB": "stg_equip_4200400b"
+  },
+  {
+    "ID": 4200441,
+    "NextID": 4200442,
+    "equipType": 2,
+    "rank": 0,
+    "seq": 4,
+    "school": 0,
+    "quality": 41,
+    "baseAttribute": [
+      "Attack=130"
+    ],
+    "AttributeOnLevelUp": [
+      "Attack=14"
+    ],
+    "AttributeIcon": [
+      "atr_equip_atk"
+    ],
+    "FeatureJson": "",
+    "name": "EquipName_4200400",
+    "desc": "EquipDesc_4200400",
+    "atlasId": 3,
+    "icon": "stg_equip_4200400",
+    "nameB": "EquipName_4200400b",
+    "descB": "EquipDesc_4200400b",
+    "iconB": "stg_equip_4200400b"
+  },
+  {
+    "ID": 4200442,
+    "NextID": 4200450,
+    "equipType": 2,
+    "rank": 0,
+    "seq": 4,
+    "school": 0,
+    "quality": 42,
+    "baseAttribute": [
+      "Attack=160"
+    ],
+    "AttributeOnLevelUp": [
+      "Attack=16"
+    ],
+    "AttributeIcon": [
+      "atr_equip_atk"
+    ],
+    "FeatureJson": "",
+    "name": "EquipName_4200400",
+    "desc": "EquipDesc_4200400",
+    "atlasId": 3,
+    "icon": "stg_equip_4200400",
+    "nameB": "EquipName_4200400b",
+    "descB": "EquipDesc_4200400b",
+    "iconB": "stg_equip_4200400b"
+  },
+  {
+    "ID": 4200450,
+    "NextID": 4200451,
+    "equipType": 2,
+    "rank": 0,
+    "seq": 4,
+    "school": 0,
+    "quality": 50,
+    "baseAttribute": [
+      "Attack=200"
+    ],
+    "AttributeOnLevelUp": [
+      "Attack=20"
+    ],
+    "AttributeIcon": [
+      "atr_equip_atk"
+    ],
+    "FeatureJson": "{\"Type\":\"Skill\",\"Args\":\"220421\"}",
+    "name": "EquipName_4200400",
+    "desc": "EquipDesc_4200400",
+    "atlasId": 3,
+    "icon": "stg_equip_4200400",
+    "nameB": "EquipName_4200400b",
+    "descB": "EquipDesc_4200400b",
+    "iconB": "stg_equip_4200400b"
+  },
+  {
+    "ID": 4200451,
+    "NextID": 4200452,
+    "equipType": 2,
+    "rank": 0,
+    "seq": 4,
+    "school": 0,
+    "quality": 51,
+    "baseAttribute": [
+      "Attack=240"
+    ],
+    "AttributeOnLevelUp": [
+      "Attack=24"
+    ],
+    "AttributeIcon": [
+      "atr_equip_atk"
+    ],
+    "FeatureJson": "",
+    "name": "EquipName_4200400",
+    "desc": "EquipDesc_4200400",
+    "atlasId": 3,
+    "icon": "stg_equip_4200400",
+    "nameB": "EquipName_4200400b",
+    "descB": "EquipDesc_4200400b",
+    "iconB": "stg_equip_4200400b"
+  },
+  {
+    "ID": 4200452,
+    "NextID": 4200453,
+    "equipType": 2,
+    "rank": 0,
+    "seq": 4,
+    "school": 0,
+    "quality": 52,
+    "baseAttribute": [
+      "Attack=280"
+    ],
+    "AttributeOnLevelUp": [
+      "Attack=28"
+    ],
+    "AttributeIcon": [
+      "atr_equip_atk"
+    ],
+    "FeatureJson": "",
+    "name": "EquipName_4200400",
+    "desc": "EquipDesc_4200400",
+    "atlasId": 3,
+    "icon": "stg_equip_4200400",
+    "nameB": "EquipName_4200400b",
+    "descB": "EquipDesc_4200400b",
+    "iconB": "stg_equip_4200400b"
+  },
+  {
+    "ID": 4200453,
+    "NextID": 4200460,
+    "equipType": 2,
+    "rank": 0,
+    "seq": 4,
+    "school": 0,
+    "quality": 53,
+    "baseAttribute": [
+      "Attack=320"
+    ],
+    "AttributeOnLevelUp": [
+      "Attack=32"
+    ],
+    "AttributeIcon": [
+      "atr_equip_atk"
+    ],
+    "FeatureJson": "",
+    "name": "EquipName_4200400",
+    "desc": "EquipDesc_4200400",
+    "atlasId": 3,
+    "icon": "stg_equip_4200400",
+    "nameB": "EquipName_4200400b",
+    "descB": "EquipDesc_4200400b",
+    "iconB": "stg_equip_4200400b"
+  },
+  {
+    "ID": 4200460,
+    "NextID": 0,
+    "equipType": 2,
+    "rank": 0,
+    "seq": 4,
+    "school": 0,
+    "quality": 60,
+    "baseAttribute": [
+      "Attack=400"
+    ],
+    "AttributeOnLevelUp": [
+      "Attack=40"
+    ],
+    "AttributeIcon": [
+      "atr_equip_atk"
+    ],
+    "FeatureJson": "{\"Type\":\"Skill\",\"Args\":\"220412\"}",
+    "name": "EquipName_4200400",
+    "desc": "EquipDesc_4200400",
+    "atlasId": 3,
+    "icon": "stg_equip_4200400",
+    "nameB": "EquipName_4200400b",
+    "descB": "EquipDesc_4200400b",
+    "iconB": "stg_equip_4200400b"
+  },
+  {
+    "ID": 4210110,
+    "NextID": 4210120,
+    "equipType": 2,
+    "rank": 1,
+    "seq": 1,
+    "school": 0,
+    "quality": 10,
+    "baseAttribute": [
+      "Attack=30"
+    ],
+    "AttributeOnLevelUp": [
+      "Attack=9"
+    ],
+    "AttributeIcon": [
+      "atr_equip_atk"
+    ],
+    "FeatureJson": "",
+    "name": "EquipName_4210100",
+    "desc": "EquipDesc_4210100",
+    "atlasId": 3,
+    "icon": "stg_equip_4210100",
+    "nameB": "EquipName_4210100b",
+    "descB": "EquipDesc_4210100b",
+    "iconB": "stg_equip_4210100b"
+  },
+  {
+    "ID": 4210120,
+    "NextID": 4210130,
+    "equipType": 2,
+    "rank": 1,
+    "seq": 1,
+    "school": 0,
+    "quality": 20,
+    "baseAttribute": [
+      "Attack=60"
+    ],
+    "AttributeOnLevelUp": [
+      "Attack=12"
+    ],
+    "AttributeIcon": [
+      "atr_equip_atk"
+    ],
+    "FeatureJson": "{\"Type\":\"Attr\",\"Args\":\"Attack%=5\"}",
+    "name": "EquipName_4210100",
+    "desc": "EquipDesc_4210100",
+    "atlasId": 3,
+    "icon": "stg_equip_4210100",
+    "nameB": "EquipName_4210100b",
+    "descB": "EquipDesc_4210100b",
+    "iconB": "stg_equip_4210100b"
+  },
+  {
+    "ID": 4210130,
+    "NextID": 4210140,
+    "equipType": 2,
+    "rank": 1,
+    "seq": 1,
+    "school": 0,
+    "quality": 30,
+    "baseAttribute": [
+      "Attack=90"
+    ],
+    "AttributeOnLevelUp": [
+      "Attack=15"
+    ],
+    "AttributeIcon": [
+      "atr_equip_atk"
+    ],
+    "FeatureJson": "{\"Type\":\"Skill\",\"Args\":\"221111\"}",
+    "name": "EquipName_4210100",
+    "desc": "EquipDesc_4210100",
+    "atlasId": 3,
+    "icon": "stg_equip_4210100",
+    "nameB": "EquipName_4210100b",
+    "descB": "EquipDesc_4210100b",
+    "iconB": "stg_equip_4210100b"
+  },
+  {
+    "ID": 4210140,
+    "NextID": 4210141,
+    "equipType": 2,
+    "rank": 1,
+    "seq": 1,
+    "school": 0,
+    "quality": 40,
+    "baseAttribute": [
+      "Attack=150"
+    ],
+    "AttributeOnLevelUp": [
+      "Attack=18"
+    ],
+    "AttributeIcon": [
+      "atr_equip_atk"
+    ],
+    "FeatureJson": "{\"Type\":\"Skill\",\"Args\":\"221121\"}",
+    "name": "EquipName_4210100",
+    "desc": "EquipDesc_4210100",
+    "atlasId": 3,
+    "icon": "stg_equip_4210100",
+    "nameB": "EquipName_4210100b",
+    "descB": "EquipDesc_4210100b",
+    "iconB": "stg_equip_4210100b"
+  },
+  {
+    "ID": 4210141,
+    "NextID": 4210142,
+    "equipType": 2,
+    "rank": 1,
+    "seq": 1,
+    "school": 0,
+    "quality": 41,
+    "baseAttribute": [
+      "Attack=195"
+    ],
+    "AttributeOnLevelUp": [
+      "Attack=21"
+    ],
+    "AttributeIcon": [
+      "atr_equip_atk"
+    ],
+    "FeatureJson": "",
+    "name": "EquipName_4210100",
+    "desc": "EquipDesc_4210100",
+    "atlasId": 3,
+    "icon": "stg_equip_4210100",
+    "nameB": "EquipName_4210100b",
+    "descB": "EquipDesc_4210100b",
+    "iconB": "stg_equip_4210100b"
+  },
+  {
+    "ID": 4210142,
+    "NextID": 4210150,
+    "equipType": 2,
+    "rank": 1,
+    "seq": 1,
+    "school": 0,
+    "quality": 42,
+    "baseAttribute": [
+      "Attack=240"
+    ],
+    "AttributeOnLevelUp": [
+      "Attack=24"
+    ],
+    "AttributeIcon": [
+      "atr_equip_atk"
+    ],
+    "FeatureJson": "",
+    "name": "EquipName_4210100",
+    "desc": "EquipDesc_4210100",
+    "atlasId": 3,
+    "icon": "stg_equip_4210100",
+    "nameB": "EquipName_4210100b",
+    "descB": "EquipDesc_4210100b",
+    "iconB": "stg_equip_4210100b"
+  },
+  {
+    "ID": 4210150,
+    "NextID": 4210151,
+    "equipType": 2,
+    "rank": 1,
+    "seq": 1,
+    "school": 0,
+    "quality": 50,
+    "baseAttribute": [
+      "Attack=300"
+    ],
+    "AttributeOnLevelUp": [
+      "Attack=30"
+    ],
+    "AttributeIcon": [
+      "atr_equip_atk"
+    ],
+    "FeatureJson": "{\"Type\":\"Skill\",\"Args\":\"221112\"}",
+    "name": "EquipName_4210100",
+    "desc": "EquipDesc_4210100",
+    "atlasId": 3,
+    "icon": "stg_equip_4210100",
+    "nameB": "EquipName_4210100b",
+    "descB": "EquipDesc_4210100b",
+    "iconB": "stg_equip_4210100b"
+  },
+  {
+    "ID": 4210151,
+    "NextID": 4210152,
+    "equipType": 2,
+    "rank": 1,
+    "seq": 1,
+    "school": 0,
+    "quality": 51,
+    "baseAttribute": [
+      "Attack=360"
+    ],
+    "AttributeOnLevelUp": [
+      "Attack=36"
+    ],
+    "AttributeIcon": [
+      "atr_equip_atk"
+    ],
+    "FeatureJson": "",
+    "name": "EquipName_4210100",
+    "desc": "EquipDesc_4210100",
+    "atlasId": 3,
+    "icon": "stg_equip_4210100",
+    "nameB": "EquipName_4210100b",
+    "descB": "EquipDesc_4210100b",
+    "iconB": "stg_equip_4210100b"
+  },
+  {
+    "ID": 4210152,
+    "NextID": 4210153,
+    "equipType": 2,
+    "rank": 1,
+    "seq": 1,
+    "school": 0,
+    "quality": 52,
+    "baseAttribute": [
+      "Attack=420"
+    ],
+    "AttributeOnLevelUp": [
+      "Attack=42"
+    ],
+    "AttributeIcon": [
+      "atr_equip_atk"
+    ],
+    "FeatureJson": "",
+    "name": "EquipName_4210100",
+    "desc": "EquipDesc_4210100",
+    "atlasId": 3,
+    "icon": "stg_equip_4210100",
+    "nameB": "EquipName_4210100b",
+    "descB": "EquipDesc_4210100b",
+    "iconB": "stg_equip_4210100b"
+  },
+  {
+    "ID": 4210153,
+    "NextID": 4210160,
+    "equipType": 2,
+    "rank": 1,
+    "seq": 1,
+    "school": 0,
+    "quality": 53,
+    "baseAttribute": [
+      "Attack=480"
+    ],
+    "AttributeOnLevelUp": [
+      "Attack=48"
+    ],
+    "AttributeIcon": [
+      "atr_equip_atk"
+    ],
+    "FeatureJson": "",
+    "name": "EquipName_4210100",
+    "desc": "EquipDesc_4210100",
+    "atlasId": 3,
+    "icon": "stg_equip_4210100",
+    "nameB": "EquipName_4210100b",
+    "descB": "EquipDesc_4210100b",
+    "iconB": "stg_equip_4210100b"
+  },
+  {
+    "ID": 4210160,
+    "NextID": 0,
+    "equipType": 2,
+    "rank": 1,
+    "seq": 1,
+    "school": 0,
+    "quality": 60,
+    "baseAttribute": [
+      "Attack=600"
+    ],
+    "AttributeOnLevelUp": [
+      "Attack=60"
+    ],
+    "AttributeIcon": [
+      "atr_equip_atk"
+    ],
+    "FeatureJson": "{\"Type\":\"Skill\",\"Args\":\"221122\"}",
+    "name": "EquipName_4210100",
+    "desc": "EquipDesc_4210100",
+    "atlasId": 3,
+    "icon": "stg_equip_4210100",
+    "nameB": "EquipName_4210100b",
+    "descB": "EquipDesc_4210100b",
+    "iconB": "stg_equip_4210100b"
+  },
+  {
+    "ID": 4300110,
+    "NextID": 4300120,
+    "equipType": 3,
+    "rank": 0,
+    "seq": 1,
+    "school": 0,
+    "quality": 10,
+    "baseAttribute": [
+      "HPMax=120"
+    ],
+    "AttributeOnLevelUp": [
+      "HPMax=36"
+    ],
+    "AttributeIcon": [
+      "atr_equip_hp"
+    ],
+    "FeatureJson": "",
+    "name": "EquipName_4300100",
+    "desc": "EquipDesc_4300100",
+    "atlasId": 3,
+    "icon": "stg_equip_4300100",
+    "nameB": "EquipName_4300100b",
+    "descB": "EquipDesc_4300100b",
+    "iconB": "stg_equip_4300100b"
+  },
+  {
+    "ID": 4300120,
+    "NextID": 4300130,
+    "equipType": 3,
+    "rank": 0,
+    "seq": 1,
+    "school": 0,
+    "quality": 20,
+    "baseAttribute": [
+      "HPMax=240"
+    ],
+    "AttributeOnLevelUp": [
+      "HPMax=48"
+    ],
+    "AttributeIcon": [
+      "atr_equip_hp"
+    ],
+    "FeatureJson": "{\"Type\":\"Attr\",\"Args\":\"HPMax=150\"}",
+    "name": "EquipName_4300100",
+    "desc": "EquipDesc_4300100",
+    "atlasId": 3,
+    "icon": "stg_equip_4300100",
+    "nameB": "EquipName_4300100b",
+    "descB": "EquipDesc_4300100b",
+    "iconB": "stg_equip_4300100b"
+  },
+  {
+    "ID": 4300130,
+    "NextID": 4300140,
+    "equipType": 3,
+    "rank": 0,
+    "seq": 1,
+    "school": 0,
+    "quality": 30,
+    "baseAttribute": [
+      "HPMax=360"
+    ],
+    "AttributeOnLevelUp": [
+      "HPMax=60"
+    ],
+    "AttributeIcon": [
+      "atr_equip_hp"
+    ],
+    "FeatureJson": "{\"Type\":\"Attr\",\"Args\":\"HurtDecrease%=5\"}",
+    "name": "EquipName_4300100",
+    "desc": "EquipDesc_4300100",
+    "atlasId": 3,
+    "icon": "stg_equip_4300100",
+    "nameB": "EquipName_4300100b",
+    "descB": "EquipDesc_4300100b",
+    "iconB": "stg_equip_4300100b"
+  },
+  {
+    "ID": 4300140,
+    "NextID": 4300141,
+    "equipType": 3,
+    "rank": 0,
+    "seq": 1,
+    "school": 0,
+    "quality": 40,
+    "baseAttribute": [
+      "HPMax=600"
+    ],
+    "AttributeOnLevelUp": [
+      "HPMax=72"
+    ],
+    "AttributeIcon": [
+      "atr_equip_hp"
+    ],
+    "FeatureJson": "{\"Type\":\"Skill\",\"Args\":\"230111\"}",
+    "name": "EquipName_4300100",
+    "desc": "EquipDesc_4300100",
+    "atlasId": 3,
+    "icon": "stg_equip_4300100",
+    "nameB": "EquipName_4300100b",
+    "descB": "EquipDesc_4300100b",
+    "iconB": "stg_equip_4300100b"
+  },
+  {
+    "ID": 4300141,
+    "NextID": 4300142,
+    "equipType": 3,
+    "rank": 0,
+    "seq": 1,
+    "school": 0,
+    "quality": 41,
+    "baseAttribute": [
+      "HPMax=780"
+    ],
+    "AttributeOnLevelUp": [
+      "HPMax=84"
+    ],
+    "AttributeIcon": [
+      "atr_equip_hp"
+    ],
+    "FeatureJson": "",
+    "name": "EquipName_4300100",
+    "desc": "EquipDesc_4300100",
+    "atlasId": 3,
+    "icon": "stg_equip_4300100",
+    "nameB": "EquipName_4300100b",
+    "descB": "EquipDesc_4300100b",
+    "iconB": "stg_equip_4300100b"
+  },
+  {
+    "ID": 4300142,
+    "NextID": 4300150,
+    "equipType": 3,
+    "rank": 0,
+    "seq": 1,
+    "school": 0,
+    "quality": 42,
+    "baseAttribute": [
+      "HPMax=960"
+    ],
+    "AttributeOnLevelUp": [
+      "HPMax=96"
+    ],
+    "AttributeIcon": [
+      "atr_equip_hp"
+    ],
+    "FeatureJson": "",
+    "name": "EquipName_4300100",
+    "desc": "EquipDesc_4300100",
+    "atlasId": 3,
+    "icon": "stg_equip_4300100",
+    "nameB": "EquipName_4300100b",
+    "descB": "EquipDesc_4300100b",
+    "iconB": "stg_equip_4300100b"
+  },
+  {
+    "ID": 4300150,
+    "NextID": 4300151,
+    "equipType": 3,
+    "rank": 0,
+    "seq": 1,
+    "school": 0,
+    "quality": 50,
+    "baseAttribute": [
+      "HPMax=1200"
+    ],
+    "AttributeOnLevelUp": [
+      "HPMax=120"
+    ],
+    "AttributeIcon": [
+      "atr_equip_hp"
+    ],
+    "FeatureJson": "{\"Type\":\"Skill\",\"Args\":\"230121\"}",
+    "name": "EquipName_4300100",
+    "desc": "EquipDesc_4300100",
+    "atlasId": 3,
+    "icon": "stg_equip_4300100",
+    "nameB": "EquipName_4300100b",
+    "descB": "EquipDesc_4300100b",
+    "iconB": "stg_equip_4300100b"
+  },
+  {
+    "ID": 4300151,
+    "NextID": 4300152,
+    "equipType": 3,
+    "rank": 0,
+    "seq": 1,
+    "school": 0,
+    "quality": 51,
+    "baseAttribute": [
+      "HPMax=1440"
+    ],
+    "AttributeOnLevelUp": [
+      "HPMax=144"
+    ],
+    "AttributeIcon": [
+      "atr_equip_hp"
+    ],
+    "FeatureJson": "",
+    "name": "EquipName_4300100",
+    "desc": "EquipDesc_4300100",
+    "atlasId": 3,
+    "icon": "stg_equip_4300100",
+    "nameB": "EquipName_4300100b",
+    "descB": "EquipDesc_4300100b",
+    "iconB": "stg_equip_4300100b"
+  },
+  {
+    "ID": 4300152,
+    "NextID": 4300153,
+    "equipType": 3,
+    "rank": 0,
+    "seq": 1,
+    "school": 0,
+    "quality": 52,
+    "baseAttribute": [
+      "HPMax=1680"
+    ],
+    "AttributeOnLevelUp": [
+      "HPMax=168"
+    ],
+    "AttributeIcon": [
+      "atr_equip_hp"
+    ],
+    "FeatureJson": "",
+    "name": "EquipName_4300100",
+    "desc": "EquipDesc_4300100",
+    "atlasId": 3,
+    "icon": "stg_equip_4300100",
+    "nameB": "EquipName_4300100b",
+    "descB": "EquipDesc_4300100b",
+    "iconB": "stg_equip_4300100b"
+  },
+  {
+    "ID": 4300153,
+    "NextID": 4300160,
+    "equipType": 3,
+    "rank": 0,
+    "seq": 1,
+    "school": 0,
+    "quality": 53,
+    "baseAttribute": [
+      "HPMax=1920"
+    ],
+    "AttributeOnLevelUp": [
+      "HPMax=192"
+    ],
+    "AttributeIcon": [
+      "atr_equip_hp"
+    ],
+    "FeatureJson": "",
+    "name": "EquipName_4300100",
+    "desc": "EquipDesc_4300100",
+    "atlasId": 3,
+    "icon": "stg_equip_4300100",
+    "nameB": "EquipName_4300100b",
+    "descB": "EquipDesc_4300100b",
+    "iconB": "stg_equip_4300100b"
+  },
+  {
+    "ID": 4300160,
+    "NextID": 0,
+    "equipType": 3,
+    "rank": 0,
+    "seq": 1,
+    "school": 0,
+    "quality": 60,
+    "baseAttribute": [
+      "HPMax=2400"
+    ],
+    "AttributeOnLevelUp": [
+      "HPMax=240"
+    ],
+    "AttributeIcon": [
+      "atr_equip_hp"
+    ],
+    "FeatureJson": "{\"Type\":\"Skill\",\"Args\":\"230112\"}",
+    "name": "EquipName_4300100",
+    "desc": "EquipDesc_4300100",
+    "atlasId": 3,
+    "icon": "stg_equip_4300100",
+    "nameB": "EquipName_4300100b",
+    "descB": "EquipDesc_4300100b",
+    "iconB": "stg_equip_4300100b"
+  },
+  {
+    "ID": 4300210,
+    "NextID": 4300220,
+    "equipType": 3,
+    "rank": 0,
+    "seq": 2,
+    "school": 0,
+    "quality": 10,
+    "baseAttribute": [
+      "HPMax=120"
+    ],
+    "AttributeOnLevelUp": [
+      "HPMax=36"
+    ],
+    "AttributeIcon": [
+      "atr_equip_hp"
+    ],
+    "FeatureJson": "",
+    "name": "EquipName_4300200",
+    "desc": "EquipDesc_4300200",
+    "atlasId": 3,
+    "icon": "stg_equip_4300200",
+    "nameB": "EquipName_4300200b",
+    "descB": "EquipDesc_4300200b",
+    "iconB": "stg_equip_4300200b"
+  },
+  {
+    "ID": 4300220,
+    "NextID": 4300230,
+    "equipType": 3,
+    "rank": 0,
+    "seq": 2,
+    "school": 0,
+    "quality": 20,
+    "baseAttribute": [
+      "HPMax=240"
+    ],
+    "AttributeOnLevelUp": [
+      "HPMax=48"
+    ],
+    "AttributeIcon": [
+      "atr_equip_hp"
+    ],
+    "FeatureJson": "{\"Type\":\"Attr\",\"Args\":\"HPMax=150\"}",
+    "name": "EquipName_4300200",
+    "desc": "EquipDesc_4300200",
+    "atlasId": 3,
+    "icon": "stg_equip_4300200",
+    "nameB": "EquipName_4300200b",
+    "descB": "EquipDesc_4300200b",
+    "iconB": "stg_equip_4300200b"
+  },
+  {
+    "ID": 4300230,
+    "NextID": 4300240,
+    "equipType": 3,
+    "rank": 0,
+    "seq": 2,
+    "school": 0,
+    "quality": 30,
+    "baseAttribute": [
+      "HPMax=360"
+    ],
+    "AttributeOnLevelUp": [
+      "HPMax=60"
+    ],
+    "AttributeIcon": [
+      "atr_equip_hp"
+    ],
+    "FeatureJson": "{\"Type\":\"Attr\",\"Args\":\"HurtDecrease%=5\"}",
+    "name": "EquipName_4300200",
+    "desc": "EquipDesc_4300200",
+    "atlasId": 3,
+    "icon": "stg_equip_4300200",
+    "nameB": "EquipName_4300200b",
+    "descB": "EquipDesc_4300200b",
+    "iconB": "stg_equip_4300200b"
+  },
+  {
+    "ID": 4300240,
+    "NextID": 4300241,
+    "equipType": 3,
+    "rank": 0,
+    "seq": 2,
+    "school": 0,
+    "quality": 40,
+    "baseAttribute": [
+      "HPMax=600"
+    ],
+    "AttributeOnLevelUp": [
+      "HPMax=72"
+    ],
+    "AttributeIcon": [
+      "atr_equip_hp"
+    ],
+    "FeatureJson": "{\"Type\":\"Skill\",\"Args\":\"230211\"}",
+    "name": "EquipName_4300200",
+    "desc": "EquipDesc_4300200",
+    "atlasId": 3,
+    "icon": "stg_equip_4300200",
+    "nameB": "EquipName_4300200b",
+    "descB": "EquipDesc_4300200b",
+    "iconB": "stg_equip_4300200b"
+  },
+  {
+    "ID": 4300241,
+    "NextID": 4300242,
+    "equipType": 3,
+    "rank": 0,
+    "seq": 2,
+    "school": 0,
+    "quality": 41,
+    "baseAttribute": [
+      "HPMax=780"
+    ],
+    "AttributeOnLevelUp": [
+      "HPMax=84"
+    ],
+    "AttributeIcon": [
+      "atr_equip_hp"
+    ],
+    "FeatureJson": "",
+    "name": "EquipName_4300200",
+    "desc": "EquipDesc_4300200",
+    "atlasId": 3,
+    "icon": "stg_equip_4300200",
+    "nameB": "EquipName_4300200b",
+    "descB": "EquipDesc_4300200b",
+    "iconB": "stg_equip_4300200b"
+  },
+  {
+    "ID": 4300242,
+    "NextID": 4300250,
+    "equipType": 3,
+    "rank": 0,
+    "seq": 2,
+    "school": 0,
+    "quality": 42,
+    "baseAttribute": [
+      "HPMax=960"
+    ],
+    "AttributeOnLevelUp": [
+      "HPMax=96"
+    ],
+    "AttributeIcon": [
+      "atr_equip_hp"
+    ],
+    "FeatureJson": "",
+    "name": "EquipName_4300200",
+    "desc": "EquipDesc_4300200",
+    "atlasId": 3,
+    "icon": "stg_equip_4300200",
+    "nameB": "EquipName_4300200b",
+    "descB": "EquipDesc_4300200b",
+    "iconB": "stg_equip_4300200b"
+  },
+  {
+    "ID": 4300250,
+    "NextID": 4300251,
+    "equipType": 3,
+    "rank": 0,
+    "seq": 2,
+    "school": 0,
+    "quality": 50,
+    "baseAttribute": [
+      "HPMax=1200"
+    ],
+    "AttributeOnLevelUp": [
+      "HPMax=120"
+    ],
+    "AttributeIcon": [
+      "atr_equip_hp"
+    ],
+    "FeatureJson": "{\"Type\":\"Skill\",\"Args\":\"230221\"}",
+    "name": "EquipName_4300200",
+    "desc": "EquipDesc_4300200",
+    "atlasId": 3,
+    "icon": "stg_equip_4300200",
+    "nameB": "EquipName_4300200b",
+    "descB": "EquipDesc_4300200b",
+    "iconB": "stg_equip_4300200b"
+  },
+  {
+    "ID": 4300251,
+    "NextID": 4300252,
+    "equipType": 3,
+    "rank": 0,
+    "seq": 2,
+    "school": 0,
+    "quality": 51,
+    "baseAttribute": [
+      "HPMax=1440"
+    ],
+    "AttributeOnLevelUp": [
+      "HPMax=144"
+    ],
+    "AttributeIcon": [
+      "atr_equip_hp"
+    ],
+    "FeatureJson": "",
+    "name": "EquipName_4300200",
+    "desc": "EquipDesc_4300200",
+    "atlasId": 3,
+    "icon": "stg_equip_4300200",
+    "nameB": "EquipName_4300200b",
+    "descB": "EquipDesc_4300200b",
+    "iconB": "stg_equip_4300200b"
+  },
+  {
+    "ID": 4300252,
+    "NextID": 4300253,
+    "equipType": 3,
+    "rank": 0,
+    "seq": 2,
+    "school": 0,
+    "quality": 52,
+    "baseAttribute": [
+      "HPMax=1680"
+    ],
+    "AttributeOnLevelUp": [
+      "HPMax=168"
+    ],
+    "AttributeIcon": [
+      "atr_equip_hp"
+    ],
+    "FeatureJson": "",
+    "name": "EquipName_4300200",
+    "desc": "EquipDesc_4300200",
+    "atlasId": 3,
+    "icon": "stg_equip_4300200",
+    "nameB": "EquipName_4300200b",
+    "descB": "EquipDesc_4300200b",
+    "iconB": "stg_equip_4300200b"
+  },
+  {
+    "ID": 4300253,
+    "NextID": 4300260,
+    "equipType": 3,
+    "rank": 0,
+    "seq": 2,
+    "school": 0,
+    "quality": 53,
+    "baseAttribute": [
+      "HPMax=1920"
+    ],
+    "AttributeOnLevelUp": [
+      "HPMax=192"
+    ],
+    "AttributeIcon": [
+      "atr_equip_hp"
+    ],
+    "FeatureJson": "",
+    "name": "EquipName_4300200",
+    "desc": "EquipDesc_4300200",
+    "atlasId": 3,
+    "icon": "stg_equip_4300200",
+    "nameB": "EquipName_4300200b",
+    "descB": "EquipDesc_4300200b",
+    "iconB": "stg_equip_4300200b"
+  },
+  {
+    "ID": 4300260,
+    "NextID": 0,
+    "equipType": 3,
+    "rank": 0,
+    "seq": 2,
+    "school": 0,
+    "quality": 60,
+    "baseAttribute": [
+      "HPMax=2400"
+    ],
+    "AttributeOnLevelUp": [
+      "HPMax=240"
+    ],
+    "AttributeIcon": [
+      "atr_equip_hp"
+    ],
+    "FeatureJson": "{\"Type\":\"Skill\",\"Args\":\"230212\"}",
+    "name": "EquipName_4300200",
+    "desc": "EquipDesc_4300200",
+    "atlasId": 3,
+    "icon": "stg_equip_4300200",
+    "nameB": "EquipName_4300200b",
+    "descB": "EquipDesc_4300200b",
+    "iconB": "stg_equip_4300200b"
+  },
+  {
+    "ID": 4300310,
+    "NextID": 4300320,
+    "equipType": 3,
+    "rank": 0,
+    "seq": 3,
+    "school": 0,
+    "quality": 10,
+    "baseAttribute": [
+      "HPMax=120"
+    ],
+    "AttributeOnLevelUp": [
+      "HPMax=36"
+    ],
+    "AttributeIcon": [
+      "atr_equip_hp"
+    ],
+    "FeatureJson": "",
+    "name": "EquipName_4300300",
+    "desc": "EquipDesc_4300300",
+    "atlasId": 3,
+    "icon": "stg_equip_4300300",
+    "nameB": "EquipName_4300300b",
+    "descB": "EquipDesc_4300300b",
+    "iconB": "stg_equip_4300300b"
+  },
+  {
+    "ID": 4300320,
+    "NextID": 4300330,
+    "equipType": 3,
+    "rank": 0,
+    "seq": 3,
+    "school": 0,
+    "quality": 20,
+    "baseAttribute": [
+      "HPMax=240"
+    ],
+    "AttributeOnLevelUp": [
+      "HPMax=48"
+    ],
+    "AttributeIcon": [
+      "atr_equip_hp"
+    ],
+    "FeatureJson": "{\"Type\":\"Attr\",\"Args\":\"HPMax=150\"}",
+    "name": "EquipName_4300300",
+    "desc": "EquipDesc_4300300",
+    "atlasId": 3,
+    "icon": "stg_equip_4300300",
+    "nameB": "EquipName_4300300b",
+    "descB": "EquipDesc_4300300b",
+    "iconB": "stg_equip_4300300b"
+  },
+  {
+    "ID": 4300330,
+    "NextID": 4300340,
+    "equipType": 3,
+    "rank": 0,
+    "seq": 3,
+    "school": 0,
+    "quality": 30,
+    "baseAttribute": [
+      "HPMax=360"
+    ],
+    "AttributeOnLevelUp": [
+      "HPMax=60"
+    ],
+    "AttributeIcon": [
+      "atr_equip_hp"
+    ],
+    "FeatureJson": "{\"Type\":\"Attr\",\"Args\":\"HurtDecrease%=5\"}",
+    "name": "EquipName_4300300",
+    "desc": "EquipDesc_4300300",
+    "atlasId": 3,
+    "icon": "stg_equip_4300300",
+    "nameB": "EquipName_4300300b",
+    "descB": "EquipDesc_4300300b",
+    "iconB": "stg_equip_4300300b"
+  },
+  {
+    "ID": 4300340,
+    "NextID": 4300341,
+    "equipType": 3,
+    "rank": 0,
+    "seq": 3,
+    "school": 0,
+    "quality": 40,
+    "baseAttribute": [
+      "HPMax=600"
+    ],
+    "AttributeOnLevelUp": [
+      "HPMax=72"
+    ],
+    "AttributeIcon": [
+      "atr_equip_hp"
+    ],
+    "FeatureJson": "{\"Type\":\"Skill\",\"Args\":\"230311\"}",
+    "name": "EquipName_4300300",
+    "desc": "EquipDesc_4300300",
+    "atlasId": 3,
+    "icon": "stg_equip_4300300",
+    "nameB": "EquipName_4300300b",
+    "descB": "EquipDesc_4300300b",
+    "iconB": "stg_equip_4300300b"
+  },
+  {
+    "ID": 4300341,
+    "NextID": 4300342,
+    "equipType": 3,
+    "rank": 0,
+    "seq": 3,
+    "school": 0,
+    "quality": 41,
+    "baseAttribute": [
+      "HPMax=780"
+    ],
+    "AttributeOnLevelUp": [
+      "HPMax=84"
+    ],
+    "AttributeIcon": [
+      "atr_equip_hp"
+    ],
+    "FeatureJson": "",
+    "name": "EquipName_4300300",
+    "desc": "EquipDesc_4300300",
+    "atlasId": 3,
+    "icon": "stg_equip_4300300",
+    "nameB": "EquipName_4300300b",
+    "descB": "EquipDesc_4300300b",
+    "iconB": "stg_equip_4300300b"
+  },
+  {
+    "ID": 4300342,
+    "NextID": 4300350,
+    "equipType": 3,
+    "rank": 0,
+    "seq": 3,
+    "school": 0,
+    "quality": 42,
+    "baseAttribute": [
+      "HPMax=960"
+    ],
+    "AttributeOnLevelUp": [
+      "HPMax=96"
+    ],
+    "AttributeIcon": [
+      "atr_equip_hp"
+    ],
+    "FeatureJson": "",
+    "name": "EquipName_4300300",
+    "desc": "EquipDesc_4300300",
+    "atlasId": 3,
+    "icon": "stg_equip_4300300",
+    "nameB": "EquipName_4300300b",
+    "descB": "EquipDesc_4300300b",
+    "iconB": "stg_equip_4300300b"
+  },
+  {
+    "ID": 4300350,
+    "NextID": 4300351,
+    "equipType": 3,
+    "rank": 0,
+    "seq": 3,
+    "school": 0,
+    "quality": 50,
+    "baseAttribute": [
+      "HPMax=1200"
+    ],
+    "AttributeOnLevelUp": [
+      "HPMax=120"
+    ],
+    "AttributeIcon": [
+      "atr_equip_hp"
+    ],
+    "FeatureJson": "{\"Type\":\"Skill\",\"Args\":\"230321\"}",
+    "name": "EquipName_4300300",
+    "desc": "EquipDesc_4300300",
+    "atlasId": 3,
+    "icon": "stg_equip_4300300",
+    "nameB": "EquipName_4300300b",
+    "descB": "EquipDesc_4300300b",
+    "iconB": "stg_equip_4300300b"
+  },
+  {
+    "ID": 4300351,
+    "NextID": 4300352,
+    "equipType": 3,
+    "rank": 0,
+    "seq": 3,
+    "school": 0,
+    "quality": 51,
+    "baseAttribute": [
+      "HPMax=1440"
+    ],
+    "AttributeOnLevelUp": [
+      "HPMax=144"
+    ],
+    "AttributeIcon": [
+      "atr_equip_hp"
+    ],
+    "FeatureJson": "",
+    "name": "EquipName_4300300",
+    "desc": "EquipDesc_4300300",
+    "atlasId": 3,
+    "icon": "stg_equip_4300300",
+    "nameB": "EquipName_4300300b",
+    "descB": "EquipDesc_4300300b",
+    "iconB": "stg_equip_4300300b"
+  },
+  {
+    "ID": 4300352,
+    "NextID": 4300353,
+    "equipType": 3,
+    "rank": 0,
+    "seq": 3,
+    "school": 0,
+    "quality": 52,
+    "baseAttribute": [
+      "HPMax=1680"
+    ],
+    "AttributeOnLevelUp": [
+      "HPMax=168"
+    ],
+    "AttributeIcon": [
+      "atr_equip_hp"
+    ],
+    "FeatureJson": "",
+    "name": "EquipName_4300300",
+    "desc": "EquipDesc_4300300",
+    "atlasId": 3,
+    "icon": "stg_equip_4300300",
+    "nameB": "EquipName_4300300b",
+    "descB": "EquipDesc_4300300b",
+    "iconB": "stg_equip_4300300b"
+  },
+  {
+    "ID": 4300353,
+    "NextID": 4300360,
+    "equipType": 3,
+    "rank": 0,
+    "seq": 3,
+    "school": 0,
+    "quality": 53,
+    "baseAttribute": [
+      "HPMax=1920"
+    ],
+    "AttributeOnLevelUp": [
+      "HPMax=192"
+    ],
+    "AttributeIcon": [
+      "atr_equip_hp"
+    ],
+    "FeatureJson": "",
+    "name": "EquipName_4300300",
+    "desc": "EquipDesc_4300300",
+    "atlasId": 3,
+    "icon": "stg_equip_4300300",
+    "nameB": "EquipName_4300300b",
+    "descB": "EquipDesc_4300300b",
+    "iconB": "stg_equip_4300300b"
+  },
+  {
+    "ID": 4300360,
+    "NextID": 0,
+    "equipType": 3,
+    "rank": 0,
+    "seq": 3,
+    "school": 0,
+    "quality": 60,
+    "baseAttribute": [
+      "HPMax=2400"
+    ],
+    "AttributeOnLevelUp": [
+      "HPMax=240"
+    ],
+    "AttributeIcon": [
+      "atr_equip_hp"
+    ],
+    "FeatureJson": "{\"Type\":\"Skill\",\"Args\":\"230312\"}",
+    "name": "EquipName_4300300",
+    "desc": "EquipDesc_4300300",
+    "atlasId": 3,
+    "icon": "stg_equip_4300300",
+    "nameB": "EquipName_4300300b",
+    "descB": "EquipDesc_4300300b",
+    "iconB": "stg_equip_4300300b"
+  },
+  {
+    "ID": 4300410,
+    "NextID": 4300420,
+    "equipType": 3,
+    "rank": 0,
+    "seq": 4,
+    "school": 0,
+    "quality": 10,
+    "baseAttribute": [
+      "HPMax=120"
+    ],
+    "AttributeOnLevelUp": [
+      "HPMax=36"
+    ],
+    "AttributeIcon": [
+      "atr_equip_hp"
+    ],
+    "FeatureJson": "",
+    "name": "EquipName_4300400",
+    "desc": "EquipDesc_4300400",
+    "atlasId": 3,
+    "icon": "stg_equip_4300400",
+    "nameB": "EquipName_4300400b",
+    "descB": "EquipDesc_4300400b",
+    "iconB": "stg_equip_4300400b"
+  },
+  {
+    "ID": 4300420,
+    "NextID": 4300430,
+    "equipType": 3,
+    "rank": 0,
+    "seq": 4,
+    "school": 0,
+    "quality": 20,
+    "baseAttribute": [
+      "HPMax=240"
+    ],
+    "AttributeOnLevelUp": [
+      "HPMax=48"
+    ],
+    "AttributeIcon": [
+      "atr_equip_hp"
+    ],
+    "FeatureJson": "{\"Type\":\"Attr\",\"Args\":\"HPMax=150\"}",
+    "name": "EquipName_4300400",
+    "desc": "EquipDesc_4300400",
+    "atlasId": 3,
+    "icon": "stg_equip_4300400",
+    "nameB": "EquipName_4300400b",
+    "descB": "EquipDesc_4300400b",
+    "iconB": "stg_equip_4300400b"
+  },
+  {
+    "ID": 4300430,
+    "NextID": 4300440,
+    "equipType": 3,
+    "rank": 0,
+    "seq": 4,
+    "school": 0,
+    "quality": 30,
+    "baseAttribute": [
+      "HPMax=360"
+    ],
+    "AttributeOnLevelUp": [
+      "HPMax=60"
+    ],
+    "AttributeIcon": [
+      "atr_equip_hp"
+    ],
+    "FeatureJson": "{\"Type\":\"Attr\",\"Args\":\"HurtDecrease%=5\"}",
+    "name": "EquipName_4300400",
+    "desc": "EquipDesc_4300400",
+    "atlasId": 3,
+    "icon": "stg_equip_4300400",
+    "nameB": "EquipName_4300400b",
+    "descB": "EquipDesc_4300400b",
+    "iconB": "stg_equip_4300400b"
+  },
+  {
+    "ID": 4300440,
+    "NextID": 4300441,
+    "equipType": 3,
+    "rank": 0,
+    "seq": 4,
+    "school": 0,
+    "quality": 40,
+    "baseAttribute": [
+      "HPMax=600"
+    ],
+    "AttributeOnLevelUp": [
+      "HPMax=72"
+    ],
+    "AttributeIcon": [
+      "atr_equip_hp"
+    ],
+    "FeatureJson": "{\"Type\":\"Skill\",\"Args\":\"230411\"}",
+    "name": "EquipName_4300400",
+    "desc": "EquipDesc_4300400",
+    "atlasId": 3,
+    "icon": "stg_equip_4300400",
+    "nameB": "EquipName_4300400b",
+    "descB": "EquipDesc_4300400b",
+    "iconB": "stg_equip_4300400b"
+  },
+  {
+    "ID": 4300441,
+    "NextID": 4300442,
+    "equipType": 3,
+    "rank": 0,
+    "seq": 4,
+    "school": 0,
+    "quality": 41,
+    "baseAttribute": [
+      "HPMax=780"
+    ],
+    "AttributeOnLevelUp": [
+      "HPMax=84"
+    ],
+    "AttributeIcon": [
+      "atr_equip_hp"
+    ],
+    "FeatureJson": "",
+    "name": "EquipName_4300400",
+    "desc": "EquipDesc_4300400",
+    "atlasId": 3,
+    "icon": "stg_equip_4300400",
+    "nameB": "EquipName_4300400b",
+    "descB": "EquipDesc_4300400b",
+    "iconB": "stg_equip_4300400b"
+  },
+  {
+    "ID": 4300442,
+    "NextID": 4300450,
+    "equipType": 3,
+    "rank": 0,
+    "seq": 4,
+    "school": 0,
+    "quality": 42,
+    "baseAttribute": [
+      "HPMax=960"
+    ],
+    "AttributeOnLevelUp": [
+      "HPMax=96"
+    ],
+    "AttributeIcon": [
+      "atr_equip_hp"
+    ],
+    "FeatureJson": "",
+    "name": "EquipName_4300400",
+    "desc": "EquipDesc_4300400",
+    "atlasId": 3,
+    "icon": "stg_equip_4300400",
+    "nameB": "EquipName_4300400b",
+    "descB": "EquipDesc_4300400b",
+    "iconB": "stg_equip_4300400b"
+  },
+  {
+    "ID": 4300450,
+    "NextID": 4300451,
+    "equipType": 3,
+    "rank": 0,
+    "seq": 4,
+    "school": 0,
+    "quality": 50,
+    "baseAttribute": [
+      "HPMax=1200"
+    ],
+    "AttributeOnLevelUp": [
+      "HPMax=120"
+    ],
+    "AttributeIcon": [
+      "atr_equip_hp"
+    ],
+    "FeatureJson": "{\"Type\":\"Skill\",\"Args\":\"230421\"}",
+    "name": "EquipName_4300400",
+    "desc": "EquipDesc_4300400",
+    "atlasId": 3,
+    "icon": "stg_equip_4300400",
+    "nameB": "EquipName_4300400b",
+    "descB": "EquipDesc_4300400b",
+    "iconB": "stg_equip_4300400b"
+  },
+  {
+    "ID": 4300451,
+    "NextID": 4300452,
+    "equipType": 3,
+    "rank": 0,
+    "seq": 4,
+    "school": 0,
+    "quality": 51,
+    "baseAttribute": [
+      "HPMax=1440"
+    ],
+    "AttributeOnLevelUp": [
+      "HPMax=144"
+    ],
+    "AttributeIcon": [
+      "atr_equip_hp"
+    ],
+    "FeatureJson": "",
+    "name": "EquipName_4300400",
+    "desc": "EquipDesc_4300400",
+    "atlasId": 3,
+    "icon": "stg_equip_4300400",
+    "nameB": "EquipName_4300400b",
+    "descB": "EquipDesc_4300400b",
+    "iconB": "stg_equip_4300400b"
+  },
+  {
+    "ID": 4300452,
+    "NextID": 4300453,
+    "equipType": 3,
+    "rank": 0,
+    "seq": 4,
+    "school": 0,
+    "quality": 52,
+    "baseAttribute": [
+      "HPMax=1680"
+    ],
+    "AttributeOnLevelUp": [
+      "HPMax=168"
+    ],
+    "AttributeIcon": [
+      "atr_equip_hp"
+    ],
+    "FeatureJson": "",
+    "name": "EquipName_4300400",
+    "desc": "EquipDesc_4300400",
+    "atlasId": 3,
+    "icon": "stg_equip_4300400",
+    "nameB": "EquipName_4300400b",
+    "descB": "EquipDesc_4300400b",
+    "iconB": "stg_equip_4300400b"
+  },
+  {
+    "ID": 4300453,
+    "NextID": 4300460,
+    "equipType": 3,
+    "rank": 0,
+    "seq": 4,
+    "school": 0,
+    "quality": 53,
+    "baseAttribute": [
+      "HPMax=1920"
+    ],
+    "AttributeOnLevelUp": [
+      "HPMax=192"
+    ],
+    "AttributeIcon": [
+      "atr_equip_hp"
+    ],
+    "FeatureJson": "",
+    "name": "EquipName_4300400",
+    "desc": "EquipDesc_4300400",
+    "atlasId": 3,
+    "icon": "stg_equip_4300400",
+    "nameB": "EquipName_4300400b",
+    "descB": "EquipDesc_4300400b",
+    "iconB": "stg_equip_4300400b"
+  },
+  {
+    "ID": 4300460,
+    "NextID": 0,
+    "equipType": 3,
+    "rank": 0,
+    "seq": 4,
+    "school": 0,
+    "quality": 60,
+    "baseAttribute": [
+      "HPMax=2400"
+    ],
+    "AttributeOnLevelUp": [
+      "HPMax=240"
+    ],
+    "AttributeIcon": [
+      "atr_equip_hp"
+    ],
+    "FeatureJson": "{\"Type\":\"Skill\",\"Args\":\"230412\"}",
+    "name": "EquipName_4300400",
+    "desc": "EquipDesc_4300400",
+    "atlasId": 3,
+    "icon": "stg_equip_4300400",
+    "nameB": "EquipName_4300400b",
+    "descB": "EquipDesc_4300400b",
+    "iconB": "stg_equip_4300400b"
+  },
+  {
+    "ID": 4310110,
+    "NextID": 4310120,
+    "equipType": 3,
+    "rank": 1,
+    "seq": 1,
+    "school": 0,
+    "quality": 10,
+    "baseAttribute": [
+      "HPMax=180"
+    ],
+    "AttributeOnLevelUp": [
+      "HPMax=54"
+    ],
+    "AttributeIcon": [
+      "atr_equip_hp"
+    ],
+    "FeatureJson": "",
+    "name": "EquipName_4310100",
+    "desc": "EquipDesc_4310100",
+    "atlasId": 3,
+    "icon": "stg_equip_4310100",
+    "nameB": "EquipName_4310100b",
+    "descB": "EquipDesc_4310100b",
+    "iconB": "stg_equip_4310100b"
+  },
+  {
+    "ID": 4310120,
+    "NextID": 4310130,
+    "equipType": 3,
+    "rank": 1,
+    "seq": 1,
+    "school": 0,
+    "quality": 20,
+    "baseAttribute": [
+      "HPMax=360"
+    ],
+    "AttributeOnLevelUp": [
+      "HPMax=72"
+    ],
+    "AttributeIcon": [
+      "atr_equip_hp"
+    ],
+    "FeatureJson": "{\"Type\":\"Attr\",\"Args\":\"HurtDecrease%=5\"}",
+    "name": "EquipName_4310100",
+    "desc": "EquipDesc_4310100",
+    "atlasId": 3,
+    "icon": "stg_equip_4310100",
+    "nameB": "EquipName_4310100b",
+    "descB": "EquipDesc_4310100b",
+    "iconB": "stg_equip_4310100b"
+  },
+  {
+    "ID": 4310130,
+    "NextID": 4310140,
+    "equipType": 3,
+    "rank": 1,
+    "seq": 1,
+    "school": 0,
+    "quality": 30,
+    "baseAttribute": [
+      "HPMax=540"
+    ],
+    "AttributeOnLevelUp": [
+      "HPMax=90"
+    ],
+    "AttributeIcon": [
+      "atr_equip_hp"
+    ],
+    "FeatureJson": "{\"Type\":\"Skill\",\"Args\":\"231111\"}",
+    "name": "EquipName_4310100",
+    "desc": "EquipDesc_4310100",
+    "atlasId": 3,
+    "icon": "stg_equip_4310100",
+    "nameB": "EquipName_4310100b",
+    "descB": "EquipDesc_4310100b",
+    "iconB": "stg_equip_4310100b"
+  },
+  {
+    "ID": 4310140,
+    "NextID": 4310141,
+    "equipType": 3,
+    "rank": 1,
+    "seq": 1,
+    "school": 0,
+    "quality": 40,
+    "baseAttribute": [
+      "HPMax=900"
+    ],
+    "AttributeOnLevelUp": [
+      "HPMax=108"
+    ],
+    "AttributeIcon": [
+      "atr_equip_hp"
+    ],
+    "FeatureJson": "{\"Type\":\"Skill\",\"Args\":\"231121\"}",
+    "name": "EquipName_4310100",
+    "desc": "EquipDesc_4310100",
+    "atlasId": 3,
+    "icon": "stg_equip_4310100",
+    "nameB": "EquipName_4310100b",
+    "descB": "EquipDesc_4310100b",
+    "iconB": "stg_equip_4310100b"
+  },
+  {
+    "ID": 4310141,
+    "NextID": 4310142,
+    "equipType": 3,
+    "rank": 1,
+    "seq": 1,
+    "school": 0,
+    "quality": 41,
+    "baseAttribute": [
+      "HPMax=1170"
+    ],
+    "AttributeOnLevelUp": [
+      "HPMax=126"
+    ],
+    "AttributeIcon": [
+      "atr_equip_hp"
+    ],
+    "FeatureJson": "",
+    "name": "EquipName_4310100",
+    "desc": "EquipDesc_4310100",
+    "atlasId": 3,
+    "icon": "stg_equip_4310100",
+    "nameB": "EquipName_4310100b",
+    "descB": "EquipDesc_4310100b",
+    "iconB": "stg_equip_4310100b"
+  },
+  {
+    "ID": 4310142,
+    "NextID": 4310150,
+    "equipType": 3,
+    "rank": 1,
+    "seq": 1,
+    "school": 0,
+    "quality": 42,
+    "baseAttribute": [
+      "HPMax=1440"
+    ],
+    "AttributeOnLevelUp": [
+      "HPMax=144"
+    ],
+    "AttributeIcon": [
+      "atr_equip_hp"
+    ],
+    "FeatureJson": "",
+    "name": "EquipName_4310100",
+    "desc": "EquipDesc_4310100",
+    "atlasId": 3,
+    "icon": "stg_equip_4310100",
+    "nameB": "EquipName_4310100b",
+    "descB": "EquipDesc_4310100b",
+    "iconB": "stg_equip_4310100b"
+  },
+  {
+    "ID": 4310150,
+    "NextID": 4310151,
+    "equipType": 3,
+    "rank": 1,
+    "seq": 1,
+    "school": 0,
+    "quality": 50,
+    "baseAttribute": [
+      "HPMax=1800"
+    ],
+    "AttributeOnLevelUp": [
+      "HPMax=180"
+    ],
+    "AttributeIcon": [
+      "atr_equip_hp"
+    ],
+    "FeatureJson": "{\"Type\":\"Skill\",\"Args\":\"231112\"}",
+    "name": "EquipName_4310100",
+    "desc": "EquipDesc_4310100",
+    "atlasId": 3,
+    "icon": "stg_equip_4310100",
+    "nameB": "EquipName_4310100b",
+    "descB": "EquipDesc_4310100b",
+    "iconB": "stg_equip_4310100b"
+  },
+  {
+    "ID": 4310151,
+    "NextID": 4310152,
+    "equipType": 3,
+    "rank": 1,
+    "seq": 1,
+    "school": 0,
+    "quality": 51,
+    "baseAttribute": [
+      "HPMax=2160"
+    ],
+    "AttributeOnLevelUp": [
+      "HPMax=216"
+    ],
+    "AttributeIcon": [
+      "atr_equip_hp"
+    ],
+    "FeatureJson": "",
+    "name": "EquipName_4310100",
+    "desc": "EquipDesc_4310100",
+    "atlasId": 3,
+    "icon": "stg_equip_4310100",
+    "nameB": "EquipName_4310100b",
+    "descB": "EquipDesc_4310100b",
+    "iconB": "stg_equip_4310100b"
+  },
+  {
+    "ID": 4310152,
+    "NextID": 4310153,
+    "equipType": 3,
+    "rank": 1,
+    "seq": 1,
+    "school": 0,
+    "quality": 52,
+    "baseAttribute": [
+      "HPMax=2520"
+    ],
+    "AttributeOnLevelUp": [
+      "HPMax=252"
+    ],
+    "AttributeIcon": [
+      "atr_equip_hp"
+    ],
+    "FeatureJson": "",
+    "name": "EquipName_4310100",
+    "desc": "EquipDesc_4310100",
+    "atlasId": 3,
+    "icon": "stg_equip_4310100",
+    "nameB": "EquipName_4310100b",
+    "descB": "EquipDesc_4310100b",
+    "iconB": "stg_equip_4310100b"
+  },
+  {
+    "ID": 4310153,
+    "NextID": 4310160,
+    "equipType": 3,
+    "rank": 1,
+    "seq": 1,
+    "school": 0,
+    "quality": 53,
+    "baseAttribute": [
+      "HPMax=2880"
+    ],
+    "AttributeOnLevelUp": [
+      "HPMax=288"
+    ],
+    "AttributeIcon": [
+      "atr_equip_hp"
+    ],
+    "FeatureJson": "",
+    "name": "EquipName_4310100",
+    "desc": "EquipDesc_4310100",
+    "atlasId": 3,
+    "icon": "stg_equip_4310100",
+    "nameB": "EquipName_4310100b",
+    "descB": "EquipDesc_4310100b",
+    "iconB": "stg_equip_4310100b"
+  },
+  {
+    "ID": 4310160,
+    "NextID": 0,
+    "equipType": 3,
+    "rank": 1,
+    "seq": 1,
+    "school": 0,
+    "quality": 60,
+    "baseAttribute": [
+      "HPMax=3600"
+    ],
+    "AttributeOnLevelUp": [
+      "HPMax=360"
+    ],
+    "AttributeIcon": [
+      "atr_equip_hp"
+    ],
+    "FeatureJson": "{\"Type\":\"Skill\",\"Args\":\"231122\"}",
+    "name": "EquipName_4310100",
+    "desc": "EquipDesc_4310100",
+    "atlasId": 3,
+    "icon": "stg_equip_4310100",
+    "nameB": "EquipName_4310100b",
+    "descB": "EquipDesc_4310100b",
+    "iconB": "stg_equip_4310100b"
+  },
+  {
+    "ID": 4400110,
+    "NextID": 4400120,
+    "equipType": 4,
+    "rank": 0,
+    "seq": 1,
+    "school": 0,
+    "quality": 10,
+    "baseAttribute": [
+      "Attack=20"
+    ],
+    "AttributeOnLevelUp": [
+      "Attack=6"
+    ],
+    "AttributeIcon": [
+      "atr_equip_atk"
+    ],
+    "FeatureJson": "",
+    "name": "EquipName_4400100",
+    "desc": "EquipDesc_4400100",
+    "atlasId": 3,
+    "icon": "stg_equip_4400100",
+    "nameB": "EquipName_4400100b",
+    "descB": "EquipDesc_4400100b",
+    "iconB": "stg_equip_4400100b"
+  },
+  {
+    "ID": 4400120,
+    "NextID": 4400130,
+    "equipType": 4,
+    "rank": 0,
+    "seq": 1,
+    "school": 0,
+    "quality": 20,
+    "baseAttribute": [
+      "Attack=40"
+    ],
+    "AttributeOnLevelUp": [
+      "Attack=8"
+    ],
+    "AttributeIcon": [
+      "atr_equip_atk"
+    ],
+    "FeatureJson": "{\"Type\":\"Attr\",\"Args\":\"Attack=25\"}",
+    "name": "EquipName_4400100",
+    "desc": "EquipDesc_4400100",
+    "atlasId": 3,
+    "icon": "stg_equip_4400100",
+    "nameB": "EquipName_4400100b",
+    "descB": "EquipDesc_4400100b",
+    "iconB": "stg_equip_4400100b"
+  },
+  {
+    "ID": 4400130,
+    "NextID": 4400140,
+    "equipType": 4,
+    "rank": 0,
+    "seq": 1,
+    "school": 0,
+    "quality": 30,
+    "baseAttribute": [
+      "Attack=60"
+    ],
+    "AttributeOnLevelUp": [
+      "Attack=10"
+    ],
+    "AttributeIcon": [
+      "atr_equip_atk"
+    ],
+    "FeatureJson": "{\"Type\":\"Attr\",\"Args\":\"Attack%=5\"}",
+    "name": "EquipName_4400100",
+    "desc": "EquipDesc_4400100",
+    "atlasId": 3,
+    "icon": "stg_equip_4400100",
+    "nameB": "EquipName_4400100b",
+    "descB": "EquipDesc_4400100b",
+    "iconB": "stg_equip_4400100b"
+  },
+  {
+    "ID": 4400140,
+    "NextID": 4400141,
+    "equipType": 4,
+    "rank": 0,
+    "seq": 1,
+    "school": 0,
+    "quality": 40,
+    "baseAttribute": [
+      "Attack=100"
+    ],
+    "AttributeOnLevelUp": [
+      "Attack=12"
+    ],
+    "AttributeIcon": [
+      "atr_equip_atk"
+    ],
+    "FeatureJson": "{\"Type\":\"Skill\",\"Args\":\"240111\"}",
+    "name": "EquipName_4400100",
+    "desc": "EquipDesc_4400100",
+    "atlasId": 3,
+    "icon": "stg_equip_4400100",
+    "nameB": "EquipName_4400100b",
+    "descB": "EquipDesc_4400100b",
+    "iconB": "stg_equip_4400100b"
+  },
+  {
+    "ID": 4400141,
+    "NextID": 4400142,
+    "equipType": 4,
+    "rank": 0,
+    "seq": 1,
+    "school": 0,
+    "quality": 41,
+    "baseAttribute": [
+      "Attack=130"
+    ],
+    "AttributeOnLevelUp": [
+      "Attack=14"
+    ],
+    "AttributeIcon": [
+      "atr_equip_atk"
+    ],
+    "FeatureJson": "",
+    "name": "EquipName_4400100",
+    "desc": "EquipDesc_4400100",
+    "atlasId": 3,
+    "icon": "stg_equip_4400100",
+    "nameB": "EquipName_4400100b",
+    "descB": "EquipDesc_4400100b",
+    "iconB": "stg_equip_4400100b"
+  },
+  {
+    "ID": 4400142,
+    "NextID": 4400150,
+    "equipType": 4,
+    "rank": 0,
+    "seq": 1,
+    "school": 0,
+    "quality": 42,
+    "baseAttribute": [
+      "Attack=160"
+    ],
+    "AttributeOnLevelUp": [
+      "Attack=16"
+    ],
+    "AttributeIcon": [
+      "atr_equip_atk"
+    ],
+    "FeatureJson": "",
+    "name": "EquipName_4400100",
+    "desc": "EquipDesc_4400100",
+    "atlasId": 3,
+    "icon": "stg_equip_4400100",
+    "nameB": "EquipName_4400100b",
+    "descB": "EquipDesc_4400100b",
+    "iconB": "stg_equip_4400100b"
+  },
+  {
+    "ID": 4400150,
+    "NextID": 4400151,
+    "equipType": 4,
+    "rank": 0,
+    "seq": 1,
+    "school": 0,
+    "quality": 50,
+    "baseAttribute": [
+      "Attack=200"
+    ],
+    "AttributeOnLevelUp": [
+      "Attack=20"
+    ],
+    "AttributeIcon": [
+      "atr_equip_atk"
+    ],
+    "FeatureJson": "{\"Type\":\"Skill\",\"Args\":\"240121\"}",
+    "name": "EquipName_4400100",
+    "desc": "EquipDesc_4400100",
+    "atlasId": 3,
+    "icon": "stg_equip_4400100",
+    "nameB": "EquipName_4400100b",
+    "descB": "EquipDesc_4400100b",
+    "iconB": "stg_equip_4400100b"
+  },
+  {
+    "ID": 4400151,
+    "NextID": 4400152,
+    "equipType": 4,
+    "rank": 0,
+    "seq": 1,
+    "school": 0,
+    "quality": 51,
+    "baseAttribute": [
+      "Attack=240"
+    ],
+    "AttributeOnLevelUp": [
+      "Attack=24"
+    ],
+    "AttributeIcon": [
+      "atr_equip_atk"
+    ],
+    "FeatureJson": "",
+    "name": "EquipName_4400100",
+    "desc": "EquipDesc_4400100",
+    "atlasId": 3,
+    "icon": "stg_equip_4400100",
+    "nameB": "EquipName_4400100b",
+    "descB": "EquipDesc_4400100b",
+    "iconB": "stg_equip_4400100b"
+  },
+  {
+    "ID": 4400152,
+    "NextID": 4400153,
+    "equipType": 4,
+    "rank": 0,
+    "seq": 1,
+    "school": 0,
+    "quality": 52,
+    "baseAttribute": [
+      "Attack=280"
+    ],
+    "AttributeOnLevelUp": [
+      "Attack=28"
+    ],
+    "AttributeIcon": [
+      "atr_equip_atk"
+    ],
+    "FeatureJson": "",
+    "name": "EquipName_4400100",
+    "desc": "EquipDesc_4400100",
+    "atlasId": 3,
+    "icon": "stg_equip_4400100",
+    "nameB": "EquipName_4400100b",
+    "descB": "EquipDesc_4400100b",
+    "iconB": "stg_equip_4400100b"
+  },
+  {
+    "ID": 4400153,
+    "NextID": 4400160,
+    "equipType": 4,
+    "rank": 0,
+    "seq": 1,
+    "school": 0,
+    "quality": 53,
+    "baseAttribute": [
+      "Attack=320"
+    ],
+    "AttributeOnLevelUp": [
+      "Attack=32"
+    ],
+    "AttributeIcon": [
+      "atr_equip_atk"
+    ],
+    "FeatureJson": "",
+    "name": "EquipName_4400100",
+    "desc": "EquipDesc_4400100",
+    "atlasId": 3,
+    "icon": "stg_equip_4400100",
+    "nameB": "EquipName_4400100b",
+    "descB": "EquipDesc_4400100b",
+    "iconB": "stg_equip_4400100b"
+  },
+  {
+    "ID": 4400160,
+    "NextID": 0,
+    "equipType": 4,
+    "rank": 0,
+    "seq": 1,
+    "school": 0,
+    "quality": 60,
+    "baseAttribute": [
+      "Attack=400"
+    ],
+    "AttributeOnLevelUp": [
+      "Attack=40"
+    ],
+    "AttributeIcon": [
+      "atr_equip_atk"
+    ],
+    "FeatureJson": "{\"Type\":\"Skill\",\"Args\":\"240112\"}",
+    "name": "EquipName_4400100",
+    "desc": "EquipDesc_4400100",
+    "atlasId": 3,
+    "icon": "stg_equip_4400100",
+    "nameB": "EquipName_4400100b",
+    "descB": "EquipDesc_4400100b",
+    "iconB": "stg_equip_4400100b"
+  },
+  {
+    "ID": 4400210,
+    "NextID": 4400220,
+    "equipType": 4,
+    "rank": 0,
+    "seq": 2,
+    "school": 0,
+    "quality": 10,
+    "baseAttribute": [
+      "Attack=20"
+    ],
+    "AttributeOnLevelUp": [
+      "Attack=6"
+    ],
+    "AttributeIcon": [
+      "atr_equip_atk"
+    ],
+    "FeatureJson": "",
+    "name": "EquipName_4400200",
+    "desc": "EquipDesc_4400200",
+    "atlasId": 3,
+    "icon": "stg_equip_4400200",
+    "nameB": "EquipName_4400200b",
+    "descB": "EquipDesc_4400200b",
+    "iconB": "stg_equip_4400200b"
+  },
+  {
+    "ID": 4400220,
+    "NextID": 4400230,
+    "equipType": 4,
+    "rank": 0,
+    "seq": 2,
+    "school": 0,
+    "quality": 20,
+    "baseAttribute": [
+      "Attack=40"
+    ],
+    "AttributeOnLevelUp": [
+      "Attack=8"
+    ],
+    "AttributeIcon": [
+      "atr_equip_atk"
+    ],
+    "FeatureJson": "{\"Type\":\"Attr\",\"Args\":\"Attack=25\"}",
+    "name": "EquipName_4400200",
+    "desc": "EquipDesc_4400200",
+    "atlasId": 3,
+    "icon": "stg_equip_4400200",
+    "nameB": "EquipName_4400200b",
+    "descB": "EquipDesc_4400200b",
+    "iconB": "stg_equip_4400200b"
+  },
+  {
+    "ID": 4400230,
+    "NextID": 4400240,
+    "equipType": 4,
+    "rank": 0,
+    "seq": 2,
+    "school": 0,
+    "quality": 30,
+    "baseAttribute": [
+      "Attack=60"
+    ],
+    "AttributeOnLevelUp": [
+      "Attack=10"
+    ],
+    "AttributeIcon": [
+      "atr_equip_atk"
+    ],
+    "FeatureJson": "{\"Type\":\"Attr\",\"Args\":\"Attack%=5\"}",
+    "name": "EquipName_4400200",
+    "desc": "EquipDesc_4400200",
+    "atlasId": 3,
+    "icon": "stg_equip_4400200",
+    "nameB": "EquipName_4400200b",
+    "descB": "EquipDesc_4400200b",
+    "iconB": "stg_equip_4400200b"
+  },
+  {
+    "ID": 4400240,
+    "NextID": 4400241,
+    "equipType": 4,
+    "rank": 0,
+    "seq": 2,
+    "school": 0,
+    "quality": 40,
+    "baseAttribute": [
+      "Attack=100"
+    ],
+    "AttributeOnLevelUp": [
+      "Attack=12"
+    ],
+    "AttributeIcon": [
+      "atr_equip_atk"
+    ],
+    "FeatureJson": "{\"Type\":\"Skill\",\"Args\":\"240211\"}",
+    "name": "EquipName_4400200",
+    "desc": "EquipDesc_4400200",
+    "atlasId": 3,
+    "icon": "stg_equip_4400200",
+    "nameB": "EquipName_4400200b",
+    "descB": "EquipDesc_4400200b",
+    "iconB": "stg_equip_4400200b"
+  },
+  {
+    "ID": 4400241,
+    "NextID": 4400242,
+    "equipType": 4,
+    "rank": 0,
+    "seq": 2,
+    "school": 0,
+    "quality": 41,
+    "baseAttribute": [
+      "Attack=130"
+    ],
+    "AttributeOnLevelUp": [
+      "Attack=14"
+    ],
+    "AttributeIcon": [
+      "atr_equip_atk"
+    ],
+    "FeatureJson": "",
+    "name": "EquipName_4400200",
+    "desc": "EquipDesc_4400200",
+    "atlasId": 3,
+    "icon": "stg_equip_4400200",
+    "nameB": "EquipName_4400200b",
+    "descB": "EquipDesc_4400200b",
+    "iconB": "stg_equip_4400200b"
+  },
+  {
+    "ID": 4400242,
+    "NextID": 4400250,
+    "equipType": 4,
+    "rank": 0,
+    "seq": 2,
+    "school": 0,
+    "quality": 42,
+    "baseAttribute": [
+      "Attack=160"
+    ],
+    "AttributeOnLevelUp": [
+      "Attack=16"
+    ],
+    "AttributeIcon": [
+      "atr_equip_atk"
+    ],
+    "FeatureJson": "",
+    "name": "EquipName_4400200",
+    "desc": "EquipDesc_4400200",
+    "atlasId": 3,
+    "icon": "stg_equip_4400200",
+    "nameB": "EquipName_4400200b",
+    "descB": "EquipDesc_4400200b",
+    "iconB": "stg_equip_4400200b"
+  },
+  {
+    "ID": 4400250,
+    "NextID": 4400251,
+    "equipType": 4,
+    "rank": 0,
+    "seq": 2,
+    "school": 0,
+    "quality": 50,
+    "baseAttribute": [
+      "Attack=200"
+    ],
+    "AttributeOnLevelUp": [
+      "Attack=20"
+    ],
+    "AttributeIcon": [
+      "atr_equip_atk"
+    ],
+    "FeatureJson": "{\"Type\":\"Skill\",\"Args\":\"240221\"}",
+    "name": "EquipName_4400200",
+    "desc": "EquipDesc_4400200",
+    "atlasId": 3,
+    "icon": "stg_equip_4400200",
+    "nameB": "EquipName_4400200b",
+    "descB": "EquipDesc_4400200b",
+    "iconB": "stg_equip_4400200b"
+  },
+  {
+    "ID": 4400251,
+    "NextID": 4400252,
+    "equipType": 4,
+    "rank": 0,
+    "seq": 2,
+    "school": 0,
+    "quality": 51,
+    "baseAttribute": [
+      "Attack=240"
+    ],
+    "AttributeOnLevelUp": [
+      "Attack=24"
+    ],
+    "AttributeIcon": [
+      "atr_equip_atk"
+    ],
+    "FeatureJson": "",
+    "name": "EquipName_4400200",
+    "desc": "EquipDesc_4400200",
+    "atlasId": 3,
+    "icon": "stg_equip_4400200",
+    "nameB": "EquipName_4400200b",
+    "descB": "EquipDesc_4400200b",
+    "iconB": "stg_equip_4400200b"
+  },
+  {
+    "ID": 4400252,
+    "NextID": 4400253,
+    "equipType": 4,
+    "rank": 0,
+    "seq": 2,
+    "school": 0,
+    "quality": 52,
+    "baseAttribute": [
+      "Attack=280"
+    ],
+    "AttributeOnLevelUp": [
+      "Attack=28"
+    ],
+    "AttributeIcon": [
+      "atr_equip_atk"
+    ],
+    "FeatureJson": "",
+    "name": "EquipName_4400200",
+    "desc": "EquipDesc_4400200",
+    "atlasId": 3,
+    "icon": "stg_equip_4400200",
+    "nameB": "EquipName_4400200b",
+    "descB": "EquipDesc_4400200b",
+    "iconB": "stg_equip_4400200b"
+  },
+  {
+    "ID": 4400253,
+    "NextID": 4400260,
+    "equipType": 4,
+    "rank": 0,
+    "seq": 2,
+    "school": 0,
+    "quality": 53,
+    "baseAttribute": [
+      "Attack=320"
+    ],
+    "AttributeOnLevelUp": [
+      "Attack=32"
+    ],
+    "AttributeIcon": [
+      "atr_equip_atk"
+    ],
+    "FeatureJson": "",
+    "name": "EquipName_4400200",
+    "desc": "EquipDesc_4400200",
+    "atlasId": 3,
+    "icon": "stg_equip_4400200",
+    "nameB": "EquipName_4400200b",
+    "descB": "EquipDesc_4400200b",
+    "iconB": "stg_equip_4400200b"
+  },
+  {
+    "ID": 4400260,
+    "NextID": 0,
+    "equipType": 4,
+    "rank": 0,
+    "seq": 2,
+    "school": 0,
+    "quality": 60,
+    "baseAttribute": [
+      "Attack=400"
+    ],
+    "AttributeOnLevelUp": [
+      "Attack=40"
+    ],
+    "AttributeIcon": [
+      "atr_equip_atk"
+    ],
+    "FeatureJson": "{\"Type\":\"Skill\",\"Args\":\"240212\"}",
+    "name": "EquipName_4400200",
+    "desc": "EquipDesc_4400200",
+    "atlasId": 3,
+    "icon": "stg_equip_4400200",
+    "nameB": "EquipName_4400200b",
+    "descB": "EquipDesc_4400200b",
+    "iconB": "stg_equip_4400200b"
+  },
+  {
+    "ID": 4400310,
+    "NextID": 4400320,
+    "equipType": 4,
+    "rank": 0,
+    "seq": 3,
+    "school": 0,
+    "quality": 10,
+    "baseAttribute": [
+      "Attack=20"
+    ],
+    "AttributeOnLevelUp": [
+      "Attack=6"
+    ],
+    "AttributeIcon": [
+      "atr_equip_atk"
+    ],
+    "FeatureJson": "",
+    "name": "EquipName_4400300",
+    "desc": "EquipDesc_4400300",
+    "atlasId": 3,
+    "icon": "stg_equip_4400300",
+    "nameB": "EquipName_4400300b",
+    "descB": "EquipDesc_4400300b",
+    "iconB": "stg_equip_4400300b"
+  },
+  {
+    "ID": 4400320,
+    "NextID": 4400330,
+    "equipType": 4,
+    "rank": 0,
+    "seq": 3,
+    "school": 0,
+    "quality": 20,
+    "baseAttribute": [
+      "Attack=40"
+    ],
+    "AttributeOnLevelUp": [
+      "Attack=8"
+    ],
+    "AttributeIcon": [
+      "atr_equip_atk"
+    ],
+    "FeatureJson": "{\"Type\":\"Attr\",\"Args\":\"Attack=25\"}",
+    "name": "EquipName_4400300",
+    "desc": "EquipDesc_4400300",
+    "atlasId": 3,
+    "icon": "stg_equip_4400300",
+    "nameB": "EquipName_4400300b",
+    "descB": "EquipDesc_4400300b",
+    "iconB": "stg_equip_4400300b"
+  },
+  {
+    "ID": 4400330,
+    "NextID": 4400340,
+    "equipType": 4,
+    "rank": 0,
+    "seq": 3,
+    "school": 0,
+    "quality": 30,
+    "baseAttribute": [
+      "Attack=60"
+    ],
+    "AttributeOnLevelUp": [
+      "Attack=10"
+    ],
+    "AttributeIcon": [
+      "atr_equip_atk"
+    ],
+    "FeatureJson": "{\"Type\":\"Attr\",\"Args\":\"Attack%=5\"}",
+    "name": "EquipName_4400300",
+    "desc": "EquipDesc_4400300",
+    "atlasId": 3,
+    "icon": "stg_equip_4400300",
+    "nameB": "EquipName_4400300b",
+    "descB": "EquipDesc_4400300b",
+    "iconB": "stg_equip_4400300b"
+  },
+  {
+    "ID": 4400340,
+    "NextID": 4400341,
+    "equipType": 4,
+    "rank": 0,
+    "seq": 3,
+    "school": 0,
+    "quality": 40,
+    "baseAttribute": [
+      "Attack=100"
+    ],
+    "AttributeOnLevelUp": [
+      "Attack=12"
+    ],
+    "AttributeIcon": [
+      "atr_equip_atk"
+    ],
+    "FeatureJson": "{\"Type\":\"Skill\",\"Args\":\"240311\"}",
+    "name": "EquipName_4400300",
+    "desc": "EquipDesc_4400300",
+    "atlasId": 3,
+    "icon": "stg_equip_4400300",
+    "nameB": "EquipName_4400300b",
+    "descB": "EquipDesc_4400300b",
+    "iconB": "stg_equip_4400300b"
+  },
+  {
+    "ID": 4400341,
+    "NextID": 4400342,
+    "equipType": 4,
+    "rank": 0,
+    "seq": 3,
+    "school": 0,
+    "quality": 41,
+    "baseAttribute": [
+      "Attack=130"
+    ],
+    "AttributeOnLevelUp": [
+      "Attack=14"
+    ],
+    "AttributeIcon": [
+      "atr_equip_atk"
+    ],
+    "FeatureJson": "",
+    "name": "EquipName_4400300",
+    "desc": "EquipDesc_4400300",
+    "atlasId": 3,
+    "icon": "stg_equip_4400300",
+    "nameB": "EquipName_4400300b",
+    "descB": "EquipDesc_4400300b",
+    "iconB": "stg_equip_4400300b"
+  },
+  {
+    "ID": 4400342,
+    "NextID": 4400350,
+    "equipType": 4,
+    "rank": 0,
+    "seq": 3,
+    "school": 0,
+    "quality": 42,
+    "baseAttribute": [
+      "Attack=160"
+    ],
+    "AttributeOnLevelUp": [
+      "Attack=16"
+    ],
+    "AttributeIcon": [
+      "atr_equip_atk"
+    ],
+    "FeatureJson": "",
+    "name": "EquipName_4400300",
+    "desc": "EquipDesc_4400300",
+    "atlasId": 3,
+    "icon": "stg_equip_4400300",
+    "nameB": "EquipName_4400300b",
+    "descB": "EquipDesc_4400300b",
+    "iconB": "stg_equip_4400300b"
+  },
+  {
+    "ID": 4400350,
+    "NextID": 4400351,
+    "equipType": 4,
+    "rank": 0,
+    "seq": 3,
+    "school": 0,
+    "quality": 50,
+    "baseAttribute": [
+      "Attack=200"
+    ],
+    "AttributeOnLevelUp": [
+      "Attack=20"
+    ],
+    "AttributeIcon": [
+      "atr_equip_atk"
+    ],
+    "FeatureJson": "{\"Type\":\"Skill\",\"Args\":\"240321\"}",
+    "name": "EquipName_4400300",
+    "desc": "EquipDesc_4400300",
+    "atlasId": 3,
+    "icon": "stg_equip_4400300",
+    "nameB": "EquipName_4400300b",
+    "descB": "EquipDesc_4400300b",
+    "iconB": "stg_equip_4400300b"
+  },
+  {
+    "ID": 4400351,
+    "NextID": 4400352,
+    "equipType": 4,
+    "rank": 0,
+    "seq": 3,
+    "school": 0,
+    "quality": 51,
+    "baseAttribute": [
+      "Attack=240"
+    ],
+    "AttributeOnLevelUp": [
+      "Attack=24"
+    ],
+    "AttributeIcon": [
+      "atr_equip_atk"
+    ],
+    "FeatureJson": "",
+    "name": "EquipName_4400300",
+    "desc": "EquipDesc_4400300",
+    "atlasId": 3,
+    "icon": "stg_equip_4400300",
+    "nameB": "EquipName_4400300b",
+    "descB": "EquipDesc_4400300b",
+    "iconB": "stg_equip_4400300b"
+  },
+  {
+    "ID": 4400352,
+    "NextID": 4400353,
+    "equipType": 4,
+    "rank": 0,
+    "seq": 3,
+    "school": 0,
+    "quality": 52,
+    "baseAttribute": [
+      "Attack=280"
+    ],
+    "AttributeOnLevelUp": [
+      "Attack=28"
+    ],
+    "AttributeIcon": [
+      "atr_equip_atk"
+    ],
+    "FeatureJson": "",
+    "name": "EquipName_4400300",
+    "desc": "EquipDesc_4400300",
+    "atlasId": 3,
+    "icon": "stg_equip_4400300",
+    "nameB": "EquipName_4400300b",
+    "descB": "EquipDesc_4400300b",
+    "iconB": "stg_equip_4400300b"
+  },
+  {
+    "ID": 4400353,
+    "NextID": 4400360,
+    "equipType": 4,
+    "rank": 0,
+    "seq": 3,
+    "school": 0,
+    "quality": 53,
+    "baseAttribute": [
+      "Attack=320"
+    ],
+    "AttributeOnLevelUp": [
+      "Attack=32"
+    ],
+    "AttributeIcon": [
+      "atr_equip_atk"
+    ],
+    "FeatureJson": "",
+    "name": "EquipName_4400300",
+    "desc": "EquipDesc_4400300",
+    "atlasId": 3,
+    "icon": "stg_equip_4400300",
+    "nameB": "EquipName_4400300b",
+    "descB": "EquipDesc_4400300b",
+    "iconB": "stg_equip_4400300b"
+  },
+  {
+    "ID": 4400360,
+    "NextID": 0,
+    "equipType": 4,
+    "rank": 0,
+    "seq": 3,
+    "school": 0,
+    "quality": 60,
+    "baseAttribute": [
+      "Attack=400"
+    ],
+    "AttributeOnLevelUp": [
+      "Attack=40"
+    ],
+    "AttributeIcon": [
+      "atr_equip_atk"
+    ],
+    "FeatureJson": "{\"Type\":\"Skill\",\"Args\":\"240312\"}",
+    "name": "EquipName_4400300",
+    "desc": "EquipDesc_4400300",
+    "atlasId": 3,
+    "icon": "stg_equip_4400300",
+    "nameB": "EquipName_4400300b",
+    "descB": "EquipDesc_4400300b",
+    "iconB": "stg_equip_4400300b"
+  },
+  {
+    "ID": 4400410,
+    "NextID": 4400420,
+    "equipType": 4,
+    "rank": 0,
+    "seq": 4,
+    "school": 0,
+    "quality": 10,
+    "baseAttribute": [
+      "Attack=20"
+    ],
+    "AttributeOnLevelUp": [
+      "Attack=6"
+    ],
+    "AttributeIcon": [
+      "atr_equip_atk"
+    ],
+    "FeatureJson": "",
+    "name": "EquipName_4400400",
+    "desc": "EquipDesc_4400400",
+    "atlasId": 3,
+    "icon": "stg_equip_4400400",
+    "nameB": "EquipName_4400400b",
+    "descB": "EquipDesc_4400400b",
+    "iconB": "stg_equip_4400400b"
+  },
+  {
+    "ID": 4400420,
+    "NextID": 4400430,
+    "equipType": 4,
+    "rank": 0,
+    "seq": 4,
+    "school": 0,
+    "quality": 20,
+    "baseAttribute": [
+      "Attack=40"
+    ],
+    "AttributeOnLevelUp": [
+      "Attack=8"
+    ],
+    "AttributeIcon": [
+      "atr_equip_atk"
+    ],
+    "FeatureJson": "{\"Type\":\"Attr\",\"Args\":\"Attack=25\"}",
+    "name": "EquipName_4400400",
+    "desc": "EquipDesc_4400400",
+    "atlasId": 3,
+    "icon": "stg_equip_4400400",
+    "nameB": "EquipName_4400400b",
+    "descB": "EquipDesc_4400400b",
+    "iconB": "stg_equip_4400400b"
+  },
+  {
+    "ID": 4400430,
+    "NextID": 4400440,
+    "equipType": 4,
+    "rank": 0,
+    "seq": 4,
+    "school": 0,
+    "quality": 30,
+    "baseAttribute": [
+      "Attack=60"
+    ],
+    "AttributeOnLevelUp": [
+      "Attack=10"
+    ],
+    "AttributeIcon": [
+      "atr_equip_atk"
+    ],
+    "FeatureJson": "{\"Type\":\"Attr\",\"Args\":\"Attack%=5\"}",
+    "name": "EquipName_4400400",
+    "desc": "EquipDesc_4400400",
+    "atlasId": 3,
+    "icon": "stg_equip_4400400",
+    "nameB": "EquipName_4400400b",
+    "descB": "EquipDesc_4400400b",
+    "iconB": "stg_equip_4400400b"
+  },
+  {
+    "ID": 4400440,
+    "NextID": 4400441,
+    "equipType": 4,
+    "rank": 0,
+    "seq": 4,
+    "school": 0,
+    "quality": 40,
+    "baseAttribute": [
+      "Attack=100"
+    ],
+    "AttributeOnLevelUp": [
+      "Attack=12"
+    ],
+    "AttributeIcon": [
+      "atr_equip_atk"
+    ],
+    "FeatureJson": "{\"Type\":\"Skill\",\"Args\":\"240411\"}",
+    "name": "EquipName_4400400",
+    "desc": "EquipDesc_4400400",
+    "atlasId": 3,
+    "icon": "stg_equip_4400400",
+    "nameB": "EquipName_4400400b",
+    "descB": "EquipDesc_4400400b",
+    "iconB": "stg_equip_4400400b"
+  },
+  {
+    "ID": 4400441,
+    "NextID": 4400442,
+    "equipType": 4,
+    "rank": 0,
+    "seq": 4,
+    "school": 0,
+    "quality": 41,
+    "baseAttribute": [
+      "Attack=130"
+    ],
+    "AttributeOnLevelUp": [
+      "Attack=14"
+    ],
+    "AttributeIcon": [
+      "atr_equip_atk"
+    ],
+    "FeatureJson": "",
+    "name": "EquipName_4400400",
+    "desc": "EquipDesc_4400400",
+    "atlasId": 3,
+    "icon": "stg_equip_4400400",
+    "nameB": "EquipName_4400400b",
+    "descB": "EquipDesc_4400400b",
+    "iconB": "stg_equip_4400400b"
+  },
+  {
+    "ID": 4400442,
+    "NextID": 4400450,
+    "equipType": 4,
+    "rank": 0,
+    "seq": 4,
+    "school": 0,
+    "quality": 42,
+    "baseAttribute": [
+      "Attack=160"
+    ],
+    "AttributeOnLevelUp": [
+      "Attack=16"
+    ],
+    "AttributeIcon": [
+      "atr_equip_atk"
+    ],
+    "FeatureJson": "",
+    "name": "EquipName_4400400",
+    "desc": "EquipDesc_4400400",
+    "atlasId": 3,
+    "icon": "stg_equip_4400400",
+    "nameB": "EquipName_4400400b",
+    "descB": "EquipDesc_4400400b",
+    "iconB": "stg_equip_4400400b"
+  },
+  {
+    "ID": 4400450,
+    "NextID": 4400451,
+    "equipType": 4,
+    "rank": 0,
+    "seq": 4,
+    "school": 0,
+    "quality": 50,
+    "baseAttribute": [
+      "Attack=200"
+    ],
+    "AttributeOnLevelUp": [
+      "Attack=20"
+    ],
+    "AttributeIcon": [
+      "atr_equip_atk"
+    ],
+    "FeatureJson": "{\"Type\":\"Skill\",\"Args\":\"240421\"}",
+    "name": "EquipName_4400400",
+    "desc": "EquipDesc_4400400",
+    "atlasId": 3,
+    "icon": "stg_equip_4400400",
+    "nameB": "EquipName_4400400b",
+    "descB": "EquipDesc_4400400b",
+    "iconB": "stg_equip_4400400b"
+  },
+  {
+    "ID": 4400451,
+    "NextID": 4400452,
+    "equipType": 4,
+    "rank": 0,
+    "seq": 4,
+    "school": 0,
+    "quality": 51,
+    "baseAttribute": [
+      "Attack=240"
+    ],
+    "AttributeOnLevelUp": [
+      "Attack=24"
+    ],
+    "AttributeIcon": [
+      "atr_equip_atk"
+    ],
+    "FeatureJson": "",
+    "name": "EquipName_4400400",
+    "desc": "EquipDesc_4400400",
+    "atlasId": 3,
+    "icon": "stg_equip_4400400",
+    "nameB": "EquipName_4400400b",
+    "descB": "EquipDesc_4400400b",
+    "iconB": "stg_equip_4400400b"
+  },
+  {
+    "ID": 4400452,
+    "NextID": 4400453,
+    "equipType": 4,
+    "rank": 0,
+    "seq": 4,
+    "school": 0,
+    "quality": 52,
+    "baseAttribute": [
+      "Attack=280"
+    ],
+    "AttributeOnLevelUp": [
+      "Attack=28"
+    ],
+    "AttributeIcon": [
+      "atr_equip_atk"
+    ],
+    "FeatureJson": "",
+    "name": "EquipName_4400400",
+    "desc": "EquipDesc_4400400",
+    "atlasId": 3,
+    "icon": "stg_equip_4400400",
+    "nameB": "EquipName_4400400b",
+    "descB": "EquipDesc_4400400b",
+    "iconB": "stg_equip_4400400b"
+  },
+  {
+    "ID": 4400453,
+    "NextID": 4400460,
+    "equipType": 4,
+    "rank": 0,
+    "seq": 4,
+    "school": 0,
+    "quality": 53,
+    "baseAttribute": [
+      "Attack=320"
+    ],
+    "AttributeOnLevelUp": [
+      "Attack=32"
+    ],
+    "AttributeIcon": [
+      "atr_equip_atk"
+    ],
+    "FeatureJson": "",
+    "name": "EquipName_4400400",
+    "desc": "EquipDesc_4400400",
+    "atlasId": 3,
+    "icon": "stg_equip_4400400",
+    "nameB": "EquipName_4400400b",
+    "descB": "EquipDesc_4400400b",
+    "iconB": "stg_equip_4400400b"
+  },
+  {
+    "ID": 4400460,
+    "NextID": 0,
+    "equipType": 4,
+    "rank": 0,
+    "seq": 4,
+    "school": 0,
+    "quality": 60,
+    "baseAttribute": [
+      "Attack=400"
+    ],
+    "AttributeOnLevelUp": [
+      "Attack=40"
+    ],
+    "AttributeIcon": [
+      "atr_equip_atk"
+    ],
+    "FeatureJson": "{\"Type\":\"Skill\",\"Args\":\"240412\"}",
+    "name": "EquipName_4400400",
+    "desc": "EquipDesc_4400400",
+    "atlasId": 3,
+    "icon": "stg_equip_4400400",
+    "nameB": "EquipName_4400400b",
+    "descB": "EquipDesc_4400400b",
+    "iconB": "stg_equip_4400400b"
+  },
+  {
+    "ID": 4410110,
+    "NextID": 4410120,
+    "equipType": 4,
+    "rank": 1,
+    "seq": 1,
+    "school": 0,
+    "quality": 10,
+    "baseAttribute": [
+      "Attack=30"
+    ],
+    "AttributeOnLevelUp": [
+      "Attack=9"
+    ],
+    "AttributeIcon": [
+      "atr_equip_atk"
+    ],
+    "FeatureJson": "",
+    "name": "EquipName_4410100",
+    "desc": "EquipDesc_4410100",
+    "atlasId": 3,
+    "icon": "stg_equip_4410100",
+    "nameB": "EquipName_4410100b",
+    "descB": "EquipDesc_4410100b",
+    "iconB": "stg_equip_4410100b"
+  },
+  {
+    "ID": 4410120,
+    "NextID": 4410130,
+    "equipType": 4,
+    "rank": 1,
+    "seq": 1,
+    "school": 0,
+    "quality": 20,
+    "baseAttribute": [
+      "Attack=60"
+    ],
+    "AttributeOnLevelUp": [
+      "Attack=12"
+    ],
+    "AttributeIcon": [
+      "atr_equip_atk"
+    ],
+    "FeatureJson": "{\"Type\":\"Attr\",\"Args\":\"Attack%=5\"}",
+    "name": "EquipName_4410100",
+    "desc": "EquipDesc_4410100",
+    "atlasId": 3,
+    "icon": "stg_equip_4410100",
+    "nameB": "EquipName_4410100b",
+    "descB": "EquipDesc_4410100b",
+    "iconB": "stg_equip_4410100b"
+  },
+  {
+    "ID": 4410130,
+    "NextID": 4410140,
+    "equipType": 4,
+    "rank": 1,
+    "seq": 1,
+    "school": 0,
+    "quality": 30,
+    "baseAttribute": [
+      "Attack=90"
+    ],
+    "AttributeOnLevelUp": [
+      "Attack=15"
+    ],
+    "AttributeIcon": [
+      "atr_equip_atk"
+    ],
+    "FeatureJson": "{\"Type\":\"Skill\",\"Args\":\"241101\"}",
+    "name": "EquipName_4410100",
+    "desc": "EquipDesc_4410100",
+    "atlasId": 3,
+    "icon": "stg_equip_4410100",
+    "nameB": "EquipName_4410100b",
+    "descB": "EquipDesc_4410100b",
+    "iconB": "stg_equip_4410100b"
+  },
+  {
+    "ID": 4410140,
+    "NextID": 4410141,
+    "equipType": 4,
+    "rank": 1,
+    "seq": 1,
+    "school": 0,
+    "quality": 40,
+    "baseAttribute": [
+      "Attack=150"
+    ],
+    "AttributeOnLevelUp": [
+      "Attack=18"
+    ],
+    "AttributeIcon": [
+      "atr_equip_atk"
+    ],
+    "FeatureJson": "{\"Type\":\"Skill\",\"Args\":\"241121\"}",
+    "name": "EquipName_4410100",
+    "desc": "EquipDesc_4410100",
+    "atlasId": 3,
+    "icon": "stg_equip_4410100",
+    "nameB": "EquipName_4410100b",
+    "descB": "EquipDesc_4410100b",
+    "iconB": "stg_equip_4410100b"
+  },
+  {
+    "ID": 4410141,
+    "NextID": 4410142,
+    "equipType": 4,
+    "rank": 1,
+    "seq": 1,
+    "school": 0,
+    "quality": 41,
+    "baseAttribute": [
+      "Attack=195"
+    ],
+    "AttributeOnLevelUp": [
+      "Attack=21"
+    ],
+    "AttributeIcon": [
+      "atr_equip_atk"
+    ],
+    "FeatureJson": "",
+    "name": "EquipName_4410100",
+    "desc": "EquipDesc_4410100",
+    "atlasId": 3,
+    "icon": "stg_equip_4410100",
+    "nameB": "EquipName_4410100b",
+    "descB": "EquipDesc_4410100b",
+    "iconB": "stg_equip_4410100b"
+  },
+  {
+    "ID": 4410142,
+    "NextID": 4410150,
+    "equipType": 4,
+    "rank": 1,
+    "seq": 1,
+    "school": 0,
+    "quality": 42,
+    "baseAttribute": [
+      "Attack=240"
+    ],
+    "AttributeOnLevelUp": [
+      "Attack=24"
+    ],
+    "AttributeIcon": [
+      "atr_equip_atk"
+    ],
+    "FeatureJson": "",
+    "name": "EquipName_4410100",
+    "desc": "EquipDesc_4410100",
+    "atlasId": 3,
+    "icon": "stg_equip_4410100",
+    "nameB": "EquipName_4410100b",
+    "descB": "EquipDesc_4410100b",
+    "iconB": "stg_equip_4410100b"
+  },
+  {
+    "ID": 4410150,
+    "NextID": 4410151,
+    "equipType": 4,
+    "rank": 1,
+    "seq": 1,
+    "school": 0,
+    "quality": 50,
+    "baseAttribute": [
+      "Attack=300"
+    ],
+    "AttributeOnLevelUp": [
+      "Attack=30"
+    ],
+    "AttributeIcon": [
+      "atr_equip_atk"
+    ],
+    "FeatureJson": "{\"Type\":\"Skill\",\"Args\":\"241111\"}",
+    "name": "EquipName_4410100",
+    "desc": "EquipDesc_4410100",
+    "atlasId": 3,
+    "icon": "stg_equip_4410100",
+    "nameB": "EquipName_4410100b",
+    "descB": "EquipDesc_4410100b",
+    "iconB": "stg_equip_4410100b"
+  },
+  {
+    "ID": 4410151,
+    "NextID": 4410152,
+    "equipType": 4,
+    "rank": 1,
+    "seq": 1,
+    "school": 0,
+    "quality": 51,
+    "baseAttribute": [
+      "Attack=360"
+    ],
+    "AttributeOnLevelUp": [
+      "Attack=36"
+    ],
+    "AttributeIcon": [
+      "atr_equip_atk"
+    ],
+    "FeatureJson": "",
+    "name": "EquipName_4410100",
+    "desc": "EquipDesc_4410100",
+    "atlasId": 3,
+    "icon": "stg_equip_4410100",
+    "nameB": "EquipName_4410100b",
+    "descB": "EquipDesc_4410100b",
+    "iconB": "stg_equip_4410100b"
+  },
+  {
+    "ID": 4410152,
+    "NextID": 4410153,
+    "equipType": 4,
+    "rank": 1,
+    "seq": 1,
+    "school": 0,
+    "quality": 52,
+    "baseAttribute": [
+      "Attack=420"
+    ],
+    "AttributeOnLevelUp": [
+      "Attack=42"
+    ],
+    "AttributeIcon": [
+      "atr_equip_atk"
+    ],
+    "FeatureJson": "",
+    "name": "EquipName_4410100",
+    "desc": "EquipDesc_4410100",
+    "atlasId": 3,
+    "icon": "stg_equip_4410100",
+    "nameB": "EquipName_4410100b",
+    "descB": "EquipDesc_4410100b",
+    "iconB": "stg_equip_4410100b"
+  },
+  {
+    "ID": 4410153,
+    "NextID": 4410160,
+    "equipType": 4,
+    "rank": 1,
+    "seq": 1,
+    "school": 0,
+    "quality": 53,
+    "baseAttribute": [
+      "Attack=480"
+    ],
+    "AttributeOnLevelUp": [
+      "Attack=48"
+    ],
+    "AttributeIcon": [
+      "atr_equip_atk"
+    ],
+    "FeatureJson": "",
+    "name": "EquipName_4410100",
+    "desc": "EquipDesc_4410100",
+    "atlasId": 3,
+    "icon": "stg_equip_4410100",
+    "nameB": "EquipName_4410100b",
+    "descB": "EquipDesc_4410100b",
+    "iconB": "stg_equip_4410100b"
+  },
+  {
+    "ID": 4410160,
+    "NextID": 0,
+    "equipType": 4,
+    "rank": 1,
+    "seq": 1,
+    "school": 0,
+    "quality": 60,
+    "baseAttribute": [
+      "Attack=600"
+    ],
+    "AttributeOnLevelUp": [
+      "Attack=60"
+    ],
+    "AttributeIcon": [
+      "atr_equip_atk"
+    ],
+    "FeatureJson": "{\"Type\":\"Skill\",\"Args\":\"241122\"}",
+    "name": "EquipName_4410100",
+    "desc": "EquipDesc_4410100",
+    "atlasId": 3,
+    "icon": "stg_equip_4410100",
+    "nameB": "EquipName_4410100b",
+    "descB": "EquipDesc_4410100b",
+    "iconB": "stg_equip_4410100b"
+  },
+  {
+    "ID": 4500110,
+    "NextID": 4500120,
+    "equipType": 5,
+    "rank": 0,
+    "seq": 1,
+    "school": 0,
+    "quality": 10,
+    "baseAttribute": [
+      "HPMax=120"
+    ],
+    "AttributeOnLevelUp": [
+      "HPMax=36"
+    ],
+    "AttributeIcon": [
+      "atr_equip_hp"
+    ],
+    "FeatureJson": "",
+    "name": "EquipName_4500100",
+    "desc": "EquipDesc_4500100",
+    "atlasId": 3,
+    "icon": "stg_equip_4500100",
+    "nameB": "EquipName_4500100b",
+    "descB": "EquipDesc_4500100b",
+    "iconB": "stg_equip_4500100b"
+  },
+  {
+    "ID": 4500120,
+    "NextID": 4500130,
+    "equipType": 5,
+    "rank": 0,
+    "seq": 1,
+    "school": 0,
+    "quality": 20,
+    "baseAttribute": [
+      "HPMax=240"
+    ],
+    "AttributeOnLevelUp": [
+      "HPMax=48"
+    ],
+    "AttributeIcon": [
+      "atr_equip_hp"
+    ],
+    "FeatureJson": "{\"Type\":\"Attr\",\"Args\":\"HPMax=150\"}",
+    "name": "EquipName_4500100",
+    "desc": "EquipDesc_4500100",
+    "atlasId": 3,
+    "icon": "stg_equip_4500100",
+    "nameB": "EquipName_4500100b",
+    "descB": "EquipDesc_4500100b",
+    "iconB": "stg_equip_4500100b"
+  },
+  {
+    "ID": 4500130,
+    "NextID": 4500140,
+    "equipType": 5,
+    "rank": 0,
+    "seq": 1,
+    "school": 0,
+    "quality": 30,
+    "baseAttribute": [
+      "HPMax=360"
+    ],
+    "AttributeOnLevelUp": [
+      "HPMax=60"
+    ],
+    "AttributeIcon": [
+      "atr_equip_hp"
+    ],
+    "FeatureJson": "{\"Type\":\"Attr\",\"Args\":\"HeartHpAdd%=10\"}",
+    "name": "EquipName_4500100",
+    "desc": "EquipDesc_4500100",
+    "atlasId": 3,
+    "icon": "stg_equip_4500100",
+    "nameB": "EquipName_4500100b",
+    "descB": "EquipDesc_4500100b",
+    "iconB": "stg_equip_4500100b"
+  },
+  {
+    "ID": 4500140,
+    "NextID": 4500141,
+    "equipType": 5,
+    "rank": 0,
+    "seq": 1,
+    "school": 0,
+    "quality": 40,
+    "baseAttribute": [
+      "HPMax=600"
+    ],
+    "AttributeOnLevelUp": [
+      "HPMax=72"
+    ],
+    "AttributeIcon": [
+      "atr_equip_hp"
+    ],
+    "FeatureJson": "{\"Type\":\"Skill\",\"Args\":\"250111\"}",
+    "name": "EquipName_4500100",
+    "desc": "EquipDesc_4500100",
+    "atlasId": 3,
+    "icon": "stg_equip_4500100",
+    "nameB": "EquipName_4500100b",
+    "descB": "EquipDesc_4500100b",
+    "iconB": "stg_equip_4500100b"
+  },
+  {
+    "ID": 4500141,
+    "NextID": 4500142,
+    "equipType": 5,
+    "rank": 0,
+    "seq": 1,
+    "school": 0,
+    "quality": 41,
+    "baseAttribute": [
+      "HPMax=780"
+    ],
+    "AttributeOnLevelUp": [
+      "HPMax=84"
+    ],
+    "AttributeIcon": [
+      "atr_equip_hp"
+    ],
+    "FeatureJson": "",
+    "name": "EquipName_4500100",
+    "desc": "EquipDesc_4500100",
+    "atlasId": 3,
+    "icon": "stg_equip_4500100",
+    "nameB": "EquipName_4500100b",
+    "descB": "EquipDesc_4500100b",
+    "iconB": "stg_equip_4500100b"
+  },
+  {
+    "ID": 4500142,
+    "NextID": 4500150,
+    "equipType": 5,
+    "rank": 0,
+    "seq": 1,
+    "school": 0,
+    "quality": 42,
+    "baseAttribute": [
+      "HPMax=960"
+    ],
+    "AttributeOnLevelUp": [
+      "HPMax=96"
+    ],
+    "AttributeIcon": [
+      "atr_equip_hp"
+    ],
+    "FeatureJson": "",
+    "name": "EquipName_4500100",
+    "desc": "EquipDesc_4500100",
+    "atlasId": 3,
+    "icon": "stg_equip_4500100",
+    "nameB": "EquipName_4500100b",
+    "descB": "EquipDesc_4500100b",
+    "iconB": "stg_equip_4500100b"
+  },
+  {
+    "ID": 4500150,
+    "NextID": 4500151,
+    "equipType": 5,
+    "rank": 0,
+    "seq": 1,
+    "school": 0,
+    "quality": 50,
+    "baseAttribute": [
+      "HPMax=1200"
+    ],
+    "AttributeOnLevelUp": [
+      "HPMax=120"
+    ],
+    "AttributeIcon": [
+      "atr_equip_hp"
+    ],
+    "FeatureJson": "{\"Type\":\"Skill\",\"Args\":\"250121\"}",
+    "name": "EquipName_4500100",
+    "desc": "EquipDesc_4500100",
+    "atlasId": 3,
+    "icon": "stg_equip_4500100",
+    "nameB": "EquipName_4500100b",
+    "descB": "EquipDesc_4500100b",
+    "iconB": "stg_equip_4500100b"
+  },
+  {
+    "ID": 4500151,
+    "NextID": 4500152,
+    "equipType": 5,
+    "rank": 0,
+    "seq": 1,
+    "school": 0,
+    "quality": 51,
+    "baseAttribute": [
+      "HPMax=1440"
+    ],
+    "AttributeOnLevelUp": [
+      "HPMax=144"
+    ],
+    "AttributeIcon": [
+      "atr_equip_hp"
+    ],
+    "FeatureJson": "",
+    "name": "EquipName_4500100",
+    "desc": "EquipDesc_4500100",
+    "atlasId": 3,
+    "icon": "stg_equip_4500100",
+    "nameB": "EquipName_4500100b",
+    "descB": "EquipDesc_4500100b",
+    "iconB": "stg_equip_4500100b"
+  },
+  {
+    "ID": 4500152,
+    "NextID": 4500153,
+    "equipType": 5,
+    "rank": 0,
+    "seq": 1,
+    "school": 0,
+    "quality": 52,
+    "baseAttribute": [
+      "HPMax=1680"
+    ],
+    "AttributeOnLevelUp": [
+      "HPMax=168"
+    ],
+    "AttributeIcon": [
+      "atr_equip_hp"
+    ],
+    "FeatureJson": "",
+    "name": "EquipName_4500100",
+    "desc": "EquipDesc_4500100",
+    "atlasId": 3,
+    "icon": "stg_equip_4500100",
+    "nameB": "EquipName_4500100b",
+    "descB": "EquipDesc_4500100b",
+    "iconB": "stg_equip_4500100b"
+  },
+  {
+    "ID": 4500153,
+    "NextID": 4500160,
+    "equipType": 5,
+    "rank": 0,
+    "seq": 1,
+    "school": 0,
+    "quality": 53,
+    "baseAttribute": [
+      "HPMax=1920"
+    ],
+    "AttributeOnLevelUp": [
+      "HPMax=192"
+    ],
+    "AttributeIcon": [
+      "atr_equip_hp"
+    ],
+    "FeatureJson": "",
+    "name": "EquipName_4500100",
+    "desc": "EquipDesc_4500100",
+    "atlasId": 3,
+    "icon": "stg_equip_4500100",
+    "nameB": "EquipName_4500100b",
+    "descB": "EquipDesc_4500100b",
+    "iconB": "stg_equip_4500100b"
+  },
+  {
+    "ID": 4500160,
+    "NextID": 0,
+    "equipType": 5,
+    "rank": 0,
+    "seq": 1,
+    "school": 0,
+    "quality": 60,
+    "baseAttribute": [
+      "HPMax=2400"
+    ],
+    "AttributeOnLevelUp": [
+      "HPMax=240"
+    ],
+    "AttributeIcon": [
+      "atr_equip_hp"
+    ],
+    "FeatureJson": "{\"Type\":\"Skill\",\"Args\":\"250112\"}",
+    "name": "EquipName_4500100",
+    "desc": "EquipDesc_4500100",
+    "atlasId": 3,
+    "icon": "stg_equip_4500100",
+    "nameB": "EquipName_4500100b",
+    "descB": "EquipDesc_4500100b",
+    "iconB": "stg_equip_4500100b"
+  },
+  {
+    "ID": 4500210,
+    "NextID": 4500220,
+    "equipType": 5,
+    "rank": 0,
+    "seq": 2,
+    "school": 0,
+    "quality": 10,
+    "baseAttribute": [
+      "HPMax=120"
+    ],
+    "AttributeOnLevelUp": [
+      "HPMax=36"
+    ],
+    "AttributeIcon": [
+      "atr_equip_hp"
+    ],
+    "FeatureJson": "",
+    "name": "EquipName_4500200",
+    "desc": "EquipDesc_4500200",
+    "atlasId": 3,
+    "icon": "stg_equip_4500200",
+    "nameB": "EquipName_4500200b",
+    "descB": "EquipDesc_4500200b",
+    "iconB": "stg_equip_4500200b"
+  },
+  {
+    "ID": 4500220,
+    "NextID": 4500230,
+    "equipType": 5,
+    "rank": 0,
+    "seq": 2,
+    "school": 0,
+    "quality": 20,
+    "baseAttribute": [
+      "HPMax=240"
+    ],
+    "AttributeOnLevelUp": [
+      "HPMax=48"
+    ],
+    "AttributeIcon": [
+      "atr_equip_hp"
+    ],
+    "FeatureJson": "{\"Type\":\"Attr\",\"Args\":\"HPMax=150\"}",
+    "name": "EquipName_4500200",
+    "desc": "EquipDesc_4500200",
+    "atlasId": 3,
+    "icon": "stg_equip_4500200",
+    "nameB": "EquipName_4500200b",
+    "descB": "EquipDesc_4500200b",
+    "iconB": "stg_equip_4500200b"
+  },
+  {
+    "ID": 4500230,
+    "NextID": 4500240,
+    "equipType": 5,
+    "rank": 0,
+    "seq": 2,
+    "school": 0,
+    "quality": 30,
+    "baseAttribute": [
+      "HPMax=360"
+    ],
+    "AttributeOnLevelUp": [
+      "HPMax=60"
+    ],
+    "AttributeIcon": [
+      "atr_equip_hp"
+    ],
+    "FeatureJson": "{\"Type\":\"Attr\",\"Args\":\"HeartHpAdd%=10\"}",
+    "name": "EquipName_4500200",
+    "desc": "EquipDesc_4500200",
+    "atlasId": 3,
+    "icon": "stg_equip_4500200",
+    "nameB": "EquipName_4500200b",
+    "descB": "EquipDesc_4500200b",
+    "iconB": "stg_equip_4500200b"
+  },
+  {
+    "ID": 4500240,
+    "NextID": 4500241,
+    "equipType": 5,
+    "rank": 0,
+    "seq": 2,
+    "school": 0,
+    "quality": 40,
+    "baseAttribute": [
+      "HPMax=600"
+    ],
+    "AttributeOnLevelUp": [
+      "HPMax=72"
+    ],
+    "AttributeIcon": [
+      "atr_equip_hp"
+    ],
+    "FeatureJson": "{\"Type\":\"Skill\",\"Args\":\"250211\"}",
+    "name": "EquipName_4500200",
+    "desc": "EquipDesc_4500200",
+    "atlasId": 3,
+    "icon": "stg_equip_4500200",
+    "nameB": "EquipName_4500200b",
+    "descB": "EquipDesc_4500200b",
+    "iconB": "stg_equip_4500200b"
+  },
+  {
+    "ID": 4500241,
+    "NextID": 4500242,
+    "equipType": 5,
+    "rank": 0,
+    "seq": 2,
+    "school": 0,
+    "quality": 41,
+    "baseAttribute": [
+      "HPMax=780"
+    ],
+    "AttributeOnLevelUp": [
+      "HPMax=84"
+    ],
+    "AttributeIcon": [
+      "atr_equip_hp"
+    ],
+    "FeatureJson": "",
+    "name": "EquipName_4500200",
+    "desc": "EquipDesc_4500200",
+    "atlasId": 3,
+    "icon": "stg_equip_4500200",
+    "nameB": "EquipName_4500200b",
+    "descB": "EquipDesc_4500200b",
+    "iconB": "stg_equip_4500200b"
+  },
+  {
+    "ID": 4500242,
+    "NextID": 4500250,
+    "equipType": 5,
+    "rank": 0,
+    "seq": 2,
+    "school": 0,
+    "quality": 42,
+    "baseAttribute": [
+      "HPMax=960"
+    ],
+    "AttributeOnLevelUp": [
+      "HPMax=96"
+    ],
+    "AttributeIcon": [
+      "atr_equip_hp"
+    ],
+    "FeatureJson": "",
+    "name": "EquipName_4500200",
+    "desc": "EquipDesc_4500200",
+    "atlasId": 3,
+    "icon": "stg_equip_4500200",
+    "nameB": "EquipName_4500200b",
+    "descB": "EquipDesc_4500200b",
+    "iconB": "stg_equip_4500200b"
+  },
+  {
+    "ID": 4500250,
+    "NextID": 4500251,
+    "equipType": 5,
+    "rank": 0,
+    "seq": 2,
+    "school": 0,
+    "quality": 50,
+    "baseAttribute": [
+      "HPMax=1200"
+    ],
+    "AttributeOnLevelUp": [
+      "HPMax=120"
+    ],
+    "AttributeIcon": [
+      "atr_equip_hp"
+    ],
+    "FeatureJson": "{\"Type\":\"Skill\",\"Args\":\"250221\"}",
+    "name": "EquipName_4500200",
+    "desc": "EquipDesc_4500200",
+    "atlasId": 3,
+    "icon": "stg_equip_4500200",
+    "nameB": "EquipName_4500200b",
+    "descB": "EquipDesc_4500200b",
+    "iconB": "stg_equip_4500200b"
+  },
+  {
+    "ID": 4500251,
+    "NextID": 4500252,
+    "equipType": 5,
+    "rank": 0,
+    "seq": 2,
+    "school": 0,
+    "quality": 51,
+    "baseAttribute": [
+      "HPMax=1440"
+    ],
+    "AttributeOnLevelUp": [
+      "HPMax=144"
+    ],
+    "AttributeIcon": [
+      "atr_equip_hp"
+    ],
+    "FeatureJson": "",
+    "name": "EquipName_4500200",
+    "desc": "EquipDesc_4500200",
+    "atlasId": 3,
+    "icon": "stg_equip_4500200",
+    "nameB": "EquipName_4500200b",
+    "descB": "EquipDesc_4500200b",
+    "iconB": "stg_equip_4500200b"
+  },
+  {
+    "ID": 4500252,
+    "NextID": 4500253,
+    "equipType": 5,
+    "rank": 0,
+    "seq": 2,
+    "school": 0,
+    "quality": 52,
+    "baseAttribute": [
+      "HPMax=1680"
+    ],
+    "AttributeOnLevelUp": [
+      "HPMax=168"
+    ],
+    "AttributeIcon": [
+      "atr_equip_hp"
+    ],
+    "FeatureJson": "",
+    "name": "EquipName_4500200",
+    "desc": "EquipDesc_4500200",
+    "atlasId": 3,
+    "icon": "stg_equip_4500200",
+    "nameB": "EquipName_4500200b",
+    "descB": "EquipDesc_4500200b",
+    "iconB": "stg_equip_4500200b"
+  },
+  {
+    "ID": 4500253,
+    "NextID": 4500260,
+    "equipType": 5,
+    "rank": 0,
+    "seq": 2,
+    "school": 0,
+    "quality": 53,
+    "baseAttribute": [
+      "HPMax=1920"
+    ],
+    "AttributeOnLevelUp": [
+      "HPMax=192"
+    ],
+    "AttributeIcon": [
+      "atr_equip_hp"
+    ],
+    "FeatureJson": "",
+    "name": "EquipName_4500200",
+    "desc": "EquipDesc_4500200",
+    "atlasId": 3,
+    "icon": "stg_equip_4500200",
+    "nameB": "EquipName_4500200b",
+    "descB": "EquipDesc_4500200b",
+    "iconB": "stg_equip_4500200b"
+  },
+  {
+    "ID": 4500260,
+    "NextID": 0,
+    "equipType": 5,
+    "rank": 0,
+    "seq": 2,
+    "school": 0,
+    "quality": 60,
+    "baseAttribute": [
+      "HPMax=2400"
+    ],
+    "AttributeOnLevelUp": [
+      "HPMax=240"
+    ],
+    "AttributeIcon": [
+      "atr_equip_hp"
+    ],
+    "FeatureJson": "{\"Type\":\"Skill\",\"Args\":\"250212\"}",
+    "name": "EquipName_4500200",
+    "desc": "EquipDesc_4500200",
+    "atlasId": 3,
+    "icon": "stg_equip_4500200",
+    "nameB": "EquipName_4500200b",
+    "descB": "EquipDesc_4500200b",
+    "iconB": "stg_equip_4500200b"
+  },
+  {
+    "ID": 4500310,
+    "NextID": 4500320,
+    "equipType": 5,
+    "rank": 0,
+    "seq": 3,
+    "school": 0,
+    "quality": 10,
+    "baseAttribute": [
+      "HPMax=120"
+    ],
+    "AttributeOnLevelUp": [
+      "HPMax=36"
+    ],
+    "AttributeIcon": [
+      "atr_equip_hp"
+    ],
+    "FeatureJson": "",
+    "name": "EquipName_4500300",
+    "desc": "EquipDesc_4500300",
+    "atlasId": 3,
+    "icon": "stg_equip_4500300",
+    "nameB": "EquipName_4500300b",
+    "descB": "EquipDesc_4500300b",
+    "iconB": "stg_equip_4500300b"
+  },
+  {
+    "ID": 4500320,
+    "NextID": 4500330,
+    "equipType": 5,
+    "rank": 0,
+    "seq": 3,
+    "school": 0,
+    "quality": 20,
+    "baseAttribute": [
+      "HPMax=240"
+    ],
+    "AttributeOnLevelUp": [
+      "HPMax=48"
+    ],
+    "AttributeIcon": [
+      "atr_equip_hp"
+    ],
+    "FeatureJson": "{\"Type\":\"Attr\",\"Args\":\"HPMax=150\"}",
+    "name": "EquipName_4500300",
+    "desc": "EquipDesc_4500300",
+    "atlasId": 3,
+    "icon": "stg_equip_4500300",
+    "nameB": "EquipName_4500300b",
+    "descB": "EquipDesc_4500300b",
+    "iconB": "stg_equip_4500300b"
+  },
+  {
+    "ID": 4500330,
+    "NextID": 4500340,
+    "equipType": 5,
+    "rank": 0,
+    "seq": 3,
+    "school": 0,
+    "quality": 30,
+    "baseAttribute": [
+      "HPMax=360"
+    ],
+    "AttributeOnLevelUp": [
+      "HPMax=60"
+    ],
+    "AttributeIcon": [
+      "atr_equip_hp"
+    ],
+    "FeatureJson": "{\"Type\":\"Attr\",\"Args\":\"HeartHpAdd%=10\"}",
+    "name": "EquipName_4500300",
+    "desc": "EquipDesc_4500300",
+    "atlasId": 3,
+    "icon": "stg_equip_4500300",
+    "nameB": "EquipName_4500300b",
+    "descB": "EquipDesc_4500300b",
+    "iconB": "stg_equip_4500300b"
+  },
+  {
+    "ID": 4500340,
+    "NextID": 4500341,
+    "equipType": 5,
+    "rank": 0,
+    "seq": 3,
+    "school": 0,
+    "quality": 40,
+    "baseAttribute": [
+      "HPMax=600"
+    ],
+    "AttributeOnLevelUp": [
+      "HPMax=72"
+    ],
+    "AttributeIcon": [
+      "atr_equip_hp"
+    ],
+    "FeatureJson": "{\"Type\":\"Skill\",\"Args\":\"250311\"}",
+    "name": "EquipName_4500300",
+    "desc": "EquipDesc_4500300",
+    "atlasId": 3,
+    "icon": "stg_equip_4500300",
+    "nameB": "EquipName_4500300b",
+    "descB": "EquipDesc_4500300b",
+    "iconB": "stg_equip_4500300b"
+  },
+  {
+    "ID": 4500341,
+    "NextID": 4500342,
+    "equipType": 5,
+    "rank": 0,
+    "seq": 3,
+    "school": 0,
+    "quality": 41,
+    "baseAttribute": [
+      "HPMax=780"
+    ],
+    "AttributeOnLevelUp": [
+      "HPMax=84"
+    ],
+    "AttributeIcon": [
+      "atr_equip_hp"
+    ],
+    "FeatureJson": "",
+    "name": "EquipName_4500300",
+    "desc": "EquipDesc_4500300",
+    "atlasId": 3,
+    "icon": "stg_equip_4500300",
+    "nameB": "EquipName_4500300b",
+    "descB": "EquipDesc_4500300b",
+    "iconB": "stg_equip_4500300b"
+  },
+  {
+    "ID": 4500342,
+    "NextID": 4500350,
+    "equipType": 5,
+    "rank": 0,
+    "seq": 3,
+    "school": 0,
+    "quality": 42,
+    "baseAttribute": [
+      "HPMax=960"
+    ],
+    "AttributeOnLevelUp": [
+      "HPMax=96"
+    ],
+    "AttributeIcon": [
+      "atr_equip_hp"
+    ],
+    "FeatureJson": "",
+    "name": "EquipName_4500300",
+    "desc": "EquipDesc_4500300",
+    "atlasId": 3,
+    "icon": "stg_equip_4500300",
+    "nameB": "EquipName_4500300b",
+    "descB": "EquipDesc_4500300b",
+    "iconB": "stg_equip_4500300b"
+  },
+  {
+    "ID": 4500350,
+    "NextID": 4500351,
+    "equipType": 5,
+    "rank": 0,
+    "seq": 3,
+    "school": 0,
+    "quality": 50,
+    "baseAttribute": [
+      "HPMax=1200"
+    ],
+    "AttributeOnLevelUp": [
+      "HPMax=120"
+    ],
+    "AttributeIcon": [
+      "atr_equip_hp"
+    ],
+    "FeatureJson": "{\"Type\":\"Skill\",\"Args\":\"250321\"}",
+    "name": "EquipName_4500300",
+    "desc": "EquipDesc_4500300",
+    "atlasId": 3,
+    "icon": "stg_equip_4500300",
+    "nameB": "EquipName_4500300b",
+    "descB": "EquipDesc_4500300b",
+    "iconB": "stg_equip_4500300b"
+  },
+  {
+    "ID": 4500351,
+    "NextID": 4500352,
+    "equipType": 5,
+    "rank": 0,
+    "seq": 3,
+    "school": 0,
+    "quality": 51,
+    "baseAttribute": [
+      "HPMax=1440"
+    ],
+    "AttributeOnLevelUp": [
+      "HPMax=144"
+    ],
+    "AttributeIcon": [
+      "atr_equip_hp"
+    ],
+    "FeatureJson": "",
+    "name": "EquipName_4500300",
+    "desc": "EquipDesc_4500300",
+    "atlasId": 3,
+    "icon": "stg_equip_4500300",
+    "nameB": "EquipName_4500300b",
+    "descB": "EquipDesc_4500300b",
+    "iconB": "stg_equip_4500300b"
+  },
+  {
+    "ID": 4500352,
+    "NextID": 4500353,
+    "equipType": 5,
+    "rank": 0,
+    "seq": 3,
+    "school": 0,
+    "quality": 52,
+    "baseAttribute": [
+      "HPMax=1680"
+    ],
+    "AttributeOnLevelUp": [
+      "HPMax=168"
+    ],
+    "AttributeIcon": [
+      "atr_equip_hp"
+    ],
+    "FeatureJson": "",
+    "name": "EquipName_4500300",
+    "desc": "EquipDesc_4500300",
+    "atlasId": 3,
+    "icon": "stg_equip_4500300",
+    "nameB": "EquipName_4500300b",
+    "descB": "EquipDesc_4500300b",
+    "iconB": "stg_equip_4500300b"
+  },
+  {
+    "ID": 4500353,
+    "NextID": 4500360,
+    "equipType": 5,
+    "rank": 0,
+    "seq": 3,
+    "school": 0,
+    "quality": 53,
+    "baseAttribute": [
+      "HPMax=1920"
+    ],
+    "AttributeOnLevelUp": [
+      "HPMax=192"
+    ],
+    "AttributeIcon": [
+      "atr_equip_hp"
+    ],
+    "FeatureJson": "",
+    "name": "EquipName_4500300",
+    "desc": "EquipDesc_4500300",
+    "atlasId": 3,
+    "icon": "stg_equip_4500300",
+    "nameB": "EquipName_4500300b",
+    "descB": "EquipDesc_4500300b",
+    "iconB": "stg_equip_4500300b"
+  },
+  {
+    "ID": 4500360,
+    "NextID": 0,
+    "equipType": 5,
+    "rank": 0,
+    "seq": 3,
+    "school": 0,
+    "quality": 60,
+    "baseAttribute": [
+      "HPMax=2400"
+    ],
+    "AttributeOnLevelUp": [
+      "HPMax=240"
+    ],
+    "AttributeIcon": [
+      "atr_equip_hp"
+    ],
+    "FeatureJson": "{\"Type\":\"Skill\",\"Args\":\"250312\"}",
+    "name": "EquipName_4500300",
+    "desc": "EquipDesc_4500300",
+    "atlasId": 3,
+    "icon": "stg_equip_4500300",
+    "nameB": "EquipName_4500300b",
+    "descB": "EquipDesc_4500300b",
+    "iconB": "stg_equip_4500300b"
+  },
+  {
+    "ID": 4500410,
+    "NextID": 4500420,
+    "equipType": 5,
+    "rank": 0,
+    "seq": 4,
+    "school": 0,
+    "quality": 10,
+    "baseAttribute": [
+      "HPMax=120"
+    ],
+    "AttributeOnLevelUp": [
+      "HPMax=36"
+    ],
+    "AttributeIcon": [
+      "atr_equip_hp"
+    ],
+    "FeatureJson": "",
+    "name": "EquipName_4500400",
+    "desc": "EquipDesc_4500400",
+    "atlasId": 3,
+    "icon": "stg_equip_4500400",
+    "nameB": "EquipName_4500400b",
+    "descB": "EquipDesc_4500400b",
+    "iconB": "stg_equip_4500400b"
+  },
+  {
+    "ID": 4500420,
+    "NextID": 4500430,
+    "equipType": 5,
+    "rank": 0,
+    "seq": 4,
+    "school": 0,
+    "quality": 20,
+    "baseAttribute": [
+      "HPMax=240"
+    ],
+    "AttributeOnLevelUp": [
+      "HPMax=48"
+    ],
+    "AttributeIcon": [
+      "atr_equip_hp"
+    ],
+    "FeatureJson": "{\"Type\":\"Attr\",\"Args\":\"HPMax=150\"}",
+    "name": "EquipName_4500400",
+    "desc": "EquipDesc_4500400",
+    "atlasId": 3,
+    "icon": "stg_equip_4500400",
+    "nameB": "EquipName_4500400b",
+    "descB": "EquipDesc_4500400b",
+    "iconB": "stg_equip_4500400b"
+  },
+  {
+    "ID": 4500430,
+    "NextID": 4500440,
+    "equipType": 5,
+    "rank": 0,
+    "seq": 4,
+    "school": 0,
+    "quality": 30,
+    "baseAttribute": [
+      "HPMax=360"
+    ],
+    "AttributeOnLevelUp": [
+      "HPMax=60"
+    ],
+    "AttributeIcon": [
+      "atr_equip_hp"
+    ],
+    "FeatureJson": "{\"Type\":\"Attr\",\"Args\":\"HeartHpAdd%=10\"}",
+    "name": "EquipName_4500400",
+    "desc": "EquipDesc_4500400",
+    "atlasId": 3,
+    "icon": "stg_equip_4500400",
+    "nameB": "EquipName_4500400b",
+    "descB": "EquipDesc_4500400b",
+    "iconB": "stg_equip_4500400b"
+  },
+  {
+    "ID": 4500440,
+    "NextID": 4500441,
+    "equipType": 5,
+    "rank": 0,
+    "seq": 4,
+    "school": 0,
+    "quality": 40,
+    "baseAttribute": [
+      "HPMax=600"
+    ],
+    "AttributeOnLevelUp": [
+      "HPMax=72"
+    ],
+    "AttributeIcon": [
+      "atr_equip_hp"
+    ],
+    "FeatureJson": "{\"Type\":\"Skill\",\"Args\":\"250411\"}",
+    "name": "EquipName_4500400",
+    "desc": "EquipDesc_4500400",
+    "atlasId": 3,
+    "icon": "stg_equip_4500400",
+    "nameB": "EquipName_4500400b",
+    "descB": "EquipDesc_4500400b",
+    "iconB": "stg_equip_4500400b"
+  },
+  {
+    "ID": 4500441,
+    "NextID": 4500442,
+    "equipType": 5,
+    "rank": 0,
+    "seq": 4,
+    "school": 0,
+    "quality": 41,
+    "baseAttribute": [
+      "HPMax=780"
+    ],
+    "AttributeOnLevelUp": [
+      "HPMax=84"
+    ],
+    "AttributeIcon": [
+      "atr_equip_hp"
+    ],
+    "FeatureJson": "",
+    "name": "EquipName_4500400",
+    "desc": "EquipDesc_4500400",
+    "atlasId": 3,
+    "icon": "stg_equip_4500400",
+    "nameB": "EquipName_4500400b",
+    "descB": "EquipDesc_4500400b",
+    "iconB": "stg_equip_4500400b"
+  },
+  {
+    "ID": 4500442,
+    "NextID": 4500450,
+    "equipType": 5,
+    "rank": 0,
+    "seq": 4,
+    "school": 0,
+    "quality": 42,
+    "baseAttribute": [
+      "HPMax=960"
+    ],
+    "AttributeOnLevelUp": [
+      "HPMax=96"
+    ],
+    "AttributeIcon": [
+      "atr_equip_hp"
+    ],
+    "FeatureJson": "",
+    "name": "EquipName_4500400",
+    "desc": "EquipDesc_4500400",
+    "atlasId": 3,
+    "icon": "stg_equip_4500400",
+    "nameB": "EquipName_4500400b",
+    "descB": "EquipDesc_4500400b",
+    "iconB": "stg_equip_4500400b"
+  },
+  {
+    "ID": 4500450,
+    "NextID": 4500451,
+    "equipType": 5,
+    "rank": 0,
+    "seq": 4,
+    "school": 0,
+    "quality": 50,
+    "baseAttribute": [
+      "HPMax=1200"
+    ],
+    "AttributeOnLevelUp": [
+      "HPMax=120"
+    ],
+    "AttributeIcon": [
+      "atr_equip_hp"
+    ],
+    "FeatureJson": "{\"Type\":\"Skill\",\"Args\":\"250421\"}",
+    "name": "EquipName_4500400",
+    "desc": "EquipDesc_4500400",
+    "atlasId": 3,
+    "icon": "stg_equip_4500400",
+    "nameB": "EquipName_4500400b",
+    "descB": "EquipDesc_4500400b",
+    "iconB": "stg_equip_4500400b"
+  },
+  {
+    "ID": 4500451,
+    "NextID": 4500452,
+    "equipType": 5,
+    "rank": 0,
+    "seq": 4,
+    "school": 0,
+    "quality": 51,
+    "baseAttribute": [
+      "HPMax=1440"
+    ],
+    "AttributeOnLevelUp": [
+      "HPMax=144"
+    ],
+    "AttributeIcon": [
+      "atr_equip_hp"
+    ],
+    "FeatureJson": "",
+    "name": "EquipName_4500400",
+    "desc": "EquipDesc_4500400",
+    "atlasId": 3,
+    "icon": "stg_equip_4500400",
+    "nameB": "EquipName_4500400b",
+    "descB": "EquipDesc_4500400b",
+    "iconB": "stg_equip_4500400b"
+  },
+  {
+    "ID": 4500452,
+    "NextID": 4500453,
+    "equipType": 5,
+    "rank": 0,
+    "seq": 4,
+    "school": 0,
+    "quality": 52,
+    "baseAttribute": [
+      "HPMax=1680"
+    ],
+    "AttributeOnLevelUp": [
+      "HPMax=168"
+    ],
+    "AttributeIcon": [
+      "atr_equip_hp"
+    ],
+    "FeatureJson": "",
+    "name": "EquipName_4500400",
+    "desc": "EquipDesc_4500400",
+    "atlasId": 3,
+    "icon": "stg_equip_4500400",
+    "nameB": "EquipName_4500400b",
+    "descB": "EquipDesc_4500400b",
+    "iconB": "stg_equip_4500400b"
+  },
+  {
+    "ID": 4500453,
+    "NextID": 4500460,
+    "equipType": 5,
+    "rank": 0,
+    "seq": 4,
+    "school": 0,
+    "quality": 53,
+    "baseAttribute": [
+      "HPMax=1920"
+    ],
+    "AttributeOnLevelUp": [
+      "HPMax=192"
+    ],
+    "AttributeIcon": [
+      "atr_equip_hp"
+    ],
+    "FeatureJson": "",
+    "name": "EquipName_4500400",
+    "desc": "EquipDesc_4500400",
+    "atlasId": 3,
+    "icon": "stg_equip_4500400",
+    "nameB": "EquipName_4500400b",
+    "descB": "EquipDesc_4500400b",
+    "iconB": "stg_equip_4500400b"
+  },
+  {
+    "ID": 4500460,
+    "NextID": 0,
+    "equipType": 5,
+    "rank": 0,
+    "seq": 4,
+    "school": 0,
+    "quality": 60,
+    "baseAttribute": [
+      "HPMax=2400"
+    ],
+    "AttributeOnLevelUp": [
+      "HPMax=240"
+    ],
+    "AttributeIcon": [
+      "atr_equip_hp"
+    ],
+    "FeatureJson": "{\"Type\":\"Skill\",\"Args\":\"250412\"}",
+    "name": "EquipName_4500400",
+    "desc": "EquipDesc_4500400",
+    "atlasId": 3,
+    "icon": "stg_equip_4500400",
+    "nameB": "EquipName_4500400b",
+    "descB": "EquipDesc_4500400b",
+    "iconB": "stg_equip_4500400b"
+  },
+  {
+    "ID": 4510110,
+    "NextID": 4510120,
+    "equipType": 5,
+    "rank": 1,
+    "seq": 1,
+    "school": 0,
+    "quality": 10,
+    "baseAttribute": [
+      "HPMax=180"
+    ],
+    "AttributeOnLevelUp": [
+      "HPMax=54"
+    ],
+    "AttributeIcon": [
+      "atr_equip_hp"
+    ],
+    "FeatureJson": "",
+    "name": "EquipName_4510100",
+    "desc": "EquipDesc_4510100",
+    "atlasId": 3,
+    "icon": "stg_equip_4510100",
+    "nameB": "EquipName_4510100b",
+    "descB": "EquipDesc_4510100b",
+    "iconB": "stg_equip_4510100b"
+  },
+  {
+    "ID": 4510120,
+    "NextID": 4510130,
+    "equipType": 5,
+    "rank": 1,
+    "seq": 1,
+    "school": 0,
+    "quality": 20,
+    "baseAttribute": [
+      "HPMax=360"
+    ],
+    "AttributeOnLevelUp": [
+      "HPMax=72"
+    ],
+    "AttributeIcon": [
+      "atr_equip_hp"
+    ],
+    "FeatureJson": "{\"Type\":\"Attr\",\"Args\":\"HeartHpAdd%=10\"}",
+    "name": "EquipName_4510100",
+    "desc": "EquipDesc_4510100",
+    "atlasId": 3,
+    "icon": "stg_equip_4510100",
+    "nameB": "EquipName_4510100b",
+    "descB": "EquipDesc_4510100b",
+    "iconB": "stg_equip_4510100b"
+  },
+  {
+    "ID": 4510130,
+    "NextID": 4510140,
+    "equipType": 5,
+    "rank": 1,
+    "seq": 1,
+    "school": 0,
+    "quality": 30,
+    "baseAttribute": [
+      "HPMax=540"
+    ],
+    "AttributeOnLevelUp": [
+      "HPMax=90"
+    ],
+    "AttributeIcon": [
+      "atr_equip_hp"
+    ],
+    "FeatureJson": "{\"Type\":\"Skill\",\"Args\":\"251101\"}",
+    "name": "EquipName_4510100",
+    "desc": "EquipDesc_4510100",
+    "atlasId": 3,
+    "icon": "stg_equip_4510100",
+    "nameB": "EquipName_4510100b",
+    "descB": "EquipDesc_4510100b",
+    "iconB": "stg_equip_4510100b"
+  },
+  {
+    "ID": 4510140,
+    "NextID": 4510141,
+    "equipType": 5,
+    "rank": 1,
+    "seq": 1,
+    "school": 0,
+    "quality": 40,
+    "baseAttribute": [
+      "HPMax=900"
+    ],
+    "AttributeOnLevelUp": [
+      "HPMax=108"
+    ],
+    "AttributeIcon": [
+      "atr_equip_hp"
+    ],
+    "FeatureJson": "{\"Type\":\"Skill\",\"Args\":\"251111\"}",
+    "name": "EquipName_4510100",
+    "desc": "EquipDesc_4510100",
+    "atlasId": 3,
+    "icon": "stg_equip_4510100",
+    "nameB": "EquipName_4510100b",
+    "descB": "EquipDesc_4510100b",
+    "iconB": "stg_equip_4510100b"
+  },
+  {
+    "ID": 4510141,
+    "NextID": 4510142,
+    "equipType": 5,
+    "rank": 1,
+    "seq": 1,
+    "school": 0,
+    "quality": 41,
+    "baseAttribute": [
+      "HPMax=1170"
+    ],
+    "AttributeOnLevelUp": [
+      "HPMax=126"
+    ],
+    "AttributeIcon": [
+      "atr_equip_hp"
+    ],
+    "FeatureJson": "",
+    "name": "EquipName_4510100",
+    "desc": "EquipDesc_4510100",
+    "atlasId": 3,
+    "icon": "stg_equip_4510100",
+    "nameB": "EquipName_4510100b",
+    "descB": "EquipDesc_4510100b",
+    "iconB": "stg_equip_4510100b"
+  },
+  {
+    "ID": 4510142,
+    "NextID": 4510150,
+    "equipType": 5,
+    "rank": 1,
+    "seq": 1,
+    "school": 0,
+    "quality": 42,
+    "baseAttribute": [
+      "HPMax=1440"
+    ],
+    "AttributeOnLevelUp": [
+      "HPMax=144"
+    ],
+    "AttributeIcon": [
+      "atr_equip_hp"
+    ],
+    "FeatureJson": "",
+    "name": "EquipName_4510100",
+    "desc": "EquipDesc_4510100",
+    "atlasId": 3,
+    "icon": "stg_equip_4510100",
+    "nameB": "EquipName_4510100b",
+    "descB": "EquipDesc_4510100b",
+    "iconB": "stg_equip_4510100b"
+  },
+  {
+    "ID": 4510150,
+    "NextID": 4510151,
+    "equipType": 5,
+    "rank": 1,
+    "seq": 1,
+    "school": 0,
+    "quality": 50,
+    "baseAttribute": [
+      "HPMax=1800"
+    ],
+    "AttributeOnLevelUp": [
+      "HPMax=180"
+    ],
+    "AttributeIcon": [
+      "atr_equip_hp"
+    ],
+    "FeatureJson": "{\"Type\":\"Skill\",\"Args\":\"251121\"}",
+    "name": "EquipName_4510100",
+    "desc": "EquipDesc_4510100",
+    "atlasId": 3,
+    "icon": "stg_equip_4510100",
+    "nameB": "EquipName_4510100b",
+    "descB": "EquipDesc_4510100b",
+    "iconB": "stg_equip_4510100b"
+  },
+  {
+    "ID": 4510151,
+    "NextID": 4510152,
+    "equipType": 5,
+    "rank": 1,
+    "seq": 1,
+    "school": 0,
+    "quality": 51,
+    "baseAttribute": [
+      "HPMax=2160"
+    ],
+    "AttributeOnLevelUp": [
+      "HPMax=216"
+    ],
+    "AttributeIcon": [
+      "atr_equip_hp"
+    ],
+    "FeatureJson": "",
+    "name": "EquipName_4510100",
+    "desc": "EquipDesc_4510100",
+    "atlasId": 3,
+    "icon": "stg_equip_4510100",
+    "nameB": "EquipName_4510100b",
+    "descB": "EquipDesc_4510100b",
+    "iconB": "stg_equip_4510100b"
+  },
+  {
+    "ID": 4510152,
+    "NextID": 4510153,
+    "equipType": 5,
+    "rank": 1,
+    "seq": 1,
+    "school": 0,
+    "quality": 52,
+    "baseAttribute": [
+      "HPMax=2520"
+    ],
+    "AttributeOnLevelUp": [
+      "HPMax=252"
+    ],
+    "AttributeIcon": [
+      "atr_equip_hp"
+    ],
+    "FeatureJson": "",
+    "name": "EquipName_4510100",
+    "desc": "EquipDesc_4510100",
+    "atlasId": 3,
+    "icon": "stg_equip_4510100",
+    "nameB": "EquipName_4510100b",
+    "descB": "EquipDesc_4510100b",
+    "iconB": "stg_equip_4510100b"
+  },
+  {
+    "ID": 4510153,
+    "NextID": 4510160,
+    "equipType": 5,
+    "rank": 1,
+    "seq": 1,
+    "school": 0,
+    "quality": 53,
+    "baseAttribute": [
+      "HPMax=2880"
+    ],
+    "AttributeOnLevelUp": [
+      "HPMax=288"
+    ],
+    "AttributeIcon": [
+      "atr_equip_hp"
+    ],
+    "FeatureJson": "",
+    "name": "EquipName_4510100",
+    "desc": "EquipDesc_4510100",
+    "atlasId": 3,
+    "icon": "stg_equip_4510100",
+    "nameB": "EquipName_4510100b",
+    "descB": "EquipDesc_4510100b",
+    "iconB": "stg_equip_4510100b"
+  },
+  {
+    "ID": 4510160,
+    "NextID": 0,
+    "equipType": 5,
+    "rank": 1,
+    "seq": 1,
+    "school": 0,
+    "quality": 60,
+    "baseAttribute": [
+      "HPMax=3600"
+    ],
+    "AttributeOnLevelUp": [
+      "HPMax=360"
+    ],
+    "AttributeIcon": [
+      "atr_equip_hp"
+    ],
+    "FeatureJson": "{\"Type\":\"Skill\",\"Args\":\"251112\"}",
+    "name": "EquipName_4510100",
+    "desc": "EquipDesc_4510100",
+    "atlasId": 3,
+    "icon": "stg_equip_4510100",
+    "nameB": "EquipName_4510100b",
+    "descB": "EquipDesc_4510100b",
+    "iconB": "stg_equip_4510100b"
+  }
+]

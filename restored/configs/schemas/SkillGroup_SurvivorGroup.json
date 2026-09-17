@@ -1,0 +1,115 @@
+{
+  "name": "SkillGroup_SurvivorGroup",
+  "assembly": "HotFixBattle.dll",
+  "read_impl_rva": "0x6afbfb0",
+  "fields": [
+    {
+      "type": "int",
+      "name": "EventID",
+      "offset": 32,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "GetID",
+      "offset": 36,
+      "reader": "readInt"
+    },
+    {
+      "type": "string",
+      "name": "notes",
+      "offset": 40,
+      "reader": "readLocalString"
+    },
+    {
+      "type": "int",
+      "name": "Weight",
+      "offset": 48,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "Weight_1",
+      "offset": 52,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "Weight_2",
+      "offset": 56,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "Weight_3",
+      "offset": 60,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "Weight_4",
+      "offset": 64,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "Weight_5",
+      "offset": 68,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "Weight_6",
+      "offset": 72,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "Weight_7",
+      "offset": 76,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "Weight_8",
+      "offset": 80,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "Weight_9",
+      "offset": 84,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "Weight_10",
+      "offset": 88,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "WeightForNewplayer",
+      "offset": 92,
+      "reader": "readInt"
+    }
+  ],
+  "native_reader_calls": [
+    "readInt",
+    "readInt",
+    "readLocalString",
+    "readInt",
+    "readInt",
+    "readInt",
+    "readInt",
+    "readInt",
+    "readInt",
+    "readInt",
+    "readInt",
+    "readInt",
+    "readInt",
+    "readInt",
+    "readInt"
+  ],
+  "field_count_matches_native_calls": true
+}

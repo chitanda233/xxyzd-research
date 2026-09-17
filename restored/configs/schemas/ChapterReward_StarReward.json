@@ -1,0 +1,66 @@
+{
+  "name": "ChapterReward_StarReward",
+  "assembly": "HotFixBattle.dll",
+  "read_impl_rva": "0x689d8e8",
+  "fields": [
+    {
+      "type": "int",
+      "name": "ID",
+      "offset": 32,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "Stars",
+      "offset": 36,
+      "reader": "readInt"
+    },
+    {
+      "type": "int[][]",
+      "name": "Reward",
+      "offset": 40,
+      "reader": "readArrayArrayint"
+    },
+    {
+      "type": "int",
+      "name": "Tag",
+      "offset": 48,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "IsBIg",
+      "offset": 52,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "StarsHard",
+      "offset": 56,
+      "reader": "readInt"
+    },
+    {
+      "type": "int[][]",
+      "name": "RewardStarsHard",
+      "offset": 64,
+      "reader": "readArrayArrayint"
+    },
+    {
+      "type": "int",
+      "name": "IsBIgStarsHard",
+      "offset": 72,
+      "reader": "readInt"
+    }
+  ],
+  "native_reader_calls": [
+    "readInt",
+    "readInt",
+    "readArrayArrayint",
+    "readInt",
+    "readInt",
+    "readInt",
+    "readArrayArrayint",
+    "readInt"
+  ],
+  "field_count_matches_native_calls": true
+}

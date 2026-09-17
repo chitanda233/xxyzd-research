@@ -1,0 +1,150 @@
+{
+  "name": "Shop_ShopGoods",
+  "assembly": "HotFixBattle.dll",
+  "read_impl_rva": "0x6af167c",
+  "fields": [
+    {
+      "type": "int",
+      "name": "id",
+      "offset": 32,
+      "reader": "readInt"
+    },
+    {
+      "type": "string",
+      "name": "note",
+      "offset": 40,
+      "reader": "readLocalString"
+    },
+    {
+      "type": "string",
+      "name": "nameId",
+      "offset": 48,
+      "reader": "readLocalString"
+    },
+    {
+      "type": "int[][]",
+      "name": "price",
+      "offset": 56,
+      "reader": "readArrayArrayint"
+    },
+    {
+      "type": "int",
+      "name": "iapPrice",
+      "offset": 64,
+      "reader": "readInt"
+    },
+    {
+      "type": "string",
+      "name": "DiscountLanguageid",
+      "offset": 72,
+      "reader": "readLocalString"
+    },
+    {
+      "type": "int",
+      "name": "IncreaseValue",
+      "offset": 80,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "limit",
+      "offset": 84,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "refresh",
+      "offset": 88,
+      "reader": "readInt"
+    },
+    {
+      "type": "int[][]",
+      "name": "reward",
+      "offset": 96,
+      "reader": "readArrayArrayint"
+    },
+    {
+      "type": "int[][]",
+      "name": "firstReward",
+      "offset": 104,
+      "reader": "readArrayArrayint"
+    },
+    {
+      "type": "int",
+      "name": "type",
+      "offset": 112,
+      "reader": "readInt"
+    },
+    {
+      "type": "string",
+      "name": "Unlock",
+      "offset": 120,
+      "reader": "readLocalString"
+    },
+    {
+      "type": "int",
+      "name": "adPrice",
+      "offset": 128,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "iconAtlasID",
+      "offset": 132,
+      "reader": "readInt"
+    },
+    {
+      "type": "string",
+      "name": "iconName",
+      "offset": 136,
+      "reader": "readLocalString"
+    },
+    {
+      "type": "int",
+      "name": "useImmediately",
+      "offset": 144,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "perLimit",
+      "offset": 148,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "Discount",
+      "offset": 152,
+      "reader": "readInt"
+    },
+    {
+      "type": "int[][]",
+      "name": "showReward",
+      "offset": 160,
+      "reader": "readArrayArrayint"
+    }
+  ],
+  "native_reader_calls": [
+    "readInt",
+    "readLocalString",
+    "readLocalString",
+    "readArrayArrayint",
+    "readInt",
+    "readLocalString",
+    "readInt",
+    "readInt",
+    "readInt",
+    "readArrayArrayint",
+    "readArrayArrayint",
+    "readInt",
+    "readLocalString",
+    "readInt",
+    "readInt",
+    "readLocalString",
+    "readInt",
+    "readInt",
+    "readInt",
+    "readArrayArrayint"
+  ],
+  "field_count_matches_native_calls": true
+}

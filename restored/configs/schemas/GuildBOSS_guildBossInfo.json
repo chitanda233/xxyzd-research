@@ -1,0 +1,66 @@
+{
+  "name": "GuildBOSS_guildBossInfo",
+  "assembly": "HotFixBattle.dll",
+  "read_impl_rva": "0x6a86e50",
+  "fields": [
+    {
+      "type": "int",
+      "name": "ID",
+      "offset": 32,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "NetVersion",
+      "offset": 36,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "FreeCnt",
+      "offset": 40,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "BuyCnt",
+      "offset": 44,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "BuyDiamonds",
+      "offset": 48,
+      "reader": "readInt"
+    },
+    {
+      "type": "int[]",
+      "name": "MissionID",
+      "offset": 56,
+      "reader": "readArrayint"
+    },
+    {
+      "type": "long",
+      "name": "OpenTime",
+      "offset": 64,
+      "reader": "readLong"
+    },
+    {
+      "type": "long",
+      "name": "FinishTime",
+      "offset": 72,
+      "reader": "readLong"
+    }
+  ],
+  "native_reader_calls": [
+    "readInt",
+    "readInt",
+    "readInt",
+    "readInt",
+    "readInt",
+    "readArrayint",
+    "readLong",
+    "readLong"
+  ],
+  "field_count_matches_native_calls": true
+}

@@ -1,0 +1,101 @@
+{
+  "name": "Quality_qualityUp",
+  "assembly": "HotFixBattle.dll",
+  "read_impl_rva": "0x6ad57c0",
+  "fields": [
+    {
+      "type": "int",
+      "name": "id",
+      "offset": 32,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "maxLevel",
+      "offset": 36,
+      "reader": "readInt"
+    },
+    {
+      "type": "string",
+      "name": "attribute",
+      "offset": 40,
+      "reader": "readLocalString"
+    },
+    {
+      "type": "float",
+      "name": "rate",
+      "offset": 48,
+      "reader": "readFloat"
+    },
+    {
+      "type": "int",
+      "name": "bgAtlasID",
+      "offset": 52,
+      "reader": "readInt"
+    },
+    {
+      "type": "string",
+      "name": "bgSpriteName",
+      "offset": 56,
+      "reader": "readLocalString"
+    },
+    {
+      "type": "string",
+      "name": "basebgName",
+      "offset": 64,
+      "reader": "readLocalString"
+    },
+    {
+      "type": "string",
+      "name": "rankIconName",
+      "offset": 72,
+      "reader": "readLocalString"
+    },
+    {
+      "type": "int",
+      "name": "nameID",
+      "offset": 80,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "nameID2",
+      "offset": 84,
+      "reader": "readInt"
+    },
+    {
+      "type": "int[]",
+      "name": "composeNeed",
+      "offset": 88,
+      "reader": "readArrayint"
+    },
+    {
+      "type": "string",
+      "name": "colorNum",
+      "offset": 96,
+      "reader": "readLocalString"
+    },
+    {
+      "type": "string",
+      "name": "darkColorNum",
+      "offset": 104,
+      "reader": "readLocalString"
+    }
+  ],
+  "native_reader_calls": [
+    "readInt",
+    "readInt",
+    "readLocalString",
+    "readFloat",
+    "readInt",
+    "readLocalString",
+    "readLocalString",
+    "readLocalString",
+    "readInt",
+    "readInt",
+    "readArrayint",
+    "readLocalString",
+    "readLocalString"
+  ],
+  "field_count_matches_native_calls": true
+}

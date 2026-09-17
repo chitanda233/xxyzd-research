@@ -1,0 +1,1097 @@
+<linker>
+  <assembly fullname="Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="BezierCurve" preserve="all" />
+    <type fullname="BezierPoint" preserve="all" />
+    <type fullname="DG.Tweening.DOTweenAnimation" preserve="all" />
+    <type fullname="HS_ProjectileMover" preserve="all" />
+    <type fullname="OptimizeTool.Baker.ParticleSequenceBaker" preserve="all" />
+    <type fullname="OptimizeTool.Baker.SimpleSpriteCombine" preserve="all" />
+    <type fullname="PolygonArsenal.PolygonSoundSpawn" preserve="all" />
+    <type fullname="ResetPosition" preserve="all" />
+    <type fullname="SuperScrollView.RotateScript" preserve="all" />
+    <type fullname="TextureFlow" preserve="all" />
+    <type fullname="TextureFlow_01" preserve="all" />
+    <type fullname="UIShaderGradientRampAdd" preserve="all" />
+    <type fullname="VertIndexAsUV" preserve="all" />
+    <type fullname="OptimizeTool.Baker.ParticleSequenceBaker/PrefabNodeCopyOption" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="Coffee.UIParticle, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="Coffee.UIExtensions.UIParticle" preserve="all" />
+  </assembly>
+  <assembly fullname="E7.NotchSolution, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="E7.NotchSolution.SafePadding" preserve="all" />
+    <type fullname="E7.NotchSolution.PerEdgeEvaluationModes" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="Framework, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="ClickableLink" preserve="all" />
+    <type fullname="Dxx.UI.UIFlip" preserve="all" />
+    <type fullname="Dxx.UI.UIMirror" preserve="all" />
+    <type fullname="EntityBody" preserve="all" />
+    <type fullname="Framework.Logic.Component.AnimatorListen" preserve="all" />
+    <type fullname="Framework.Logic.Component.ComponentRegister" preserve="all" />
+    <type fullname="Framework.Logic.Component.DropItemRefBinder" preserve="all" />
+    <type fullname="Framework.Logic.Component.SpriteRegister" preserve="all" />
+    <type fullname="Framework.Logic.Modules.SoundNameController" preserve="all" />
+    <type fullname="Framework.Logic.UI.Chat.ChatInputCtrl" preserve="all" />
+    <type fullname="Framework.Logic.UI.Chat.ChatItem_LoadingMono" preserve="all" />
+    <type fullname="Framework.Logic.UI.CustomButton" preserve="all" />
+    <type fullname="Framework.Logic.UI.CustomChooseButton" preserve="all" />
+    <type fullname="Framework.Logic.UI.CustomChooseButtonGroup" preserve="all" />
+    <type fullname="Framework.Logic.UI.CustomFitContentLanguageText" preserve="all" />
+    <type fullname="Framework.Logic.UI.CustomFitContentText" preserve="all" />
+    <type fullname="Framework.Logic.UI.CustomImage" preserve="all" />
+    <type fullname="Framework.Logic.UI.CustomLanguageText" preserve="all" />
+    <type fullname="Framework.Logic.UI.CustomOutLine" preserve="all" />
+    <type fullname="Framework.Logic.UI.CustomScrollRect" preserve="all" />
+    <type fullname="Framework.Logic.UI.CustomText" preserve="all" />
+    <type fullname="Framework.Logic.UI.CustomTextHelper" preserve="all" />
+    <type fullname="Framework.Logic.UI.Gradient" preserve="all" />
+    <type fullname="Framework.Logic.UI.NonDrawingGraphic" preserve="all" />
+    <type fullname="Framework.Logic.UI.OutlineEx" preserve="all" />
+    <type fullname="Framework.Logic.UI.OutlineEx_Custom" preserve="all" />
+    <type fullname="Framework.Logic.UI.SimpleGrayButton" preserve="all" />
+    <type fullname="Framework.Logic.UI.SuperScrollUI.SuperScrollBottomLoadingItem" preserve="all" />
+    <type fullname="Framework.Logic.UI.TapToCloseCtrl" preserve="all" />
+    <type fullname="Framework.Logic.UI.UIBgText" preserve="all" />
+    <type fullname="Framework.Logic.UI.UIGray" preserve="all" />
+    <type fullname="Framework.Logic.UI.UIGrays" preserve="all" />
+    <type fullname="Framework.Logic.UI.UIParticleSystem.UIParticleSystem" preserve="all" />
+    <type fullname="Framework.Logic.UI.UIPopClose" preserve="all" />
+    <type fullname="Framework.Logic.UI.UISortOrder" preserve="all" />
+    <type fullname="Framework.Logic.UI.UTweener.UTweenColor" preserve="all" />
+    <type fullname="Framework.Logic.UI.UTweener.UTweenScale" preserve="all" />
+    <type fullname="Framework.Logic.UI.WindowHelper.UGUIBottomWindowHelper" preserve="all" />
+    <type fullname="Framework.Logic.UI.WindowHelper.UGUIPaddingWindowHelper" preserve="all" />
+    <type fullname="Framework.UnityGlobalManager.CurveScriptable" preserve="all" />
+    <type fullname="UIButtonGray" preserve="all" />
+    <type fullname="UIPointEvent" preserve="all" />
+    <type fullname="UIShaderGradientRampAdd" preserve="all" />
+    <type fullname="VertIndexAsUV" preserve="all" />
+    <type fullname="WeaponBody" preserve="all" />
+    <type fullname="Framework.Logic.Component.AnimatorListen/ListenEvent" preserve="nothing" serialized="true" />
+    <type fullname="Framework.Logic.Component.ComponentRegister/GameObjectRegisterData" preserve="nothing" serialized="true" />
+    <type fullname="Framework.Logic.UI.CustomImage/FinishedEvent" preserve="nothing" serialized="true" />
+    <type fullname="Framework.Logic.UI.CustomChooseButton/SelectChangedEvent" preserve="nothing" serialized="true" />
+    <type fullname="Framework.UnityGlobalManager.CurveScriptable/CurveData" preserve="nothing" serialized="true" />
+    <type fullname="Framework.Logic.Component.SpriteRegister/RegisterData" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="HotFix, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="CurveSwordEffect" preserve="all" />
+    <type fullname="DankeSkillDescItem" preserve="all" />
+    <type fullname="HotFix.AccumulatePanel" preserve="all" />
+    <type fullname="HotFix.ActivityProgressbarCtrl" preserve="all" />
+    <type fullname="HotFix.ActivityRewardBox" preserve="all" />
+    <type fullname="HotFix.ActivityRuntimeGiftNode" preserve="all" />
+    <type fullname="HotFix.ActivityRuntimePurchaseButtonCtrl" preserve="all" />
+    <type fullname="HotFix.ActivityRuntimeShopItem" preserve="all" />
+    <type fullname="HotFix.ActivityScrollViewProgressBarBox" preserve="all" />
+    <type fullname="HotFix.ActivityUpBar" preserve="all" />
+    <type fullname="HotFix.ActivityWeekMyRankItem" preserve="all" />
+    <type fullname="HotFix.ActivityWeekNode" preserve="all" />
+    <type fullname="HotFix.ActivityWeekPayNode" preserve="all" />
+    <type fullname="HotFix.ActivityWeekPayPageItem" preserve="all" />
+    <type fullname="HotFix.ActivityWeekRankListItem" preserve="all" />
+    <type fullname="HotFix.ActivityWeekRankPageItem" preserve="all" />
+    <type fullname="HotFix.ActivityWeekRankRewardNode" preserve="all" />
+    <type fullname="HotFix.ActivityWeekTaskPageItem" preserve="all" />
+    <type fullname="HotFix.ActivityWeekTop3RankItem" preserve="all" />
+    <type fullname="HotFix.AllServerRankRewardItem" preserve="all" />
+    <type fullname="HotFix.AllServerRankRewardPanel" preserve="all" />
+    <type fullname="HotFix.AngelViewModule" preserve="all" />
+    <type fullname="HotFix.AnnouncementBanner" preserve="all" />
+    <type fullname="HotFix.AnnouncementItem" preserve="all" />
+    <type fullname="HotFix.AnnouncementViewModule" preserve="all" />
+    <type fullname="HotFix.ArcherSkillSelectItem" preserve="all" />
+    <type fullname="HotFix.ArcherSkillSelectViewModule" preserve="all" />
+    <type fullname="HotFix.ArenaPlayer" preserve="all" />
+    <type fullname="HotFix.ArenaPlayerAvatar" preserve="all" />
+    <type fullname="HotFix.ArenaSkill" preserve="all" />
+    <type fullname="HotFix.ArenaSkills" preserve="all" />
+    <type fullname="HotFix.ArrowUnit" preserve="all" />
+    <type fullname="HotFix.AttributeViewModule" preserve="all" />
+    <type fullname="HotFix.AttrTipBar" preserve="all" />
+    <type fullname="HotFix.AutoFitTitle" preserve="all" />
+    <type fullname="HotFix.BattleCameraMultiPlayer" preserve="all" />
+    <type fullname="HotFix.BattleFeatureCtrl" preserve="all" />
+    <type fullname="HotFix.BattleFeatureItem" preserve="all" />
+    <type fullname="HotFix.BattleMapCtrl" preserve="all" />
+    <type fullname="HotFix.BattlePassCtrlFund" preserve="all" />
+    <type fullname="HotFix.BattlePassCtrlScore" preserve="all" />
+    <type fullname="HotFix.BattlePassItemsFund" preserve="all" />
+    <type fullname="HotFix.BattlePassItemsScore" preserve="all" />
+    <type fullname="HotFix.BattlePassLoopRewardItem" preserve="all" />
+    <type fullname="HotFix.BattlePassTabButton2" preserve="all" />
+    <type fullname="HotFix.BattlePassTapButton" preserve="all" />
+    <type fullname="HotFix.BattlePassViewModuleBase" preserve="all" />
+    <type fullname="HotFix.BattlePowerShowViewModule" preserve="all" />
+    <type fullname="HotFix.BattleRecReplayViewModule" preserve="all" />
+    <type fullname="HotFix.BattleResultArenaModule" preserve="all" />
+    <type fullname="HotFix.BattleResultRecommendItem" preserve="all" />
+    <type fullname="HotFix.BattleResultViewBossModule" preserve="all" />
+    <type fullname="HotFix.BattleResultViewGoldModule" preserve="all" />
+    <type fullname="HotFix.BattleResultViewGuildBossModule" preserve="all" />
+    <type fullname="HotFix.BattleResultViewMainModule" preserve="all" />
+    <type fullname="HotFix.BattleResultViewTowerLayerCtrl" preserve="all" />
+    <type fullname="HotFix.BattleResultViewTowerModule" preserve="all" />
+    <type fullname="HotFix.BattleSettingViewModule" preserve="all" />
+    <type fullname="HotFix.BigActivityRuleViewModule" preserve="all" />
+    <type fullname="HotFix.BigFirstActivityViewModule" preserve="all" />
+    <type fullname="HotFix.BigFirstBattlePassItem" preserve="all" />
+    <type fullname="HotFix.BigFirstBattlePassViewModule" preserve="all" />
+    <type fullname="HotFix.BigFirstExchangeShopItem" preserve="all" />
+    <type fullname="HotFix.BigFirstExchangeShopViewModule" preserve="all" />
+    <type fullname="HotFix.BigFirstMiningBigObjectView" preserve="all" />
+    <type fullname="HotFix.BigFirstMiningBoard" preserve="all" />
+    <type fullname="HotFix.BigFirstMiningChestRewardGroupItem" preserve="all" />
+    <type fullname="HotFix.BigFirstMiningChestRewardItem" preserve="all" />
+    <type fullname="HotFix.BigFirstMiningGridItem" preserve="all" />
+    <type fullname="HotFix.BigFirstMiningRareRewardItem" preserve="all" />
+    <type fullname="HotFix.BigFirstMiningRewardPreviewViewModule" preserve="all" />
+    <type fullname="HotFix.BigFirstMiningTaskInfoPanel" preserve="all" />
+    <type fullname="HotFix.BigFirstMiningTaskViewModule" preserve="all" />
+    <type fullname="HotFix.BigFirstMiningViewModule" preserve="all" />
+    <type fullname="HotFix.BigFirstSignItem" preserve="all" />
+    <type fullname="HotFix.BigFirstSignPage" preserve="all" />
+    <type fullname="HotFix.BigFirstSignPageButton" preserve="all" />
+    <type fullname="HotFix.BigFirstSignViewModule" preserve="all" />
+    <type fullname="HotFix.BigFirstTurntableCostButton" preserve="all" />
+    <type fullname="HotFix.BigFirstTurntableGiftItem" preserve="all" />
+    <type fullname="HotFix.BigFirstTurntableGiftViewModule" preserve="all" />
+    <type fullname="HotFix.BigFirstTurntableProbabilityGroupItem" preserve="all" />
+    <type fullname="HotFix.BigFirstTurntableProbabilityViewModule" preserve="all" />
+    <type fullname="HotFix.BigFirstTurntableProgressCtrl" preserve="all" />
+    <type fullname="HotFix.BigFirstTurntableProgressItem" preserve="all" />
+    <type fullname="HotFix.BigFirstTurntableSlotItem" preserve="all" />
+    <type fullname="HotFix.BigFirstTurntableTaskViewModule" preserve="all" />
+    <type fullname="HotFix.BigFirstTurntableViewModule" preserve="all" />
+    <type fullname="HotFix.BloomEffect" preserve="all" />
+    <type fullname="HotFix.BoomerangTexController" preserve="all" />
+    <type fullname="HotFix.BossDamageCtr" preserve="all" />
+    <type fullname="HotFix.BossModeView" preserve="all" />
+    <type fullname="HotFix.BuffTipsViewModule" preserve="all" />
+    <type fullname="HotFix.BulletLinkCtrl" preserve="all" />
+    <type fullname="HotFix.BuyVitalityViewModule" preserve="all" />
+    <type fullname="HotFix.CardDetailCardGroupItem" preserve="all" />
+    <type fullname="HotFix.CardDetailTab" preserve="all" />
+    <type fullname="HotFix.CardDetailTipsBtnItem" preserve="all" />
+    <type fullname="HotFix.CardDetailTipsViewModule" preserve="all" />
+    <type fullname="HotFix.CardDetailViewModule" preserve="all" />
+    <type fullname="HotFix.CardDrawResultValueItem" preserve="all" />
+    <type fullname="HotFix.CardDrawResultViewModule" preserve="all" />
+    <type fullname="HotFix.CardDrawViewModule" preserve="all" />
+    <type fullname="HotFix.CarnivalViewModule" preserve="all" />
+    <type fullname="HotFix.ChatFullSubTab" preserve="all" />
+    <type fullname="HotFix.ChatFullTab" preserve="all" />
+    <type fullname="HotFix.ChatMiniItem" preserve="all" />
+    <type fullname="HotFix.ChatMiniUI" preserve="all" />
+    <type fullname="HotFix.ChatUI.ChatCustomPanel" preserve="all" />
+    <type fullname="HotFix.ChatUI.ChatEmojiGroupButton" preserve="all" />
+    <type fullname="HotFix.ChatUI.ChatEmojiGroupButtonBox" preserve="all" />
+    <type fullname="HotFix.ChatUI.ChatEmojiInputUI" preserve="all" />
+    <type fullname="HotFix.ChatUI.ChatInputUI" preserve="all" />
+    <type fullname="HotFix.ChatUI.ChatItemUI.ChatEmojiUI" preserve="all" />
+    <type fullname="HotFix.ChatUI.ChatItemUI.ChatItem_CustomChatFull" preserve="all" />
+    <type fullname="HotFix.ChatUI.ChatItemUI.ChatItem_EmptyList" preserve="all" />
+    <type fullname="HotFix.ChatUI.ChatItemUI.ChatItem_GuildChestAssistance" preserve="all" />
+    <type fullname="HotFix.ChatUI.ChatItemUI.ChatItem_GuildHighFive" preserve="all" />
+    <type fullname="HotFix.ChatUI.ChatItemUI.ChatItem_GuildLike" preserve="all" />
+    <type fullname="HotFix.ChatUI.ChatItemUI.ChatItem_GuildRecruit" preserve="all" />
+    <type fullname="HotFix.ChatUI.ChatItemUI.ChatItem_Loading" preserve="all" />
+    <type fullname="HotFix.ChatUI.ChatItemUI.ChatItem_MultipleSystem" preserve="all" />
+    <type fullname="HotFix.ChatUI.ChatItemUI.ChatItem_System" preserve="all" />
+    <type fullname="HotFix.ChatUI.ChatItemUI.ChatItem_Time" preserve="all" />
+    <type fullname="HotFix.ChatUI.ChatItemUI.ChatTranslateUI" preserve="all" />
+    <type fullname="HotFix.ChatUI.ChatMoreInputCtrl" preserve="all" />
+    <type fullname="HotFix.ChatUI.ChatOutputUI" preserve="all" />
+    <type fullname="HotFix.ChatViewModule" preserve="all" />
+    <type fullname="HotFix.ClaimAllButton" preserve="all" />
+    <type fullname="HotFix.CollectionTreasureItem" preserve="all" />
+    <type fullname="HotFix.CollectionTreasureItemGroup" preserve="all" />
+    <type fullname="HotFix.CollectionTreasureMainPage" preserve="all" />
+    <type fullname="HotFix.CollectionTreasureStarNode" preserve="all" />
+    <type fullname="HotFix.CollectionTreasureSuitAttributeItem" preserve="all" />
+    <type fullname="HotFix.CollectionTreasureSuitItem" preserve="all" />
+    <type fullname="HotFix.CollectionTreasureSuitPage" preserve="all" />
+    <type fullname="HotFix.CombatTipNode" preserve="all" />
+    <type fullname="HotFix.CommonActivityExchangeShopViewModule" preserve="all" />
+    <type fullname="HotFix.CommonActivityGiftViewModule" preserve="all" />
+    <type fullname="HotFix.CommonActivityRankRewardNode" preserve="all" />
+    <type fullname="HotFix.CommonActivityTaskViewModule" preserve="all" />
+    <type fullname="HotFix.CommonPopShowCtrl" preserve="all" />
+    <type fullname="HotFix.CommonPurchaseTipViewModule" preserve="all" />
+    <type fullname="HotFix.CommonShopItem" preserve="all" />
+    <type fullname="HotFix.CommonSkillStarCtrl" preserve="all" />
+    <type fullname="HotFix.CommonStarCtrl" preserve="all" />
+    <type fullname="HotFix.CommonTicketADView" preserve="all" />
+    <type fullname="HotFix.CommonTicketBuyTipViewModule" preserve="all" />
+    <type fullname="HotFix.CommonTicketBuyView" preserve="all" />
+    <type fullname="HotFix.CommonTicketCtrl" preserve="all" />
+    <type fullname="HotFix.CommonTicketWithADCtrl" preserve="all" />
+    <type fullname="HotFix.ContentSizeFitterEx" preserve="all" />
+    <type fullname="HotFix.ContractDevilViewModule" preserve="all" />
+    <type fullname="HotFix.CrossServerFullSubPage" preserve="all" />
+    <type fullname="HotFix.CurrencyAvatarCtrl" preserve="all" />
+    <type fullname="HotFix.CurrencyUICtrl" preserve="all" />
+    <type fullname="HotFix.CurrencyViewModule" preserve="all" />
+    <type fullname="HotFix.CustomButtonForCustomLanguageAndItem" preserve="all" />
+    <type fullname="HotFix.CustomText_ChatFull" preserve="all" />
+    <type fullname="HotFix.CycleGiftItem" preserve="all" />
+    <type fullname="HotFix.DailySpecialOfferGiftItem" preserve="all" />
+    <type fullname="HotFix.DailySpecialOfferGiftPanel" preserve="all" />
+    <type fullname="HotFix.DamageStatisticsItemNode" preserve="all" />
+    <type fullname="HotFix.DamageStatisticsViewModule" preserve="all" />
+    <type fullname="HotFix.DankeHaveSkillItem" preserve="all" />
+    <type fullname="HotFix.DankeSkillSelectViewModule" preserve="all" />
+    <type fullname="HotFix.DefaultMyRank" preserve="all" />
+    <type fullname="HotFix.DetailMonsterInfo" preserve="all" />
+    <type fullname="HotFix.DetailMonsterItem" preserve="all" />
+    <type fullname="HotFix.DetailTipsViewModule" preserve="all" />
+    <type fullname="HotFix.DiscountCtrl" preserve="all" />
+    <type fullname="HotFix.DivingBuyItemViewModule" preserve="all" />
+    <type fullname="HotFix.DivingEffectController" preserve="all" />
+    <type fullname="HotFix.DivingGrid" preserve="all" />
+    <type fullname="HotFix.DivingGridBubbleLook" preserve="all" />
+    <type fullname="HotFix.DivingGridController" preserve="all" />
+    <type fullname="HotFix.DivingGridIceLook" preserve="all" />
+    <type fullname="HotFix.DivingGridMultiRewardLook" preserve="all" />
+    <type fullname="HotFix.DivingGridSeaWeedLook" preserve="all" />
+    <type fullname="HotFix.DivingGridSeaWeedNumLook" preserve="all" />
+    <type fullname="HotFix.DivingGridSharkLook" preserve="all" />
+    <type fullname="HotFix.DivingPanelCtrl" preserve="all" />
+    <type fullname="HotFix.DivingRankViewModule" preserve="all" />
+    <type fullname="HotFix.DivingTaskViewModule" preserve="all" />
+    <type fullname="HotFix.DownloadModuleResourcesViewModule" preserve="all" />
+    <type fullname="HotFix.DownloadResourcesEntranceCtrl" preserve="all" />
+    <type fullname="HotFix.DownloadResourcesViewModule" preserve="all" />
+    <type fullname="HotFix.DrawBoxButton" preserve="all" />
+    <type fullname="HotFix.DropItemTip" preserve="all" />
+    <type fullname="HotFix.DynamicLoadMapManager" preserve="all" />
+    <type fullname="HotFix.DynamicMap" preserve="all" />
+    <type fullname="HotFix.EquipAddTipsViewModule" preserve="all" />
+    <type fullname="HotFix.EquipAttributeGrowUpItem" preserve="all" />
+    <type fullname="HotFix.EquipFilterItem" preserve="all" />
+    <type fullname="HotFix.EquipMergeResultAttrItem" preserve="all" />
+    <type fullname="HotFix.EquipMergeResultExtraItem" preserve="all" />
+    <type fullname="HotFix.EquipNormalFilterCtrl" preserve="all" />
+    <type fullname="HotFix.EquipUpgradeEffectCtrl" preserve="all" />
+    <type fullname="HotFix.FirstEnterWorldViewModule" preserve="all" />
+    <type fullname="HotFix.FirstGiftViewModule" preserve="all" />
+    <type fullname="HotFix.FirstSuperSkillView" preserve="all" />
+    <type fullname="HotFix.FishCtrl" preserve="all" />
+    <type fullname="HotFix.FishingAtlasViewModule" preserve="all" />
+    <type fullname="HotFix.FishingExchangeShopDividerItem" preserve="all" />
+    <type fullname="HotFix.FishingExchangeShopRowItem" preserve="all" />
+    <type fullname="HotFix.FishingExchangeShopViewModule" preserve="all" />
+    <type fullname="HotFix.FishingFocusCtrl" preserve="all" />
+    <type fullname="HotFix.FishingGameCtrl" preserve="all" />
+    <type fullname="HotFix.FishingRankViewModule" preserve="all" />
+    <type fullname="HotFix.FishingResultUI.FishingResultFishInfo" preserve="all" />
+    <type fullname="HotFix.FishingResultUI.FishingResultItem" preserve="all" />
+    <type fullname="HotFix.FishingResultUI.FishingResultItemList" preserve="all" />
+    <type fullname="HotFix.FishingResultViewModule" preserve="all" />
+    <type fullname="HotFix.FishingSpecialAreaController" preserve="all" />
+    <type fullname="HotFix.FishingTipCtrl" preserve="all" />
+    <type fullname="HotFix.FishingViewModule" preserve="all" />
+    <type fullname="HotFix.FishRateItem" preserve="all" />
+    <type fullname="HotFix.FishRodCtrl" preserve="all" />
+    <type fullname="HotFix.FishRuleRateNode" preserve="all" />
+    <type fullname="HotFix.FishRuleRateRow" preserve="all" />
+    <type fullname="HotFix.FishRuleViewModule" preserve="all" />
+    <type fullname="HotFix.FlashAnimation" preserve="all" />
+    <type fullname="HotFix.FlashChainBinder" preserve="all" />
+    <type fullname="HotFix.FlashChainConnectPointEffectPoint" preserve="all" />
+    <type fullname="HotFix.FloatingTips" preserve="all" />
+    <type fullname="HotFix.FlyItemViewModule" preserve="all" />
+    <type fullname="HotFix.FlyNodeDefault" preserve="all" />
+    <type fullname="HotFix.FullScreenColorComponent" preserve="all" />
+    <type fullname="HotFix.FunctionOpenViewModule" preserve="all" />
+    <type fullname="HotFix.FXUIMain" preserve="all" />
+    <type fullname="HotFix.GameTurnViewMode" preserve="all" />
+    <type fullname="HotFix.GenericLotteryItem" preserve="all" />
+    <type fullname="HotFix.GenericLotteryWheel" preserve="all" />
+    <type fullname="HotFix.GoldDungeonLevelItem" preserve="all" />
+    <type fullname="HotFix.GoldDungeonSweepViewModule" preserve="all" />
+    <type fullname="HotFix.GoldDungeonViewModule" preserve="all" />
+    <type fullname="HotFix.GuideTipsDialog" preserve="all" />
+    <type fullname="HotFix.GuideViewModule" preserve="all" />
+    <type fullname="HotFix.GuildBossRankViewModule" preserve="all" />
+    <type fullname="HotFix.GuildFullSubPage" preserve="all" />
+    <type fullname="HotFix.GuildHighFiveMePanel" preserve="all" />
+    <type fullname="HotFix.GuildHighFiveOthersPanel" preserve="all" />
+    <type fullname="HotFix.GuildHighFiveQueuePanel" preserve="all" />
+    <type fullname="HotFix.GuildHighFiveQueueViewModule" preserve="all" />
+    <type fullname="HotFix.GuildHighFiveViewModule" preserve="all" />
+    <type fullname="HotFix.GuildPowerRankListItem" preserve="all" />
+    <type fullname="HotFix.GuildPowerRankViewModule" preserve="all" />
+    <type fullname="HotFix.GuildTaskViewModule" preserve="all" />
+    <type fullname="HotFix.GuildUI.CreateGuildPopViewModule" preserve="all" />
+    <type fullname="HotFix.GuildUI.GuildAnnouncementModifyViewModule" preserve="all" />
+    <type fullname="HotFix.GuildUI.GuildApplyJoinViewModule" preserve="all" />
+    <type fullname="HotFix.GuildUI.GuildBossDamageInfoItem" preserve="all" />
+    <type fullname="HotFix.GuildUI.GuildBossDamageRewardItem" preserve="all" />
+    <type fullname="HotFix.GuildUI.GuildBossPreDifficultyViewModule" preserve="all" />
+    <type fullname="HotFix.GuildUI.GuildBossRankRewardInfoViewModule" preserve="all" />
+    <type fullname="HotFix.GuildUI.GuildBossViewModule" preserve="all" />
+    <type fullname="HotFix.GuildUI.GuildCheckPopUI.GuildCheckPop_Members" preserve="all" />
+    <type fullname="HotFix.GuildUI.GuildCheckPopViewModule" preserve="all" />
+    <type fullname="HotFix.GuildUI.GuildChestAssistanceLogItem" preserve="all" />
+    <type fullname="HotFix.GuildUI.GuildChestBagViewModule" preserve="all" />
+    <type fullname="HotFix.GuildUI.GuildChestBuyPlotViewModule" preserve="all" />
+    <type fullname="HotFix.GuildUI.GuildChestSlotItem" preserve="all" />
+    <type fullname="HotFix.GuildUI.GuildChestViewModule" preserve="all" />
+    <type fullname="HotFix.GuildUI.GuildContributeViewModule" preserve="all" />
+    <type fullname="HotFix.GuildUI.GuildIconSetViewModule" preserve="all" />
+    <type fullname="HotFix.GuildUI.GuildIconStyleCtrl" preserve="all" />
+    <type fullname="HotFix.GuildUI.GuildInfoPanel" preserve="all" />
+    <type fullname="HotFix.GuildUI.GuildInfoPopUI_Member" preserve="all" />
+    <type fullname="HotFix.GuildUI.GuildInfoPopUI_Rename" preserve="all" />
+    <type fullname="HotFix.GuildUI.GuildInfoPopUI_UserSetPop" preserve="all" />
+    <type fullname="HotFix.GuildUI.GuildInfoPopUI_UserSetPowerItem" preserve="all" />
+    <type fullname="HotFix.GuildUI.GuildInfoPopViewModule" preserve="all" />
+    <type fullname="HotFix.GuildUI.GuildLevelTipsItem" preserve="all" />
+    <type fullname="HotFix.GuildUI.GuildLevelUpTitleLayoutUI" preserve="all" />
+    <type fullname="HotFix.GuildUI.GuildLevelUpViewModule" preserve="all" />
+    <type fullname="HotFix.GuildUI.GuildLogItem" preserve="all" />
+    <type fullname="HotFix.GuildUI.GuildLogViewModule" preserve="all" />
+    <type fullname="HotFix.GuildUI.MainGuild_JoinedCtrl" preserve="all" />
+    <type fullname="HotFix.GuildUI.MainGuild_NotJoinCtrl" preserve="all" />
+    <type fullname="HotFix.GuildUI.MainGuildViewModule" preserve="all" />
+    <type fullname="HotFix.GuildUI.UIGuildApplyJoinItem" preserve="all" />
+    <type fullname="HotFix.GuildUI.UIGuildBossDamageBoxCell" preserve="all" />
+    <type fullname="HotFix.GuildUI.UIGuildBossDamageCtrl" preserve="all" />
+    <type fullname="HotFix.GuildUI.UIGuildBossDifficultyCardItem" preserve="all" />
+    <type fullname="HotFix.GuildUI.UIGuildBossMainCtrl" preserve="all" />
+    <type fullname="HotFix.GuildUI.UIGuildBossRewardsTips" preserve="all" />
+    <type fullname="HotFix.GuildUI.UIGuildBuilding" preserve="all" />
+    <type fullname="HotFix.GuildUI.UIGuildHallMemberItem" preserve="all" />
+    <type fullname="HotFix.GuildUI.UIGuildHead" preserve="all" />
+    <type fullname="HotFix.GuildUI.UIGuildIcon" preserve="all" />
+    <type fullname="HotFix.GuildUI.UIGuildLevelDetailItem" preserve="all" />
+    <type fullname="HotFix.GuildUI.UIGuildPlayerInformationViewModule" preserve="all" />
+    <type fullname="HotFix.GuildUI.UIGuildPopCommon" preserve="all" />
+    <type fullname="HotFix.GuildUI.UIMainGuildCreateSimpleCtrl" preserve="all" />
+    <type fullname="HotFix.GuildUI.UIMainGuildInfo" preserve="all" />
+    <type fullname="HotFix.GuildUI.UIMainGuildJoinGuildCtrl" preserve="all" />
+    <type fullname="HotFix.GuildUI.UIMainGuildJoinGuildItem" preserve="all" />
+    <type fullname="HotFix.HangUpQuickViewModule" preserve="all" />
+    <type fullname="HotFix.HangUpViewModule" preserve="all" />
+    <type fullname="HotFix.HeroFootDirection" preserve="all" />
+    <type fullname="HotFix.HighFivePlayerItem" preserve="all" />
+    <type fullname="HotFix.HighFiveShowBgDic" preserve="all" />
+    <type fullname="HotFix.HyperlinkHandler" preserve="all" />
+    <type fullname="HotFix.InfoCommonViewModule" preserve="all" />
+    <type fullname="HotFix.InputCtrl" preserve="all" />
+    <type fullname="HotFix.InViewCurrencyUI" preserve="all" />
+    <type fullname="HotFix.ItemComposeViewModule" preserve="all" />
+    <type fullname="HotFix.ItemTipNode" preserve="all" />
+    <type fullname="HotFix.ItemTransformViewModule" preserve="all" />
+    <type fullname="HotFix.JoyCtrl" preserve="all" />
+    <type fullname="HotFix.LanguageChooseViewItem" preserve="all" />
+    <type fullname="HotFix.LanguageChooseViewModule" preserve="all" />
+    <type fullname="HotFix.LaserBinder" preserve="all" />
+    <type fullname="HotFix.LaserConnectPointEffectPath" preserve="all" />
+    <type fullname="HotFix.LaserConnectPointEffectPathMesh" preserve="all" />
+    <type fullname="HotFix.LaserConnectPointEffectPoint" preserve="all" />
+    <type fullname="HotFix.LevelAdditionItem" preserve="all" />
+    <type fullname="HotFix.LevelMainLight" preserve="all" />
+    <type fullname="HotFix.LevelUpRewardViewModule" preserve="all" />
+    <type fullname="HotFix.LevelUpViewModule" preserve="all" />
+    <type fullname="HotFix.LevelZombieItem" preserve="all" />
+    <type fullname="HotFix.LittleItemInfoViewModule" preserve="all" />
+    <type fullname="HotFix.LoadingBattleViewModule" preserve="all" />
+    <type fullname="HotFix.LoadingViewModule" preserve="all" />
+    <type fullname="HotFix.LoginViewModule" preserve="all" />
+    <type fullname="HotFix.LoginViewModule_CNPolicy" preserve="all" />
+    <type fullname="HotFix.LoginViewModule_CustomLogin" preserve="all" />
+    <type fullname="HotFix.LoginViewModule_SDKLogin" preserve="all" />
+    <type fullname="HotFix.LootBox_ItemGroup" preserve="all" />
+    <type fullname="HotFix.LootBoxRateItem" preserve="all" />
+    <type fullname="HotFix.LootBoxRateViewModule" preserve="all" />
+    <type fullname="HotFix.MailInfoRewardNode" preserve="all" />
+    <type fullname="HotFix.MailInfoViewModule" preserve="all" />
+    <type fullname="HotFix.MailItemNode" preserve="all" />
+    <type fullname="HotFix.MailItemRewardNode" preserve="all" />
+    <type fullname="HotFix.MailViewModule" preserve="all" />
+    <type fullname="HotFix.MainBattleInputReceiver" preserve="all" />
+    <type fullname="HotFix.MainRankPanel" preserve="all" />
+    <type fullname="HotFix.MainRankRewardPanel" preserve="all" />
+    <type fullname="HotFix.MainViewModule" preserve="all" />
+    <type fullname="HotFix.MapLineController" preserve="all" />
+    <type fullname="HotFix.MapMission" preserve="all" />
+    <type fullname="HotFix.MapNode" preserve="all" />
+    <type fullname="HotFix.MapStar" preserve="all" />
+    <type fullname="HotFix.MaskByImage" preserve="all" />
+    <type fullname="HotFix.MergeAnimationViewModule" preserve="all" />
+    <type fullname="HotFix.MissionGiftPopViewModule" preserve="all" />
+    <type fullname="HotFix.MissionRewardNode" preserve="all" />
+    <type fullname="HotFix.MissionRewardPopShowCtrl" preserve="all" />
+    <type fullname="HotFix.MissionRewardViewModule" preserve="all" />
+    <type fullname="HotFix.MonsterHandBookAbilityItem" preserve="all" />
+    <type fullname="HotFix.MonsterHandBookDescItem" preserve="all" />
+    <type fullname="HotFix.MonsterHandBookDetailViewModule" preserve="all" />
+    <type fullname="HotFix.MonsterHandBookReward" preserve="all" />
+    <type fullname="HotFix.MonsterHandBookRewardAni" preserve="all" />
+    <type fullname="HotFix.MonsterHandBookSkillItem" preserve="all" />
+    <type fullname="HotFix.MonsterHandBookTabBtn" preserve="all" />
+    <type fullname="HotFix.MonsterHandBookTagItem" preserve="all" />
+    <type fullname="HotFix.MonsterHandBookViewModule" preserve="all" />
+    <type fullname="HotFix.MonsterInfoPanel" preserve="all" />
+    <type fullname="HotFix.MonsterModesView" preserve="all" />
+    <type fullname="HotFix.MonsterTipsViewModule" preserve="all" />
+    <type fullname="HotFix.MyRankMember" preserve="all" />
+    <type fullname="HotFix.NewBattleFollowCamera" preserve="all" />
+    <type fullname="HotFix.NpcArrowUI" preserve="all" />
+    <type fullname="HotFix.OutTopMyRank" preserve="all" />
+    <type fullname="HotFix.OutTopRank" preserve="all" />
+    <type fullname="HotFix.OutTopRankCtr" preserve="all" />
+    <type fullname="HotFix.PageBtnFishing" preserve="all" />
+    <type fullname="HotFix.PageHomeAnimatorCtrl" preserve="all" />
+    <type fullname="HotFix.PauseHaveSkillView" preserve="all" />
+    <type fullname="HotFix.PauseViewModule" preserve="all" />
+    <type fullname="HotFix.PlaneEquipSkillItem" preserve="all" />
+    <type fullname="HotFix.PlaneStarStepCtrl" preserve="all" />
+    <type fullname="HotFix.PlayerHeadFrame" preserve="all" />
+    <type fullname="HotFix.PlayerInfoPageEquip" preserve="all" />
+    <type fullname="HotFix.PlayerInfoPageFrame" preserve="all" />
+    <type fullname="HotFix.PlayerInfoPageRune" preserve="all" />
+    <type fullname="HotFix.PlayerInfoViewModule" preserve="all" />
+    <type fullname="HotFix.PlayerNameViewModule" preserve="all" />
+    <type fullname="HotFix.PointerCollider" preserve="all" />
+    <type fullname="HotFix.PopCommonViewModule" preserve="all" />
+    <type fullname="HotFix.PrivilegeCardCtrl" preserve="all" />
+    <type fullname="HotFix.ProgressbarNewCtrl" preserve="all" />
+    <type fullname="HotFix.ProgressCtrl" preserve="all" />
+    <type fullname="HotFix.PunchboardRandomItem" preserve="all" />
+    <type fullname="HotFix.PunchboardResultItem" preserve="all" />
+    <type fullname="HotFix.PunchboardResultView" preserve="all" />
+    <type fullname="HotFix.PunchboardViewModule" preserve="all" />
+    <type fullname="HotFix.PurchaseButtonCtrl" preserve="all" />
+    <type fullname="HotFix.PurchaseButtonCtrlForMissionShop" preserve="all" />
+    <type fullname="HotFix.RankLikeEffectCtrl" preserve="all" />
+    <type fullname="HotFix.RankListMember" preserve="all" />
+    <type fullname="HotFix.RankPlaneItem" preserve="all" />
+    <type fullname="HotFix.RankRewardItem" preserve="all" />
+    <type fullname="HotFix.RankRewardPanel" preserve="all" />
+    <type fullname="HotFix.RankScoreItem" preserve="all" />
+    <type fullname="HotFix.RateAppStarItem" preserve="all" />
+    <type fullname="HotFix.RateAppViewModule" preserve="all" />
+    <type fullname="HotFix.RecruitFullSubPage" preserve="all" />
+    <type fullname="HotFix.RedScreenEffect" preserve="all" />
+    <type fullname="HotFix.RelivePopupViewModule" preserve="all" />
+    <type fullname="HotFix.RewardCommonPopShowCtrl" preserve="all" />
+    <type fullname="HotFix.RewardCommonViewModule" preserve="all" />
+    <type fullname="HotFix.RoleAddLinkSkillCtrl" preserve="all" />
+    <type fullname="HotFix.RoundedMultiAreaMask" preserve="all" />
+    <type fullname="HotFix.RuleViewModule" preserve="all" />
+    <type fullname="HotFix.RuneCycleGiftShop" preserve="all" />
+    <type fullname="HotFix.RuneDetail" preserve="all" />
+    <type fullname="HotFix.RuneDungeonShopViewCtrl" preserve="all" />
+    <type fullname="HotFix.RuneEnchantCostInfoBtn" preserve="all" />
+    <type fullname="HotFix.RuneEnchantViewModule" preserve="all" />
+    <type fullname="HotFix.RuneEnchantViewNormal" preserve="all" />
+    <type fullname="HotFix.RuneEnchantViewWaitSave" preserve="all" />
+    <type fullname="HotFix.RuneWearItem" preserve="all" />
+    <type fullname="HotFix.SceneFullSubPage" preserve="all" />
+    <type fullname="HotFix.SettingPopViewModule" preserve="all" />
+    <type fullname="HotFix.SettingViewModule" preserve="all" />
+    <type fullname="HotFix.ShopTitle" preserve="all" />
+    <type fullname="HotFix.ShowBoxParticle" preserve="all" />
+    <type fullname="HotFix.ShowBoxRewardViewModule" preserve="all" />
+    <type fullname="HotFix.ShowPrayRewardViewModule" preserve="all" />
+    <type fullname="HotFix.ShowRuneBoxRewardViewModule" preserve="all" />
+    <type fullname="HotFix.SignBattlePassPanel" preserve="all" />
+    <type fullname="HotFix.SignItem" preserve="all" />
+    <type fullname="HotFix.SignItemCtrl" preserve="all" />
+    <type fullname="HotFix.SkillTipsViewModule" preserve="all" />
+    <type fullname="HotFix.SpecialSkillSelect.UISpecialSkillSelectViewModule" preserve="all" />
+    <type fullname="HotFix.StarCollectItem" preserve="all" />
+    <type fullname="HotFix.StarCollectViewModule" preserve="all" />
+    <type fullname="HotFix.StarRewardItem" preserve="all" />
+    <type fullname="HotFix.StarRewardPanel" preserve="all" />
+    <type fullname="HotFix.StateBarBoss" preserve="all" />
+    <type fullname="HotFix.StateBarHero" preserve="all" />
+    <type fullname="HotFix.StateBarHeroArena" preserve="all" />
+    <type fullname="HotFix.StateBarMonster" preserve="all" />
+    <type fullname="HotFix.StateBarMonsterElite" preserve="all" />
+    <type fullname="HotFix.StateBarNpc" preserve="all" />
+    <type fullname="HotFix.StateBuff" preserve="all" />
+    <type fullname="HotFix.StateBuffItem" preserve="all" />
+    <type fullname="HotFix.StateTrait" preserve="all" />
+    <type fullname="HotFix.StateTraitItem" preserve="all" />
+    <type fullname="HotFix.SubPageAchievement" preserve="all" />
+    <type fullname="HotFix.SubPageDaily" preserve="all" />
+    <type fullname="HotFix.SubPageSign" preserve="all" />
+    <type fullname="HotFix.SubPageWeekly" preserve="all" />
+    <type fullname="HotFix.SubscribeFuncAdditionItem" preserve="all" />
+    <type fullname="HotFix.SubscribeProductItem" preserve="all" />
+    <type fullname="HotFix.SubscribeProductViewModule" preserve="all" />
+    <type fullname="HotFix.SuperGiftPackPanel" preserve="all" />
+    <type fullname="HotFix.TabRedNodeVisibilityCtrl" preserve="all" />
+    <type fullname="HotFix.TaskViewModule" preserve="all" />
+    <type fullname="HotFix.TeamViewModule" preserve="all" />
+    <type fullname="HotFix.TextTipNode" preserve="all" />
+    <type fullname="HotFix.TipsProgressCtrl" preserve="all" />
+    <type fullname="HotFix.TipViewModule" preserve="all" />
+    <type fullname="HotFix.ToggleButton" preserve="all" />
+    <type fullname="HotFix.ToggleGroup" preserve="all" />
+    <type fullname="HotFix.Top3RankDefault" preserve="all" />
+    <type fullname="HotFix.Top3RankTwoScore" preserve="all" />
+    <type fullname="HotFix.TowerLayerItem" preserve="all" />
+    <type fullname="HotFix.TowerMainViewModule" preserve="all" />
+    <type fullname="HotFix.TreasureViewModule" preserve="all" />
+    <type fullname="HotFix.TurntableCostInfoBtn" preserve="all" />
+    <type fullname="HotFix.TurntableSubPageFund" preserve="all" />
+    <type fullname="HotFix.TurntableSubPageShop" preserve="all" />
+    <type fullname="HotFix.TurntableSubPageTurntable" preserve="all" />
+    <type fullname="HotFix.TurntableViewModule" preserve="all" />
+    <type fullname="HotFix.TxtCountdown" preserve="all" />
+    <type fullname="HotFix.UGUIFloatingTextBatch" preserve="all" />
+    <type fullname="HotFix.UI_BoxInfoNode" preserve="all" />
+    <type fullname="HotFix.UI_BoxInfoTreasureBoxCtrl" preserve="all" />
+    <type fullname="HotFix.UI_BoxInfoViewModule" preserve="all" />
+    <type fullname="HotFix.UI_DroneAttrNode" preserve="all" />
+    <type fullname="HotFix.UI_DroneDeployViewModule" preserve="all" />
+    <type fullname="HotFix.UI_DroneHandBookItemNode" preserve="all" />
+    <type fullname="HotFix.UI_DroneHandBookPage" preserve="all" />
+    <type fullname="HotFix.UI_DroneInfoViewModule" preserve="all" />
+    <type fullname="HotFix.UI_DroneItemGroupNode" preserve="all" />
+    <type fullname="HotFix.UI_DroneItemNode" preserve="all" />
+    <type fullname="HotFix.UI_DroneLevelPreviewNode" preserve="all" />
+    <type fullname="HotFix.UI_DroneLevelPreviewViewModule" preserve="all" />
+    <type fullname="HotFix.UI_DroneMainViewModule" preserve="all" />
+    <type fullname="HotFix.UI_DronePage" preserve="all" />
+    <type fullname="HotFix.UI_DronePreviewViewModule" preserve="all" />
+    <type fullname="HotFix.UI_DroneResetViewModule" preserve="all" />
+    <type fullname="HotFix.UI_DroneSkillNode" preserve="all" />
+    <type fullname="HotFix.UI_DroneStarUpResultViewModule" preserve="all" />
+    <type fullname="HotFix.UI_DroneTalentActiveViewModule" preserve="all" />
+    <type fullname="HotFix.UI_DroneTalentTips" preserve="all" />
+    <type fullname="HotFix.UI_TalentItemNode" preserve="all" />
+    <type fullname="HotFix.UI_TalentPage" preserve="all" />
+    <type fullname="HotFix.UI_TurntableGiftViewModule" preserve="all" />
+    <type fullname="HotFix.UI_TurntableProbabilityViewModule" preserve="all" />
+    <type fullname="HotFix.UI_TurntableTaskViewModule" preserve="all" />
+    <type fullname="HotFix.UIAccumulateNode" preserve="all" />
+    <type fullname="HotFix.UIActiveBox" preserve="all" />
+    <type fullname="HotFix.UIActiveCarnival" preserve="all" />
+    <type fullname="HotFix.UIActiveDaily" preserve="all" />
+    <type fullname="HotFix.UIActiveGuildTask" preserve="all" />
+    <type fullname="HotFix.UIActivityWeekRankCtrl" preserve="all" />
+    <type fullname="HotFix.UIActivityWeekViewModule" preserve="all" />
+    <type fullname="HotFix.UIArenaBar" preserve="all" />
+    <type fullname="HotFix.UIAttributeContent" preserve="all" />
+    <type fullname="HotFix.UIAvatarCtrl" preserve="all" />
+    <type fullname="HotFix.UIBagItem" preserve="all" />
+    <type fullname="HotFix.UIBagSecondFiltItem" preserve="all" />
+    <type fullname="HotFix.UIBagTabItem" preserve="all" />
+    <type fullname="HotFix.UIBagViewModule" preserve="all" />
+    <type fullname="HotFix.UIBargainItem" preserve="all" />
+    <type fullname="HotFix.UIBattleEdgeTipCtrl" preserve="all" />
+    <type fullname="HotFix.UIBattleExpCtrl" preserve="all" />
+    <type fullname="HotFix.UIBattleKillCountCtrl" preserve="all" />
+    <type fullname="HotFix.UIBattleScoreCtrl" preserve="all" />
+    <type fullname="HotFix.UIBattleSkillSelectItem" preserve="all" />
+    <type fullname="HotFix.UIBattleStar" preserve="all" />
+    <type fullname="HotFix.UIBattleTargetCtrl" preserve="all" />
+    <type fullname="HotFix.UIBattleTargetStar" preserve="all" />
+    <type fullname="HotFix.UIBattleTextCtrl" preserve="all" />
+    <type fullname="HotFix.UIBattleWaterfallCtrl" preserve="all" />
+    <type fullname="HotFix.UIBattleWaveCtrl" preserve="all" />
+    <type fullname="HotFix.UIBossRewardItem" preserve="all" />
+    <type fullname="HotFix.UIBoxDrawItem" preserve="all" />
+    <type fullname="HotFix.UIBoxEquip" preserve="all" />
+    <type fullname="HotFix.UIBoxEquipGroup" preserve="all" />
+    <type fullname="HotFix.UIBoxEquipProgressReward" preserve="all" />
+    <type fullname="HotFix.UIBoxRuneGroup" preserve="all" />
+    <type fullname="HotFix.UIBoxScore" preserve="all" />
+    <type fullname="HotFix.UIBoxWingmanGroup" preserve="all" />
+    <type fullname="HotFix.UICardItem" preserve="all" />
+    <type fullname="HotFix.UICardItemGroup" preserve="all" />
+    <type fullname="HotFix.UICardTitleItem" preserve="all" />
+    <type fullname="HotFix.UICarnivalActiveBox" preserve="all" />
+    <type fullname="HotFix.UIChangeAttrItem" preserve="all" />
+    <type fullname="HotFix.UIChooseRuneItem" preserve="all" />
+    <type fullname="HotFix.UICoinShop" preserve="all" />
+    <type fullname="HotFix.UICollectionTreasure" preserve="all" />
+    <type fullname="HotFix.UICollectStar" preserve="all" />
+    <type fullname="HotFix.UICommonLootBoxRateViewModule" preserve="all" />
+    <type fullname="HotFix.UICommonShop" preserve="all" />
+    <type fullname="HotFix.UICostCtrl" preserve="all" />
+    <type fullname="HotFix.UICostNode" preserve="all" />
+    <type fullname="HotFix.UICurrencyCtrl" preserve="all" />
+    <type fullname="HotFix.UICycleGiftShop" preserve="all" />
+    <type fullname="HotFix.UIDamageBarCtr" preserve="all" />
+    <type fullname="HotFix.UIDankeSkillSelectItem" preserve="all" />
+    <type fullname="HotFix.UIDepotItem" preserve="all" />
+    <type fullname="HotFix.UIDepotViewModule" preserve="all" />
+    <type fullname="HotFix.UIDiamondsShop" preserve="all" />
+    <type fullname="HotFix.UIDroneDeploySlotNode" preserve="all" />
+    <type fullname="HotFix.UIDroneFormationSlotNode" preserve="all" />
+    <type fullname="HotFix.UIDroneSpinePreview" preserve="all" />
+    <type fullname="HotFix.UIEntityAbility" preserve="all" />
+    <type fullname="HotFix.UIEntityAbilityItem" preserve="all" />
+    <type fullname="HotFix.UIEquipAttributeItem" preserve="all" />
+    <type fullname="HotFix.UIEquipDetailViewModule" preserve="all" />
+    <type fullname="HotFix.UIEquipGunItem" preserve="all" />
+    <type fullname="HotFix.UIEquipLevelUpAnim" preserve="all" />
+    <type fullname="HotFix.UIEquipLongItemGridGroup" preserve="all" />
+    <type fullname="HotFix.UIEquipMainPageTab" preserve="all" />
+    <type fullname="HotFix.UIEquipMainViewModule" preserve="all" />
+    <type fullname="HotFix.UIEquipMergeResultViewModule" preserve="all" />
+    <type fullname="HotFix.UIEquipMergeViewModule" preserve="all" />
+    <type fullname="HotFix.UIEquipNoEquipSlot" preserve="all" />
+    <type fullname="HotFix.UIEquipResetViewModule" preserve="all" />
+    <type fullname="HotFix.UIEquipRole" preserve="all" />
+    <type fullname="HotFix.UIEquipSkinChangeAttrItem" preserve="all" />
+    <type fullname="HotFix.UIEquipSkinMaxAttrItem" preserve="all" />
+    <type fullname="HotFix.UIEquipSkinUnlockAttrItem" preserve="all" />
+    <type fullname="HotFix.UIExchangeBuyViewModule" preserve="all" />
+    <type fullname="HotFix.UIExchangeShopViewModule" preserve="all" />
+    <type fullname="HotFix.UIFeatureTextItem" preserve="all" />
+    <type fullname="HotFix.UIFirstGiftItem" preserve="all" />
+    <type fullname="HotFix.UIFishingAtlasItem" preserve="all" />
+    <type fullname="HotFix.UIFishingFishItem" preserve="all" />
+    <type fullname="HotFix.UIGlobalEntryPoint" preserve="all" />
+    <type fullname="HotFix.UIGuildBossMemberDamageItem" preserve="all" />
+    <type fullname="HotFix.UIGuildCostNode" preserve="all" />
+    <type fullname="HotFix.UIGuildGroupPurchaseViewModule" preserve="all" />
+    <type fullname="HotFix.UIGuildResidenceItem" preserve="all" />
+    <type fullname="HotFix.UIGuildShopViewModule" preserve="all" />
+    <type fullname="HotFix.UIGuildTaskItem" preserve="all" />
+    <type fullname="HotFix.UIGuildTreasuryGlobalEntry" preserve="all" />
+    <type fullname="HotFix.UIHardMissionRewardViewModule" preserve="all" />
+    <type fullname="HotFix.UIHiddenWhenLessTwoActiveChild" preserve="all" />
+    <type fullname="HotFix.UIItem" preserve="all" />
+    <type fullname="HotFix.UIItemAnim" preserve="all" />
+    <type fullname="HotFix.UIItemGetter" preserve="all" />
+    <type fullname="HotFix.UIItemInfoButton" preserve="all" />
+    <type fullname="HotFix.UILevelDetailViewModule" preserve="all" />
+    <type fullname="HotFix.UIMainActivity" preserve="all" />
+    <type fullname="HotFix.UIMainActivityBossNode" preserve="all" />
+    <type fullname="HotFix.UIMainActivityCrossArenaNode" preserve="all" />
+    <type fullname="HotFix.UIMainActivityGoldDungeon" preserve="all" />
+    <type fullname="HotFix.UIMainActivityNodeAnim" preserve="all" />
+    <type fullname="HotFix.UIMainActivityRuneDungeon" preserve="all" />
+    <type fullname="HotFix.UIMainActivityTowerNode" preserve="all" />
+    <type fullname="HotFix.UIMainBattle" preserve="all" />
+    <type fullname="HotFix.UIMainBattleAnimator" preserve="all" />
+    <type fullname="HotFix.UIMainButton_Activity" preserve="all" />
+    <type fullname="HotFix.UIMainButtonGuild" preserve="all" />
+    <type fullname="HotFix.UIMainCard" preserve="all" />
+    <type fullname="HotFix.UIMainCard_CardItem" preserve="all" />
+    <type fullname="HotFix.UIMainCard_CardList" preserve="all" />
+    <type fullname="HotFix.UIMainCard_Technology" preserve="all" />
+    <type fullname="HotFix.UIMainCardAnimator" preserve="all" />
+    <type fullname="HotFix.UIMainEmpty" preserve="all" />
+    <type fullname="HotFix.UIMainEquip" preserve="all" />
+    <type fullname="HotFix.UIMainHeadquarterItem" preserve="all" />
+    <type fullname="HotFix.UIMainHeadquarterPlaneItem" preserve="all" />
+    <type fullname="HotFix.UIMainHeadquarters.UIMainHeadquarterViewModule" preserve="all" />
+    <type fullname="HotFix.UIMainPagesCtrl" preserve="all" />
+    <type fullname="HotFix.UIMainPageTabNodeBattle" preserve="all" />
+    <type fullname="HotFix.UIMainPageTabNodeDefalut" preserve="all" />
+    <type fullname="HotFix.UIMainShopViewModule" preserve="all" />
+    <type fullname="HotFix.UIMainTabButtonBag" preserve="all" />
+    <type fullname="HotFix.UIMainTabButtonBattlePassFund" preserve="all" />
+    <type fullname="HotFix.UIMainTabButtonBigActivity" preserve="all" />
+    <type fullname="HotFix.UIMainTabButtonCarnival" preserve="all" />
+    <type fullname="HotFix.UIMainTabButtonDiving" preserve="all" />
+    <type fullname="HotFix.UIMainTabButtonFirstGift" preserve="all" />
+    <type fullname="HotFix.UIMainTabButtonFishing" preserve="all" />
+    <type fullname="HotFix.UIMainTabButtonMail" preserve="all" />
+    <type fullname="HotFix.UIMainTabButtonSetting" preserve="all" />
+    <type fullname="HotFix.UIMainTabButtonSpecialOfferGift" preserve="all" />
+    <type fullname="HotFix.UIMainTabButtonSubscribe" preserve="all" />
+    <type fullname="HotFix.UIMainTabButtonTask" preserve="all" />
+    <type fullname="HotFix.UIMainTabButtonTurntable" preserve="all" />
+    <type fullname="HotFix.UIMainTabLeft" preserve="all" />
+    <type fullname="HotFix.UIMainTabRight" preserve="all" />
+    <type fullname="HotFix.UIMissionGiftItem" preserve="all" />
+    <type fullname="HotFix.UIMissionGiftShop" preserve="all" />
+    <type fullname="HotFix.UINetLoading" preserve="all" />
+    <type fullname="HotFix.UINewMonster" preserve="all" />
+    <type fullname="HotFix.UINewMonsterItem" preserve="all" />
+    <type fullname="HotFix.UIOneButton4MiniGame" preserve="all" />
+    <type fullname="HotFix.UIOneButtonCtrl" preserve="all" />
+    <type fullname="HotFix.UIPageBtnCtrl" preserve="all" />
+    <type fullname="HotFix.UIPlaneMainViewModule" preserve="all" />
+    <type fullname="HotFix.UIPlaneSkinInfoViewModule" preserve="all" />
+    <type fullname="HotFix.UIPlaneSkinItem" preserve="all" />
+    <type fullname="HotFix.UIPlaneSkinMainViewModule" preserve="all" />
+    <type fullname="HotFix.UIPlaneSkinSkillItem" preserve="all" />
+    <type fullname="HotFix.UIPlaneSkinSkillPreviewItem" preserve="all" />
+    <type fullname="HotFix.UIPlaneSkinSkillPreviewViewModule" preserve="all" />
+    <type fullname="HotFix.UIPlaneSkinSkillWearItem" preserve="all" />
+    <type fullname="HotFix.UIPlaneSkinStarUpViewModule" preserve="all" />
+    <type fullname="HotFix.UIPlaneSkinUnlockViewModule" preserve="all" />
+    <type fullname="HotFix.UIPlaneSkinUpStarAnimViewModule" preserve="all" />
+    <type fullname="HotFix.UIPlaneStarLockAttributeItem" preserve="all" />
+    <type fullname="HotFix.UIPlayerAvatarGroup" preserve="all" />
+    <type fullname="HotFix.UIPopCommon" preserve="all" />
+    <type fullname="HotFix.UIRedNode" preserve="all" />
+    <type fullname="HotFix.UIReleaseGoldFingerCtrl" preserve="all" />
+    <type fullname="HotFix.UIRelicFiltItem" preserve="all" />
+    <type fullname="HotFix.UIRelicGroupItem" preserve="all" />
+    <type fullname="HotFix.UIRelicItem" preserve="all" />
+    <type fullname="HotFix.UIRoleSelectItem" preserve="all" />
+    <type fullname="HotFix.UIRuneAttributeShowViewModule" preserve="all" />
+    <type fullname="HotFix.UIRuneDetailReplaceViewModule" preserve="all" />
+    <type fullname="HotFix.UIRuneDetailViewModule" preserve="all" />
+    <type fullname="HotFix.UIRuneEffectItem" preserve="all" />
+    <type fullname="HotFix.UIRuneEnchantmentDetail" preserve="all" />
+    <type fullname="HotFix.UIRuneEnchantmentItem" preserve="all" />
+    <type fullname="HotFix.UIRuneItem" preserve="all" />
+    <type fullname="HotFix.UIRuneMainViewModule" preserve="all" />
+    <type fullname="HotFix.UIRuneMergeConfirmViewModule" preserve="all" />
+    <type fullname="HotFix.UIRuneSelectItem" preserve="all" />
+    <type fullname="HotFix.UIRuneSelectViewModule" preserve="all" />
+    <type fullname="HotFix.UIRuneSkillItem" preserve="all" />
+    <type fullname="HotFix.UIRuneWearItemGroup" preserve="all" />
+    <type fullname="HotFix.UIScrollNodeCtrl" preserve="all" />
+    <type fullname="HotFix.UISettingEffectWeakCtrl" preserve="all" />
+    <type fullname="HotFix.UISettingLanguageCtrl" preserve="all" />
+    <type fullname="HotFix.UISettingMusicCtrl" preserve="all" />
+    <type fullname="HotFix.UISettingQualityCtrl" preserve="all" />
+    <type fullname="HotFix.UISettingServerSelectCtrl" preserve="all" />
+    <type fullname="HotFix.UISettingSlowGameSpeedCtrl" preserve="all" />
+    <type fullname="HotFix.UISettingSoundCtrl" preserve="all" />
+    <type fullname="HotFix.UISettingUserIDCtrl" preserve="all" />
+    <type fullname="HotFix.UISettingVibrationCtrl" preserve="all" />
+    <type fullname="HotFix.UIShopCurrency" preserve="all" />
+    <type fullname="HotFix.UIShopVitality" preserve="all" />
+    <type fullname="HotFix.UISkill" preserve="all" />
+    <type fullname="HotFix.UISkillInfo" preserve="all" />
+    <type fullname="HotFix.UISpecialOfferGiftViewModule" preserve="all" />
+    <type fullname="HotFix.UISprintExchangeItem" preserve="all" />
+    <type fullname="HotFix.UISprintExchangeShopViewModule" preserve="all" />
+    <type fullname="HotFix.UIStateController" preserve="all" />
+    <type fullname="HotFix.UITaskItem" preserve="all" />
+    <type fullname="HotFix.UITaskMain" preserve="all" />
+    <type fullname="HotFix.UITechnologyAttrItem" preserve="all" />
+    <type fullname="HotFix.UITechnologyBuffItem" preserve="all" />
+    <type fullname="HotFix.UITechnologyItem" preserve="all" />
+    <type fullname="HotFix.UITechnologyOperationViewModule" preserve="all" />
+    <type fullname="HotFix.UITechnologyUpLevelViewModule" preserve="all" />
+    <type fullname="HotFix.UITurntableBoxCtrl" preserve="all" />
+    <type fullname="HotFix.UITurntableBoxNode" preserve="all" />
+    <type fullname="HotFix.UITurntableFundNode" preserve="all" />
+    <type fullname="HotFix.UIUltimateRelicItem" preserve="all" />
+    <type fullname="HotFix.UIWorldBossChooseRuneView" preserve="all" />
+    <type fullname="HotFix.UIWorldBossRuneItem" preserve="all" />
+    <type fullname="HotFix.UnifiedRankRewardViewModule" preserve="all" />
+    <type fullname="HotFix.UnifiedRankViewModule" preserve="all" />
+    <type fullname="HotFix.UniversalUIAnimator" preserve="all" />
+    <type fullname="HotFix.UpdateAppViewModule" preserve="all" />
+    <type fullname="HotFix.UpdateResourcesViewModule" preserve="all" />
+    <type fullname="HotFix.VideoPreviewViewModule" preserve="all" />
+    <type fullname="HotFix.VitalityUICtrl" preserve="all" />
+    <type fullname="HotFix.WaterfallProcessItem" preserve="all" />
+    <type fullname="HotFix.WaveUnit" preserve="all" />
+    <type fullname="HotFix.WeaponController" preserve="all" />
+    <type fullname="HotFix.WeaponDeployPanel" preserve="all" />
+    <type fullname="HotFix.WeaponDeploySkillItem" preserve="all" />
+    <type fullname="HotFix.WeaponDeploySkillSlotList" preserve="all" />
+    <type fullname="HotFix.WeaponDeploySlotItem" preserve="all" />
+    <type fullname="HotFix.WeaponEquipPreviewViewModule" preserve="all" />
+    <type fullname="HotFix.WeaponInfoItem" preserve="all" />
+    <type fullname="HotFix.WeaponInfoViewModule" preserve="all" />
+    <type fullname="HotFix.WeaponItem" preserve="all" />
+    <type fullname="HotFix.WeaponPropPreviewViewModule" preserve="all" />
+    <type fullname="HotFix.WeaponSkillController" preserve="all" />
+    <type fullname="HotFix.WeaponSkillItem" preserve="all" />
+    <type fullname="HotFix.WeaponSkillLabItem" preserve="all" />
+    <type fullname="HotFix.WeaponSkillPreviewItem" preserve="all" />
+    <type fullname="HotFix.WeaponSkillPreviewViewModule" preserve="all" />
+    <type fullname="HotFix.WeaponStarUpViewModule" preserve="all" />
+    <type fullname="HotFix.WeaponUnlockViewModule" preserve="all" />
+    <type fullname="HotFix.WeaponUpStarAnimViewModule" preserve="all" />
+    <type fullname="HotFix.WeaponViewModule" preserve="all" />
+    <type fullname="HotFix.WheelRewardDialog" preserve="all" />
+    <type fullname="HotFix.WheelSkillDialog" preserve="all" />
+    <type fullname="HotFix.WheelSymbol" preserve="all" />
+    <type fullname="HotFix.WheelSymbolReward" preserve="all" />
+    <type fullname="HotFix.WorldBossAnimView" preserve="all" />
+    <type fullname="HotFix.WorldBossDamageView" preserve="all" />
+    <type fullname="HotFix.WorldBossLevelLockItem" preserve="all" />
+    <type fullname="HotFix.WorldBossMainView" preserve="all" />
+    <type fullname="HotFix.WorldBossRankPanel" preserve="all" />
+    <type fullname="HotFix.WorldUIArena" preserve="all" />
+    <type fullname="HotFix.WorldUIBoss" preserve="all" />
+    <type fullname="HotFix.WorldUIMain" preserve="all" />
+    <type fullname="HotFix.WorldUIMultiMode" preserve="all" />
+    <type fullname="HotFix.WorldUITower" preserve="all" />
+    <type fullname="HotFix.WorldViewModule" preserve="all" />
+    <type fullname="ImageAreaMask" preserve="all" />
+    <type fullname="ImageFadeAnimation" preserve="all" />
+    <type fullname="MapChapter" preserve="all" />
+    <type fullname="MonsterHandBookItem" preserve="all" />
+    <type fullname="MultiAreaMask" preserve="all" />
+    <type fullname="PauseSkillDescItem" preserve="all" />
+    <type fullname="ProgressTextCtrl" preserve="all" />
+    <type fullname="ScaleAnimation" preserve="all" />
+    <type fullname="UIOneCostCtrl" preserve="all" />
+    <type fullname="UIParticleBakeCameraFixer" preserve="all" />
+    <type fullname="UIPlaneGradeLockAttributeItem" preserve="all" />
+    <type fullname="UIPlaneOperationViewModule" preserve="all" />
+    <type fullname="HotFix.UniversalUIAnimator/AnimElement" preserve="nothing" serialized="true" />
+    <type fullname="HotFix.DiscountCtrl/DiscountConfig" preserve="nothing" serialized="true" />
+    <type fullname="HotFix.TabRedNodeVisibilityCtrl/TabRedNodeItem" preserve="nothing" serialized="true" />
+    <type fullname="HotFix.UnityEventInt" preserve="nothing" serialized="true" />
+    <type fullname="HotFix.StateConfig" preserve="nothing" serialized="true" />
+    <type fullname="HotFix.StateElement" preserve="nothing" serialized="true" />
+    <type fullname="HotFix.DankeSelectEffect" preserve="nothing" serialized="true" />
+    <type fullname="HotFix.QualityGameobjectList" preserve="nothing" serialized="true" />
+    <type fullname="HotFix.TurntableBtnMapper" preserve="nothing" serialized="true" />
+    <type fullname="HotFix.ShowBoxParticle/BoxParticleEntry" preserve="nothing" serialized="true" />
+    <type fullname="HotFix.ShowBoxRewardViewModule/BoxTypeConfig" preserve="nothing" serialized="true" />
+    <type fullname="HotFix.ItemFlyInfo" preserve="nothing" serialized="true" />
+    <type fullname="HotFix.GuildUI.GuildChestSlotItem/GuildChestEffectResourceMap" preserve="nothing" serialized="true" />
+    <type fullname="HotFix.GuildUI.GuildChestSlotItem/GuildChestEffectSet" preserve="nothing" serialized="true" />
+    <type fullname="HotFix.HighFivePlayerItemAvatar" preserve="nothing" serialized="true" />
+    <type fullname="HotFix.HighFiveShowBgItem" preserve="nothing" serialized="true" />
+    <type fullname="HotFix.UIActivityWeekViewModule/ActViewData" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="OptimizeTool, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="LockRotation" preserve="all" />
+    <type fullname="SimpleDoScale" preserve="all" />
+    <type fullname="SpriteSequenceAnimator" preserve="all" />
+    <type fullname="SimpleDoScale/ScaleKeyFrame" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="PhotonQuantum, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="BinaryDataAsset" preserve="all" />
+    <type fullname="EntityPrototype" preserve="all" />
+    <type fullname="EntityPrototypeAsset" preserve="all" />
+    <type fullname="MapAsset" preserve="all" />
+    <type fullname="MapData" preserve="all" />
+    <type fullname="MapNavMeshDefinition" preserve="all" />
+    <type fullname="NavMeshAsset" preserve="all" />
+    <type fullname="Quantum.AssetResourceContainer" preserve="all" />
+    <type fullname="QuantumStaticPolygonCollider2D" preserve="all" />
+    <type fullname="EntityPrototype/InitialNavMeshTargetInfo" preserve="nothing" serialized="true" />
+    <type fullname="EntityPrototype/NavMeshAvoidanceAgentInfo" preserve="nothing" serialized="true" />
+    <type fullname="EntityPrototype/NavMeshPathfinderInfo" preserve="nothing" serialized="true" />
+    <type fullname="EntityPrototype/NavMeshSpec" preserve="nothing" serialized="true" />
+    <type fullname="EntityPrototype/NavMeshSteeringAgentInfo" preserve="nothing" serialized="true" />
+    <type fullname="EntityPrototype/OverrideFP" preserve="nothing" serialized="true" />
+    <type fullname="EntityPrototype/PhysicsBodyGeneric" preserve="nothing" serialized="true" />
+    <type fullname="EntityPrototype/PhysicsColliderGeneric" preserve="nothing" serialized="true" />
+    <type fullname="EntityPrototype/Transform2DVerticalInfo" preserve="nothing" serialized="true" />
+    <type fullname="Quantum.AssetResourceContainer/AssetResourceInfoGroup_Addressables" preserve="nothing" serialized="true" />
+    <type fullname="Quantum.AssetResourceContainer/AssetResourceInfoGroup_AssetBundle" preserve="nothing" serialized="true" />
+    <type fullname="Quantum.AssetResourceContainer/AssetResourceInfoGroup_Resources" preserve="nothing" serialized="true" />
+    <type fullname="Quantum.AssetResourceContainer/AssetResourceInfo_Addressables" preserve="nothing" serialized="true" />
+    <type fullname="Quantum.AssetResourceContainer/AssetResourceInfo_Resources" preserve="nothing" serialized="true" />
+    <type fullname="MapNavMesh/FindClosestTriangleCalculation" preserve="nothing" serialized="true" />
+    <type fullname="MapNavMeshTriangle" preserve="nothing" serialized="true" />
+    <type fullname="MapNavMeshVertex" preserve="nothing" serialized="true" />
+    <type fullname="QuantumMapDataBakeFlags" preserve="nothing" serialized="true" />
+    <type fullname="QuantumStaticColliderSettings" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="spine-unity, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="Spine.Unity.SkeletonAnimation" preserve="all" />
+    <type fullname="Spine.Unity.SkeletonDataAsset" preserve="all" />
+    <type fullname="Spine.Unity.SkeletonGraphic" preserve="all" />
+    <type fullname="Spine.Unity.SkeletonUtility" preserve="all" />
+    <type fullname="Spine.Unity.SkeletonUtilityBone" preserve="all" />
+    <type fullname="Spine.Unity.SpineAtlasAsset" preserve="all" />
+    <type fullname="Spine.Unity.BlendModeMaterials" preserve="nothing" serialized="true" />
+    <type fullname="Spine.Unity.BlendModeMaterials/ReplacementMaterial" preserve="nothing" serialized="true" />
+    <type fullname="Spine.Unity.MeshGenerator" preserve="nothing" serialized="true" />
+    <type fullname="Spine.Unity.MeshGenerator/Settings" preserve="nothing" serialized="true" />
+    <type fullname="Spine.Unity.SkeletonRenderer/SpriteMaskInteractionMaterials" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="SuperScrollView, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="SuperScrollView.LoopGridView" preserve="all" />
+    <type fullname="SuperScrollView.LoopGridViewItem" preserve="all" />
+    <type fullname="SuperScrollView.LoopListView2" preserve="all" />
+    <type fullname="SuperScrollView.LoopListViewItem2" preserve="all" />
+    <type fullname="SuperScrollView.ScrollRectEx" preserve="all" />
+    <type fullname="SuperScrollView.GridViewItemPrefabConfData" preserve="nothing" serialized="true" />
+    <type fullname="SuperScrollView.ItemPrefabConfData" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="Unity.Addressables, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" preserve="all">
+    <type fullname="UnityEngine.AddressableAssets.Addressables" preserve="all" />
+  </assembly>
+  <assembly fullname="Unity.AI.Navigation, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="Unity.AI.Navigation.NavMeshSurface" preserve="all" />
+  </assembly>
+  <assembly fullname="Unity.ResourceManager, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" preserve="all">
+    <type fullname="UnityEngine.ResourceManagement.ResourceProviders.AssetBundleProvider" preserve="all" />
+    <type fullname="UnityEngine.ResourceManagement.ResourceProviders.AtlasSpriteProvider" preserve="all" />
+    <type fullname="UnityEngine.ResourceManagement.ResourceProviders.BundledAssetProvider" preserve="all" />
+    <type fullname="UnityEngine.ResourceManagement.ResourceProviders.InstanceProvider" preserve="all" />
+    <type fullname="UnityEngine.ResourceManagement.ResourceProviders.SceneProvider" preserve="all" />
+  </assembly>
+  <assembly fullname="Unity.TextMeshPro, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="TMPro.TextMeshPro" preserve="all" />
+    <type fullname="TMPro.TextMeshProUGUI" preserve="all" />
+    <type fullname="TMPro.TMP_FontAsset" preserve="all" />
+    <type fullname="TMPro.TMP_SpriteAsset" preserve="all" />
+    <type fullname="TMPro.VertexGradient" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.FaceInfo_Legacy" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.FontAssetCreationSettings" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.KerningTable" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.TMP_FontFeatureTable" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.TMP_FontWeightPair" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.TMP_SpriteCharacter" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.TMP_SpriteGlyph" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="Unity.Timeline, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.Timeline.AnimationPlayableAsset" preserve="all" />
+    <type fullname="UnityEngine.Timeline.AnimationTrack" preserve="all" />
+    <type fullname="UnityEngine.Timeline.TimelineAsset" preserve="all" />
+    <type fullname="UnityEngine.Timeline.MarkerList" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Timeline.TimelineAsset/EditorSettings" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Timeline.TimelineClip" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="UnityEngine.AnimationModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.Animation" preserve="all" />
+    <type fullname="UnityEngine.AnimationClip" preserve="all" />
+    <type fullname="UnityEngine.Animations.ScaleConstraint" preserve="all" />
+    <type fullname="UnityEngine.Animator" preserve="all" />
+    <type fullname="UnityEngine.Avatar" preserve="all" />
+    <type fullname="UnityEngine.RuntimeAnimatorController" preserve="all" />
+  </assembly>
+  <assembly fullname="UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.AudioClip" preserve="all" />
+    <type fullname="UnityEngine.AudioListener" preserve="all" />
+    <type fullname="UnityEngine.AudioSource" preserve="all" />
+  </assembly>
+  <assembly fullname="UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.Camera" preserve="all" />
+    <type fullname="UnityEngine.Cubemap" preserve="all" />
+    <type fullname="UnityEngine.GameObject" preserve="all" />
+    <type fullname="UnityEngine.Light" preserve="all" />
+    <type fullname="UnityEngine.LightmapSettings" preserve="all" />
+    <type fullname="UnityEngine.LineRenderer" preserve="all" />
+    <type fullname="UnityEngine.Material" preserve="all" />
+    <type fullname="UnityEngine.Mesh" preserve="all" />
+    <type fullname="UnityEngine.MeshFilter" preserve="all" />
+    <type fullname="UnityEngine.MeshRenderer" preserve="all" />
+    <type fullname="UnityEngine.MonoBehaviour" preserve="all" />
+    <type fullname="UnityEngine.Object" preserve="all" />
+    <type fullname="UnityEngine.RectTransform" preserve="all" />
+    <type fullname="UnityEngine.Rendering.SortingGroup" preserve="all" />
+    <type fullname="UnityEngine.RenderSettings" preserve="all" />
+    <type fullname="UnityEngine.Shader" preserve="all" />
+    <type fullname="UnityEngine.SkinnedMeshRenderer" preserve="all" />
+    <type fullname="UnityEngine.Sprite" preserve="all" />
+    <type fullname="UnityEngine.SpriteRenderer" preserve="all" />
+    <type fullname="UnityEngine.TextAsset" preserve="all" />
+    <type fullname="UnityEngine.Texture2D" preserve="all" />
+    <type fullname="UnityEngine.TrailRenderer" preserve="all" />
+    <type fullname="UnityEngine.Transform" preserve="all" />
+    <type fullname="UnityEngine.U2D.SpriteAtlas" preserve="all" />
+    <type fullname="UnityEngine.Events.ArgumentCache" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Events.PersistentCallGroup" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Events.PersistentListenerMode" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Events.UnityEvent" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.RectOffset" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="UnityEngine.DirectorModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.Playables.PlayableDirector" preserve="all" />
+  </assembly>
+  <assembly fullname="UnityEngine.ParticleSystemModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.ParticleSystem" preserve="all" />
+    <type fullname="UnityEngine.ParticleSystemRenderer" preserve="all" />
+  </assembly>
+  <assembly fullname="UnityEngine.Physics2DModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.BoxCollider2D" preserve="all" />
+    <type fullname="UnityEngine.CapsuleCollider2D" preserve="all" />
+    <type fullname="UnityEngine.CircleCollider2D" preserve="all" />
+    <type fullname="UnityEngine.EdgeCollider2D" preserve="all" />
+    <type fullname="UnityEngine.HingeJoint2D" preserve="all" />
+    <type fullname="UnityEngine.PolygonCollider2D" preserve="all" />
+    <type fullname="UnityEngine.Rigidbody2D" preserve="all" />
+  </assembly>
+  <assembly fullname="UnityEngine.PhysicsModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.BoxCollider" preserve="all" />
+    <type fullname="UnityEngine.MeshCollider" preserve="all" />
+    <type fullname="UnityEngine.Rigidbody" preserve="all" />
+    <type fullname="UnityEngine.SphereCollider" preserve="all" />
+  </assembly>
+  <assembly fullname="UnityEngine.TextRenderingModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.Font" preserve="all" />
+  </assembly>
+  <assembly fullname="UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.UI.AspectRatioFitter" preserve="all" />
+    <type fullname="UnityEngine.UI.Button" preserve="all" />
+    <type fullname="UnityEngine.UI.CanvasScaler" preserve="all" />
+    <type fullname="UnityEngine.UI.ContentSizeFitter" preserve="all" />
+    <type fullname="UnityEngine.UI.Dropdown" preserve="all" />
+    <type fullname="UnityEngine.UI.GraphicRaycaster" preserve="all" />
+    <type fullname="UnityEngine.UI.GridLayoutGroup" preserve="all" />
+    <type fullname="UnityEngine.UI.HorizontalLayoutGroup" preserve="all" />
+    <type fullname="UnityEngine.UI.Image" preserve="all" />
+    <type fullname="UnityEngine.UI.InputField" preserve="all" />
+    <type fullname="UnityEngine.UI.LayoutElement" preserve="all" />
+    <type fullname="UnityEngine.UI.Mask" preserve="all" />
+    <type fullname="UnityEngine.UI.Outline" preserve="all" />
+    <type fullname="UnityEngine.UI.RawImage" preserve="all" />
+    <type fullname="UnityEngine.UI.RectMask2D" preserve="all" />
+    <type fullname="UnityEngine.UI.ScrollRect" preserve="all" />
+    <type fullname="UnityEngine.UI.Slider" preserve="all" />
+    <type fullname="UnityEngine.UI.Text" preserve="all" />
+    <type fullname="UnityEngine.UI.Toggle" preserve="all" />
+    <type fullname="UnityEngine.UI.ToggleGroup" preserve="all" />
+    <type fullname="UnityEngine.UI.VerticalLayoutGroup" preserve="all" />
+    <type fullname="UnityEngine.UI.AnimationTriggers" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UI.Button/ButtonClickedEvent" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UI.ColorBlock" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UI.FontData" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UI.InputField/EndEditEvent" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UI.InputField/OnChangeEvent" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UI.InputField/SubmitEvent" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UI.MaskableGraphic/CullStateChangedEvent" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UI.Navigation" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UI.ScrollRect/ScrollRectEvent" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UI.SpriteState" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UI.Slider/SliderEvent" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UI.Toggle/ToggleEvent" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UI.Dropdown/DropdownEvent" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UI.Dropdown/OptionData" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UI.Dropdown/OptionDataList" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="UnityEngine.UIModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.Canvas" preserve="all" />
+    <type fullname="UnityEngine.CanvasGroup" preserve="all" />
+    <type fullname="UnityEngine.CanvasRenderer" preserve="all" />
+  </assembly>
+  <assembly fullname="UnityEngine.VideoModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.Video.VideoClip" preserve="all" />
+    <type fullname="UnityEngine.Video.VideoPlayer" preserve="all" />
+  </assembly>
+  <assembly fullname="PhotonDeterministic">
+    <type fullname="Photon.Deterministic.FP" preserve="nothing" serialized="true" />
+    <type fullname="Photon.Deterministic.FPVector2" preserve="nothing" serialized="true" />
+    <type fullname="Photon.Deterministic.FPVector3" preserve="nothing" serialized="true" />
+    <type fullname="Photon.Deterministic.NullableFP" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="quantum.core">
+    <type fullname="Quantum.AssetGuid" preserve="nothing" serialized="true" />
+    <type fullname="Quantum.AssetObjectIdentifier" preserve="nothing" serialized="true" />
+    <type fullname="Quantum.AssetRef" preserve="nothing" serialized="true" />
+    <type fullname="Quantum.AssetRefBinaryData" preserve="nothing" serialized="true" />
+    <type fullname="Quantum.AssetRefEntityView" preserve="nothing" serialized="true" />
+    <type fullname="Quantum.AssetRefNavMesh" preserve="nothing" serialized="true" />
+    <type fullname="Quantum.AssetRefNavMeshAgentConfig" preserve="nothing" serialized="true" />
+    <type fullname="Quantum.AssetRefPhysicsMaterial" preserve="nothing" serialized="true" />
+    <type fullname="Quantum.AssetRefPolygonCollider" preserve="nothing" serialized="true" />
+    <type fullname="Quantum.BinaryData" preserve="nothing" serialized="true" />
+    <type fullname="Quantum.CallbackFlags_Wrapper" preserve="nothing" serialized="true" />
+    <type fullname="Quantum.EntityPrototype" preserve="nothing" serialized="true" />
+    <type fullname="Quantum.EntityPrototypeContainer" preserve="nothing" serialized="true" />
+    <type fullname="Quantum.Map" preserve="nothing" serialized="true" />
+    <type fullname="Quantum.MapStaticCollider2D" preserve="nothing" serialized="true" />
+    <type fullname="Quantum.NavMesh" preserve="nothing" serialized="true" />
+    <type fullname="Quantum.PolygonCollider" preserve="nothing" serialized="true" />
+    <type fullname="Quantum.Shape2DConfig" preserve="nothing" serialized="true" />
+    <type fullname="Quantum.Shape3DConfig" preserve="nothing" serialized="true" />
+    <type fullname="Quantum.StaticColliderData" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="UnityEngine.TextCoreFontEngineModule">
+    <type fullname="UnityEngine.TextCore.FaceInfo" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.TextCore.GlyphMetrics" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.TextCore.GlyphRect" preserve="nothing" serialized="true" />
+  </assembly>
+</linker>

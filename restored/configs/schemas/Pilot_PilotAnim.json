@@ -1,0 +1,38 @@
+{
+  "name": "Pilot_PilotAnim",
+  "assembly": "HotFixBattle.dll",
+  "read_impl_rva": "0x6ad1b0c",
+  "fields": [
+    {
+      "type": "int",
+      "name": "Id",
+      "offset": 32,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "PilotID",
+      "offset": 36,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "RoleID",
+      "offset": 40,
+      "reader": "readInt"
+    },
+    {
+      "type": "string",
+      "name": "PilotIdelAnim",
+      "offset": 48,
+      "reader": "readLocalString"
+    }
+  ],
+  "native_reader_calls": [
+    "readInt",
+    "readInt",
+    "readInt",
+    "readLocalString"
+  ],
+  "field_count_matches_native_calls": true
+}

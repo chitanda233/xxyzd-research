@@ -1,0 +1,108 @@
+{
+  "name": "IAP_Subscribe",
+  "assembly": "HotFixBattle.dll",
+  "read_impl_rva": "0x6aaae74",
+  "fields": [
+    {
+      "type": "int",
+      "name": "id",
+      "offset": 32,
+      "reader": "readInt"
+    },
+    {
+      "type": "string",
+      "name": "notes",
+      "offset": 40,
+      "reader": "readLocalString"
+    },
+    {
+      "type": "int",
+      "name": "FunctionID",
+      "offset": 48,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "ShopGoodsID",
+      "offset": 52,
+      "reader": "readInt"
+    },
+    {
+      "type": "string",
+      "name": "NameID",
+      "offset": 56,
+      "reader": "readLocalString"
+    },
+    {
+      "type": "int",
+      "name": "LastDay",
+      "offset": 64,
+      "reader": "readInt"
+    },
+    {
+      "type": "int[][]",
+      "name": "Reward",
+      "offset": 72,
+      "reader": "readArrayArrayint"
+    },
+    {
+      "type": "int[][]",
+      "name": "RewardOnce",
+      "offset": 80,
+      "reader": "readArrayArrayint"
+    },
+    {
+      "type": "int",
+      "name": "Pairs",
+      "offset": 88,
+      "reader": "readInt"
+    },
+    {
+      "type": "int[][]",
+      "name": "RewardPair",
+      "offset": 96,
+      "reader": "readArrayArrayint"
+    },
+    {
+      "type": "int[]",
+      "name": "Privilege",
+      "offset": 104,
+      "reader": "readArrayint"
+    },
+    {
+      "type": "int",
+      "name": "Rank",
+      "offset": 112,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "Color",
+      "offset": 116,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "BtnTipsID",
+      "offset": 120,
+      "reader": "readInt"
+    }
+  ],
+  "native_reader_calls": [
+    "readInt",
+    "readLocalString",
+    "readInt",
+    "readInt",
+    "readLocalString",
+    "readInt",
+    "readArrayArrayint",
+    "readArrayArrayint",
+    "readInt",
+    "readArrayArrayint",
+    "readArrayint",
+    "readInt",
+    "readInt",
+    "readInt"
+  ],
+  "field_count_matches_native_calls": true
+}

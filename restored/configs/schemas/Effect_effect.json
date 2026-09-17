@@ -1,0 +1,38 @@
+{
+  "name": "Effect_effect",
+  "assembly": "HotFixBattle.dll",
+  "read_impl_rva": "0x6a62cac",
+  "fields": [
+    {
+      "type": "long",
+      "name": "id",
+      "offset": 32,
+      "reader": "readLong"
+    },
+    {
+      "type": "string",
+      "name": "notes",
+      "offset": 40,
+      "reader": "readLocalString"
+    },
+    {
+      "type": "string",
+      "name": "path",
+      "offset": 48,
+      "reader": "readLocalString"
+    },
+    {
+      "type": "string",
+      "name": "lowPath",
+      "offset": 56,
+      "reader": "readLocalString"
+    }
+  ],
+  "native_reader_calls": [
+    "readLong",
+    "readLocalString",
+    "readLocalString",
+    "readLocalString"
+  ],
+  "field_count_matches_native_calls": true
+}

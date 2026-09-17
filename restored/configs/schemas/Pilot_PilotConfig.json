@@ -1,0 +1,66 @@
+{
+  "name": "Pilot_PilotConfig",
+  "assembly": "HotFixBattle.dll",
+  "read_impl_rva": "0x6ad2510",
+  "fields": [
+    {
+      "type": "string",
+      "name": "key",
+      "offset": 32,
+      "reader": "readLocalString"
+    },
+    {
+      "type": "string",
+      "name": "Desc",
+      "offset": 40,
+      "reader": "readLocalString"
+    },
+    {
+      "type": "int",
+      "name": "TypeInt",
+      "offset": 48,
+      "reader": "readInt"
+    },
+    {
+      "type": "int[]",
+      "name": "TypeIntArray",
+      "offset": 56,
+      "reader": "readArrayint"
+    },
+    {
+      "type": "string",
+      "name": "TypeString",
+      "offset": 64,
+      "reader": "readLocalString"
+    },
+    {
+      "type": "float",
+      "name": "TypeFloat",
+      "offset": 72,
+      "reader": "readFloat"
+    },
+    {
+      "type": "float[]",
+      "name": "TypeFloatArray",
+      "offset": 80,
+      "reader": "readArrayfloat"
+    },
+    {
+      "type": "string[]",
+      "name": "TypeStringArray",
+      "offset": 88,
+      "reader": "readArraystring"
+    }
+  ],
+  "native_reader_calls": [
+    "readLocalString",
+    "readLocalString",
+    "readInt",
+    "readArrayint",
+    "readLocalString",
+    "readFloat",
+    "readArrayfloat",
+    "readArraystring"
+  ],
+  "field_count_matches_native_calls": true
+}

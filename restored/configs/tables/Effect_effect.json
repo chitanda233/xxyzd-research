@@ -1,0 +1,2084 @@
+[
+  {
+    "id": 100001,
+    "notes": "战斗特效-子弹发射特效-弓箭发射-黄色",
+    "path": "Assets/_Resources/Effect/BulletStart/arrow_white.prefab",
+    "lowPath": "Assets/_Resources/Effect/Common/Empty.prefab"
+  },
+  {
+    "id": 100002,
+    "notes": "战斗特效-孢子发射特效",
+    "path": "Assets/_Resources/Effect/BulletStart/SlimeMuzzleUse.prefab",
+    "lowPath": "Assets/_Resources/Effect/Prefabs/Release/SlimeMuzzleUse.prefab"
+  },
+  {
+    "id": 100003,
+    "notes": "战斗特效-蝎子尾刺发射特效",
+    "path": "Assets/_Resources/Effect/BulletStart/ShapefulMuzzleflashUse.prefab",
+    "lowPath": "Assets/_Resources/Effect/Prefabs/Release/ShapefulMuzzleflashUse.prefab"
+  },
+  {
+    "id": 100004,
+    "notes": "战斗特效-大石头发射特效",
+    "path": "Assets/_Resources/Effect/BulletStart/StoneMuzzle.prefab",
+    "lowPath": "Assets/_Resources/Effect/Prefabs/Release/StoneMuzzle.prefab"
+  },
+  {
+    "id": 100005,
+    "notes": "战斗特效-魔法球发射绿",
+    "path": "Assets/_Resources/Effect/BulletStart/FlashGreen.prefab",
+    "lowPath": "Assets/_Resources/Effect/Prefabs/Release/FlashGreen.prefab"
+  },
+  {
+    "id": 100006,
+    "notes": "战斗特效-火球发射",
+    "path": "Assets/_Resources/Effect/BulletStart/FireRed.prefab",
+    "lowPath": "Assets/_Resources/Effect/Prefabs/Release/FireRed.prefab"
+  },
+  {
+    "id": 100007,
+    "notes": "战斗特效-紫魔法发射",
+    "path": "Assets/_Resources/Effect/BulletStart/PurpleMagicStart.prefab",
+    "lowPath": "Assets/_Resources/Effect/Prefabs/Release/PurpleMagicStart.prefab"
+  },
+  {
+    "id": 100008,
+    "notes": "战斗特效-星星发射",
+    "path": "Assets/_Resources/Effect/BulletStart/FlashStar.prefab",
+    "lowPath": "Assets/_Resources/Effect/Prefabs/Release/FlashStar.prefab"
+  },
+  {
+    "id": 100009,
+    "notes": "战斗特效-水球发射",
+    "path": "Assets/_Resources/Effect/BulletStart/FlashWater.prefab",
+    "lowPath": "Assets/_Resources/Effect/Prefabs/Release/FlashWater.prefab"
+  },
+  {
+    "id": 100010,
+    "notes": "战斗特效-鬼火发射",
+    "path": "Assets/_Resources/Effect/BulletStart/FlashGreenFire.prefab",
+    "lowPath": "Assets/_Resources/Effect/Prefabs/Release/FlashGreenFire.prefab"
+  },
+  {
+    "id": 100011,
+    "notes": "战斗特效-蛋发射",
+    "path": "Assets/_Resources/Effect/BulletStart/MuzzleWhite.prefab",
+    "lowPath": "Assets/_Resources/Effect/Prefabs/Release/MuzzleWhite.prefab"
+  },
+  {
+    "id": 100012,
+    "notes": "战斗特效-心发射",
+    "path": "Assets/_Resources/Effect/BulletStart/FlashHeart.prefab",
+    "lowPath": "Assets/_Resources/Effect/Prefabs/Release/FlashHeart.prefab"
+  },
+  {
+    "id": 100013,
+    "notes": "战斗特效-紫光波发射",
+    "path": "Assets/_Resources/Effect/BulletStart/VioletWaveFlash.prefab",
+    "lowPath": "Assets/_Resources/Effect/Prefabs/Release/VioletWaveFlash.prefab"
+  },
+  {
+    "id": 100014,
+    "notes": "战斗特效-紫星星发射",
+    "path": "Assets/_Resources/Effect/BulletStart/FlashStarPurple.prefab",
+    "lowPath": "Assets/_Resources/Effect/Prefabs/Release/FlashStarPurple.prefab"
+  },
+  {
+    "id": 100015,
+    "notes": "战斗特效-紫炸弹发射",
+    "path": "Assets/_Resources/Effect/BulletStart/SparkleMuzzlePink.prefab",
+    "lowPath": "Assets/_Resources/Effect/Prefabs/Release/SparkleMuzzlePink.prefab"
+  },
+  {
+    "id": 100016,
+    "notes": "战斗特效-植物子弹发射",
+    "path": "Assets/_Resources/Effect/BulletStart/FlashBulletPlant.prefab",
+    "lowPath": "Assets/_Resources/Effect/Prefabs/Release/FlashBulletPlant.prefab"
+  },
+  {
+    "id": 100017,
+    "notes": "战斗特效-紫色星星发射",
+    "path": "Assets/_Resources/Effect/BulletStart/SoftPunchExtremePurple.prefab",
+    "lowPath": "Assets/_Resources/Effect/Prefabs/Release/SoftPunchExtremePurple.prefab"
+  },
+  {
+    "id": 100018,
+    "notes": "战斗特效-孢子发射",
+    "path": "Assets/_Resources/Effect/BulletStart/FlashBulletStrain.prefab",
+    "lowPath": "Assets/_Resources/Effect/Prefabs/Release/FlashBulletStrain.prefab"
+  },
+  {
+    "id": 100019,
+    "notes": "战斗特效-红色星星发射",
+    "path": "Assets/_Resources/Effect/BulletStart/SoftPunchExtremeRed.prefab",
+    "lowPath": "Assets/_Resources/Effect/Prefabs/Release/SoftPunchExtremeRed.prefab"
+  },
+  {
+    "id": 100020,
+    "notes": "战斗特效-蜜蜂子弹发射",
+    "path": "Assets/_Resources/Effect/BulletStart/BeeMuzzleflashUse.prefab",
+    "lowPath": "Assets/_Resources/Effect/Prefabs/Release/BeeMuzzleflashUse.prefab"
+  },
+  {
+    "id": 100021,
+    "notes": "战斗特效-蓝色星星发射",
+    "path": "Assets/_Resources/Effect/BulletStart/SoftPunchExtremeBlue.prefab",
+    "lowPath": "Assets/_Resources/Effect/Prefabs/Release/SoftPunchExtremeBlue.prefab"
+  },
+  {
+    "id": 100022,
+    "notes": "战斗特效-精灵发射子弹特效",
+    "path": "Assets/_Resources/Effect/BulletStart/sprite_start.prefab",
+    "lowPath": "Assets/_Resources/Effect/Prefabs/Release/Sprite_Start.prefab"
+  },
+  {
+    "id": 100023,
+    "notes": "战斗特效-精英怪周身特效",
+    "path": "Assets/_Resources/Effect/Monster/elite.prefab",
+    "lowPath": "Assets/_Resources/Effect/Prefabs/Buff/Elite.prefab"
+  },
+  {
+    "id": 100024,
+    "notes": "战斗特效-子弹发射特效-弓箭发射-蓝色",
+    "path": "Assets/_Resources/Effect/BulletStart/arrow_Blue.prefab",
+    "lowPath": "Assets/_Resources/Effect/BulletStart/arrow_Blue.prefab"
+  },
+  {
+    "id": 110001,
+    "notes": "战斗特效-子弹击中特效-实体箭",
+    "path": "Assets/_Resources/Effect/BulletHit/ArrowHit.prefab",
+    "lowPath": "Assets/_Resources/Effect/Prefabs/Hit/ArrowHit.prefab"
+  },
+  {
+    "id": 110002,
+    "notes": "战斗特效-孢子击中特效绿",
+    "path": "Assets/_Resources/Effect/BulletHit/SlimeExplosionDarkGreen.prefab",
+    "lowPath": "Assets/_Resources/Effect/Prefabs/Hit/SlimeExplosionDarkGreen.prefab"
+  },
+  {
+    "id": 110003,
+    "notes": "战斗特效-孢子击中特效黄",
+    "path": "Assets/_Resources/Effect/BulletHit/SlimeExplosionYellow.prefab",
+    "lowPath": "Assets/_Resources/Effect/Prefabs/Hit/SlimeExplosionYellow.prefab"
+  },
+  {
+    "id": 110004,
+    "notes": "战斗特效-大石头击中特效",
+    "path": "Assets/_Resources/Effect/BulletHit/StoneExplosion.prefab",
+    "lowPath": "Assets/_Resources/Effect/Prefabs/Hit/StoneExplosion.prefab"
+  },
+  {
+    "id": 110005,
+    "notes": "战斗特效-蛋击中特效",
+    "path": "Assets/_Resources/Effect/BulletHit/EggExplosionYellow.prefab",
+    "lowPath": "Assets/_Resources/Effect/Prefabs/Hit/EggExplosionYellow.prefab"
+  },
+  {
+    "id": 110006,
+    "notes": "战斗特效-魔法球击中绿",
+    "path": "Assets/_Resources/Effect/BulletHit/HitGreen.prefab",
+    "lowPath": "Assets/_Resources/Effect/Prefabs/Hit/HitGreen.prefab"
+  },
+  {
+    "id": 110007,
+    "notes": "战斗特效-炸弹击中特效",
+    "path": "Assets/_Resources/Effect/BulletHit/FireNovaBombUse.prefab",
+    "lowPath": "Assets/_Resources/Effect/Prefabs/Hit/FireNovaBombUse.prefab"
+  },
+  {
+    "id": 110008,
+    "notes": "战斗特效-火球击中特效",
+    "path": "Assets/_Resources/Effect/BulletHit/HitFireRed.prefab",
+    "lowPath": "Assets/_Resources/Effect/Prefabs/Hit/HitFireRed.prefab"
+  },
+  {
+    "id": 110009,
+    "notes": "战斗特效-紫魔法击中",
+    "path": "Assets/_Resources/Effect/BulletHit/PurpleMagicHitIn.prefab",
+    "lowPath": "Assets/_Resources/Effect/Prefabs/Hit/PurpleMagicHitIn.prefab"
+  },
+  {
+    "id": 110010,
+    "notes": "战斗特效-石头子弹击中",
+    "path": "Assets/_Resources/Effect/BulletHit/StoneCoalExplosion.prefab",
+    "lowPath": "Assets/_Resources/Effect/Prefabs/Hit/StoneCoalExplosion.prefab"
+  },
+  {
+    "id": 110011,
+    "notes": "战斗特效-怪物箭击中特效",
+    "path": "Assets/_Resources/Effect/BulletHit/ArrowHitPurple.prefab",
+    "lowPath": "Assets/_Resources/Effect/Prefabs/Hit/ArrowHitPurple.prefab"
+  },
+  {
+    "id": 110012,
+    "notes": "战斗特效-星星击中",
+    "path": "Assets/_Resources/Effect/BulletHit/HitStar.prefab",
+    "lowPath": "Assets/_Resources/Effect/Prefabs/Hit/HitStar.prefab"
+  },
+  {
+    "id": 110013,
+    "notes": "战斗特效-弓箭爆炸特效",
+    "path": "Assets/_Resources/Effect/Skill/ExplosionSimple.prefab",
+    "lowPath": "Assets/_Resources/Effect/Prefabs/Hit/ExplosionSimple.prefab"
+  },
+  {
+    "id": 110014,
+    "notes": "战斗特效-水球击中",
+    "path": "Assets/_Resources/Effect/BulletHit/HitWater.prefab",
+    "lowPath": "Assets/_Resources/Effect/Prefabs/Hit/HitWater.prefab"
+  },
+  {
+    "id": 110015,
+    "notes": "战斗特效-鬼火击中",
+    "path": "Assets/_Resources/Effect/BulletHit/HitGreenFire.prefab",
+    "lowPath": "Assets/_Resources/Effect/Prefabs/Hit/HitGreenFire.prefab"
+  },
+  {
+    "id": 110016,
+    "notes": "战斗特效-心击中",
+    "path": "Assets/_Resources/Effect/BulletHit/HitHeart.prefab",
+    "lowPath": "Assets/_Resources/Effect/Prefabs/Hit/HitHeart.prefab"
+  },
+  {
+    "id": 110017,
+    "notes": "战斗特效-闪电环击中",
+    "path": "Assets/_Resources/Effect/BulletHit/LightningMuzzleBlue.prefab",
+    "lowPath": "Assets/_Resources/Effect/Prefabs/Hit/LightningMuzzleBlue.prefab"
+  },
+  {
+    "id": 110018,
+    "notes": "战斗特效-环消失",
+    "path": "Assets/_Resources/Effect/BulletHit/RingEnd.prefab",
+    "lowPath": "Assets/_Resources/Effect/Prefabs/Hit/RingEnd.prefab"
+  },
+  {
+    "id": 110019,
+    "notes": "战斗特效-激光环消失",
+    "path": "Assets/_Resources/Effect/BulletHit/LaserRingEnd.prefab",
+    "lowPath": "Assets/_Resources/Effect/Prefabs/Hit/LaserRingEnd.prefab"
+  },
+  {
+    "id": 110020,
+    "notes": "粘性炸弹",
+    "path": "Assets/_Resources/Effect/Skill/ice_bomb01.prefab",
+    "lowPath": "Assets/_Resources/Effect/Prefabs/Hit/ice_bomb01.prefab"
+  },
+  {
+    "id": 110021,
+    "notes": "战斗特效-紫光波击中",
+    "path": "Assets/_Resources/Effect/BulletHit/VioletWaveHit.prefab",
+    "lowPath": "Assets/_Resources/Effect/Prefabs/Hit/VioletWaveHit.prefab"
+  },
+  {
+    "id": 110022,
+    "notes": "战斗特效-紫星星击中",
+    "path": "Assets/_Resources/Effect/BulletHit/HitStarPurple.prefab",
+    "lowPath": "Assets/_Resources/Effect/Prefabs/Hit/HitStarPurple.prefab"
+  },
+  {
+    "id": 110023,
+    "notes": "战斗特效-怪物落地爆炸特效",
+    "path": "Assets/_Resources/Effect/Skill/ExplosionSimple2.prefab",
+    "lowPath": "Assets/_Resources/Effect/Prefabs/Hit/ExplosionSimple2.prefab"
+  },
+  {
+    "id": 110024,
+    "notes": "战斗特效-紫炸弹击中",
+    "path": "Assets/_Resources/Effect/BulletHit/SparkleExplosionPink.prefab",
+    "lowPath": "Assets/_Resources/Effect/Prefabs/Hit/SparkleExplosionPink.prefab"
+  },
+  {
+    "id": 110025,
+    "notes": "战斗特效-植物子弹击中",
+    "path": "Assets/_Resources/Effect/BulletHit/HitBulletPlant.prefab",
+    "lowPath": "Assets/_Resources/Effect/Prefabs/Hit/HitBulletPlant.prefab"
+  },
+  {
+    "id": 110026,
+    "notes": "战斗特效-孢子击中",
+    "path": "Assets/_Resources/Effect/BulletHit/HitBulletStrain.prefab",
+    "lowPath": "Assets/_Resources/Effect/Prefabs/Hit/HitBulletStrain.prefab"
+  },
+  {
+    "id": 110027,
+    "notes": "战斗特效-红星星击中",
+    "path": "Assets/_Resources/Effect/BulletHit/HitStarRed.prefab",
+    "lowPath": "Assets/_Resources/Effect/Prefabs/Hit/HitStarRed.prefab"
+  },
+  {
+    "id": 110028,
+    "notes": "战斗特效-疾风环消失",
+    "path": "Assets/_Resources/Effect/BulletHit/WindRingEnd.prefab",
+    "lowPath": "Assets/_Resources/Effect/Prefabs/Hit/WindRingEnd.prefab"
+  },
+  {
+    "id": 110029,
+    "notes": "战斗特效-疾风环击中",
+    "path": "Assets/_Resources/Effect/BulletHit/HitWind.prefab",
+    "lowPath": "Assets/_Resources/Effect/Prefabs/Hit/HitWind.prefab"
+  },
+  {
+    "id": 110030,
+    "notes": "战斗特效-雷电击中",
+    "path": "Assets/_Resources/Effect/BulletHit/Lightning_Golden_hit.prefab",
+    "lowPath": "Assets/_Resources/Effect/Prefabs/Hit/Lightning_Golden_hit.prefab"
+  },
+  {
+    "id": 110031,
+    "notes": "战斗特效-怪物落地爆炸特效小",
+    "path": "Assets/_Resources/Effect/Skill/ExplosionSimple3.prefab",
+    "lowPath": "Assets/_Resources/Effect/Prefabs/Hit/ExplosionSimple3.prefab"
+  },
+  {
+    "id": 110032,
+    "notes": "战斗特效-蜜蜂子弹击中",
+    "path": "Assets/_Resources/Effect/BulletHit/BeeExplosionYellow.prefab",
+    "lowPath": "Assets/_Resources/Effect/Prefabs/Hit/BeeExplosionYellow.prefab"
+  },
+  {
+    "id": 110033,
+    "notes": "战斗特效-蝙蝠子弹击中",
+    "path": "Assets/_Resources/Effect/BulletHit/BatSoundExplosion.prefab",
+    "lowPath": "Assets/_Resources/Effect/Prefabs/Hit/BatSoundExplosion.prefab"
+  },
+  {
+    "id": 110034,
+    "notes": "战斗特效-天火和陨星落地爆炸",
+    "path": "Assets/_Resources/Effect/BulletHit/SkyFireExplosion.prefab",
+    "lowPath": "Assets/_Resources/Effect/Prefabs/Hit/SkyFireExplosion.prefab"
+  },
+  {
+    "id": 110035,
+    "notes": "战斗特效-拳套子弹销毁",
+    "path": "Assets/_Resources/Effect/BulletHit/QuantaoExplosion.prefab",
+    "lowPath": "Assets/_Resources/Effect/Prefabs/Hit/QuantaoExplosion.prefab"
+  },
+  {
+    "id": 110036,
+    "notes": "战斗特效-分裂陨星落地爆炸",
+    "path": "Assets/_Resources/Effect/BulletHit/SkyFireExplosionLittle.prefab",
+    "lowPath": "Assets/_Resources/Effect/Prefabs/Hit/SkyFireExplosionLittle.prefab"
+  },
+  {
+    "id": 110037,
+    "notes": "战斗特效-冰陨星落地爆炸",
+    "path": "Assets/_Resources/Effect/BulletHit/SkyIceExplosion.prefab",
+    "lowPath": "Assets/_Resources/Effect/Prefabs/Hit/SkyIceExplosion.prefab"
+  },
+  {
+    "id": 110038,
+    "notes": "战斗特效-冰分裂陨星落地爆炸",
+    "path": "Assets/_Resources/Effect/BulletHit/SkyIceExplosionLittle.prefab",
+    "lowPath": "Assets/_Resources/Effect/Prefabs/Hit/SkyIceExplosionLittle.prefab"
+  },
+  {
+    "id": 110039,
+    "notes": "战斗特效-雷陨星落地爆炸",
+    "path": "Assets/_Resources/Prefab/Bullet/Hero/MFX_LuoLei.prefab",
+    "lowPath": "Assets/_Resources/Prefab/Bullet/Hero/MFX_LuoLei.prefab"
+  },
+  {
+    "id": 110040,
+    "notes": "战斗特效-雷分裂陨星落地爆炸",
+    "path": "Assets/_Resources/Effect/BulletHit/SkyThunderExplosionLittle.prefab",
+    "lowPath": "Assets/_Resources/Effect/Prefabs/Hit/SkyThunderExplosionLittle.prefab"
+  },
+  {
+    "id": 110041,
+    "notes": "战斗特效-毒陨星落地爆炸",
+    "path": "Assets/_Resources/Effect/BulletHit/SkyPoisonExplosion.prefab",
+    "lowPath": "Assets/_Resources/Effect/Prefabs/Hit/SkyPoisonExplosion.prefab"
+  },
+  {
+    "id": 110042,
+    "notes": "战斗特效-毒分裂陨星落地爆炸",
+    "path": "Assets/_Resources/Effect/BulletHit/SkyPoisonExplosionLittle.prefab",
+    "lowPath": "Assets/_Resources/Effect/Prefabs/Hit/SkyPoisonExplosionLittle.prefab"
+  },
+  {
+    "id": 110043,
+    "notes": "战斗特效-红子弹击中",
+    "path": "Assets/_Resources/Effect/BulletHit/MonsterBulletRedHit.prefab",
+    "lowPath": "Assets/_Resources/Effect/Prefabs/Hit/MonsterBulletRedHit.prefab"
+  },
+  {
+    "id": 110044,
+    "notes": "战斗特效-黄子弹击中",
+    "path": "Assets/_Resources/Effect/BulletHit/MonsterBulletYellowHit.prefab",
+    "lowPath": "Assets/_Resources/Effect/Prefabs/Hit/MonsterBulletYellowHit.prefab"
+  },
+  {
+    "id": 110045,
+    "notes": "战斗特效-绿击中特效",
+    "path": "Assets/_Resources/Effect/BulletHit/EggExplosionGreen.prefab",
+    "lowPath": "Assets/_Resources/Effect/Prefabs/Hit/EggExplosionGreen.prefab"
+  },
+  {
+    "id": 110046,
+    "notes": "战斗特效-橙色子弹击中",
+    "path": "Assets/_Resources/Effect/BulletHit/MonsterBulletOrangeHit.prefab",
+    "lowPath": "Assets/_Resources/Effect/Prefabs/Hit/MonsterBulletOrangeHit.prefab"
+  },
+  {
+    "id": 110047,
+    "notes": "战斗特效-镰刀击中-紫色",
+    "path": "Assets/_Resources/Effect/BulletHit/SickleHit_Purple.prefab",
+    "lowPath": "Assets/_Resources/Effect/Prefabs/Hit/SickleHit_Purple.prefab"
+  },
+  {
+    "id": 110048,
+    "notes": "战斗特效-紫色毒液-销毁特效",
+    "path": "Assets/_Resources/Effect/Bullet/Poison_Purple_Dispear.prefab",
+    "lowPath": "Assets/_Resources/Effect/Prefabs/Hit/Poison_Purple_Dispear.prefab"
+  },
+  {
+    "id": 110049,
+    "notes": "战斗特效-绿炸弹击中",
+    "path": "Assets/_Resources/Effect/BulletHit/SparkleExplosionGreen.prefab",
+    "lowPath": "Assets/_Resources/Effect/Prefabs/Hit/SparkleExplosionGreen.prefab"
+  },
+  {
+    "id": 110050,
+    "notes": "战斗特效-独眼法师传送特效",
+    "path": "Assets/_Resources/Effect/Monster/DuYanFaShi_Transfer.prefab",
+    "lowPath": "Assets/_Resources/Effect/Prefabs/Hit/DuYanFaShi_Transfer.prefab"
+  },
+  {
+    "id": 110051,
+    "notes": "战斗特效-火陨星落地爆炸特效",
+    "path": "Assets/_Resources/Effect/BulletHit/MeteoriteHit_Fire.prefab",
+    "lowPath": "Assets/_Resources/Effect/Prefabs/Hit/MeteoriteHit_Fire.prefab"
+  },
+  {
+    "id": 110052,
+    "notes": "战斗特效-冰陨星落地爆炸特效",
+    "path": "Assets/_Resources/Effect/BulletHit/MeteoriteHit_Ice.prefab",
+    "lowPath": "Assets/_Resources/Effect/Prefabs/Hit/MeteoriteHit_Ice.prefab"
+  },
+  {
+    "id": 110053,
+    "notes": "战斗特效-雷陨星落地爆炸特效",
+    "path": "Assets/_Resources/Effect/BulletHit/MeteoriteHit_Thunder.prefab",
+    "lowPath": "Assets/_Resources/Effect/Prefabs/Hit/MeteoriteHit_Thunder.prefab"
+  },
+  {
+    "id": 110054,
+    "notes": "战斗特效-毒陨星落地爆炸特效",
+    "path": "Assets/_Resources/Effect/BulletHit/MeteoriteHit_Poison.prefab",
+    "lowPath": "Assets/_Resources/Effect/Prefabs/Hit/MeteoriteHit_Poison.prefab"
+  },
+  {
+    "id": 110055,
+    "notes": "战斗特效-蓄力巨箭击中",
+    "path": "Assets/_Resources/Effect/BulletHit/HitHugeArrow.prefab",
+    "lowPath": "Assets/_Resources/Effect/Prefabs/Hit/HitHugeArrow.prefab"
+  },
+  {
+    "id": 110056,
+    "notes": "战斗特效-镰刀击中-红色",
+    "path": "Assets/_Resources/Effect/BulletHit/SickleHit_Red.prefab",
+    "lowPath": "Assets/_Resources/Effect/Prefabs/Hit/SickleHit_Red.prefab"
+  },
+  {
+    "id": 110057,
+    "notes": "战斗特效-击中特效-蓝色",
+    "path": "Assets/_Resources/Effect/BulletHit/HitBlue.prefab",
+    "lowPath": "Assets/_Resources/Effect/Prefabs/Hit/HitBlue.prefab"
+  },
+  {
+    "id": 110058,
+    "notes": "战斗特效-击中特效-白色",
+    "path": "Assets/_Resources/Effect/BulletHit/HitWhite.prefab",
+    "lowPath": "Assets/_Resources/Effect/Prefabs/Hit/HitWhite.prefab"
+  },
+  {
+    "id": 110059,
+    "notes": "战斗特效-环消失",
+    "path": "Assets/_Resources/Effect/BulletHit/RingEndL.prefab",
+    "lowPath": ""
+  },
+  {
+    "id": 110060,
+    "notes": "战斗特效-激光环消失",
+    "path": "Assets/_Resources/Effect/BulletHit/LaserRingEndL.prefab",
+    "lowPath": ""
+  },
+  {
+    "id": 120001,
+    "notes": "战斗特效-单位受击特效",
+    "path": "Assets/_Resources/Effect/Common/hitted_normal.prefab",
+    "lowPath": "Assets/_Resources/Effect/Prefabs/Hit/hitted_normal.prefab"
+  },
+  {
+    "id": 120002,
+    "notes": "战斗特效-单位受击骨头",
+    "path": "Assets/_Resources/Effect/Common/hitted_bone.prefab",
+    "lowPath": "Assets/_Resources/Effect/Prefabs/Hit/hitted_bone.prefab"
+  },
+  {
+    "id": 120003,
+    "notes": "战斗特效-孢子砸地特效",
+    "path": "Assets/_Resources/Effect/BulletHit/SlimeExplosionDarkGreenOnground.prefab",
+    "lowPath": "Assets/_Resources/Effect/Prefabs/Hit/SlimeExplosionDarkGreenOnground.prefab"
+  },
+  {
+    "id": 120004,
+    "notes": "战斗特效-boss孢子砸地特效",
+    "path": "Assets/_Resources/Effect/BulletHit/SlimeExplosionDarkGreenOngroundBoss.prefab",
+    "lowPath": "Assets/_Resources/Effect/Prefabs/Hit/SlimeExplosionDarkGreenOngroundBoss.prefab"
+  },
+  {
+    "id": 120005,
+    "notes": "闪电链蓄力特效",
+    "path": "Assets/_Resources/Prefab/Bullet/Hero/MFX_Lightning_Start_Bullet_1.prefab",
+    "lowPath": "Assets/_Resources/Prefab/Bullet/Hero/MFX_Lightning_Start_Bullet_1.prefab"
+  },
+  {
+    "id": 120006,
+    "notes": "闪电链受击特效",
+    "path": "Assets/_Resources/Prefab/Bullet/Hero/MFX_Lightning_Hit_Bullet_1.prefab",
+    "lowPath": "Assets/_Resources/Prefab/Bullet/Hero/MFX_Lightning_Hit_Bullet_1.prefab"
+  },
+  {
+    "id": 120007,
+    "notes": "闪电链发射特效",
+    "path": "Assets/_Resources/Prefab/Bullet/Hero/MFX_Lightning_Launching_Bullet_1.prefab",
+    "lowPath": "Assets/_Resources/Prefab/Bullet/Hero/MFX_Lightning_Launching_Bullet_1.prefab"
+  },
+  {
+    "id": 130000,
+    "notes": "战斗特效-怪物死亡特效-通用",
+    "path": "Assets/_Resources/Effect/MonsterDeath/Death.prefab",
+    "lowPath": "Assets/_Resources/Effect/Prefabs/Common/Death.prefab"
+  },
+  {
+    "id": 130001,
+    "notes": "战斗特效-怪物死亡特效-蓝",
+    "path": "Assets/_Resources/Effect/MonsterDeath/MonsterDeathBlue.prefab",
+    "lowPath": "Assets/_Resources/Effect/Prefabs/Common/MonsterDeathBlue.prefab"
+  },
+  {
+    "id": 130002,
+    "notes": "战斗特效-怪物死亡特效-绿",
+    "path": "Assets/_Resources/Effect/MonsterDeath/MonsterDeathGreen.prefab",
+    "lowPath": "Assets/_Resources/Effect/Prefabs/Common/MonsterDeathGreen.prefab"
+  },
+  {
+    "id": 130003,
+    "notes": "战斗特效-怪物死亡特效-紫",
+    "path": "Assets/_Resources/Effect/MonsterDeath/MonsterDeathPurple.prefab",
+    "lowPath": "Assets/_Resources/Effect/Prefabs/Common/MonsterDeathPurple.prefab"
+  },
+  {
+    "id": 130004,
+    "notes": "战斗特效-怪物死亡特效-红",
+    "path": "Assets/_Resources/Effect/MonsterDeath/MonsterDeathRed.prefab",
+    "lowPath": "Assets/_Resources/Effect/Prefabs/Common/MonsterDeathRed.prefab"
+  },
+  {
+    "id": 130005,
+    "notes": "战斗特效-怪物死亡特效-黄",
+    "path": "Assets/_Resources/Effect/MonsterDeath/MonsterDeathYellow.prefab",
+    "lowPath": "Assets/_Resources/Effect/Prefabs/Common/MonsterDeathYellow.prefab"
+  },
+  {
+    "id": 130006,
+    "notes": "战斗特效-怪物死亡特效-灰",
+    "path": "Assets/_Resources/Effect/MonsterDeath/MonsterDeathGray.prefab",
+    "lowPath": "Assets/_Resources/Effect/Prefabs/Common/MonsterDeathGray.prefab"
+  },
+  {
+    "id": 140001,
+    "notes": "英雄自带-跑步尾气",
+    "path": "Assets/_Resources/Effect/Common/Smoke.prefab",
+    "lowPath": "Assets/_Resources/Effect/Prefabs/Common/Smoke.prefab"
+  },
+  {
+    "id": 140002,
+    "notes": "气球爆炸特效",
+    "path": "Assets/_Resources/Effect/Widget/hitouter1.prefab",
+    "lowPath": "Assets/_Resources/Effect/Prefabs/Common/hitouter1.prefab"
+  },
+  {
+    "id": 140003,
+    "notes": "怪物出生特效",
+    "path": "Assets/_Resources/Effect/MonsterDeath/Birth.prefab",
+    "lowPath": "Assets/_Resources/Effect/Prefabs/Common/Birth.prefab"
+  },
+  {
+    "id": 140004,
+    "notes": "主角出生特效",
+    "path": "Assets/_Resources/Effect/Common/FX_BirthSmoke.prefab",
+    "lowPath": "Assets/_Resources/Effect/Prefabs/Common/FX_BirthSmoke.prefab"
+  },
+  {
+    "id": 140005,
+    "notes": "死亡爆炸特效",
+    "path": "Assets/_Resources/Effect/Skill/FX_Bomb_01.prefab",
+    "lowPath": "Assets/_Resources/Effect/Prefabs/Common/FX_Bomb_01.prefab"
+  },
+  {
+    "id": 140006,
+    "notes": "蠕虫土堆效果",
+    "path": "Assets/_Resources/Prefab/Entity/UndergroundWorm/GroundEarth.prefab",
+    "lowPath": "Assets/_Resources/Effect/Prefabs/Common/GroundEarth.prefab"
+  },
+  {
+    "id": 140007,
+    "notes": "刷怪预警红圈",
+    "path": "Assets/_Resources/Effect/Skill/BornWarning.prefab",
+    "lowPath": "Assets/_Resources/Effect/Prefabs/Common/BornWarning.prefab"
+  },
+  {
+    "id": 140008,
+    "notes": "主角升级特效",
+    "path": "Assets/_Resources/Effect/Common/FX_LevelUp.prefab",
+    "lowPath": "Assets/_Resources/Effect/Prefabs/Common/FX_LevelUp.prefab"
+  },
+  {
+    "id": 140009,
+    "notes": "主角无敌特效",
+    "path": "Assets/_Resources/Effect/Hero/ShieldYellow.prefab",
+    "lowPath": "Assets/_Resources/Effect/Prefabs/Common/ShieldYellow.prefab"
+  },
+  {
+    "id": 140010,
+    "notes": "蠕虫boss土堆效果",
+    "path": "Assets/_Resources/Prefab/Entity/UndergroundWorm/GroundEarthBoss.prefab",
+    "lowPath": "Assets/_Resources/Effect/Prefabs/Common/GroundEarthBoss.prefab"
+  },
+  {
+    "id": 140011,
+    "notes": "主角复活特效",
+    "path": "Assets/_Resources/Effect/Hero/revive.prefab",
+    "lowPath": "Assets/_Resources/Effect/Prefabs/Common/Revive.prefab"
+  },
+  {
+    "id": 140012,
+    "notes": "冰封爆点",
+    "path": "Assets/_Resources/Effect/Hero/FX_Hit_BingFeng.prefab",
+    "lowPath": "Assets/_Resources/Effect/Prefabs/Common/FX_Hit_BingFeng.prefab"
+  },
+  {
+    "id": 140013,
+    "notes": "惩戒爆点",
+    "path": "Assets/_Resources/Effect/Hero/FX_Hit_ChengJie.prefab",
+    "lowPath": "Assets/_Resources/Effect/Prefabs/Common/FX_Hit_ChengJie.prefab"
+  },
+  {
+    "id": 140014,
+    "notes": "吸经验反馈",
+    "path": "Assets/_Resources/Effect/Hero/Glow.prefab",
+    "lowPath": "Assets/_Resources/Effect/Prefabs/Common/Glow.prefab"
+  },
+  {
+    "id": 140015,
+    "notes": "怪物出生光柱",
+    "path": "Assets/_Resources/Effect/Monster/MonsterBorn.prefab",
+    "lowPath": "Assets/_Resources/Effect/Prefabs/Common/MonsterBorn.prefab"
+  },
+  {
+    "id": 140017,
+    "notes": "怪物闪现特效",
+    "path": "Assets/_Resources/Effect/Monster/Monsterflash.prefab",
+    "lowPath": "Assets/_Resources/Effect/Prefabs/Common/Monsterflash.prefab"
+  },
+  {
+    "id": 140018,
+    "notes": "疾风爆点",
+    "path": "Assets/_Resources/Effect/Hero/StormEnchant.prefab",
+    "lowPath": "Assets/_Resources/Effect/Prefabs/Common/StormEnchant.prefab"
+  },
+  {
+    "id": 140019,
+    "notes": "冲刺攻击特效1",
+    "path": "Assets/_Resources/Effect/Skill/RushTrail001.prefab",
+    "lowPath": "Assets/_Resources/Effect/Prefabs/Common/RushTrail001.prefab"
+  },
+  {
+    "id": 140020,
+    "notes": "冲刺攻击特效2",
+    "path": "Assets/_Resources/Effect/Skill/RushTrail002.prefab",
+    "lowPath": "Assets/_Resources/Effect/Prefabs/Common/RushTrail002.prefab"
+  },
+  {
+    "id": 140021,
+    "notes": "冲刺攻击特效3",
+    "path": "Assets/_Resources/Effect/Skill/RushTrail003.prefab",
+    "lowPath": "Assets/_Resources/Effect/Prefabs/Common/RushTrail003.prefab"
+  },
+  {
+    "id": 140022,
+    "notes": "刷Boss预警红圈",
+    "path": "Assets/_Resources/Effect/Skill/BornWarningBoss.prefab",
+    "lowPath": "Assets/_Resources/Effect/Prefabs/Common/BornWarningBoss.prefab"
+  },
+  {
+    "id": 140023,
+    "notes": "冲刺攻击特效4",
+    "path": "Assets/_Resources/Effect/Skill/RushTrail004.prefab",
+    "lowPath": "Assets/_Resources/Effect/Prefabs/Common/RushTrail004.prefab"
+  },
+  {
+    "id": 140024,
+    "notes": "恶魔出生特效",
+    "path": "Assets/_Resources/Effect/NPC/emo_appear.prefab",
+    "lowPath": "Assets/_Resources/Effect/Prefabs/Common/Emo_appear.prefab"
+  },
+  {
+    "id": 140025,
+    "notes": "恶魔消失特效",
+    "path": "Assets/_Resources/Effect/NPC/emo_disappear.prefab",
+    "lowPath": "Assets/_Resources/Effect/Prefabs/Common/Emo_disappear.prefab"
+  },
+  {
+    "id": 140026,
+    "notes": "天使出生特效",
+    "path": "Assets/_Resources/Effect/NPC/tianshi_appear.prefab",
+    "lowPath": "Assets/_Resources/Effect/Prefabs/Common/Tianshi_appear.prefab"
+  },
+  {
+    "id": 140027,
+    "notes": "天使消失特效",
+    "path": "Assets/_Resources/Effect/NPC/tianshi_disappear.prefab",
+    "lowPath": "Assets/_Resources/Effect/Prefabs/Common/Tianshi_disappear.prefab"
+  },
+  {
+    "id": 140028,
+    "notes": "商人出生特效",
+    "path": "Assets/_Resources/Effect/NPC/fortune_appear.prefab",
+    "lowPath": "Assets/_Resources/Effect/Prefabs/Common/Fortune_appear.prefab"
+  },
+  {
+    "id": 140029,
+    "notes": "商人消失特效",
+    "path": "Assets/_Resources/Effect/NPC/fortune_disappear.prefab",
+    "lowPath": "Assets/_Resources/Effect/Prefabs/Common/Fortune_disappear.prefab"
+  },
+  {
+    "id": 140030,
+    "notes": "女武神出生特效",
+    "path": "Assets/_Resources/Effect/NPC/nvwushen_appear.prefab",
+    "lowPath": "Assets/_Resources/Effect/Prefabs/Common/NvWuShen_appear.prefab"
+  },
+  {
+    "id": 140031,
+    "notes": "女武神消失特效",
+    "path": "Assets/_Resources/Effect/NPC/nvwushen_disappear.prefab",
+    "lowPath": "Assets/_Resources/Effect/Prefabs/Common/NvWuShen_disappear.prefab"
+  },
+  {
+    "id": 150001,
+    "notes": "怪物预警感叹号",
+    "path": "Assets/_Resources/Effect/Widget/FX_Warnning.prefab",
+    "lowPath": "Assets/_Resources/Effect/Prefabs/Common/FX_Warnning.prefab"
+  },
+  {
+    "id": 150002,
+    "notes": "冲撞预警红框",
+    "path": "Assets/_Resources/Effect/Widget/WarningRect.prefab",
+    "lowPath": "Assets/_Resources/Effect/Prefabs/Common/WarningRect.prefab"
+  },
+  {
+    "id": 150003,
+    "notes": "激光红线预警",
+    "path": "Assets/_Resources/Effect/Bullet/WarningRedLine.prefab",
+    "lowPath": "Assets/_Resources/Effect/Prefabs/Common/WarningRedLine.prefab"
+  },
+  {
+    "id": 150004,
+    "notes": "天火法师落点预警",
+    "path": "Assets/_Resources/Effect/Widget/warning_circle.prefab",
+    "lowPath": "Assets/_Resources/Effect/Prefabs/Common/Warning_circle.prefab"
+  },
+  {
+    "id": 150005,
+    "notes": "天火法师大落点预警",
+    "path": "Assets/_Resources/Effect/Widget/warning_circle_big.prefab",
+    "lowPath": "Assets/_Resources/Effect/Prefabs/Common/Warning_circle_big.prefab"
+  },
+  {
+    "id": 150006,
+    "notes": "试炼塔狂热特效",
+    "path": "Assets/_Resources/Effect/Widget/MonsterFairyAtk.prefab",
+    "lowPath": ""
+  },
+  {
+    "id": 160001,
+    "notes": "治疗特效",
+    "path": "Assets/_Resources/Effect/Common/HealOnce.prefab",
+    "lowPath": ""
+  },
+  {
+    "id": 160002,
+    "notes": "减速圈特效",
+    "path": "Assets/_Resources/Effect/Skill/SlowDownCircle.prefab",
+    "lowPath": ""
+  },
+  {
+    "id": 160003,
+    "notes": "子弹减速环特效",
+    "path": "Assets/_Resources/Effect/Skill/BulletRetardCircle.prefab",
+    "lowPath": ""
+  },
+  {
+    "id": 160004,
+    "notes": "易伤环特效",
+    "path": "Assets/_Resources/Effect/Skill/VulnerabilityCircle.prefab",
+    "lowPath": ""
+  },
+  {
+    "id": 160005,
+    "notes": "易伤效果特效",
+    "path": "Assets/_Resources/Effect/Skill/SilenceDebuff.prefab",
+    "lowPath": ""
+  },
+  {
+    "id": 160006,
+    "notes": "无敌黄盾触发特效",
+    "path": "Assets/_Resources/Effect/Skill/ShieldYellowSkill.prefab",
+    "lowPath": ""
+  },
+  {
+    "id": 160007,
+    "notes": "狂热触发特效",
+    "path": "Assets/_Resources/Effect/Skill/FeverTrigger.prefab",
+    "lowPath": ""
+  },
+  {
+    "id": 160008,
+    "notes": "短程距离环",
+    "path": "Assets/_Resources/Effect/Skill/RingLight.prefab",
+    "lowPath": ""
+  },
+  {
+    "id": 160009,
+    "notes": "越站越勇分段特效3",
+    "path": "Assets/_Resources/Effect/Skill/FireBuff3.prefab",
+    "lowPath": ""
+  },
+  {
+    "id": 160010,
+    "notes": "越站越勇分段特效6",
+    "path": "Assets/_Resources/Effect/Skill/FireBuff6.prefab",
+    "lowPath": ""
+  },
+  {
+    "id": 160011,
+    "notes": "越站越勇分段特效9",
+    "path": "Assets/_Resources/Effect/Skill/FireBuff9.prefab",
+    "lowPath": ""
+  },
+  {
+    "id": 160012,
+    "notes": "天使光圈进圈特效",
+    "path": "Assets/_Resources/Effect/Skill/AngleBuff.prefab",
+    "lowPath": ""
+  },
+  {
+    "id": 160013,
+    "notes": "天雷",
+    "path": "Assets/_Resources/Effect/Skill/Lightning_Golden.prefab",
+    "lowPath": ""
+  },
+  {
+    "id": 160014,
+    "notes": "天火",
+    "path": "Assets/_Resources/Effect/Skill/Lightning_Golden.prefab",
+    "lowPath": ""
+  },
+  {
+    "id": 160015,
+    "notes": "蓝色光盾",
+    "path": "Assets/_Resources/Effect/Skill/ShieldBlueSkill.prefab",
+    "lowPath": ""
+  },
+  {
+    "id": 160016,
+    "notes": "精灵狂热触发特效",
+    "path": "Assets/_Resources/Effect/Skill/FX_HolyLight_003.prefab",
+    "lowPath": ""
+  },
+  {
+    "id": 160017,
+    "notes": "狂热精灵发动",
+    "path": "Assets/_Resources/Effect/Skill/FX_HolyLight_004.prefab",
+    "lowPath": ""
+  },
+  {
+    "id": 160018,
+    "notes": "主角-弱速度线",
+    "path": "Assets/_Resources/Effect/Skill/SuDuXian.prefab",
+    "lowPath": ""
+  },
+  {
+    "id": 160019,
+    "notes": "主角-强速度线",
+    "path": "Assets/_Resources/Effect/Skill/SuDuXian2.prefab",
+    "lowPath": ""
+  },
+  {
+    "id": 160020,
+    "notes": "主角-攻击小增强",
+    "path": "Assets/_Resources/Effect/Skill/Attack2.prefab",
+    "lowPath": ""
+  },
+  {
+    "id": 160021,
+    "notes": "主角-攻击大增强",
+    "path": "Assets/_Resources/Effect/Skill/Attack1.prefab",
+    "lowPath": ""
+  },
+  {
+    "id": 160022,
+    "notes": "主角-攻速小增强",
+    "path": "Assets/_Resources/Effect/Skill/AttackSpd1.prefab",
+    "lowPath": ""
+  },
+  {
+    "id": 160023,
+    "notes": "主角-攻速大增强",
+    "path": "Assets/_Resources/Effect/Skill/AttackSpd2.prefab",
+    "lowPath": ""
+  },
+  {
+    "id": 160024,
+    "notes": "主角-飞行翅膀",
+    "path": "Assets/_Resources/Effect/Skill/Wing.prefab",
+    "lowPath": ""
+  },
+  {
+    "id": 160025,
+    "notes": "主角-攻击&攻速",
+    "path": "Assets/_Resources/Effect/Skill/Attack&AtkSpd.prefab",
+    "lowPath": ""
+  },
+  {
+    "id": 160026,
+    "notes": "主角-头顶光环",
+    "path": "Assets/_Resources/Effect/Skill/HeadRing.prefab",
+    "lowPath": ""
+  },
+  {
+    "id": 160027,
+    "notes": "主角-吸血面具",
+    "path": "Assets/_Resources/Effect/Skill/HeadMask.prefab",
+    "lowPath": ""
+  },
+  {
+    "id": 160028,
+    "notes": "主角-幸运四叶草",
+    "path": "Assets/_Resources/Effect/Skill/CloverMini.prefab",
+    "lowPath": ""
+  },
+  {
+    "id": 160029,
+    "notes": "主角-幸运饼干",
+    "path": "Assets/_Resources/Effect/Skill/Clover.prefab",
+    "lowPath": ""
+  },
+  {
+    "id": 160030,
+    "notes": "主角-三相之力",
+    "path": "Assets/_Resources/Effect/Skill/3strong.prefab",
+    "lowPath": ""
+  },
+  {
+    "id": 160031,
+    "notes": "主角-恶魔发卡",
+    "path": "Assets/_Resources/Effect/Skill/DevilHair.prefab",
+    "lowPath": ""
+  },
+  {
+    "id": 160032,
+    "notes": "主角-幸运创口贴",
+    "path": "Assets/_Resources/Effect/Skill/CloverMini2.prefab",
+    "lowPath": ""
+  },
+  {
+    "id": 160033,
+    "notes": "主角-强速度线_黄色",
+    "path": "Assets/_Resources/Effect/Skill/SuDuXian2_Yellow.prefab",
+    "lowPath": ""
+  },
+  {
+    "id": 160034,
+    "notes": "主角-攻击大大增强",
+    "path": "Assets/_Resources/Effect/Skill/Attack3.prefab",
+    "lowPath": ""
+  },
+  {
+    "id": 160035,
+    "notes": "主角-双速大大增强",
+    "path": "Assets/_Resources/Effect/Skill/SpdCouple.prefab",
+    "lowPath": ""
+  },
+  {
+    "id": 160036,
+    "notes": "精灵加攻特效",
+    "path": "Assets/_Resources/Effect/Skill/FairyAtk.prefab",
+    "lowPath": ""
+  },
+  {
+    "id": 160037,
+    "notes": "火焰护盾",
+    "path": "Assets/_Resources/Effect/Skill/ShieldRedSkill.prefab",
+    "lowPath": ""
+  },
+  {
+    "id": 160038,
+    "notes": "圣物装饰-冥界锁链",
+    "path": "Assets/_Resources/Effect/Skill/emoChains.prefab",
+    "lowPath": ""
+  },
+  {
+    "id": 160039,
+    "notes": "圣物装饰-魔王之眼",
+    "path": "Assets/_Resources/Effect/Skill/emoEyes.prefab",
+    "lowPath": ""
+  },
+  {
+    "id": 160040,
+    "notes": "圣物装饰-堕天使之翼",
+    "path": "Assets/_Resources/Effect/Skill/emoWings.prefab",
+    "lowPath": ""
+  },
+  {
+    "id": 160041,
+    "notes": "圣物装饰-魔王角",
+    "path": "Assets/_Resources/Effect/Skill/emoHorns.prefab",
+    "lowPath": ""
+  },
+  {
+    "id": 160042,
+    "notes": "符文近战环1",
+    "path": "Assets/_Resources/Effect/Skill/AtkRing.prefab",
+    "lowPath": ""
+  },
+  {
+    "id": 160043,
+    "notes": "符文近战环2",
+    "path": "Assets/_Resources/Effect/Skill/AtkRing2.prefab",
+    "lowPath": ""
+  },
+  {
+    "id": 160044,
+    "notes": "符文近战环3",
+    "path": "Assets/_Resources/Effect/Skill/AtkRing3.prefab",
+    "lowPath": ""
+  },
+  {
+    "id": 160045,
+    "notes": "短程距离环2",
+    "path": "Assets/_Resources/Effect/Skill/RingLight2.prefab",
+    "lowPath": ""
+  },
+  {
+    "id": 170000,
+    "notes": "buff特效：过载",
+    "path": "Assets/_Resources/Prefab/Bullet/Hero/MFX_GuoZai_DeBuff.prefab",
+    "lowPath": "Assets/_Resources/Prefab/Bullet/Hero/MFX_SuanXingYuYun_Bullet.prefab"
+  },
+  {
+    "id": 170001,
+    "notes": "buff特效：冰出现",
+    "path": "Assets/_Resources/Effect/Buff/FX_Buff_BingDong.prefab",
+    "lowPath": "Assets/_Resources/Effect/Buff/FX_Buff_BingDong.prefab"
+  },
+  {
+    "id": 170002,
+    "notes": "buff特效：毒",
+    "path": "Assets/_Resources/Effect/Buff/FX_Buff_Du.prefab",
+    "lowPath": "Assets/_Resources/Effect/Buff/FX_Buff_Du.prefab"
+  },
+  {
+    "id": 170003,
+    "notes": "buff特效：冰消失",
+    "path": "Assets/_Resources/Effect/Buff/IcePrisonEnd.prefab",
+    "lowPath": "Assets/_Resources/Effect/Buff/IcePrisonEnd.prefab"
+  },
+  {
+    "id": 170004,
+    "notes": "buff特效：火",
+    "path": "Assets/_Resources/Effect/Buff/FX_Buff_Huo.prefab",
+    "lowPath": "Assets/_Resources/Effect/Buff/FX_Buff_Huo.prefab"
+  },
+  {
+    "id": 170005,
+    "notes": "粘性炸弹预警",
+    "path": "Assets/_Resources/Effect/Skill/WarnGlow.prefab",
+    "lowPath": "Assets/_Resources/Effect/Skill/WarnGlow.prefab"
+  },
+  {
+    "id": 170006,
+    "notes": "全屏伤害特效",
+    "path": "Assets/_Resources/Effect/Skill/FX_Player1_Attack_Hit.prefab",
+    "lowPath": "Assets/_Resources/Effect/Skill/FX_Player1_Attack_Hit.prefab"
+  },
+  {
+    "id": 170007,
+    "notes": "光翼特效",
+    "path": "Assets/_Resources/Effect/Skill/LightWing.prefab",
+    "lowPath": "Assets/_Resources/Effect/Skill/LightWing.prefab"
+  },
+  {
+    "id": 170008,
+    "notes": "濒危之心触发",
+    "path": "Assets/_Resources/Effect/Buff/FairiesGreen.prefab",
+    "lowPath": "Assets/_Resources/Effect/Buff/FairiesGreen.prefab"
+  },
+  {
+    "id": 170009,
+    "notes": "天使光圈",
+    "path": "Assets/_Resources/Effect/Skill/ElementalAuraShadow.prefab",
+    "lowPath": "Assets/_Resources/Effect/Skill/ElementalAuraShadow.prefab"
+  },
+  {
+    "id": 170010,
+    "notes": "buff特效：火-超级",
+    "path": "Assets/_Resources/Effect/Buff/FX_Buff_Huo_Super.prefab",
+    "lowPath": "Assets/_Resources/Effect/Buff/FX_Buff_Huo_Super.prefab"
+  },
+  {
+    "id": 170011,
+    "notes": "金币洞窟小怪冒金光",
+    "path": "Assets/_Resources/Effect/Buff/CoinEntity.prefab",
+    "lowPath": "Assets/_Resources/Effect/Buff/CoinEntity.prefab"
+  },
+  {
+    "id": 170012,
+    "notes": "buff特效：过载",
+    "path": "Assets/_Resources/Effect/Buff/MFX_Decelerate_DeBuff.prefab",
+    "lowPath": "Assets/_Resources/Effect/Buff/MFX_Decelerate_DeBuff.prefab"
+  },
+  {
+    "id": 170013,
+    "notes": "buff特效：易伤",
+    "path": "Assets/_Resources/Effect/Buff/MFX_PoJiaDeBuff_001.prefab",
+    "lowPath": "Assets/_Resources/Effect/Buff/MFX_PoJiaDeBuff_001.prefab"
+  },
+  {
+    "id": 180001,
+    "notes": "武器蓄力特效-蓝",
+    "path": "Assets/_Resources/Effect/Weapon/FX_XuNengQiang_XuLi.prefab",
+    "lowPath": "Assets/_Resources/Effect/Weapon/FX_XuNengQiang_XuLi.prefab"
+  },
+  {
+    "id": 180002,
+    "notes": "武器蓄力发射特效-蓝",
+    "path": "Assets/_Resources/Effect/Weapon/FX_XuNengQiang_Release.prefab",
+    "lowPath": "Assets/_Resources/Effect/Weapon/FX_XuNengQiang_Release.prefab"
+  },
+  {
+    "id": 180003,
+    "notes": "武器蓄力特效-黄",
+    "path": "Assets/_Resources/Effect/Weapon/FX_XuNengQiang_XuLi2.prefab",
+    "lowPath": "Assets/_Resources/Effect/Weapon/FX_XuNengQiang_XuLi2.prefab"
+  },
+  {
+    "id": 180004,
+    "notes": "武器蓄力发射特效-黄",
+    "path": "Assets/_Resources/Effect/Weapon/FX_XuNengQiang_Release2.prefab",
+    "lowPath": "Assets/_Resources/Effect/Weapon/FX_XuNengQiang_Release2.prefab"
+  },
+  {
+    "id": 180005,
+    "notes": "武器蓄力特效-黑蓝",
+    "path": "Assets/_Resources/Effect/Weapon/FX_XuNengQiang_XuLi3.prefab",
+    "lowPath": "Assets/_Resources/Effect/Weapon/FX_XuNengQiang_XuLi3.prefab"
+  },
+  {
+    "id": 180006,
+    "notes": "武器蓄力发射特效-黑蓝",
+    "path": "Assets/_Resources/Effect/Weapon/FX_XuNengQiang_Release3.prefab",
+    "lowPath": "Assets/_Resources/Effect/Weapon/FX_XuNengQiang_Release3.prefab"
+  },
+  {
+    "id": 180007,
+    "notes": "光翼右半边",
+    "path": "Assets/_Resources/Effect/Bullet/LightWing.prefab",
+    "lowPath": "Assets/_Resources/Effect/Bullet/LightWing.prefab"
+  },
+  {
+    "id": 181000,
+    "notes": "通用-黏性",
+    "path": "Assets/_Resources/Effect/Buff/FuMo/MFX_Common_StickyBombs.prefab",
+    "lowPath": "Assets/_Resources/Effect/Buff/FuMo/MFX_Common_StickyBombs.prefab"
+  },
+  {
+    "id": 180101,
+    "notes": "飞剑-毒",
+    "path": "Assets/_Resources/Effect/Buff/FuMo/MFX_Common_Du_Fast.prefab",
+    "lowPath": "Assets/_Resources/Effect/Buff/FuMo/MFX_Common_Du_Fast.prefab"
+  },
+  {
+    "id": 180102,
+    "notes": "飞剑-火",
+    "path": "Assets/_Resources/Effect/Buff/FuMo/MFX_Common_Fire_Fast.prefab",
+    "lowPath": "Assets/_Resources/Effect/Buff/FuMo/MFX_Common_Fire_Fast.prefab"
+  },
+  {
+    "id": 180103,
+    "notes": "飞剑-冰",
+    "path": "Assets/_Resources/Effect/Buff/FuMo/MFX_Common_Ice_Fast.prefab",
+    "lowPath": "Assets/_Resources/Effect/Buff/FuMo/MFX_Common_Ice_Fast.prefab"
+  },
+  {
+    "id": 180104,
+    "notes": "飞剑-雷",
+    "path": "Assets/_Resources/Effect/Buff/FuMo/MFX_Common_Lightning_Fast.prefab",
+    "lowPath": "Assets/_Resources/Effect/Buff/FuMo/MFX_Common_Lightning_Fast.prefab"
+  },
+  {
+    "id": 180105,
+    "notes": "飞剑-死神",
+    "path": "Assets/_Resources/Effect/Buff/FuMo/MFX_Common_Bleach_Fast.prefab",
+    "lowPath": "Assets/_Resources/Effect/Buff/FuMo/MFX_Common_Bleach_Fast.prefab"
+  },
+  {
+    "id": 180106,
+    "notes": "飞剑-高伤",
+    "path": "Assets/_Resources/Effect/Buff/FuMo/MFX_Common_GaoShang_Fast.prefab",
+    "lowPath": "Assets/_Resources/Effect/Buff/FuMo/MFX_Common_GaoShang_Fast.prefab"
+  },
+  {
+    "id": 180201,
+    "notes": "飞刀-毒",
+    "path": "Assets/_Resources/Effect/Buff/FuMo/MFX_Common_Du_MoreFast.prefab",
+    "lowPath": "Assets/_Resources/Effect/Buff/FuMo/MFX_Common_Du_MoreFast.prefab"
+  },
+  {
+    "id": 180202,
+    "notes": "飞刀-火",
+    "path": "Assets/_Resources/Effect/Buff/FuMo/MFX_Common_Fire_MoreFast.prefab",
+    "lowPath": "Assets/_Resources/Effect/Buff/FuMo/MFX_Common_Fire_MoreFast.prefab"
+  },
+  {
+    "id": 180203,
+    "notes": "飞刀-冰",
+    "path": "Assets/_Resources/Effect/Buff/FuMo/MFX_Common_Ice_MoreFast.prefab",
+    "lowPath": "Assets/_Resources/Effect/Buff/FuMo/MFX_Common_Ice_MoreFast.prefab"
+  },
+  {
+    "id": 180204,
+    "notes": "飞刀-雷",
+    "path": "Assets/_Resources/Effect/Buff/FuMo/MFX_Common_Lightning_MoreFast.prefab",
+    "lowPath": "Assets/_Resources/Effect/Buff/FuMo/MFX_Common_Lightning_MoreFast.prefab"
+  },
+  {
+    "id": 180205,
+    "notes": "飞刀-死神",
+    "path": "Assets/_Resources/Effect/Buff/FuMo/MFX_Common_Bleach_MoreFast.prefab",
+    "lowPath": "Assets/_Resources/Effect/Buff/FuMo/MFX_Common_Bleach_MoreFast.prefab"
+  },
+  {
+    "id": 180206,
+    "notes": "飞刀-高伤",
+    "path": "Assets/_Resources/Effect/Buff/FuMo/MFX_Common_GaoShang_MoreFast.prefab",
+    "lowPath": "Assets/_Resources/Effect/Buff/FuMo/MFX_Common_GaoShang_MoreFast.prefab"
+  },
+  {
+    "id": 180301,
+    "notes": "环-毒",
+    "path": "Assets/_Resources/Effect/Buff/FuMo/MFX_LightningNovaBlue_Du.prefab",
+    "lowPath": "Assets/_Resources/Effect/Buff/FuMo/MFX_LightningNovaBlue_Du.prefab"
+  },
+  {
+    "id": 180302,
+    "notes": "环-火",
+    "path": "Assets/_Resources/Effect/Buff/FuMo/MFX_LightningNovaBlue_Fire.prefab",
+    "lowPath": "Assets/_Resources/Effect/Buff/FuMo/MFX_LightningNovaBlue_Fire.prefab"
+  },
+  {
+    "id": 180303,
+    "notes": "环-冰",
+    "path": "Assets/_Resources/Effect/Buff/FuMo/MFX_LightningNovaBlue_Ice.prefab",
+    "lowPath": "Assets/_Resources/Effect/Buff/FuMo/MFX_LightningNovaBlue_Ice.prefab"
+  },
+  {
+    "id": 180304,
+    "notes": "环-雷",
+    "path": "Assets/_Resources/Effect/Buff/FuMo/MFX_LightningNovaBlue_Lightning.prefab",
+    "lowPath": "Assets/_Resources/Effect/Buff/FuMo/MFX_LightningNovaBlue_Lightning.prefab"
+  },
+  {
+    "id": 180305,
+    "notes": "环-死神",
+    "path": "Assets/_Resources/Effect/Buff/FuMo/MFX_LightningNovaBlue_Bleach.prefab",
+    "lowPath": "Assets/_Resources/Effect/Buff/FuMo/MFX_LightningNovaBlue_Bleach.prefab"
+  },
+  {
+    "id": 180306,
+    "notes": "环-高伤",
+    "path": "Assets/_Resources/Effect/Buff/FuMo/MFX_LightningNovaBlue_GaoShang.prefab",
+    "lowPath": "Assets/_Resources/Effect/Buff/FuMo/MFX_LightningNovaBlue_GaoShang.prefab"
+  },
+  {
+    "id": 180401,
+    "notes": "镰刀-毒",
+    "path": "Assets/_Resources/Effect/Buff/FuMo/MFX_LianDao_Du.prefab",
+    "lowPath": "Assets/_Resources/Effect/Buff/FuMo/MFX_LianDao_Du.prefab"
+  },
+  {
+    "id": 180402,
+    "notes": "镰刀-火",
+    "path": "Assets/_Resources/Effect/Buff/FuMo/MFX_LianDao_Fire.prefab",
+    "lowPath": "Assets/_Resources/Effect/Buff/FuMo/MFX_LianDao_Fire.prefab"
+  },
+  {
+    "id": 180403,
+    "notes": "镰刀-冰",
+    "path": "Assets/_Resources/Effect/Buff/FuMo/MFX_LianDao_Ice.prefab",
+    "lowPath": "Assets/_Resources/Effect/Buff/FuMo/MFX_LianDao_Ice.prefab"
+  },
+  {
+    "id": 180404,
+    "notes": "镰刀-雷",
+    "path": "Assets/_Resources/Effect/Buff/FuMo/MFX_LianDao_Lightning.prefab",
+    "lowPath": "Assets/_Resources/Effect/Buff/FuMo/MFX_LianDao_Lightning.prefab"
+  },
+  {
+    "id": 180405,
+    "notes": "镰刀-死神",
+    "path": "Assets/_Resources/Effect/Buff/FuMo/MFX_LianDao_Bleach.prefab",
+    "lowPath": "Assets/_Resources/Effect/Buff/FuMo/MFX_LianDao_Bleach.prefab"
+  },
+  {
+    "id": 180406,
+    "notes": "镰刀-高伤",
+    "path": "Assets/_Resources/Effect/Buff/FuMo/MFX_LianDao_GaoShang.prefab",
+    "lowPath": "Assets/_Resources/Effect/Buff/FuMo/MFX_LianDao_GaoShang.prefab"
+  },
+  {
+    "id": 180501,
+    "notes": "拳套-毒",
+    "path": "Assets/_Resources/Effect/Buff/FuMo/MFX_QuanTou_Du.prefab",
+    "lowPath": "Assets/_Resources/Effect/Buff/FuMo/MFX_QuanTou_Du.prefab"
+  },
+  {
+    "id": 180502,
+    "notes": "拳套-火",
+    "path": "Assets/_Resources/Effect/Buff/FuMo/MFX_QuanTou_Fire.prefab",
+    "lowPath": "Assets/_Resources/Effect/Buff/FuMo/MFX_QuanTou_Fire.prefab"
+  },
+  {
+    "id": 180503,
+    "notes": "拳套-冰",
+    "path": "Assets/_Resources/Effect/Buff/FuMo/MFX_QuanTou_Ice.prefab",
+    "lowPath": "Assets/_Resources/Effect/Buff/FuMo/MFX_QuanTou_Ice.prefab"
+  },
+  {
+    "id": 180504,
+    "notes": "拳套-雷",
+    "path": "Assets/_Resources/Effect/Buff/FuMo/MFX_QuanTou_Lightning.prefab",
+    "lowPath": "Assets/_Resources/Effect/Buff/FuMo/MFX_QuanTou_Lightning.prefab"
+  },
+  {
+    "id": 180505,
+    "notes": "拳套-死神",
+    "path": "Assets/_Resources/Effect/Buff/FuMo/MFX_QuanTou_Bleach.prefab",
+    "lowPath": "Assets/_Resources/Effect/Buff/FuMo/MFX_QuanTou_Bleach.prefab"
+  },
+  {
+    "id": 180506,
+    "notes": "拳套-高伤",
+    "path": "Assets/_Resources/Effect/Buff/FuMo/MFX_QuanTou_GaoShang.prefab",
+    "lowPath": "Assets/_Resources/Effect/Buff/FuMo/MFX_QuanTou_GaoShang.prefab"
+  },
+  {
+    "id": 180601,
+    "notes": "行星炮-毒",
+    "path": "Assets/_Resources/Effect/Buff/FuMo/MFX_PlanetCannonHuge_Du.prefab",
+    "lowPath": "Assets/_Resources/Effect/Buff/FuMo/MFX_PlanetCannonHuge_Du.prefab"
+  },
+  {
+    "id": 180602,
+    "notes": "行星炮-火",
+    "path": "Assets/_Resources/Effect/Buff/FuMo/MFX_PlanetCannonHuge_Fire.prefab",
+    "lowPath": "Assets/_Resources/Effect/Buff/FuMo/MFX_PlanetCannonHuge_Fire.prefab"
+  },
+  {
+    "id": 180603,
+    "notes": "行星炮-冰",
+    "path": "Assets/_Resources/Effect/Buff/FuMo/MFX_PlanetCannonHuge_Ice.prefab",
+    "lowPath": "Assets/_Resources/Effect/Buff/FuMo/MFX_PlanetCannonHuge_Ice.prefab"
+  },
+  {
+    "id": 180604,
+    "notes": "行星炮-雷",
+    "path": "Assets/_Resources/Effect/Buff/FuMo/MFX_PlanetCannonHuge_Lightning.prefab",
+    "lowPath": "Assets/_Resources/Effect/Buff/FuMo/MFX_PlanetCannonHuge_Lightning.prefab"
+  },
+  {
+    "id": 180605,
+    "notes": "行星炮-死神",
+    "path": "Assets/_Resources/Effect/Buff/FuMo/MFX_PlanetCannonHuge_Bleach.prefab",
+    "lowPath": "Assets/_Resources/Effect/Buff/FuMo/MFX_PlanetCannonHuge_Bleach.prefab"
+  },
+  {
+    "id": 180606,
+    "notes": "行星炮-高伤",
+    "path": "Assets/_Resources/Effect/Buff/FuMo/MFX_PlanetCannonHuge_GaoShang.prefab",
+    "lowPath": "Assets/_Resources/Effect/Buff/FuMo/MFX_PlanetCannonHuge_GaoShang.prefab"
+  },
+  {
+    "id": 180607,
+    "notes": "行星炮-粘性炸弹",
+    "path": "Assets/_Resources/Effect/Buff/FuMo/MFX_PlanetCannonHuge_StickyBombs.prefab",
+    "lowPath": "Assets/_Resources/Effect/Buff/FuMo/MFX_PlanetCannonHuge_StickyBombs.prefab"
+  },
+  {
+    "id": 180701,
+    "notes": "蓄能炮-毒",
+    "path": "Assets/_Resources/Effect/Buff/FuMo/MFX_BlackHoleBlue_Du.prefab",
+    "lowPath": "Assets/_Resources/Effect/Buff/FuMo/MFX_BlackHoleBlue_Du.prefab"
+  },
+  {
+    "id": 180702,
+    "notes": "蓄能炮-火",
+    "path": "Assets/_Resources/Effect/Buff/FuMo/MFX_BlackHoleBlue_Fire.prefab",
+    "lowPath": "Assets/_Resources/Effect/Buff/FuMo/MFX_BlackHoleBlue_Fire.prefab"
+  },
+  {
+    "id": 180703,
+    "notes": "蓄能炮-冰",
+    "path": "Assets/_Resources/Effect/Buff/FuMo/MFX_BlackHoleBlue_Ice.prefab",
+    "lowPath": "Assets/_Resources/Effect/Buff/FuMo/MFX_BlackHoleBlue_Ice.prefab"
+  },
+  {
+    "id": 180704,
+    "notes": "蓄能炮-雷",
+    "path": "Assets/_Resources/Effect/Buff/FuMo/MFX_BlackHoleBlue_Lightning.prefab",
+    "lowPath": "Assets/_Resources/Effect/Buff/FuMo/MFX_BlackHoleBlue_Lightning.prefab"
+  },
+  {
+    "id": 180705,
+    "notes": "蓄能炮-死神",
+    "path": "Assets/_Resources/Effect/Buff/FuMo/MFX_BlackHoleBlueOut_Bleach.prefab",
+    "lowPath": "Assets/_Resources/Effect/Buff/FuMo/MFX_BlackHoleBlueOut_Bleach.prefab"
+  },
+  {
+    "id": 180706,
+    "notes": "蓄能炮-高伤",
+    "path": "Assets/_Resources/Effect/Buff/FuMo/MFX_BlackHoleBlueOut_GaoShang.prefab",
+    "lowPath": "Assets/_Resources/Effect/Buff/FuMo/MFX_BlackHoleBlueOut_GaoShang.prefab"
+  },
+  {
+    "id": 180801,
+    "notes": "魔法球-毒",
+    "path": "Assets/_Resources/Effect/Buff/FuMo/MFX_MoFaQiu_Du.prefab",
+    "lowPath": "Assets/_Resources/Effect/Buff/FuMo/MFX_MoFaQiu_Du.prefab"
+  },
+  {
+    "id": 180802,
+    "notes": "魔法球-火",
+    "path": "Assets/_Resources/Effect/Buff/FuMo/MFX_MoFaQiu_Fire.prefab",
+    "lowPath": "Assets/_Resources/Effect/Buff/FuMo/MFX_MoFaQiu_Fire.prefab"
+  },
+  {
+    "id": 180803,
+    "notes": "魔法球-冰",
+    "path": "Assets/_Resources/Effect/Buff/FuMo/MFX_MoFaQiu_Ice.prefab",
+    "lowPath": "Assets/_Resources/Effect/Buff/FuMo/MFX_MoFaQiu_Ice.prefab"
+  },
+  {
+    "id": 180804,
+    "notes": "魔法球-雷",
+    "path": "Assets/_Resources/Effect/Buff/FuMo/MFX_MoFaQiu_Lightning.prefab",
+    "lowPath": "Assets/_Resources/Effect/Buff/FuMo/MFX_MoFaQiu_Lightning.prefab"
+  },
+  {
+    "id": 180805,
+    "notes": "魔法球-死神",
+    "path": "Assets/_Resources/Effect/Buff/FuMo/MFX_MoFaQiu_Bleach.prefab",
+    "lowPath": "Assets/_Resources/Effect/Buff/FuMo/MFX_MoFaQiu_Bleach.prefab"
+  },
+  {
+    "id": 180806,
+    "notes": "魔法球-高伤",
+    "path": "Assets/_Resources/Effect/Buff/FuMo/MFX_MoFaQiu_GaoShang.prefab",
+    "lowPath": "Assets/_Resources/Effect/Buff/FuMo/MFX_MoFaQiu_GaoShang.prefab"
+  },
+  {
+    "id": 200000,
+    "notes": "主页建筑升级特效",
+    "path": "Assets/_Resources/Effect/Main/FX_HomeUpgrade.prefab",
+    "lowPath": "Assets/_Resources/Effect/Main/FX_HomeUpgrade.prefab"
+  },
+  {
+    "id": 200001,
+    "notes": "符文遗迹-土块爆炸",
+    "path": "Assets/_Resources/Effect/BulletHit/StoneExplosionYellow.prefab",
+    "lowPath": "Assets/_Resources/Effect/BulletHit/StoneExplosionYellow.prefab"
+  },
+  {
+    "id": 210001,
+    "notes": "受击特效",
+    "path": "Assets/_Resources/Effect/BulletStart/Hitted_Machine_Small.prefab",
+    "lowPath": "Assets/_Resources/Effect/BulletStart/Hitted_Machine_Small.prefab"
+  },
+  {
+    "id": 210002,
+    "notes": "新的怪物死亡特效--爆汁液-小",
+    "path": "Assets/_Resources/Effect/InGame/FX_Death_XiaoGuai_003_Small.prefab",
+    "lowPath": "Assets/_Resources/Effect/InGame/FX_Death_XiaoGuai_003_Small.prefab"
+  },
+  {
+    "id": 210003,
+    "notes": "怪物死亡特效-通用",
+    "path": "Assets/_Resources/Effect/MonsterDeath/Death.prefab",
+    "lowPath": "Assets/_Resources/Effect/MonsterDeath/Death.prefab"
+  },
+  {
+    "id": 210004,
+    "notes": "子弹自动销毁特效",
+    "path": "Assets/_Resources/Effect/InGame/FX_ZiDan_001_Hit.prefab",
+    "lowPath": "Assets/_Resources/Effect/InGame/FX_ZiDan_001_Hit.prefab"
+  },
+  {
+    "id": 210005,
+    "notes": "紫色爆炸",
+    "path": "Assets/_Resources/Effect/BulletHit/MeteoriteHit_Fire.prefab",
+    "lowPath": "Assets/_Resources/Effect/BulletHit/MeteoriteHit_Fire.prefab"
+  },
+  {
+    "id": 210006,
+    "notes": "蓝紫色爆炸",
+    "path": "Assets/_Resources/Effect/InGame/MeteoriteHit_Fire_1.prefab",
+    "lowPath": "Assets/_Resources/Effect/InGame/MeteoriteHit_Fire_1.prefab"
+  },
+  {
+    "id": 210007,
+    "notes": "红色爆炸",
+    "path": "Assets/_Art/STG_art/stg_prefab_bullet/MeteoriteHit_Fire_2.prefab",
+    "lowPath": "Assets/_Art/STG_art/stg_prefab_bullet/MeteoriteHit_Fire_2.prefab"
+  },
+  {
+    "id": 210008,
+    "notes": "爆炸特效-常规",
+    "path": "Assets/_Resources/Effect/InGame/FX_Death_XiaoGuai_002.prefab",
+    "lowPath": "Assets/_Resources/Effect/InGame/FX_Death_XiaoGuai_002.prefab"
+  },
+  {
+    "id": 210009,
+    "notes": "爆炸特效-常规-大",
+    "path": "Assets/_Resources/Effect/InGame/FX_Death_XiaoGuai_002_big.prefab",
+    "lowPath": "Assets/_Resources/Effect/InGame/FX_Death_XiaoGuai_002_big.prefab"
+  },
+  {
+    "id": 210010,
+    "notes": "新的怪物死亡特效--爆汁液--大",
+    "path": "Assets/_Resources/Effect/InGame/FX_Death_XiaoGuai_003.prefab",
+    "lowPath": "Assets/_Resources/Effect/InGame/FX_Death_XiaoGuai_003.prefab"
+  },
+  {
+    "id": 210011,
+    "notes": "新的怪物死亡特效--爆汁液--超级大",
+    "path": "Assets/_Resources/Effect/InGame/FX_Death_XiaoGuai_003_Big.prefab",
+    "lowPath": "Assets/_Resources/Effect/InGame/FX_Death_XiaoGuai_003_Big.prefab"
+  },
+  {
+    "id": 210012,
+    "notes": "普通子弹 击中特效/自毁特效",
+    "path": "Assets/_Resources/Effect/InGame/FX_HuiXuanBiao_001_Hit.prefab",
+    "lowPath": "Assets/_Resources/Effect/InGame/FX_HuiXuanBiao_001_Hit.prefab"
+  },
+  {
+    "id": 210013,
+    "notes": "普通子弹 击中特效/自毁特效（小号版）",
+    "path": "Assets/_Resources/Effect/InGame/FX_HuiXuanBiao_001_Hit_small.prefab",
+    "lowPath": "Assets/_Resources/Effect/InGame/FX_HuiXuanBiao_001_Hit_small.prefab"
+  },
+  {
+    "id": 210014,
+    "notes": "普通子弹 击中特效/自毁特效（超小号）",
+    "path": "Assets/_Resources/Effect/InGame/FX_HuiXuanBiao_001_Hit_verysmall.prefab",
+    "lowPath": "Assets/_Resources/Effect/InGame/FX_HuiXuanBiao_001_Hit_verysmall.prefab"
+  },
+  {
+    "id": 210015,
+    "notes": "小破导弹击中特效",
+    "path": "Assets/_Resources/Effect/InGame/FX_DaoDan_002_Hit.prefab",
+    "lowPath": "Assets/_Resources/Effect/InGame/FX_DaoDan_002_Hit.prefab"
+  },
+  {
+    "id": 210016,
+    "notes": "巨大导弹击中特效",
+    "path": "Assets/_Resources/Effect/InGame/FX_DaoDan_003_Hit.prefab",
+    "lowPath": "Assets/_Resources/Effect/InGame/FX_DaoDan_003_Hit.prefab"
+  },
+  {
+    "id": 210017,
+    "notes": "超级大的爆炸特效-暂时给BOSS用",
+    "path": "Assets/_Resources/Effect/InGame/stg_blast_01_big_temp2.prefab",
+    "lowPath": "Assets/_Resources/Effect/InGame/stg_blast_01_big_temp2.prefab"
+  },
+  {
+    "id": 210018,
+    "notes": "剑的超武挥砍受击特效",
+    "path": "Assets/_Art/STG_art/stg_prefab_bullet/FX_DaoGuang_001_Super_Hit.prefab",
+    "lowPath": "Assets/_Art/STG_art/stg_prefab_bullet/FX_DaoGuang_001_Super_Hit.prefab"
+  },
+  {
+    "id": 210019,
+    "notes": "毒爆弹的毒爆炸效果",
+    "path": "Assets/_Resources/Effect/InGame/FX_BaoZha_002_Super.prefab",
+    "lowPath": "Assets/_Resources/Effect/InGame/FX_BaoZha_002_Super.prefab"
+  },
+  {
+    "id": 210020,
+    "notes": "BOSS死亡爆炸",
+    "path": "Assets/_Resources/Effect/InGame/FX_BaoZha_001_Super.prefab",
+    "lowPath": "Assets/_Resources/Effect/InGame/FX_BaoZha_001_Super.prefab"
+  },
+  {
+    "id": 210021,
+    "notes": "玩家抵挡子弹的蓝色光盾",
+    "path": "Assets/_Resources/Effect/InGame/Stg_Buff_HuDun_Blue.prefab",
+    "lowPath": "Assets/_Resources/Effect/InGame/Stg_Buff_HuDun_Blue.prefab"
+  },
+  {
+    "id": 210022,
+    "notes": "玩家升级的无敌护盾",
+    "path": "Assets/_Resources/Effect/InGame/Stg_Buff_HuDun_Yellow.prefab",
+    "lowPath": "Assets/_Resources/Effect/InGame/Stg_Buff_HuDun_Yellow.prefab"
+  },
+  {
+    "id": 210023,
+    "notes": "停机坪-宝箱引导",
+    "path": "Assets/_Resources/Effect/Common/PunchboardGuide.prefab",
+    "lowPath": "Assets/_Resources/Effect/Common/PunchboardGuide.prefab"
+  },
+  {
+    "id": 210024,
+    "notes": "飞机离场冲刺",
+    "path": "Assets/_Resources/Effect/InGame/Plane_End_gx_1.prefab",
+    "lowPath": "Assets/_Resources/Effect/InGame/Plane_End_gx_1.prefab"
+  },
+  {
+    "id": 210025,
+    "notes": "飞机能量场1",
+    "path": "Assets/_Resources/Effect/InGame/FX_KuoSanBo_Blue_Buff.prefab",
+    "lowPath": "Assets/_Resources/Effect/InGame/FX_KuoSanBo_Blue_Buff.prefab"
+  },
+  {
+    "id": 210026,
+    "notes": "飞机能量场2",
+    "path": "Assets/_Resources/Effect/InGame/FX_KuoSanBo_Purple_Buff.prefab",
+    "lowPath": "Assets/_Resources/Effect/InGame/FX_KuoSanBo_Purple_Buff.prefab"
+  },
+  {
+    "id": 210027,
+    "notes": "飞机能量场3",
+    "path": "Assets/_Resources/Effect/InGame/FX_KuoSanBo_Golden_Buff.prefab",
+    "lowPath": "Assets/_Resources/Effect/InGame/FX_KuoSanBo_Golden_Buff.prefab"
+  },
+  {
+    "id": 210028,
+    "notes": "子弹减速环特效",
+    "path": "Assets/_Resources/Effect/Skill/BulletRetardCircle.prefab",
+    "lowPath": "Assets/_Resources/Effect/Skill/BulletRetardCircle.prefab"
+  },
+  {
+    "id": 210029,
+    "notes": "飞机扩散波-小",
+    "path": "Assets/_Resources/Effect/InGame/stg_Rage_Red_small.prefab",
+    "lowPath": "Assets/_Resources/Effect/InGame/stg_Rage_Red_small.prefab"
+  },
+  {
+    "id": 210030,
+    "notes": "飞机扩散波-中",
+    "path": "Assets/_Resources/Effect/InGame/stg_Rage_Red_middle.prefab",
+    "lowPath": "Assets/_Resources/Effect/InGame/stg_Rage_Red_middle.prefab"
+  },
+  {
+    "id": 210031,
+    "notes": "飞机扩散波-大",
+    "path": "Assets/_Resources/Effect/InGame/stg_Rage_Red.prefab",
+    "lowPath": "Assets/_Resources/Effect/InGame/stg_Rage_Red.prefab"
+  },
+  {
+    "id": 210032,
+    "notes": "清屏特效",
+    "path": "Assets/_Resources/Prefab/Bullet/Hero/FX_QingPing.prefab",
+    "lowPath": "Assets/_Resources/Prefab/Bullet/Hero/FX_QingPing_1.prefab"
+  },
+  {
+    "id": 210033,
+    "notes": "玩家身上冒星星",
+    "path": "Assets/_Resources/Effect/Monster/Monsterflash.prefab",
+    "lowPath": "Assets/_Resources/Effect/Prefabs/Common/Monsterflash.prefab"
+  },
+  {
+    "id": 210034,
+    "notes": "buff特效：易伤",
+    "path": "Assets/_Resources/Effect/Buff/MFX_PoJiaDeBuff_001.prefab",
+    "lowPath": "Assets/_Resources/Effect/Buff/MFX_PoJiaDeBuff_001.prefab"
+  },
+  {
+    "id": 210035,
+    "notes": "冰爆特效",
+    "path": "Assets/_Resources/Prefab/Bullet/Hero/SkyIceExplosion.prefab",
+    "lowPath": "Assets/_Resources/Prefab/Bullet/Hero/SkyIceExplosion.prefab"
+  },
+  {
+    "id": 210036,
+    "notes": "精英怪狂暴特效",
+    "path": "Assets/_Resources/Effect/Buff/MFX_KuangBao_Buff_002.prefab",
+    "lowPath": "Assets/_Resources/Effect/Buff/MFX_KuangBao_Buff_002.prefab"
+  },
+  {
+    "id": 210037,
+    "notes": "精英怪护盾特效",
+    "path": "Assets/_Resources/Effect/Buff/MFX_HuDun_Buff_002.prefab",
+    "lowPath": "Assets/_Resources/Effect/Buff/MFX_HuDun_Buff_002.prefab"
+  },
+  {
+    "id": 210038,
+    "notes": "精英怪自愈特效",
+    "path": "Assets/_Resources/Effect/Buff/MFX_HuiXue_Buff_002.prefab",
+    "lowPath": "Assets/_Resources/Effect/Buff/MFX_HuiXue_Buff_002.prefab"
+  },
+  {
+    "id": 210039,
+    "notes": "怪物周身有红色警示范围，一旦进入该圈，每0.5秒扣血",
+    "path": "Assets/_Resources/Prefab/Bullet/Hero/MFX_Vulnerability1_Dbuff_Red.prefab",
+    "lowPath": "Assets/_Resources/Prefab/Bullet/Hero/MFX_Vulnerability1_Dbuff_Red.prefab"
+  },
+  {
+    "id": 210040,
+    "notes": "怪物瞬移消失特效",
+    "path": "Assets/_Resources/Prefab/Bullet/Hero/MFX_Teleport1_Disappear.prefab",
+    "lowPath": "Assets/_Resources/Prefab/Bullet/Hero/MFX_Teleport1_Disappear.prefab"
+  },
+  {
+    "id": 210041,
+    "notes": "怪物瞬移出现特效",
+    "path": "Assets/_Resources/Prefab/Bullet/Hero/MFX_Teleport1_Appear.prefab",
+    "lowPath": "Assets/_Resources/Prefab/Bullet/Hero/MFX_Teleport1_Appear.prefab"
+  },
+  {
+    "id": 210042,
+    "notes": "飞机冲刺特效",
+    "path": "Assets/_Resources/Effect/InGame/MFX_RuChang_ChongJiBo.prefab",
+    "lowPath": "Assets/_Resources/Effect/InGame/MFX_RuChang_ChongJiBo.prefab"
+  },
+  {
+    "id": 210043,
+    "notes": "酸液弹的酸液爆炸",
+    "path": "Assets/_Resources/Effect/InGame/MFX_Explosion_Poison_001.prefab",
+    "lowPath": "Assets/_Resources/Effect/InGame/MFX_Explosion_Poison_001.prefab"
+  },
+  {
+    "id": 210044,
+    "notes": "冰爆特效",
+    "path": "Assets/_Resources/Effect/InGame/MFX_Explosion_Ice_001.prefab",
+    "lowPath": "Assets/_Resources/Effect/InGame/MFX_Explosion_Ice_001.prefab"
+  },
+  {
+    "id": 210045,
+    "notes": "眩晕特效",
+    "path": "Assets/_Resources/Effect/Buff/MFX_Dizziness_DBuff1.prefab",
+    "lowPath": "Assets/_Resources/Effect/Buff/MFX_Dizziness_DBuff1.prefab"
+  },
+  {
+    "id": 210046,
+    "notes": "武器 击中特效-剑",
+    "path": "Assets/_Resources/Effect/InGame/FX_BladeLightHit_1.prefab",
+    "lowPath": "Assets/_Resources/Effect/InGame/FX_BladeLightHit_1.prefab"
+  },
+  {
+    "id": 210047,
+    "notes": "武器 击中特效/自毁特效-蓝色",
+    "path": "Assets/_Resources/Effect/InGame/FX_BulletHit_blue.prefab",
+    "lowPath": "Assets/_Resources/Effect/InGame/FX_BulletHit_blue.prefab"
+  },
+  {
+    "id": 210048,
+    "notes": "武器 击中特效/自毁特效-雷电",
+    "path": "Assets/_Resources/Effect/InGame/FX_BulletHit_electricity.prefab",
+    "lowPath": "Assets/_Resources/Effect/InGame/FX_BulletHit_electricity.prefab"
+  },
+  {
+    "id": 210049,
+    "notes": "武器 击中特效/自毁特效-绿色",
+    "path": "Assets/_Resources/Effect/InGame/FX_BulletHit_green.prefab",
+    "lowPath": "Assets/_Resources/Effect/InGame/FX_BulletHit_green.prefab"
+  },
+  {
+    "id": 210050,
+    "notes": "武器 击中特效/自毁特效-橘色",
+    "path": "Assets/_Resources/Effect/InGame/FX_BulletHit_orange.prefab",
+    "lowPath": "Assets/_Resources/Effect/InGame/FX_BulletHit_orange.prefab"
+  },
+  {
+    "id": 210051,
+    "notes": "武器 击中特效/自毁特效-白色",
+    "path": "Assets/_Resources/Effect/InGame/FX_BulletHit_white.prefab",
+    "lowPath": "Assets/_Resources/Effect/InGame/FX_BulletHit_white.prefab"
+  },
+  {
+    "id": 210052,
+    "notes": "武器 击中特效/自毁特效-激光",
+    "path": "Assets/_Resources/Effect/InGame/FX_LaserHit_1.prefab",
+    "lowPath": "Assets/_Resources/Effect/InGame/FX_LaserHit_1.prefab"
+  },
+  {
+    "id": 210053,
+    "notes": "战斗特效-酸液陨石爆炸",
+    "path": "Assets/_Resources/Effect/InGame/MFX_Explosion_Poison_001.prefab",
+    "lowPath": "Assets/_Resources/Effect/InGame/MFX_Explosion_Poison_001.prefab"
+  },
+  {
+    "id": 210054,
+    "notes": "战斗特效-冰冻陨石爆炸",
+    "path": "Assets/_Resources/Effect/InGame/MFX_Explosion_Ice_001.prefab",
+    "lowPath": "Assets/_Resources/Effect/InGame/MFX_Explosion_Ice_001.prefab"
+  },
+  {
+    "id": 210055,
+    "notes": "战斗特效-大陨石碎裂",
+    "path": "Assets/_Resources/Effect/InGame/MFX_Meteoritei_Broken_001.prefab",
+    "lowPath": "Assets/_Resources/Effect/InGame/MFX_Meteoritei_Broken_001.prefab"
+  },
+  {
+    "id": 210056,
+    "notes": "战斗特效-中陨石碎裂",
+    "path": "Assets/_Resources/Effect/InGame/MFX_Meteoritei_Broken_002.prefab",
+    "lowPath": "Assets/_Resources/Effect/InGame/MFX_Meteoritei_Broken_002.prefab"
+  },
+  {
+    "id": 210057,
+    "notes": "战斗特效-冰冻中陨石碎裂",
+    "path": "Assets/_Resources/Effect/InGame/MFX_IceCube_Broken_001.prefab",
+    "lowPath": "Assets/_Resources/Effect/InGame/MFX_IceCube_Broken_001.prefab"
+  },
+  {
+    "id": 210058,
+    "notes": "铡刀怪绳子效果",
+    "path": "Assets/_Resources/Effect/InGame/BulletRopeEffect.prefab",
+    "lowPath": "Assets/_Resources/Effect/InGame/BulletRopeEffect.prefab"
+  },
+  {
+    "id": 210059,
+    "notes": "武器 击中特效/自毁特效-灰色-被抵抗了",
+    "path": "Assets/_Resources/Effect/InGame/Origin/FX_BulletHit_gray.prefab",
+    "lowPath": "Assets/_Resources/Effect/InGame/Origin/FX_BulletHit_gray.prefab"
+  },
+  {
+    "id": 210060,
+    "notes": "武器 击中特效/自毁特效-灰色-被抵抗了-小号",
+    "path": "Assets/_Resources/Effect/InGame/Origin/FX_BulletHit_gray_small.prefab",
+    "lowPath": "Assets/_Resources/Effect/InGame/Origin/FX_BulletHit_gray_small.prefab"
+  },
+  {
+    "id": 210061,
+    "notes": "大型死亡爆炸，用于boss",
+    "path": "Assets/_Resources/Effect/InGame/MFX_Boss_Death_1.prefab",
+    "lowPath": "Assets/_Resources/Effect/InGame/MFX_Boss_Death_1.prefab"
+  },
+  {
+    "id": 210062,
+    "notes": "武器 击中特效/自毁特效-青色（能量）",
+    "path": "Assets/_Resources/Effect/InGame/Origin/FX_BulletHit_cyan.prefab",
+    "lowPath": "Assets/_Resources/Effect/InGame/Origin/FX_BulletHit_cyan.prefab"
+  },
+  {
+    "id": 210063,
+    "notes": "Boss死亡特效",
+    "path": "Assets/_Resources/Effect/InGame/MFX_Boss_Death.prefab",
+    "lowPath": "Assets/_Resources/Effect/InGame/MFX_Boss_Death.prefab"
+  },
+  {
+    "id": 210064,
+    "notes": "Boss死亡特效-ci",
+    "path": "Assets/_Resources/Effect/InGame/MFX_Boss_Death_Ci.prefab",
+    "lowPath": "Assets/_Resources/Effect/InGame/MFX_Boss_Death_Ci.prefab"
+  },
+  {
+    "id": 210065,
+    "notes": "武器 击中特效/自毁特效-绿色-小-给黑洞",
+    "path": "Assets/_Resources/Effect/InGame/Origin/FX_BulletHit_green_small.prefab",
+    "lowPath": "Assets/_Resources/Effect/InGame/Origin/FX_BulletHit_green_small.prefab"
+  },
+  {
+    "id": 220006,
+    "notes": "敌人子弹创建特效",
+    "path": "Assets/_Resources/Effect/InGame/FX_ZiDan_002_Release.prefab",
+    "lowPath": "Assets/_Resources/Effect/InGame/FX_ZiDan_002_Release.prefab"
+  },
+  {
+    "id": 220007,
+    "notes": "敌人攻击预警",
+    "path": "Assets/_Resources/Effect/InGame/FX_ZiDan_003_Release.prefab",
+    "lowPath": "Assets/_Resources/Effect/InGame/FX_ZiDan_003_Release.prefab"
+  },
+  {
+    "id": 220008,
+    "notes": "敌人子弹创建特效-小",
+    "path": "Assets/_Resources/Effect/InGame/FX_ZiDan_002_Release_small.prefab",
+    "lowPath": "Assets/_Resources/Effect/InGame/FX_ZiDan_002_Release_small.prefab"
+  },
+  {
+    "id": 220009,
+    "notes": "敌人攻击预警-大",
+    "path": "Assets/_Resources/Effect/InGame/FX_ZiDan_002_Release_big.prefab",
+    "lowPath": "Assets/_Resources/Effect/InGame/FX_ZiDan_002_Release_big.prefab"
+  },
+  {
+    "id": 220010,
+    "notes": "敌人攻击预警-持续比较久",
+    "path": "Assets/_Resources/Effect/InGame/FX_ZiDan_001_Release.prefab",
+    "lowPath": "Assets/_Resources/Effect/InGame/FX_ZiDan_001_Release.prefab"
+  },
+  {
+    "id": 220011,
+    "notes": "敌人攻击预警-持续比较久-大",
+    "path": "Assets/_Resources/Effect/InGame/FX_ZiDan_001_Release_Big.prefab",
+    "lowPath": "Assets/_Resources/Effect/InGame/FX_ZiDan_001_Release_Big.prefab"
+  },
+  {
+    "id": 220012,
+    "notes": "星月剑特效",
+    "path": "Assets/_Resources/Effect/Weapon/FX_slash_06_wrapper.prefab",
+    "lowPath": "Assets/_Resources/Effect/Weapon/FX_slash_06_wrapper.prefab"
+  },
+  {
+    "id": 220013,
+    "notes": "星月剑特效--超武",
+    "path": "Assets/_Resources/Effect/Weapon/FX_super_slash_wrapper.prefab",
+    "lowPath": "Assets/_Resources/Effect/Weapon/FX_super_slash_wrapper.prefab"
+  },
+  {
+    "id": 220014,
+    "notes": "敌人攻击预警-持续比较久-小",
+    "path": "Assets/_Resources/Effect/InGame/FX_ZiDan_001_Release_Big_1.prefab",
+    "lowPath": "Assets/_Resources/Effect/InGame/FX_ZiDan_001_Release_Big_1.prefab"
+  },
+  {
+    "id": 220015,
+    "notes": "敌人攻击预警-持续比较久-中",
+    "path": "Assets/_Resources/Effect/InGame/FX_ZiDan_001_Release_Big_2.prefab",
+    "lowPath": "Assets/_Resources/Effect/InGame/FX_ZiDan_001_Release_Big_2.prefab"
+  },
+  {
+    "id": 220016,
+    "notes": "敌人攻击预警-持续比较久-大",
+    "path": "Assets/_Resources/Effect/InGame/FX_ZiDan_001_Release_Big_3.prefab",
+    "lowPath": "Assets/_Resources/Effect/InGame/FX_ZiDan_001_Release_Big_3.prefab"
+  },
+  {
+    "id": 220017,
+    "notes": "星月剑环形斩特效",
+    "path": "Assets/_Resources/Prefab/Bullet/Hero/FX_DaoGuang_001_Circle.prefab",
+    "lowPath": "Assets/_Resources/Prefab/Bullet/Hero/FX_DaoGuang_001_Circle.prefab"
+  },
+  {
+    "id": 220018,
+    "notes": "缩圈压迫，战斗开始60秒后，场地边缘逐渐缩小（类似毒圈），站在边缘外持续掉血",
+    "path": "Assets/_Resources/Effect/InGame/MFX_Boss_Isolation.prefab",
+    "lowPath": "Assets/_Resources/Effect/InGame/MFX_Boss_Isolation.prefab"
+  },
+  {
+    "id": 220019,
+    "notes": "阶段护盾，Boss每30秒获得护盾，次数盾",
+    "path": "Assets/_Resources/Prefab/Bullet/Hero/MFX_NoHarm_Buff.prefab",
+    "lowPath": "Assets/_Resources/Prefab/Bullet/Hero/MFX_NoHarm_Buff.prefab"
+  },
+  {
+    "id": 220020,
+    "notes": "狂暴加速，战斗开始60秒后攻击频率提升30%",
+    "path": "Assets/_Resources/Effect/Buff/MFX_KuangBao_Buff_002.prefab",
+    "lowPath": "Assets/_Resources/Effect/Buff/MFX_KuangBao_Buff_002.prefab"
+  },
+  {
+    "id": 220021,
+    "notes": "命中强化，Boss 命中玩家后，下次攻击伤害增加 20%",
+    "path": "Assets/_Resources/Effect/InGame/MFX_Boss_IncreaseAttack.prefab",
+    "lowPath": "Assets/_Resources/Effect/InGame/MFX_Boss_IncreaseAttack.prefab"
+  },
+  {
+    "id": 220022,
+    "notes": "场地每20秒随机生成减速区域（进入移速-40%，持续2秒），Buff特效",
+    "path": "Assets/_Resources/Effect/InGame/MFX_Decelerate_DeBuff.prefab",
+    "lowPath": "Assets/_Resources/Effect/InGame/MFX_Decelerate_DeBuff.prefab"
+  },
+  {
+    "id": 220023,
+    "notes": "场地每20秒随机生成减速区域（进入移速-40%，持续2秒），减速区域特效",
+    "path": "Assets/_Resources/Effect/InGame/MFX_Boss_SlowdownHalo.prefab",
+    "lowPath": "Assets/_Resources/Effect/InGame/MFX_Boss_SlowdownHalo.prefab"
+  },
+  {
+    "id": 220024,
+    "notes": "毁灭标记,Boss每X秒释放一次全屏爆炸，有安全区,预警",
+    "path": "Assets/_Resources/Effect/InGame/MFX_Boss_Full_Warning_1.prefab",
+    "lowPath": "Assets/_Resources/Effect/InGame/MFX_Boss_Full_Warning_1.prefab"
+  },
+  {
+    "id": 220026,
+    "notes": "不稳定陨石，每20秒随机生成若干陨石，预警",
+    "path": "Assets/_Resources/Effect/InGame/FX_ZiDan_001_Release.prefab",
+    "lowPath": "Assets/_Resources/Effect/InGame/FX_ZiDan_001_Release.prefab"
+  },
+  {
+    "id": 220027,
+    "notes": "不稳定陨石，每20秒随机生成若干陨石，掉落陨石",
+    "path": "Assets/_Resources/Effect/Buff/FuMo/MFX_PlanetCannonHuge_Fire.prefab",
+    "lowPath": "Assets/_Resources/Effect/Buff/FuMo/MFX_PlanetCannonHuge_Fire.prefab"
+  },
+  {
+    "id": 220028,
+    "notes": "僚机升级特效",
+    "path": "Assets/_Resources/Effect/Buff/MFX_LevelUp_1.prefab",
+    "lowPath": "Assets/_Resources/Effect/Buff/MFX_LevelUp_1.prefab"
+  },
+  {
+    "id": 220029,
+    "notes": "落雷下落-金色",
+    "path": "Assets/_Resources/Prefab/Bullet/Hero/MFX_LuoLei_Golden.prefab",
+    "lowPath": "Assets/_Resources/Prefab/Bullet/Hero/MFX_LuoLei_Golden.prefab"
+  },
+  {
+    "id": 1000001,
+    "notes": "战斗特效-玩家子弹发射特效-弓箭发射",
+    "path": "Assets/_Resources/Effect/BulletStart/Hitted_Machine_Small.prefab",
+    "lowPath": "Assets/_Resources/Effect/BulletStart/Hitted_Machine_Small.prefab"
+  },
+  {
+    "id": 10401220012,
+    "notes": "星月剑特效",
+    "path": "Assets/_Resources/Prefab/Bullet/Hero/FX_DaoGuang_stars.prefab",
+    "lowPath": "Assets/_Resources/Prefab/Bullet/Hero/FX_DaoGuang_stars.prefab"
+  },
+  {
+    "id": 10401220017,
+    "notes": "星月剑环形斩特效",
+    "path": "Assets/_Resources/Prefab/Bullet/Hero/FX_DaoGuang_stars_Circle.prefab",
+    "lowPath": "Assets/_Resources/Prefab/Bullet/Hero/FX_DaoGuang_stars_Circle.prefab"
+  },
+  {
+    "id": 10101210016,
+    "notes": "巨大导弹击中特效",
+    "path": "Assets/_Resources/Effect/InGame/FX_DaoDan_Fireworks_Hit.prefab",
+    "lowPath": "Assets/_Resources/Effect/InGame/FX_DaoDan_Fireworks_Hit.prefab"
+  },
+  {
+    "id": 10901120005,
+    "notes": "闪电链蓄力特效",
+    "path": "Assets/_Resources/Prefab/Bullet/Lightning_Music_Start.prefab",
+    "lowPath": "Assets/_Resources/Prefab/Bullet/Lightning_Music_Start.prefab"
+  },
+  {
+    "id": 10901120006,
+    "notes": "闪电链受击特效",
+    "path": "Assets/_Resources/Prefab/Bullet/Lightning_Music_End.prefab",
+    "lowPath": "Assets/_Resources/Prefab/Bullet/Lightning_Music_End.prefab"
+  },
+  {
+    "id": 10901120007,
+    "notes": "闪电链发射特效",
+    "path": "Assets/_Resources/Prefab/Bullet/Lightning_Music_Launching.prefab",
+    "lowPath": "Assets/_Resources/Prefab/Bullet/Lightning_Music_Launching.prefab"
+  }
+]

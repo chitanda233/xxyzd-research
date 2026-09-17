@@ -1,0 +1,32 @@
+[
+  {
+    "ID": 1,
+    "modelId": 11,
+    "PosType": 5
+  },
+  {
+    "ID": 2,
+    "modelId": 12,
+    "PosType": 0
+  },
+  {
+    "ID": 4,
+    "modelId": 13,
+    "PosType": 0
+  },
+  {
+    "ID": 3,
+    "modelId": 14,
+    "PosType": 6
+  },
+  {
+    "ID": 5,
+    "modelId": 15,
+    "PosType": 5
+  },
+  {
+    "ID": 6,
+    "modelId": 52,
+    "PosType": 5
+  }
+]

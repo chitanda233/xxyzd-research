@@ -1,0 +1,20 @@
+{
+  "selected_methods": 1482,
+  "files": 530,
+  "selection": [
+    "BaseLocalBean",
+    "CharacterComponentOnHit",
+    "WaterfallBattleManager",
+    "BaseSurvivalBattleManager",
+    "BeeMonsterRefresher",
+    "BeeMonsterCreator",
+    "NormalSkillCreator",
+    "SinglePlayerSkillCreator",
+    "HeroSkillCreator",
+    "HeroComponentRandomSkill",
+    "WeightRandom",
+    "MainDropManager",
+    "CharacterComponentBuff"
+  ],
+  "note": "Includes LocalModels.Bean readImpl methods for binary table validation."
+}

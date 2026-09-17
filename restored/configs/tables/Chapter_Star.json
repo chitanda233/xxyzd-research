@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "condition": 1,
+    "param": 570,
+    "exparam": 0,
+    "langId": 370001
+  },
+  {
+    "id": 2,
+    "condition": 1,
+    "param": 630,
+    "exparam": 0,
+    "langId": 370001
+  },
+  {
+    "id": 3,
+    "condition": 2,
+    "param": 5,
+    "exparam": 0,
+    "langId": 370002
+  },
+  {
+    "id": 4,
+    "condition": 2,
+    "param": 10,
+    "exparam": 0,
+    "langId": 370002
+  },
+  {
+    "id": 5,
+    "condition": 3,
+    "param": 0,
+    "exparam": 0,
+    "langId": 370003
+  },
+  {
+    "id": 6,
+    "condition": 4,
+    "param": 800,
+    "exparam": 0,
+    "langId": 370006
+  }
+]

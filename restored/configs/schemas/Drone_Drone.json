@@ -1,0 +1,101 @@
+{
+  "name": "Drone_Drone",
+  "assembly": "HotFixBattle.dll",
+  "read_impl_rva": "0x6a5ebb0",
+  "fields": [
+    {
+      "type": "int",
+      "name": "ID",
+      "offset": 32,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "sort",
+      "offset": 36,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "quality",
+      "offset": 40,
+      "reader": "readInt"
+    },
+    {
+      "type": "string[]",
+      "name": "SkillDetail",
+      "offset": 48,
+      "reader": "readArraystring"
+    },
+    {
+      "type": "string[]",
+      "name": "SelfAttributesType",
+      "offset": 56,
+      "reader": "readArraystring"
+    },
+    {
+      "type": "int",
+      "name": "MaxStar",
+      "offset": 64,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "CollectionTaskID",
+      "offset": 68,
+      "reader": "readInt"
+    },
+    {
+      "type": "string",
+      "name": "name",
+      "offset": 72,
+      "reader": "readLocalString"
+    },
+    {
+      "type": "int",
+      "name": "Atlas",
+      "offset": 80,
+      "reader": "readInt"
+    },
+    {
+      "type": "string",
+      "name": "Icon",
+      "offset": 88,
+      "reader": "readLocalString"
+    },
+    {
+      "type": "int",
+      "name": "RoleEntity",
+      "offset": 96,
+      "reader": "readInt"
+    },
+    {
+      "type": "string",
+      "name": "ShowModel",
+      "offset": 104,
+      "reader": "readLocalString"
+    },
+    {
+      "type": "string",
+      "name": "previewVideo",
+      "offset": 112,
+      "reader": "readLocalString"
+    }
+  ],
+  "native_reader_calls": [
+    "readInt",
+    "readInt",
+    "readInt",
+    "readArraystring",
+    "readArraystring",
+    "readInt",
+    "readInt",
+    "readLocalString",
+    "readInt",
+    "readLocalString",
+    "readInt",
+    "readLocalString",
+    "readLocalString"
+  ],
+  "field_count_matches_native_calls": true
+}

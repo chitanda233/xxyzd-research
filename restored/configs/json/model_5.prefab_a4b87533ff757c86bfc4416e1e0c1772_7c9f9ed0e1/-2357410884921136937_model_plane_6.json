@@ -1,0 +1,318 @@
+{
+  "skeleton": {
+    "hash": "3eh5nrQWJh0",
+    "spine": "4.1.24",
+    "x": -115.5,
+    "y": -83.19,
+    "width": 231,
+    "height": 231,
+    "images": "",
+    "audio": "E:/\u6253\u98de\u673a/\u98de\u673aspine"
+  },
+  "bones": [
+    {
+      "name": "root"
+    },
+    {
+      "name": "all",
+      "parent": "root",
+      "scaleX": 0.58,
+      "scaleY": 0.58
+    },
+    {
+      "name": "plume1",
+      "parent": "all",
+      "x": 46.6,
+      "y": -49.49
+    },
+    {
+      "name": "plume2",
+      "parent": "all",
+      "x": -48.35,
+      "y": -49.82
+    },
+    {
+      "name": "plume3",
+      "parent": "all",
+      "y": -36.02
+    },
+    {
+      "name": "plane5",
+      "parent": "all",
+      "y": 48.95
+    }
+  ],
+  "slots": [
+    {
+      "name": "plane_model_2_04",
+      "bone": "plane5",
+      "attachment": "plane_model_6_01"
+    }
+  ],
+  "skins": [
+    {
+      "name": "default",
+      "attachments": {
+        "plane_model_2_04": {
+          "plane_model_6_01": {
+            "width": 350,
+            "height": 350
+          },
+          "plane_model_6_02": {
+            "width": 350,
+            "height": 350
+          },
+          "plane_model_6_03": {
+            "width": 350,
+            "height": 350
+          },
+          "plane_model_6_04": {
+            "width": 350,
+            "height": 350
+          }
+        }
+      }
+    }
+  ],
+  "animations": {
+    "left": {
+      "slots": {
+        "plane_model_2_04": {
+          "attachment": [
+            {
+              "name": "plane_model_6_04"
+            }
+          ]
+        }
+      },
+      "bones": {
+        "plane5": {
+          "scale": [
+            {
+              "x": -1
+            }
+          ]
+        },
+        "plume1": {
+          "translate": [
+            {
+              "x": -2.46,
+              "y": 16.58
+            }
+          ]
+        },
+        "plume2": {
+          "translate": [
+            {
+              "x": 5.22,
+              "y": -18.12
+            }
+          ]
+        }
+      }
+    },
+    "left_running": {
+      "slots": {
+        "plane_model_2_04": {
+          "attachment": [
+            {
+              "time": 0.1667,
+              "name": "plane_model_6_02"
+            },
+            {
+              "time": 0.3333,
+              "name": "plane_model_6_03"
+            },
+            {
+              "time": 0.5,
+              "name": "plane_model_6_04"
+            }
+          ]
+        }
+      },
+      "bones": {
+        "plane5": {
+          "scale": [
+            {
+              "curve": "stepped"
+            },
+            {
+              "time": 0.1667,
+              "x": -1
+            }
+          ]
+        },
+        "plume1": {
+          "translate": [
+            {
+              "curve": "stepped"
+            },
+            {
+              "time": 0.1667,
+              "x": 2.76,
+              "y": 6.76,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.3333,
+              "x": 1.54,
+              "y": 10.13,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.5,
+              "x": -2.46,
+              "y": 16.58
+            }
+          ]
+        },
+        "plume2": {
+          "translate": [
+            {
+              "curve": "stepped"
+            },
+            {
+              "time": 0.1667,
+              "x": 2.76,
+              "y": -5.83,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.3333,
+              "x": 3.38,
+              "y": -13.51,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.5,
+              "x": 5.22,
+              "y": -18.12
+            }
+          ]
+        },
+        "plume3": {
+          "translate": [
+            {
+              "time": 0.6667
+            }
+          ]
+        }
+      }
+    },
+    "normal": {
+      "bones": {
+        "plume3": {
+          "translate": [
+            {}
+          ]
+        }
+      }
+    },
+    "right": {
+      "slots": {
+        "plane_model_2_04": {
+          "attachment": [
+            {
+              "name": "plane_model_6_04"
+            }
+          ]
+        }
+      },
+      "bones": {
+        "plume2": {
+          "translate": [
+            {
+              "x": 3.68,
+              "y": 15.97
+            }
+          ]
+        },
+        "plume1": {
+          "translate": [
+            {
+              "x": -3.99,
+              "y": -18.42
+            }
+          ]
+        }
+      }
+    },
+    "right_running": {
+      "slots": {
+        "plane_model_2_04": {
+          "attachment": [
+            {
+              "time": 0.1667,
+              "name": "plane_model_6_02"
+            },
+            {
+              "time": 0.3333,
+              "name": "plane_model_6_03"
+            },
+            {
+              "time": 0.5,
+              "name": "plane_model_6_04"
+            }
+          ]
+        }
+      },
+      "bones": {
+        "plume1": {
+          "translate": [
+            {
+              "curve": "stepped"
+            },
+            {
+              "time": 0.1667,
+              "x": -1.23,
+              "y": -6.45,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.3333,
+              "x": -1.84,
+              "y": -14.43,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.5,
+              "x": -3.99,
+              "y": -18.42
+            }
+          ]
+        },
+        "plume2": {
+          "translate": [
+            {
+              "curve": "stepped"
+            },
+            {
+              "time": 0.1667,
+              "x": -1.84,
+              "y": 5.22,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.3333,
+              "x": -0.31,
+              "y": 10.13,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.5,
+              "x": 3.68,
+              "y": 15.97
+            }
+          ]
+        },
+        "plume3": {
+          "translate": [
+            {
+              "time": 0.6667
+            }
+          ]
+        }
+      }
+    }
+  }
+}

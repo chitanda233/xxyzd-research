@@ -1,0 +1,59 @@
+{
+  "name": "Collection_TreasureSuit",
+  "assembly": "HotFixBattle.dll",
+  "read_impl_rva": "0x68ce96c",
+  "fields": [
+    {
+      "type": "int",
+      "name": "id",
+      "offset": 32,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "suitId",
+      "offset": 36,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "suitNameId",
+      "offset": 40,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "conditonPrifixTextId",
+      "offset": 44,
+      "reader": "readInt"
+    },
+    {
+      "type": "int[]",
+      "name": "treasureId",
+      "offset": 48,
+      "reader": "readArrayint"
+    },
+    {
+      "type": "int",
+      "name": "starCondition",
+      "offset": 56,
+      "reader": "readInt"
+    },
+    {
+      "type": "string[]",
+      "name": "attributes",
+      "offset": 64,
+      "reader": "readArraystring"
+    }
+  ],
+  "native_reader_calls": [
+    "readInt",
+    "readInt",
+    "readInt",
+    "readInt",
+    "readArrayint",
+    "readInt",
+    "readArraystring"
+  ],
+  "field_count_matches_native_calls": true
+}

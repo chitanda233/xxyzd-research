@@ -1,0 +1,133 @@
+[
+  {
+    "key": "OpenTime",
+    "Desc": "开启时间（建号后，xxx小时)",
+    "TypeInt": 72,
+    "TypeIntArray": [],
+    "TypeString": "",
+    "TypeFloat": 0.0,
+    "TypeFloatArray": [],
+    "TypeStringArray": []
+  },
+  {
+    "key": "Duration",
+    "Desc": "持续时间（小时）",
+    "TypeInt": 240,
+    "TypeIntArray": [],
+    "TypeString": "",
+    "TypeFloat": 0.0,
+    "TypeFloatArray": [],
+    "TypeStringArray": []
+  },
+  {
+    "key": "ClearItem",
+    "Desc": "活动结束后，需要回收的道具",
+    "TypeInt": 0,
+    "TypeIntArray": [
+      1001,
+      1002,
+      1003
+    ],
+    "TypeString": "",
+    "TypeFloat": 0.0,
+    "TypeFloatArray": [],
+    "TypeStringArray": []
+  },
+  {
+    "key": "FundId",
+    "Desc": "签到基金id",
+    "TypeInt": 101001,
+    "TypeIntArray": [],
+    "TypeString": "",
+    "TypeFloat": 0.0,
+    "TypeFloatArray": [],
+    "TypeStringArray": []
+  },
+  {
+    "key": "DrawCost",
+    "Desc": "抽奖池单次消耗道具id,数量",
+    "TypeInt": 0,
+    "TypeIntArray": [],
+    "TypeString": "1001,1",
+    "TypeFloat": 0.0,
+    "TypeFloatArray": [],
+    "TypeStringArray": []
+  },
+  {
+    "key": "LuckyValue",
+    "Desc": "抽奖池幸运值上限（每次抽获得1）",
+    "TypeInt": 100,
+    "TypeIntArray": [],
+    "TypeString": "",
+    "TypeFloat": 0.0,
+    "TypeFloatArray": [],
+    "TypeStringArray": []
+  },
+  {
+    "key": "TaskType",
+    "Desc": "任务类型",
+    "TypeInt": 1001,
+    "TypeIntArray": [],
+    "TypeString": "",
+    "TypeFloat": 0.0,
+    "TypeFloatArray": [],
+    "TypeStringArray": []
+  },
+  {
+    "key": "ShopAirplaneModel",
+    "Desc": "兑换商店展示的飞机模型",
+    "TypeInt": 0,
+    "TypeIntArray": [],
+    "TypeString": "Assets/_Resources/Prefab/UI/PlaneUI/model_plane_11.prefab",
+    "TypeFloat": 0.0,
+    "TypeFloatArray": [],
+    "TypeStringArray": []
+  },
+  {
+    "key": "ExchangeShopId",
+    "Desc": "兑换商店的shopgoods id(默认第一个可兑换时出红点，最贵商品）",
+    "TypeInt": 27,
+    "TypeIntArray": [
+      300131,
+      300132,
+      300148,
+      300145,
+      300133,
+      300134,
+      300135,
+      300136,
+      300137,
+      300147,
+      300138,
+      300139,
+      300140,
+      300141,
+      300146,
+      300142,
+      300143,
+      300144
+    ],
+    "TypeString": "",
+    "TypeFloat": 0.0,
+    "TypeFloatArray": [],
+    "TypeStringArray": []
+  },
+  {
+    "key": "GiftPackShopId",
+    "Desc": "礼包的shopgoods id",
+    "TypeInt": 27,
+    "TypeIntArray": [
+      300111,
+      300112,
+      300113,
+      300114,
+      300115,
+      300116,
+      300117
+    ],
+    "TypeString": "",
+    "TypeFloat": 0.0,
+    "TypeFloatArray": [],
+    "TypeStringArray": []
+  }
+]

@@ -1,0 +1,102 @@
+[
+  {
+    "Id": 1001,
+    "LevelLimit": 11,
+    "Type": 1,
+    "SkillId": 1001001,
+    "SkillMaxLv": 5,
+    "IconAtlas": 44,
+    "IconPath": "tianfu_1",
+    "NameLanguage": 6202
+  },
+  {
+    "Id": 1002,
+    "LevelLimit": 21,
+    "Type": 2,
+    "SkillId": 1002001,
+    "SkillMaxLv": 5,
+    "IconAtlas": 44,
+    "IconPath": "tianfu_2",
+    "NameLanguage": 6202
+  },
+  {
+    "Id": 1003,
+    "LevelLimit": 31,
+    "Type": 1,
+    "SkillId": 1003001,
+    "SkillMaxLv": 5,
+    "IconAtlas": 44,
+    "IconPath": "tianfu_3",
+    "NameLanguage": 6202
+  },
+  {
+    "Id": 1004,
+    "LevelLimit": 41,
+    "Type": 1,
+    "SkillId": 1004001,
+    "SkillMaxLv": 5,
+    "IconAtlas": 44,
+    "IconPath": "tianfu_1",
+    "NameLanguage": 6202
+  },
+  {
+    "Id": 1005,
+    "LevelLimit": 51,
+    "Type": 2,
+    "SkillId": 1005001,
+    "SkillMaxLv": 5,
+    "IconAtlas": 44,
+    "IconPath": "tianfu_2",
+    "NameLanguage": 6202
+  },
+  {
+    "Id": 1006,
+    "LevelLimit": 61,
+    "Type": 1,
+    "SkillId": 1006001,
+    "SkillMaxLv": 5,
+    "IconAtlas": 44,
+    "IconPath": "tianfu_3",
+    "NameLanguage": 6202
+  },
+  {
+    "Id": 1007,
+    "LevelLimit": 71,
+    "Type": 1,
+    "SkillId": 1007001,
+    "SkillMaxLv": 5,
+    "IconAtlas": 44,
+    "IconPath": "tianfu_1",
+    "NameLanguage": 6202
+  },
+  {
+    "Id": 1008,
+    "LevelLimit": 81,
+    "Type": 2,
+    "SkillId": 1008001,
+    "SkillMaxLv": 5,
+    "IconAtlas": 44,
+    "IconPath": "tianfu_2",
+    "NameLanguage": 6202
+  },
+  {
+    "Id": 1009,
+    "LevelLimit": 91,
+    "Type": 1,
+    "SkillId": 1009001,
+    "SkillMaxLv": 5,
+    "IconAtlas": 44,
+    "IconPath": "tianfu_3",
+    "NameLanguage": 6202
+  },
+  {
+    "Id": 1010,
+    "LevelLimit": 100,
+    "Type": 1,
+    "SkillId": 1010001,
+    "SkillMaxLv": 5,
+    "IconAtlas": 44,
+    "IconPath": "tianfu_1",
+    "NameLanguage": 6202
+  }
+]

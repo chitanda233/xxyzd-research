@@ -1,0 +1,166 @@
+{
+  "skeleton": {
+    "hash": "VaZn8bz9+D4",
+    "spine": "4.1.24",
+    "x": -180.88,
+    "y": -123.13,
+    "width": 366,
+    "height": 258,
+    "images": "./images/",
+    "audio": "E:/\u98de\u673a\u9879\u76ee/3\u602a\uff06\u98de\u673a/\u503e\u659c\u98de\u673a"
+  },
+  "bones": [
+    {
+      "name": "root",
+      "x": -19.72
+    },
+    {
+      "name": "bone",
+      "parent": "root"
+    },
+    {
+      "name": "bone2",
+      "parent": "bone",
+      "color": "ffffffff"
+    }
+  ],
+  "slots": [
+    {
+      "name": "model_plane4_ui",
+      "bone": "bone2",
+      "attachment": "model_plane4_ui"
+    }
+  ],
+  "skins": [
+    {
+      "name": "default",
+      "attachments": {
+        "model_plane4_ui": {
+          "model_plane4_ui": {
+            "x": 21.84,
+            "y": 5.87,
+            "width": 366,
+            "height": 258
+          }
+        }
+      }
+    }
+  ],
+  "animations": {
+    "Hide": {
+      "slots": {
+        "model_plane4_ui": {
+          "rgba": [
+            {
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.3333,
+              "color": "ffffff00"
+            }
+          ]
+        }
+      },
+      "bones": {
+        "bone2": {
+          "translate": [
+            {
+              "curve": [
+                0.111,
+                0,
+                0.222,
+                0,
+                0.132,
+                -56.02,
+                0.267,
+                -92.85
+              ]
+            },
+            {
+              "time": 0.3333,
+              "y": -100
+            }
+          ]
+        }
+      }
+    },
+    "Idle": {
+      "bones": {
+        "bone2": {
+          "translate": [
+            {
+              "curve": [
+                0.5,
+                0,
+                1,
+                0,
+                0.5,
+                0,
+                1,
+                22.78
+              ]
+            },
+            {
+              "time": 1.5,
+              "y": 22.78,
+              "curve": [
+                2,
+                0,
+                2.5,
+                0,
+                2,
+                22.78,
+                2.5,
+                0
+              ]
+            },
+            {
+              "time": 3
+            }
+          ]
+        }
+      }
+    },
+    "Show": {
+      "slots": {
+        "model_plane4_ui": {
+          "rgba": [
+            {
+              "color": "ffffff00"
+            },
+            {
+              "time": 0.5,
+              "color": "ffffffff"
+            }
+          ]
+        }
+      },
+      "bones": {
+        "bone2": {
+          "translate": [
+            {
+              "y": -100,
+              "curve": [
+                0.111,
+                0,
+                0.222,
+                0,
+                0.045,
+                -92.42,
+                0.11,
+                -78.24
+              ]
+            },
+            {
+              "time": 0.3333,
+              "y": 10
+            },
+            {
+              "time": 0.5
+            }
+          ]
+        }
+      }
+    }
+  }
+}

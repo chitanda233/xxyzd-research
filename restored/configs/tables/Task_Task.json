@@ -1,0 +1,9193 @@
+[
+  {
+    "ID": 1201001,
+    "Type": 1,
+    "Group": "1201",
+    "Sort": 1,
+    "ConditionId": 100,
+    "ConditionParams": "{\"Count\":1}",
+    "Progress": "Count",
+    "LanguageId": "Task_Achieve_Text_120101",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 1201002,
+    "Type": 1,
+    "Group": "1201",
+    "Sort": 2,
+    "ConditionId": 100,
+    "ConditionParams": "{\"Count\":2}",
+    "Progress": "Count",
+    "LanguageId": "Task_Achieve_Text_120101",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 1201003,
+    "Type": 1,
+    "Group": "1201",
+    "Sort": 3,
+    "ConditionId": 100,
+    "ConditionParams": "{\"Count\":3}",
+    "Progress": "Count",
+    "LanguageId": "Task_Achieve_Text_120101",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 1201004,
+    "Type": 1,
+    "Group": "1201",
+    "Sort": 4,
+    "ConditionId": 100,
+    "ConditionParams": "{\"Count\":4}",
+    "Progress": "Count",
+    "LanguageId": "Task_Achieve_Text_120101",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 1201005,
+    "Type": 1,
+    "Group": "1201",
+    "Sort": 5,
+    "ConditionId": 100,
+    "ConditionParams": "{\"Count\":5}",
+    "Progress": "Count",
+    "LanguageId": "Task_Achieve_Text_120101",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 1201006,
+    "Type": 1,
+    "Group": "1201",
+    "Sort": 6,
+    "ConditionId": 100,
+    "ConditionParams": "{\"Count\":6}",
+    "Progress": "Count",
+    "LanguageId": "Task_Achieve_Text_120101",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 1201007,
+    "Type": 1,
+    "Group": "1201",
+    "Sort": 7,
+    "ConditionId": 100,
+    "ConditionParams": "{\"Count\":7}",
+    "Progress": "Count",
+    "LanguageId": "Task_Achieve_Text_120101",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 1201008,
+    "Type": 1,
+    "Group": "1201",
+    "Sort": 8,
+    "ConditionId": 100,
+    "ConditionParams": "{\"Count\":8}",
+    "Progress": "Count",
+    "LanguageId": "Task_Achieve_Text_120101",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 1201009,
+    "Type": 1,
+    "Group": "1201",
+    "Sort": 9,
+    "ConditionId": 100,
+    "ConditionParams": "{\"Count\":9}",
+    "Progress": "Count",
+    "LanguageId": "Task_Achieve_Text_120101",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 1201010,
+    "Type": 1,
+    "Group": "1201",
+    "Sort": 10,
+    "ConditionId": 100,
+    "ConditionParams": "{\"Count\":10}",
+    "Progress": "Count",
+    "LanguageId": "Task_Achieve_Text_120101",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 1201011,
+    "Type": 1,
+    "Group": "1201",
+    "Sort": 11,
+    "ConditionId": 100,
+    "ConditionParams": "{\"Count\":15}",
+    "Progress": "Count",
+    "LanguageId": "Task_Achieve_Text_120101",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 1201012,
+    "Type": 1,
+    "Group": "1201",
+    "Sort": 12,
+    "ConditionId": 100,
+    "ConditionParams": "{\"Count\":20}",
+    "Progress": "Count",
+    "LanguageId": "Task_Achieve_Text_120101",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 1201013,
+    "Type": 1,
+    "Group": "1201",
+    "Sort": 13,
+    "ConditionId": 100,
+    "ConditionParams": "{\"Count\":25}",
+    "Progress": "Count",
+    "LanguageId": "Task_Achieve_Text_120101",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 1201014,
+    "Type": 1,
+    "Group": "1201",
+    "Sort": 14,
+    "ConditionId": 100,
+    "ConditionParams": "{\"Count\":30}",
+    "Progress": "Count",
+    "LanguageId": "Task_Achieve_Text_120101",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 1201015,
+    "Type": 1,
+    "Group": "1201",
+    "Sort": 15,
+    "ConditionId": 100,
+    "ConditionParams": "{\"Count\":35}",
+    "Progress": "Count",
+    "LanguageId": "Task_Achieve_Text_120101",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 1201016,
+    "Type": 1,
+    "Group": "1201",
+    "Sort": 16,
+    "ConditionId": 100,
+    "ConditionParams": "{\"Count\":40}",
+    "Progress": "Count",
+    "LanguageId": "Task_Achieve_Text_120101",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 1201017,
+    "Type": 1,
+    "Group": "1201",
+    "Sort": 17,
+    "ConditionId": 100,
+    "ConditionParams": "{\"Count\":45}",
+    "Progress": "Count",
+    "LanguageId": "Task_Achieve_Text_120101",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 1201018,
+    "Type": 1,
+    "Group": "1201",
+    "Sort": 18,
+    "ConditionId": 100,
+    "ConditionParams": "{\"Count\":50}",
+    "Progress": "Count",
+    "LanguageId": "Task_Achieve_Text_120101",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 1201019,
+    "Type": 1,
+    "Group": "1201",
+    "Sort": 19,
+    "ConditionId": 100,
+    "ConditionParams": "{\"Count\":55}",
+    "Progress": "Count",
+    "LanguageId": "Task_Achieve_Text_120101",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 1201020,
+    "Type": 1,
+    "Group": "1201",
+    "Sort": 20,
+    "ConditionId": 100,
+    "ConditionParams": "{\"Count\":60}",
+    "Progress": "Count",
+    "LanguageId": "Task_Achieve_Text_120101",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 1201021,
+    "Type": 1,
+    "Group": "1201",
+    "Sort": 21,
+    "ConditionId": 100,
+    "ConditionParams": "{\"Count\":65}",
+    "Progress": "Count",
+    "LanguageId": "Task_Achieve_Text_120101",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 1201022,
+    "Type": 1,
+    "Group": "1201",
+    "Sort": 22,
+    "ConditionId": 100,
+    "ConditionParams": "{\"Count\":70}",
+    "Progress": "Count",
+    "LanguageId": "Task_Achieve_Text_120101",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 1201023,
+    "Type": 1,
+    "Group": "1201",
+    "Sort": 23,
+    "ConditionId": 100,
+    "ConditionParams": "{\"Count\":75}",
+    "Progress": "Count",
+    "LanguageId": "Task_Achieve_Text_120101",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 1201024,
+    "Type": 1,
+    "Group": "1201",
+    "Sort": 24,
+    "ConditionId": 100,
+    "ConditionParams": "{\"Count\":80}",
+    "Progress": "Count",
+    "LanguageId": "Task_Achieve_Text_120101",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 1201025,
+    "Type": 1,
+    "Group": "1201",
+    "Sort": 25,
+    "ConditionId": 100,
+    "ConditionParams": "{\"Count\":85}",
+    "Progress": "Count",
+    "LanguageId": "Task_Achieve_Text_120101",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 1201026,
+    "Type": 1,
+    "Group": "1201",
+    "Sort": 26,
+    "ConditionId": 100,
+    "ConditionParams": "{\"Count\":90}",
+    "Progress": "Count",
+    "LanguageId": "Task_Achieve_Text_120101",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 1201027,
+    "Type": 1,
+    "Group": "1201",
+    "Sort": 27,
+    "ConditionId": 100,
+    "ConditionParams": "{\"Count\":95}",
+    "Progress": "Count",
+    "LanguageId": "Task_Achieve_Text_120101",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 1201028,
+    "Type": 1,
+    "Group": "1201",
+    "Sort": 28,
+    "ConditionId": 100,
+    "ConditionParams": "{\"Count\":100}",
+    "Progress": "Count",
+    "LanguageId": "Task_Achieve_Text_120101",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 1201029,
+    "Type": 1,
+    "Group": "1201",
+    "Sort": 29,
+    "ConditionId": 100,
+    "ConditionParams": "{\"Count\":105}",
+    "Progress": "Count",
+    "LanguageId": "Task_Achieve_Text_120101",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 1201030,
+    "Type": 1,
+    "Group": "1201",
+    "Sort": 30,
+    "ConditionId": 100,
+    "ConditionParams": "{\"Count\":110}",
+    "Progress": "Count",
+    "LanguageId": "Task_Achieve_Text_120101",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 1201031,
+    "Type": 1,
+    "Group": "1201",
+    "Sort": 31,
+    "ConditionId": 100,
+    "ConditionParams": "{\"Count\":115}",
+    "Progress": "Count",
+    "LanguageId": "Task_Achieve_Text_120101",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 1201032,
+    "Type": 1,
+    "Group": "1201",
+    "Sort": 32,
+    "ConditionId": 100,
+    "ConditionParams": "{\"Count\":120}",
+    "Progress": "Count",
+    "LanguageId": "Task_Achieve_Text_120101",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 1201033,
+    "Type": 1,
+    "Group": "1201",
+    "Sort": 33,
+    "ConditionId": 100,
+    "ConditionParams": "{\"Count\":125}",
+    "Progress": "Count",
+    "LanguageId": "Task_Achieve_Text_120101",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 1201034,
+    "Type": 1,
+    "Group": "1201",
+    "Sort": 34,
+    "ConditionId": 100,
+    "ConditionParams": "{\"Count\":130}",
+    "Progress": "Count",
+    "LanguageId": "Task_Achieve_Text_120101",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 1201035,
+    "Type": 1,
+    "Group": "1201",
+    "Sort": 35,
+    "ConditionId": 100,
+    "ConditionParams": "{\"Count\":135}",
+    "Progress": "Count",
+    "LanguageId": "Task_Achieve_Text_120101",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 1201036,
+    "Type": 1,
+    "Group": "1201",
+    "Sort": 36,
+    "ConditionId": 100,
+    "ConditionParams": "{\"Count\":140}",
+    "Progress": "Count",
+    "LanguageId": "Task_Achieve_Text_120101",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 1201037,
+    "Type": 1,
+    "Group": "1201",
+    "Sort": 37,
+    "ConditionId": 100,
+    "ConditionParams": "{\"Count\":145}",
+    "Progress": "Count",
+    "LanguageId": "Task_Achieve_Text_120101",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 1201038,
+    "Type": 1,
+    "Group": "1201",
+    "Sort": 38,
+    "ConditionId": 100,
+    "ConditionParams": "{\"Count\":150}",
+    "Progress": "Count",
+    "LanguageId": "Task_Achieve_Text_120101",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 1201039,
+    "Type": 1,
+    "Group": "1201",
+    "Sort": 39,
+    "ConditionId": 100,
+    "ConditionParams": "{\"Count\":155}",
+    "Progress": "Count",
+    "LanguageId": "Task_Achieve_Text_120101",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 1201040,
+    "Type": 1,
+    "Group": "1201",
+    "Sort": 40,
+    "ConditionId": 100,
+    "ConditionParams": "{\"Count\":160}",
+    "Progress": "Count",
+    "LanguageId": "Task_Achieve_Text_120101",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 1201041,
+    "Type": 1,
+    "Group": "1201",
+    "Sort": 41,
+    "ConditionId": 100,
+    "ConditionParams": "{\"Count\":165}",
+    "Progress": "Count",
+    "LanguageId": "Task_Achieve_Text_120101",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 1201042,
+    "Type": 1,
+    "Group": "1201",
+    "Sort": 42,
+    "ConditionId": 100,
+    "ConditionParams": "{\"Count\":170}",
+    "Progress": "Count",
+    "LanguageId": "Task_Achieve_Text_120101",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 1201043,
+    "Type": 1,
+    "Group": "1201",
+    "Sort": 43,
+    "ConditionId": 100,
+    "ConditionParams": "{\"Count\":175}",
+    "Progress": "Count",
+    "LanguageId": "Task_Achieve_Text_120101",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 1201044,
+    "Type": 1,
+    "Group": "1201",
+    "Sort": 44,
+    "ConditionId": 100,
+    "ConditionParams": "{\"Count\":180}",
+    "Progress": "Count",
+    "LanguageId": "Task_Achieve_Text_120101",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 1201045,
+    "Type": 1,
+    "Group": "1201",
+    "Sort": 45,
+    "ConditionId": 100,
+    "ConditionParams": "{\"Count\":185}",
+    "Progress": "Count",
+    "LanguageId": "Task_Achieve_Text_120101",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 1201046,
+    "Type": 1,
+    "Group": "1201",
+    "Sort": 46,
+    "ConditionId": 100,
+    "ConditionParams": "{\"Count\":190}",
+    "Progress": "Count",
+    "LanguageId": "Task_Achieve_Text_120101",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 1201047,
+    "Type": 1,
+    "Group": "1201",
+    "Sort": 47,
+    "ConditionId": 100,
+    "ConditionParams": "{\"Count\":195}",
+    "Progress": "Count",
+    "LanguageId": "Task_Achieve_Text_120101",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 1201048,
+    "Type": 1,
+    "Group": "1201",
+    "Sort": 48,
+    "ConditionId": 100,
+    "ConditionParams": "{\"Count\":200}",
+    "Progress": "Count",
+    "LanguageId": "Task_Achieve_Text_120101",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 1201049,
+    "Type": 1,
+    "Group": "1201",
+    "Sort": 49,
+    "ConditionId": 100,
+    "ConditionParams": "{\"Count\":205}",
+    "Progress": "Count",
+    "LanguageId": "Task_Achieve_Text_120101",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 1201050,
+    "Type": 1,
+    "Group": "1201",
+    "Sort": 50,
+    "ConditionId": 100,
+    "ConditionParams": "{\"Count\":210}",
+    "Progress": "Count",
+    "LanguageId": "Task_Achieve_Text_120101",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 1201051,
+    "Type": 1,
+    "Group": "1201",
+    "Sort": 51,
+    "ConditionId": 100,
+    "ConditionParams": "{\"Count\":215}",
+    "Progress": "Count",
+    "LanguageId": "Task_Achieve_Text_120101",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 1201052,
+    "Type": 1,
+    "Group": "1201",
+    "Sort": 52,
+    "ConditionId": 100,
+    "ConditionParams": "{\"Count\":220}",
+    "Progress": "Count",
+    "LanguageId": "Task_Achieve_Text_120101",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 1201053,
+    "Type": 1,
+    "Group": "1201",
+    "Sort": 53,
+    "ConditionId": 100,
+    "ConditionParams": "{\"Count\":225}",
+    "Progress": "Count",
+    "LanguageId": "Task_Achieve_Text_120101",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 1201054,
+    "Type": 1,
+    "Group": "1201",
+    "Sort": 54,
+    "ConditionId": 100,
+    "ConditionParams": "{\"Count\":230}",
+    "Progress": "Count",
+    "LanguageId": "Task_Achieve_Text_120101",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 1201055,
+    "Type": 1,
+    "Group": "1201",
+    "Sort": 55,
+    "ConditionId": 100,
+    "ConditionParams": "{\"Count\":235}",
+    "Progress": "Count",
+    "LanguageId": "Task_Achieve_Text_120101",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 1201056,
+    "Type": 1,
+    "Group": "1201",
+    "Sort": 56,
+    "ConditionId": 100,
+    "ConditionParams": "{\"Count\":240}",
+    "Progress": "Count",
+    "LanguageId": "Task_Achieve_Text_120101",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 1201057,
+    "Type": 1,
+    "Group": "1201",
+    "Sort": 57,
+    "ConditionId": 100,
+    "ConditionParams": "{\"Count\":245}",
+    "Progress": "Count",
+    "LanguageId": "Task_Achieve_Text_120101",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 1201058,
+    "Type": 1,
+    "Group": "1201",
+    "Sort": 58,
+    "ConditionId": 100,
+    "ConditionParams": "{\"Count\":250}",
+    "Progress": "Count",
+    "LanguageId": "Task_Achieve_Text_120101",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 1201059,
+    "Type": 1,
+    "Group": "1201",
+    "Sort": 59,
+    "ConditionId": 100,
+    "ConditionParams": "{\"Count\":255}",
+    "Progress": "Count",
+    "LanguageId": "Task_Achieve_Text_120101",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 1201060,
+    "Type": 1,
+    "Group": "1201",
+    "Sort": 60,
+    "ConditionId": 100,
+    "ConditionParams": "{\"Count\":260}",
+    "Progress": "Count",
+    "LanguageId": "Task_Achieve_Text_120101",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 1201061,
+    "Type": 1,
+    "Group": "1201",
+    "Sort": 61,
+    "ConditionId": 100,
+    "ConditionParams": "{\"Count\":265}",
+    "Progress": "Count",
+    "LanguageId": "Task_Achieve_Text_120101",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 1201062,
+    "Type": 1,
+    "Group": "1201",
+    "Sort": 62,
+    "ConditionId": 100,
+    "ConditionParams": "{\"Count\":270}",
+    "Progress": "Count",
+    "LanguageId": "Task_Achieve_Text_120101",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 1201063,
+    "Type": 1,
+    "Group": "1201",
+    "Sort": 63,
+    "ConditionId": 100,
+    "ConditionParams": "{\"Count\":275}",
+    "Progress": "Count",
+    "LanguageId": "Task_Achieve_Text_120101",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 1201064,
+    "Type": 1,
+    "Group": "1201",
+    "Sort": 64,
+    "ConditionId": 100,
+    "ConditionParams": "{\"Count\":280}",
+    "Progress": "Count",
+    "LanguageId": "Task_Achieve_Text_120101",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 1201065,
+    "Type": 1,
+    "Group": "1201",
+    "Sort": 65,
+    "ConditionId": 100,
+    "ConditionParams": "{\"Count\":285}",
+    "Progress": "Count",
+    "LanguageId": "Task_Achieve_Text_120101",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 1201066,
+    "Type": 1,
+    "Group": "1201",
+    "Sort": 66,
+    "ConditionId": 100,
+    "ConditionParams": "{\"Count\":290}",
+    "Progress": "Count",
+    "LanguageId": "Task_Achieve_Text_120101",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 1201067,
+    "Type": 1,
+    "Group": "1201",
+    "Sort": 67,
+    "ConditionId": 100,
+    "ConditionParams": "{\"Count\":295}",
+    "Progress": "Count",
+    "LanguageId": "Task_Achieve_Text_120101",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 1201068,
+    "Type": 1,
+    "Group": "1201",
+    "Sort": 68,
+    "ConditionId": 100,
+    "ConditionParams": "{\"Count\":300}",
+    "Progress": "Count",
+    "LanguageId": "Task_Achieve_Text_120101",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 1202001,
+    "Type": 1,
+    "Group": "1202",
+    "Sort": 69,
+    "ConditionId": 107,
+    "ConditionParams": "{\"Level\":5}",
+    "Progress": "Level",
+    "LanguageId": "Task_Achieve_Text_120201",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 1202002,
+    "Type": 1,
+    "Group": "1202",
+    "Sort": 70,
+    "ConditionId": 107,
+    "ConditionParams": "{\"Level\":10}",
+    "Progress": "Level",
+    "LanguageId": "Task_Achieve_Text_120201",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 1202003,
+    "Type": 1,
+    "Group": "1202",
+    "Sort": 71,
+    "ConditionId": 107,
+    "ConditionParams": "{\"Level\":15}",
+    "Progress": "Level",
+    "LanguageId": "Task_Achieve_Text_120201",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 1202004,
+    "Type": 1,
+    "Group": "1202",
+    "Sort": 72,
+    "ConditionId": 107,
+    "ConditionParams": "{\"Level\":20}",
+    "Progress": "Level",
+    "LanguageId": "Task_Achieve_Text_120201",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 1202005,
+    "Type": 1,
+    "Group": "1202",
+    "Sort": 73,
+    "ConditionId": 107,
+    "ConditionParams": "{\"Level\":25}",
+    "Progress": "Level",
+    "LanguageId": "Task_Achieve_Text_120201",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 1202006,
+    "Type": 1,
+    "Group": "1202",
+    "Sort": 74,
+    "ConditionId": 107,
+    "ConditionParams": "{\"Level\":30}",
+    "Progress": "Level",
+    "LanguageId": "Task_Achieve_Text_120201",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 1202007,
+    "Type": 1,
+    "Group": "1202",
+    "Sort": 75,
+    "ConditionId": 107,
+    "ConditionParams": "{\"Level\":35}",
+    "Progress": "Level",
+    "LanguageId": "Task_Achieve_Text_120201",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 1202008,
+    "Type": 1,
+    "Group": "1202",
+    "Sort": 76,
+    "ConditionId": 107,
+    "ConditionParams": "{\"Level\":40}",
+    "Progress": "Level",
+    "LanguageId": "Task_Achieve_Text_120201",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 1202009,
+    "Type": 1,
+    "Group": "1202",
+    "Sort": 77,
+    "ConditionId": 107,
+    "ConditionParams": "{\"Level\":45}",
+    "Progress": "Level",
+    "LanguageId": "Task_Achieve_Text_120201",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 1202010,
+    "Type": 1,
+    "Group": "1202",
+    "Sort": 78,
+    "ConditionId": 107,
+    "ConditionParams": "{\"Level\":50}",
+    "Progress": "Level",
+    "LanguageId": "Task_Achieve_Text_120201",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 1204001,
+    "Type": 1,
+    "Group": "1204",
+    "Sort": 79,
+    "ConditionId": 103,
+    "ConditionParams": "{\"Count\":10,\"Type\":1}",
+    "Progress": "Count",
+    "LanguageId": "Task_Achieve_Text_120401",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 1204002,
+    "Type": 1,
+    "Group": "1204",
+    "Sort": 80,
+    "ConditionId": 103,
+    "ConditionParams": "{\"Count\":20,\"Type\":1}",
+    "Progress": "Count",
+    "LanguageId": "Task_Achieve_Text_120401",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 1204003,
+    "Type": 1,
+    "Group": "1204",
+    "Sort": 81,
+    "ConditionId": 103,
+    "ConditionParams": "{\"Count\":30,\"Type\":1}",
+    "Progress": "Count",
+    "LanguageId": "Task_Achieve_Text_120401",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 1204004,
+    "Type": 1,
+    "Group": "1204",
+    "Sort": 82,
+    "ConditionId": 103,
+    "ConditionParams": "{\"Count\":40,\"Type\":1}",
+    "Progress": "Count",
+    "LanguageId": "Task_Achieve_Text_120401",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 1204005,
+    "Type": 1,
+    "Group": "1204",
+    "Sort": 83,
+    "ConditionId": 103,
+    "ConditionParams": "{\"Count\":50,\"Type\":1}",
+    "Progress": "Count",
+    "LanguageId": "Task_Achieve_Text_120401",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 1204006,
+    "Type": 1,
+    "Group": "1204",
+    "Sort": 84,
+    "ConditionId": 103,
+    "ConditionParams": "{\"Count\":100,\"Type\":1}",
+    "Progress": "Count",
+    "LanguageId": "Task_Achieve_Text_120401",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 1204007,
+    "Type": 1,
+    "Group": "1204",
+    "Sort": 85,
+    "ConditionId": 103,
+    "ConditionParams": "{\"Count\":120,\"Type\":1}",
+    "Progress": "Count",
+    "LanguageId": "Task_Achieve_Text_120401",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 1204008,
+    "Type": 1,
+    "Group": "1204",
+    "Sort": 86,
+    "ConditionId": 103,
+    "ConditionParams": "{\"Count\":140,\"Type\":1}",
+    "Progress": "Count",
+    "LanguageId": "Task_Achieve_Text_120401",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 1204009,
+    "Type": 1,
+    "Group": "1204",
+    "Sort": 87,
+    "ConditionId": 103,
+    "ConditionParams": "{\"Count\":160,\"Type\":1}",
+    "Progress": "Count",
+    "LanguageId": "Task_Achieve_Text_120401",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 1204010,
+    "Type": 1,
+    "Group": "1204",
+    "Sort": 88,
+    "ConditionId": 103,
+    "ConditionParams": "{\"Count\":180,\"Type\":1}",
+    "Progress": "Count",
+    "LanguageId": "Task_Achieve_Text_120401",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 1204011,
+    "Type": 1,
+    "Group": "1204",
+    "Sort": 89,
+    "ConditionId": 103,
+    "ConditionParams": "{\"Count\":200,\"Type\":1}",
+    "Progress": "Count",
+    "LanguageId": "Task_Achieve_Text_120401",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 1205001,
+    "Type": 1,
+    "Group": "1205",
+    "Sort": 90,
+    "ConditionId": 103,
+    "ConditionParams": "{\"Count\":5,\"Type\":2}",
+    "Progress": "Count",
+    "LanguageId": "Task_Achieve_Text_120501",
+    "JumpId": 22,
+    "RewardItem": [
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 1205002,
+    "Type": 1,
+    "Group": "1205",
+    "Sort": 91,
+    "ConditionId": 103,
+    "ConditionParams": "{\"Count\":10,\"Type\":2}",
+    "Progress": "Count",
+    "LanguageId": "Task_Achieve_Text_120501",
+    "JumpId": 22,
+    "RewardItem": [
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 1205003,
+    "Type": 1,
+    "Group": "1205",
+    "Sort": 92,
+    "ConditionId": 103,
+    "ConditionParams": "{\"Count\":15,\"Type\":2}",
+    "Progress": "Count",
+    "LanguageId": "Task_Achieve_Text_120501",
+    "JumpId": 22,
+    "RewardItem": [
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 1205004,
+    "Type": 1,
+    "Group": "1205",
+    "Sort": 93,
+    "ConditionId": 103,
+    "ConditionParams": "{\"Count\":20,\"Type\":2}",
+    "Progress": "Count",
+    "LanguageId": "Task_Achieve_Text_120501",
+    "JumpId": 22,
+    "RewardItem": [
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 1205005,
+    "Type": 1,
+    "Group": "1205",
+    "Sort": 94,
+    "ConditionId": 103,
+    "ConditionParams": "{\"Count\":25,\"Type\":2}",
+    "Progress": "Count",
+    "LanguageId": "Task_Achieve_Text_120501",
+    "JumpId": 22,
+    "RewardItem": [
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 1205006,
+    "Type": 1,
+    "Group": "1205",
+    "Sort": 95,
+    "ConditionId": 103,
+    "ConditionParams": "{\"Count\":30,\"Type\":2}",
+    "Progress": "Count",
+    "LanguageId": "Task_Achieve_Text_120501",
+    "JumpId": 22,
+    "RewardItem": [
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 1205007,
+    "Type": 1,
+    "Group": "1205",
+    "Sort": 96,
+    "ConditionId": 103,
+    "ConditionParams": "{\"Count\":35,\"Type\":2}",
+    "Progress": "Count",
+    "LanguageId": "Task_Achieve_Text_120501",
+    "JumpId": 22,
+    "RewardItem": [
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 1205008,
+    "Type": 1,
+    "Group": "1205",
+    "Sort": 97,
+    "ConditionId": 103,
+    "ConditionParams": "{\"Count\":40,\"Type\":2}",
+    "Progress": "Count",
+    "LanguageId": "Task_Achieve_Text_120501",
+    "JumpId": 22,
+    "RewardItem": [
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 1205009,
+    "Type": 1,
+    "Group": "1205",
+    "Sort": 98,
+    "ConditionId": 103,
+    "ConditionParams": "{\"Count\":45,\"Type\":2}",
+    "Progress": "Count",
+    "LanguageId": "Task_Achieve_Text_120501",
+    "JumpId": 22,
+    "RewardItem": [
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 1205010,
+    "Type": 1,
+    "Group": "1205",
+    "Sort": 99,
+    "ConditionId": 103,
+    "ConditionParams": "{\"Count\":50,\"Type\":2}",
+    "Progress": "Count",
+    "LanguageId": "Task_Achieve_Text_120501",
+    "JumpId": 22,
+    "RewardItem": [
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 1210001,
+    "Type": 1,
+    "Group": "1210",
+    "Sort": 100,
+    "ConditionId": 105,
+    "ConditionParams": "{\"Count\":1000,\"ItemId\":2}",
+    "Progress": "Count",
+    "LanguageId": "Task_Achieve_Text_121001",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 1210002,
+    "Type": 1,
+    "Group": "1210",
+    "Sort": 101,
+    "ConditionId": 105,
+    "ConditionParams": "{\"Count\":2000,\"ItemId\":2}",
+    "Progress": "Count",
+    "LanguageId": "Task_Achieve_Text_121001",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 1210003,
+    "Type": 1,
+    "Group": "1210",
+    "Sort": 102,
+    "ConditionId": 105,
+    "ConditionParams": "{\"Count\":3000,\"ItemId\":2}",
+    "Progress": "Count",
+    "LanguageId": "Task_Achieve_Text_121001",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 1210004,
+    "Type": 1,
+    "Group": "1210",
+    "Sort": 103,
+    "ConditionId": 105,
+    "ConditionParams": "{\"Count\":4000,\"ItemId\":2}",
+    "Progress": "Count",
+    "LanguageId": "Task_Achieve_Text_121001",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 1210005,
+    "Type": 1,
+    "Group": "1210",
+    "Sort": 104,
+    "ConditionId": 105,
+    "ConditionParams": "{\"Count\":5000,\"ItemId\":2}",
+    "Progress": "Count",
+    "LanguageId": "Task_Achieve_Text_121001",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 1210006,
+    "Type": 1,
+    "Group": "1210",
+    "Sort": 105,
+    "ConditionId": 105,
+    "ConditionParams": "{\"Count\":10000,\"ItemId\":2}",
+    "Progress": "Count",
+    "LanguageId": "Task_Achieve_Text_121001",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 1210007,
+    "Type": 1,
+    "Group": "1210",
+    "Sort": 106,
+    "ConditionId": 105,
+    "ConditionParams": "{\"Count\":20000,\"ItemId\":2}",
+    "Progress": "Count",
+    "LanguageId": "Task_Achieve_Text_121001",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 1210008,
+    "Type": 1,
+    "Group": "1210",
+    "Sort": 107,
+    "ConditionId": 105,
+    "ConditionParams": "{\"Count\":50000,\"ItemId\":2}",
+    "Progress": "Count",
+    "LanguageId": "Task_Achieve_Text_121001",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 1211001,
+    "Type": 1,
+    "Group": "1211",
+    "Sort": 108,
+    "ConditionId": 126,
+    "ConditionParams": "{\"Count\":100}",
+    "Progress": "Count",
+    "LanguageId": "Task_Achieve_Text_121101",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 1211002,
+    "Type": 1,
+    "Group": "1211",
+    "Sort": 109,
+    "ConditionId": 126,
+    "ConditionParams": "{\"Count\":200}",
+    "Progress": "Count",
+    "LanguageId": "Task_Achieve_Text_121101",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 1211003,
+    "Type": 1,
+    "Group": "1211",
+    "Sort": 110,
+    "ConditionId": 126,
+    "ConditionParams": "{\"Count\":500}",
+    "Progress": "Count",
+    "LanguageId": "Task_Achieve_Text_121101",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 1211004,
+    "Type": 1,
+    "Group": "1211",
+    "Sort": 111,
+    "ConditionId": 126,
+    "ConditionParams": "{\"Count\":1000}",
+    "Progress": "Count",
+    "LanguageId": "Task_Achieve_Text_121101",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 1211005,
+    "Type": 1,
+    "Group": "1211",
+    "Sort": 112,
+    "ConditionId": 126,
+    "ConditionParams": "{\"Count\":2000}",
+    "Progress": "Count",
+    "LanguageId": "Task_Achieve_Text_121101",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 1211006,
+    "Type": 1,
+    "Group": "1211",
+    "Sort": 113,
+    "ConditionId": 126,
+    "ConditionParams": "{\"Count\":3000}",
+    "Progress": "Count",
+    "LanguageId": "Task_Achieve_Text_121101",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 1211007,
+    "Type": 1,
+    "Group": "1211",
+    "Sort": 114,
+    "ConditionId": 126,
+    "ConditionParams": "{\"Count\":4000}",
+    "Progress": "Count",
+    "LanguageId": "Task_Achieve_Text_121101",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 1211008,
+    "Type": 1,
+    "Group": "1211",
+    "Sort": 115,
+    "ConditionId": 126,
+    "ConditionParams": "{\"Count\":5000}",
+    "Progress": "Count",
+    "LanguageId": "Task_Achieve_Text_121101",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 1212001,
+    "Type": 1,
+    "Group": "1212",
+    "Sort": 116,
+    "ConditionId": 127,
+    "ConditionParams": "{\"Count\":100}",
+    "Progress": "Count",
+    "LanguageId": "Task_Achieve_Text_121201",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 1212002,
+    "Type": 1,
+    "Group": "1212",
+    "Sort": 117,
+    "ConditionId": 127,
+    "ConditionParams": "{\"Count\":200}",
+    "Progress": "Count",
+    "LanguageId": "Task_Achieve_Text_121201",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 1212003,
+    "Type": 1,
+    "Group": "1212",
+    "Sort": 118,
+    "ConditionId": 127,
+    "ConditionParams": "{\"Count\":500}",
+    "Progress": "Count",
+    "LanguageId": "Task_Achieve_Text_121201",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 1212004,
+    "Type": 1,
+    "Group": "1212",
+    "Sort": 119,
+    "ConditionId": 127,
+    "ConditionParams": "{\"Count\":1000}",
+    "Progress": "Count",
+    "LanguageId": "Task_Achieve_Text_121201",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 1212005,
+    "Type": 1,
+    "Group": "1212",
+    "Sort": 120,
+    "ConditionId": 127,
+    "ConditionParams": "{\"Count\":2000}",
+    "Progress": "Count",
+    "LanguageId": "Task_Achieve_Text_121201",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 1212006,
+    "Type": 1,
+    "Group": "1212",
+    "Sort": 121,
+    "ConditionId": 127,
+    "ConditionParams": "{\"Count\":3000}",
+    "Progress": "Count",
+    "LanguageId": "Task_Achieve_Text_121201",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 1212007,
+    "Type": 1,
+    "Group": "1212",
+    "Sort": 122,
+    "ConditionId": 127,
+    "ConditionParams": "{\"Count\":4000}",
+    "Progress": "Count",
+    "LanguageId": "Task_Achieve_Text_121201",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 1212008,
+    "Type": 1,
+    "Group": "1212",
+    "Sort": 123,
+    "ConditionId": 127,
+    "ConditionParams": "{\"Count\":5000}",
+    "Progress": "Count",
+    "LanguageId": "Task_Achieve_Text_121201",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 1213001,
+    "Type": 1,
+    "Group": "1213",
+    "Sort": 124,
+    "ConditionId": 302,
+    "ConditionParams": "{\"Count\":1,\"Level\":5}",
+    "Progress": "Level",
+    "LanguageId": "Task_Achieve_Text_121301",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 1213002,
+    "Type": 1,
+    "Group": "1213",
+    "Sort": 125,
+    "ConditionId": 302,
+    "ConditionParams": "{\"Count\":1,\"Level\":10}",
+    "Progress": "Level",
+    "LanguageId": "Task_Achieve_Text_121301",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 1213003,
+    "Type": 1,
+    "Group": "1213",
+    "Sort": 126,
+    "ConditionId": 302,
+    "ConditionParams": "{\"Count\":1,\"Level\":15}",
+    "Progress": "Level",
+    "LanguageId": "Task_Achieve_Text_121301",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 1213004,
+    "Type": 1,
+    "Group": "1213",
+    "Sort": 127,
+    "ConditionId": 302,
+    "ConditionParams": "{\"Count\":1,\"Level\":20}",
+    "Progress": "Level",
+    "LanguageId": "Task_Achieve_Text_121301",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 1213005,
+    "Type": 1,
+    "Group": "1213",
+    "Sort": 128,
+    "ConditionId": 302,
+    "ConditionParams": "{\"Count\":1,\"Level\":25}",
+    "Progress": "Level",
+    "LanguageId": "Task_Achieve_Text_121301",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 1213006,
+    "Type": 1,
+    "Group": "1213",
+    "Sort": 129,
+    "ConditionId": 302,
+    "ConditionParams": "{\"Count\":1,\"Level\":30}",
+    "Progress": "Level",
+    "LanguageId": "Task_Achieve_Text_121301",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 1213007,
+    "Type": 1,
+    "Group": "1213",
+    "Sort": 130,
+    "ConditionId": 302,
+    "ConditionParams": "{\"Count\":1,\"Level\":35}",
+    "Progress": "Level",
+    "LanguageId": "Task_Achieve_Text_121301",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 1213008,
+    "Type": 1,
+    "Group": "1213",
+    "Sort": 131,
+    "ConditionId": 302,
+    "ConditionParams": "{\"Count\":1,\"Level\":40}",
+    "Progress": "Level",
+    "LanguageId": "Task_Achieve_Text_121301",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 1213009,
+    "Type": 1,
+    "Group": "1213",
+    "Sort": 132,
+    "ConditionId": 302,
+    "ConditionParams": "{\"Count\":1,\"Level\":45}",
+    "Progress": "Level",
+    "LanguageId": "Task_Achieve_Text_121301",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 1213010,
+    "Type": 1,
+    "Group": "1213",
+    "Sort": 133,
+    "ConditionId": 302,
+    "ConditionParams": "{\"Count\":1,\"Level\":50}",
+    "Progress": "Level",
+    "LanguageId": "Task_Achieve_Text_121301",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 1213011,
+    "Type": 1,
+    "Group": "1213",
+    "Sort": 134,
+    "ConditionId": 302,
+    "ConditionParams": "{\"Count\":1,\"Level\":55}",
+    "Progress": "Level",
+    "LanguageId": "Task_Achieve_Text_121301",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 1213012,
+    "Type": 1,
+    "Group": "1213",
+    "Sort": 135,
+    "ConditionId": 302,
+    "ConditionParams": "{\"Count\":1,\"Level\":60}",
+    "Progress": "Level",
+    "LanguageId": "Task_Achieve_Text_121301",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 1213013,
+    "Type": 1,
+    "Group": "1213",
+    "Sort": 136,
+    "ConditionId": 302,
+    "ConditionParams": "{\"Count\":1,\"Level\":65}",
+    "Progress": "Level",
+    "LanguageId": "Task_Achieve_Text_121301",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 1213014,
+    "Type": 1,
+    "Group": "1213",
+    "Sort": 137,
+    "ConditionId": 302,
+    "ConditionParams": "{\"Count\":1,\"Level\":70}",
+    "Progress": "Level",
+    "LanguageId": "Task_Achieve_Text_121301",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 1213015,
+    "Type": 1,
+    "Group": "1213",
+    "Sort": 138,
+    "ConditionId": 302,
+    "ConditionParams": "{\"Count\":1,\"Level\":75}",
+    "Progress": "Level",
+    "LanguageId": "Task_Achieve_Text_121301",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 1213016,
+    "Type": 1,
+    "Group": "1213",
+    "Sort": 139,
+    "ConditionId": 302,
+    "ConditionParams": "{\"Count\":1,\"Level\":80}",
+    "Progress": "Level",
+    "LanguageId": "Task_Achieve_Text_121301",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 1213017,
+    "Type": 1,
+    "Group": "1213",
+    "Sort": 140,
+    "ConditionId": 302,
+    "ConditionParams": "{\"Count\":1,\"Level\":85}",
+    "Progress": "Level",
+    "LanguageId": "Task_Achieve_Text_121301",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 1213018,
+    "Type": 1,
+    "Group": "1213",
+    "Sort": 141,
+    "ConditionId": 302,
+    "ConditionParams": "{\"Count\":1,\"Level\":90}",
+    "Progress": "Level",
+    "LanguageId": "Task_Achieve_Text_121301",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 1213019,
+    "Type": 1,
+    "Group": "1213",
+    "Sort": 142,
+    "ConditionId": 302,
+    "ConditionParams": "{\"Count\":1,\"Level\":95}",
+    "Progress": "Level",
+    "LanguageId": "Task_Achieve_Text_121301",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 1213020,
+    "Type": 1,
+    "Group": "1213",
+    "Sort": 143,
+    "ConditionId": 302,
+    "ConditionParams": "{\"Count\":1,\"Level\":100}",
+    "Progress": "Level",
+    "LanguageId": "Task_Achieve_Text_121301",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 1215001,
+    "Type": 1,
+    "Group": "1215",
+    "Sort": 144,
+    "ConditionId": 700,
+    "ConditionParams": "{\"Count\":1}",
+    "Progress": "Count",
+    "LanguageId": "Task_Achieve_Text_121501",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 1215002,
+    "Type": 1,
+    "Group": "1215",
+    "Sort": 145,
+    "ConditionId": 700,
+    "ConditionParams": "{\"Count\":2}",
+    "Progress": "Count",
+    "LanguageId": "Task_Achieve_Text_121501",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 1215003,
+    "Type": 1,
+    "Group": "1215",
+    "Sort": 146,
+    "ConditionId": 700,
+    "ConditionParams": "{\"Count\":3}",
+    "Progress": "Count",
+    "LanguageId": "Task_Achieve_Text_121501",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 1215004,
+    "Type": 1,
+    "Group": "1215",
+    "Sort": 147,
+    "ConditionId": 700,
+    "ConditionParams": "{\"Count\":4}",
+    "Progress": "Count",
+    "LanguageId": "Task_Achieve_Text_121501",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 1215005,
+    "Type": 1,
+    "Group": "1215",
+    "Sort": 148,
+    "ConditionId": 700,
+    "ConditionParams": "{\"Count\":5}",
+    "Progress": "Count",
+    "LanguageId": "Task_Achieve_Text_121501",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 1215006,
+    "Type": 1,
+    "Group": "1215",
+    "Sort": 149,
+    "ConditionId": 700,
+    "ConditionParams": "{\"Count\":6}",
+    "Progress": "Count",
+    "LanguageId": "Task_Achieve_Text_121501",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 1215007,
+    "Type": 1,
+    "Group": "1215",
+    "Sort": 150,
+    "ConditionId": 700,
+    "ConditionParams": "{\"Count\":7}",
+    "Progress": "Count",
+    "LanguageId": "Task_Achieve_Text_121501",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 1215008,
+    "Type": 1,
+    "Group": "1215",
+    "Sort": 151,
+    "ConditionId": 700,
+    "ConditionParams": "{\"Count\":8}",
+    "Progress": "Count",
+    "LanguageId": "Task_Achieve_Text_121501",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 1215009,
+    "Type": 1,
+    "Group": "1215",
+    "Sort": 152,
+    "ConditionId": 700,
+    "ConditionParams": "{\"Count\":9}",
+    "Progress": "Count",
+    "LanguageId": "Task_Achieve_Text_121501",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 1215010,
+    "Type": 1,
+    "Group": "1215",
+    "Sort": 153,
+    "ConditionId": 700,
+    "ConditionParams": "{\"Count\":10}",
+    "Progress": "Count",
+    "LanguageId": "Task_Achieve_Text_121501",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 20101,
+    "Type": 2,
+    "Group": "",
+    "Sort": 1,
+    "ConditionId": 100,
+    "ConditionParams": "{\"Count\":1}",
+    "Progress": "Count",
+    "LanguageId": "Task_Daily_Text_20101",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        5,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 20102,
+    "Type": 2,
+    "Group": "",
+    "Sort": 2,
+    "ConditionId": 103,
+    "ConditionParams": "{\"Count\":5,\"Type\":1}",
+    "Progress": "Count",
+    "LanguageId": "Task_Daily_Text_20102",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        5,
+        20
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 20106,
+    "Type": 2,
+    "Group": "",
+    "Sort": 3,
+    "ConditionId": 106,
+    "ConditionParams": "{\"Count\":2000,\"Type\":1}",
+    "Progress": "Count",
+    "LanguageId": "Task_Daily_Text_20106",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        5,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 20103,
+    "Type": 2,
+    "Group": "",
+    "Sort": 8,
+    "ConditionId": 103,
+    "ConditionParams": "{\"Count\":1,\"Type\":2}",
+    "Progress": "Count",
+    "LanguageId": "Task_Daily_Text_20103",
+    "JumpId": 22,
+    "RewardItem": [
+      [
+        5,
+        20
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 20105,
+    "Type": 2,
+    "Group": "",
+    "Sort": 4,
+    "ConditionId": 102,
+    "ConditionParams": "{\"Count\":2}",
+    "Progress": "Count",
+    "LanguageId": "Task_Daily_Text_20105",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        5,
+        20
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 20107,
+    "Type": 2,
+    "Group": "",
+    "Sort": 6,
+    "ConditionId": 104,
+    "ConditionParams": "{\"Count\":3}",
+    "Progress": "Count",
+    "LanguageId": "Task_Daily_Text_20107",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        5,
+        20
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 20108,
+    "Type": 2,
+    "Group": "",
+    "Sort": 5,
+    "ConditionId": 109,
+    "ConditionParams": "{\"Count\":3}",
+    "Progress": "Count",
+    "LanguageId": "Task_Daily_Text_20108",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        5,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 20110,
+    "Type": 2,
+    "Group": "",
+    "Sort": 7,
+    "ConditionId": 112,
+    "ConditionParams": "{\"Count\":1,\"Type\":0,\"ShopId\":13}",
+    "Progress": "Count",
+    "LanguageId": "Task_Daily_Text_20110",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        5,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 20104,
+    "Type": 2,
+    "Group": "",
+    "Sort": 9,
+    "ConditionId": 103,
+    "ConditionParams": "{\"Count\":1,\"Type\":4}",
+    "Progress": "Count",
+    "LanguageId": "Task_Daily_Text_20104",
+    "JumpId": 19,
+    "RewardItem": [
+      [
+        5,
+        20
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 20111,
+    "Type": 2,
+    "Group": "",
+    "Sort": 10,
+    "ConditionId": 110,
+    "ConditionParams": "{\"Count\":1}",
+    "Progress": "Count",
+    "LanguageId": "Task_Daily_Text_20111",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        5,
+        20
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 60101,
+    "Type": 6,
+    "Group": "",
+    "Sort": 3,
+    "ConditionId": 106,
+    "ConditionParams": "{\"Count\":12000,\"Type\":1}",
+    "Progress": "Count",
+    "LanguageId": "Task_Weekly_Text_60101",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        6,
+        20
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 60102,
+    "Type": 6,
+    "Group": "",
+    "Sort": 4,
+    "ConditionId": 106,
+    "ConditionParams": "{\"Count\":20,\"Type\":3}",
+    "Progress": "Count",
+    "LanguageId": "Task_Weekly_Text_60102",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        6,
+        20
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 60103,
+    "Type": 6,
+    "Group": "",
+    "Sort": 5,
+    "ConditionId": 112,
+    "ConditionParams": "{\"Count\":5,\"Type\":0,\"ShopId\":13}",
+    "Progress": "Count",
+    "LanguageId": "Task_Weekly_Text_60103",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        6,
+        20
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 60104,
+    "Type": 6,
+    "Group": "",
+    "Sort": 7,
+    "ConditionId": 103,
+    "ConditionParams": "{\"Count\":5,\"Type\":4,\"Pass\":1}",
+    "Progress": "Count",
+    "LanguageId": "Task_Weekly_Text_60104",
+    "JumpId": 19,
+    "RewardItem": [
+      [
+        6,
+        20
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 60105,
+    "Type": 6,
+    "Group": "",
+    "Sort": 6,
+    "ConditionId": 104,
+    "ConditionParams": "{\"Count\":100}",
+    "Progress": "Count",
+    "LanguageId": "Task_Weekly_Text_60105",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        6,
+        20
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 60106,
+    "Type": 6,
+    "Group": "",
+    "Sort": 1,
+    "ConditionId": 100,
+    "ConditionParams": "{\"Count\":4}",
+    "Progress": "Count",
+    "LanguageId": "Task_Weekly_Text_60106",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        6,
+        20
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 60107,
+    "Type": 6,
+    "Group": "",
+    "Sort": 2,
+    "ConditionId": 105,
+    "ConditionParams": "{\"Count\":500,\"ItemId\":4}",
+    "Progress": "Count",
+    "LanguageId": "Task_Weekly_Text_60107",
+    "JumpId": 5,
+    "RewardItem": [
+      [
+        6,
+        20
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 31001,
+    "Type": 3,
+    "Group": "",
+    "Sort": 1,
+    "ConditionId": 100,
+    "ConditionParams": "{\"Count\":1}",
+    "Progress": "Count",
+    "LanguageId": "Task_Seven_Text_30101",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        117,
+        10
+      ],
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 31002,
+    "Type": 3,
+    "Group": "",
+    "Sort": 2,
+    "ConditionId": 103,
+    "ConditionParams": "{\"MissionId\":1,\"Pass\":1,\"Type\":1}",
+    "Progress": "MissionId",
+    "LanguageId": "Task_Seven_Text_30115",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        117,
+        10
+      ],
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 31003,
+    "Type": 3,
+    "Group": "",
+    "Sort": 3,
+    "ConditionId": 103,
+    "ConditionParams": "{\"MissionId\":2,\"Pass\":1,\"Type\":1}",
+    "Progress": "MissionId",
+    "LanguageId": "Task_Seven_Text_30115",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        117,
+        10
+      ],
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 31004,
+    "Type": 3,
+    "Group": "",
+    "Sort": 4,
+    "ConditionId": 103,
+    "ConditionParams": "{\"MissionId\":3,\"Pass\":1,\"Type\":1}",
+    "Progress": "MissionId",
+    "LanguageId": "Task_Seven_Text_30115",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        117,
+        10
+      ],
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 31005,
+    "Type": 3,
+    "Group": "",
+    "Sort": 5,
+    "ConditionId": 103,
+    "ConditionParams": "{\"MissionId\":4,\"Pass\":1,\"Type\":1}",
+    "Progress": "MissionId",
+    "LanguageId": "Task_Seven_Text_30115",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        117,
+        10
+      ],
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 31006,
+    "Type": 3,
+    "Group": "",
+    "Sort": 6,
+    "ConditionId": 103,
+    "ConditionParams": "{\"MissionId\":5,\"Pass\":1,\"Type\":1}",
+    "Progress": "MissionId",
+    "LanguageId": "Task_Seven_Text_30115",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        117,
+        10
+      ],
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 31007,
+    "Type": 3,
+    "Group": "",
+    "Sort": 7,
+    "ConditionId": 102,
+    "ConditionParams": "{\"Count\":20}",
+    "Progress": "Count",
+    "LanguageId": "Task_Seven_Text_30107",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        117,
+        10
+      ],
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 31008,
+    "Type": 3,
+    "Group": "",
+    "Sort": 8,
+    "ConditionId": 107,
+    "ConditionParams": "{\"Level\":3}",
+    "Progress": "Level",
+    "LanguageId": "Task_Seven_Text_30102",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        117,
+        10
+      ],
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 31009,
+    "Type": 3,
+    "Group": "",
+    "Sort": 9,
+    "ConditionId": 112,
+    "ConditionParams": "{\"Count\":1,\"Type\":0,\"ShopId\":13}",
+    "Progress": "Count",
+    "LanguageId": "Task_Daily_Text_20110",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        117,
+        10
+      ],
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 31010,
+    "Type": 3,
+    "Group": "",
+    "Sort": 10,
+    "ConditionId": 106,
+    "ConditionParams": "{\"Count\":10000,\"Type\":1}",
+    "Progress": "Count",
+    "LanguageId": "Task_Daily_Text_20106",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        117,
+        10
+      ],
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 31011,
+    "Type": 3,
+    "Group": "",
+    "Sort": 11,
+    "ConditionId": 125,
+    "ConditionParams": "{\"Power\":5000}",
+    "Progress": "Power",
+    "LanguageId": "Task_Seven_Text_30112",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        117,
+        10
+      ],
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 32001,
+    "Type": 3,
+    "Group": "",
+    "Sort": 12,
+    "ConditionId": 100,
+    "ConditionParams": "{\"Count\":2}",
+    "Progress": "Count",
+    "LanguageId": "Task_Seven_Text_30101",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        117,
+        10
+      ],
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 32002,
+    "Type": 3,
+    "Group": "",
+    "Sort": 13,
+    "ConditionId": 103,
+    "ConditionParams": "{\"MissionId\":6,\"Pass\":1,\"Type\":1}",
+    "Progress": "MissionId",
+    "LanguageId": "Task_Seven_Text_30115",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        117,
+        10
+      ],
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 32003,
+    "Type": 3,
+    "Group": "",
+    "Sort": 14,
+    "ConditionId": 103,
+    "ConditionParams": "{\"MissionId\":7,\"Pass\":1,\"Type\":1}",
+    "Progress": "MissionId",
+    "LanguageId": "Task_Seven_Text_30115",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        117,
+        10
+      ],
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 32004,
+    "Type": 3,
+    "Group": "",
+    "Sort": 15,
+    "ConditionId": 103,
+    "ConditionParams": "{\"MissionId\":8,\"Pass\":1,\"Type\":1}",
+    "Progress": "MissionId",
+    "LanguageId": "Task_Seven_Text_30115",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        117,
+        10
+      ],
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 32005,
+    "Type": 3,
+    "Group": "",
+    "Sort": 16,
+    "ConditionId": 103,
+    "ConditionParams": "{\"MissionId\":9,\"Pass\":1,\"Type\":1}",
+    "Progress": "MissionId",
+    "LanguageId": "Task_Seven_Text_30115",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        117,
+        10
+      ],
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 32006,
+    "Type": 3,
+    "Group": "",
+    "Sort": 17,
+    "ConditionId": 103,
+    "ConditionParams": "{\"MissionId\":10,\"Pass\":1,\"Type\":1}",
+    "Progress": "MissionId",
+    "LanguageId": "Task_Seven_Text_30115",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        117,
+        10
+      ],
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 32007,
+    "Type": 3,
+    "Group": "",
+    "Sort": 18,
+    "ConditionId": 102,
+    "ConditionParams": "{\"Count\":40}",
+    "Progress": "Count",
+    "LanguageId": "Task_Seven_Text_30107",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        117,
+        10
+      ],
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 32008,
+    "Type": 3,
+    "Group": "",
+    "Sort": 19,
+    "ConditionId": 107,
+    "ConditionParams": "{\"Level\":5}",
+    "Progress": "Level",
+    "LanguageId": "Task_Seven_Text_30102",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        117,
+        10
+      ],
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 32009,
+    "Type": 3,
+    "Group": "",
+    "Sort": 20,
+    "ConditionId": 103,
+    "ConditionParams": "{\"MissionId\":1,\"Pass\":1,\"Type\":2}",
+    "Progress": "MissionId",
+    "LanguageId": "Task_Seven_Text_30116",
+    "JumpId": 22,
+    "RewardItem": [
+      [
+        117,
+        10
+      ],
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 32010,
+    "Type": 3,
+    "Group": "",
+    "Sort": 21,
+    "ConditionId": 106,
+    "ConditionParams": "{\"Count\":50,\"Type\":3}",
+    "Progress": "Count",
+    "LanguageId": "Task_Seven_Text_30114",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        117,
+        10
+      ],
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 32011,
+    "Type": 3,
+    "Group": "",
+    "Sort": 22,
+    "ConditionId": 126,
+    "ConditionParams": "{\"Count\":30}",
+    "Progress": "Count",
+    "LanguageId": "Task_Seven_Text_30120",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        117,
+        10
+      ],
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 32012,
+    "Type": 3,
+    "Group": "",
+    "Sort": 23,
+    "ConditionId": 125,
+    "ConditionParams": "{\"Power\":10000}",
+    "Progress": "Power",
+    "LanguageId": "Task_Seven_Text_30112",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        117,
+        10
+      ],
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 33001,
+    "Type": 3,
+    "Group": "",
+    "Sort": 24,
+    "ConditionId": 100,
+    "ConditionParams": "{\"Count\":3}",
+    "Progress": "Count",
+    "LanguageId": "Task_Seven_Text_30101",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        117,
+        10
+      ],
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 33002,
+    "Type": 3,
+    "Group": "",
+    "Sort": 25,
+    "ConditionId": 103,
+    "ConditionParams": "{\"MissionId\":11,\"Pass\":1,\"Type\":1}",
+    "Progress": "MissionId",
+    "LanguageId": "Task_Seven_Text_30115",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        117,
+        10
+      ],
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 33003,
+    "Type": 3,
+    "Group": "",
+    "Sort": 26,
+    "ConditionId": 103,
+    "ConditionParams": "{\"MissionId\":12,\"Pass\":1,\"Type\":1}",
+    "Progress": "MissionId",
+    "LanguageId": "Task_Seven_Text_30115",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        117,
+        10
+      ],
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 33004,
+    "Type": 3,
+    "Group": "",
+    "Sort": 27,
+    "ConditionId": 103,
+    "ConditionParams": "{\"MissionId\":13,\"Pass\":1,\"Type\":1}",
+    "Progress": "MissionId",
+    "LanguageId": "Task_Seven_Text_30115",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        117,
+        10
+      ],
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 33005,
+    "Type": 3,
+    "Group": "",
+    "Sort": 28,
+    "ConditionId": 103,
+    "ConditionParams": "{\"MissionId\":14,\"Pass\":1,\"Type\":1}",
+    "Progress": "MissionId",
+    "LanguageId": "Task_Seven_Text_30115",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        117,
+        10
+      ],
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 33006,
+    "Type": 3,
+    "Group": "",
+    "Sort": 29,
+    "ConditionId": 103,
+    "ConditionParams": "{\"MissionId\":15,\"Pass\":1,\"Type\":1}",
+    "Progress": "MissionId",
+    "LanguageId": "Task_Seven_Text_30115",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        117,
+        10
+      ],
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 33007,
+    "Type": 3,
+    "Group": "",
+    "Sort": 30,
+    "ConditionId": 102,
+    "ConditionParams": "{\"Count\":60}",
+    "Progress": "Count",
+    "LanguageId": "Task_Seven_Text_30107",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        117,
+        10
+      ],
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 33008,
+    "Type": 3,
+    "Group": "",
+    "Sort": 31,
+    "ConditionId": 107,
+    "ConditionParams": "{\"Level\":7}",
+    "Progress": "Level",
+    "LanguageId": "Task_Seven_Text_30102",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        117,
+        10
+      ],
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 33009,
+    "Type": 3,
+    "Group": "",
+    "Sort": 32,
+    "ConditionId": 126,
+    "ConditionParams": "{\"Count\":60}",
+    "Progress": "Count",
+    "LanguageId": "Task_Seven_Text_30120",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        117,
+        10
+      ],
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 33010,
+    "Type": 3,
+    "Group": "",
+    "Sort": 33,
+    "ConditionId": 125,
+    "ConditionParams": "{\"Power\":20000}",
+    "Progress": "Power",
+    "LanguageId": "Task_Seven_Text_30112",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        117,
+        10
+      ],
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 34001,
+    "Type": 3,
+    "Group": "",
+    "Sort": 34,
+    "ConditionId": 100,
+    "ConditionParams": "{\"Count\":4}",
+    "Progress": "Count",
+    "LanguageId": "Task_Seven_Text_30101",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        117,
+        10
+      ],
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 34002,
+    "Type": 3,
+    "Group": "",
+    "Sort": 35,
+    "ConditionId": 103,
+    "ConditionParams": "{\"MissionId\":16,\"Pass\":1,\"Type\":1}",
+    "Progress": "MissionId",
+    "LanguageId": "Task_Seven_Text_30115",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        117,
+        10
+      ],
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 34003,
+    "Type": 3,
+    "Group": "",
+    "Sort": 36,
+    "ConditionId": 103,
+    "ConditionParams": "{\"MissionId\":17,\"Pass\":1,\"Type\":1}",
+    "Progress": "MissionId",
+    "LanguageId": "Task_Seven_Text_30115",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        117,
+        10
+      ],
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 34004,
+    "Type": 3,
+    "Group": "",
+    "Sort": 37,
+    "ConditionId": 103,
+    "ConditionParams": "{\"MissionId\":18,\"Pass\":1,\"Type\":1}",
+    "Progress": "MissionId",
+    "LanguageId": "Task_Seven_Text_30115",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        117,
+        10
+      ],
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 34005,
+    "Type": 3,
+    "Group": "",
+    "Sort": 38,
+    "ConditionId": 103,
+    "ConditionParams": "{\"MissionId\":19,\"Pass\":1,\"Type\":1}",
+    "Progress": "MissionId",
+    "LanguageId": "Task_Seven_Text_30115",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        117,
+        10
+      ],
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 34006,
+    "Type": 3,
+    "Group": "",
+    "Sort": 39,
+    "ConditionId": 103,
+    "ConditionParams": "{\"MissionId\":20,\"Pass\":1,\"Type\":1}",
+    "Progress": "MissionId",
+    "LanguageId": "Task_Seven_Text_30115",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        117,
+        10
+      ],
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 34007,
+    "Type": 3,
+    "Group": "",
+    "Sort": 40,
+    "ConditionId": 102,
+    "ConditionParams": "{\"Count\":80}",
+    "Progress": "Count",
+    "LanguageId": "Task_Seven_Text_30107",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        117,
+        10
+      ],
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 34008,
+    "Type": 3,
+    "Group": "",
+    "Sort": 41,
+    "ConditionId": 103,
+    "ConditionParams": "{\"MissionId\":3,\"Pass\":1,\"Type\":2}",
+    "Progress": "MissionId",
+    "LanguageId": "Task_Seven_Text_30116",
+    "JumpId": 22,
+    "RewardItem": [
+      [
+        117,
+        10
+      ],
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 34009,
+    "Type": 3,
+    "Group": "",
+    "Sort": 42,
+    "ConditionId": 107,
+    "ConditionParams": "{\"Level\":8}",
+    "Progress": "Level",
+    "LanguageId": "Task_Seven_Text_30102",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        117,
+        10
+      ],
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 34010,
+    "Type": 3,
+    "Group": "",
+    "Sort": 43,
+    "ConditionId": 103,
+    "ConditionParams": "{\"MissionId\":5,\"Pass\":1,\"Type\":4}",
+    "Progress": "MissionId",
+    "LanguageId": "Task_Seven_Text_30117",
+    "JumpId": 19,
+    "RewardItem": [
+      [
+        117,
+        10
+      ],
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 34011,
+    "Type": 3,
+    "Group": "",
+    "Sort": 44,
+    "ConditionId": 127,
+    "ConditionParams": "{\"Count\":10}",
+    "Progress": "Count",
+    "LanguageId": "Task_Seven_Text_30121",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        117,
+        10
+      ],
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 34012,
+    "Type": 3,
+    "Group": "",
+    "Sort": 45,
+    "ConditionId": 105,
+    "ConditionParams": "{\"Count\":300000,\"ItemId\":1}",
+    "Progress": "Count",
+    "LanguageId": "Task_Seven_Text_30118",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        117,
+        10
+      ],
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 34013,
+    "Type": 3,
+    "Group": "",
+    "Sort": 46,
+    "ConditionId": 125,
+    "ConditionParams": "{\"Power\":35000}",
+    "Progress": "Power",
+    "LanguageId": "Task_Seven_Text_30112",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        117,
+        10
+      ],
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 35001,
+    "Type": 3,
+    "Group": "",
+    "Sort": 47,
+    "ConditionId": 100,
+    "ConditionParams": "{\"Count\":5}",
+    "Progress": "Count",
+    "LanguageId": "Task_Seven_Text_30101",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        117,
+        10
+      ],
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 35002,
+    "Type": 3,
+    "Group": "",
+    "Sort": 48,
+    "ConditionId": 103,
+    "ConditionParams": "{\"MissionId\":21,\"Pass\":1,\"Type\":1}",
+    "Progress": "MissionId",
+    "LanguageId": "Task_Seven_Text_30115",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        117,
+        10
+      ],
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 35003,
+    "Type": 3,
+    "Group": "",
+    "Sort": 49,
+    "ConditionId": 103,
+    "ConditionParams": "{\"MissionId\":22,\"Pass\":1,\"Type\":1}",
+    "Progress": "MissionId",
+    "LanguageId": "Task_Seven_Text_30115",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        117,
+        10
+      ],
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 35004,
+    "Type": 3,
+    "Group": "",
+    "Sort": 50,
+    "ConditionId": 103,
+    "ConditionParams": "{\"MissionId\":23,\"Pass\":1,\"Type\":1}",
+    "Progress": "MissionId",
+    "LanguageId": "Task_Seven_Text_30115",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        117,
+        10
+      ],
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 35005,
+    "Type": 3,
+    "Group": "",
+    "Sort": 51,
+    "ConditionId": 103,
+    "ConditionParams": "{\"MissionId\":24,\"Pass\":1,\"Type\":1}",
+    "Progress": "MissionId",
+    "LanguageId": "Task_Seven_Text_30115",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        117,
+        10
+      ],
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 35006,
+    "Type": 3,
+    "Group": "",
+    "Sort": 52,
+    "ConditionId": 102,
+    "ConditionParams": "{\"Count\":100}",
+    "Progress": "Count",
+    "LanguageId": "Task_Seven_Text_30107",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        117,
+        10
+      ],
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 35007,
+    "Type": 3,
+    "Group": "",
+    "Sort": 53,
+    "ConditionId": 107,
+    "ConditionParams": "{\"Level\":9}",
+    "Progress": "Level",
+    "LanguageId": "Task_Seven_Text_30102",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        117,
+        10
+      ],
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 35008,
+    "Type": 3,
+    "Group": "",
+    "Sort": 54,
+    "ConditionId": 103,
+    "ConditionParams": "{\"MissionId\":15,\"Pass\":1,\"Type\":4}",
+    "Progress": "MissionId",
+    "LanguageId": "Task_Seven_Text_30117",
+    "JumpId": 19,
+    "RewardItem": [
+      [
+        117,
+        10
+      ],
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 35009,
+    "Type": 3,
+    "Group": "",
+    "Sort": 55,
+    "ConditionId": 126,
+    "ConditionParams": "{\"Count\":90}",
+    "Progress": "Count",
+    "LanguageId": "Task_Seven_Text_30120",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        117,
+        10
+      ],
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 35010,
+    "Type": 3,
+    "Group": "",
+    "Sort": 56,
+    "ConditionId": 105,
+    "ConditionParams": "{\"Count\":600000,\"ItemId\":1}",
+    "Progress": "Count",
+    "LanguageId": "Task_Seven_Text_30118",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        117,
+        10
+      ],
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 35011,
+    "Type": 3,
+    "Group": "",
+    "Sort": 57,
+    "ConditionId": 105,
+    "ConditionParams": "{\"Count\":2000,\"ItemId\":2}",
+    "Progress": "Count",
+    "LanguageId": "Task_Seven_Text_30119",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        117,
+        10
+      ],
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 35012,
+    "Type": 3,
+    "Group": "",
+    "Sort": 58,
+    "ConditionId": 125,
+    "ConditionParams": "{\"Power\":50000}",
+    "Progress": "Power",
+    "LanguageId": "Task_Seven_Text_30112",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        117,
+        10
+      ],
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 36001,
+    "Type": 3,
+    "Group": "",
+    "Sort": 59,
+    "ConditionId": 100,
+    "ConditionParams": "{\"Count\":6}",
+    "Progress": "Count",
+    "LanguageId": "Task_Seven_Text_30101",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        117,
+        10
+      ],
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 36002,
+    "Type": 3,
+    "Group": "",
+    "Sort": 60,
+    "ConditionId": 103,
+    "ConditionParams": "{\"MissionId\":25,\"Pass\":1,\"Type\":1}",
+    "Progress": "MissionId",
+    "LanguageId": "Task_Seven_Text_30115",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        117,
+        10
+      ],
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 36003,
+    "Type": 3,
+    "Group": "",
+    "Sort": 61,
+    "ConditionId": 103,
+    "ConditionParams": "{\"MissionId\":26,\"Pass\":1,\"Type\":1}",
+    "Progress": "MissionId",
+    "LanguageId": "Task_Seven_Text_30115",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        117,
+        10
+      ],
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 36004,
+    "Type": 3,
+    "Group": "",
+    "Sort": 62,
+    "ConditionId": 103,
+    "ConditionParams": "{\"MissionId\":27,\"Pass\":1,\"Type\":1}",
+    "Progress": "MissionId",
+    "LanguageId": "Task_Seven_Text_30115",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        117,
+        10
+      ],
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 36005,
+    "Type": 3,
+    "Group": "",
+    "Sort": 63,
+    "ConditionId": 102,
+    "ConditionParams": "{\"Count\":120}",
+    "Progress": "Count",
+    "LanguageId": "Task_Seven_Text_30107",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        117,
+        10
+      ],
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 36006,
+    "Type": 3,
+    "Group": "",
+    "Sort": 64,
+    "ConditionId": 107,
+    "ConditionParams": "{\"Level\":10}",
+    "Progress": "Level",
+    "LanguageId": "Task_Seven_Text_30102",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        117,
+        10
+      ],
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 36007,
+    "Type": 3,
+    "Group": "",
+    "Sort": 65,
+    "ConditionId": 103,
+    "ConditionParams": "{\"MissionId\":5,\"Pass\":1,\"Type\":2}",
+    "Progress": "MissionId",
+    "LanguageId": "Task_Seven_Text_30116",
+    "JumpId": 22,
+    "RewardItem": [
+      [
+        117,
+        10
+      ],
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 36008,
+    "Type": 3,
+    "Group": "",
+    "Sort": 66,
+    "ConditionId": 103,
+    "ConditionParams": "{\"MissionId\":30,\"Pass\":1,\"Type\":4}",
+    "Progress": "MissionId",
+    "LanguageId": "Task_Seven_Text_30117",
+    "JumpId": 19,
+    "RewardItem": [
+      [
+        117,
+        10
+      ],
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 36009,
+    "Type": 3,
+    "Group": "",
+    "Sort": 67,
+    "ConditionId": 127,
+    "ConditionParams": "{\"Count\":20}",
+    "Progress": "Count",
+    "LanguageId": "Task_Seven_Text_30121",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        117,
+        10
+      ],
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 36010,
+    "Type": 3,
+    "Group": "",
+    "Sort": 68,
+    "ConditionId": 105,
+    "ConditionParams": "{\"Count\":900000,\"ItemId\":1}",
+    "Progress": "Count",
+    "LanguageId": "Task_Seven_Text_30118",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        117,
+        10
+      ],
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 36011,
+    "Type": 3,
+    "Group": "",
+    "Sort": 69,
+    "ConditionId": 105,
+    "ConditionParams": "{\"Count\":5000,\"ItemId\":2}",
+    "Progress": "Count",
+    "LanguageId": "Task_Seven_Text_30119",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        117,
+        10
+      ],
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 36012,
+    "Type": 3,
+    "Group": "",
+    "Sort": 70,
+    "ConditionId": 125,
+    "ConditionParams": "{\"Power\":70000}",
+    "Progress": "Power",
+    "LanguageId": "Task_Seven_Text_30112",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        117,
+        10
+      ],
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 37001,
+    "Type": 3,
+    "Group": "",
+    "Sort": 71,
+    "ConditionId": 100,
+    "ConditionParams": "{\"Count\":7}",
+    "Progress": "Count",
+    "LanguageId": "Task_Seven_Text_30101",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        117,
+        10
+      ],
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 37002,
+    "Type": 3,
+    "Group": "",
+    "Sort": 72,
+    "ConditionId": 103,
+    "ConditionParams": "{\"MissionId\":28,\"Pass\":1,\"Type\":1}",
+    "Progress": "MissionId",
+    "LanguageId": "Task_Seven_Text_30115",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        117,
+        10
+      ],
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 37003,
+    "Type": 3,
+    "Group": "",
+    "Sort": 73,
+    "ConditionId": 103,
+    "ConditionParams": "{\"MissionId\":29,\"Pass\":1,\"Type\":1}",
+    "Progress": "MissionId",
+    "LanguageId": "Task_Seven_Text_30115",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        117,
+        10
+      ],
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 37004,
+    "Type": 3,
+    "Group": "",
+    "Sort": 74,
+    "ConditionId": 103,
+    "ConditionParams": "{\"MissionId\":30,\"Pass\":1,\"Type\":1}",
+    "Progress": "MissionId",
+    "LanguageId": "Task_Seven_Text_30115",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        117,
+        10
+      ],
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 37005,
+    "Type": 3,
+    "Group": "",
+    "Sort": 75,
+    "ConditionId": 102,
+    "ConditionParams": "{\"Count\":150}",
+    "Progress": "Count",
+    "LanguageId": "Task_Seven_Text_30107",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        117,
+        10
+      ],
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 37006,
+    "Type": 3,
+    "Group": "",
+    "Sort": 76,
+    "ConditionId": 107,
+    "ConditionParams": "{\"Level\":12}",
+    "Progress": "Level",
+    "LanguageId": "Task_Seven_Text_30102",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        117,
+        10
+      ],
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 37007,
+    "Type": 3,
+    "Group": "",
+    "Sort": 77,
+    "ConditionId": 103,
+    "ConditionParams": "{\"MissionId\":7,\"Pass\":1,\"Type\":2}",
+    "Progress": "MissionId",
+    "LanguageId": "Task_Seven_Text_30116",
+    "JumpId": 22,
+    "RewardItem": [
+      [
+        117,
+        10
+      ],
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 37008,
+    "Type": 3,
+    "Group": "",
+    "Sort": 78,
+    "ConditionId": 103,
+    "ConditionParams": "{\"MissionId\":50,\"Pass\":1,\"Type\":4}",
+    "Progress": "MissionId",
+    "LanguageId": "Task_Seven_Text_30117",
+    "JumpId": 19,
+    "RewardItem": [
+      [
+        117,
+        10
+      ],
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 37009,
+    "Type": 3,
+    "Group": "",
+    "Sort": 79,
+    "ConditionId": 126,
+    "ConditionParams": "{\"Count\":150}",
+    "Progress": "Count",
+    "LanguageId": "Task_Seven_Text_30120",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        117,
+        10
+      ],
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 37010,
+    "Type": 3,
+    "Group": "",
+    "Sort": 80,
+    "ConditionId": 105,
+    "ConditionParams": "{\"Count\":1200000,\"ItemId\":1}",
+    "Progress": "Count",
+    "LanguageId": "Task_Seven_Text_30118",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        117,
+        10
+      ],
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 37011,
+    "Type": 3,
+    "Group": "",
+    "Sort": 81,
+    "ConditionId": 105,
+    "ConditionParams": "{\"Count\":10000,\"ItemId\":2}",
+    "Progress": "Count",
+    "LanguageId": "Task_Seven_Text_30119",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        117,
+        10
+      ],
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 37012,
+    "Type": 3,
+    "Group": "",
+    "Sort": 82,
+    "ConditionId": 125,
+    "ConditionParams": "{\"Power\":100000}",
+    "Progress": "Power",
+    "LanguageId": "Task_Seven_Text_30112",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        117,
+        10
+      ],
+      [
+        2,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 20201,
+    "Type": 5,
+    "Group": "",
+    "Sort": 1,
+    "ConditionId": 123,
+    "ConditionParams": "{\"Count\":1,\"Type\":201}",
+    "Progress": "Count",
+    "LanguageId": "Task_Daily_Text_20201",
+    "JumpId": 31,
+    "RewardItem": [
+      [
+        7,
+        80
+      ],
+      [
+        128,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 20202,
+    "Type": 5,
+    "Group": "",
+    "Sort": 2,
+    "ConditionId": 115,
+    "ConditionParams": "{\"Count\":1}",
+    "Progress": "Count",
+    "LanguageId": "Task_Daily_Text_20202",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        7,
+        80
+      ],
+      [
+        128,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 20203,
+    "Type": 5,
+    "Group": "",
+    "Sort": 3,
+    "ConditionId": 105,
+    "ConditionParams": "{\"Count\":100,\"ItemId\":2}",
+    "Progress": "Count",
+    "LanguageId": "Task_Daily_Text_20203",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        7,
+        80
+      ],
+      [
+        128,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 20204,
+    "Type": 5,
+    "Group": "",
+    "Sort": 4,
+    "ConditionId": 112,
+    "ConditionParams": "{\"Count\":1,\"Type\":13,\"ShopId\":21}",
+    "Progress": "Count",
+    "LanguageId": "Task_Daily_Text_20204",
+    "JumpId": 25,
+    "RewardItem": [
+      [
+        7,
+        80
+      ],
+      [
+        128,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 20205,
+    "Type": 5,
+    "Group": "",
+    "Sort": 5,
+    "ConditionId": 117,
+    "ConditionParams": "{\"Count\":1}",
+    "Progress": "Count",
+    "LanguageId": "Task_Daily_Text_20205",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        7,
+        80
+      ],
+      [
+        128,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 20206,
+    "Type": 5,
+    "Group": "",
+    "Sort": 6,
+    "ConditionId": 103,
+    "ConditionParams": "{\"Count\":1,\"Type\":2}",
+    "Progress": "Count",
+    "LanguageId": "Task_Daily_Text_20103",
+    "JumpId": 22,
+    "RewardItem": [
+      [
+        7,
+        80
+      ],
+      [
+        128,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 20207,
+    "Type": 5,
+    "Group": "",
+    "Sort": 7,
+    "ConditionId": 100,
+    "ConditionParams": "{\"Count\":1}",
+    "Progress": "Count",
+    "LanguageId": "Task_Daily_Text_20101",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        7,
+        80
+      ],
+      [
+        920,
+        1
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 80301,
+    "Type": 8,
+    "Group": "",
+    "Sort": 1,
+    "ConditionId": 103,
+    "ConditionParams": "{\"MissionId\":10,\"Pass\":1,\"Type\":1}",
+    "Progress": "MissionId",
+    "LanguageId": "Task_HaveFive_Text_20301",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        10003001,
+        1
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 1
+  },
+  {
+    "ID": 80302,
+    "Type": 8,
+    "Group": "",
+    "Sort": 2,
+    "ConditionId": 103,
+    "ConditionParams": "{\"MissionId\":20,\"Pass\":1,\"Type\":1}",
+    "Progress": "MissionId",
+    "LanguageId": "Task_HaveFive_Text_20301",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        10003001,
+        1
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 1
+  },
+  {
+    "ID": 80303,
+    "Type": 8,
+    "Group": "",
+    "Sort": 3,
+    "ConditionId": 103,
+    "ConditionParams": "{\"MissionId\":30,\"Pass\":1,\"Type\":1}",
+    "Progress": "MissionId",
+    "LanguageId": "Task_HaveFive_Text_20301",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        10003001,
+        1
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 1
+  },
+  {
+    "ID": 80304,
+    "Type": 8,
+    "Group": "",
+    "Sort": 4,
+    "ConditionId": 103,
+    "ConditionParams": "{\"MissionId\":40,\"Pass\":1,\"Type\":1}",
+    "Progress": "MissionId",
+    "LanguageId": "Task_HaveFive_Text_20301",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        10003001,
+        1
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 1
+  },
+  {
+    "ID": 80305,
+    "Type": 8,
+    "Group": "",
+    "Sort": 5,
+    "ConditionId": 103,
+    "ConditionParams": "{\"MissionId\":50,\"Pass\":1,\"Type\":1}",
+    "Progress": "MissionId",
+    "LanguageId": "Task_HaveFive_Text_20301",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        10003001,
+        1
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 1
+  },
+  {
+    "ID": 80306,
+    "Type": 8,
+    "Group": "",
+    "Sort": 6,
+    "ConditionId": 103,
+    "ConditionParams": "{\"MissionId\":60,\"Pass\":1,\"Type\":1}",
+    "Progress": "MissionId",
+    "LanguageId": "Task_HaveFive_Text_20301",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        10003001,
+        1
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 1
+  },
+  {
+    "ID": 80307,
+    "Type": 8,
+    "Group": "",
+    "Sort": 7,
+    "ConditionId": 103,
+    "ConditionParams": "{\"MissionId\":70,\"Pass\":1,\"Type\":1}",
+    "Progress": "MissionId",
+    "LanguageId": "Task_HaveFive_Text_20301",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        10003001,
+        1
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 1
+  },
+  {
+    "ID": 80401,
+    "Type": 8,
+    "Group": "",
+    "Sort": 8,
+    "ConditionId": 107,
+    "ConditionParams": "{\"Level\":10}",
+    "Progress": "Level",
+    "LanguageId": "Task_HaveFive_Text_20401",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        10003001,
+        1
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 2
+  },
+  {
+    "ID": 80402,
+    "Type": 8,
+    "Group": "",
+    "Sort": 9,
+    "ConditionId": 107,
+    "ConditionParams": "{\"Level\":20}",
+    "Progress": "Level",
+    "LanguageId": "Task_HaveFive_Text_20401",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        10003001,
+        1
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 2
+  },
+  {
+    "ID": 80403,
+    "Type": 8,
+    "Group": "",
+    "Sort": 10,
+    "ConditionId": 107,
+    "ConditionParams": "{\"Level\":30}",
+    "Progress": "Level",
+    "LanguageId": "Task_HaveFive_Text_20401",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        10003001,
+        1
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 2
+  },
+  {
+    "ID": 80404,
+    "Type": 8,
+    "Group": "",
+    "Sort": 11,
+    "ConditionId": 107,
+    "ConditionParams": "{\"Level\":40}",
+    "Progress": "Level",
+    "LanguageId": "Task_HaveFive_Text_20401",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        10003001,
+        1
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 2
+  },
+  {
+    "ID": 80405,
+    "Type": 8,
+    "Group": "",
+    "Sort": 12,
+    "ConditionId": 107,
+    "ConditionParams": "{\"Level\":50}",
+    "Progress": "Level",
+    "LanguageId": "Task_HaveFive_Text_20401",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        10003001,
+        1
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 2
+  },
+  {
+    "ID": 80406,
+    "Type": 8,
+    "Group": "",
+    "Sort": 13,
+    "ConditionId": 107,
+    "ConditionParams": "{\"Level\":60}",
+    "Progress": "Level",
+    "LanguageId": "Task_HaveFive_Text_20401",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        10003001,
+        1
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 2
+  },
+  {
+    "ID": 80501,
+    "Type": 8,
+    "Group": "",
+    "Sort": 14,
+    "ConditionId": 302,
+    "ConditionParams": "{\"Count\":5,\"Level\":20}",
+    "Progress": "Level",
+    "LanguageId": "Task_HaveFive_Text_20501",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        10003001,
+        1
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 3
+  },
+  {
+    "ID": 80502,
+    "Type": 8,
+    "Group": "",
+    "Sort": 15,
+    "ConditionId": 302,
+    "ConditionParams": "{\"Count\":5,\"Level\":40}",
+    "Progress": "Level",
+    "LanguageId": "Task_HaveFive_Text_20501",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        10003001,
+        1
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 3
+  },
+  {
+    "ID": 80503,
+    "Type": 8,
+    "Group": "",
+    "Sort": 16,
+    "ConditionId": 302,
+    "ConditionParams": "{\"Count\":5,\"Level\":60}",
+    "Progress": "Level",
+    "LanguageId": "Task_HaveFive_Text_20501",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        10003001,
+        1
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 3
+  },
+  {
+    "ID": 80504,
+    "Type": 8,
+    "Group": "",
+    "Sort": 17,
+    "ConditionId": 302,
+    "ConditionParams": "{\"Count\":5,\"Level\":80}",
+    "Progress": "Level",
+    "LanguageId": "Task_HaveFive_Text_20501",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        10003001,
+        1
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 3
+  },
+  {
+    "ID": 80505,
+    "Type": 8,
+    "Group": "",
+    "Sort": 18,
+    "ConditionId": 302,
+    "ConditionParams": "{\"Count\":5,\"Level\":100}",
+    "Progress": "Level",
+    "LanguageId": "Task_HaveFive_Text_20501",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        10003001,
+        1
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 3
+  },
+  {
+    "ID": 80506,
+    "Type": 8,
+    "Group": "",
+    "Sort": 19,
+    "ConditionId": 302,
+    "ConditionParams": "{\"Count\":5,\"Level\":120}",
+    "Progress": "Level",
+    "LanguageId": "Task_HaveFive_Text_20501",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        10003001,
+        1
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 3
+  },
+  {
+    "ID": 80507,
+    "Type": 8,
+    "Group": "",
+    "Sort": 20,
+    "ConditionId": 302,
+    "ConditionParams": "{\"Count\":5,\"Level\":140}",
+    "Progress": "Level",
+    "LanguageId": "Task_HaveFive_Text_20501",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        10003001,
+        1
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 3
+  },
+  {
+    "ID": 80508,
+    "Type": 8,
+    "Group": "",
+    "Sort": 21,
+    "ConditionId": 302,
+    "ConditionParams": "{\"Count\":5,\"Level\":160}",
+    "Progress": "Level",
+    "LanguageId": "Task_HaveFive_Text_20501",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        10003001,
+        1
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 3
+  },
+  {
+    "ID": 80509,
+    "Type": 8,
+    "Group": "",
+    "Sort": 22,
+    "ConditionId": 302,
+    "ConditionParams": "{\"Count\":5,\"Level\":180}",
+    "Progress": "Level",
+    "LanguageId": "Task_HaveFive_Text_20501",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        10003001,
+        1
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 3
+  },
+  {
+    "ID": 80510,
+    "Type": 8,
+    "Group": "",
+    "Sort": 23,
+    "ConditionId": 302,
+    "ConditionParams": "{\"Count\":5,\"Level\":200}",
+    "Progress": "Level",
+    "LanguageId": "Task_HaveFive_Text_20501",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        10003001,
+        1
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 3
+  },
+  {
+    "ID": 80601,
+    "Type": 8,
+    "Group": "",
+    "Sort": 24,
+    "ConditionId": 301,
+    "ConditionParams": "{\"Count\":5,\"Quality\":40}",
+    "Progress": "Count",
+    "LanguageId": "Task_HaveFive_Text_20601",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        10003001,
+        1
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 4
+  },
+  {
+    "ID": 80602,
+    "Type": 8,
+    "Group": "",
+    "Sort": 25,
+    "ConditionId": 301,
+    "ConditionParams": "{\"Count\":5,\"Quality\":50}",
+    "Progress": "Count",
+    "LanguageId": "Task_HaveFive_Text_20601",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        10003001,
+        1
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 4
+  },
+  {
+    "ID": 80603,
+    "Type": 8,
+    "Group": "",
+    "Sort": 26,
+    "ConditionId": 301,
+    "ConditionParams": "{\"Count\":5,\"Quality\":60}",
+    "Progress": "Count",
+    "LanguageId": "Task_HaveFive_Text_20601",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        10003001,
+        1
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 4
+  },
+  {
+    "ID": 80604,
+    "Type": 8,
+    "Group": "",
+    "Sort": 27,
+    "ConditionId": 301,
+    "ConditionParams": "{\"Count\":5,\"Quality\":70}",
+    "Progress": "Count",
+    "LanguageId": "Task_HaveFive_Text_20601",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        10003001,
+        1
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 4
+  },
+  {
+    "ID": 80605,
+    "Type": 8,
+    "Group": "",
+    "Sort": 28,
+    "ConditionId": 301,
+    "ConditionParams": "{\"Count\":5,\"Quality\":80}",
+    "Progress": "Count",
+    "LanguageId": "Task_HaveFive_Text_20601",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        10003001,
+        1
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 4
+  },
+  {
+    "ID": 80701,
+    "Type": 8,
+    "Group": "",
+    "Sort": 29,
+    "ConditionId": 700,
+    "ConditionParams": "{\"Count\":2}",
+    "Progress": "Count",
+    "LanguageId": "Task_HaveFive_Text_20701",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        10003001,
+        1
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 5
+  },
+  {
+    "ID": 80702,
+    "Type": 8,
+    "Group": "",
+    "Sort": 30,
+    "ConditionId": 700,
+    "ConditionParams": "{\"Count\":3}",
+    "Progress": "Count",
+    "LanguageId": "Task_HaveFive_Text_20701",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        10003001,
+        1
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 5
+  },
+  {
+    "ID": 80703,
+    "Type": 8,
+    "Group": "",
+    "Sort": 31,
+    "ConditionId": 700,
+    "ConditionParams": "{\"Count\":5}",
+    "Progress": "Count",
+    "LanguageId": "Task_HaveFive_Text_20701",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        10003001,
+        1
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 5
+  },
+  {
+    "ID": 80704,
+    "Type": 8,
+    "Group": "",
+    "Sort": 32,
+    "ConditionId": 700,
+    "ConditionParams": "{\"Count\":7}",
+    "Progress": "Count",
+    "LanguageId": "Task_HaveFive_Text_20701",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        10003001,
+        1
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 5
+  },
+  {
+    "ID": 80705,
+    "Type": 8,
+    "Group": "",
+    "Sort": 33,
+    "ConditionId": 700,
+    "ConditionParams": "{\"Count\":9}",
+    "Progress": "Count",
+    "LanguageId": "Task_HaveFive_Text_20701",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        10003001,
+        1
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 5
+  },
+  {
+    "ID": 80801,
+    "Type": 8,
+    "Group": "",
+    "Sort": 34,
+    "ConditionId": 401,
+    "ConditionParams": "{\"Count\":3,\"Quality\":50}",
+    "Progress": "Count",
+    "LanguageId": "Task_HaveFive_Text_20801",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        10003001,
+        1
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 6
+  },
+  {
+    "ID": 80802,
+    "Type": 8,
+    "Group": "",
+    "Sort": 35,
+    "ConditionId": 401,
+    "ConditionParams": "{\"Count\":5,\"Quality\":50}",
+    "Progress": "Count",
+    "LanguageId": "Task_HaveFive_Text_20801",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        10003001,
+        1
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 6
+  },
+  {
+    "ID": 80803,
+    "Type": 8,
+    "Group": "",
+    "Sort": 36,
+    "ConditionId": 401,
+    "ConditionParams": "{\"Count\":10,\"Quality\":50}",
+    "Progress": "Count",
+    "LanguageId": "Task_HaveFive_Text_20801",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        10003001,
+        1
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 6
+  },
+  {
+    "ID": 80804,
+    "Type": 8,
+    "Group": "",
+    "Sort": 37,
+    "ConditionId": 401,
+    "ConditionParams": "{\"Count\":15,\"Quality\":50}",
+    "Progress": "Count",
+    "LanguageId": "Task_HaveFive_Text_20801",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        10003001,
+        1
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 6
+  },
+  {
+    "ID": 80805,
+    "Type": 8,
+    "Group": "",
+    "Sort": 38,
+    "ConditionId": 401,
+    "ConditionParams": "{\"Count\":20,\"Quality\":50}",
+    "Progress": "Count",
+    "LanguageId": "Task_HaveFive_Text_20801",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        10003001,
+        1
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 6
+  },
+  {
+    "ID": 80806,
+    "Type": 8,
+    "Group": "",
+    "Sort": 39,
+    "ConditionId": 401,
+    "ConditionParams": "{\"Count\":3,\"Quality\":60}",
+    "Progress": "Count",
+    "LanguageId": "Task_HaveFive_Text_20801",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        10003001,
+        1
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 6
+  },
+  {
+    "ID": 80807,
+    "Type": 8,
+    "Group": "",
+    "Sort": 40,
+    "ConditionId": 401,
+    "ConditionParams": "{\"Count\":5,\"Quality\":60}",
+    "Progress": "Count",
+    "LanguageId": "Task_HaveFive_Text_20801",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        10003001,
+        1
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 6
+  },
+  {
+    "ID": 80808,
+    "Type": 8,
+    "Group": "",
+    "Sort": 41,
+    "ConditionId": 401,
+    "ConditionParams": "{\"Count\":10,\"Quality\":60}",
+    "Progress": "Count",
+    "LanguageId": "Task_HaveFive_Text_20801",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        10003001,
+        1
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 6
+  },
+  {
+    "ID": 80809,
+    "Type": 8,
+    "Group": "",
+    "Sort": 42,
+    "ConditionId": 401,
+    "ConditionParams": "{\"Count\":15,\"Quality\":60}",
+    "Progress": "Count",
+    "LanguageId": "Task_HaveFive_Text_20801",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        10003001,
+        1
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 6
+  },
+  {
+    "ID": 80810,
+    "Type": 8,
+    "Group": "",
+    "Sort": 43,
+    "ConditionId": 401,
+    "ConditionParams": "{\"Count\":20,\"Quality\":60}",
+    "Progress": "Count",
+    "LanguageId": "Task_HaveFive_Text_20801",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        10003001,
+        1
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 6
+  },
+  {
+    "ID": 80811,
+    "Type": 8,
+    "Group": "",
+    "Sort": 44,
+    "ConditionId": 401,
+    "ConditionParams": "{\"Count\":3,\"Quality\":80}",
+    "Progress": "Count",
+    "LanguageId": "Task_HaveFive_Text_20801",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        10003001,
+        1
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 6
+  },
+  {
+    "ID": 80812,
+    "Type": 8,
+    "Group": "",
+    "Sort": 45,
+    "ConditionId": 401,
+    "ConditionParams": "{\"Count\":5,\"Quality\":80}",
+    "Progress": "Count",
+    "LanguageId": "Task_HaveFive_Text_20801",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        10003001,
+        1
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 6
+  },
+  {
+    "ID": 80813,
+    "Type": 8,
+    "Group": "",
+    "Sort": 46,
+    "ConditionId": 401,
+    "ConditionParams": "{\"Count\":10,\"Quality\":80}",
+    "Progress": "Count",
+    "LanguageId": "Task_HaveFive_Text_20801",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        10003001,
+        1
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 6
+  },
+  {
+    "ID": 80814,
+    "Type": 8,
+    "Group": "",
+    "Sort": 47,
+    "ConditionId": 401,
+    "ConditionParams": "{\"Count\":15,\"Quality\":80}",
+    "Progress": "Count",
+    "LanguageId": "Task_HaveFive_Text_20801",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        10003001,
+        1
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 6
+  },
+  {
+    "ID": 80815,
+    "Type": 8,
+    "Group": "",
+    "Sort": 48,
+    "ConditionId": 401,
+    "ConditionParams": "{\"Count\":20,\"Quality\":80}",
+    "Progress": "Count",
+    "LanguageId": "Task_HaveFive_Text_20801",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        10003001,
+        1
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 6
+  },
+  {
+    "ID": 80901,
+    "Type": 8,
+    "Group": "",
+    "Sort": 49,
+    "ConditionId": 800,
+    "ConditionParams": "{\"Count\":2}",
+    "Progress": "Count",
+    "LanguageId": "Task_HaveFive_Text_20901",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        10003001,
+        1
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 7
+  },
+  {
+    "ID": 80902,
+    "Type": 8,
+    "Group": "",
+    "Sort": 50,
+    "ConditionId": 800,
+    "ConditionParams": "{\"Count\":3}",
+    "Progress": "Count",
+    "LanguageId": "Task_HaveFive_Text_20901",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        10003001,
+        1
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 7
+  },
+  {
+    "ID": 80903,
+    "Type": 8,
+    "Group": "",
+    "Sort": 51,
+    "ConditionId": 800,
+    "ConditionParams": "{\"Count\":5}",
+    "Progress": "Count",
+    "LanguageId": "Task_HaveFive_Text_20901",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        10003001,
+        1
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 7
+  },
+  {
+    "ID": 80904,
+    "Type": 8,
+    "Group": "",
+    "Sort": 52,
+    "ConditionId": 800,
+    "ConditionParams": "{\"Count\":7}",
+    "Progress": "Count",
+    "LanguageId": "Task_HaveFive_Text_20901",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        10003001,
+        1
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 7
+  },
+  {
+    "ID": 80905,
+    "Type": 8,
+    "Group": "",
+    "Sort": 53,
+    "ConditionId": 800,
+    "ConditionParams": "{\"Count\":9}",
+    "Progress": "Count",
+    "LanguageId": "Task_HaveFive_Text_20901",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        10003001,
+        1
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 7
+  },
+  {
+    "ID": 81001,
+    "Type": 8,
+    "Group": "",
+    "Sort": 54,
+    "ConditionId": 103,
+    "ConditionParams": "{\"MissionId\":50,\"Pass\":1,\"Type\":4}",
+    "Progress": "MissionId",
+    "LanguageId": "Task_HaveFive_Text_21001",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        10003001,
+        1
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 8
+  },
+  {
+    "ID": 81002,
+    "Type": 8,
+    "Group": "",
+    "Sort": 55,
+    "ConditionId": 103,
+    "ConditionParams": "{\"MissionId\":100,\"Pass\":1,\"Type\":4}",
+    "Progress": "MissionId",
+    "LanguageId": "Task_HaveFive_Text_21001",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        10003001,
+        1
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 8
+  },
+  {
+    "ID": 81003,
+    "Type": 8,
+    "Group": "",
+    "Sort": 56,
+    "ConditionId": 103,
+    "ConditionParams": "{\"MissionId\":150,\"Pass\":1,\"Type\":4}",
+    "Progress": "MissionId",
+    "LanguageId": "Task_HaveFive_Text_21001",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        10003001,
+        1
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 8
+  },
+  {
+    "ID": 81004,
+    "Type": 8,
+    "Group": "",
+    "Sort": 57,
+    "ConditionId": 103,
+    "ConditionParams": "{\"MissionId\":200,\"Pass\":1,\"Type\":4}",
+    "Progress": "MissionId",
+    "LanguageId": "Task_HaveFive_Text_21001",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        10003001,
+        1
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 8
+  },
+  {
+    "ID": 81005,
+    "Type": 8,
+    "Group": "",
+    "Sort": 58,
+    "ConditionId": 103,
+    "ConditionParams": "{\"MissionId\":250,\"Pass\":1,\"Type\":4}",
+    "Progress": "MissionId",
+    "LanguageId": "Task_HaveFive_Text_21001",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        10003001,
+        1
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 8
+  },
+  {
+    "ID": 81006,
+    "Type": 8,
+    "Group": "",
+    "Sort": 59,
+    "ConditionId": 103,
+    "ConditionParams": "{\"MissionId\":300,\"Pass\":1,\"Type\":4}",
+    "Progress": "MissionId",
+    "LanguageId": "Task_HaveFive_Text_21001",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        10003001,
+        1
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 8
+  },
+  {
+    "ID": 2001001,
+    "Type": 1001,
+    "Group": "",
+    "Sort": 1,
+    "ConditionId": 106,
+    "ConditionParams": "{\"Count\":5000,\"Type\":1}",
+    "Progress": "Count",
+    "LanguageId": "Task_Seven_Text_30113",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        1001,
+        5
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 2001002,
+    "Type": 1001,
+    "Group": "",
+    "Sort": 2,
+    "ConditionId": 106,
+    "ConditionParams": "{\"Count\":10000,\"Type\":1}",
+    "Progress": "Count",
+    "LanguageId": "Task_Seven_Text_30113",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        1001,
+        5
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 2001003,
+    "Type": 1001,
+    "Group": "",
+    "Sort": 3,
+    "ConditionId": 106,
+    "ConditionParams": "{\"Count\":15000,\"Type\":1}",
+    "Progress": "Count",
+    "LanguageId": "Task_Seven_Text_30113",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        1001,
+        5
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 2002001,
+    "Type": 1001,
+    "Group": "",
+    "Sort": 4,
+    "ConditionId": 126,
+    "ConditionParams": "{\"Count\":50}",
+    "Progress": "Count",
+    "LanguageId": "Task_Seven_Text_30120",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        1001,
+        5
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 2002002,
+    "Type": 1001,
+    "Group": "",
+    "Sort": 5,
+    "ConditionId": 126,
+    "ConditionParams": "{\"Count\":100}",
+    "Progress": "Count",
+    "LanguageId": "Task_Seven_Text_30120",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        1001,
+        5
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 2002003,
+    "Type": 1001,
+    "Group": "",
+    "Sort": 6,
+    "ConditionId": 126,
+    "ConditionParams": "{\"Count\":150}",
+    "Progress": "Count",
+    "LanguageId": "Task_Seven_Text_30120",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        1001,
+        5
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 2003001,
+    "Type": 1001,
+    "Group": "",
+    "Sort": 7,
+    "ConditionId": 127,
+    "ConditionParams": "{\"Count\":50}",
+    "Progress": "Count",
+    "LanguageId": "Task_Seven_Text_30121",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        1001,
+        5
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 2003002,
+    "Type": 1001,
+    "Group": "",
+    "Sort": 8,
+    "ConditionId": 127,
+    "ConditionParams": "{\"Count\":150}",
+    "Progress": "Count",
+    "LanguageId": "Task_Seven_Text_30121",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        1001,
+        5
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 2003003,
+    "Type": 1001,
+    "Group": "",
+    "Sort": 9,
+    "ConditionId": 127,
+    "ConditionParams": "{\"Count\":300}",
+    "Progress": "Count",
+    "LanguageId": "Task_Seven_Text_30121",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        1001,
+        5
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 2004001,
+    "Type": 1001,
+    "Group": "",
+    "Sort": 10,
+    "ConditionId": 105,
+    "ConditionParams": "{\"Count\":1000,\"ItemId\":2}",
+    "Progress": "Count",
+    "LanguageId": "Task_Seven_Text_30119",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        1001,
+        5
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 2004002,
+    "Type": 1001,
+    "Group": "",
+    "Sort": 11,
+    "ConditionId": 105,
+    "ConditionParams": "{\"Count\":2000,\"ItemId\":2}",
+    "Progress": "Count",
+    "LanguageId": "Task_Seven_Text_30119",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        1001,
+        5
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 2004003,
+    "Type": 1001,
+    "Group": "",
+    "Sort": 12,
+    "ConditionId": 105,
+    "ConditionParams": "{\"Count\":5000,\"ItemId\":2}",
+    "Progress": "Count",
+    "LanguageId": "Task_Seven_Text_30119",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        1001,
+        5
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 2005001,
+    "Type": 1001,
+    "Group": "",
+    "Sort": 13,
+    "ConditionId": 125,
+    "ConditionParams": "{\"Power\":60000}",
+    "Progress": "Power",
+    "LanguageId": "Task_Seven_Text_30112",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        1001,
+        5
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 2005002,
+    "Type": 1001,
+    "Group": "",
+    "Sort": 14,
+    "ConditionId": 125,
+    "ConditionParams": "{\"Power\":180000}",
+    "Progress": "Power",
+    "LanguageId": "Task_Seven_Text_30112",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        1001,
+        5
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 2005003,
+    "Type": 1001,
+    "Group": "",
+    "Sort": 15,
+    "ConditionId": 125,
+    "ConditionParams": "{\"Power\":300000}",
+    "Progress": "Power",
+    "LanguageId": "Task_Seven_Text_30112",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        1001,
+        5
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 3001001,
+    "Type": 1002,
+    "Group": "3001",
+    "Sort": 1,
+    "ConditionId": 106,
+    "ConditionParams": "{\"Count\":2000,\"Type\":1}",
+    "Progress": "Count",
+    "LanguageId": "Task_Seven_Text_30113",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        1004,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 3001002,
+    "Type": 1002,
+    "Group": "3001",
+    "Sort": 2,
+    "ConditionId": 106,
+    "ConditionParams": "{\"Count\":4000,\"Type\":1}",
+    "Progress": "Count",
+    "LanguageId": "Task_Seven_Text_30113",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        1004,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 3001003,
+    "Type": 1002,
+    "Group": "3001",
+    "Sort": 3,
+    "ConditionId": 106,
+    "ConditionParams": "{\"Count\":6000,\"Type\":1}",
+    "Progress": "Count",
+    "LanguageId": "Task_Seven_Text_30113",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        1004,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 3001004,
+    "Type": 1002,
+    "Group": "3001",
+    "Sort": 4,
+    "ConditionId": 106,
+    "ConditionParams": "{\"Count\":8000,\"Type\":1}",
+    "Progress": "Count",
+    "LanguageId": "Task_Seven_Text_30113",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        1004,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 3001005,
+    "Type": 1002,
+    "Group": "3001",
+    "Sort": 5,
+    "ConditionId": 106,
+    "ConditionParams": "{\"Count\":10000,\"Type\":1}",
+    "Progress": "Count",
+    "LanguageId": "Task_Seven_Text_30113",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        1004,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 3001006,
+    "Type": 1002,
+    "Group": "3001",
+    "Sort": 6,
+    "ConditionId": 106,
+    "ConditionParams": "{\"Count\":15000,\"Type\":1}",
+    "Progress": "Count",
+    "LanguageId": "Task_Seven_Text_30113",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        1004,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 3001007,
+    "Type": 1002,
+    "Group": "3001",
+    "Sort": 7,
+    "ConditionId": 106,
+    "ConditionParams": "{\"Count\":20000,\"Type\":1}",
+    "Progress": "Count",
+    "LanguageId": "Task_Seven_Text_30113",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        1004,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 3002001,
+    "Type": 1002,
+    "Group": "3002",
+    "Sort": 8,
+    "ConditionId": 126,
+    "ConditionParams": "{\"Count\":30}",
+    "Progress": "Count",
+    "LanguageId": "Task_Seven_Text_30120",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        1004,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 3002002,
+    "Type": 1002,
+    "Group": "3002",
+    "Sort": 9,
+    "ConditionId": 126,
+    "ConditionParams": "{\"Count\":60}",
+    "Progress": "Count",
+    "LanguageId": "Task_Seven_Text_30120",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        1004,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 3002003,
+    "Type": 1002,
+    "Group": "3002",
+    "Sort": 10,
+    "ConditionId": 126,
+    "ConditionParams": "{\"Count\":90}",
+    "Progress": "Count",
+    "LanguageId": "Task_Seven_Text_30120",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        1004,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 3002004,
+    "Type": 1002,
+    "Group": "3002",
+    "Sort": 11,
+    "ConditionId": 126,
+    "ConditionParams": "{\"Count\":120}",
+    "Progress": "Count",
+    "LanguageId": "Task_Seven_Text_30120",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        1004,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 3002005,
+    "Type": 1002,
+    "Group": "3002",
+    "Sort": 12,
+    "ConditionId": 126,
+    "ConditionParams": "{\"Count\":180}",
+    "Progress": "Count",
+    "LanguageId": "Task_Seven_Text_30120",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        1004,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 3002006,
+    "Type": 1002,
+    "Group": "3002",
+    "Sort": 13,
+    "ConditionId": 126,
+    "ConditionParams": "{\"Count\":240}",
+    "Progress": "Count",
+    "LanguageId": "Task_Seven_Text_30120",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        1004,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 3002007,
+    "Type": 1002,
+    "Group": "3002",
+    "Sort": 14,
+    "ConditionId": 126,
+    "ConditionParams": "{\"Count\":300}",
+    "Progress": "Count",
+    "LanguageId": "Task_Seven_Text_30120",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        1004,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 3003001,
+    "Type": 1002,
+    "Group": "3003",
+    "Sort": 15,
+    "ConditionId": 127,
+    "ConditionParams": "{\"Count\":100}",
+    "Progress": "Count",
+    "LanguageId": "Task_Seven_Text_30121",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        1004,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 3003002,
+    "Type": 1002,
+    "Group": "3003",
+    "Sort": 16,
+    "ConditionId": 127,
+    "ConditionParams": "{\"Count\":150}",
+    "Progress": "Count",
+    "LanguageId": "Task_Seven_Text_30121",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        1004,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 3003003,
+    "Type": 1002,
+    "Group": "3003",
+    "Sort": 17,
+    "ConditionId": 127,
+    "ConditionParams": "{\"Count\":200}",
+    "Progress": "Count",
+    "LanguageId": "Task_Seven_Text_30121",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        1004,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 3003004,
+    "Type": 1002,
+    "Group": "3003",
+    "Sort": 18,
+    "ConditionId": 127,
+    "ConditionParams": "{\"Count\":300}",
+    "Progress": "Count",
+    "LanguageId": "Task_Seven_Text_30121",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        1004,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 3003005,
+    "Type": 1002,
+    "Group": "3003",
+    "Sort": 19,
+    "ConditionId": 127,
+    "ConditionParams": "{\"Count\":400}",
+    "Progress": "Count",
+    "LanguageId": "Task_Seven_Text_30121",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        1004,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 3003006,
+    "Type": 1002,
+    "Group": "3003",
+    "Sort": 20,
+    "ConditionId": 127,
+    "ConditionParams": "{\"Count\":500}",
+    "Progress": "Count",
+    "LanguageId": "Task_Seven_Text_30121",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        1004,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 3003007,
+    "Type": 1002,
+    "Group": "3003",
+    "Sort": 21,
+    "ConditionId": 127,
+    "ConditionParams": "{\"Count\":600}",
+    "Progress": "Count",
+    "LanguageId": "Task_Seven_Text_30121",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        1004,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 3004001,
+    "Type": 1002,
+    "Group": "3004",
+    "Sort": 22,
+    "ConditionId": 105,
+    "ConditionParams": "{\"Count\":500,\"ItemId\":2}",
+    "Progress": "Count",
+    "LanguageId": "Task_Seven_Text_30119",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        1004,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 3004002,
+    "Type": 1002,
+    "Group": "3004",
+    "Sort": 23,
+    "ConditionId": 105,
+    "ConditionParams": "{\"Count\":1000,\"ItemId\":2}",
+    "Progress": "Count",
+    "LanguageId": "Task_Seven_Text_30119",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        1004,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 3004003,
+    "Type": 1002,
+    "Group": "3004",
+    "Sort": 24,
+    "ConditionId": 105,
+    "ConditionParams": "{\"Count\":2000,\"ItemId\":2}",
+    "Progress": "Count",
+    "LanguageId": "Task_Seven_Text_30119",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        1004,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 3004004,
+    "Type": 1002,
+    "Group": "3004",
+    "Sort": 25,
+    "ConditionId": 105,
+    "ConditionParams": "{\"Count\":3000,\"ItemId\":2}",
+    "Progress": "Count",
+    "LanguageId": "Task_Seven_Text_30119",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        1004,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 3004005,
+    "Type": 1002,
+    "Group": "3004",
+    "Sort": 26,
+    "ConditionId": 105,
+    "ConditionParams": "{\"Count\":4000,\"ItemId\":2}",
+    "Progress": "Count",
+    "LanguageId": "Task_Seven_Text_30119",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        1004,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 3004006,
+    "Type": 1002,
+    "Group": "3004",
+    "Sort": 27,
+    "ConditionId": 105,
+    "ConditionParams": "{\"Count\":5000,\"ItemId\":2}",
+    "Progress": "Count",
+    "LanguageId": "Task_Seven_Text_30119",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        1004,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 3004007,
+    "Type": 1002,
+    "Group": "3004",
+    "Sort": 28,
+    "ConditionId": 105,
+    "ConditionParams": "{\"Count\":6000,\"ItemId\":2}",
+    "Progress": "Count",
+    "LanguageId": "Task_Seven_Text_30119",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        1004,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 3005001,
+    "Type": 1002,
+    "Group": "3005",
+    "Sort": 29,
+    "ConditionId": 100,
+    "ConditionParams": "{\"Count\":1}",
+    "Progress": "Count",
+    "LanguageId": "Task_Daily_Text_20101",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        1004,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 3005002,
+    "Type": 1002,
+    "Group": "3005",
+    "Sort": 30,
+    "ConditionId": 100,
+    "ConditionParams": "{\"Count\":2}",
+    "Progress": "Count",
+    "LanguageId": "Task_Daily_Text_20101",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        1004,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 3005003,
+    "Type": 1002,
+    "Group": "3005",
+    "Sort": 31,
+    "ConditionId": 100,
+    "ConditionParams": "{\"Count\":3}",
+    "Progress": "Count",
+    "LanguageId": "Task_Daily_Text_20101",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        1004,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 3005004,
+    "Type": 1002,
+    "Group": "3005",
+    "Sort": 32,
+    "ConditionId": 100,
+    "ConditionParams": "{\"Count\":4}",
+    "Progress": "Count",
+    "LanguageId": "Task_Daily_Text_20101",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        1004,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 3005005,
+    "Type": 1002,
+    "Group": "3005",
+    "Sort": 33,
+    "ConditionId": 100,
+    "ConditionParams": "{\"Count\":5}",
+    "Progress": "Count",
+    "LanguageId": "Task_Daily_Text_20101",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        1004,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 3005006,
+    "Type": 1002,
+    "Group": "3005",
+    "Sort": 34,
+    "ConditionId": 100,
+    "ConditionParams": "{\"Count\":6}",
+    "Progress": "Count",
+    "LanguageId": "Task_Daily_Text_20101",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        1004,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 3005007,
+    "Type": 1002,
+    "Group": "3005",
+    "Sort": 35,
+    "ConditionId": 100,
+    "ConditionParams": "{\"Count\":7}",
+    "Progress": "Count",
+    "LanguageId": "Task_Daily_Text_20101",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        1004,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 3006001,
+    "Type": 1002,
+    "Group": "3006",
+    "Sort": 36,
+    "ConditionId": 105,
+    "ConditionParams": "{\"Count\":100,\"ItemId\":4}",
+    "Progress": "Count",
+    "LanguageId": "Task_Weekly_Text_60107",
+    "JumpId": 5,
+    "RewardItem": [
+      [
+        1004,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 3006002,
+    "Type": 1002,
+    "Group": "3006",
+    "Sort": 37,
+    "ConditionId": 105,
+    "ConditionParams": "{\"Count\":200,\"ItemId\":4}",
+    "Progress": "Count",
+    "LanguageId": "Task_Weekly_Text_60107",
+    "JumpId": 5,
+    "RewardItem": [
+      [
+        1004,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 3006003,
+    "Type": 1002,
+    "Group": "3006",
+    "Sort": 38,
+    "ConditionId": 105,
+    "ConditionParams": "{\"Count\":300,\"ItemId\":4}",
+    "Progress": "Count",
+    "LanguageId": "Task_Weekly_Text_60107",
+    "JumpId": 5,
+    "RewardItem": [
+      [
+        1004,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 3006004,
+    "Type": 1002,
+    "Group": "3006",
+    "Sort": 39,
+    "ConditionId": 105,
+    "ConditionParams": "{\"Count\":400,\"ItemId\":4}",
+    "Progress": "Count",
+    "LanguageId": "Task_Weekly_Text_60107",
+    "JumpId": 5,
+    "RewardItem": [
+      [
+        1004,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 3006005,
+    "Type": 1002,
+    "Group": "3006",
+    "Sort": 40,
+    "ConditionId": 105,
+    "ConditionParams": "{\"Count\":500,\"ItemId\":4}",
+    "Progress": "Count",
+    "LanguageId": "Task_Weekly_Text_60107",
+    "JumpId": 5,
+    "RewardItem": [
+      [
+        1004,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 3006006,
+    "Type": 1002,
+    "Group": "3006",
+    "Sort": 41,
+    "ConditionId": 105,
+    "ConditionParams": "{\"Count\":600,\"ItemId\":4}",
+    "Progress": "Count",
+    "LanguageId": "Task_Weekly_Text_60107",
+    "JumpId": 5,
+    "RewardItem": [
+      [
+        1004,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 3006007,
+    "Type": 1002,
+    "Group": "3006",
+    "Sort": 42,
+    "ConditionId": 105,
+    "ConditionParams": "{\"Count\":700,\"ItemId\":4}",
+    "Progress": "Count",
+    "LanguageId": "Task_Weekly_Text_60107",
+    "JumpId": 5,
+    "RewardItem": [
+      [
+        1004,
+        10
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 4001001,
+    "Type": 1003,
+    "Group": "4001",
+    "Sort": 1,
+    "ConditionId": 106,
+    "ConditionParams": "{\"Count\":2000,\"Type\":1}",
+    "Progress": "Count",
+    "LanguageId": "Task_Seven_Text_30113",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        1009,
+        5
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 4001002,
+    "Type": 1003,
+    "Group": "4001",
+    "Sort": 2,
+    "ConditionId": 106,
+    "ConditionParams": "{\"Count\":4000,\"Type\":1}",
+    "Progress": "Count",
+    "LanguageId": "Task_Seven_Text_30113",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        1009,
+        5
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 4001003,
+    "Type": 1003,
+    "Group": "4001",
+    "Sort": 3,
+    "ConditionId": 106,
+    "ConditionParams": "{\"Count\":6000,\"Type\":1}",
+    "Progress": "Count",
+    "LanguageId": "Task_Seven_Text_30113",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        1009,
+        5
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 4001004,
+    "Type": 1003,
+    "Group": "4001",
+    "Sort": 4,
+    "ConditionId": 106,
+    "ConditionParams": "{\"Count\":8000,\"Type\":1}",
+    "Progress": "Count",
+    "LanguageId": "Task_Seven_Text_30113",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        1009,
+        5
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 4001005,
+    "Type": 1003,
+    "Group": "4001",
+    "Sort": 5,
+    "ConditionId": 106,
+    "ConditionParams": "{\"Count\":10000,\"Type\":1}",
+    "Progress": "Count",
+    "LanguageId": "Task_Seven_Text_30113",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        1009,
+        5
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 4001006,
+    "Type": 1003,
+    "Group": "4001",
+    "Sort": 6,
+    "ConditionId": 106,
+    "ConditionParams": "{\"Count\":15000,\"Type\":1}",
+    "Progress": "Count",
+    "LanguageId": "Task_Seven_Text_30113",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        1009,
+        5
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 4001007,
+    "Type": 1003,
+    "Group": "4001",
+    "Sort": 7,
+    "ConditionId": 106,
+    "ConditionParams": "{\"Count\":20000,\"Type\":1}",
+    "Progress": "Count",
+    "LanguageId": "Task_Seven_Text_30113",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        1009,
+        5
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 4002001,
+    "Type": 1003,
+    "Group": "4002",
+    "Sort": 8,
+    "ConditionId": 126,
+    "ConditionParams": "{\"Count\":30}",
+    "Progress": "Count",
+    "LanguageId": "Task_Seven_Text_30120",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        1009,
+        5
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 4002002,
+    "Type": 1003,
+    "Group": "4002",
+    "Sort": 9,
+    "ConditionId": 126,
+    "ConditionParams": "{\"Count\":60}",
+    "Progress": "Count",
+    "LanguageId": "Task_Seven_Text_30120",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        1009,
+        5
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 4002003,
+    "Type": 1003,
+    "Group": "4002",
+    "Sort": 10,
+    "ConditionId": 126,
+    "ConditionParams": "{\"Count\":90}",
+    "Progress": "Count",
+    "LanguageId": "Task_Seven_Text_30120",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        1009,
+        5
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 4002004,
+    "Type": 1003,
+    "Group": "4002",
+    "Sort": 11,
+    "ConditionId": 126,
+    "ConditionParams": "{\"Count\":120}",
+    "Progress": "Count",
+    "LanguageId": "Task_Seven_Text_30120",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        1009,
+        5
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 4002005,
+    "Type": 1003,
+    "Group": "4002",
+    "Sort": 12,
+    "ConditionId": 126,
+    "ConditionParams": "{\"Count\":180}",
+    "Progress": "Count",
+    "LanguageId": "Task_Seven_Text_30120",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        1009,
+        5
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 4002006,
+    "Type": 1003,
+    "Group": "4002",
+    "Sort": 13,
+    "ConditionId": 126,
+    "ConditionParams": "{\"Count\":240}",
+    "Progress": "Count",
+    "LanguageId": "Task_Seven_Text_30120",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        1009,
+        5
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 4002007,
+    "Type": 1003,
+    "Group": "4002",
+    "Sort": 14,
+    "ConditionId": 126,
+    "ConditionParams": "{\"Count\":300}",
+    "Progress": "Count",
+    "LanguageId": "Task_Seven_Text_30120",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        1009,
+        5
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 4003001,
+    "Type": 1003,
+    "Group": "4003",
+    "Sort": 15,
+    "ConditionId": 127,
+    "ConditionParams": "{\"Count\":100}",
+    "Progress": "Count",
+    "LanguageId": "Task_Seven_Text_30121",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        1009,
+        5
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 4003002,
+    "Type": 1003,
+    "Group": "4003",
+    "Sort": 16,
+    "ConditionId": 127,
+    "ConditionParams": "{\"Count\":150}",
+    "Progress": "Count",
+    "LanguageId": "Task_Seven_Text_30121",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        1009,
+        5
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 4003003,
+    "Type": 1003,
+    "Group": "4003",
+    "Sort": 17,
+    "ConditionId": 127,
+    "ConditionParams": "{\"Count\":200}",
+    "Progress": "Count",
+    "LanguageId": "Task_Seven_Text_30121",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        1009,
+        5
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 4003004,
+    "Type": 1003,
+    "Group": "4003",
+    "Sort": 18,
+    "ConditionId": 127,
+    "ConditionParams": "{\"Count\":300}",
+    "Progress": "Count",
+    "LanguageId": "Task_Seven_Text_30121",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        1009,
+        5
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 4003005,
+    "Type": 1003,
+    "Group": "4003",
+    "Sort": 19,
+    "ConditionId": 127,
+    "ConditionParams": "{\"Count\":400}",
+    "Progress": "Count",
+    "LanguageId": "Task_Seven_Text_30121",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        1009,
+        5
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 4003006,
+    "Type": 1003,
+    "Group": "4003",
+    "Sort": 20,
+    "ConditionId": 127,
+    "ConditionParams": "{\"Count\":500}",
+    "Progress": "Count",
+    "LanguageId": "Task_Seven_Text_30121",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        1009,
+        5
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 4003007,
+    "Type": 1003,
+    "Group": "4003",
+    "Sort": 21,
+    "ConditionId": 127,
+    "ConditionParams": "{\"Count\":600}",
+    "Progress": "Count",
+    "LanguageId": "Task_Seven_Text_30121",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        1009,
+        5
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 4004001,
+    "Type": 1003,
+    "Group": "4004",
+    "Sort": 22,
+    "ConditionId": 105,
+    "ConditionParams": "{\"Count\":500,\"ItemId\":2}",
+    "Progress": "Count",
+    "LanguageId": "Task_Seven_Text_30119",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        1009,
+        5
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 4004002,
+    "Type": 1003,
+    "Group": "4004",
+    "Sort": 23,
+    "ConditionId": 105,
+    "ConditionParams": "{\"Count\":1000,\"ItemId\":2}",
+    "Progress": "Count",
+    "LanguageId": "Task_Seven_Text_30119",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        1009,
+        5
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 4004003,
+    "Type": 1003,
+    "Group": "4004",
+    "Sort": 24,
+    "ConditionId": 105,
+    "ConditionParams": "{\"Count\":2000,\"ItemId\":2}",
+    "Progress": "Count",
+    "LanguageId": "Task_Seven_Text_30119",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        1009,
+        5
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 4004004,
+    "Type": 1003,
+    "Group": "4004",
+    "Sort": 25,
+    "ConditionId": 105,
+    "ConditionParams": "{\"Count\":3000,\"ItemId\":2}",
+    "Progress": "Count",
+    "LanguageId": "Task_Seven_Text_30119",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        1009,
+        5
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 4004005,
+    "Type": 1003,
+    "Group": "4004",
+    "Sort": 26,
+    "ConditionId": 105,
+    "ConditionParams": "{\"Count\":4000,\"ItemId\":2}",
+    "Progress": "Count",
+    "LanguageId": "Task_Seven_Text_30119",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        1009,
+        5
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 4004006,
+    "Type": 1003,
+    "Group": "4004",
+    "Sort": 27,
+    "ConditionId": 105,
+    "ConditionParams": "{\"Count\":5000,\"ItemId\":2}",
+    "Progress": "Count",
+    "LanguageId": "Task_Seven_Text_30119",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        1009,
+        5
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 4004007,
+    "Type": 1003,
+    "Group": "4004",
+    "Sort": 28,
+    "ConditionId": 105,
+    "ConditionParams": "{\"Count\":6000,\"ItemId\":2}",
+    "Progress": "Count",
+    "LanguageId": "Task_Seven_Text_30119",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        1009,
+        5
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 4005001,
+    "Type": 1003,
+    "Group": "4005",
+    "Sort": 29,
+    "ConditionId": 100,
+    "ConditionParams": "{\"Count\":1}",
+    "Progress": "Count",
+    "LanguageId": "Task_Daily_Text_20101",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        1009,
+        5
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 4005002,
+    "Type": 1003,
+    "Group": "4005",
+    "Sort": 30,
+    "ConditionId": 100,
+    "ConditionParams": "{\"Count\":2}",
+    "Progress": "Count",
+    "LanguageId": "Task_Daily_Text_20101",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        1009,
+        5
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 4005003,
+    "Type": 1003,
+    "Group": "4005",
+    "Sort": 31,
+    "ConditionId": 100,
+    "ConditionParams": "{\"Count\":3}",
+    "Progress": "Count",
+    "LanguageId": "Task_Daily_Text_20101",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        1009,
+        5
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 4005004,
+    "Type": 1003,
+    "Group": "4005",
+    "Sort": 32,
+    "ConditionId": 100,
+    "ConditionParams": "{\"Count\":4}",
+    "Progress": "Count",
+    "LanguageId": "Task_Daily_Text_20101",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        1009,
+        5
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 4005005,
+    "Type": 1003,
+    "Group": "4005",
+    "Sort": 33,
+    "ConditionId": 100,
+    "ConditionParams": "{\"Count\":5}",
+    "Progress": "Count",
+    "LanguageId": "Task_Daily_Text_20101",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        1009,
+        5
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 4005006,
+    "Type": 1003,
+    "Group": "4005",
+    "Sort": 34,
+    "ConditionId": 100,
+    "ConditionParams": "{\"Count\":6}",
+    "Progress": "Count",
+    "LanguageId": "Task_Daily_Text_20101",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        1009,
+        5
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 4005007,
+    "Type": 1003,
+    "Group": "4005",
+    "Sort": 35,
+    "ConditionId": 100,
+    "ConditionParams": "{\"Count\":7}",
+    "Progress": "Count",
+    "LanguageId": "Task_Daily_Text_20101",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        1009,
+        5
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 4006001,
+    "Type": 1003,
+    "Group": "4006",
+    "Sort": 36,
+    "ConditionId": 105,
+    "ConditionParams": "{\"Count\":100,\"ItemId\":4}",
+    "Progress": "Count",
+    "LanguageId": "Task_Weekly_Text_60107",
+    "JumpId": 5,
+    "RewardItem": [
+      [
+        1009,
+        5
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 4006002,
+    "Type": 1003,
+    "Group": "4006",
+    "Sort": 37,
+    "ConditionId": 105,
+    "ConditionParams": "{\"Count\":200,\"ItemId\":4}",
+    "Progress": "Count",
+    "LanguageId": "Task_Weekly_Text_60107",
+    "JumpId": 5,
+    "RewardItem": [
+      [
+        1009,
+        5
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 4006003,
+    "Type": 1003,
+    "Group": "4006",
+    "Sort": 38,
+    "ConditionId": 105,
+    "ConditionParams": "{\"Count\":300,\"ItemId\":4}",
+    "Progress": "Count",
+    "LanguageId": "Task_Weekly_Text_60107",
+    "JumpId": 5,
+    "RewardItem": [
+      [
+        1009,
+        5
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 4006004,
+    "Type": 1003,
+    "Group": "4006",
+    "Sort": 39,
+    "ConditionId": 105,
+    "ConditionParams": "{\"Count\":400,\"ItemId\":4}",
+    "Progress": "Count",
+    "LanguageId": "Task_Weekly_Text_60107",
+    "JumpId": 5,
+    "RewardItem": [
+      [
+        1009,
+        5
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 4006005,
+    "Type": 1003,
+    "Group": "4006",
+    "Sort": 40,
+    "ConditionId": 105,
+    "ConditionParams": "{\"Count\":500,\"ItemId\":4}",
+    "Progress": "Count",
+    "LanguageId": "Task_Weekly_Text_60107",
+    "JumpId": 5,
+    "RewardItem": [
+      [
+        1009,
+        5
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 4006006,
+    "Type": 1003,
+    "Group": "4006",
+    "Sort": 41,
+    "ConditionId": 105,
+    "ConditionParams": "{\"Count\":600,\"ItemId\":4}",
+    "Progress": "Count",
+    "LanguageId": "Task_Weekly_Text_60107",
+    "JumpId": 5,
+    "RewardItem": [
+      [
+        1009,
+        5
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 4006007,
+    "Type": 1003,
+    "Group": "4006",
+    "Sort": 42,
+    "ConditionId": 105,
+    "ConditionParams": "{\"Count\":700,\"ItemId\":4}",
+    "Progress": "Count",
+    "LanguageId": "Task_Weekly_Text_60107",
+    "JumpId": 5,
+    "RewardItem": [
+      [
+        1009,
+        5
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 5101001,
+    "Type": 1105,
+    "Group": "",
+    "Sort": 1,
+    "ConditionId": 105,
+    "ConditionParams": "{\"Count\":500,\"ItemId\":4}",
+    "Progress": "Count",
+    "LanguageId": "Task_Weekly_Text_60107",
+    "JumpId": 5,
+    "RewardItem": [
+      [
+        1018,
+        3
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 5101002,
+    "Type": 1105,
+    "Group": "",
+    "Sort": 2,
+    "ConditionId": 104,
+    "ConditionParams": "{\"Count\":10,\"BoxId\":3}",
+    "Progress": "Count",
+    "LanguageId": "Task_Text_5101002",
+    "JumpId": 6,
+    "RewardItem": [
+      [
+        1018,
+        3
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 5101003,
+    "Type": 1105,
+    "Group": "",
+    "Sort": 3,
+    "ConditionId": 104,
+    "ConditionParams": "{\"Count\":20,\"BoxId\":3}",
+    "Progress": "Count",
+    "LanguageId": "Task_Text_5101002",
+    "JumpId": 6,
+    "RewardItem": [
+      [
+        1018,
+        3
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 5101004,
+    "Type": 1105,
+    "Group": "",
+    "Sort": 4,
+    "ConditionId": 104,
+    "ConditionParams": "{\"Count\":30,\"BoxId\":3}",
+    "Progress": "Count",
+    "LanguageId": "Task_Text_5101002",
+    "JumpId": 6,
+    "RewardItem": [
+      [
+        1018,
+        3
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 5101005,
+    "Type": 1105,
+    "Group": "",
+    "Sort": 5,
+    "ConditionId": 104,
+    "ConditionParams": "{\"Count\":5,\"BoxId\":2}",
+    "Progress": "Count",
+    "LanguageId": "Task_Text_5101005",
+    "JumpId": 7,
+    "RewardItem": [
+      [
+        1018,
+        3
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 5101006,
+    "Type": 1105,
+    "Group": "",
+    "Sort": 6,
+    "ConditionId": 104,
+    "ConditionParams": "{\"Count\":10,\"BoxId\":2}",
+    "Progress": "Count",
+    "LanguageId": "Task_Text_5101005",
+    "JumpId": 7,
+    "RewardItem": [
+      [
+        1018,
+        3
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 5101007,
+    "Type": 1105,
+    "Group": "",
+    "Sort": 7,
+    "ConditionId": 104,
+    "ConditionParams": "{\"Count\":15,\"BoxId\":2}",
+    "Progress": "Count",
+    "LanguageId": "Task_Text_5101005",
+    "JumpId": 7,
+    "RewardItem": [
+      [
+        1018,
+        3
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 5102001,
+    "Type": 1105,
+    "Group": "",
+    "Sort": 1,
+    "ConditionId": 105,
+    "ConditionParams": "{\"Count\":500,\"ItemId\":4}",
+    "Progress": "Count",
+    "LanguageId": "Task_Weekly_Text_60107",
+    "JumpId": 5,
+    "RewardItem": [
+      [
+        1018,
+        3
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 5102002,
+    "Type": 1105,
+    "Group": "",
+    "Sort": 2,
+    "ConditionId": 104,
+    "ConditionParams": "{\"Count\":20,\"BoxId\":3}",
+    "Progress": "Count",
+    "LanguageId": "Task_Text_5101002",
+    "JumpId": 6,
+    "RewardItem": [
+      [
+        1018,
+        3
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 5102003,
+    "Type": 1105,
+    "Group": "",
+    "Sort": 3,
+    "ConditionId": 104,
+    "ConditionParams": "{\"Count\":30,\"BoxId\":3}",
+    "Progress": "Count",
+    "LanguageId": "Task_Text_5101002",
+    "JumpId": 6,
+    "RewardItem": [
+      [
+        1018,
+        3
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 5102004,
+    "Type": 1105,
+    "Group": "",
+    "Sort": 4,
+    "ConditionId": 104,
+    "ConditionParams": "{\"Count\":10,\"BoxId\":2}",
+    "Progress": "Count",
+    "LanguageId": "Task_Text_5101005",
+    "JumpId": 7,
+    "RewardItem": [
+      [
+        1018,
+        3
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 5102005,
+    "Type": 1105,
+    "Group": "",
+    "Sort": 5,
+    "ConditionId": 104,
+    "ConditionParams": "{\"Count\":15,\"BoxId\":2}",
+    "Progress": "Count",
+    "LanguageId": "Task_Text_5101005",
+    "JumpId": 7,
+    "RewardItem": [
+      [
+        1018,
+        3
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 5102006,
+    "Type": 1105,
+    "Group": "",
+    "Sort": 6,
+    "ConditionId": 104,
+    "ConditionParams": "{\"Count\":10,\"BoxId\":5}",
+    "Progress": "Count",
+    "LanguageId": "Task_Text_5102005",
+    "JumpId": 32,
+    "RewardItem": [
+      [
+        1018,
+        3
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 5102007,
+    "Type": 1105,
+    "Group": "",
+    "Sort": 7,
+    "ConditionId": 104,
+    "ConditionParams": "{\"Count\":20,\"BoxId\":5}",
+    "Progress": "Count",
+    "LanguageId": "Task_Text_5102005",
+    "JumpId": 32,
+    "RewardItem": [
+      [
+        1018,
+        3
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 5103001,
+    "Type": 1105,
+    "Group": "",
+    "Sort": 1,
+    "ConditionId": 105,
+    "ConditionParams": "{\"Count\":500,\"ItemId\":4}",
+    "Progress": "Count",
+    "LanguageId": "Task_Weekly_Text_60107",
+    "JumpId": 5,
+    "RewardItem": [
+      [
+        1018,
+        3
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 5103002,
+    "Type": 1105,
+    "Group": "",
+    "Sort": 2,
+    "ConditionId": 104,
+    "ConditionParams": "{\"Count\":20,\"BoxId\":3}",
+    "Progress": "Count",
+    "LanguageId": "Task_Text_5101002",
+    "JumpId": 6,
+    "RewardItem": [
+      [
+        1018,
+        3
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 5103003,
+    "Type": 1105,
+    "Group": "",
+    "Sort": 3,
+    "ConditionId": 104,
+    "ConditionParams": "{\"Count\":30,\"BoxId\":3}",
+    "Progress": "Count",
+    "LanguageId": "Task_Text_5101002",
+    "JumpId": 6,
+    "RewardItem": [
+      [
+        1018,
+        3
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 5103004,
+    "Type": 1105,
+    "Group": "",
+    "Sort": 4,
+    "ConditionId": 104,
+    "ConditionParams": "{\"Count\":10,\"BoxId\":2}",
+    "Progress": "Count",
+    "LanguageId": "Task_Text_5101005",
+    "JumpId": 7,
+    "RewardItem": [
+      [
+        1018,
+        3
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 5103005,
+    "Type": 1105,
+    "Group": "",
+    "Sort": 5,
+    "ConditionId": 104,
+    "ConditionParams": "{\"Count\":15,\"BoxId\":2}",
+    "Progress": "Count",
+    "LanguageId": "Task_Text_5101005",
+    "JumpId": 7,
+    "RewardItem": [
+      [
+        1018,
+        3
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 5103006,
+    "Type": 1105,
+    "Group": "",
+    "Sort": 6,
+    "ConditionId": 104,
+    "ConditionParams": "{\"Count\":10,\"BoxId\":5}",
+    "Progress": "Count",
+    "LanguageId": "Task_Text_5102005",
+    "JumpId": 32,
+    "RewardItem": [
+      [
+        1018,
+        3
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 5103007,
+    "Type": 1105,
+    "Group": "",
+    "Sort": 7,
+    "ConditionId": 104,
+    "ConditionParams": "{\"Count\":20,\"BoxId\":5}",
+    "Progress": "Count",
+    "LanguageId": "Task_Text_5102005",
+    "JumpId": 32,
+    "RewardItem": [
+      [
+        1018,
+        3
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 5104001,
+    "Type": 1105,
+    "Group": "",
+    "Sort": 1,
+    "ConditionId": 105,
+    "ConditionParams": "{\"Count\":500,\"ItemId\":4}",
+    "Progress": "Count",
+    "LanguageId": "Task_Weekly_Text_60107",
+    "JumpId": 5,
+    "RewardItem": [
+      [
+        1018,
+        3
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 5104002,
+    "Type": 1105,
+    "Group": "",
+    "Sort": 2,
+    "ConditionId": 104,
+    "ConditionParams": "{\"Count\":20,\"BoxId\":3}",
+    "Progress": "Count",
+    "LanguageId": "Task_Text_5101002",
+    "JumpId": 6,
+    "RewardItem": [
+      [
+        1018,
+        3
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 5104003,
+    "Type": 1105,
+    "Group": "",
+    "Sort": 3,
+    "ConditionId": 104,
+    "ConditionParams": "{\"Count\":30,\"BoxId\":3}",
+    "Progress": "Count",
+    "LanguageId": "Task_Text_5101002",
+    "JumpId": 6,
+    "RewardItem": [
+      [
+        1018,
+        3
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 5104004,
+    "Type": 1105,
+    "Group": "",
+    "Sort": 4,
+    "ConditionId": 104,
+    "ConditionParams": "{\"Count\":10,\"BoxId\":2}",
+    "Progress": "Count",
+    "LanguageId": "Task_Text_5101005",
+    "JumpId": 7,
+    "RewardItem": [
+      [
+        1018,
+        3
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 5104005,
+    "Type": 1105,
+    "Group": "",
+    "Sort": 5,
+    "ConditionId": 104,
+    "ConditionParams": "{\"Count\":15,\"BoxId\":2}",
+    "Progress": "Count",
+    "LanguageId": "Task_Text_5101005",
+    "JumpId": 7,
+    "RewardItem": [
+      [
+        1018,
+        3
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 5104006,
+    "Type": 1105,
+    "Group": "",
+    "Sort": 6,
+    "ConditionId": 104,
+    "ConditionParams": "{\"Count\":10,\"BoxId\":5}",
+    "Progress": "Count",
+    "LanguageId": "Task_Text_5102005",
+    "JumpId": 32,
+    "RewardItem": [
+      [
+        1018,
+        3
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 5104007,
+    "Type": 1105,
+    "Group": "",
+    "Sort": 7,
+    "ConditionId": 104,
+    "ConditionParams": "{\"Count\":20,\"BoxId\":5}",
+    "Progress": "Count",
+    "LanguageId": "Task_Text_5102005",
+    "JumpId": 32,
+    "RewardItem": [
+      [
+        1018,
+        3
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 5201001,
+    "Type": 1205,
+    "Group": "5201",
+    "Sort": 1,
+    "ConditionId": 103,
+    "ConditionParams": "{\"MissionId\":10,\"Pass\":1,\"Type\":1}",
+    "Progress": "MissionId",
+    "LanguageId": "Task_Seven_Text_30115",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        1020,
+        3
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 5201002,
+    "Type": 1205,
+    "Group": "5201",
+    "Sort": 2,
+    "ConditionId": 103,
+    "ConditionParams": "{\"MissionId\":13,\"Pass\":1,\"Type\":1}",
+    "Progress": "MissionId",
+    "LanguageId": "Task_Seven_Text_30115",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        1020,
+        3
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 5201003,
+    "Type": 1205,
+    "Group": "5201",
+    "Sort": 3,
+    "ConditionId": 103,
+    "ConditionParams": "{\"MissionId\":16,\"Pass\":1,\"Type\":1}",
+    "Progress": "MissionId",
+    "LanguageId": "Task_Seven_Text_30115",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        1020,
+        3
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 5201004,
+    "Type": 1205,
+    "Group": "5201",
+    "Sort": 4,
+    "ConditionId": 103,
+    "ConditionParams": "{\"MissionId\":19,\"Pass\":1,\"Type\":1}",
+    "Progress": "MissionId",
+    "LanguageId": "Task_Seven_Text_30115",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        1020,
+        3
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 5201005,
+    "Type": 1205,
+    "Group": "5201",
+    "Sort": 5,
+    "ConditionId": 103,
+    "ConditionParams": "{\"MissionId\":21,\"Pass\":1,\"Type\":1}",
+    "Progress": "MissionId",
+    "LanguageId": "Task_Seven_Text_30115",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        1020,
+        3
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 5201006,
+    "Type": 1205,
+    "Group": "5201",
+    "Sort": 6,
+    "ConditionId": 103,
+    "ConditionParams": "{\"MissionId\":23,\"Pass\":1,\"Type\":1}",
+    "Progress": "MissionId",
+    "LanguageId": "Task_Seven_Text_30115",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        1020,
+        3
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 5201007,
+    "Type": 1205,
+    "Group": "5201",
+    "Sort": 7,
+    "ConditionId": 103,
+    "ConditionParams": "{\"MissionId\":25,\"Pass\":1,\"Type\":1}",
+    "Progress": "MissionId",
+    "LanguageId": "Task_Seven_Text_30115",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        1020,
+        3
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 5201008,
+    "Type": 1205,
+    "Group": "5201",
+    "Sort": 8,
+    "ConditionId": 103,
+    "ConditionParams": "{\"MissionId\":27,\"Pass\":1,\"Type\":1}",
+    "Progress": "MissionId",
+    "LanguageId": "Task_Seven_Text_30115",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        1020,
+        3
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 5201009,
+    "Type": 1205,
+    "Group": "5201",
+    "Sort": 9,
+    "ConditionId": 103,
+    "ConditionParams": "{\"MissionId\":29,\"Pass\":1,\"Type\":1}",
+    "Progress": "MissionId",
+    "LanguageId": "Task_Seven_Text_30115",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        1020,
+        3
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 5201010,
+    "Type": 1205,
+    "Group": "5201",
+    "Sort": 10,
+    "ConditionId": 103,
+    "ConditionParams": "{\"MissionId\":31,\"Pass\":1,\"Type\":1}",
+    "Progress": "MissionId",
+    "LanguageId": "Task_Seven_Text_30115",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        1020,
+        3
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 5201011,
+    "Type": 1205,
+    "Group": "5201",
+    "Sort": 11,
+    "ConditionId": 103,
+    "ConditionParams": "{\"MissionId\":33,\"Pass\":1,\"Type\":1}",
+    "Progress": "MissionId",
+    "LanguageId": "Task_Seven_Text_30115",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        1020,
+        3
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 5201012,
+    "Type": 1205,
+    "Group": "5201",
+    "Sort": 12,
+    "ConditionId": 103,
+    "ConditionParams": "{\"MissionId\":35,\"Pass\":1,\"Type\":1}",
+    "Progress": "MissionId",
+    "LanguageId": "Task_Seven_Text_30115",
+    "JumpId": 0,
+    "RewardItem": [
+      [
+        1020,
+        3
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 5202001,
+    "Type": 1205,
+    "Group": "5202",
+    "Sort": 8,
+    "ConditionId": 103,
+    "ConditionParams": "{\"MissionId\":5,\"Pass\":1,\"Type\":2}",
+    "Progress": "MissionId",
+    "LanguageId": "Task_Seven_Text_30116",
+    "JumpId": 22,
+    "RewardItem": [
+      [
+        1020,
+        3
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 5202002,
+    "Type": 1205,
+    "Group": "5202",
+    "Sort": 9,
+    "ConditionId": 103,
+    "ConditionParams": "{\"MissionId\":7,\"Pass\":1,\"Type\":2}",
+    "Progress": "MissionId",
+    "LanguageId": "Task_Seven_Text_30116",
+    "JumpId": 22,
+    "RewardItem": [
+      [
+        1020,
+        3
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 5202003,
+    "Type": 1205,
+    "Group": "5202",
+    "Sort": 10,
+    "ConditionId": 103,
+    "ConditionParams": "{\"MissionId\":9,\"Pass\":1,\"Type\":2}",
+    "Progress": "MissionId",
+    "LanguageId": "Task_Seven_Text_30116",
+    "JumpId": 22,
+    "RewardItem": [
+      [
+        1020,
+        3
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 5202004,
+    "Type": 1205,
+    "Group": "5202",
+    "Sort": 11,
+    "ConditionId": 103,
+    "ConditionParams": "{\"MissionId\":11,\"Pass\":1,\"Type\":2}",
+    "Progress": "MissionId",
+    "LanguageId": "Task_Seven_Text_30116",
+    "JumpId": 22,
+    "RewardItem": [
+      [
+        1020,
+        3
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 5203001,
+    "Type": 1205,
+    "Group": "5203",
+    "Sort": 15,
+    "ConditionId": 103,
+    "ConditionParams": "{\"MissionId\":60,\"Pass\":1,\"Type\":4}",
+    "Progress": "MissionId",
+    "LanguageId": "Task_Seven_Text_30117",
+    "JumpId": 19,
+    "RewardItem": [
+      [
+        1020,
+        3
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 5203002,
+    "Type": 1205,
+    "Group": "5203",
+    "Sort": 16,
+    "ConditionId": 103,
+    "ConditionParams": "{\"MissionId\":70,\"Pass\":1,\"Type\":4}",
+    "Progress": "MissionId",
+    "LanguageId": "Task_Seven_Text_30117",
+    "JumpId": 19,
+    "RewardItem": [
+      [
+        1020,
+        3
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 5203003,
+    "Type": 1205,
+    "Group": "5203",
+    "Sort": 17,
+    "ConditionId": 103,
+    "ConditionParams": "{\"MissionId\":90,\"Pass\":1,\"Type\":4}",
+    "Progress": "MissionId",
+    "LanguageId": "Task_Seven_Text_30117",
+    "JumpId": 19,
+    "RewardItem": [
+      [
+        1020,
+        3
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  },
+  {
+    "ID": 5203004,
+    "Type": 1205,
+    "Group": "5203",
+    "Sort": 18,
+    "ConditionId": 103,
+    "ConditionParams": "{\"MissionId\":110,\"Pass\":1,\"Type\":4}",
+    "Progress": "MissionId",
+    "LanguageId": "Task_Seven_Text_30117",
+    "JumpId": 19,
+    "RewardItem": [
+      [
+        1020,
+        3
+      ]
+    ],
+    "UnlockCondition": "",
+    "HighFiveBgType": 0
+  }
+]

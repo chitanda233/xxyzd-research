@@ -1,0 +1,120 @@
+[
+  {
+    "ID": 1,
+    "NameID": 103100,
+    "AtlasID": 10100,
+    "SpriteName": "stg_card_title_blue",
+    "Cards": [
+      "51001",
+      "51002",
+      "51003",
+      "51004",
+      "51005",
+      "53001",
+      "53002",
+      "53003",
+      "53004",
+      "53005",
+      "53006",
+      "54001",
+      "54002",
+      "54003",
+      "54004",
+      "54005",
+      "54006",
+      "54007",
+      "54008",
+      "54009",
+      "54010",
+      "54011",
+      "55001",
+      "55002",
+      "55003",
+      "55004",
+      "55005",
+      "55006",
+      "55007",
+      "55008",
+      "55009",
+      "55010",
+      "55011",
+      "56001",
+      "56003",
+      "56004",
+      "56005",
+      "56006",
+      "56007",
+      "56008"
+    ]
+  },
+  {
+    "ID": 2,
+    "NameID": 103101,
+    "AtlasID": 10103,
+    "SpriteName": "stg_card_title_blue",
+    "Cards": []
+  },
+  {
+    "ID": 3,
+    "NameID": 103102,
+    "AtlasID": 10101,
+    "SpriteName": "stg_card_title_blue",
+    "Cards": []
+  },
+  {
+    "ID": 4,
+    "NameID": 103103,
+    "AtlasID": 10102,
+    "SpriteName": "stg_card_title_blue",
+    "Cards": []
+  },
+  {
+    "ID": 5,
+    "NameID": 103104,
+    "AtlasID": 10102,
+    "SpriteName": "stg_card_title_blue",
+    "Cards": []
+  },
+  {
+    "ID": 6,
+    "NameID": 103104,
+    "AtlasID": 10102,
+    "SpriteName": "stg_card_title_blue",
+    "Cards": []
+  },
+  {
+    "ID": 7,
+    "NameID": 103104,
+    "AtlasID": 10102,
+    "SpriteName": "stg_card_title_blue",
+    "Cards": []
+  },
+  {
+    "ID": 8,
+    "NameID": 103104,
+    "AtlasID": 10102,
+    "SpriteName": "stg_card_title_blue",
+    "Cards": []
+  },
+  {
+    "ID": 9,
+    "NameID": 103104,
+    "AtlasID": 10102,
+    "SpriteName": "stg_card_title_blue",
+    "Cards": []
+  },
+  {
+    "ID": 10,
+    "NameID": 103104,
+    "AtlasID": 10102,
+    "SpriteName": "stg_card_title_blue",
+    "Cards": []
+  },
+  {
+    "ID": 11,
+    "NameID": 103104,
+    "AtlasID": 10102,
+    "SpriteName": "stg_card_title_blue",
+    "Cards": []
+  }
+]

@@ -1,0 +1,437 @@
+[
+  {
+    "EventID": 1,
+    "GetID": 10101,
+    "Weight": 10
+  },
+  {
+    "EventID": 2,
+    "GetID": 10102,
+    "Weight": 10
+  },
+  {
+    "EventID": 3,
+    "GetID": 10105,
+    "Weight": 10
+  },
+  {
+    "EventID": 4,
+    "GetID": 10106,
+    "Weight": 10
+  },
+  {
+    "EventID": 5,
+    "GetID": 10107,
+    "Weight": 10
+  },
+  {
+    "EventID": 6,
+    "GetID": 10108,
+    "Weight": 10
+  },
+  {
+    "EventID": 7,
+    "GetID": 101003,
+    "Weight": 10
+  },
+  {
+    "EventID": 8,
+    "GetID": 10201,
+    "Weight": 0
+  },
+  {
+    "EventID": 9,
+    "GetID": 10202,
+    "Weight": 10
+  },
+  {
+    "EventID": 10,
+    "GetID": 10203,
+    "Weight": 10
+  },
+  {
+    "EventID": 11,
+    "GetID": 10205,
+    "Weight": 10
+  },
+  {
+    "EventID": 12,
+    "GetID": 10210,
+    "Weight": 10
+  },
+  {
+    "EventID": 13,
+    "GetID": 10211,
+    "Weight": 0
+  },
+  {
+    "EventID": 14,
+    "GetID": 10301,
+    "Weight": 10
+  },
+  {
+    "EventID": 15,
+    "GetID": 10402,
+    "Weight": 10
+  },
+  {
+    "EventID": 16,
+    "GetID": 10404,
+    "Weight": 10
+  },
+  {
+    "EventID": 17,
+    "GetID": 10405,
+    "Weight": 10
+  },
+  {
+    "EventID": 18,
+    "GetID": 10406,
+    "Weight": 10
+  },
+  {
+    "EventID": 19,
+    "GetID": 10407,
+    "Weight": 10
+  },
+  {
+    "EventID": 20,
+    "GetID": 10408,
+    "Weight": 10
+  },
+  {
+    "EventID": 21,
+    "GetID": 10409,
+    "Weight": 10
+  },
+  {
+    "EventID": 22,
+    "GetID": 10410,
+    "Weight": 10
+  },
+  {
+    "EventID": 23,
+    "GetID": 10411,
+    "Weight": 10
+  },
+  {
+    "EventID": 24,
+    "GetID": 10413,
+    "Weight": 0
+  },
+  {
+    "EventID": 25,
+    "GetID": 10501,
+    "Weight": 10
+  },
+  {
+    "EventID": 26,
+    "GetID": 10502,
+    "Weight": 10
+  },
+  {
+    "EventID": 27,
+    "GetID": 10503,
+    "Weight": 10
+  },
+  {
+    "EventID": 28,
+    "GetID": 10504,
+    "Weight": 10
+  },
+  {
+    "EventID": 29,
+    "GetID": 10509,
+    "Weight": 10
+  },
+  {
+    "EventID": 30,
+    "GetID": 10611,
+    "Weight": 10
+  },
+  {
+    "EventID": 31,
+    "GetID": 106110,
+    "Weight": 0
+  },
+  {
+    "EventID": 32,
+    "GetID": 10607,
+    "Weight": 10
+  },
+  {
+    "EventID": 33,
+    "GetID": 10621,
+    "Weight": 10
+  },
+  {
+    "EventID": 34,
+    "GetID": 10639,
+    "Weight": 10
+  },
+  {
+    "EventID": 35,
+    "GetID": 106390,
+    "Weight": 0
+  },
+  {
+    "EventID": 36,
+    "GetID": 10635,
+    "Weight": 10
+  },
+  {
+    "EventID": 37,
+    "GetID": 10601,
+    "Weight": 10
+  },
+  {
+    "EventID": 38,
+    "GetID": 10640,
+    "Weight": 10
+  },
+  {
+    "EventID": 39,
+    "GetID": 106400,
+    "Weight": 0
+  },
+  {
+    "EventID": 40,
+    "GetID": 10617,
+    "Weight": 10
+  },
+  {
+    "EventID": 41,
+    "GetID": 10619,
+    "Weight": 10
+  },
+  {
+    "EventID": 42,
+    "GetID": 10605,
+    "Weight": 10
+  },
+  {
+    "EventID": 43,
+    "GetID": 10641,
+    "Weight": 10
+  },
+  {
+    "EventID": 44,
+    "GetID": 106410,
+    "Weight": 0
+  },
+  {
+    "EventID": 45,
+    "GetID": 10636,
+    "Weight": 10
+  },
+  {
+    "EventID": 46,
+    "GetID": 10630,
+    "Weight": 10
+  },
+  {
+    "EventID": 47,
+    "GetID": 10638,
+    "Weight": 10
+  },
+  {
+    "EventID": 48,
+    "GetID": 10603,
+    "Weight": 10
+  },
+  {
+    "EventID": 49,
+    "GetID": 10624,
+    "Weight": 10
+  },
+  {
+    "EventID": 50,
+    "GetID": 10620,
+    "Weight": 10
+  },
+  {
+    "EventID": 51,
+    "GetID": 10613,
+    "Weight": 10
+  },
+  {
+    "EventID": 52,
+    "GetID": 10623,
+    "Weight": 10
+  },
+  {
+    "EventID": 53,
+    "GetID": 10614,
+    "Weight": 10
+  },
+  {
+    "EventID": 54,
+    "GetID": 10634,
+    "Weight": 10
+  },
+  {
+    "EventID": 55,
+    "GetID": 10618,
+    "Weight": 10
+  },
+  {
+    "EventID": 56,
+    "GetID": 10649,
+    "Weight": 10
+  },
+  {
+    "EventID": 57,
+    "GetID": 10622,
+    "Weight": 10
+  },
+  {
+    "EventID": 58,
+    "GetID": 10701,
+    "Weight": 10
+  },
+  {
+    "EventID": 59,
+    "GetID": 10702,
+    "Weight": 10
+  },
+  {
+    "EventID": 60,
+    "GetID": 10704,
+    "Weight": 10
+  },
+  {
+    "EventID": 61,
+    "GetID": 10705,
+    "Weight": 10
+  },
+  {
+    "EventID": 62,
+    "GetID": 10706,
+    "Weight": 10
+  },
+  {
+    "EventID": 63,
+    "GetID": 107003,
+    "Weight": 10
+  },
+  {
+    "EventID": 64,
+    "GetID": 10801,
+    "Weight": 10
+  },
+  {
+    "EventID": 65,
+    "GetID": 10802,
+    "Weight": 10
+  },
+  {
+    "EventID": 66,
+    "GetID": 10803,
+    "Weight": 10
+  },
+  {
+    "EventID": 67,
+    "GetID": 10804,
+    "Weight": 10
+  },
+  {
+    "EventID": 68,
+    "GetID": 10805,
+    "Weight": 10
+  },
+  {
+    "EventID": 69,
+    "GetID": 108002,
+    "Weight": 10
+  },
+  {
+    "EventID": 70,
+    "GetID": 10901,
+    "Weight": 10
+  },
+  {
+    "EventID": 71,
+    "GetID": 12001,
+    "Weight": 10
+  },
+  {
+    "EventID": 72,
+    "GetID": 12002,
+    "Weight": 10
+  },
+  {
+    "EventID": 73,
+    "GetID": 12003,
+    "Weight": 10
+  },
+  {
+    "EventID": 74,
+    "GetID": 12004,
+    "Weight": 10
+  },
+  {
+    "EventID": 75,
+    "GetID": 13001,
+    "Weight": 10
+  },
+  {
+    "EventID": 76,
+    "GetID": 14000,
+    "Weight": 10
+  },
+  {
+    "EventID": 77,
+    "GetID": 14001,
+    "Weight": 10
+  },
+  {
+    "EventID": 78,
+    "GetID": 14002,
+    "Weight": 10
+  },
+  {
+    "EventID": 79,
+    "GetID": 14003,
+    "Weight": 10
+  },
+  {
+    "EventID": 80,
+    "GetID": 14005,
+    "Weight": 10
+  },
+  {
+    "EventID": 81,
+    "GetID": 14007,
+    "Weight": 10
+  },
+  {
+    "EventID": 82,
+    "GetID": 10707,
+    "Weight": 0
+  },
+  {
+    "EventID": 83,
+    "GetID": 107070,
+    "Weight": 10
+  },
+  {
+    "EventID": 84,
+    "GetID": 14100,
+    "Weight": 10
+  },
+  {
+    "EventID": 85,
+    "GetID": 107004,
+    "Weight": 10
+  },
+  {
+    "EventID": 86,
+    "GetID": 10644,
+    "Weight": 10
+  },
+  {
+    "EventID": 87,
+    "GetID": 10808,
+    "Weight": 10
+  }
+]

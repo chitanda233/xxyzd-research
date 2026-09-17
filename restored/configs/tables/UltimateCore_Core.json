@@ -1,0 +1,216 @@
+[
+  {
+    "Id": 70001,
+    "NameId": 170001,
+    "Quality": 40,
+    "Sort": 1,
+    "Atlas": 10119,
+    "Icon": "stg_ultimateCore_protagonist01",
+    "IconQualityBgAtlas": 2,
+    "IconQualityBg": "Frame_XLQuality_4",
+    "IconItemBgAtlas": 2,
+    "IconItemBg": "Frame_Quality_4",
+    "CoreRes": "",
+    "CoreQualityBgRes": "Assets/_Resources/Texture/ui_ultimate/stg_ultimateCore_mainbg04.png",
+    "CoreQualitySmallBgRes": "Assets/_Resources/Texture/ui_ultimate/stg_ultimateCore_starupbg.png",
+    "EntityId": 100001,
+    "SummonCost": [
+      [
+        70001,
+        1
+      ]
+    ],
+    "ShopGoodsId": 0,
+    "RelicIds": [
+      107000101,
+      107000102,
+      107000103,
+      107000104
+    ],
+    "Skins": [
+      71001,
+      71002
+    ]
+  },
+  {
+    "Id": 70002,
+    "NameId": 170002,
+    "Quality": 50,
+    "Sort": 2,
+    "Atlas": 10119,
+    "Icon": "stg_ultimateCore_protagonist03",
+    "IconQualityBgAtlas": 2,
+    "IconQualityBg": "Frame_XLQuality_7",
+    "IconItemBgAtlas": 2,
+    "IconItemBg": "Frame_Quality_7",
+    "CoreRes": "",
+    "CoreQualityBgRes": "Assets/_Resources/Texture/ui_ultimate/stg_ultimateCore_mainbg04.png",
+    "CoreQualitySmallBgRes": "Assets/_Resources/Texture/ui_ultimate/stg_ultimateCore_starupbg.png",
+    "EntityId": 100001,
+    "SummonCost": [
+      [
+        70002,
+        1
+      ]
+    ],
+    "ShopGoodsId": 3301,
+    "RelicIds": [],
+    "Skins": [
+      71003,
+      71004,
+      71005,
+      71006,
+      71007
+    ]
+  },
+  {
+    "Id": 70003,
+    "NameId": 170003,
+    "Quality": 50,
+    "Sort": 3,
+    "Atlas": 10119,
+    "Icon": "stg_ultimateCore_protagonist01",
+    "IconQualityBgAtlas": 2,
+    "IconQualityBg": "Frame_XLQuality_7",
+    "IconItemBgAtlas": 2,
+    "IconItemBg": "Frame_Quality_7",
+    "CoreRes": "",
+    "CoreQualityBgRes": "Assets/_Resources/Texture/ui_ultimate/stg_ultimateCore_mainbg04.png",
+    "CoreQualitySmallBgRes": "Assets/_Resources/Texture/ui_ultimate/stg_ultimateCore_starupbg.png",
+    "EntityId": 100001,
+    "SummonCost": [
+      [
+        70003,
+        1
+      ]
+    ],
+    "ShopGoodsId": 0,
+    "RelicIds": [],
+    "Skins": []
+  },
+  {
+    "Id": 70004,
+    "NameId": 170004,
+    "Quality": 50,
+    "Sort": 4,
+    "Atlas": 10119,
+    "Icon": "stg_ultimateCore_protagonist03",
+    "IconQualityBgAtlas": 2,
+    "IconQualityBg": "Frame_XLQuality_7",
+    "IconItemBgAtlas": 2,
+    "IconItemBg": "Frame_Quality_7",
+    "CoreRes": "",
+    "CoreQualityBgRes": "Assets/_Resources/Texture/ui_ultimate/stg_ultimateCore_mainbg04.png",
+    "CoreQualitySmallBgRes": "Assets/_Resources/Texture/ui_ultimate/stg_ultimateCore_starupbg.png",
+    "EntityId": 100001,
+    "SummonCost": [
+      [
+        70004,
+        1
+      ]
+    ],
+    "ShopGoodsId": 0,
+    "RelicIds": [],
+    "Skins": []
+  },
+  {
+    "Id": 70005,
+    "NameId": 170005,
+    "Quality": 60,
+    "Sort": 5,
+    "Atlas": 10119,
+    "Icon": "stg_ultimateCore_protagonist01",
+    "IconQualityBgAtlas": 2,
+    "IconQualityBg": "Frame_XLQuality_11",
+    "IconItemBgAtlas": 2,
+    "IconItemBg": "Frame_Quality_11",
+    "CoreRes": "",
+    "CoreQualityBgRes": "Assets/_Resources/Texture/ui_ultimate/stg_ultimateCore_mainbg04.png",
+    "CoreQualitySmallBgRes": "Assets/_Resources/Texture/ui_ultimate/stg_ultimateCore_starupbg.png",
+    "EntityId": 100001,
+    "SummonCost": [
+      [
+        70005,
+        1
+      ]
+    ],
+    "ShopGoodsId": 0,
+    "RelicIds": [],
+    "Skins": []
+  },
+  {
+    "Id": 70006,
+    "NameId": 170006,
+    "Quality": 60,
+    "Sort": 6,
+    "Atlas": 10119,
+    "Icon": "stg_ultimateCore_protagonist03",
+    "IconQualityBgAtlas": 2,
+    "IconQualityBg": "Frame_XLQuality_11",
+    "IconItemBgAtlas": 2,
+    "IconItemBg": "Frame_Quality_11",
+    "CoreRes": "",
+    "CoreQualityBgRes": "Assets/_Resources/Texture/ui_ultimate/stg_ultimateCore_mainbg04.png",
+    "CoreQualitySmallBgRes": "Assets/_Resources/Texture/ui_ultimate/stg_ultimateCore_starupbg.png",
+    "EntityId": 100001,
+    "SummonCost": [
+      [
+        70006,
+        1
+      ]
+    ],
+    "ShopGoodsId": 0,
+    "RelicIds": [],
+    "Skins": []
+  },
+  {
+    "Id": 70007,
+    "NameId": 170007,
+    "Quality": 60,
+    "Sort": 7,
+    "Atlas": 10119,
+    "Icon": "stg_ultimateCore_protagonist01",
+    "IconQualityBgAtlas": 2,
+    "IconQualityBg": "Frame_XLQuality_11",
+    "IconItemBgAtlas": 2,
+    "IconItemBg": "Frame_Quality_11",
+    "CoreRes": "",
+    "CoreQualityBgRes": "Assets/_Resources/Texture/ui_ultimate/stg_ultimateCore_mainbg04.png",
+    "CoreQualitySmallBgRes": "Assets/_Resources/Texture/ui_ultimate/stg_ultimateCore_starupbg.png",
+    "EntityId": 100001,
+    "SummonCost": [
+      [
+        70007,
+        1
+      ]
+    ],
+    "ShopGoodsId": 0,
+    "RelicIds": [],
+    "Skins": []
+  },
+  {
+    "Id": 70008,
+    "NameId": 170008,
+    "Quality": 60,
+    "Sort": 8,
+    "Atlas": 10119,
+    "Icon": "stg_ultimateCore_protagonist03",
+    "IconQualityBgAtlas": 2,
+    "IconQualityBg": "Frame_XLQuality_11",
+    "IconItemBgAtlas": 2,
+    "IconItemBg": "Frame_Quality_11",
+    "CoreRes": "",
+    "CoreQualityBgRes": "Assets/_Resources/Texture/ui_ultimate/stg_ultimateCore_mainbg04.png",
+    "CoreQualitySmallBgRes": "Assets/_Resources/Texture/ui_ultimate/stg_ultimateCore_starupbg.png",
+    "EntityId": 100001,
+    "SummonCost": [
+      [
+        70008,
+        1
+      ]
+    ],
+    "ShopGoodsId": 0,
+    "RelicIds": [],
+    "Skins": []
+  }
+]

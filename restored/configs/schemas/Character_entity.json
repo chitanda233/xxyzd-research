@@ -1,0 +1,626 @@
+{
+  "name": "Character_entity",
+  "assembly": "HotFixBattle.dll",
+  "read_impl_rva": "0x68c3718",
+  "fields": [
+    {
+      "type": "int",
+      "name": "ID",
+      "offset": 32,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "Type",
+      "offset": 36,
+      "reader": "readInt"
+    },
+    {
+      "type": "int[]",
+      "name": "Tag",
+      "offset": 40,
+      "reader": "readArrayint"
+    },
+    {
+      "type": "int",
+      "name": "SecondWeapenType",
+      "offset": 48,
+      "reader": "readInt"
+    },
+    {
+      "type": "int[]",
+      "name": "BelongSkill",
+      "offset": 56,
+      "reader": "readArrayint"
+    },
+    {
+      "type": "int",
+      "name": "ModelID",
+      "offset": 64,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "ModelID_B",
+      "offset": 68,
+      "reader": "readInt"
+    },
+    {
+      "type": "FP[]",
+      "name": "Shape",
+      "offset": 72,
+      "reader": "readArrayfp"
+    },
+    {
+      "type": "FP",
+      "name": "ModelScale",
+      "offset": 80,
+      "reader": "readFp"
+    },
+    {
+      "type": "float",
+      "name": "BuffScale",
+      "offset": 88,
+      "reader": "readFloat"
+    },
+    {
+      "type": "int",
+      "name": "mass",
+      "offset": 92,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "CharacterID",
+      "offset": 96,
+      "reader": "readInt"
+    },
+    {
+      "type": "FP",
+      "name": "HP",
+      "offset": 104,
+      "reader": "readFp"
+    },
+    {
+      "type": "FP",
+      "name": "Attack",
+      "offset": 112,
+      "reader": "readFp"
+    },
+    {
+      "type": "FP",
+      "name": "MoveSpeed",
+      "offset": 120,
+      "reader": "readFp"
+    },
+    {
+      "type": "FP",
+      "name": "AttackDistance",
+      "offset": 128,
+      "reader": "readFp"
+    },
+    {
+      "type": "string[]",
+      "name": "attributes",
+      "offset": 136,
+      "reader": "readArraystring"
+    },
+    {
+      "type": "int[]",
+      "name": "WeaponID",
+      "offset": 144,
+      "reader": "readArrayint"
+    },
+    {
+      "type": "int[]",
+      "name": "MonsterTraitID",
+      "offset": 152,
+      "reader": "readArrayint"
+    },
+    {
+      "type": "int[]",
+      "name": "MonsterAbility",
+      "offset": 160,
+      "reader": "readArrayint"
+    },
+    {
+      "type": "FP",
+      "name": "NoAttackArea",
+      "offset": 168,
+      "reader": "readFp"
+    },
+    {
+      "type": "FP",
+      "name": "FireCD",
+      "offset": 176,
+      "reader": "readFp"
+    },
+    {
+      "type": "FP",
+      "name": "BulletLifeRange",
+      "offset": 184,
+      "reader": "readFp"
+    },
+    {
+      "type": "FP",
+      "name": "attackPossibility",
+      "offset": 192,
+      "reader": "readFp"
+    },
+    {
+      "type": "int[]",
+      "name": "rotateWhenAttack",
+      "offset": 200,
+      "reader": "readArrayint"
+    },
+    {
+      "type": "FP",
+      "name": "guardDistance",
+      "offset": 208,
+      "reader": "readFp"
+    },
+    {
+      "type": "FP",
+      "name": "disengageDistance",
+      "offset": 216,
+      "reader": "readFp"
+    },
+    {
+      "type": "int",
+      "name": "ShowHp",
+      "offset": 224,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "ShowHpType",
+      "offset": 228,
+      "reader": "readInt"
+    },
+    {
+      "type": "string[]",
+      "name": "SpecialTrait",
+      "offset": 232,
+      "reader": "readArraystring"
+    },
+    {
+      "type": "string",
+      "name": "AIId",
+      "offset": 240,
+      "reader": "readLocalString"
+    },
+    {
+      "type": "string",
+      "name": "AIParameters",
+      "offset": 248,
+      "reader": "readLocalString"
+    },
+    {
+      "type": "string",
+      "name": "WaveAIId",
+      "offset": 256,
+      "reader": "readLocalString"
+    },
+    {
+      "type": "string",
+      "name": "WaveAIParameters",
+      "offset": 264,
+      "reader": "readLocalString"
+    },
+    {
+      "type": "FP[]",
+      "name": "AIWeight",
+      "offset": 272,
+      "reader": "readArrayfp"
+    },
+    {
+      "type": "int",
+      "name": "AICall",
+      "offset": 280,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "AIRush",
+      "offset": 284,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "bornType",
+      "offset": 288,
+      "reader": "readInt"
+    },
+    {
+      "type": "string",
+      "name": "bornParameters",
+      "offset": 296,
+      "reader": "readLocalString"
+    },
+    {
+      "type": "string[]",
+      "name": "BulletMod1",
+      "offset": 304,
+      "reader": "readArraystring"
+    },
+    {
+      "type": "string[]",
+      "name": "BulletMod2",
+      "offset": 312,
+      "reader": "readArraystring"
+    },
+    {
+      "type": "string[]",
+      "name": "BulletMod3",
+      "offset": 320,
+      "reader": "readArraystring"
+    },
+    {
+      "type": "string[]",
+      "name": "WeaponMod1",
+      "offset": 328,
+      "reader": "readArraystring"
+    },
+    {
+      "type": "string[]",
+      "name": "WeaponMod2",
+      "offset": 336,
+      "reader": "readArraystring"
+    },
+    {
+      "type": "string[]",
+      "name": "WeaponMod3",
+      "offset": 344,
+      "reader": "readArraystring"
+    },
+    {
+      "type": "int",
+      "name": "leaveType",
+      "offset": 352,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "WaveleaveType",
+      "offset": 356,
+      "reader": "readInt"
+    },
+    {
+      "type": "string",
+      "name": "leaveParameters",
+      "offset": 360,
+      "reader": "readLocalString"
+    },
+    {
+      "type": "string",
+      "name": "WaveleaveParameters",
+      "offset": 368,
+      "reader": "readLocalString"
+    },
+    {
+      "type": "string",
+      "name": "UrgencyTipParameters",
+      "offset": 376,
+      "reader": "readLocalString"
+    },
+    {
+      "type": "int",
+      "name": "AlertId",
+      "offset": 384,
+      "reader": "readInt"
+    },
+    {
+      "type": "string",
+      "name": "AlertParameters",
+      "offset": 392,
+      "reader": "readLocalString"
+    },
+    {
+      "type": "FP",
+      "name": "rotateSpeed",
+      "offset": 400,
+      "reader": "readFp"
+    },
+    {
+      "type": "FP",
+      "name": "BodyAttack",
+      "offset": 408,
+      "reader": "readFp"
+    },
+    {
+      "type": "float",
+      "name": "hitRimTime",
+      "offset": 416,
+      "reader": "readFloat"
+    },
+    {
+      "type": "int",
+      "name": "jellyId",
+      "offset": 420,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "hitPrefabId",
+      "offset": 424,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "airplanetrail",
+      "offset": 428,
+      "reader": "readInt"
+    },
+    {
+      "type": "FP",
+      "name": "AttackSpeed",
+      "offset": 432,
+      "reader": "readFp"
+    },
+    {
+      "type": "FP",
+      "name": "HittedInterval",
+      "offset": 440,
+      "reader": "readFp"
+    },
+    {
+      "type": "int",
+      "name": "moveType",
+      "offset": 448,
+      "reader": "readInt"
+    },
+    {
+      "type": "int[]",
+      "name": "PreloadWeapon",
+      "offset": 456,
+      "reader": "readArrayint"
+    },
+    {
+      "type": "int[]",
+      "name": "dropID",
+      "offset": 464,
+      "reader": "readArrayint"
+    },
+    {
+      "type": "string",
+      "name": "nameLanguageId",
+      "offset": 472,
+      "reader": "readLocalString"
+    },
+    {
+      "type": "string",
+      "name": "infoLanguageId",
+      "offset": 480,
+      "reader": "readLocalString"
+    },
+    {
+      "type": "int",
+      "name": "hitSoundId",
+      "offset": 488,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "deadSoundId",
+      "offset": 492,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "deathClassId",
+      "offset": 496,
+      "reader": "readInt"
+    },
+    {
+      "type": "string",
+      "name": "deathParams",
+      "offset": 504,
+      "reader": "readLocalString"
+    },
+    {
+      "type": "int[]",
+      "name": "LinkEntityId",
+      "offset": 512,
+      "reader": "readArrayint"
+    },
+    {
+      "type": "int[]",
+      "name": "LinkBulletId",
+      "offset": 520,
+      "reader": "readArrayint"
+    },
+    {
+      "type": "int[]",
+      "name": "LinkModelId",
+      "offset": 528,
+      "reader": "readArrayint"
+    },
+    {
+      "type": "int[]",
+      "name": "LinkEffectId",
+      "offset": 536,
+      "reader": "readArrayint"
+    },
+    {
+      "type": "FP",
+      "name": "hpDropRate",
+      "offset": 544,
+      "reader": "readFp"
+    },
+    {
+      "type": "FP",
+      "name": "hpDropRate2",
+      "offset": 552,
+      "reader": "readFp"
+    },
+    {
+      "type": "FP",
+      "name": "hpDropRate3",
+      "offset": 560,
+      "reader": "readFp"
+    },
+    {
+      "type": "FP",
+      "name": "expDropRate",
+      "offset": 568,
+      "reader": "readFp"
+    },
+    {
+      "type": "int",
+      "name": "expType",
+      "offset": 576,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "coin",
+      "offset": 580,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "exp",
+      "offset": 584,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "expWeight",
+      "offset": 588,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "score",
+      "offset": 592,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "bornEffect",
+      "offset": 596,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "AvoidRadius",
+      "offset": 600,
+      "reader": "readInt"
+    },
+    {
+      "type": "float",
+      "name": "SelectScale",
+      "offset": 604,
+      "reader": "readFloat"
+    },
+    {
+      "type": "int",
+      "name": "Vibrate",
+      "offset": 608,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "NoAnim",
+      "offset": 612,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "MonsterDropType",
+      "offset": 616,
+      "reader": "readInt"
+    }
+  ],
+  "native_reader_calls": [
+    "readInt",
+    "readInt",
+    "readArrayint",
+    "readInt",
+    "readArrayint",
+    "readInt",
+    "readInt",
+    "readArrayfp",
+    "readFp",
+    "readFloat",
+    "readInt",
+    "readInt",
+    "readFp",
+    "readFp",
+    "readFp",
+    "readFp",
+    "readArraystring",
+    "readArrayint",
+    "readArrayint",
+    "readArrayint",
+    "readFp",
+    "readFp",
+    "readFp",
+    "readFp",
+    "readArrayint",
+    "readFp",
+    "readFp",
+    "readInt",
+    "readInt",
+    "readArraystring",
+    "readLocalString",
+    "readLocalString",
+    "readLocalString",
+    "readLocalString",
+    "readArrayfp",
+    "readInt",
+    "readInt",
+    "readInt",
+    "readLocalString",
+    "readArraystring",
+    "readArraystring",
+    "readArraystring",
+    "readArraystring",
+    "readArraystring",
+    "readArraystring",
+    "readInt",
+    "readInt",
+    "readLocalString",
+    "readLocalString",
+    "readLocalString",
+    "readInt",
+    "readLocalString",
+    "readFp",
+    "readFp",
+    "readFloat",
+    "readInt",
+    "readInt",
+    "readInt",
+    "readFp",
+    "readFp",
+    "readInt",
+    "readArrayint",
+    "readArrayint",
+    "readLocalString",
+    "readLocalString",
+    "readInt",
+    "readInt",
+    "readInt",
+    "readLocalString",
+    "readArrayint",
+    "readArrayint",
+    "readArrayint",
+    "readArrayint",
+    "readFp",
+    "readFp",
+    "readFp",
+    "readFp",
+    "readInt",
+    "readInt",
+    "readInt",
+    "readInt",
+    "readInt",
+    "readInt",
+    "readInt",
+    "readFloat",
+    "readInt",
+    "readInt",
+    "readInt"
+  ],
+  "field_count_matches_native_calls": true
+}

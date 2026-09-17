@@ -1,0 +1,52 @@
+{
+  "name": "Relic_group",
+  "assembly": "HotFixBattle.dll",
+  "read_impl_rva": "0x6ad893c",
+  "fields": [
+    {
+      "type": "int",
+      "name": "id",
+      "offset": 32,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "NameId",
+      "offset": 36,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "DescId",
+      "offset": 40,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "type",
+      "offset": 44,
+      "reader": "readInt"
+    },
+    {
+      "type": "int[]",
+      "name": "Content",
+      "offset": 48,
+      "reader": "readArrayint"
+    },
+    {
+      "type": "string[]",
+      "name": "GroupAttributes",
+      "offset": 56,
+      "reader": "readArraystring"
+    }
+  ],
+  "native_reader_calls": [
+    "readInt",
+    "readInt",
+    "readInt",
+    "readInt",
+    "readArrayint",
+    "readArraystring"
+  ],
+  "field_count_matches_native_calls": true
+}

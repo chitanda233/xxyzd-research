@@ -1,0 +1,45 @@
+{
+  "name": "Guild_guildDonation",
+  "assembly": "HotFixBattle.dll",
+  "read_impl_rva": "0x6a90710",
+  "fields": [
+    {
+      "type": "int",
+      "name": "ID",
+      "offset": 32,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "Count",
+      "offset": 36,
+      "reader": "readInt"
+    },
+    {
+      "type": "int[]",
+      "name": "GuildLevel",
+      "offset": 40,
+      "reader": "readArrayint"
+    },
+    {
+      "type": "int[]",
+      "name": "ChapterId",
+      "offset": 48,
+      "reader": "readArrayint"
+    },
+    {
+      "type": "string[]",
+      "name": "Reward",
+      "offset": 56,
+      "reader": "readArraystring"
+    }
+  ],
+  "native_reader_calls": [
+    "readInt",
+    "readInt",
+    "readArrayint",
+    "readArrayint",
+    "readArraystring"
+  ],
+  "field_count_matches_native_calls": true
+}

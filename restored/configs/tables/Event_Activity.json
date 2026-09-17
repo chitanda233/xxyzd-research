@@ -1,0 +1,26 @@
+[
+  {
+    "Id": 1001,
+    "Note": "挖矿1",
+    "Type": 1,
+    "TemplateId": 1,
+    "Unlock": "{\"Mission\":6}",
+    "TimeType": 1
+  },
+  {
+    "Id": 1002,
+    "Note": "挖矿2",
+    "Type": 1,
+    "TemplateId": 2,
+    "Unlock": "{\"Mission\":6}",
+    "TimeType": 1
+  },
+  {
+    "Id": 1003,
+    "Note": "挖矿3",
+    "Type": 1,
+    "TemplateId": 3,
+    "Unlock": "{\"Mission\":6}",
+    "TimeType": 1
+  }
+]

@@ -1,0 +1,66 @@
+{
+  "name": "DrawBox_InventoryDrawLevel",
+  "assembly": "HotFixBattle.dll",
+  "read_impl_rva": "0x6a5b584",
+  "fields": [
+    {
+      "type": "int",
+      "name": "ID",
+      "offset": 32,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "Exp",
+      "offset": 36,
+      "reader": "readInt"
+    },
+    {
+      "type": "int[][]",
+      "name": "Pool",
+      "offset": 40,
+      "reader": "readArrayArrayint"
+    },
+    {
+      "type": "int[]",
+      "name": "DrawBoxRateInfo",
+      "offset": 48,
+      "reader": "readArrayint"
+    },
+    {
+      "type": "int[]",
+      "name": "DrawCoin",
+      "offset": 56,
+      "reader": "readArrayint"
+    },
+    {
+      "type": "int[]",
+      "name": "PoolSuper",
+      "offset": 64,
+      "reader": "readArrayint"
+    },
+    {
+      "type": "int[][]",
+      "name": "PoolSuperArray",
+      "offset": 72,
+      "reader": "readArrayArrayint"
+    },
+    {
+      "type": "int[]",
+      "name": "DrawBoxRateInfoSuper",
+      "offset": 80,
+      "reader": "readArrayint"
+    }
+  ],
+  "native_reader_calls": [
+    "readInt",
+    "readInt",
+    "readArrayArrayint",
+    "readArrayint",
+    "readArrayint",
+    "readArrayint",
+    "readArrayArrayint",
+    "readArrayint"
+  ],
+  "field_count_matches_native_calls": true
+}

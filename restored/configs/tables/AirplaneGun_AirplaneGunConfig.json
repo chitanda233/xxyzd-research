@@ -1,0 +1,26 @@
+[
+  {
+    "ID": 101,
+    "key": "WeaponSlot2PreOpenLevel",
+    "Notes": "武器槽位2预开启（等级）",
+    "TypeInt": 10,
+    "TypeIntArray": [],
+    "TypeString": ""
+  },
+  {
+    "ID": 102,
+    "key": "WeaponSlot2UnlockLevel",
+    "Notes": "武器槽位2解锁（等级）",
+    "TypeInt": 15,
+    "TypeIntArray": [],
+    "TypeString": ""
+  },
+  {
+    "ID": 103,
+    "key": "WeaponEquipSkillLimit",
+    "Notes": "武器可装备技能上限",
+    "TypeInt": 2,
+    "TypeIntArray": [],
+    "TypeString": ""
+  }
+]

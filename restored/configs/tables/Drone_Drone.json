@@ -1,0 +1,146 @@
+[
+  {
+    "ID": 30001,
+    "sort": 1,
+    "quality": 40,
+    "SkillDetail": [
+      "3300101,1,1",
+      "3300102,2,1",
+      "3300103,4,1",
+      "3300104,7,1",
+      "3300105,10,1"
+    ],
+    "SelfAttributesType": [
+      "SelfAttributes1",
+      "SelfAttributesDrone1"
+    ],
+    "MaxStar": 10,
+    "CollectionTaskID": 1,
+    "name": "Drone_Name_1",
+    "Atlas": 10132,
+    "Icon": "stg_Drone_icon_wingman01",
+    "RoleEntity": 300101,
+    "ShowModel": "Assets/_Resources/Prefab/UI/DroneUI/model_drone_1.prefab",
+    "previewVideo": "Assets/_Resources/Video/Drone/kuaizui.mp4"
+  },
+  {
+    "ID": 30002,
+    "sort": 2,
+    "quality": 40,
+    "SkillDetail": [
+      "3300201,1,1",
+      "3300202,2,1",
+      "3300203,4,1",
+      "3300204,7,1",
+      "3300205,10,1"
+    ],
+    "SelfAttributesType": [
+      "SelfAttributes1",
+      "SelfAttributesDrone1"
+    ],
+    "MaxStar": 10,
+    "CollectionTaskID": 1,
+    "name": "Drone_Name_2",
+    "Atlas": 10132,
+    "Icon": "stg_Drone_icon_wingman02",
+    "RoleEntity": 300201,
+    "ShowModel": "Assets/_Resources/Prefab/UI/DroneUI/model_drone_2.prefab",
+    "previewVideo": "Assets/_Resources/Video/Drone/shaobing.mp4"
+  },
+  {
+    "ID": 30003,
+    "sort": 3,
+    "quality": 40,
+    "SkillDetail": [
+      "3300301,1,1",
+      "3300302,2,1",
+      "3300303,4,1",
+      "3300304,7,1",
+      "3300305,10,1"
+    ],
+    "SelfAttributesType": [
+      "SelfAttributes1",
+      "SelfAttributesDrone1"
+    ],
+    "MaxStar": 10,
+    "CollectionTaskID": 1,
+    "name": "Drone_Name_3",
+    "Atlas": 10132,
+    "Icon": "stg_Drone_icon_wingman03",
+    "RoleEntity": 300301,
+    "ShowModel": "Assets/_Resources/Prefab/UI/DroneUI/model_drone_3.prefab",
+    "previewVideo": "Assets/_Resources/Video/Drone/liehuo.mp4"
+  },
+  {
+    "ID": 30005,
+    "sort": 5,
+    "quality": 40,
+    "SkillDetail": [
+      "3300501,1,1",
+      "3300502,2,1",
+      "3300503,4,1",
+      "3300504,7,1",
+      "3300505,10,1"
+    ],
+    "SelfAttributesType": [
+      "SelfAttributes1",
+      "SelfAttributesDrone1"
+    ],
+    "MaxStar": 10,
+    "CollectionTaskID": 1,
+    "name": "Drone_Name_5",
+    "Atlas": 10132,
+    "Icon": "stg_Drone_icon_wingman05",
+    "RoleEntity": 300501,
+    "ShowModel": "Assets/_Resources/Prefab/UI/DroneUI/model_drone_5.prefab",
+    "previewVideo": "Assets/_Resources/Video/Drone/paozai.mp4"
+  },
+  {
+    "ID": 30006,
+    "sort": 6,
+    "quality": 40,
+    "SkillDetail": [
+      "3300601,1,1",
+      "3300602,2,1",
+      "3300603,4,1",
+      "3300604,7,1",
+      "3300605,10,1"
+    ],
+    "SelfAttributesType": [
+      "SelfAttributes1",
+      "SelfAttributesDrone1"
+    ],
+    "MaxStar": 10,
+    "CollectionTaskID": 1,
+    "name": "Drone_Name_6",
+    "Atlas": 10132,
+    "Icon": "stg_Drone_icon_wingman06",
+    "RoleEntity": 300601,
+    "ShowModel": "Assets/_Resources/Prefab/UI/DroneUI/model_drone_6.prefab",
+    "previewVideo": "Assets/_Resources/Video/Drone/baobao.mp4"
+  },
+  {
+    "ID": 30007,
+    "sort": 7,
+    "quality": 50,
+    "SkillDetail": [
+      "3300701,1,1",
+      "3300702,2,1",
+      "3300703,4,1",
+      "3300704,7,1",
+      "3300705,10,1"
+    ],
+    "SelfAttributesType": [
+      "SelfAttributes2",
+      "SelfAttributesDrone2"
+    ],
+    "MaxStar": 10,
+    "CollectionTaskID": 2,
+    "name": "Drone_Name_7",
+    "Atlas": 10132,
+    "Icon": "stg_Drone_icon_wingman07",
+    "RoleEntity": 300701,
+    "ShowModel": "Assets/_Resources/Prefab/UI/DroneUI/model_drone_7.prefab",
+    "previewVideo": "Assets/_Resources/Video/Drone/huopao.mp4"
+  }
+]

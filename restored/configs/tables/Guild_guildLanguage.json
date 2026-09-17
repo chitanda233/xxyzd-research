@@ -1,0 +1,110 @@
+[
+  {
+    "ID": 999,
+    "Notes": "无要求",
+    "Code": "",
+    "TranslateCode": ""
+  },
+  {
+    "ID": 0,
+    "Notes": "英文",
+    "Code": "EN",
+    "TranslateCode": "en"
+  },
+  {
+    "ID": 1,
+    "Notes": "西班牙语",
+    "Code": "ESP",
+    "TranslateCode": "es"
+  },
+  {
+    "ID": 2,
+    "Notes": "简体中文",
+    "Code": "CN_s",
+    "TranslateCode": "zh"
+  },
+  {
+    "ID": 3,
+    "Notes": "繁体中文",
+    "Code": "CN_t",
+    "TranslateCode": "zh-TW"
+  },
+  {
+    "ID": 4,
+    "Notes": "日语",
+    "Code": "JPN",
+    "TranslateCode": "ja"
+  },
+  {
+    "ID": 5,
+    "Notes": "法语",
+    "Code": "FRA",
+    "TranslateCode": "fr"
+  },
+  {
+    "ID": 6,
+    "Notes": "德语",
+    "Code": "GER",
+    "TranslateCode": "de"
+  },
+  {
+    "ID": 7,
+    "Notes": "意大利语",
+    "Code": "ITA",
+    "TranslateCode": "it"
+  },
+  {
+    "ID": 8,
+    "Notes": "荷兰语",
+    "Code": "NLD",
+    "TranslateCode": "nl"
+  },
+  {
+    "ID": 9,
+    "Notes": "俄语",
+    "Code": "RUS",
+    "TranslateCode": "ru"
+  },
+  {
+    "ID": 10,
+    "Notes": "阿拉伯语",
+    "Code": "KSA",
+    "TranslateCode": "ar"
+  },
+  {
+    "ID": 11,
+    "Notes": "韩语",
+    "Code": "KOR",
+    "TranslateCode": "ko"
+  },
+  {
+    "ID": 12,
+    "Notes": "泰语",
+    "Code": "THA",
+    "TranslateCode": "th"
+  },
+  {
+    "ID": 13,
+    "Notes": "葡萄牙语",
+    "Code": "POR",
+    "TranslateCode": "pt"
+  },
+  {
+    "ID": 14,
+    "Notes": "印度尼西亚",
+    "Code": "INA",
+    "TranslateCode": "in"
+  },
+  {
+    "ID": 15,
+    "Notes": "越南语",
+    "Code": "VIE",
+    "TranslateCode": "vi"
+  },
+  {
+    "ID": 16,
+    "Notes": "土耳其",
+    "Code": "TUR",
+    "TranslateCode": "tr"
+  }
+]

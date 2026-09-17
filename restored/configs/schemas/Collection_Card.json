@@ -1,0 +1,45 @@
+{
+  "name": "Collection_Card",
+  "assembly": "HotFixBattle.dll",
+  "read_impl_rva": "0x68ca820",
+  "fields": [
+    {
+      "type": "int",
+      "name": "ID",
+      "offset": 32,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "ConditionId",
+      "offset": 36,
+      "reader": "readInt"
+    },
+    {
+      "type": "string",
+      "name": "ConditionParams",
+      "offset": 40,
+      "reader": "readLocalString"
+    },
+    {
+      "type": "string[]",
+      "name": "RewardItem",
+      "offset": 48,
+      "reader": "readArraystring"
+    },
+    {
+      "type": "string[]",
+      "name": "RewardAttribute",
+      "offset": 56,
+      "reader": "readArraystring"
+    }
+  ],
+  "native_reader_calls": [
+    "readInt",
+    "readInt",
+    "readLocalString",
+    "readArraystring",
+    "readArraystring"
+  ],
+  "field_count_matches_native_calls": true
+}

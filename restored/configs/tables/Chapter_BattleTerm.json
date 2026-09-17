@@ -1,0 +1,83 @@
+[
+  {
+    "id": 1,
+    "termType": 0,
+    "tremParam": "",
+    "LanguageInfoId": 4610,
+    "PreLoadWeapon": 0,
+    "atlas": 10113,
+    "icon": "icon_gaoshanghai"
+  },
+  {
+    "id": 2,
+    "termType": 0,
+    "tremParam": "",
+    "LanguageInfoId": 4611,
+    "PreLoadWeapon": 0,
+    "atlas": 10113,
+    "icon": "icon_gaoxueliang"
+  },
+  {
+    "id": 3,
+    "termType": 0,
+    "tremParam": "",
+    "LanguageInfoId": 4612,
+    "PreLoadWeapon": 0,
+    "atlas": 10113,
+    "icon": "icon_BOSSzhan"
+  },
+  {
+    "id": 4,
+    "termType": 0,
+    "tremParam": "",
+    "LanguageInfoId": 4613,
+    "PreLoadWeapon": 0,
+    "atlas": 10113,
+    "icon": "icon_shuliangduo"
+  },
+  {
+    "id": 5,
+    "termType": 1,
+    "tremParam": "{\"WeaponId\":187}",
+    "LanguageInfoId": 4614,
+    "PreLoadWeapon": 187,
+    "atlas": 10113,
+    "icon": "icon_siwangyiyan"
+  },
+  {
+    "id": 6,
+    "termType": 2,
+    "tremParam": "{\"BuffId\":6000,\"AddToPlayer\":false}",
+    "LanguageInfoId": 4615,
+    "PreLoadWeapon": 0,
+    "atlas": 10113,
+    "icon": "icon_kuangre"
+  },
+  {
+    "id": 7,
+    "termType": 0,
+    "tremParam": "",
+    "LanguageInfoId": 4616,
+    "PreLoadWeapon": 0,
+    "atlas": 10113,
+    "icon": "icon_yinni"
+  },
+  {
+    "id": 8,
+    "termType": 3,
+    "tremParam": "{\"Flag\":1}",
+    "LanguageInfoId": 4617,
+    "PreLoadWeapon": 0,
+    "atlas": 10113,
+    "icon": "icon_pinxue"
+  },
+  {
+    "id": 9,
+    "termType": 4,
+    "tremParam": "{\"RingId\":1000,\"AddToPlayer\":true}",
+    "LanguageInfoId": 4618,
+    "PreLoadWeapon": 0,
+    "atlas": 10113,
+    "icon": "icon_hudun"
+  }
+]

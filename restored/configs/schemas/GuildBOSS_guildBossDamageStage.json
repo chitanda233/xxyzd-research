@@ -1,0 +1,38 @@
+{
+  "name": "GuildBOSS_guildBossDamageStage",
+  "assembly": "HotFixBattle.dll",
+  "read_impl_rva": "0x6a86468",
+  "fields": [
+    {
+      "type": "int",
+      "name": "ID",
+      "offset": 32,
+      "reader": "readInt"
+    },
+    {
+      "type": "long",
+      "name": "RequireDamage",
+      "offset": 40,
+      "reader": "readLong"
+    },
+    {
+      "type": "int[][]",
+      "name": "Reward",
+      "offset": 48,
+      "reader": "readArrayArrayint"
+    },
+    {
+      "type": "int[][]",
+      "name": "ChestNum",
+      "offset": 56,
+      "reader": "readArrayArrayint"
+    }
+  ],
+  "native_reader_calls": [
+    "readInt",
+    "readLong",
+    "readArrayArrayint",
+    "readArrayArrayint"
+  ],
+  "field_count_matches_native_calls": true
+}

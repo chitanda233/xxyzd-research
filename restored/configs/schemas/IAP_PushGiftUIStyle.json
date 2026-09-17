@@ -1,0 +1,52 @@
+{
+  "name": "IAP_PushGiftUIStyle",
+  "assembly": "HotFixBattle.dll",
+  "read_impl_rva": "0x6aa836c",
+  "fields": [
+    {
+      "type": "int",
+      "name": "id",
+      "offset": 32,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "TopAtlas",
+      "offset": 36,
+      "reader": "readInt"
+    },
+    {
+      "type": "string",
+      "name": "TopIcon",
+      "offset": 40,
+      "reader": "readLocalString"
+    },
+    {
+      "type": "int",
+      "name": "BottomAtlas",
+      "offset": 48,
+      "reader": "readInt"
+    },
+    {
+      "type": "string",
+      "name": "BottomIcon",
+      "offset": 56,
+      "reader": "readLocalString"
+    },
+    {
+      "type": "string",
+      "name": "TimeColor",
+      "offset": 64,
+      "reader": "readLocalString"
+    }
+  ],
+  "native_reader_calls": [
+    "readInt",
+    "readInt",
+    "readLocalString",
+    "readInt",
+    "readLocalString",
+    "readLocalString"
+  ],
+  "field_count_matches_native_calls": true
+}

@@ -1,0 +1,24 @@
+{
+  "name": "AutoProcess_skillRandom",
+  "assembly": "HotFixBattle.dll",
+  "read_impl_rva": "0x6883b04",
+  "fields": [
+    {
+      "type": "int",
+      "name": "id",
+      "offset": 32,
+      "reader": "readInt"
+    },
+    {
+      "type": "int[]",
+      "name": "Pool",
+      "offset": 40,
+      "reader": "readArrayint"
+    }
+  ],
+  "native_reader_calls": [
+    "readInt",
+    "readArrayint"
+  ],
+  "field_count_matches_native_calls": true
+}

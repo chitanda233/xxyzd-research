@@ -1,0 +1,94 @@
+{
+  "name": "Function_Function",
+  "assembly": "HotFixBattle.dll",
+  "read_impl_rva": "0x6a7d774",
+  "fields": [
+    {
+      "type": "int",
+      "name": "id",
+      "offset": 32,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "unlockType",
+      "offset": 36,
+      "reader": "readInt"
+    },
+    {
+      "type": "string",
+      "name": "unlockArgs",
+      "offset": 40,
+      "reader": "readLocalString"
+    },
+    {
+      "type": "string",
+      "name": "unlockArgs_b",
+      "offset": 48,
+      "reader": "readLocalString"
+    },
+    {
+      "type": "string",
+      "name": "nameID",
+      "offset": 56,
+      "reader": "readLocalString"
+    },
+    {
+      "type": "string",
+      "name": "desID",
+      "offset": 64,
+      "reader": "readLocalString"
+    },
+    {
+      "type": "int",
+      "name": "showView",
+      "offset": 72,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "showIndex",
+      "offset": 76,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "iconAtlasID",
+      "offset": 80,
+      "reader": "readInt"
+    },
+    {
+      "type": "string",
+      "name": "iconName",
+      "offset": 88,
+      "reader": "readLocalString"
+    },
+    {
+      "type": "string",
+      "name": "flyPos",
+      "offset": 96,
+      "reader": "readLocalString"
+    },
+    {
+      "type": "int",
+      "name": "JumpID",
+      "offset": 104,
+      "reader": "readInt"
+    }
+  ],
+  "native_reader_calls": [
+    "readInt",
+    "readInt",
+    "readLocalString",
+    "readLocalString",
+    "readLocalString",
+    "readLocalString",
+    "readInt",
+    "readInt",
+    "readInt",
+    "readLocalString",
+    "readLocalString",
+    "readInt"
+  ],
+  "field_count_matches_native_calls": true
+}

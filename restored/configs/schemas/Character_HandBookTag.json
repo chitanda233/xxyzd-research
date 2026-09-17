@@ -1,0 +1,31 @@
+{
+  "name": "Character_HandBookTag",
+  "assembly": "HotFixBattle.dll",
+  "read_impl_rva": "0x68c7a20",
+  "fields": [
+    {
+      "type": "int",
+      "name": "Tagid",
+      "offset": 32,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "TagType",
+      "offset": 36,
+      "reader": "readInt"
+    },
+    {
+      "type": "string",
+      "name": "name",
+      "offset": 40,
+      "reader": "readLocalString"
+    }
+  ],
+  "native_reader_calls": [
+    "readInt",
+    "readInt",
+    "readLocalString"
+  ],
+  "field_count_matches_native_calls": true
+}

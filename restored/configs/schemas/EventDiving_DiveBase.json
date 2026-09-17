@@ -1,0 +1,129 @@
+{
+  "name": "EventDiving_DiveBase",
+  "assembly": "HotFixBattle.dll",
+  "read_impl_rva": "0x6a6d07c",
+  "fields": [
+    {
+      "type": "int",
+      "name": "ID",
+      "offset": 32,
+      "reader": "readInt"
+    },
+    {
+      "type": "int[]",
+      "name": "DiveItem",
+      "offset": 40,
+      "reader": "readArrayint"
+    },
+    {
+      "type": "int[]",
+      "name": "DivePropA",
+      "offset": 48,
+      "reader": "readArrayint"
+    },
+    {
+      "type": "int[]",
+      "name": "DivePropB",
+      "offset": 56,
+      "reader": "readArrayint"
+    },
+    {
+      "type": "int",
+      "name": "DefaultDive",
+      "offset": 64,
+      "reader": "readInt"
+    },
+    {
+      "type": "int[]",
+      "name": "RewardProb",
+      "offset": 72,
+      "reader": "readArrayint"
+    },
+    {
+      "type": "int[][]",
+      "name": "GenerateGap",
+      "offset": 80,
+      "reader": "readArrayArrayint"
+    },
+    {
+      "type": "int",
+      "name": "RankGroup",
+      "offset": 88,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "RewardGroupID",
+      "offset": 92,
+      "reader": "readInt"
+    },
+    {
+      "type": "string",
+      "name": "ShopMainGoods",
+      "offset": 96,
+      "reader": "readLocalString"
+    },
+    {
+      "type": "int",
+      "name": "ExchangeShop",
+      "offset": 104,
+      "reader": "readInt"
+    },
+    {
+      "type": "int[]",
+      "name": "ExchangeShopId",
+      "offset": 112,
+      "reader": "readArrayint"
+    },
+    {
+      "type": "int",
+      "name": "GiftPackShop",
+      "offset": 120,
+      "reader": "readInt"
+    },
+    {
+      "type": "int[]",
+      "name": "GiftPackShopId",
+      "offset": 128,
+      "reader": "readArrayint"
+    },
+    {
+      "type": "string",
+      "name": "ClearItem",
+      "offset": 136,
+      "reader": "readLocalString"
+    },
+    {
+      "type": "int",
+      "name": "TaskType",
+      "offset": 144,
+      "reader": "readInt"
+    },
+    {
+      "type": "int[]",
+      "name": "TaskId",
+      "offset": 152,
+      "reader": "readArrayint"
+    }
+  ],
+  "native_reader_calls": [
+    "readInt",
+    "readArrayint",
+    "readArrayint",
+    "readArrayint",
+    "readInt",
+    "readArrayint",
+    "readArrayArrayint",
+    "readInt",
+    "readInt",
+    "readLocalString",
+    "readInt",
+    "readArrayint",
+    "readInt",
+    "readArrayint",
+    "readLocalString",
+    "readInt",
+    "readArrayint"
+  ],
+  "field_count_matches_native_calls": true
+}

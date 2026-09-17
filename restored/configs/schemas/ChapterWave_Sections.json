@@ -1,0 +1,31 @@
+{
+  "name": "ChapterWave_Sections",
+  "assembly": "HotFixBattle.dll",
+  "read_impl_rva": "0x689f428",
+  "fields": [
+    {
+      "type": "int",
+      "name": "id",
+      "offset": 32,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "StopByEliteOrBossKilled",
+      "offset": 36,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "WaveAllExp",
+      "offset": 40,
+      "reader": "readInt"
+    }
+  ],
+  "native_reader_calls": [
+    "readInt",
+    "readInt",
+    "readInt"
+  ],
+  "field_count_matches_native_calls": true
+}

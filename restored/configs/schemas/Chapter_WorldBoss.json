@@ -1,0 +1,255 @@
+{
+  "name": "Chapter_WorldBoss",
+  "assembly": "HotFixBattle.dll",
+  "read_impl_rva": "0x68bc5bc",
+  "fields": [
+    {
+      "type": "int",
+      "name": "id",
+      "offset": 32,
+      "reader": "readInt"
+    },
+    {
+      "type": "string",
+      "name": "chapterNameLanguageId",
+      "offset": 40,
+      "reader": "readLocalString"
+    },
+    {
+      "type": "int",
+      "name": "chapterType",
+      "offset": 48,
+      "reader": "readInt"
+    },
+    {
+      "type": "int[]",
+      "name": "ResultType",
+      "offset": 56,
+      "reader": "readArrayint"
+    },
+    {
+      "type": "int",
+      "name": "SkillType",
+      "offset": 64,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "missionIdPrev",
+      "offset": 68,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "waveId",
+      "offset": 72,
+      "reader": "readInt"
+    },
+    {
+      "type": "FP",
+      "name": "hpUpgrade",
+      "offset": 80,
+      "reader": "readFp"
+    },
+    {
+      "type": "FP",
+      "name": "attackUp",
+      "offset": 88,
+      "reader": "readFp"
+    },
+    {
+      "type": "FP",
+      "name": "addExpUpgrade",
+      "offset": 96,
+      "reader": "readFp"
+    },
+    {
+      "type": "FP",
+      "name": "HPPickUpAddPercent",
+      "offset": 104,
+      "reader": "readFp"
+    },
+    {
+      "type": "int",
+      "name": "mapStyle",
+      "offset": 112,
+      "reader": "readInt"
+    },
+    {
+      "type": "string",
+      "name": "dataPath",
+      "offset": 120,
+      "reader": "readLocalString"
+    },
+    {
+      "type": "int",
+      "name": "cameraId",
+      "offset": 128,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "music",
+      "offset": 132,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "BossId",
+      "offset": 136,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "Time",
+      "offset": 140,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "ChestType",
+      "offset": 144,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "WaitUpLevel",
+      "offset": 148,
+      "reader": "readInt"
+    },
+    {
+      "type": "int[][]",
+      "name": "TimeReward",
+      "offset": 152,
+      "reader": "readArrayArrayint"
+    },
+    {
+      "type": "int",
+      "name": "FirstExp",
+      "offset": 160,
+      "reader": "readInt"
+    },
+    {
+      "type": "int[][]",
+      "name": "TimeExp",
+      "offset": 168,
+      "reader": "readArrayArrayint"
+    },
+    {
+      "type": "int[]",
+      "name": "TimeBox",
+      "offset": 176,
+      "reader": "readArrayint"
+    },
+    {
+      "type": "int[]",
+      "name": "TimeHeart",
+      "offset": 184,
+      "reader": "readArrayint"
+    },
+    {
+      "type": "int",
+      "name": "skillSelectPassiveGold",
+      "offset": 192,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "DropGoldBaseValue",
+      "offset": 196,
+      "reader": "readInt"
+    },
+    {
+      "type": "int[][]",
+      "name": "FirstReward",
+      "offset": 200,
+      "reader": "readArrayArrayint"
+    },
+    {
+      "type": "int[]",
+      "name": "FinishReward",
+      "offset": 208,
+      "reader": "readArrayint"
+    },
+    {
+      "type": "int[]",
+      "name": "PreviewMonsters",
+      "offset": 216,
+      "reader": "readArrayint"
+    },
+    {
+      "type": "int[]",
+      "name": "NewMonsters",
+      "offset": 224,
+      "reader": "readArrayint"
+    },
+    {
+      "type": "int[]",
+      "name": "ChapterFeature",
+      "offset": 232,
+      "reader": "readArrayint"
+    },
+    {
+      "type": "float",
+      "name": "ModeOffset",
+      "offset": 240,
+      "reader": "readFloat"
+    },
+    {
+      "type": "float",
+      "name": "ModeScale",
+      "offset": 244,
+      "reader": "readFloat"
+    },
+    {
+      "type": "float",
+      "name": "ModeOffsetY",
+      "offset": 248,
+      "reader": "readFloat"
+    },
+    {
+      "type": "int",
+      "name": "ResurrectionTimes",
+      "offset": 252,
+      "reader": "readInt"
+    }
+  ],
+  "native_reader_calls": [
+    "readInt",
+    "readLocalString",
+    "readInt",
+    "readArrayint",
+    "readInt",
+    "readInt",
+    "readInt",
+    "readFp",
+    "readFp",
+    "readFp",
+    "readFp",
+    "readInt",
+    "readLocalString",
+    "readInt",
+    "readInt",
+    "readInt",
+    "readInt",
+    "readInt",
+    "readInt",
+    "readArrayArrayint",
+    "readInt",
+    "readArrayArrayint",
+    "readArrayint",
+    "readArrayint",
+    "readInt",
+    "readInt",
+    "readArrayArrayint",
+    "readArrayint",
+    "readArrayint",
+    "readArrayint",
+    "readArrayint",
+    "readFloat",
+    "readFloat",
+    "readFloat",
+    "readInt"
+  ],
+  "field_count_matches_native_calls": true
+}

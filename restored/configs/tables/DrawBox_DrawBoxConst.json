@@ -1,0 +1,12 @@
+[
+  {
+    "key": "SmallEquipBoxCharge",
+    "Desc": "小装备宝箱累计奖励（int 填需要抽数），\n（string 奖励id，数量）",
+    "TypeInt": 20,
+    "TypeIntArray": [],
+    "TypeString": "112,1",
+    "TypeFloat": 0.0,
+    "TypeFloatArray": [],
+    "TypeStringArray": []
+  }
+]

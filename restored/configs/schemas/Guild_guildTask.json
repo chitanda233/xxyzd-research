@@ -1,0 +1,87 @@
+{
+  "name": "Guild_guildTask",
+  "assembly": "HotFixBattle.dll",
+  "read_impl_rva": "0x6a96998",
+  "fields": [
+    {
+      "type": "int",
+      "name": "ID",
+      "offset": 32,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "Type",
+      "offset": 36,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "IsInit",
+      "offset": 40,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "Child",
+      "offset": 44,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "Weight",
+      "offset": 48,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "AccumulationType",
+      "offset": 52,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "Need",
+      "offset": 56,
+      "reader": "readInt"
+    },
+    {
+      "type": "string[]",
+      "name": "Reward",
+      "offset": 64,
+      "reader": "readArraystring"
+    },
+    {
+      "type": "string[]",
+      "name": "OtherReward",
+      "offset": 72,
+      "reader": "readArraystring"
+    },
+    {
+      "type": "int[]",
+      "name": "Condition",
+      "offset": 80,
+      "reader": "readArrayint"
+    },
+    {
+      "type": "string",
+      "name": "languageId",
+      "offset": 88,
+      "reader": "readLocalString"
+    }
+  ],
+  "native_reader_calls": [
+    "readInt",
+    "readInt",
+    "readInt",
+    "readInt",
+    "readInt",
+    "readInt",
+    "readInt",
+    "readArraystring",
+    "readArraystring",
+    "readArrayint",
+    "readLocalString"
+  ],
+  "field_count_matches_native_calls": true
+}

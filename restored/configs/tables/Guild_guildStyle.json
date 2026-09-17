@@ -1,0 +1,32 @@
+[
+  {
+    "ID": 1001,
+    "AtlasID": 48,
+    "Icon": "GuildIcon1_1"
+  },
+  {
+    "ID": 1002,
+    "AtlasID": 48,
+    "Icon": "GuildIcon1_2"
+  },
+  {
+    "ID": 1003,
+    "AtlasID": 48,
+    "Icon": "GuildIcon1_3"
+  },
+  {
+    "ID": 1004,
+    "AtlasID": 48,
+    "Icon": "GuildIcon1_4"
+  },
+  {
+    "ID": 1005,
+    "AtlasID": 48,
+    "Icon": "GuildIcon1_5"
+  },
+  {
+    "ID": 1006,
+    "AtlasID": 48,
+    "Icon": "GuildIcon1_6"
+  }
+]

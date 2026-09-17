@@ -1,0 +1,31 @@
+{
+  "name": "GuildChest_guildChestSlot",
+  "assembly": "HotFixBattle.dll",
+  "read_impl_rva": "0x6a89f28",
+  "fields": [
+    {
+      "type": "int",
+      "name": "ID",
+      "offset": 32,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "UnlockType",
+      "offset": 36,
+      "reader": "readInt"
+    },
+    {
+      "type": "string",
+      "name": "UnlockParam",
+      "offset": 40,
+      "reader": "readLocalString"
+    }
+  ],
+  "native_reader_calls": [
+    "readInt",
+    "readInt",
+    "readLocalString"
+  ],
+  "field_count_matches_native_calls": true
+}

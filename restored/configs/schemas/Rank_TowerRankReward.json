@@ -1,0 +1,31 @@
+{
+  "name": "Rank_TowerRankReward",
+  "assembly": "HotFixBattle.dll",
+  "read_impl_rva": "0x6ad7c4c",
+  "fields": [
+    {
+      "type": "int",
+      "name": "ID",
+      "offset": 32,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "ChapterId",
+      "offset": 36,
+      "reader": "readInt"
+    },
+    {
+      "type": "int[][]",
+      "name": "Reward",
+      "offset": 40,
+      "reader": "readArrayArrayint"
+    }
+  ],
+  "native_reader_calls": [
+    "readInt",
+    "readInt",
+    "readArrayArrayint"
+  ],
+  "field_count_matches_native_calls": true
+}

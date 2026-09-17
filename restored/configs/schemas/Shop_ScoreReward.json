@@ -1,0 +1,31 @@
+{
+  "name": "Shop_ScoreReward",
+  "assembly": "HotFixBattle.dll",
+  "read_impl_rva": "0x6aee24c",
+  "fields": [
+    {
+      "type": "int",
+      "name": "ID",
+      "offset": 32,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "Score",
+      "offset": 36,
+      "reader": "readInt"
+    },
+    {
+      "type": "string[]",
+      "name": "Reward",
+      "offset": 40,
+      "reader": "readArraystring"
+    }
+  ],
+  "native_reader_calls": [
+    "readInt",
+    "readInt",
+    "readArraystring"
+  ],
+  "field_count_matches_native_calls": true
+}

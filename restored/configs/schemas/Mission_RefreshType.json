@@ -1,0 +1,45 @@
+{
+  "name": "Mission_RefreshType",
+  "assembly": "HotFixBattle.dll",
+  "read_impl_rva": "0x6ac3aa8",
+  "fields": [
+    {
+      "type": "int",
+      "name": "id",
+      "offset": 32,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "refreshType",
+      "offset": 36,
+      "reader": "readInt"
+    },
+    {
+      "type": "FP",
+      "name": "firstRefreshTime",
+      "offset": 40,
+      "reader": "readFp"
+    },
+    {
+      "type": "FP",
+      "name": "refreshTime",
+      "offset": 48,
+      "reader": "readFp"
+    },
+    {
+      "type": "string",
+      "name": "refreshParam",
+      "offset": 56,
+      "reader": "readLocalString"
+    }
+  ],
+  "native_reader_calls": [
+    "readInt",
+    "readInt",
+    "readFp",
+    "readFp",
+    "readLocalString"
+  ],
+  "field_count_matches_native_calls": true
+}

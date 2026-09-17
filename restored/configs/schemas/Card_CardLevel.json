@@ -1,0 +1,52 @@
+{
+  "name": "Card_CardLevel",
+  "assembly": "HotFixBattle.dll",
+  "read_impl_rva": "0x68956b8",
+  "fields": [
+    {
+      "type": "int",
+      "name": "ID",
+      "offset": 32,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "CardID",
+      "offset": 36,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "CardLevel",
+      "offset": 40,
+      "reader": "readInt"
+    },
+    {
+      "type": "string[]",
+      "name": "Attribute",
+      "offset": 48,
+      "reader": "readArraystring"
+    },
+    {
+      "type": "string",
+      "name": "FeatureJson",
+      "offset": 56,
+      "reader": "readLocalString"
+    },
+    {
+      "type": "string[]",
+      "name": "NewPower",
+      "offset": 64,
+      "reader": "readArraystring"
+    }
+  ],
+  "native_reader_calls": [
+    "readInt",
+    "readInt",
+    "readInt",
+    "readArraystring",
+    "readLocalString",
+    "readArraystring"
+  ],
+  "field_count_matches_native_calls": true
+}

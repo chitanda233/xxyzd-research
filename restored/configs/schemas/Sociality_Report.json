@@ -1,0 +1,73 @@
+{
+  "name": "Sociality_Report",
+  "assembly": "HotFixBattle.dll",
+  "read_impl_rva": "0x6b0e918",
+  "fields": [
+    {
+      "type": "int",
+      "name": "id",
+      "offset": 32,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "type",
+      "offset": 36,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "atlasID",
+      "offset": 40,
+      "reader": "readInt"
+    },
+    {
+      "type": "string",
+      "name": "bgName",
+      "offset": 48,
+      "reader": "readLocalString"
+    },
+    {
+      "type": "string",
+      "name": "iconBgName",
+      "offset": 56,
+      "reader": "readLocalString"
+    },
+    {
+      "type": "string",
+      "name": "iconName",
+      "offset": 64,
+      "reader": "readLocalString"
+    },
+    {
+      "type": "int",
+      "name": "titleLanguage",
+      "offset": 72,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "contentLanguage",
+      "offset": 76,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "playBack",
+      "offset": 80,
+      "reader": "readInt"
+    }
+  ],
+  "native_reader_calls": [
+    "readInt",
+    "readInt",
+    "readInt",
+    "readLocalString",
+    "readLocalString",
+    "readLocalString",
+    "readInt",
+    "readInt",
+    "readInt"
+  ],
+  "field_count_matches_native_calls": true
+}

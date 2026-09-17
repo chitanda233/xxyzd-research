@@ -1,0 +1,80 @@
+{
+  "name": "DrawBox_LootBox",
+  "assembly": "HotFixBattle.dll",
+  "read_impl_rva": "0x6a5c2d4",
+  "fields": [
+    {
+      "type": "int",
+      "name": "ID",
+      "offset": 32,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "Title",
+      "offset": 36,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "Des",
+      "offset": 40,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "FreeCD",
+      "offset": 44,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "Key_ID",
+      "offset": 48,
+      "reader": "readInt"
+    },
+    {
+      "type": "int[]",
+      "name": "Single",
+      "offset": 56,
+      "reader": "readArrayint"
+    },
+    {
+      "type": "int",
+      "name": "Ten",
+      "offset": 64,
+      "reader": "readInt"
+    },
+    {
+      "type": "string[]",
+      "name": "ScoreReward",
+      "offset": 72,
+      "reader": "readArraystring"
+    },
+    {
+      "type": "int",
+      "name": "DayLimit",
+      "offset": 80,
+      "reader": "readInt"
+    },
+    {
+      "type": "int[]",
+      "name": "BoxRateIDs",
+      "offset": 88,
+      "reader": "readArrayint"
+    }
+  ],
+  "native_reader_calls": [
+    "readInt",
+    "readInt",
+    "readInt",
+    "readInt",
+    "readInt",
+    "readArrayint",
+    "readInt",
+    "readArraystring",
+    "readInt",
+    "readArrayint"
+  ],
+  "field_count_matches_native_calls": true
+}

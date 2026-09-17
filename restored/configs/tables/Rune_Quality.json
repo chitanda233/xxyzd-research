@@ -1,0 +1,68 @@
+[
+  {
+    "ID": 10,
+    "mergeCount": 2,
+    "mergeType": 1,
+    "quality": 10
+  },
+  {
+    "ID": 20,
+    "mergeCount": 2,
+    "mergeType": 1,
+    "quality": 20
+  },
+  {
+    "ID": 30,
+    "mergeCount": 2,
+    "mergeType": 1,
+    "quality": 30
+  },
+  {
+    "ID": 40,
+    "mergeCount": 1,
+    "mergeType": 1,
+    "quality": 40
+  },
+  {
+    "ID": 41,
+    "mergeCount": 1,
+    "mergeType": 1,
+    "quality": 41
+  },
+  {
+    "ID": 42,
+    "mergeCount": 1,
+    "mergeType": 1,
+    "quality": 42
+  },
+  {
+    "ID": 50,
+    "mergeCount": 1,
+    "mergeType": 1,
+    "quality": 50
+  },
+  {
+    "ID": 51,
+    "mergeCount": 1,
+    "mergeType": 1,
+    "quality": 51
+  },
+  {
+    "ID": 52,
+    "mergeCount": 1,
+    "mergeType": 1,
+    "quality": 52
+  },
+  {
+    "ID": 53,
+    "mergeCount": 1,
+    "mergeType": 1,
+    "quality": 53
+  },
+  {
+    "ID": 60,
+    "mergeCount": 0,
+    "mergeType": 0,
+    "quality": 0
+  }
+]

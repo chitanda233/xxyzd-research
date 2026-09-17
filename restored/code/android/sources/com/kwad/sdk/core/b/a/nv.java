@@ -1,0 +1,52 @@
+package com.kwad.sdk.core.b.a;
+
+import com.bytedance.sdk.openadsdk.mediation.MediationConstant;
+import org.json.JSONObject;
+
+/* JADX INFO: loaded from: classes3.dex */
+public final class nv implements com.kwad.sdk.core.d<com.kwad.components.core.webview.tachikoma.c.y> {
+    @Override // com.kwad.sdk.core.d
+    public final /* bridge */ /* synthetic */ void a(com.kwad.sdk.core.b bVar, JSONObject jSONObject) {
+        a((com.kwad.components.core.webview.tachikoma.c.y) bVar, jSONObject);
+    }
+
+    @Override // com.kwad.sdk.core.d
+    public final /* bridge */ /* synthetic */ JSONObject b(com.kwad.sdk.core.b bVar, JSONObject jSONObject) {
+        return b((com.kwad.components.core.webview.tachikoma.c.y) bVar, jSONObject);
+    }
+
+    private static void a(com.kwad.components.core.webview.tachikoma.c.y yVar, JSONObject jSONObject) {
+        if (jSONObject == null) {
+            return;
+        }
+        yVar.auC = jSONObject.optString("status");
+        if (JSONObject.NULL.toString().equals(yVar.auC)) {
+            yVar.auC = "";
+        }
+        yVar.errorCode = jSONObject.optInt(MediationConstant.KEY_ERROR_CODE);
+        yVar.errorReason = jSONObject.optString("errorReason");
+        if (JSONObject.NULL.toString().equals(yVar.errorReason)) {
+            yVar.errorReason = "";
+        }
+        yVar.ri = jSONObject.optInt("currentTime");
+    }
+
+    private static JSONObject b(com.kwad.components.core.webview.tachikoma.c.y yVar, JSONObject jSONObject) {
+        if (jSONObject == null) {
+            jSONObject = new JSONObject();
+        }
+        if (yVar.auC != null && !yVar.auC.equals("")) {
+            com.kwad.sdk.utils.ac.putValue(jSONObject, "status", yVar.auC);
+        }
+        if (yVar.errorCode != 0) {
+            com.kwad.sdk.utils.ac.putValue(jSONObject, MediationConstant.KEY_ERROR_CODE, yVar.errorCode);
+        }
+        if (yVar.errorReason != null && !yVar.errorReason.equals("")) {
+            com.kwad.sdk.utils.ac.putValue(jSONObject, "errorReason", yVar.errorReason);
+        }
+        if (yVar.ri != 0) {
+            com.kwad.sdk.utils.ac.putValue(jSONObject, "currentTime", yVar.ri);
+        }
+        return jSONObject;
+    }
+}

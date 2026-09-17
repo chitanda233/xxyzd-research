@@ -1,0 +1,24 @@
+{
+  "name": "Task_ConditionType",
+  "assembly": "HotFixBattle.dll",
+  "read_impl_rva": "0x6b12678",
+  "fields": [
+    {
+      "type": "int",
+      "name": "ID",
+      "offset": 32,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "JumpId",
+      "offset": 36,
+      "reader": "readInt"
+    }
+  ],
+  "native_reader_calls": [
+    "readInt",
+    "readInt"
+  ],
+  "field_count_matches_native_calls": true
+}

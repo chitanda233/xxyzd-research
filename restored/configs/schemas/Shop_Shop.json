@@ -1,0 +1,87 @@
+{
+  "name": "Shop_Shop",
+  "assembly": "HotFixBattle.dll",
+  "read_impl_rva": "0x6aef3a0",
+  "fields": [
+    {
+      "type": "int",
+      "name": "id",
+      "offset": 32,
+      "reader": "readInt"
+    },
+    {
+      "type": "string",
+      "name": "note",
+      "offset": 40,
+      "reader": "readLocalString"
+    },
+    {
+      "type": "int",
+      "name": "type",
+      "offset": 48,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "discount",
+      "offset": 52,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "refresh",
+      "offset": 56,
+      "reader": "readInt"
+    },
+    {
+      "type": "int[]",
+      "name": "goods",
+      "offset": 64,
+      "reader": "readArrayint"
+    },
+    {
+      "type": "int",
+      "name": "limit",
+      "offset": 72,
+      "reader": "readInt"
+    },
+    {
+      "type": "int[]",
+      "name": "refreshCost",
+      "offset": 80,
+      "reader": "readArrayint"
+    },
+    {
+      "type": "string",
+      "name": "TitleLanguageId",
+      "offset": 88,
+      "reader": "readLocalString"
+    },
+    {
+      "type": "string",
+      "name": "BgPath",
+      "offset": 96,
+      "reader": "readLocalString"
+    },
+    {
+      "type": "int",
+      "name": "CurrencyID",
+      "offset": 104,
+      "reader": "readInt"
+    }
+  ],
+  "native_reader_calls": [
+    "readInt",
+    "readLocalString",
+    "readInt",
+    "readInt",
+    "readInt",
+    "readArrayint",
+    "readInt",
+    "readArrayint",
+    "readLocalString",
+    "readLocalString",
+    "readInt"
+  ],
+  "field_count_matches_native_calls": true
+}

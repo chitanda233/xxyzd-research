@@ -1,0 +1,107 @@
+[
+  {
+    "id": 1,
+    "TriggerConditionAreaId": 26,
+    "TriggerConditionCount": [],
+    "TriggerConditionWeight": 235000,
+    "SpecialAreaId": 28,
+    "MaxCastRod": 40,
+    "MaxMultipy": 10,
+    "MaxTriggerCount": 1,
+    "EnterReward": [
+      [
+        125,
+        5
+      ]
+    ]
+  },
+  {
+    "id": 2,
+    "TriggerConditionAreaId": 27,
+    "TriggerConditionCount": [
+      1,
+      2
+    ],
+    "TriggerConditionWeight": 0,
+    "SpecialAreaId": 29,
+    "MaxCastRod": 40,
+    "MaxMultipy": 20,
+    "MaxTriggerCount": 9999,
+    "EnterReward": [
+      [
+        125,
+        5
+      ]
+    ]
+  },
+  {
+    "id": 3,
+    "TriggerConditionAreaId": 32,
+    "TriggerConditionCount": [],
+    "TriggerConditionWeight": 235000,
+    "SpecialAreaId": 34,
+    "MaxCastRod": 40,
+    "MaxMultipy": 10,
+    "MaxTriggerCount": 1,
+    "EnterReward": [
+      [
+        125,
+        5
+      ]
+    ]
+  },
+  {
+    "id": 4,
+    "TriggerConditionAreaId": 33,
+    "TriggerConditionCount": [
+      1,
+      2
+    ],
+    "TriggerConditionWeight": 0,
+    "SpecialAreaId": 35,
+    "MaxCastRod": 40,
+    "MaxMultipy": 20,
+    "MaxTriggerCount": 9999,
+    "EnterReward": [
+      [
+        125,
+        5
+      ]
+    ]
+  },
+  {
+    "id": 5,
+    "TriggerConditionAreaId": 7,
+    "TriggerConditionCount": [],
+    "TriggerConditionWeight": 235000,
+    "SpecialAreaId": 18,
+    "MaxCastRod": 40,
+    "MaxMultipy": 10,
+    "MaxTriggerCount": 1,
+    "EnterReward": [
+      [
+        125,
+        5
+      ]
+    ]
+  },
+  {
+    "id": 6,
+    "TriggerConditionAreaId": 8,
+    "TriggerConditionCount": [
+      1,
+      2
+    ],
+    "TriggerConditionWeight": 0,
+    "SpecialAreaId": 19,
+    "MaxCastRod": 40,
+    "MaxMultipy": 20,
+    "MaxTriggerCount": 9999,
+    "EnterReward": [
+      [
+        125,
+        5
+      ]
+    ]
+  }
+]

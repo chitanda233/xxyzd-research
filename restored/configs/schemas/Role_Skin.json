@@ -1,0 +1,129 @@
+{
+  "name": "Role_Skin",
+  "assembly": "HotFixBattle.dll",
+  "read_impl_rva": "0x6ae0d3c",
+  "fields": [
+    {
+      "type": "int",
+      "name": "Id",
+      "offset": 32,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "IfClose",
+      "offset": 36,
+      "reader": "readInt"
+    },
+    {
+      "type": "int[][]",
+      "name": "UnlockCost",
+      "offset": 40,
+      "reader": "readArrayArrayint"
+    },
+    {
+      "type": "int",
+      "name": "RoleEntity",
+      "offset": 48,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "Quality",
+      "offset": 52,
+      "reader": "readInt"
+    },
+    {
+      "type": "string",
+      "name": "NameId",
+      "offset": 56,
+      "reader": "readLocalString"
+    },
+    {
+      "type": "string",
+      "name": "Icon",
+      "offset": 64,
+      "reader": "readLocalString"
+    },
+    {
+      "type": "string",
+      "name": "IconQualityBg",
+      "offset": 72,
+      "reader": "readLocalString"
+    },
+    {
+      "type": "int",
+      "name": "Atlas",
+      "offset": 80,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "ShopGoodsId",
+      "offset": 84,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "ShowModelID",
+      "offset": 88,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "StoryId",
+      "offset": 92,
+      "reader": "readInt"
+    },
+    {
+      "type": "string",
+      "name": "ShowModel",
+      "offset": 96,
+      "reader": "readLocalString"
+    },
+    {
+      "type": "string",
+      "name": "ShowModelForBase",
+      "offset": 104,
+      "reader": "readLocalString"
+    },
+    {
+      "type": "string",
+      "name": "ShowModelForShop",
+      "offset": 112,
+      "reader": "readLocalString"
+    },
+    {
+      "type": "string",
+      "name": "RoleQualityBgRes",
+      "offset": 120,
+      "reader": "readLocalString"
+    },
+    {
+      "type": "string",
+      "name": "RoleRes",
+      "offset": 128,
+      "reader": "readLocalString"
+    }
+  ],
+  "native_reader_calls": [
+    "readInt",
+    "readInt",
+    "readArrayArrayint",
+    "readInt",
+    "readInt",
+    "readLocalString",
+    "readLocalString",
+    "readLocalString",
+    "readInt",
+    "readInt",
+    "readInt",
+    "readInt",
+    "readLocalString",
+    "readLocalString",
+    "readLocalString",
+    "readLocalString",
+    "readLocalString"
+  ],
+  "field_count_matches_native_calls": true
+}

@@ -1,0 +1,66 @@
+{
+  "name": "UltimateCore_SkinStar",
+  "assembly": "HotFixBattle.dll",
+  "read_impl_rva": "0x6b1be78",
+  "fields": [
+    {
+      "type": "int",
+      "name": "Id",
+      "offset": 32,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "SkinId",
+      "offset": 36,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "Star",
+      "offset": 40,
+      "reader": "readInt"
+    },
+    {
+      "type": "int[][]",
+      "name": "Cost",
+      "offset": 48,
+      "reader": "readArrayArrayint"
+    },
+    {
+      "type": "int",
+      "name": "UltimateSkill",
+      "offset": 56,
+      "reader": "readInt"
+    },
+    {
+      "type": "string",
+      "name": "FeatureJson",
+      "offset": 64,
+      "reader": "readLocalString"
+    },
+    {
+      "type": "string[]",
+      "name": "Attribute",
+      "offset": 72,
+      "reader": "readArraystring"
+    },
+    {
+      "type": "int[][]",
+      "name": "Power",
+      "offset": 80,
+      "reader": "readArrayArrayint"
+    }
+  ],
+  "native_reader_calls": [
+    "readInt",
+    "readInt",
+    "readInt",
+    "readArrayArrayint",
+    "readInt",
+    "readLocalString",
+    "readArraystring",
+    "readArrayArrayint"
+  ],
+  "field_count_matches_native_calls": true
+}

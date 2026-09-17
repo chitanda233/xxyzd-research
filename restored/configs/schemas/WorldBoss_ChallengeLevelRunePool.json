@@ -1,0 +1,24 @@
+{
+  "name": "WorldBoss_ChallengeLevelRunePool",
+  "assembly": "HotFixBattle.dll",
+  "read_impl_rva": "0x6b23510",
+  "fields": [
+    {
+      "type": "int",
+      "name": "ID",
+      "offset": 32,
+      "reader": "readInt"
+    },
+    {
+      "type": "int[][]",
+      "name": "RuneList",
+      "offset": 40,
+      "reader": "readArrayArrayint"
+    }
+  ],
+  "native_reader_calls": [
+    "readInt",
+    "readArrayArrayint"
+  ],
+  "field_count_matches_native_calls": true
+}

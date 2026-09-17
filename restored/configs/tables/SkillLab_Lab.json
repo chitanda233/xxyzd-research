@@ -1,0 +1,211 @@
+[
+  {
+    "ID": 1,
+    "sort": 11,
+    "unlockChapter": 1,
+    "unlockSkill": 10000101,
+    "SkillIconAtlas": 10105,
+    "SkillIcon": "stg_skillLab_icon_08",
+    "SkillBgAtlas": 10121,
+    "SkillBg": "stg_skillLab_iconX_08",
+    "BulletTagLanguageID": "Tech_Tag_BulletTag_1",
+    "BulletTagAtlas": 10121,
+    "BulletTagIcon": "stg_skillLab_tag_08",
+    "ElementTagLanguageID": "Tech_Tag_ElementTag_1",
+    "ElementTagAtlas": 10121,
+    "ElementTagIcon": "stg_skillLab_tag_06",
+    "AirplaneGun": [
+      20101
+    ]
+  },
+  {
+    "ID": 3,
+    "sort": 10,
+    "unlockChapter": 1,
+    "unlockSkill": 10001501,
+    "SkillIconAtlas": 10105,
+    "SkillIcon": "stg_skillLab_icon_07",
+    "SkillBgAtlas": 10121,
+    "SkillBg": "stg_skillLab_iconX_07",
+    "BulletTagLanguageID": "Tech_Tag_BulletTag_3",
+    "BulletTagAtlas": 10121,
+    "BulletTagIcon": "stg_skillLab_tag_07",
+    "ElementTagLanguageID": "Tech_Tag_ElementTag_3",
+    "ElementTagAtlas": 10121,
+    "ElementTagIcon": "stg_skillLab_tag_05",
+    "AirplaneGun": [
+      20301
+    ]
+  },
+  {
+    "ID": 4,
+    "sort": 9,
+    "unlockChapter": 16,
+    "unlockSkill": 10000201,
+    "SkillIconAtlas": 10105,
+    "SkillIcon": "stg_skillLab_icon_03",
+    "SkillBgAtlas": 10121,
+    "SkillBg": "stg_skillLab_iconX_03",
+    "BulletTagLanguageID": "Tech_Tag_BulletTag_1",
+    "BulletTagAtlas": 10121,
+    "BulletTagIcon": "stg_skillLab_tag_08",
+    "ElementTagLanguageID": "Tech_Tag_ElementTag_4",
+    "ElementTagAtlas": 10121,
+    "ElementTagIcon": "stg_skillLab_tag_03",
+    "AirplaneGun": [
+      20401
+    ]
+  },
+  {
+    "ID": 5,
+    "sort": 8,
+    "unlockChapter": 1,
+    "unlockSkill": 10000601,
+    "SkillIconAtlas": 10105,
+    "SkillIcon": "stg_skillLab_icon_02",
+    "SkillBgAtlas": 10121,
+    "SkillBg": "stg_skillLab_iconX_02",
+    "BulletTagLanguageID": "Tech_Tag_BulletTag_1",
+    "BulletTagAtlas": 10121,
+    "BulletTagIcon": "stg_skillLab_tag_08",
+    "ElementTagLanguageID": "Tech_Tag_ElementTag_6",
+    "ElementTagAtlas": 10121,
+    "ElementTagIcon": "stg_skillLab_tag_04",
+    "AirplaneGun": [
+      20501
+    ]
+  },
+  {
+    "ID": 6,
+    "sort": 7,
+    "unlockChapter": 8,
+    "unlockSkill": 10000401,
+    "SkillIconAtlas": 10105,
+    "SkillIcon": "stg_skillLab_icon_09",
+    "SkillBgAtlas": 10121,
+    "SkillBg": "stg_skillLab_iconX_09",
+    "BulletTagLanguageID": "Tech_Tag_BulletTag_2",
+    "BulletTagAtlas": 10121,
+    "BulletTagIcon": "stg_skillLab_tag_09",
+    "ElementTagLanguageID": "Tech_Tag_ElementTag_5",
+    "ElementTagAtlas": 10121,
+    "ElementTagIcon": "stg_skillLab_tag_02",
+    "AirplaneGun": [
+      20601
+    ]
+  },
+  {
+    "ID": 7,
+    "sort": 6,
+    "unlockChapter": 1,
+    "unlockSkill": 10001701,
+    "SkillIconAtlas": 10105,
+    "SkillIcon": "stg_skillLab_icon_04",
+    "SkillBgAtlas": 10121,
+    "SkillBg": "stg_skillLab_iconX_04",
+    "BulletTagLanguageID": "Tech_Tag_BulletTag_3",
+    "BulletTagAtlas": 10121,
+    "BulletTagIcon": "stg_skillLab_tag_07",
+    "ElementTagLanguageID": "Tech_Tag_ElementTag_2",
+    "ElementTagAtlas": 10121,
+    "ElementTagIcon": "stg_skillLab_tag_01",
+    "AirplaneGun": [
+      20701
+    ]
+  },
+  {
+    "ID": 2,
+    "sort": 5,
+    "unlockChapter": 1,
+    "unlockSkill": 10000701,
+    "SkillIconAtlas": 10105,
+    "SkillIcon": "stg_skillLab_icon_01",
+    "SkillBgAtlas": 10121,
+    "SkillBg": "stg_skillLab_iconX_01",
+    "BulletTagLanguageID": "Tech_Tag_BulletTag_4",
+    "BulletTagAtlas": 10121,
+    "BulletTagIcon": "stg_skillLab_tag_11",
+    "ElementTagLanguageID": "Tech_Tag_ElementTag_2",
+    "ElementTagAtlas": 10121,
+    "ElementTagIcon": "stg_skillLab_tag_01",
+    "AirplaneGun": [
+      20201
+    ]
+  },
+  {
+    "ID": 8,
+    "sort": 4,
+    "unlockChapter": 1,
+    "unlockSkill": 10001101,
+    "SkillIconAtlas": 10105,
+    "SkillIcon": "stg_skillLab_icon_11",
+    "SkillBgAtlas": 10121,
+    "SkillBg": "stg_skillLab_iconX_11",
+    "BulletTagLanguageID": "Tech_Tag_BulletTag_2",
+    "BulletTagAtlas": 10121,
+    "BulletTagIcon": "stg_skillLab_tag_09",
+    "ElementTagLanguageID": "Tech_Tag_ElementTag_3",
+    "ElementTagAtlas": 10121,
+    "ElementTagIcon": "stg_skillLab_tag_05",
+    "AirplaneGun": [
+      20801
+    ]
+  },
+  {
+    "ID": 9,
+    "sort": 3,
+    "unlockChapter": 1,
+    "unlockSkill": 10001601,
+    "SkillIconAtlas": 10105,
+    "SkillIcon": "stg_skillLab_icon_05",
+    "SkillBgAtlas": 10121,
+    "SkillBg": "stg_skillLab_iconX_05",
+    "BulletTagLanguageID": "Tech_Tag_BulletTag_2",
+    "BulletTagAtlas": 10121,
+    "BulletTagIcon": "stg_skillLab_tag_09",
+    "ElementTagLanguageID": "Tech_Tag_ElementTag_6",
+    "ElementTagAtlas": 10121,
+    "ElementTagIcon": "stg_skillLab_tag_04",
+    "AirplaneGun": [
+      20901
+    ]
+  },
+  {
+    "ID": 10,
+    "sort": 2,
+    "unlockChapter": 20,
+    "unlockSkill": 10000301,
+    "SkillIconAtlas": 10105,
+    "SkillIcon": "stg_skillLab_icon_06",
+    "SkillBgAtlas": 10121,
+    "SkillBg": "stg_skillLab_iconX_06",
+    "BulletTagLanguageID": "Tech_Tag_BulletTag_1",
+    "BulletTagAtlas": 10121,
+    "BulletTagIcon": "stg_skillLab_tag_08",
+    "ElementTagLanguageID": "Tech_Tag_ElementTag_5",
+    "ElementTagAtlas": 10121,
+    "ElementTagIcon": "stg_skillLab_tag_02",
+    "AirplaneGun": [
+      21001
+    ]
+  },
+  {
+    "ID": 11,
+    "sort": 1,
+    "unlockChapter": 25,
+    "unlockSkill": 10000901,
+    "SkillIconAtlas": 10105,
+    "SkillIcon": "stg_skillLab_icon_10",
+    "SkillBgAtlas": 10121,
+    "SkillBg": "stg_skillLab_iconX_10",
+    "BulletTagLanguageID": "Tech_Tag_BulletTag_4",
+    "BulletTagAtlas": 10121,
+    "BulletTagIcon": "stg_skillLab_tag_11",
+    "ElementTagLanguageID": "Tech_Tag_ElementTag_4",
+    "ElementTagAtlas": 10121,
+    "ElementTagIcon": "stg_skillLab_tag_03",
+    "AirplaneGun": [
+      21101
+    ]
+  }
+]

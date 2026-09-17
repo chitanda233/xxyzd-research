@@ -1,0 +1,45 @@
+{
+  "name": "Levels_table",
+  "assembly": "HotFixBattle.dll",
+  "read_impl_rva": "0x6ab3478",
+  "fields": [
+    {
+      "type": "int",
+      "name": "id",
+      "offset": 32,
+      "reader": "readInt"
+    },
+    {
+      "type": "string",
+      "name": "notes",
+      "offset": 40,
+      "reader": "readLocalString"
+    },
+    {
+      "type": "string",
+      "name": "levelName",
+      "offset": 48,
+      "reader": "readLocalString"
+    },
+    {
+      "type": "int",
+      "name": "titleName",
+      "offset": 56,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "isShow",
+      "offset": 60,
+      "reader": "readInt"
+    }
+  ],
+  "native_reader_calls": [
+    "readInt",
+    "readLocalString",
+    "readLocalString",
+    "readInt",
+    "readInt"
+  ],
+  "field_count_matches_native_calls": true
+}

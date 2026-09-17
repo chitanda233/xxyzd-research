@@ -1,0 +1,322 @@
+[
+  {
+    "ID": 101,
+    "RequireDamage": 5000000,
+    "Reward": [
+      [
+        1,
+        5000
+      ]
+    ],
+    "ChestNum": [
+      [
+        917,
+        5
+      ]
+    ]
+  },
+  {
+    "ID": 102,
+    "RequireDamage": 15000000,
+    "Reward": [
+      [
+        1,
+        8000
+      ]
+    ],
+    "ChestNum": [
+      [
+        917,
+        10
+      ]
+    ]
+  },
+  {
+    "ID": 103,
+    "RequireDamage": 40000000,
+    "Reward": [
+      [
+        1,
+        12000
+      ]
+    ],
+    "ChestNum": [
+      [
+        917,
+        15
+      ]
+    ]
+  },
+  {
+    "ID": 104,
+    "RequireDamage": 80000000,
+    "Reward": [
+      [
+        1,
+        16000
+      ]
+    ],
+    "ChestNum": [
+      [
+        917,
+        20
+      ]
+    ]
+  },
+  {
+    "ID": 105,
+    "RequireDamage": 150000000,
+    "Reward": [
+      [
+        1,
+        20000
+      ]
+    ],
+    "ChestNum": [
+      [
+        917,
+        30
+      ]
+    ]
+  },
+  {
+    "ID": 201,
+    "RequireDamage": 5000000,
+    "Reward": [
+      [
+        1,
+        5000
+      ]
+    ],
+    "ChestNum": [
+      [
+        917,
+        5
+      ]
+    ]
+  },
+  {
+    "ID": 202,
+    "RequireDamage": 15000000,
+    "Reward": [
+      [
+        1,
+        8000
+      ]
+    ],
+    "ChestNum": [
+      [
+        917,
+        10
+      ]
+    ]
+  },
+  {
+    "ID": 203,
+    "RequireDamage": 40000000,
+    "Reward": [
+      [
+        1,
+        12000
+      ]
+    ],
+    "ChestNum": [
+      [
+        917,
+        15
+      ]
+    ]
+  },
+  {
+    "ID": 204,
+    "RequireDamage": 80000000,
+    "Reward": [
+      [
+        1,
+        16000
+      ]
+    ],
+    "ChestNum": [
+      [
+        917,
+        20
+      ]
+    ]
+  },
+  {
+    "ID": 205,
+    "RequireDamage": 150000000,
+    "Reward": [
+      [
+        1,
+        20000
+      ]
+    ],
+    "ChestNum": [
+      [
+        917,
+        30
+      ]
+    ]
+  },
+  {
+    "ID": 301,
+    "RequireDamage": 5000000,
+    "Reward": [
+      [
+        1,
+        5000
+      ]
+    ],
+    "ChestNum": [
+      [
+        917,
+        5
+      ]
+    ]
+  },
+  {
+    "ID": 302,
+    "RequireDamage": 15000000,
+    "Reward": [
+      [
+        1,
+        8000
+      ]
+    ],
+    "ChestNum": [
+      [
+        917,
+        10
+      ]
+    ]
+  },
+  {
+    "ID": 303,
+    "RequireDamage": 40000000,
+    "Reward": [
+      [
+        1,
+        12000
+      ]
+    ],
+    "ChestNum": [
+      [
+        917,
+        15
+      ]
+    ]
+  },
+  {
+    "ID": 304,
+    "RequireDamage": 80000000,
+    "Reward": [
+      [
+        1,
+        16000
+      ]
+    ],
+    "ChestNum": [
+      [
+        917,
+        20
+      ]
+    ]
+  },
+  {
+    "ID": 305,
+    "RequireDamage": 150000000,
+    "Reward": [
+      [
+        1,
+        20000
+      ]
+    ],
+    "ChestNum": [
+      [
+        917,
+        30
+      ]
+    ]
+  },
+  {
+    "ID": 401,
+    "RequireDamage": 5000000,
+    "Reward": [
+      [
+        1,
+        5000
+      ]
+    ],
+    "ChestNum": [
+      [
+        917,
+        5
+      ]
+    ]
+  },
+  {
+    "ID": 402,
+    "RequireDamage": 15000000,
+    "Reward": [
+      [
+        1,
+        8000
+      ]
+    ],
+    "ChestNum": [
+      [
+        917,
+        10
+      ]
+    ]
+  },
+  {
+    "ID": 403,
+    "RequireDamage": 40000000,
+    "Reward": [
+      [
+        1,
+        12000
+      ]
+    ],
+    "ChestNum": [
+      [
+        917,
+        15
+      ]
+    ]
+  },
+  {
+    "ID": 404,
+    "RequireDamage": 80000000,
+    "Reward": [
+      [
+        1,
+        16000
+      ]
+    ],
+    "ChestNum": [
+      [
+        917,
+        20
+      ]
+    ]
+  },
+  {
+    "ID": 405,
+    "RequireDamage": 150000000,
+    "Reward": [
+      [
+        1,
+        20000
+      ]
+    ],
+    "ChestNum": [
+      [
+        917,
+        30
+      ]
+    ]
+  }
+]

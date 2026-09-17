@@ -1,0 +1,12 @@
+model_P2_L2.png
+size:997,777
+filter:Linear,Linear
+pma:true
+p_cang_l
+bounds:663,179,334,205
+p_cang_q
+bounds:0,0,661,384
+p_cb_l
+bounds:0,386,846,391
+p_cb_lu
+bounds:663,9,224,168

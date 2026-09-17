@@ -1,0 +1,73 @@
+{
+  "name": "EventBigA_EventBigADraw",
+  "assembly": "HotFixBattle.dll",
+  "read_impl_rva": "0x6a688c0",
+  "fields": [
+    {
+      "type": "int",
+      "name": "ID",
+      "offset": 32,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "SlotId",
+      "offset": 36,
+      "reader": "readInt"
+    },
+    {
+      "type": "int[][]",
+      "name": "Reward",
+      "offset": 40,
+      "reader": "readArrayArrayint"
+    },
+    {
+      "type": "string",
+      "name": "DropRateShow",
+      "offset": 48,
+      "reader": "readLocalString"
+    },
+    {
+      "type": "int",
+      "name": "Order",
+      "offset": 56,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "IsBigReward",
+      "offset": 60,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "atlasId",
+      "offset": 64,
+      "reader": "readInt"
+    },
+    {
+      "type": "string",
+      "name": "Icon",
+      "offset": 72,
+      "reader": "readLocalString"
+    },
+    {
+      "type": "string",
+      "name": "Name",
+      "offset": 80,
+      "reader": "readLocalString"
+    }
+  ],
+  "native_reader_calls": [
+    "readInt",
+    "readInt",
+    "readArrayArrayint",
+    "readLocalString",
+    "readInt",
+    "readInt",
+    "readInt",
+    "readLocalString",
+    "readLocalString"
+  ],
+  "field_count_matches_native_calls": true
+}

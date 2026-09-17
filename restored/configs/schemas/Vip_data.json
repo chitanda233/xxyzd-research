@@ -1,0 +1,38 @@
+{
+  "name": "Vip_data",
+  "assembly": "HotFixBattle.dll",
+  "read_impl_rva": "0x6b1d200",
+  "fields": [
+    {
+      "type": "int",
+      "name": "id",
+      "offset": 32,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "ParamType",
+      "offset": 36,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "LangugaeID",
+      "offset": 40,
+      "reader": "readInt"
+    },
+    {
+      "type": "string",
+      "name": "OtherParameter",
+      "offset": 48,
+      "reader": "readLocalString"
+    }
+  ],
+  "native_reader_calls": [
+    "readInt",
+    "readInt",
+    "readInt",
+    "readLocalString"
+  ],
+  "field_count_matches_native_calls": true
+}

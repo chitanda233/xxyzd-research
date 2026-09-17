@@ -1,0 +1,775 @@
+[
+  {
+    "id": 1,
+    "entityId": [
+      330005
+    ],
+    "height": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "weight": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    }
+  },
+  {
+    "id": 2,
+    "entityId": [
+      330006
+    ],
+    "height": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "weight": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    }
+  },
+  {
+    "id": 3,
+    "entityId": [
+      330007
+    ],
+    "height": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "weight": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    }
+  },
+  {
+    "id": 4,
+    "entityId": [
+      330005,
+      330005
+    ],
+    "height": {
+      "serialized_int32": 30000,
+      "decimal": 3.0,
+      "fp_raw": 196608,
+      "runtime_value": 3.0
+    },
+    "weight": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    }
+  },
+  {
+    "id": 5,
+    "entityId": [
+      330006,
+      330006
+    ],
+    "height": {
+      "serialized_int32": 20000,
+      "decimal": 2.0,
+      "fp_raw": 131072,
+      "runtime_value": 2.0
+    },
+    "weight": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    }
+  },
+  {
+    "id": 6,
+    "entityId": [
+      330007,
+      330007
+    ],
+    "height": {
+      "serialized_int32": 20000,
+      "decimal": 2.0,
+      "fp_raw": 131072,
+      "runtime_value": 2.0
+    },
+    "weight": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    }
+  },
+  {
+    "id": 7,
+    "entityId": [
+      330005,
+      330005,
+      330005
+    ],
+    "height": {
+      "serialized_int32": 20000,
+      "decimal": 2.0,
+      "fp_raw": 131072,
+      "runtime_value": 2.0
+    },
+    "weight": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    }
+  },
+  {
+    "id": 8,
+    "entityId": [
+      330007,
+      330007,
+      330007
+    ],
+    "height": {
+      "serialized_int32": 20000,
+      "decimal": 2.0,
+      "fp_raw": 131072,
+      "runtime_value": 2.0
+    },
+    "weight": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    }
+  },
+  {
+    "id": 9,
+    "entityId": [
+      330012
+    ],
+    "height": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "weight": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    }
+  },
+  {
+    "id": 10,
+    "entityId": [
+      330011
+    ],
+    "height": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "weight": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    }
+  },
+  {
+    "id": 11,
+    "entityId": [
+      330013
+    ],
+    "height": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "weight": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    }
+  },
+  {
+    "id": 12,
+    "entityId": [
+      330013,
+      330013
+    ],
+    "height": {
+      "serialized_int32": 30000,
+      "decimal": 3.0,
+      "fp_raw": 196608,
+      "runtime_value": 3.0
+    },
+    "weight": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    }
+  },
+  {
+    "id": 13,
+    "entityId": [
+      330006,
+      330006,
+      330006
+    ],
+    "height": {
+      "serialized_int32": 20000,
+      "decimal": 2.0,
+      "fp_raw": 131072,
+      "runtime_value": 2.0
+    },
+    "weight": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    }
+  },
+  {
+    "id": 14,
+    "entityId": [
+      330014
+    ],
+    "height": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "weight": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    }
+  },
+  {
+    "id": 15,
+    "entityId": [
+      330015
+    ],
+    "height": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "weight": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    }
+  },
+  {
+    "id": 16,
+    "entityId": [
+      330014,
+      330014
+    ],
+    "height": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "weight": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    }
+  },
+  {
+    "id": 17,
+    "entityId": [
+      330015,
+      330015
+    ],
+    "height": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "weight": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    }
+  },
+  {
+    "id": 18,
+    "entityId": [
+      330015,
+      330015,
+      330015
+    ],
+    "height": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "weight": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    }
+  },
+  {
+    "id": 19,
+    "entityId": [
+      330014,
+      330014,
+      330014
+    ],
+    "height": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "weight": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    }
+  },
+  {
+    "id": 20,
+    "entityId": [
+      330008
+    ],
+    "height": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "weight": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    }
+  },
+  {
+    "id": 21,
+    "entityId": [
+      330008,
+      330008
+    ],
+    "height": {
+      "serialized_int32": 30000,
+      "decimal": 3.0,
+      "fp_raw": 196608,
+      "runtime_value": 3.0
+    },
+    "weight": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    }
+  },
+  {
+    "id": 22,
+    "entityId": [
+      330008,
+      330008,
+      330008
+    ],
+    "height": {
+      "serialized_int32": 20000,
+      "decimal": 2.0,
+      "fp_raw": 131072,
+      "runtime_value": 2.0
+    },
+    "weight": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    }
+  },
+  {
+    "id": 101,
+    "entityId": [
+      370005
+    ],
+    "height": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "weight": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    }
+  },
+  {
+    "id": 102,
+    "entityId": [
+      370006
+    ],
+    "height": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "weight": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    }
+  },
+  {
+    "id": 103,
+    "entityId": [
+      370007
+    ],
+    "height": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "weight": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    }
+  },
+  {
+    "id": 104,
+    "entityId": [
+      370005,
+      370005
+    ],
+    "height": {
+      "serialized_int32": 30000,
+      "decimal": 3.0,
+      "fp_raw": 196608,
+      "runtime_value": 3.0
+    },
+    "weight": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    }
+  },
+  {
+    "id": 105,
+    "entityId": [
+      370006,
+      370006
+    ],
+    "height": {
+      "serialized_int32": 20000,
+      "decimal": 2.0,
+      "fp_raw": 131072,
+      "runtime_value": 2.0
+    },
+    "weight": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    }
+  },
+  {
+    "id": 106,
+    "entityId": [
+      370007,
+      370007
+    ],
+    "height": {
+      "serialized_int32": 20000,
+      "decimal": 2.0,
+      "fp_raw": 131072,
+      "runtime_value": 2.0
+    },
+    "weight": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    }
+  },
+  {
+    "id": 107,
+    "entityId": [
+      370005,
+      370005,
+      370005
+    ],
+    "height": {
+      "serialized_int32": 20000,
+      "decimal": 2.0,
+      "fp_raw": 131072,
+      "runtime_value": 2.0
+    },
+    "weight": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    }
+  },
+  {
+    "id": 108,
+    "entityId": [
+      370007,
+      370007,
+      370007
+    ],
+    "height": {
+      "serialized_int32": 20000,
+      "decimal": 2.0,
+      "fp_raw": 131072,
+      "runtime_value": 2.0
+    },
+    "weight": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    }
+  },
+  {
+    "id": 109,
+    "entityId": [
+      370012
+    ],
+    "height": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "weight": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    }
+  },
+  {
+    "id": 110,
+    "entityId": [
+      370011
+    ],
+    "height": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "weight": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    }
+  },
+  {
+    "id": 111,
+    "entityId": [
+      370013
+    ],
+    "height": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "weight": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    }
+  },
+  {
+    "id": 112,
+    "entityId": [
+      370013,
+      370013
+    ],
+    "height": {
+      "serialized_int32": 30000,
+      "decimal": 3.0,
+      "fp_raw": 196608,
+      "runtime_value": 3.0
+    },
+    "weight": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    }
+  },
+  {
+    "id": 113,
+    "entityId": [
+      370006,
+      370006,
+      370006
+    ],
+    "height": {
+      "serialized_int32": 20000,
+      "decimal": 2.0,
+      "fp_raw": 131072,
+      "runtime_value": 2.0
+    },
+    "weight": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    }
+  },
+  {
+    "id": 114,
+    "entityId": [
+      370014
+    ],
+    "height": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "weight": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    }
+  },
+  {
+    "id": 115,
+    "entityId": [
+      370015
+    ],
+    "height": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "weight": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    }
+  },
+  {
+    "id": 116,
+    "entityId": [
+      370014,
+      370014
+    ],
+    "height": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "weight": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    }
+  },
+  {
+    "id": 117,
+    "entityId": [
+      370015,
+      370015
+    ],
+    "height": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "weight": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    }
+  },
+  {
+    "id": 118,
+    "entityId": [
+      370015,
+      370015,
+      370015
+    ],
+    "height": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "weight": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    }
+  },
+  {
+    "id": 119,
+    "entityId": [
+      370014,
+      370014,
+      370014
+    ],
+    "height": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "weight": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    }
+  }
+]

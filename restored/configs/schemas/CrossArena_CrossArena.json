@@ -1,0 +1,80 @@
+{
+  "name": "CrossArena_CrossArena",
+  "assembly": "HotFixBattle.dll",
+  "read_impl_rva": "0x68d15e8",
+  "fields": [
+    {
+      "type": "int",
+      "name": "id",
+      "offset": 32,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "ranktop",
+      "offset": 36,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "rankbuttom",
+      "offset": 40,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "baseWinScore",
+      "offset": 44,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "baseLoseScore",
+      "offset": 48,
+      "reader": "readInt"
+    },
+    {
+      "type": "float",
+      "name": "addition",
+      "offset": 52,
+      "reader": "readFloat"
+    },
+    {
+      "type": "int[]",
+      "name": "winScoreSection",
+      "offset": 56,
+      "reader": "readArrayint"
+    },
+    {
+      "type": "int[]",
+      "name": "loseScoreSection",
+      "offset": 64,
+      "reader": "readArrayint"
+    },
+    {
+      "type": "string[]",
+      "name": "dailyRewards",
+      "offset": 72,
+      "reader": "readArraystring"
+    },
+    {
+      "type": "string[]",
+      "name": "seasonRewards",
+      "offset": 80,
+      "reader": "readArraystring"
+    }
+  ],
+  "native_reader_calls": [
+    "readInt",
+    "readInt",
+    "readInt",
+    "readInt",
+    "readInt",
+    "readFloat",
+    "readArrayint",
+    "readArrayint",
+    "readArraystring",
+    "readArraystring"
+  ],
+  "field_count_matches_native_calls": true
+}

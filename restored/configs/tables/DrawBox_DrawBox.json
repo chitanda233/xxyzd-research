@@ -1,0 +1,124 @@
+[
+  {
+    "ID": 1,
+    "Key_ID": 110,
+    "Single": [
+      60
+    ],
+    "Ten": 600,
+    "Title": "DrawBox_TitleName_1",
+    "Des": "Shop_Box_Text_001",
+    "SRankDes": "",
+    "DesId": "DrawBox_RateName_3",
+    "SRankDesId": "",
+    "DrawBoxRateInfo": [
+      111,
+      112,
+      113,
+      114,
+      115
+    ],
+    "FreeCD": 1,
+    "DayLimit": 999,
+    "ScoreReward": [],
+    "DrawBoxBgA": "stg_icon_rune_drawdi",
+    "DrawBoxBgB": "stg_icon_rune_drawdib"
+  },
+  {
+    "ID": 2,
+    "Key_ID": 111,
+    "Single": [
+      300
+    ],
+    "Ten": 3000,
+    "Title": "DrawBox_TitleName_2",
+    "Des": "Shop_Box_Text_001",
+    "SRankDes": "",
+    "DesId": "DrawBox_RateName_4",
+    "SRankDesId": "",
+    "DrawBoxRateInfo": [
+      211,
+      212,
+      213,
+      214,
+      215,
+      216,
+      217
+    ],
+    "FreeCD": 5,
+    "DayLimit": 999,
+    "ScoreReward": [],
+    "DrawBoxBgA": "stg_icon_rune_superdrawdi",
+    "DrawBoxBgB": "stg_icon_rune_superdrawdib"
+  },
+  {
+    "ID": 3,
+    "Key_ID": 112,
+    "Single": [
+      300
+    ],
+    "Ten": 3000,
+    "Title": "DrawBox_TitleName_3",
+    "Des": "Shop_Box_Text_003",
+    "SRankDes": "Shop_Box_Text_003",
+    "DesId": "DrawBox_RateName_4",
+    "SRankDesId": "DrawBox_RateName_9",
+    "DrawBoxRateInfo": [
+      311,
+      312,
+      313,
+      314,
+      315
+    ],
+    "FreeCD": 5,
+    "DayLimit": 999,
+    "ScoreReward": [],
+    "DrawBoxBgA": "stg_InventoryBox_superdrawdi",
+    "DrawBoxBgB": "stg_InventoryBox_superdrawdib"
+  },
+  {
+    "ID": 4,
+    "Key_ID": 113,
+    "Single": [
+      60
+    ],
+    "Ten": 600,
+    "Title": "DrawBox_TitleName_4",
+    "Des": "Shop_Box_Text_003",
+    "SRankDes": "",
+    "DesId": "DrawBox_RateName_2",
+    "SRankDesId": "",
+    "DrawBoxRateInfo": [
+      411,
+      412
+    ],
+    "FreeCD": 1,
+    "DayLimit": 999,
+    "ScoreReward": [],
+    "DrawBoxBgA": "stg_InventoryBox_drawdi",
+    "DrawBoxBgB": "stg_InventoryBox_drawdib"
+  },
+  {
+    "ID": 5,
+    "Key_ID": 151,
+    "Single": [
+      300
+    ],
+    "Ten": 3000,
+    "Title": "DrawBox_TitleName_5",
+    "Des": "Shop_Box_Text_004",
+    "SRankDes": "",
+    "DesId": "DrawBox_RateName_4",
+    "SRankDesId": "",
+    "DrawBoxRateInfo": [
+      511,
+      512,
+      513
+    ],
+    "FreeCD": 5,
+    "DayLimit": 999,
+    "ScoreReward": [],
+    "DrawBoxBgA": "stg_icon_wingman_drawdi",
+    "DrawBoxBgB": "stg_icon_wingman_drawdi"
+  }
+]

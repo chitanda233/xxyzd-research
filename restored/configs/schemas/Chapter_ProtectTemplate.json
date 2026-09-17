@@ -1,0 +1,87 @@
+{
+  "name": "Chapter_ProtectTemplate",
+  "assembly": "HotFixBattle.dll",
+  "read_impl_rva": "0x68b4fdc",
+  "fields": [
+    {
+      "type": "int",
+      "name": "id",
+      "offset": 32,
+      "reader": "readInt"
+    },
+    {
+      "type": "float",
+      "name": "HpRate_1",
+      "offset": 36,
+      "reader": "readFloat"
+    },
+    {
+      "type": "float",
+      "name": "HpRate_2",
+      "offset": 40,
+      "reader": "readFloat"
+    },
+    {
+      "type": "float",
+      "name": "HpRate_3",
+      "offset": 44,
+      "reader": "readFloat"
+    },
+    {
+      "type": "float",
+      "name": "HpRate_4",
+      "offset": 48,
+      "reader": "readFloat"
+    },
+    {
+      "type": "float",
+      "name": "HpRate_5",
+      "offset": 52,
+      "reader": "readFloat"
+    },
+    {
+      "type": "float",
+      "name": "HpRate_6",
+      "offset": 56,
+      "reader": "readFloat"
+    },
+    {
+      "type": "float",
+      "name": "HpRate_7",
+      "offset": 60,
+      "reader": "readFloat"
+    },
+    {
+      "type": "float",
+      "name": "HpRate_8",
+      "offset": 64,
+      "reader": "readFloat"
+    },
+    {
+      "type": "float",
+      "name": "HpRate_9",
+      "offset": 68,
+      "reader": "readFloat"
+    },
+    {
+      "type": "float",
+      "name": "HpRate_10",
+      "offset": 72,
+      "reader": "readFloat"
+    }
+  ],
+  "native_reader_calls": [
+    "readInt",
+    "readFloat",
+    "readFloat",
+    "readFloat",
+    "readFloat",
+    "readFloat",
+    "readFloat",
+    "readFloat",
+    "readFloat",
+    "readFloat",
+    "readFloat"
+  ],
+  "field_count_matches_native_calls": true
+}

@@ -1,0 +1,789 @@
+[
+  {
+    "key": "ItemGoldId",
+    "Desc": "在道具表中金币的ID",
+    "TypeInt": 2,
+    "TypeIntArray": [],
+    "TypeString": "",
+    "TypeFloat": 0.0,
+    "TypeFloatArray": [],
+    "TypeStringArray": []
+  },
+  {
+    "key": "ItemVitalityId",
+    "Desc": "在道具表中体力的ID",
+    "TypeInt": 4,
+    "TypeIntArray": [],
+    "TypeString": "",
+    "TypeFloat": 0.0,
+    "TypeFloatArray": [],
+    "TypeStringArray": []
+  },
+  {
+    "key": "ItemCurrencyType",
+    "Desc": "道具货币类型",
+    "TypeInt": 0,
+    "TypeIntArray": [],
+    "TypeString": "",
+    "TypeFloat": 0.0,
+    "TypeFloatArray": [],
+    "TypeStringArray": []
+  },
+  {
+    "key": "SevendaysMaildId",
+    "Desc": "活动邮件id",
+    "TypeInt": 0,
+    "TypeIntArray": [],
+    "TypeString": "todo",
+    "TypeFloat": 0.0,
+    "TypeFloatArray": [],
+    "TypeStringArray": []
+  },
+  {
+    "key": "NickName_MinLength",
+    "Desc": "昵称最小长度",
+    "TypeInt": 3,
+    "TypeIntArray": [],
+    "TypeString": "",
+    "TypeFloat": 0.0,
+    "TypeFloatArray": [],
+    "TypeStringArray": []
+  },
+  {
+    "key": "NickName_MaxLength",
+    "Desc": "昵称最大长度",
+    "TypeInt": 18,
+    "TypeIntArray": [],
+    "TypeString": "",
+    "TypeFloat": 0.0,
+    "TypeFloatArray": [],
+    "TypeStringArray": []
+  },
+  {
+    "key": "HeartBeatInterval",
+    "Desc": "心跳间隔(秒)",
+    "TypeInt": 10,
+    "TypeIntArray": [],
+    "TypeString": "",
+    "TypeFloat": 0.0,
+    "TypeFloatArray": [],
+    "TypeStringArray": []
+  },
+  {
+    "key": "ChangeNameCD",
+    "Desc": "改名CD(秒)",
+    "TypeInt": 86400,
+    "TypeIntArray": [],
+    "TypeString": "",
+    "TypeFloat": 0.0,
+    "TypeFloatArray": [],
+    "TypeStringArray": []
+  },
+  {
+    "key": "ChangeNameCostDiamondCount",
+    "Desc": "改名消耗钻石数量",
+    "TypeInt": 100,
+    "TypeIntArray": [],
+    "TypeString": "",
+    "TypeFloat": 0.0,
+    "TypeFloatArray": [],
+    "TypeStringArray": []
+  },
+  {
+    "key": "VitalityMax",
+    "Desc": "体力上限",
+    "TypeInt": 30,
+    "TypeIntArray": [],
+    "TypeString": "",
+    "TypeFloat": 0.0,
+    "TypeFloatArray": [],
+    "TypeStringArray": []
+  },
+  {
+    "key": "VitalityRecoveryDuration",
+    "Desc": "体力回复时间（秒）",
+    "TypeInt": 960,
+    "TypeIntArray": [],
+    "TypeString": "",
+    "TypeFloat": 0.0,
+    "TypeFloatArray": [],
+    "TypeStringArray": []
+  },
+  {
+    "key": "VitalityCostMainMission",
+    "Desc": "主线关卡消耗体力",
+    "TypeInt": 5,
+    "TypeIntArray": [],
+    "TypeString": "",
+    "TypeFloat": 0.0,
+    "TypeFloatArray": [],
+    "TypeStringArray": []
+  },
+  {
+    "key": "SupplyTime",
+    "Desc": "每次补给的服务器固定时间",
+    "TypeInt": 0,
+    "TypeIntArray": [],
+    "TypeString": "0,8,16",
+    "TypeFloat": 0.0,
+    "TypeFloatArray": [],
+    "TypeStringArray": []
+  },
+  {
+    "key": "SupplyCount",
+    "Desc": "每次补给获得体力数量",
+    "TypeInt": 15,
+    "TypeIntArray": [],
+    "TypeString": "",
+    "TypeFloat": 0.0,
+    "TypeFloatArray": [],
+    "TypeStringArray": []
+  },
+  {
+    "key": "SupplyMaxStorage",
+    "Desc": "已获得补给的存储份数上限",
+    "TypeInt": 60,
+    "TypeIntArray": [],
+    "TypeString": "",
+    "TypeFloat": 0.0,
+    "TypeFloatArray": [],
+    "TypeStringArray": []
+  },
+  {
+    "key": "AvatarDefaultFrameId",
+    "Desc": "默认头像框",
+    "TypeInt": 60000,
+    "TypeIntArray": [],
+    "TypeString": "",
+    "TypeFloat": 0.0,
+    "TypeFloatArray": [],
+    "TypeStringArray": []
+  },
+  {
+    "key": "AvatarDefaultId",
+    "Desc": "默认头像",
+    "TypeInt": 61000,
+    "TypeIntArray": [],
+    "TypeString": "",
+    "TypeFloat": 0.0,
+    "TypeFloatArray": [],
+    "TypeStringArray": []
+  },
+  {
+    "key": "InitRoleId",
+    "Desc": "初始角色",
+    "TypeInt": 10100,
+    "TypeIntArray": [],
+    "TypeString": "",
+    "TypeFloat": 0.0,
+    "TypeFloatArray": [],
+    "TypeStringArray": []
+  },
+  {
+    "key": "InitAirplaneGun",
+    "Desc": "初始机炮",
+    "TypeInt": 20101,
+    "TypeIntArray": [],
+    "TypeString": "",
+    "TypeFloat": 0.0,
+    "TypeFloatArray": [],
+    "TypeStringArray": []
+  },
+  {
+    "key": "InitItems",
+    "Desc": "初始化道具",
+    "TypeInt": 0,
+    "TypeIntArray": [],
+    "TypeString": "2,200|4,20|135,1|801,20",
+    "TypeFloat": 0.0,
+    "TypeFloatArray": [],
+    "TypeStringArray": []
+  },
+  {
+    "key": "UserDefaultGold",
+    "Desc": "账户创建时默认金币数量",
+    "TypeInt": 0,
+    "TypeIntArray": [],
+    "TypeString": "",
+    "TypeFloat": 0.0,
+    "TypeFloatArray": [],
+    "TypeStringArray": []
+  },
+  {
+    "key": "HangUpInterval",
+    "Desc": "挂机结算间隔(秒)",
+    "TypeInt": 600,
+    "TypeIntArray": [],
+    "TypeString": "",
+    "TypeFloat": 0.0,
+    "TypeFloatArray": [],
+    "TypeStringArray": []
+  },
+  {
+    "key": "HangUpMaxTime",
+    "Desc": "挂机时间上限(秒)",
+    "TypeInt": 28800,
+    "TypeIntArray": [],
+    "TypeString": "",
+    "TypeFloat": 0.0,
+    "TypeFloatArray": [],
+    "TypeStringArray": []
+  },
+  {
+    "key": "HangUpFastGet",
+    "Desc": "快速挂机时奖励按多少次普通掉落算",
+    "TypeInt": 1,
+    "TypeIntArray": [],
+    "TypeString": "",
+    "TypeFloat": 0.0,
+    "TypeFloatArray": [],
+    "TypeStringArray": []
+  },
+  {
+    "key": "HangUpFastGetCount",
+    "Desc": "快速挂机每日用体力买最多几次",
+    "TypeInt": 3,
+    "TypeIntArray": [],
+    "TypeString": "",
+    "TypeFloat": 0.0,
+    "TypeFloatArray": [],
+    "TypeStringArray": []
+  },
+  {
+    "key": "HangUpFastGetCostVitality",
+    "Desc": "快速挂机消耗多少体力",
+    "TypeInt": 5,
+    "TypeIntArray": [],
+    "TypeString": "",
+    "TypeFloat": 0.0,
+    "TypeFloatArray": [],
+    "TypeStringArray": []
+  },
+  {
+    "key": "HangUpOpenRewardTime",
+    "Desc": "挂机首次奖励",
+    "TypeInt": 0,
+    "TypeIntArray": [],
+    "TypeString": "",
+    "TypeFloat": 0.0,
+    "TypeFloatArray": [],
+    "TypeStringArray": []
+  },
+  {
+    "key": "HangUpAdId",
+    "Desc": "快速挂机广告Id",
+    "TypeInt": 6,
+    "TypeIntArray": [],
+    "TypeString": "",
+    "TypeFloat": 0.0,
+    "TypeFloatArray": [],
+    "TypeStringArray": []
+  },
+  {
+    "key": "HangUpExtraGold",
+    "Desc": "挂机金币奖励倍率（1为1倍），但是快速挂机不变",
+    "TypeInt": 1,
+    "TypeIntArray": [],
+    "TypeString": "",
+    "TypeFloat": 0.0,
+    "TypeFloatArray": [],
+    "TypeStringArray": []
+  },
+  {
+    "key": "TalentEpicCoin",
+    "Desc": "高级天赋抽取货币兑换条件",
+    "TypeInt": 0,
+    "TypeIntArray": [
+      15,
+      135
+    ],
+    "TypeString": "",
+    "TypeFloat": 0.0,
+    "TypeFloatArray": [],
+    "TypeStringArray": []
+  },
+  {
+    "key": "CardBattleGoldID",
+    "Desc": "天赋投放的击杀怪物金币数量增加的ID",
+    "TypeInt": 0,
+    "TypeIntArray": [
+      54004
+    ],
+    "TypeString": "",
+    "TypeFloat": 0.0,
+    "TypeFloatArray": [],
+    "TypeStringArray": []
+  },
+  {
+    "key": "CardHangUpRewardsID",
+    "Desc": "天赋投放的挂机收益提升的ID",
+    "TypeInt": 0,
+    "TypeIntArray": [
+      55010
+    ],
+    "TypeString": "",
+    "TypeFloat": 0.0,
+    "TypeFloatArray": [],
+    "TypeStringArray": []
+  },
+  {
+    "key": "MaxMissionId",
+    "Desc": "最大章节id（开服天数1，最大章节1,|开服天数2，最大章节2...",
+    "TypeInt": 0,
+    "TypeIntArray": [],
+    "TypeString": "1,20|2,40|3,60|4,70",
+    "TypeFloat": 0.0,
+    "TypeFloatArray": [],
+    "TypeStringArray": []
+  },
+  {
+    "key": "StarFightUnlockMissionId",
+    "Desc": "三星挑战解锁章节",
+    "TypeInt": 1,
+    "TypeIntArray": [],
+    "TypeString": "",
+    "TypeFloat": 0.0,
+    "TypeFloatArray": [],
+    "TypeStringArray": []
+  },
+  {
+    "key": "GoldDungeonTickId",
+    "Desc": "金币本扫荡券item id",
+    "TypeInt": 126,
+    "TypeIntArray": [],
+    "TypeString": "",
+    "TypeFloat": 0.0,
+    "TypeFloatArray": [],
+    "TypeStringArray": []
+  },
+  {
+    "key": "GoldDungeonTickShopId",
+    "Desc": "金币本扫荡券商店shop id",
+    "TypeInt": 11,
+    "TypeIntArray": [],
+    "TypeString": "",
+    "TypeFloat": 0.0,
+    "TypeFloatArray": [],
+    "TypeStringArray": []
+  },
+  {
+    "key": "GoldDungeonTickGoodsId",
+    "Desc": "金币本扫荡券商品shop goods id",
+    "TypeInt": 1004,
+    "TypeIntArray": [],
+    "TypeString": "",
+    "TypeFloat": 0.0,
+    "TypeFloatArray": [],
+    "TypeStringArray": []
+  },
+  {
+    "key": "GoldDungeonTicketDailyRecover",
+    "Desc": "金币本扫荡券每天回复几个",
+    "TypeInt": 1,
+    "TypeIntArray": [],
+    "TypeString": "",
+    "TypeFloat": 0.0,
+    "TypeFloatArray": [],
+    "TypeStringArray": []
+  },
+  {
+    "key": "GoldDungeonCount",
+    "Desc": "金币洞窟每日次数",
+    "TypeInt": 1,
+    "TypeIntArray": [],
+    "TypeString": "",
+    "TypeFloat": 0.0,
+    "TypeFloatArray": [],
+    "TypeStringArray": []
+  },
+  {
+    "key": "GoldDungeonAdId",
+    "Desc": "金币洞窟广告id",
+    "TypeInt": 7,
+    "TypeIntArray": [],
+    "TypeString": "",
+    "TypeFloat": 0.0,
+    "TypeFloatArray": [],
+    "TypeStringArray": []
+  },
+  {
+    "key": "GoldDungeonCostVitality",
+    "Desc": "金币本消耗多少体力（扫荡、挑战胜利）",
+    "TypeInt": 5,
+    "TypeIntArray": [],
+    "TypeString": "",
+    "TypeFloat": 0.0,
+    "TypeFloatArray": [],
+    "TypeStringArray": []
+  },
+  {
+    "key": "TowerTickId",
+    "Desc": "试练塔票id",
+    "TypeInt": 118,
+    "TypeIntArray": [],
+    "TypeString": "",
+    "TypeFloat": 0.0,
+    "TypeFloatArray": [],
+    "TypeStringArray": []
+  },
+  {
+    "key": "TowerTicketDailyRecover",
+    "Desc": "试练塔票每天回复几个",
+    "TypeInt": 10,
+    "TypeIntArray": [],
+    "TypeString": "",
+    "TypeFloat": 0.0,
+    "TypeFloatArray": [],
+    "TypeStringArray": []
+  },
+  {
+    "key": "TowerTickShopId",
+    "Desc": "试练塔门票商店shop id",
+    "TypeInt": 11,
+    "TypeIntArray": [],
+    "TypeString": "",
+    "TypeFloat": 0.0,
+    "TypeFloatArray": [],
+    "TypeStringArray": []
+  },
+  {
+    "key": "TowerTickGoodsId",
+    "Desc": "试练塔门票商品shopgoods id",
+    "TypeInt": 1002,
+    "TypeIntArray": [],
+    "TypeString": "",
+    "TypeFloat": 0.0,
+    "TypeFloatArray": [],
+    "TypeStringArray": []
+  },
+  {
+    "key": "DailyActiveScoreID",
+    "Desc": "日常任务积分ID",
+    "TypeInt": 5,
+    "TypeIntArray": [],
+    "TypeString": "",
+    "TypeFloat": 0.0,
+    "TypeFloatArray": [],
+    "TypeStringArray": []
+  },
+  {
+    "key": "DailyActiveScoreBoxReward",
+    "Desc": "日常任务积分宝箱序列",
+    "TypeInt": 0,
+    "TypeIntArray": [
+      1001,
+      1002,
+      1003,
+      1004,
+      1005
+    ],
+    "TypeString": "",
+    "TypeFloat": 0.0,
+    "TypeFloatArray": [],
+    "TypeStringArray": []
+  },
+  {
+    "key": "WeeklyActiveScoreID",
+    "Desc": "周常任务积分ID",
+    "TypeInt": 6,
+    "TypeIntArray": [],
+    "TypeString": "",
+    "TypeFloat": 0.0,
+    "TypeFloatArray": [],
+    "TypeStringArray": []
+  },
+  {
+    "key": "WeeklyActiveScoreBoxReward",
+    "Desc": "周常任务积分宝箱序列",
+    "TypeInt": 0,
+    "TypeIntArray": [
+      2001,
+      2002,
+      2003,
+      2004,
+      2005
+    ],
+    "TypeString": "",
+    "TypeFloat": 0.0,
+    "TypeFloatArray": [],
+    "TypeStringArray": []
+  },
+  {
+    "key": "RankILikeDailyRewardLimit",
+    "Desc": "排行榜每日点赞可以领取奖励次数限制",
+    "TypeInt": 10,
+    "TypeIntArray": [],
+    "TypeString": "",
+    "TypeFloat": 0.0,
+    "TypeFloatArray": [],
+    "TypeStringArray": []
+  },
+  {
+    "key": "RankILikeReward",
+    "Desc": "排行榜每日点赞奖励",
+    "TypeInt": 0,
+    "TypeIntArray": [
+      1,
+      200
+    ],
+    "TypeString": "",
+    "TypeFloat": 0.0,
+    "TypeFloatArray": [],
+    "TypeStringArray": []
+  },
+  {
+    "key": "DailySpecialByAllGoods",
+    "Desc": "特惠小铺一键购买商品",
+    "TypeInt": 0,
+    "TypeIntArray": [],
+    "TypeString": "1202,1203,1204",
+    "TypeFloat": 0.0,
+    "TypeFloatArray": [],
+    "TypeStringArray": []
+  },
+  {
+    "key": "DailySpecialNormalGoods",
+    "Desc": "特惠小铺普通商品（购买任一后，不可一键）",
+    "TypeInt": 1205,
+    "TypeIntArray": [],
+    "TypeString": "",
+    "TypeFloat": 0.0,
+    "TypeFloatArray": [],
+    "TypeStringArray": []
+  },
+  {
+    "key": "ABTest_Lock",
+    "Desc": "是否开启:0-关 1-开  ",
+    "TypeInt": 0,
+    "TypeIntArray": [],
+    "TypeString": "",
+    "TypeFloat": 0.0,
+    "TypeFloatArray": [],
+    "TypeStringArray": []
+  },
+  {
+    "key": "ABTest_Group_A",
+    "Desc": "A组的定义：取id的最后一位",
+    "TypeInt": 0,
+    "TypeIntArray": [
+      1,
+      3,
+      5,
+      7,
+      9
+    ],
+    "TypeString": "",
+    "TypeFloat": 0.0,
+    "TypeFloatArray": [],
+    "TypeStringArray": []
+  },
+  {
+    "key": "ABTest_Group_B",
+    "Desc": "B组的定义：取id的最后一位",
+    "TypeInt": 0,
+    "TypeIntArray": [
+      2,
+      4,
+      6,
+      8,
+      0
+    ],
+    "TypeString": "",
+    "TypeFloat": 0.0,
+    "TypeFloatArray": [],
+    "TypeStringArray": []
+  },
+  {
+    "key": "BPExpFromVitality",
+    "Desc": "体力转换的通行证经验（1体力=？经验）",
+    "TypeInt": 2,
+    "TypeIntArray": [],
+    "TypeString": "",
+    "TypeFloat": 0.0,
+    "TypeFloatArray": [],
+    "TypeStringArray": []
+  },
+  {
+    "key": "ActivityCalendarStartTime",
+    "Desc": "冲刺活动循环的开启时间(开服+N天)",
+    "TypeInt": 1,
+    "TypeIntArray": [],
+    "TypeString": "",
+    "TypeFloat": 0.0,
+    "TypeFloatArray": [],
+    "TypeStringArray": []
+  },
+  {
+    "key": "CalendarRoundTarget",
+    "Desc": "冲刺活动目标类型-参数",
+    "TypeInt": 0,
+    "TypeIntArray": [],
+    "TypeString": "101,1,3|102,1,5",
+    "TypeFloat": 0.0,
+    "TypeFloatArray": [],
+    "TypeStringArray": []
+  },
+  {
+    "key": "WorldBossFreeCount",
+    "Desc": "世界boss每日免费次数",
+    "TypeInt": 2,
+    "TypeIntArray": [],
+    "TypeString": "",
+    "TypeFloat": 0.0,
+    "TypeFloatArray": [],
+    "TypeStringArray": []
+  },
+  {
+    "key": "WorldBossAdId",
+    "Desc": "世界boss广告id",
+    "TypeInt": 8,
+    "TypeIntArray": [],
+    "TypeString": "",
+    "TypeFloat": 0.0,
+    "TypeFloatArray": [],
+    "TypeStringArray": []
+  },
+  {
+    "key": "WorldBossRuneListRefreshCost",
+    "Desc": "星际入侵芯片池刷新消耗",
+    "TypeInt": 0,
+    "TypeIntArray": [
+      2,
+      30
+    ],
+    "TypeString": "",
+    "TypeFloat": 0.0,
+    "TypeFloatArray": [],
+    "TypeStringArray": []
+  },
+  {
+    "key": "RuneTickShopId",
+    "Desc": "符文洞窟门票商店id",
+    "TypeInt": 27,
+    "TypeIntArray": [],
+    "TypeString": "",
+    "TypeFloat": 0.0,
+    "TypeFloatArray": [],
+    "TypeStringArray": []
+  },
+  {
+    "key": "RuneTickGoodsId",
+    "Desc": "符文洞窟门票商品id",
+    "TypeInt": 1003,
+    "TypeIntArray": [],
+    "TypeString": "",
+    "TypeFloat": 0.0,
+    "TypeFloatArray": [],
+    "TypeStringArray": []
+  },
+  {
+    "key": "RuneTickId",
+    "Desc": "符文洞窟门票id",
+    "TypeInt": 125,
+    "TypeIntArray": [],
+    "TypeString": "",
+    "TypeFloat": 0.0,
+    "TypeFloatArray": [],
+    "TypeStringArray": []
+  },
+  {
+    "key": "RuneTickCostCount",
+    "Desc": "符文洞窟每次门票消耗数量",
+    "TypeInt": 1,
+    "TypeIntArray": [],
+    "TypeString": "",
+    "TypeFloat": 0.0,
+    "TypeFloatArray": [],
+    "TypeStringArray": []
+  },
+  {
+    "key": "RuneDoubleRate",
+    "Desc": "符文双倍概率万分比",
+    "TypeInt": 2500,
+    "TypeIntArray": [],
+    "TypeString": "",
+    "TypeFloat": 0.0,
+    "TypeFloatArray": [],
+    "TypeStringArray": []
+  },
+  {
+    "key": "EquipOneKeyMergeQualityMax",
+    "Desc": "装备大于等于这个品质就不可以一键合成",
+    "TypeInt": 40,
+    "TypeIntArray": [],
+    "TypeString": "",
+    "TypeFloat": 0.0,
+    "TypeFloatArray": [],
+    "TypeStringArray": []
+  },
+  {
+    "key": "InventoryDrawCostScore",
+    "Desc": "召唤获得星愿积分",
+    "TypeInt": 0,
+    "TypeIntArray": [],
+    "TypeString": "115,1",
+    "TypeFloat": 0.0,
+    "TypeFloatArray": [],
+    "TypeStringArray": []
+  },
+  {
+    "key": "InventoryDrawScoreExchangeItem",
+    "Desc": "星愿积分转化所需积分和获得物星愿币",
+    "TypeInt": 0,
+    "TypeIntArray": [],
+    "TypeString": "100,113",
+    "TypeFloat": 0.0,
+    "TypeFloatArray": [],
+    "TypeStringArray": []
+  },
+  {
+    "key": "InventorySuperDrawRefreshCostItem",
+    "Desc": "机魂馈赠刷新消耗道具ID",
+    "TypeInt": 114,
+    "TypeIntArray": [],
+    "TypeString": "",
+    "TypeFloat": 0.0,
+    "TypeFloatArray": [],
+    "TypeStringArray": []
+  },
+  {
+    "key": "InventorySuperDrawDailyRefresh",
+    "Desc": "机魂馈赠每日免费刷新次数",
+    "TypeInt": 1,
+    "TypeIntArray": [],
+    "TypeString": "",
+    "TypeFloat": 0.0,
+    "TypeFloatArray": [],
+    "TypeStringArray": []
+  },
+  {
+    "key": "InventorySuperDrawUnlock",
+    "Desc": "机魂馈赠解锁条件(装备召唤等级)",
+    "TypeInt": 99,
+    "TypeIntArray": [],
+    "TypeString": "",
+    "TypeFloat": 0.0,
+    "TypeFloatArray": [],
+    "TypeStringArray": []
+  },
+  {
+    "key": "InventoryExchangeUnlock",
+    "Desc": "装备召唤兑换商店解锁条件(装备召唤等级)",
+    "TypeInt": 99,
+    "TypeIntArray": [],
+    "TypeString": "",
+    "TypeFloat": 0.0,
+    "TypeFloatArray": [],
+    "TypeStringArray": []
+  },
+  {
+    "key": "MergetoHighestQuality",
+    "Desc": "装备合成一键合成最高品质",
+    "TypeInt": 40,
+    "TypeIntArray": [],
+    "TypeString": "",
+    "TypeFloat": 0.0,
+    "TypeFloatArray": [],
+    "TypeStringArray": []
+  }
+]

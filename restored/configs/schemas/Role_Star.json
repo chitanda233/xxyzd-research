@@ -1,0 +1,87 @@
+{
+  "name": "Role_Star",
+  "assembly": "HotFixBattle.dll",
+  "read_impl_rva": "0x6ae27e4",
+  "fields": [
+    {
+      "type": "int",
+      "name": "Id",
+      "offset": 32,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "RoleId",
+      "offset": 36,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "Star",
+      "offset": 40,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "StarStep",
+      "offset": 44,
+      "reader": "readInt"
+    },
+    {
+      "type": "int[][]",
+      "name": "StarStepCost",
+      "offset": 48,
+      "reader": "readArrayArrayint"
+    },
+    {
+      "type": "string[]",
+      "name": "AttrOnStarStep",
+      "offset": 56,
+      "reader": "readArraystring"
+    },
+    {
+      "type": "int",
+      "name": "MaxLevel",
+      "offset": 64,
+      "reader": "readInt"
+    },
+    {
+      "type": "string[]",
+      "name": "AttrOnLevelUp",
+      "offset": 72,
+      "reader": "readArraystring"
+    },
+    {
+      "type": "int[][]",
+      "name": "StarUpCost",
+      "offset": 80,
+      "reader": "readArrayArrayint"
+    },
+    {
+      "type": "string[]",
+      "name": "FeatureOnStarUpSelf",
+      "offset": 88,
+      "reader": "readArraystring"
+    },
+    {
+      "type": "string[]",
+      "name": "FeatureOnStarUpAll",
+      "offset": 96,
+      "reader": "readArraystring"
+    }
+  ],
+  "native_reader_calls": [
+    "readInt",
+    "readInt",
+    "readInt",
+    "readInt",
+    "readArrayArrayint",
+    "readArraystring",
+    "readInt",
+    "readArraystring",
+    "readArrayArrayint",
+    "readArraystring",
+    "readArraystring"
+  ],
+  "field_count_matches_native_calls": true
+}

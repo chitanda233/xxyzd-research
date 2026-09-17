@@ -1,0 +1,234 @@
+[
+  {
+    "ID": "HPMax",
+    "LanguageId": 901,
+    "ParaLanguageId": 951,
+    "DisplayOrNot": 1,
+    "iconAtlasID": 41,
+    "iconName": "hp"
+  },
+  {
+    "ID": "HPMax%",
+    "LanguageId": 902,
+    "ParaLanguageId": 952,
+    "DisplayOrNot": 0,
+    "iconAtlasID": 0,
+    "iconName": ""
+  },
+  {
+    "ID": "Attack",
+    "LanguageId": 903,
+    "ParaLanguageId": 953,
+    "DisplayOrNot": 1,
+    "iconAtlasID": 41,
+    "iconName": "attack"
+  },
+  {
+    "ID": "Attack%",
+    "LanguageId": 904,
+    "ParaLanguageId": 954,
+    "DisplayOrNot": 0,
+    "iconAtlasID": 0,
+    "iconName": ""
+  },
+  {
+    "ID": "Defence",
+    "LanguageId": 905,
+    "ParaLanguageId": 955,
+    "DisplayOrNot": 1,
+    "iconAtlasID": 41,
+    "iconName": "defense"
+  },
+  {
+    "ID": "Shield",
+    "LanguageId": 906,
+    "ParaLanguageId": 956,
+    "DisplayOrNot": 0,
+    "iconAtlasID": 0,
+    "iconName": ""
+  },
+  {
+    "ID": "Defence%",
+    "LanguageId": 907,
+    "ParaLanguageId": 957,
+    "DisplayOrNot": 0,
+    "iconAtlasID": 0,
+    "iconName": ""
+  },
+  {
+    "ID": "CritRate%",
+    "LanguageId": 908,
+    "ParaLanguageId": 958,
+    "DisplayOrNot": 1,
+    "iconAtlasID": 0,
+    "iconName": ""
+  },
+  {
+    "ID": "CritValue%",
+    "LanguageId": 909,
+    "ParaLanguageId": 959,
+    "DisplayOrNot": 1,
+    "iconAtlasID": 0,
+    "iconName": ""
+  },
+  {
+    "ID": "CritResist%",
+    "LanguageId": 910,
+    "ParaLanguageId": 960,
+    "DisplayOrNot": 0,
+    "iconAtlasID": 0,
+    "iconName": ""
+  },
+  {
+    "ID": "HitValue",
+    "LanguageId": 911,
+    "ParaLanguageId": 961,
+    "DisplayOrNot": 0,
+    "iconAtlasID": 0,
+    "iconName": ""
+  },
+  {
+    "ID": "HitRate%",
+    "LanguageId": 912,
+    "ParaLanguageId": 962,
+    "DisplayOrNot": 0,
+    "iconAtlasID": 0,
+    "iconName": ""
+  },
+  {
+    "ID": "MissValue",
+    "LanguageId": 913,
+    "ParaLanguageId": 963,
+    "DisplayOrNot": 0,
+    "iconAtlasID": 0,
+    "iconName": ""
+  },
+  {
+    "ID": "MissRate%",
+    "LanguageId": 914,
+    "ParaLanguageId": 964,
+    "DisplayOrNot": 0,
+    "iconAtlasID": 0,
+    "iconName": ""
+  },
+  {
+    "ID": "Rapidly",
+    "LanguageId": 915,
+    "ParaLanguageId": 965,
+    "DisplayOrNot": 0,
+    "iconAtlasID": 0,
+    "iconName": ""
+  },
+  {
+    "ID": "AttackSpeed",
+    "LanguageId": 916,
+    "ParaLanguageId": 966,
+    "DisplayOrNot": 0,
+    "iconAtlasID": 0,
+    "iconName": ""
+  },
+  {
+    "ID": "AttackSpeed%",
+    "LanguageId": 917,
+    "ParaLanguageId": 967,
+    "DisplayOrNot": 1,
+    "iconAtlasID": 0,
+    "iconName": ""
+  },
+  {
+    "ID": "MoveSpeed",
+    "LanguageId": 918,
+    "ParaLanguageId": 968,
+    "DisplayOrNot": 0,
+    "iconAtlasID": 0,
+    "iconName": ""
+  },
+  {
+    "ID": "MoveSpeed%",
+    "LanguageId": 919,
+    "ParaLanguageId": 969,
+    "DisplayOrNot": 0,
+    "iconAtlasID": 0,
+    "iconName": ""
+  },
+  {
+    "ID": "AutoHP",
+    "LanguageId": 920,
+    "ParaLanguageId": 970,
+    "DisplayOrNot": 0,
+    "iconAtlasID": 0,
+    "iconName": ""
+  },
+  {
+    "ID": "AutoHP%",
+    "LanguageId": 921,
+    "ParaLanguageId": 971,
+    "DisplayOrNot": 0,
+    "iconAtlasID": 0,
+    "iconName": ""
+  },
+  {
+    "ID": "DamageMagicReduceRate%",
+    "LanguageId": 922,
+    "ParaLanguageId": 972,
+    "DisplayOrNot": 0,
+    "iconAtlasID": 0,
+    "iconName": ""
+  },
+  {
+    "ID": "DamagePhysicalReduceRate%",
+    "LanguageId": 923,
+    "ParaLanguageId": 973,
+    "DisplayOrNot": 0,
+    "iconAtlasID": 0,
+    "iconName": ""
+  },
+  {
+    "ID": "Vampire%",
+    "LanguageId": 924,
+    "ParaLanguageId": 974,
+    "DisplayOrNot": 0,
+    "iconAtlasID": 0,
+    "iconName": ""
+  },
+  {
+    "ID": "RechargeMax",
+    "LanguageId": 925,
+    "ParaLanguageId": 975,
+    "DisplayOrNot": 0,
+    "iconAtlasID": 0,
+    "iconName": ""
+  },
+  {
+    "ID": "RechargeMaxe%",
+    "LanguageId": 926,
+    "ParaLanguageId": 976,
+    "DisplayOrNot": 0,
+    "iconAtlasID": 0,
+    "iconName": ""
+  },
+  {
+    "ID": "Recharge",
+    "LanguageId": 927,
+    "ParaLanguageId": 977,
+    "DisplayOrNot": 0,
+    "iconAtlasID": 0,
+    "iconName": ""
+  },
+  {
+    "ID": "Recharge%",
+    "LanguageId": 928,
+    "ParaLanguageId": 978,
+    "DisplayOrNot": 0,
+    "iconAtlasID": 0,
+    "iconName": ""
+  },
+  {
+    "ID": "AddRecharge%",
+    "LanguageId": 929,
+    "ParaLanguageId": 979,
+    "DisplayOrNot": 0,
+    "iconAtlasID": 0,
+    "iconName": ""
+  }
+]

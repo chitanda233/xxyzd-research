@@ -1,0 +1,192 @@
+{
+  "name": "GameMember_member",
+  "assembly": "HotFixBattle.dll",
+  "read_impl_rva": "0x6a804e0",
+  "fields": [
+    {
+      "type": "int",
+      "name": "id",
+      "offset": 32,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "modelID",
+      "offset": 36,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "nameLanguageID",
+      "offset": 40,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "infoLanguageID",
+      "offset": 44,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "iconAtlasID",
+      "offset": 48,
+      "reader": "readInt"
+    },
+    {
+      "type": "string",
+      "name": "iconSpriteName",
+      "offset": 56,
+      "reader": "readLocalString"
+    },
+    {
+      "type": "int",
+      "name": "roleType",
+      "offset": 64,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "meatType",
+      "offset": 68,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "aiTypeID",
+      "offset": 72,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "isAttackMove",
+      "offset": 76,
+      "reader": "readInt"
+    },
+    {
+      "type": "int[]",
+      "name": "skillIDs",
+      "offset": 80,
+      "reader": "readArrayint"
+    },
+    {
+      "type": "int",
+      "name": "recharge",
+      "offset": 88,
+      "reader": "readInt"
+    },
+    {
+      "type": "int[]",
+      "name": "coreSkillIDs",
+      "offset": 96,
+      "reader": "readArrayint"
+    },
+    {
+      "type": "string",
+      "name": "baseAttributes",
+      "offset": 104,
+      "reader": "readLocalString"
+    },
+    {
+      "type": "int",
+      "name": "hitEffectID",
+      "offset": 112,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "jellyid",
+      "offset": 116,
+      "reader": "readInt"
+    },
+    {
+      "type": "float",
+      "name": "hitRimScale",
+      "offset": 120,
+      "reader": "readFloat"
+    },
+    {
+      "type": "float",
+      "name": "hitRimTime",
+      "offset": 124,
+      "reader": "readFloat"
+    },
+    {
+      "type": "int",
+      "name": "appearSoundID",
+      "offset": 128,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "hitSoundID",
+      "offset": 132,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "dieSoundID",
+      "offset": 136,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "dropExp",
+      "offset": 140,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "dropShell",
+      "offset": 144,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "dropCoin",
+      "offset": 148,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "initSkinID",
+      "offset": 152,
+      "reader": "readInt"
+    },
+    {
+      "type": "string[]",
+      "name": "displayAnimation",
+      "offset": 160,
+      "reader": "readArraystring"
+    }
+  ],
+  "native_reader_calls": [
+    "readInt",
+    "readInt",
+    "readInt",
+    "readInt",
+    "readInt",
+    "readLocalString",
+    "readInt",
+    "readInt",
+    "readInt",
+    "readInt",
+    "readArrayint",
+    "readInt",
+    "readArrayint",
+    "readLocalString",
+    "readInt",
+    "readInt",
+    "readFloat",
+    "readFloat",
+    "readInt",
+    "readInt",
+    "readInt",
+    "readInt",
+    "readInt",
+    "readInt",
+    "readInt",
+    "readArraystring"
+  ],
+  "field_count_matches_native_calls": true
+}

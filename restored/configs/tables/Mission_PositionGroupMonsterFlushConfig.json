@@ -1,0 +1,530 @@
+[
+  {
+    "id": 1001001,
+    "flushPool": "[{\"FlushConfigId\":1002005,\"Monster\":[320007,320005],\"Delay\":0},{\"FlushConfigId\":1001023,\"Monster\":[330006],\"Delay\":0},{\"FlushConfigId\":1001033,\"Monster\":[330006],\"Delay\":2},{\"FlushConfigId\":1001032,\"Monster\":[330006],\"Delay\":2},{\"FlushConfigId\":1001034,\"Monster\":[330006],\"Delay\":4},{\"FlushConfigId\":1001035,\"Monster\":[330006],\"Delay\":4},{\"FlushConfigId\":1001023,\"Monster\":[330006],\"Delay\":6},{\"FlushConfigId\":1001009,\"Monster\":[330006],\"Delay\":9},{\"FlushConfigId\":1001010,\"Monster\":[330006],\"Delay\":12.5}]"
+  },
+  {
+    "id": 1001002,
+    "flushPool": "[{\"FlushConfigId\":1001043,\"Monster\":[330005],\"Delay\":0},{\"FlushConfigId\":1001043,\"Monster\":[330005],\"Delay\":0.5},{\"FlushConfigId\":1001043,\"Monster\":[330005],\"Delay\":1}]"
+  },
+  {
+    "id": 1001003,
+    "flushPool": "[{\"FlushConfigId\":1001008,\"Monster\":[330005],\"Delay\":0},{\"FlushConfigId\":1002005,\"Monster\":[320022,320007],\"Delay\":1},{\"FlushConfigId\":1001011,\"Monster\":[330005],\"Delay\":3},{\"FlushConfigId\":1001023,\"Monster\":[330005],\"Delay\":7},{\"FlushConfigId\":1001032,\"Monster\":[330005],\"Delay\":8.5},{\"FlushConfigId\":1001033,\"Monster\":[330005],\"Delay\":8.5},{\"FlushConfigId\":1001036,\"Monster\":[330005],\"Delay\":9},{\"FlushConfigId\":1001033,\"Monster\":[330005],\"Delay\":10.5},{\"FlushConfigId\":1001034,\"Monster\":[330005],\"Delay\":12},{\"FlushConfigId\":1001029,\"Monster\":[330005],\"Delay\":12},{\"FlushConfigId\":1001033,\"Monster\":[330005],\"Delay\":13.5}]"
+  },
+  {
+    "id": 1001004,
+    "flushPool": "[{\"FlushConfigId\":1001023,\"Monster\":[330005],\"Delay\":0},{\"FlushConfigId\":1002005,\"Monster\":[320020,320007],\"Delay\":1},{\"FlushConfigId\":1001032,\"Monster\":[330005],\"Delay\":1.5},{\"FlushConfigId\":1001033,\"Monster\":[330005],\"Delay\":1.5},{\"FlushConfigId\":1001034,\"Monster\":[330005],\"Delay\":3},{\"FlushConfigId\":1001033,\"Monster\":[330005],\"Delay\":3},{\"FlushConfigId\":1001023,\"Monster\":[330005],\"Delay\":4},{\"FlushConfigId\":1001032,\"Monster\":[330005],\"Delay\":5},{\"FlushConfigId\":1001035,\"Monster\":[330005],\"Delay\":5.5},{\"FlushConfigId\":1001032,\"Monster\":[330005],\"Delay\":6},{\"FlushConfigId\":1001041,\"Monster\":[330007],\"Delay\":8},{\"FlushConfigId\":1001042,\"Monster\":[330007],\"Delay\":11.5}]"
+  },
+  {
+    "id": 1001005,
+    "flushPool": "[{\"FlushConfigId\":1001043,\"Monster\":[330005],\"Delay\":0},{\"FlushConfigId\":1001043,\"Monster\":[330005],\"Delay\":0.4},{\"FlushConfigId\":1001043,\"Monster\":[330005],\"Delay\":0.8},{\"FlushConfigId\":1001043,\"Monster\":[330005],\"Delay\":1.2},{\"FlushConfigId\":1001043,\"Monster\":[330007],\"Delay\":1.6},{\"FlushConfigId\":1001043,\"Monster\":[330005],\"Delay\":2},{\"FlushConfigId\":1001043,\"Monster\":[330005],\"Delay\":2.4},{\"FlushConfigId\":1001043,\"Monster\":[330005],\"Delay\":2.8},{\"FlushConfigId\":1001043,\"Monster\":[330005],\"Delay\":3.2},{\"FlushConfigId\":1001043,\"Monster\":[330007],\"Delay\":3.6},{\"FlushConfigId\":1001043,\"Monster\":[330005],\"Delay\":4},{\"FlushConfigId\":1001043,\"Monster\":[330005],\"Delay\":4.4},{\"FlushConfigId\":1001043,\"Monster\":[330005],\"Delay\":4.8},{\"FlushConfigId\":1001043,\"Monster\":[330005],\"Delay\":5.2}]"
+  },
+  {
+    "id": 1001006,
+    "flushPool": "[{\"FlushConfigId\":1001041,\"Monster\":[330007],\"Delay\":0},{\"FlushConfigId\":1001042,\"Monster\":[330007],\"Delay\":4}]"
+  },
+  {
+    "id": 1001007,
+    "flushPool": "[{\"FlushConfigId\":1001043,\"Monster\":[330007],\"Delay\":0},{\"FlushConfigId\":1001043,\"Monster\":[330007],\"Delay\":0.3},{\"FlushConfigId\":1001043,\"Monster\":[330007],\"Delay\":0.6},{\"FlushConfigId\":1001043,\"Monster\":[330007],\"Delay\":0.9},{\"FlushConfigId\":1001043,\"Monster\":[330007],\"Delay\":1.2},{\"FlushConfigId\":1001043,\"Monster\":[330007],\"Delay\":1.5},{\"FlushConfigId\":1001043,\"Monster\":[330007],\"Delay\":1.8},{\"FlushConfigId\":1001043,\"Monster\":[330007],\"Delay\":2.1},{\"FlushConfigId\":1001043,\"Monster\":[330007],\"Delay\":2.4},{\"FlushConfigId\":1001043,\"Monster\":[330007],\"Delay\":2.7},{\"FlushConfigId\":1001043,\"Monster\":[330007],\"Delay\":3}]"
+  },
+  {
+    "id": 1001008,
+    "flushPool": "[{\"FlushConfigId\":1001039,\"Monster\":[330006],\"Delay\":0},{\"FlushConfigId\":1001040,\"Monster\":[330006],\"Delay\":2.5},{\"FlushConfigId\":1001006,\"Monster\":[330006],\"Delay\":5},{\"FlushConfigId\":1001007,\"Monster\":[330006],\"Delay\":7.5}]"
+  },
+  {
+    "id": 1001009,
+    "flushPool": "[{\"FlushConfigId\":1001043,\"Monster\":[330005],\"Delay\":0},{\"FlushConfigId\":1001043,\"Monster\":[330005],\"Delay\":0.3},{\"FlushConfigId\":1001043,\"Monster\":[330005],\"Delay\":0.6},{\"FlushConfigId\":1001043,\"Monster\":[330005],\"Delay\":0.9},{\"FlushConfigId\":1001043,\"Monster\":[330005],\"Delay\":1.2},{\"FlushConfigId\":1001043,\"Monster\":[330007],\"Delay\":1.2}]"
+  },
+  {
+    "id": 1001010,
+    "flushPool": "[{\"FlushConfigId\":1002005,\"Monster\":[320007],\"Delay\":0},{\"FlushConfigId\":1001018,\"Monster\":[330008],\"Delay\":0},{\"FlushConfigId\":1001019,\"Monster\":[330008],\"Delay\":0.3},{\"FlushConfigId\":1001020,\"Monster\":[330008],\"Delay\":0.6},{\"FlushConfigId\":1001021,\"Monster\":[330008],\"Delay\":0.9},{\"FlushConfigId\":1001022,\"Monster\":[330008],\"Delay\":1.2},{\"FlushConfigId\":1001019,\"Monster\":[330008],\"Delay\":1.5},{\"FlushConfigId\":1001020,\"Monster\":[330008],\"Delay\":1.8},{\"FlushConfigId\":1001021,\"Monster\":[330008],\"Delay\":2.1},{\"FlushConfigId\":1001022,\"Monster\":[330008],\"Delay\":2.4}]"
+  },
+  {
+    "id": 1001011,
+    "flushPool": "[{\"FlushConfigId\":1001043,\"Monster\":[330005],\"Delay\":0},{\"FlushConfigId\":1001043,\"Monster\":[330005],\"Delay\":0.3},{\"FlushConfigId\":1001043,\"Monster\":[330005],\"Delay\":0.6},{\"FlushConfigId\":1001043,\"Monster\":[330005],\"Delay\":0.9},{\"FlushConfigId\":1001043,\"Monster\":[330005],\"Delay\":1.2},{\"FlushConfigId\":1001043,\"Monster\":[330005],\"Delay\":1.5},{\"FlushConfigId\":1001043,\"Monster\":[330005],\"Delay\":1.8},{\"FlushConfigId\":1001043,\"Monster\":[330005],\"Delay\":2.1},{\"FlushConfigId\":1001043,\"Monster\":[330005],\"Delay\":2.4},{\"FlushConfigId\":1001043,\"Monster\":[330007],\"Delay\":2.2}]"
+  },
+  {
+    "id": 1001012,
+    "flushPool": "[{\"FlushConfigId\":1001016,\"Monster\":[330005],\"Delay\":0},{\"FlushConfigId\":1001017,\"Monster\":[330005],\"Delay\":0},{\"FlushConfigId\":1001037,\"Monster\":[330007],\"Delay\":5.5}]"
+  },
+  {
+    "id": 1001013,
+    "flushPool": "[{\"FlushConfigId\":1002005,\"Monster\":[320007,320005,320022],\"Delay\":0},{\"FlushConfigId\":1001051,\"Monster\":[330006],\"Delay\":0},{\"FlushConfigId\":1001050,\"Monster\":[330006],\"Delay\":0.5},{\"FlushConfigId\":1001051,\"Monster\":[330006],\"Delay\":1},{\"FlushConfigId\":1001052,\"Monster\":[330006],\"Delay\":1.5},{\"FlushConfigId\":1001050,\"Monster\":[330006],\"Delay\":1.5},{\"FlushConfigId\":1001051,\"Monster\":[330006],\"Delay\":2},{\"FlushConfigId\":1001050,\"Monster\":[330006],\"Delay\":2.3},{\"FlushConfigId\":1001052,\"Monster\":[330006],\"Delay\":2.6},{\"FlushConfigId\":1001051,\"Monster\":[330006],\"Delay\":2.9},{\"FlushConfigId\":1001050,\"Monster\":[330006],\"Delay\":3.2},{\"FlushConfigId\":1001051,\"Monster\":[330006],\"Delay\":3.5},{\"FlushConfigId\":1001052,\"Monster\":[330006],\"Delay\":3.8},{\"FlushConfigId\":1001050,\"Monster\":[330006],\"Delay\":4.1},{\"FlushConfigId\":1001051,\"Monster\":[330006],\"Delay\":4.4},{\"FlushConfigId\":1001050,\"Monster\":[330006],\"Delay\":4.7},{\"FlushConfigId\":1001051,\"Monster\":[330006],\"Delay\":5},{\"FlushConfigId\":1001052,\"Monster\":[330006],\"Delay\":5.3},{\"FlushConfigId\":1001051,\"Monster\":[330006],\"Delay\":5.6},{\"FlushConfigId\":1001050,\"Monster\":[330006],\"Delay\":5.9},{\"FlushConfigId\":1001051,\"Monster\":[330006],\"Delay\":6.2},{\"FlushConfigId\":1001052,\"Monster\":[330006],\"Delay\":6.5},{\"FlushConfigId\":1001053,\"Monster\":[330006],\"Delay\":6.8}]"
+  },
+  {
+    "id": 1001014,
+    "flushPool": "[{\"FlushConfigId\":1001032,\"Monster\":[330006],\"Delay\":0},{\"FlushConfigId\":1001033,\"Monster\":[330006],\"Delay\":2},{\"FlushConfigId\":1001010,\"Monster\":[330006],\"Delay\":4},{\"FlushConfigId\":1001009,\"Monster\":[330006],\"Delay\":5.5},{\"FlushConfigId\":1001014,\"Monster\":[330006],\"Delay\":8},{\"FlushConfigId\":1001015,\"Monster\":[330006],\"Delay\":11}]"
+  },
+  {
+    "id": 1001015,
+    "flushPool": "[{\"FlushConfigId\":1001008,\"Monster\":[330007],\"Delay\":0},{\"FlushConfigId\":1001008,\"Monster\":[330005],\"Delay\":3}]"
+  },
+  {
+    "id": 1001016,
+    "flushPool": "[{\"FlushConfigId\":1001045,\"Monster\":[330005],\"Delay\":0},{\"FlushConfigId\":1001044,\"Monster\":[330005],\"Delay\":1},{\"FlushConfigId\":1001046,\"Monster\":[330005],\"Delay\":2},{\"FlushConfigId\":1001045,\"Monster\":[330005],\"Delay\":3},{\"FlushConfigId\":1001044,\"Monster\":[330005],\"Delay\":4}]"
+  },
+  {
+    "id": 1001017,
+    "flushPool": "[{\"FlushConfigId\":1001016,\"Monster\":[330022],\"Delay\":0},{\"FlushConfigId\":1002027,\"Monster\":[320021],\"Delay\":1},{\"FlushConfigId\":1001017,\"Monster\":[330022],\"Delay\":7.5},{\"FlushConfigId\":1002026,\"Monster\":[320021],\"Delay\":8.5},{\"FlushConfigId\":1001008,\"Monster\":[330007],\"Delay\":16}]"
+  },
+  {
+    "id": 1001018,
+    "flushPool": "[{\"FlushConfigId\":1001008,\"Monster\":[330014],\"Delay\":0},{\"FlushConfigId\":1001008,\"Monster\":[330005],\"Delay\":2},{\"FlushConfigId\":1001008,\"Monster\":[330014],\"Delay\":3},{\"FlushConfigId\":1001008,\"Monster\":[330005],\"Delay\":5}]"
+  },
+  {
+    "id": 1001019,
+    "flushPool": "[{\"FlushConfigId\":1002005,\"Monster\":[320005],\"Delay\":0},{\"FlushConfigId\":1001005,\"Monster\":[330005],\"Delay\":1.5},{\"FlushConfigId\":1001054,\"Monster\":[330005],\"Delay\":3},{\"FlushConfigId\":1001005,\"Monster\":[330005],\"Delay\":4.5},{\"FlushConfigId\":1001054,\"Monster\":[330005],\"Delay\":6}]"
+  },
+  {
+    "id": 1001020,
+    "flushPool": "[{\"FlushConfigId\":1001018,\"Monster\":[330008],\"Delay\":0},{\"FlushConfigId\":1001019,\"Monster\":[330008],\"Delay\":0.2},{\"FlushConfigId\":1001020,\"Monster\":[330008],\"Delay\":0.4},{\"FlushConfigId\":1001021,\"Monster\":[330008],\"Delay\":0.6},{\"FlushConfigId\":1001022,\"Monster\":[330008],\"Delay\":0.8},{\"FlushConfigId\":1001019,\"Monster\":[330008],\"Delay\":1},{\"FlushConfigId\":1001020,\"Monster\":[330008],\"Delay\":1.2},{\"FlushConfigId\":1001021,\"Monster\":[330008],\"Delay\":1.4},{\"FlushConfigId\":1001022,\"Monster\":[330008],\"Delay\":1.6},{\"FlushConfigId\":1001018,\"Monster\":[330008],\"Delay\":1.8},{\"FlushConfigId\":1001019,\"Monster\":[330008],\"Delay\":2},{\"FlushConfigId\":1001020,\"Monster\":[330008],\"Delay\":2.2},{\"FlushConfigId\":1001021,\"Monster\":[330008],\"Delay\":2.4},{\"FlushConfigId\":1001022,\"Monster\":[330008],\"Delay\":2.6},{\"FlushConfigId\":1001019,\"Monster\":[330008],\"Delay\":2.8},{\"FlushConfigId\":1001020,\"Monster\":[330008],\"Delay\":3},{\"FlushConfigId\":1001021,\"Monster\":[330008],\"Delay\":3.2},{\"FlushConfigId\":1001022,\"Monster\":[330008],\"Delay\":3.4},{\"FlushConfigId\":1001018,\"Monster\":[330008],\"Delay\":3.6},{\"FlushConfigId\":1001019,\"Monster\":[330008],\"Delay\":3.8},{\"FlushConfigId\":1001020,\"Monster\":[330008],\"Delay\":4},{\"FlushConfigId\":1001021,\"Monster\":[330008],\"Delay\":4.2},{\"FlushConfigId\":1001022,\"Monster\":[330008],\"Delay\":4.4},{\"FlushConfigId\":1001019,\"Monster\":[330008],\"Delay\":4.6}]"
+  },
+  {
+    "id": 1001021,
+    "flushPool": "[{\"FlushConfigId\":1001056,\"Monster\":[330006],\"Delay\":0},{\"FlushConfigId\":1001057,\"Monster\":[330006],\"Delay\":1},{\"FlushConfigId\":1001023,\"Monster\":[330006],\"Delay\":2},{\"FlushConfigId\":1001056,\"Monster\":[330006],\"Delay\":4},{\"FlushConfigId\":1001057,\"Monster\":[330006],\"Delay\":5},{\"FlushConfigId\":1001033,\"Monster\":[330006],\"Delay\":6},{\"FlushConfigId\":1001010,\"Monster\":[330006],\"Delay\":7},{\"FlushConfigId\":1001009,\"Monster\":[330006],\"Delay\":9}]"
+  },
+  {
+    "id": 2001001,
+    "flushPool": "[{\"FlushConfigId\":1002039,\"Monster\":[320017],\"Delay\":0},{\"FlushConfigId\":1002012,\"Monster\":[320019],\"Delay\":2},{\"FlushConfigId\":1002020,\"Monster\":[320017],\"Delay\":4},{\"FlushConfigId\":1002012,\"Monster\":[320019],\"Delay\":6},{\"FlushConfigId\":1002039,\"Monster\":[320017],\"Delay\":8},{\"FlushConfigId\":1002012,\"Monster\":[320019],\"Delay\":10},{\"FlushConfigId\":1002020,\"Monster\":[320017],\"Delay\":12}]"
+  },
+  {
+    "id": 2001002,
+    "flushPool": "[{\"FlushConfigId\":1002002,\"Monster\":[320005,320014],\"Delay\":0},{\"FlushConfigId\":1002036,\"Monster\":[320021,320007,320020],\"Delay\":1}]"
+  },
+  {
+    "id": 2001003,
+    "flushPool": "[{\"FlushConfigId\":1002003,\"Monster\":[320022,320005],\"Delay\":0},{\"FlushConfigId\":1002005,\"Monster\":[320021,320007,320020],\"Delay\":0}]"
+  },
+  {
+    "id": 2001004,
+    "flushPool": "[{\"FlushConfigId\":1002021,\"Monster\":[320021,320012],\"Delay\":0},{\"FlushConfigId\":1002033,\"Monster\":[320005,320014],\"Delay\":0}]"
+  },
+  {
+    "id": 2001005,
+    "flushPool": "[{\"FlushConfigId\":1002020,\"Monster\":[320020],\"Delay\":0},{\"FlushConfigId\":1002021,\"Monster\":[320017],\"Delay\":3},{\"FlushConfigId\":1002022,\"Monster\":[320019],\"Delay\":5},{\"FlushConfigId\":1001026,\"Monster\":[330007],\"Delay\":0},{\"FlushConfigId\":1001050,\"Monster\":[330007],\"Delay\":1},{\"FlushConfigId\":1001051,\"Monster\":[330007],\"Delay\":3},{\"FlushConfigId\":1001052,\"Monster\":[330007],\"Delay\":5}]"
+  },
+  {
+    "id": 2001006,
+    "flushPool": "[{\"FlushConfigId\":1002002,\"Monster\":[320005,320014],\"Delay\":0},{\"FlushConfigId\":1002019,\"Monster\":[320021,320012],\"Delay\":0}]"
+  },
+  {
+    "id": 2001007,
+    "flushPool": "[{\"FlushConfigId\":1002005,\"Monster\":[320020,320007],\"Delay\":0},{\"FlushConfigId\":1002002,\"Monster\":[320019],\"Delay\":0.5},{\"FlushConfigId\":1002002,\"Monster\":[320019,320018],\"Delay\":2.5},{\"FlushConfigId\":1002002,\"Monster\":[320019],\"Delay\":4.5},{\"FlushConfigId\":1002002,\"Monster\":[320019,320018],\"Delay\":6.5}]"
+  },
+  {
+    "id": 2001008,
+    "flushPool": "[{\"FlushConfigId\":1002002,\"Monster\":[320005,320014,320016],\"Delay\":0},{\"FlushConfigId\":1002011,\"Monster\":[320021],\"Delay\":0.5}]"
+  },
+  {
+    "id": 2001009,
+    "flushPool": "[{\"FlushConfigId\":1002018,\"Monster\":[320021],\"Delay\":0},{\"FlushConfigId\":1002017,\"Monster\":[320021],\"Delay\":0},{\"FlushConfigId\":1002013,\"Monster\":[320019],\"Delay\":0},{\"FlushConfigId\":1002020,\"Monster\":[320019],\"Delay\":2},{\"FlushConfigId\":1002020,\"Monster\":[320019],\"Delay\":4},{\"FlushConfigId\":1002014,\"Monster\":[320019],\"Delay\":6},{\"FlushConfigId\":1002026,\"Monster\":[320017],\"Delay\":8},{\"FlushConfigId\":1002027,\"Monster\":[320017],\"Delay\":10.5},{\"FlushConfigId\":1002026,\"Monster\":[320017],\"Delay\":13},{\"FlushConfigId\":1002027,\"Monster\":[320017],\"Delay\":15.5}]"
+  },
+  {
+    "id": 2001010,
+    "flushPool": "[{\"FlushConfigId\":1002002,\"Monster\":[320022,320005],\"Delay\":0},{\"FlushConfigId\":1002041,\"Monster\":[320021,320007,320020],\"Delay\":0}]"
+  },
+  {
+    "id": 2001011,
+    "flushPool": "[{\"FlushConfigId\":1002020,\"Monster\":[320019],\"Delay\":0},{\"FlushConfigId\":1002005,\"Monster\":[320019],\"Delay\":2.5},{\"FlushConfigId\":1002020,\"Monster\":[320019],\"Delay\":5},{\"FlushConfigId\":1002005,\"Monster\":[320019],\"Delay\":7.5},{\"FlushConfigId\":1002020,\"Monster\":[320017],\"Delay\":10},{\"FlushConfigId\":1002012,\"Monster\":[320017],\"Delay\":12},{\"FlushConfigId\":1002005,\"Monster\":[320017],\"Delay\":14},{\"FlushConfigId\":1002039,\"Monster\":[320017],\"Delay\":16}]"
+  },
+  {
+    "id": 2001012,
+    "flushPool": "[{\"FlushConfigId\":1002003,\"Monster\":[320007,320005,320020],\"Delay\":0},{\"FlushConfigId\":1002005,\"Monster\":[320017],\"Delay\":1},{\"FlushConfigId\":1002005,\"Monster\":[320017],\"Delay\":2.5},{\"FlushConfigId\":1002005,\"Monster\":[320017],\"Delay\":4}]"
+  },
+  {
+    "id": 2001013,
+    "flushPool": "[{\"FlushConfigId\":1002015,\"Monster\":[320017],\"Delay\":0},{\"FlushConfigId\":1002016,\"Monster\":[320017],\"Delay\":1.7},{\"FlushConfigId\":1002024,\"Monster\":[320017],\"Delay\":3.4},{\"FlushConfigId\":1002025,\"Monster\":[320017],\"Delay\":5.1},{\"FlushConfigId\":1002015,\"Monster\":[320017],\"Delay\":3.4},{\"FlushConfigId\":1002016,\"Monster\":[320017],\"Delay\":5.1},{\"FlushConfigId\":1002024,\"Monster\":[320017],\"Delay\":6.8},{\"FlushConfigId\":1002025,\"Monster\":[320017],\"Delay\":8.5},{\"FlushConfigId\":1002015,\"Monster\":[320017],\"Delay\":6.8},{\"FlushConfigId\":1002016,\"Monster\":[320017],\"Delay\":8.5},{\"FlushConfigId\":1002024,\"Monster\":[320017],\"Delay\":9}]"
+  },
+  {
+    "id": 2001014,
+    "flushPool": "[{\"FlushConfigId\":1002015,\"Monster\":[320019],\"Delay\":0},{\"FlushConfigId\":1002016,\"Monster\":[320019],\"Delay\":2.7},{\"FlushConfigId\":1002015,\"Monster\":[320019],\"Delay\":2.7},{\"FlushConfigId\":1002002,\"Monster\":[320019],\"Delay\":5.4},{\"FlushConfigId\":1002016,\"Monster\":[320019],\"Delay\":8.1},{\"FlushConfigId\":1002015,\"Monster\":[320019],\"Delay\":8.1},{\"FlushConfigId\":1002016,\"Monster\":[320019],\"Delay\":10.8}]"
+  },
+  {
+    "id": 2001015,
+    "flushPool": "[{\"FlushConfigId\":1002002,\"Monster\":[320007,320005,320014],\"Delay\":0},{\"FlushConfigId\":1002007,\"Monster\":[320022,320023,320021],\"Delay\":0}]"
+  },
+  {
+    "id": 2001016,
+    "flushPool": "[{\"FlushConfigId\":1002023,\"Monster\":[320017],\"Delay\":0},{\"FlushConfigId\":1002023,\"Monster\":[320017,320018],\"Delay\":2.3},{\"FlushConfigId\":1002023,\"Monster\":[320017],\"Delay\":4.6}]"
+  },
+  {
+    "id": 2001017,
+    "flushPool": "[{\"FlushConfigId\":1002002,\"Monster\":[320018],\"Delay\":0},{\"FlushConfigId\":1002002,\"Monster\":[320018],\"Delay\":1.3},{\"FlushConfigId\":1002012,\"Monster\":[320018],\"Delay\":2.6}]"
+  },
+  {
+    "id": 2001018,
+    "flushPool": "[{\"FlushConfigId\":1002026,\"Monster\":[320021],\"Delay\":0},{\"FlushConfigId\":1002027,\"Monster\":[320021],\"Delay\":0.5}]"
+  },
+  {
+    "id": 2001019,
+    "flushPool": "[{\"FlushConfigId\":1002002,\"Monster\":[320007,320005],\"Delay\":0},{\"FlushConfigId\":1002026,\"Monster\":[320021,320012],\"Delay\":0.5},{\"FlushConfigId\":1002027,\"Monster\":[320021,320012],\"Delay\":1}]"
+  },
+  {
+    "id": 2001020,
+    "flushPool": "[{\"FlushConfigId\":1002021,\"Monster\":[320017],\"Delay\":0},{\"FlushConfigId\":1002022,\"Monster\":[320017],\"Delay\":4.5},{\"FlushConfigId\":1002015,\"Monster\":[320018],\"Delay\":8.5},{\"FlushConfigId\":1002016,\"Monster\":[320018],\"Delay\":10},{\"FlushConfigId\":1002002,\"Monster\":[320018],\"Delay\":12},{\"FlushConfigId\":1002020,\"Monster\":[320017],\"Delay\":14},{\"FlushConfigId\":1002005,\"Monster\":[320017],\"Delay\":15.5},{\"FlushConfigId\":1001021,\"Monster\":[330008],\"Delay\":12},{\"FlushConfigId\":1001019,\"Monster\":[330008],\"Delay\":13},{\"FlushConfigId\":1001018,\"Monster\":[330008],\"Delay\":13},{\"FlushConfigId\":1001019,\"Monster\":[330008],\"Delay\":14},{\"FlushConfigId\":1001021,\"Monster\":[330008],\"Delay\":15},{\"FlushConfigId\":1001018,\"Monster\":[330008],\"Delay\":15},{\"FlushConfigId\":1002002,\"Monster\":[320017],\"Delay\":17},{\"FlushConfigId\":1002012,\"Monster\":[320017],\"Delay\":18.5},{\"FlushConfigId\":1002002,\"Monster\":[320018],\"Delay\":20},{\"FlushConfigId\":1002002,\"Monster\":[320018],\"Delay\":20},{\"FlushConfigId\":1002002,\"Monster\":[320018],\"Delay\":20},{\"FlushConfigId\":1001022,\"Monster\":[330008],\"Delay\":21},{\"FlushConfigId\":1001020,\"Monster\":[330008],\"Delay\":21.5},{\"FlushConfigId\":1001018,\"Monster\":[330008],\"Delay\":22},{\"FlushConfigId\":1001020,\"Monster\":[330008],\"Delay\":22.5},{\"FlushConfigId\":1001022,\"Monster\":[330008],\"Delay\":23},{\"FlushConfigId\":1001018,\"Monster\":[330008],\"Delay\":23.5}]"
+  },
+  {
+    "id": 2001021,
+    "flushPool": "[{\"FlushConfigId\":1002002,\"Monster\":[320007,320005,320014],\"Delay\":0},{\"FlushConfigId\":1002020,\"Monster\":[320018],\"Delay\":1.5},{\"FlushConfigId\":1002005,\"Monster\":[320018],\"Delay\":3},{\"FlushConfigId\":1002020,\"Monster\":[320018],\"Delay\":4.5},{\"FlushConfigId\":1002005,\"Monster\":[320018],\"Delay\":6}]"
+  },
+  {
+    "id": 2001022,
+    "flushPool": "[{\"FlushConfigId\":1002004,\"Monster\":[320005,320014],\"Delay\":0},{\"FlushConfigId\":1002032,\"Monster\":[320020,320007],\"Delay\":0}]"
+  },
+  {
+    "id": 2001023,
+    "flushPool": "[{\"FlushConfigId\":1002030,\"Monster\":[320021],\"Delay\":0},{\"FlushConfigId\":1002014,\"Monster\":[320014,320016],\"Delay\":0.5}]"
+  },
+  {
+    "id": 2001024,
+    "flushPool": "[{\"FlushConfigId\":1002002,\"Monster\":[320016,320014],\"Delay\":0},{\"FlushConfigId\":1002016,\"Monster\":[320019],\"Delay\":0},{\"FlushConfigId\":1002015,\"Monster\":[320019],\"Delay\":1.1},{\"FlushConfigId\":1002016,\"Monster\":[320019],\"Delay\":2.2},{\"FlushConfigId\":1002015,\"Monster\":[320019],\"Delay\":3.3}]"
+  },
+  {
+    "id": 2001025,
+    "flushPool": "[{\"FlushConfigId\":1002003,\"Monster\":[320016,320014],\"Delay\":0},{\"FlushConfigId\":1002010,\"Monster\":[320012],\"Delay\":1}]"
+  },
+  {
+    "id": 2001026,
+    "flushPool": "[{\"FlushConfigId\":1001038,\"Monster\":[330005],\"Delay\":0},{\"FlushConfigId\":1002029,\"Monster\":[320018],\"Delay\":1.2},{\"FlushConfigId\":1001038,\"Monster\":[330005],\"Delay\":1.2},{\"FlushConfigId\":1002029,\"Monster\":[320018],\"Delay\":2.4},{\"FlushConfigId\":1001038,\"Monster\":[330005],\"Delay\":2.4},{\"FlushConfigId\":1002029,\"Monster\":[320018],\"Delay\":3.6}]"
+  },
+  {
+    "id": 2001027,
+    "flushPool": "[{\"FlushConfigId\":1002026,\"Monster\":[320018],\"Delay\":0},{\"FlushConfigId\":1002027,\"Monster\":[320018],\"Delay\":3},{\"FlushConfigId\":1002026,\"Monster\":[320018],\"Delay\":6},{\"FlushConfigId\":1002027,\"Monster\":[320018],\"Delay\":9},{\"FlushConfigId\":1002026,\"Monster\":[320018],\"Delay\":12}]"
+  },
+  {
+    "id": 2001028,
+    "flushPool": "[{\"FlushConfigId\":1002002,\"Monster\":[320024],\"Delay\":0},{\"FlushConfigId\":1002020,\"Monster\":[320024],\"Delay\":2},{\"FlushConfigId\":1002005,\"Monster\":[320024],\"Delay\":4},{\"FlushConfigId\":1002029,\"Monster\":[320018],\"Delay\":6},{\"FlushConfigId\":1002029,\"Monster\":[320018],\"Delay\":8},{\"FlushConfigId\":1002021,\"Monster\":[320017],\"Delay\":11},{\"FlushConfigId\":1002022,\"Monster\":[320017],\"Delay\":15}]"
+  },
+  {
+    "id": 2001029,
+    "flushPool": "[{\"FlushConfigId\":1002030,\"Monster\":[320021],\"Delay\":0},{\"FlushConfigId\":1002031,\"Monster\":[320021],\"Delay\":0},{\"FlushConfigId\":1002002,\"Monster\":[320019],\"Delay\":2},{\"FlushConfigId\":1002002,\"Monster\":[320019],\"Delay\":4.5}]"
+  },
+  {
+    "id": 2001030,
+    "flushPool": "[{\"FlushConfigId\":1001050,\"Monster\":[320025],\"Delay\":0},{\"FlushConfigId\":1001052,\"Monster\":[320025],\"Delay\":3},{\"FlushConfigId\":1001050,\"Monster\":[320025],\"Delay\":6},{\"FlushConfigId\":1001052,\"Monster\":[320025],\"Delay\":9},{\"FlushConfigId\":1001050,\"Monster\":[320025],\"Delay\":12}]"
+  },
+  {
+    "id": 2001031,
+    "flushPool": "[{\"FlushConfigId\":1001009,\"Monster\":[330015],\"Delay\":0},{\"FlushConfigId\":1002026,\"Monster\":[320017],\"Delay\":5},{\"FlushConfigId\":1001010,\"Monster\":[330015],\"Delay\":4.5},{\"FlushConfigId\":1002027,\"Monster\":[320017],\"Delay\":9.5},{\"FlushConfigId\":1001009,\"Monster\":[330015],\"Delay\":9},{\"FlushConfigId\":1002026,\"Monster\":[320017],\"Delay\":14},{\"FlushConfigId\":1001010,\"Monster\":[330015],\"Delay\":13.5},{\"FlushConfigId\":1001037,\"Monster\":[330015],\"Delay\":17}]"
+  },
+  {
+    "id": 2001032,
+    "flushPool": "[{\"FlushConfigId\":1002007,\"Monster\":[320017],\"Delay\":0},{\"FlushConfigId\":1002007,\"Monster\":[320019],\"Delay\":3},{\"FlushConfigId\":1002007,\"Monster\":[320017],\"Delay\":6}]"
+  },
+  {
+    "id": 2001033,
+    "flushPool": "[{\"FlushConfigId\":1002030,\"Monster\":[320021],\"Delay\":0},{\"FlushConfigId\":1002031,\"Monster\":[320021],\"Delay\":0},{\"FlushConfigId\":1002020,\"Monster\":[320012],\"Delay\":2}]"
+  },
+  {
+    "id": 2001034,
+    "flushPool": "[{\"FlushConfigId\":1002020,\"Monster\":[320020],\"Delay\":0},{\"FlushConfigId\":1002005,\"Monster\":[320014],\"Delay\":4},{\"FlushConfigId\":1002021,\"Monster\":[320017],\"Delay\":4},{\"FlushConfigId\":1002022,\"Monster\":[320017],\"Delay\":8}]"
+  },
+  {
+    "id": 2001035,
+    "flushPool": "[{\"FlushConfigId\":1002002,\"Monster\":[320007,320005,320014],\"Delay\":0},{\"FlushConfigId\":1002026,\"Monster\":[320017],\"Delay\":0},{\"FlushConfigId\":1002027,\"Monster\":[320017],\"Delay\":0},{\"FlushConfigId\":1002026,\"Monster\":[320017],\"Delay\":4},{\"FlushConfigId\":1002027,\"Monster\":[320017],\"Delay\":4},{\"FlushConfigId\":1002026,\"Monster\":[320017],\"Delay\":8},{\"FlushConfigId\":1002027,\"Monster\":[320017],\"Delay\":8},{\"FlushConfigId\":1001018,\"Monster\":[330008],\"Delay\":8},{\"FlushConfigId\":1001019,\"Monster\":[330008],\"Delay\":8.2},{\"FlushConfigId\":1001020,\"Monster\":[330008],\"Delay\":8.4},{\"FlushConfigId\":1001021,\"Monster\":[330008],\"Delay\":8.6},{\"FlushConfigId\":1001022,\"Monster\":[330008],\"Delay\":8.8},{\"FlushConfigId\":1001019,\"Monster\":[330008],\"Delay\":9},{\"FlushConfigId\":1001020,\"Monster\":[330008],\"Delay\":9.2},{\"FlushConfigId\":1001021,\"Monster\":[330008],\"Delay\":9.4},{\"FlushConfigId\":1001022,\"Monster\":[330008],\"Delay\":9.59999999999999},{\"FlushConfigId\":1001018,\"Monster\":[330008],\"Delay\":9.79999999999999},{\"FlushConfigId\":1001019,\"Monster\":[330008],\"Delay\":9.99999999999999},{\"FlushConfigId\":1001020,\"Monster\":[330008],\"Delay\":10.2},{\"FlushConfigId\":1001021,\"Monster\":[330008],\"Delay\":10.4},{\"FlushConfigId\":1001022,\"Monster\":[330008],\"Delay\":10.6},{\"FlushConfigId\":1001019,\"Monster\":[330008],\"Delay\":10.8},{\"FlushConfigId\":1001020,\"Monster\":[330008],\"Delay\":11},{\"FlushConfigId\":1001021,\"Monster\":[330008],\"Delay\":11.2},{\"FlushConfigId\":1001022,\"Monster\":[330008],\"Delay\":11.4},{\"FlushConfigId\":1002026,\"Monster\":[320017],\"Delay\":12},{\"FlushConfigId\":1002027,\"Monster\":[320017],\"Delay\":12},{\"FlushConfigId\":1002026,\"Monster\":[320017],\"Delay\":12},{\"FlushConfigId\":1002027,\"Monster\":[320017],\"Delay\":12}]"
+  },
+  {
+    "id": 2001036,
+    "flushPool": "[{\"FlushConfigId\":1002042,\"Monster\":[320018],\"Delay\":0},{\"FlushConfigId\":1001050,\"Monster\":[320007],\"Delay\":0}]"
+  },
+  {
+    "id": 2001037,
+    "flushPool": "[{\"FlushConfigId\":1002043,\"Monster\":[320020,320007],\"Delay\":0},{\"FlushConfigId\":1002003,\"Monster\":[320005,320014],\"Delay\":0}]"
+  },
+  {
+    "id": 2001038,
+    "flushPool": "[{\"FlushConfigId\":1002044,\"Monster\":[320012,320023],\"Delay\":0},{\"FlushConfigId\":1002045,\"Monster\":[320005,320023],\"Delay\":0}]"
+  },
+  {
+    "id": 2001039,
+    "flushPool": "[{\"FlushConfigId\":1002027,\"Monster\":[320007,320023],\"Delay\":0},{\"FlushConfigId\":1002034,\"Monster\":[320014,320016],\"Delay\":0}]"
+  },
+  {
+    "id": 2001040,
+    "flushPool": "[{\"FlushConfigId\":1002046,\"Monster\":[320005],\"Delay\":0},{\"FlushConfigId\":1002036,\"Monster\":[320020,320007,320023],\"Delay\":0}]"
+  },
+  {
+    "id": 2001041,
+    "flushPool": "[{\"FlushConfigId\":1002047,\"Monster\":[320020,320007,320005],\"Delay\":0},{\"FlushConfigId\":1002048,\"Monster\":[320005],\"Delay\":0}]"
+  },
+  {
+    "id": 2001042,
+    "flushPool": "[{\"FlushConfigId\":1002049,\"Monster\":[320022],\"Delay\":0},{\"FlushConfigId\":1002002,\"Monster\":[320014,320016],\"Delay\":0}]"
+  },
+  {
+    "id": 2001043,
+    "flushPool": "[{\"FlushConfigId\":1002050,\"Monster\":[320007],\"Delay\":0},{\"FlushConfigId\":1002026,\"Monster\":[320012,320023],\"Delay\":0}]"
+  },
+  {
+    "id": 2001044,
+    "flushPool": "[{\"FlushConfigId\":1002012,\"Monster\":[320012,320023],\"Delay\":0},{\"FlushConfigId\":1002003,\"Monster\":[320005,320014],\"Delay\":0},{\"FlushConfigId\":1002036,\"Monster\":[320020,320007],\"Delay\":0}]"
+  },
+  {
+    "id": 2001045,
+    "flushPool": "[{\"FlushConfigId\":1002051,\"Monster\":[320021],\"Delay\":0},{\"FlushConfigId\":1002052,\"Monster\":[320021],\"Delay\":0},{\"FlushConfigId\":1002002,\"Monster\":[320014,320016],\"Delay\":0}]"
+  },
+  {
+    "id": 2001046,
+    "flushPool": "[{\"FlushConfigId\":1002053,\"Monster\":[320022,320007],\"Delay\":0},{\"FlushConfigId\":1002054,\"Monster\":[320012,320023],\"Delay\":0}]"
+  },
+  {
+    "id": 2001047,
+    "flushPool": "[{\"FlushConfigId\":1002056,\"Monster\":[320012,320023,320021],\"Delay\":0},{\"FlushConfigId\":1002033,\"Monster\":[320005,320014,320007],\"Delay\":0}]"
+  },
+  {
+    "id": 2001048,
+    "flushPool": "[{\"FlushConfigId\":1002039,\"Monster\":[320007],\"Delay\":0},{\"FlushConfigId\":1002057,\"Monster\":[320022],\"Delay\":0},{\"FlushConfigId\":1002058,\"Monster\":[320022],\"Delay\":0}]"
+  },
+  {
+    "id": 2001049,
+    "flushPool": "[{\"FlushConfigId\":1002002,\"Monster\":[320005],\"Delay\":0},{\"FlushConfigId\":1002059,\"Monster\":[320012,320023,320007],\"Delay\":0}]"
+  },
+  {
+    "id": 3001001,
+    "flushPool": "[{\"FlushConfigId\":1001019,\"Monster\":[330006],\"Delay\":0},{\"FlushConfigId\":1001019,\"Monster\":[330006],\"Delay\":0.2},{\"FlushConfigId\":1001019,\"Monster\":[330006],\"Delay\":0.4},{\"FlushConfigId\":1001020,\"Monster\":[330006],\"Delay\":1},{\"FlushConfigId\":1001020,\"Monster\":[330006],\"Delay\":1.2},{\"FlushConfigId\":1001020,\"Monster\":[330006],\"Delay\":1.4},{\"FlushConfigId\":1003015,\"Monster\":[320017],\"Delay\":2},{\"FlushConfigId\":1001018,\"Monster\":[330006],\"Delay\":2},{\"FlushConfigId\":1001018,\"Monster\":[330006],\"Delay\":2.2},{\"FlushConfigId\":1001018,\"Monster\":[330006],\"Delay\":2.4},{\"FlushConfigId\":1003025,\"Monster\":[320017],\"Delay\":3},{\"FlushConfigId\":1001019,\"Monster\":[330006],\"Delay\":3.5},{\"FlushConfigId\":1001019,\"Monster\":[330006],\"Delay\":3.7},{\"FlushConfigId\":1001019,\"Monster\":[330006],\"Delay\":3.9},{\"FlushConfigId\":1001021,\"Monster\":[330006],\"Delay\":4.5},{\"FlushConfigId\":1001021,\"Monster\":[330006],\"Delay\":4.7},{\"FlushConfigId\":1001021,\"Monster\":[330006],\"Delay\":4.9},{\"FlushConfigId\":1003002,\"Monster\":[320017],\"Delay\":5.5},{\"FlushConfigId\":1001020,\"Monster\":[330006],\"Delay\":5.5},{\"FlushConfigId\":1001020,\"Monster\":[330006],\"Delay\":5.7},{\"FlushConfigId\":1001020,\"Monster\":[330006],\"Delay\":5.9},{\"FlushConfigId\":1001018,\"Monster\":[330006],\"Delay\":6.5},{\"FlushConfigId\":1001018,\"Monster\":[330006],\"Delay\":6.7},{\"FlushConfigId\":1001018,\"Monster\":[330006],\"Delay\":6.9}]"
+  },
+  {
+    "id": 3001002,
+    "flushPool": "[{\"FlushConfigId\":1001003,\"Monster\":[330006],\"Delay\":0},{\"FlushConfigId\":1001002,\"Monster\":[330006],\"Delay\":1},{\"FlushConfigId\":1003018,\"Monster\":[320017],\"Delay\":2},{\"FlushConfigId\":1003016,\"Monster\":[320017],\"Delay\":2.5},{\"FlushConfigId\":1001029,\"Monster\":[330006],\"Delay\":3},{\"FlushConfigId\":1001030,\"Monster\":[330006],\"Delay\":5},{\"FlushConfigId\":1003018,\"Monster\":[320017],\"Delay\":5.5},{\"FlushConfigId\":1003016,\"Monster\":[320017],\"Delay\":6},{\"FlushConfigId\":1001033,\"Monster\":[330006],\"Delay\":6.5}]"
+  },
+  {
+    "id": 3001003,
+    "flushPool": "[{\"FlushConfigId\":1003017,\"Monster\":[320017],\"Delay\":0},{\"FlushConfigId\":1003015,\"Monster\":[320017],\"Delay\":1},{\"FlushConfigId\":1002002,\"Monster\":[320005],\"Delay\":2},{\"FlushConfigId\":1003013,\"Monster\":[320017],\"Delay\":2},{\"FlushConfigId\":1003024,\"Monster\":[320017],\"Delay\":3},{\"FlushConfigId\":1003013,\"Monster\":[320017],\"Delay\":4},{\"FlushConfigId\":1003015,\"Monster\":[320017],\"Delay\":5},{\"FlushConfigId\":1003017,\"Monster\":[320017],\"Delay\":6}]"
+  },
+  {
+    "id": 3001004,
+    "flushPool": "[{\"FlushConfigId\":1002048,\"Monster\":[320021],\"Delay\":0},{\"FlushConfigId\":1002047,\"Monster\":[320021],\"Delay\":1.5},{\"FlushConfigId\":1001051,\"Monster\":[330006],\"Delay\":2},{\"FlushConfigId\":1001050,\"Monster\":[330006],\"Delay\":4.5},{\"FlushConfigId\":1001052,\"Monster\":[330006],\"Delay\":7},{\"FlushConfigId\":1001051,\"Monster\":[330006],\"Delay\":9.5}]"
+  },
+  {
+    "id": 3001005,
+    "flushPool": "[{\"FlushConfigId\":1003002,\"Monster\":[320019],\"Delay\":0},{\"FlushConfigId\":1003020,\"Monster\":[320019],\"Delay\":1.5},{\"FlushConfigId\":1003013,\"Monster\":[320019],\"Delay\":3.5},{\"FlushConfigId\":1003014,\"Monster\":[320017],\"Delay\":5},{\"FlushConfigId\":1003014,\"Monster\":[320017],\"Delay\":5.5},{\"FlushConfigId\":1003016,\"Monster\":[320019],\"Delay\":7},{\"FlushConfigId\":1003013,\"Monster\":[320017],\"Delay\":8.5},{\"FlushConfigId\":1003013,\"Monster\":[320017],\"Delay\":9}]"
+  },
+  {
+    "id": 3001006,
+    "flushPool": "[{\"FlushConfigId\":1002008,\"Monster\":[310004],\"Delay\":0},{\"FlushConfigId\":1002056,\"Monster\":[320021],\"Delay\":0},{\"FlushConfigId\":1003017,\"Monster\":[320017],\"Delay\":0},{\"FlushConfigId\":1003015,\"Monster\":[320017],\"Delay\":2},{\"FlushConfigId\":1003013,\"Monster\":[320017],\"Delay\":4},{\"FlushConfigId\":1003020,\"Monster\":[320017],\"Delay\":6},{\"FlushConfigId\":1003014,\"Monster\":[320017],\"Delay\":8},{\"FlushConfigId\":1003016,\"Monster\":[320017],\"Delay\":10},{\"FlushConfigId\":1003018,\"Monster\":[320017],\"Delay\":12},{\"FlushConfigId\":1003020,\"Monster\":[320017],\"Delay\":14},{\"FlushConfigId\":1003012,\"Monster\":[320017],\"Delay\":16}]"
+  },
+  {
+    "id": 3001007,
+    "flushPool": "[{\"FlushConfigId\":1002041,\"Monster\":[320005],\"Delay\":0},{\"FlushConfigId\":1003029,\"Monster\":[320017],\"Delay\":1},{\"FlushConfigId\":1003014,\"Monster\":[320019],\"Delay\":3.2},{\"FlushConfigId\":1001039,\"Monster\":[330006],\"Delay\":5.2},{\"FlushConfigId\":1001040,\"Monster\":[330006],\"Delay\":7.7},{\"FlushConfigId\":1003029,\"Monster\":[320017],\"Delay\":10},{\"FlushConfigId\":1003014,\"Monster\":[320019],\"Delay\":12}]"
+  },
+  {
+    "id": 3001008,
+    "flushPool": "[{\"FlushConfigId\":1003029,\"Monster\":[320017],\"Delay\":0},{\"FlushConfigId\":1003020,\"Monster\":[320017],\"Delay\":1.5},{\"FlushConfigId\":1002033,\"Monster\":[320005],\"Delay\":3},{\"FlushConfigId\":1003030,\"Monster\":[320017],\"Delay\":3},{\"FlushConfigId\":1002034,\"Monster\":[320005],\"Delay\":5},{\"FlushConfigId\":1003020,\"Monster\":[320017],\"Delay\":6.5},{\"FlushConfigId\":1003029,\"Monster\":[320019],\"Delay\":8},{\"FlushConfigId\":1001052,\"Monster\":[330006],\"Delay\":9},{\"FlushConfigId\":1003002,\"Monster\":[320019],\"Delay\":10.5},{\"FlushConfigId\":1001052,\"Monster\":[330006],\"Delay\":10.5}]"
+  },
+  {
+    "id": 3001009,
+    "flushPool": "[{\"FlushConfigId\":1002033,\"Monster\":[320005],\"Delay\":0},{\"FlushConfigId\":1003017,\"Monster\":[320030],\"Delay\":0.5},{\"FlushConfigId\":1003015,\"Monster\":[320030],\"Delay\":1.5},{\"FlushConfigId\":1003013,\"Monster\":[320030],\"Delay\":2.5},{\"FlushConfigId\":1003017,\"Monster\":[320030],\"Delay\":3.5},{\"FlushConfigId\":1003015,\"Monster\":[320030],\"Delay\":4.5},{\"FlushConfigId\":1003013,\"Monster\":[320030],\"Delay\":5.5}]"
+  },
+  {
+    "id": 3001010,
+    "flushPool": "[{\"FlushConfigId\":1003023,\"Monster\":[320017],\"Delay\":0},{\"FlushConfigId\":1001008,\"Monster\":[330005],\"Delay\":0},{\"FlushConfigId\":1001008,\"Monster\":[330005],\"Delay\":5}]"
+  },
+  {
+    "id": 3001011,
+    "flushPool": "[{\"FlushConfigId\":1003002,\"Monster\":[320019],\"Delay\":0},{\"FlushConfigId\":1003020,\"Monster\":[320019],\"Delay\":1.5},{\"FlushConfigId\":1003005,\"Monster\":[320019],\"Delay\":3},{\"FlushConfigId\":1003017,\"Monster\":[320019],\"Delay\":4.5},{\"FlushConfigId\":1003018,\"Monster\":[320019],\"Delay\":4.5},{\"FlushConfigId\":1001018,\"Monster\":[330008],\"Delay\":1.5},{\"FlushConfigId\":1001019,\"Monster\":[330008],\"Delay\":1.8},{\"FlushConfigId\":1001020,\"Monster\":[330008],\"Delay\":2.1},{\"FlushConfigId\":1001021,\"Monster\":[330008],\"Delay\":2.4},{\"FlushConfigId\":1001022,\"Monster\":[330008],\"Delay\":2.7},{\"FlushConfigId\":1001019,\"Monster\":[330008],\"Delay\":3},{\"FlushConfigId\":1001020,\"Monster\":[330008],\"Delay\":3.3},{\"FlushConfigId\":1001021,\"Monster\":[330008],\"Delay\":3.6},{\"FlushConfigId\":1001022,\"Monster\":[330008],\"Delay\":3.9}]"
+  },
+  {
+    "id": 3001012,
+    "flushPool": "[{\"FlushConfigId\":1002003,\"Monster\":[310003],\"Delay\":0},{\"FlushConfigId\":1002019,\"Monster\":[320021],\"Delay\":0},{\"FlushConfigId\":1002005,\"Monster\":[310004],\"Delay\":3},{\"FlushConfigId\":1001018,\"Monster\":[330008],\"Delay\":4},{\"FlushConfigId\":1001019,\"Monster\":[330008],\"Delay\":4.3},{\"FlushConfigId\":1001020,\"Monster\":[330008],\"Delay\":4.6},{\"FlushConfigId\":1001021,\"Monster\":[330008],\"Delay\":4.9},{\"FlushConfigId\":1001022,\"Monster\":[330008],\"Delay\":5.2},{\"FlushConfigId\":1001019,\"Monster\":[330008],\"Delay\":5.5},{\"FlushConfigId\":1001020,\"Monster\":[330008],\"Delay\":5.8},{\"FlushConfigId\":1001021,\"Monster\":[330008],\"Delay\":6.1},{\"FlushConfigId\":1001022,\"Monster\":[330008],\"Delay\":6.4}]"
+  },
+  {
+    "id": 3001013,
+    "flushPool": "[{\"FlushConfigId\":1003020,\"Monster\":[320019],\"Delay\":0},{\"FlushConfigId\":1003020,\"Monster\":[320017],\"Delay\":2},{\"FlushConfigId\":1003020,\"Monster\":[320019],\"Delay\":4},{\"FlushConfigId\":1003020,\"Monster\":[320017],\"Delay\":6},{\"FlushConfigId\":1003020,\"Monster\":[320019],\"Delay\":8},{\"FlushConfigId\":1003020,\"Monster\":[320017],\"Delay\":10},{\"FlushConfigId\":1003020,\"Monster\":[320019],\"Delay\":12},{\"FlushConfigId\":1003020,\"Monster\":[320017],\"Delay\":14},{\"FlushConfigId\":1003020,\"Monster\":[320019],\"Delay\":16},{\"FlushConfigId\":1003020,\"Monster\":[320017],\"Delay\":18}]"
+  },
+  {
+    "id": 3001014,
+    "flushPool": "[{\"FlushConfigId\":1002002,\"Monster\":[320020],\"Delay\":0},{\"FlushConfigId\":1002017,\"Monster\":[320031],\"Delay\":0},{\"FlushConfigId\":1002018,\"Monster\":[320032],\"Delay\":0},{\"FlushConfigId\":1002017,\"Monster\":[320031],\"Delay\":1},{\"FlushConfigId\":1002018,\"Monster\":[320032],\"Delay\":1},{\"FlushConfigId\":1002017,\"Monster\":[320031],\"Delay\":2},{\"FlushConfigId\":1002018,\"Monster\":[320032],\"Delay\":2},{\"FlushConfigId\":1002017,\"Monster\":[320031],\"Delay\":3},{\"FlushConfigId\":1002018,\"Monster\":[320032],\"Delay\":3}]"
+  },
+  {
+    "id": 3001015,
+    "flushPool": "[{\"FlushConfigId\":1002056,\"Monster\":[320021],\"Delay\":0},{\"FlushConfigId\":1003029,\"Monster\":[330016],\"Delay\":0},{\"FlushConfigId\":1003027,\"Monster\":[330016],\"Delay\":2.5},{\"FlushConfigId\":1003020,\"Monster\":[330016],\"Delay\":5},{\"FlushConfigId\":1003026,\"Monster\":[330016],\"Delay\":7.5}]"
+  },
+  {
+    "id": 3001016,
+    "flushPool": "[{\"FlushConfigId\":1003026,\"Monster\":[320017],\"Delay\":0},{\"FlushConfigId\":1003027,\"Monster\":[320017],\"Delay\":3.2},{\"FlushConfigId\":1003026,\"Monster\":[320017],\"Delay\":6.4},{\"FlushConfigId\":1003027,\"Monster\":[320017],\"Delay\":9.6},{\"FlushConfigId\":1003028,\"Monster\":[330016],\"Delay\":1.6},{\"FlushConfigId\":1003028,\"Monster\":[330016],\"Delay\":4.8},{\"FlushConfigId\":1003028,\"Monster\":[330016],\"Delay\":8},{\"FlushConfigId\":1003028,\"Monster\":[330016],\"Delay\":11.2}]"
+  },
+  {
+    "id": 3001017,
+    "flushPool": "[{\"FlushConfigId\":1002033,\"Monster\":[320020],\"Delay\":0},{\"FlushConfigId\":1002030,\"Monster\":[320021],\"Delay\":0.5}]"
+  },
+  {
+    "id": 3001018,
+    "flushPool": "[{\"FlushConfigId\":1003023,\"Monster\":[320017],\"Delay\":0},{\"FlushConfigId\":1003023,\"Monster\":[320017],\"Delay\":5.5},{\"FlushConfigId\":1003023,\"Monster\":[320017],\"Delay\":11},{\"FlushConfigId\":1001008,\"Monster\":[330005],\"Delay\":1.5},{\"FlushConfigId\":1001008,\"Monster\":[330005],\"Delay\":7},{\"FlushConfigId\":1001008,\"Monster\":[330005],\"Delay\":11}]"
+  },
+  {
+    "id": 3001019,
+    "flushPool": "[{\"FlushConfigId\":1002030,\"Monster\":[320021],\"Delay\":0},{\"FlushConfigId\":1002031,\"Monster\":[320021],\"Delay\":0},{\"FlushConfigId\":1003028,\"Monster\":[330016],\"Delay\":0},{\"FlushConfigId\":1003028,\"Monster\":[320018],\"Delay\":2},{\"FlushConfigId\":1003028,\"Monster\":[330016],\"Delay\":4},{\"FlushConfigId\":1003028,\"Monster\":[320018],\"Delay\":6}]"
+  },
+  {
+    "id": 3001020,
+    "flushPool": "[{\"FlushConfigId\":1001043,\"Monster\":[330005],\"Delay\":0},{\"FlushConfigId\":1001043,\"Monster\":[330005],\"Delay\":0.4},{\"FlushConfigId\":1001043,\"Monster\":[330005],\"Delay\":0.8},{\"FlushConfigId\":1001043,\"Monster\":[330005],\"Delay\":1.2},{\"FlushConfigId\":1001043,\"Monster\":[330007],\"Delay\":1.6},{\"FlushConfigId\":1001043,\"Monster\":[330005],\"Delay\":2},{\"FlushConfigId\":1001043,\"Monster\":[330005],\"Delay\":2.4},{\"FlushConfigId\":1001043,\"Monster\":[330005],\"Delay\":2.8},{\"FlushConfigId\":1001043,\"Monster\":[330005],\"Delay\":3.2},{\"FlushConfigId\":1001043,\"Monster\":[330007],\"Delay\":3.6},{\"FlushConfigId\":1001043,\"Monster\":[330005],\"Delay\":4},{\"FlushConfigId\":1001043,\"Monster\":[330005],\"Delay\":4.4},{\"FlushConfigId\":1001043,\"Monster\":[330005],\"Delay\":4.8},{\"FlushConfigId\":1001043,\"Monster\":[330005],\"Delay\":5.2}]"
+  },
+  {
+    "id": 3001021,
+    "flushPool": "[{\"FlushConfigId\":1001028,\"Monster\":[330006]},{\"FlushConfigId\":1001031,\"Monster\":[330006],\"Delay\":1.5},{\"FlushConfigId\":1001028,\"Monster\":[330006],\"Delay\":3},{\"FlushConfigId\":1002020,\"Monster\":[320007],\"Delay\":3.5},{\"FlushConfigId\":1001031,\"Monster\":[330006],\"Delay\":4}]"
+  },
+  {
+    "id": 3001022,
+    "flushPool": "[{\"FlushConfigId\":1002014,\"Monster\":[320014],\"Delay\":0},{\"FlushConfigId\":1003015,\"Monster\":[320017],\"Delay\":0},{\"FlushConfigId\":1003014,\"Monster\":[320017],\"Delay\":2},{\"FlushConfigId\":1003013,\"Monster\":[320017],\"Delay\":4},{\"FlushConfigId\":1003016,\"Monster\":[320017],\"Delay\":6}]"
+  },
+  {
+    "id": 3001023,
+    "flushPool": "[{\"FlushConfigId\":1003018,\"Monster\":[330016],\"Delay\":0},{\"FlushConfigId\":1003014,\"Monster\":[330016],\"Delay\":0.7},{\"FlushConfigId\":1003025,\"Monster\":[330016],\"Delay\":1.5},{\"FlushConfigId\":1002002,\"Monster\":[320014],\"Delay\":1},{\"FlushConfigId\":1003017,\"Monster\":[330016],\"Delay\":2.2},{\"FlushConfigId\":1003013,\"Monster\":[330016],\"Delay\":2.9},{\"FlushConfigId\":1003024,\"Monster\":[330016],\"Delay\":3.6}]"
+  },
+  {
+    "id": 3001024,
+    "flushPool": "[{\"FlushConfigId\":1003002,\"Monster\":[320035],\"Delay\":0},{\"FlushConfigId\":1003020,\"Monster\":[320019],\"Delay\":2},{\"FlushConfigId\":1003005,\"Monster\":[320019],\"Delay\":4},{\"FlushConfigId\":1001026,\"Monster\":[330005],\"Delay\":4},{\"FlushConfigId\":1003002,\"Monster\":[320035],\"Delay\":6},{\"FlushConfigId\":1003005,\"Monster\":[320019],\"Delay\":8},{\"FlushConfigId\":1001026,\"Monster\":[330005],\"Delay\":8}]"
+  },
+  {
+    "id": 3001025,
+    "flushPool": "[{\"FlushConfigId\":1003020,\"Monster\":[320034],\"Delay\":0},{\"FlushConfigId\":1003017,\"Monster\":[320034],\"Delay\":1.5},{\"FlushConfigId\":1003015,\"Monster\":[320034],\"Delay\":1.5},{\"FlushConfigId\":1003013,\"Monster\":[320034],\"Delay\":1.5},{\"FlushConfigId\":1003018,\"Monster\":[320034],\"Delay\":3},{\"FlushConfigId\":1003016,\"Monster\":[320034],\"Delay\":3},{\"FlushConfigId\":1003014,\"Monster\":[320034],\"Delay\":3},{\"FlushConfigId\":1002034,\"Monster\":[320007],\"Delay\":4.5},{\"FlushConfigId\":1002033,\"Monster\":[320007],\"Delay\":5},{\"FlushConfigId\":1001039,\"Monster\":[330006],\"Delay\":6},{\"FlushConfigId\":1001040,\"Monster\":[330006],\"Delay\":9}]"
+  },
+  {
+    "id": 3001026,
+    "flushPool": "[{\"FlushConfigId\":1002053,\"Monster\":[310004],\"Delay\":0},{\"FlushConfigId\":1001018,\"Monster\":[330008],\"Delay\":1.5},{\"FlushConfigId\":1001019,\"Monster\":[330008],\"Delay\":1.8},{\"FlushConfigId\":1001020,\"Monster\":[330008],\"Delay\":2.1},{\"FlushConfigId\":1001021,\"Monster\":[330008],\"Delay\":2.4},{\"FlushConfigId\":1001022,\"Monster\":[330008],\"Delay\":2.7},{\"FlushConfigId\":1001019,\"Monster\":[330008],\"Delay\":3},{\"FlushConfigId\":1001020,\"Monster\":[330008],\"Delay\":3.3},{\"FlushConfigId\":1001021,\"Monster\":[330008],\"Delay\":3.6},{\"FlushConfigId\":1001022,\"Monster\":[330008],\"Delay\":3.9},{\"FlushConfigId\":1003024,\"Monster\":[320017],\"Delay\":5},{\"FlushConfigId\":1003002,\"Monster\":[320017],\"Delay\":6.5},{\"FlushConfigId\":1003025,\"Monster\":[320017],\"Delay\":8},{\"FlushConfigId\":1003002,\"Monster\":[320017],\"Delay\":9.5},{\"FlushConfigId\":1003024,\"Monster\":[320017],\"Delay\":11},{\"FlushConfigId\":1003002,\"Monster\":[320017],\"Delay\":12.5},{\"FlushConfigId\":1003025,\"Monster\":[320017],\"Delay\":14}]"
+  },
+  {
+    "id": 3001027,
+    "flushPool": "[{\"FlushConfigId\":1003002,\"Monster\":[320017],\"Delay\":0},{\"FlushConfigId\":1003012,\"Monster\":[320017],\"Delay\":0.5},{\"FlushConfigId\":1001051,\"Monster\":[330005],\"Delay\":2},{\"FlushConfigId\":1003020,\"Monster\":[320017],\"Delay\":2.2},{\"FlushConfigId\":1001050,\"Monster\":[330005],\"Delay\":2.2},{\"FlushConfigId\":1003029,\"Monster\":[320017],\"Delay\":4},{\"FlushConfigId\":1001052,\"Monster\":[330005],\"Delay\":4},{\"FlushConfigId\":1003030,\"Monster\":[320017],\"Delay\":5.8},{\"FlushConfigId\":1001055,\"Monster\":[330005],\"Delay\":5.8},{\"FlushConfigId\":1003002,\"Monster\":[320017],\"Delay\":7.5},{\"FlushConfigId\":1003012,\"Monster\":[320017],\"Delay\":8}]"
+  },
+  {
+    "id": 3001028,
+    "flushPool": "[{\"FlushConfigId\":1002053,\"Monster\":[320020],\"Delay\":0},{\"FlushConfigId\":1003013,\"Monster\":[330005],\"Delay\":0},{\"FlushConfigId\":1003013,\"Monster\":[330005],\"Delay\":0.3},{\"FlushConfigId\":1003013,\"Monster\":[320017],\"Delay\":0.5},{\"FlushConfigId\":1003002,\"Monster\":[330005],\"Delay\":1.5},{\"FlushConfigId\":1003002,\"Monster\":[330005],\"Delay\":1.8},{\"FlushConfigId\":1003002,\"Monster\":[320017],\"Delay\":2},{\"FlushConfigId\":1003014,\"Monster\":[330005],\"Delay\":3},{\"FlushConfigId\":1003014,\"Monster\":[330005],\"Delay\":3.3},{\"FlushConfigId\":1003014,\"Monster\":[320017],\"Delay\":3.5},{\"FlushConfigId\":1003002,\"Monster\":[330005],\"Delay\":4.5},{\"FlushConfigId\":1003002,\"Monster\":[330005],\"Delay\":4.8},{\"FlushConfigId\":1003002,\"Monster\":[320017],\"Delay\":5}]"
+  },
+  {
+    "id": 3001029,
+    "flushPool": "[{\"FlushConfigId\":1002005,\"Monster\":[320007],\"Delay\":0},{\"FlushConfigId\":1002003,\"Monster\":[320014],\"Delay\":0.5},{\"FlushConfigId\":1001018,\"Monster\":[330008],\"Delay\":2},{\"FlushConfigId\":1001019,\"Monster\":[330008],\"Delay\":2.3},{\"FlushConfigId\":1001020,\"Monster\":[330008],\"Delay\":2.6},{\"FlushConfigId\":1001021,\"Monster\":[330008],\"Delay\":2.9},{\"FlushConfigId\":1001022,\"Monster\":[330008],\"Delay\":3.2},{\"FlushConfigId\":1001019,\"Monster\":[330008],\"Delay\":3.5},{\"FlushConfigId\":1001020,\"Monster\":[330008],\"Delay\":3.8},{\"FlushConfigId\":1001021,\"Monster\":[330008],\"Delay\":4.1},{\"FlushConfigId\":1001022,\"Monster\":[330008],\"Delay\":4.4}]"
+  },
+  {
+    "id": 3001030,
+    "flushPool": "[{\"FlushConfigId\":1002002,\"Monster\":[320005],\"Delay\":0},{\"FlushConfigId\":1003012,\"Monster\":[320019],\"Delay\":1.8},{\"FlushConfigId\":1003018,\"Monster\":[320036],\"Delay\":3.5},{\"FlushConfigId\":1003018,\"Monster\":[320036],\"Delay\":4.2},{\"FlushConfigId\":1003018,\"Monster\":[320036],\"Delay\":4.9},{\"FlushConfigId\":1003018,\"Monster\":[320036],\"Delay\":5.6},{\"FlushConfigId\":1003017,\"Monster\":[320037],\"Delay\":6.3},{\"FlushConfigId\":1003017,\"Monster\":[320037],\"Delay\":7},{\"FlushConfigId\":1003017,\"Monster\":[320037],\"Delay\":7.7},{\"FlushConfigId\":1003017,\"Monster\":[320037],\"Delay\":8.4}]"
+  },
+  {
+    "id": 3001031,
+    "flushPool": "[{\"FlushConfigId\":1002056,\"Monster\":[320012],\"Delay\":0},{\"FlushConfigId\":1002033,\"Monster\":[320014],\"Delay\":1}]"
+  },
+  {
+    "id": 3001032,
+    "flushPool": "[{\"FlushConfigId\":1001043,\"Monster\":[330005],\"Delay\":0},{\"FlushConfigId\":1001043,\"Monster\":[330005],\"Delay\":0.2},{\"FlushConfigId\":1001043,\"Monster\":[330005],\"Delay\":0.4},{\"FlushConfigId\":1001043,\"Monster\":[330005],\"Delay\":0.6},{\"FlushConfigId\":1001043,\"Monster\":[330005],\"Delay\":0.8},{\"FlushConfigId\":1001043,\"Monster\":[330005],\"Delay\":1},{\"FlushConfigId\":1001043,\"Monster\":[330005],\"Delay\":1.2},{\"FlushConfigId\":1001043,\"Monster\":[330005],\"Delay\":1.4},{\"FlushConfigId\":1001043,\"Monster\":[330007],\"Delay\":1}]"
+  },
+  {
+    "id": 3001033,
+    "flushPool": "[{\"FlushConfigId\":1002043,\"Monster\":[310004],\"Delay\":0},{\"FlushConfigId\":1002003,\"Monster\":[310003],\"Delay\":1},{\"FlushConfigId\":1003018,\"Monster\":[320036],\"Delay\":4},{\"FlushConfigId\":1003018,\"Monster\":[320036],\"Delay\":5},{\"FlushConfigId\":1003018,\"Monster\":[320036],\"Delay\":6},{\"FlushConfigId\":1003018,\"Monster\":[320036],\"Delay\":7},{\"FlushConfigId\":1003017,\"Monster\":[320037],\"Delay\":8},{\"FlushConfigId\":1003017,\"Monster\":[320037],\"Delay\":9},{\"FlushConfigId\":1003017,\"Monster\":[320037],\"Delay\":10},{\"FlushConfigId\":1003017,\"Monster\":[320037],\"Delay\":11},{\"FlushConfigId\":1003018,\"Monster\":[320036],\"Delay\":12},{\"FlushConfigId\":1003018,\"Monster\":[320036],\"Delay\":13},{\"FlushConfigId\":1003018,\"Monster\":[320036],\"Delay\":14},{\"FlushConfigId\":1003018,\"Monster\":[320036],\"Delay\":15}]"
+  },
+  {
+    "id": 3001034,
+    "flushPool": "[{\"FlushConfigId\":1002059,\"Monster\":[320012],\"Delay\":0},{\"FlushConfigId\":1003013,\"Monster\":[320035],\"Delay\":0.5},{\"FlushConfigId\":1003014,\"Monster\":[320035],\"Delay\":2.5},{\"FlushConfigId\":1003029,\"Monster\":[320017],\"Delay\":4.5},{\"FlushConfigId\":1003030,\"Monster\":[320017],\"Delay\":6.5},{\"FlushConfigId\":1003020,\"Monster\":[320017],\"Delay\":8.5},{\"FlushConfigId\":1003029,\"Monster\":[320017],\"Delay\":10.5}]"
+  },
+  {
+    "id": 3001035,
+    "flushPool": "[{\"FlushConfigId\":1002029,\"Monster\":[320012],\"Delay\":0},{\"FlushConfigId\":1003027,\"Monster\":[330016],\"Delay\":0.5},{\"FlushConfigId\":1003020,\"Monster\":[330016],\"Delay\":2},{\"FlushConfigId\":1003026,\"Monster\":[330016],\"Delay\":3.5},{\"FlushConfigId\":1003020,\"Monster\":[330016],\"Delay\":5}]"
+  },
+  {
+    "id": 3001036,
+    "flushPool": "[{\"FlushConfigId\":1002050,\"Monster\":[320007],\"Delay\":0},{\"FlushConfigId\":1003029,\"Monster\":[320017],\"Delay\":0},{\"FlushConfigId\":1003013,\"Monster\":[320019],\"Delay\":1.5},{\"FlushConfigId\":1003029,\"Monster\":[320017],\"Delay\":3},{\"FlushConfigId\":1003013,\"Monster\":[320019],\"Delay\":4.5},{\"FlushConfigId\":1003029,\"Monster\":[320017],\"Delay\":6},{\"FlushConfigId\":1003013,\"Monster\":[320019],\"Delay\":7.5}]"
+  },
+  {
+    "id": 3001037,
+    "flushPool": "[{\"FlushConfigId\":1002006,\"Monster\":[320014],\"Delay\":0}]"
+  },
+  {
+    "id": 3001038,
+    "flushPool": "[{\"FlushConfigId\":1002056,\"Monster\":[320012],\"Delay\":0},{\"FlushConfigId\":1003029,\"Monster\":[320025],\"Delay\":0},{\"FlushConfigId\":1003030,\"Monster\":[320025],\"Delay\":4},{\"FlushConfigId\":1003029,\"Monster\":[320025],\"Delay\":8}]"
+  },
+  {
+    "id": 3001039,
+    "flushPool": "[{\"FlushConfigId\":1002059,\"Monster\":[320012],\"Delay\":0},{\"FlushConfigId\":1001041,\"Monster\":[330005],\"Delay\":0},{\"FlushConfigId\":1001042,\"Monster\":[330005],\"Delay\":2}]"
+  },
+  {
+    "id": 3001040,
+    "flushPool": "[{\"FlushConfigId\":1001037,\"Monster\":[330007],\"Delay\":0},{\"FlushConfigId\":1003023,\"Monster\":[320017],\"Delay\":1},{\"FlushConfigId\":1003023,\"Monster\":[320017],\"Delay\":2.5},{\"FlushConfigId\":1003023,\"Monster\":[320017],\"Delay\":4}]"
+  },
+  {
+    "id": 3001041,
+    "flushPool": "[{\"FlushConfigId\":1003002,\"Monster\":[320018],\"Delay\":0},{\"FlushConfigId\":1003002,\"Monster\":[320018],\"Delay\":2},{\"FlushConfigId\":1003018,\"Monster\":[320036],\"Delay\":3.5},{\"FlushConfigId\":1003002,\"Monster\":[320018],\"Delay\":4},{\"FlushConfigId\":1003018,\"Monster\":[320036],\"Delay\":4.2},{\"FlushConfigId\":1003018,\"Monster\":[320036],\"Delay\":4.9},{\"FlushConfigId\":1003017,\"Monster\":[320037],\"Delay\":5.9},{\"FlushConfigId\":1003017,\"Monster\":[320037],\"Delay\":6.6},{\"FlushConfigId\":1003017,\"Monster\":[320037],\"Delay\":7.3}]"
+  },
+  {
+    "id": 3001042,
+    "flushPool": "[{\"FlushConfigId\":1002002,\"Monster\":[320005],\"Delay\":0},{\"FlushConfigId\":1003020,\"Monster\":[320018],\"Delay\":3},{\"FlushConfigId\":1003005,\"Monster\":[320018],\"Delay\":5.5},{\"FlushConfigId\":1003020,\"Monster\":[320018],\"Delay\":8}]"
+  },
+  {
+    "id": 3001043,
+    "flushPool": "[{\"FlushConfigId\":1002002,\"Monster\":[320027],\"Delay\":0},{\"FlushConfigId\":1001033,\"Monster\":[330006],\"Delay\":2},{\"FlushConfigId\":1001032,\"Monster\":[330006],\"Delay\":4.5},{\"FlushConfigId\":1003005,\"Monster\":[320018],\"Delay\":6.5},{\"FlushConfigId\":1003012,\"Monster\":[320018],\"Delay\":9},{\"FlushConfigId\":1003002,\"Monster\":[320018],\"Delay\":11.5}]"
+  },
+  {
+    "id": 3001044,
+    "flushPool": "[{\"FlushConfigId\":1001020,\"Monster\":[330006],\"Delay\":0},{\"FlushConfigId\":1001020,\"Monster\":[330006],\"Delay\":0.2},{\"FlushConfigId\":1001020,\"Monster\":[330006],\"Delay\":0.4},{\"FlushConfigId\":1003015,\"Monster\":[320017],\"Delay\":0.8},{\"FlushConfigId\":1001018,\"Monster\":[330006],\"Delay\":1},{\"FlushConfigId\":1001018,\"Monster\":[330006],\"Delay\":1.2},{\"FlushConfigId\":1001018,\"Monster\":[330006],\"Delay\":1.4},{\"FlushConfigId\":1003025,\"Monster\":[320017],\"Delay\":2},{\"FlushConfigId\":1003015,\"Monster\":[320017],\"Delay\":3},{\"FlushConfigId\":1002002,\"Monster\":[320005],\"Delay\":4}]"
+  },
+  {
+    "id": 3001045,
+    "flushPool": "[{\"FlushConfigId\":1003017,\"Monster\":[320037],\"Delay\":0},{\"FlushConfigId\":1003017,\"Monster\":[320037],\"Delay\":0.7},{\"FlushConfigId\":1003017,\"Monster\":[320037],\"Delay\":1.4},{\"FlushConfigId\":1003018,\"Monster\":[320036],\"Delay\":2.9},{\"FlushConfigId\":1003018,\"Monster\":[320036],\"Delay\":3.6},{\"FlushConfigId\":1003018,\"Monster\":[320036],\"Delay\":4.3},{\"FlushConfigId\":1003013,\"Monster\":[320045],\"Delay\":6.3},{\"FlushConfigId\":1003014,\"Monster\":[320045],\"Delay\":9.3},{\"FlushConfigId\":1003012,\"Monster\":[320019],\"Delay\":12.3}]"
+  },
+  {
+    "id": 3001046,
+    "flushPool": "[{\"FlushConfigId\":1002002,\"Monster\":[320016],\"Delay\":0},{\"FlushConfigId\":1003029,\"Monster\":[320017],\"Delay\":2},{\"FlushConfigId\":1003002,\"Monster\":[320019],\"Delay\":4},{\"FlushConfigId\":1003030,\"Monster\":[320017],\"Delay\":6},{\"FlushConfigId\":1003024,\"Monster\":[320019],\"Delay\":8},{\"FlushConfigId\":1003030,\"Monster\":[320017],\"Delay\":10},{\"FlushConfigId\":1003017,\"Monster\":[320019],\"Delay\":12}]"
+  },
+  {
+    "id": 3001047,
+    "flushPool": "[{\"FlushConfigId\":1002013,\"Monster\":[320049],\"Delay\":0},{\"FlushConfigId\":1002014,\"Monster\":[320065],\"Delay\":0},{\"FlushConfigId\":1003002,\"Monster\":[320035],\"Delay\":3},{\"FlushConfigId\":1003012,\"Monster\":[330018],\"Delay\":5},{\"FlushConfigId\":1003002,\"Monster\":[330018],\"Delay\":7},{\"FlushConfigId\":1003020,\"Monster\":[330018],\"Delay\":9},{\"FlushConfigId\":1003012,\"Monster\":[330018],\"Delay\":11}]"
+  },
+  {
+    "id": 3001048,
+    "flushPool": "[{\"FlushConfigId\":1003012,\"Monster\":[320017],\"Delay\":0},{\"FlushConfigId\":1003002,\"Monster\":[320017],\"Delay\":1.5},{\"FlushConfigId\":1003012,\"Monster\":[320017],\"Delay\":3},{\"FlushConfigId\":1001051,\"Monster\":[330006],\"Delay\":5},{\"FlushConfigId\":1003020,\"Monster\":[320017],\"Delay\":5.2},{\"FlushConfigId\":1001009,\"Monster\":[330006],\"Delay\":7.5},{\"FlushConfigId\":1003029,\"Monster\":[320017],\"Delay\":8.5},{\"FlushConfigId\":1001010,\"Monster\":[330006],\"Delay\":10},{\"FlushConfigId\":1003030,\"Monster\":[320017],\"Delay\":11},{\"FlushConfigId\":1003002,\"Monster\":[320017],\"Delay\":13},{\"FlushConfigId\":1003012,\"Monster\":[320017],\"Delay\":13.5}]"
+  },
+  {
+    "id": 3001049,
+    "flushPool": "[{\"FlushConfigId\":1003014,\"Monster\":[320066],\"Delay\":0},{\"FlushConfigId\":1003013,\"Monster\":[320066],\"Delay\":4},{\"FlushConfigId\":1003014,\"Monster\":[320035],\"Delay\":8}]"
+  },
+  {
+    "id": 3001050,
+    "flushPool": "[{\"FlushConfigId\":1003028,\"Monster\":[320018],\"Delay\":0},{\"FlushConfigId\":1003013,\"Monster\":[330006],\"Delay\":3},{\"FlushConfigId\":1003013,\"Monster\":[330006],\"Delay\":3.3},{\"FlushConfigId\":1003013,\"Monster\":[320017],\"Delay\":3.5},{\"FlushConfigId\":1003002,\"Monster\":[330006],\"Delay\":4.5},{\"FlushConfigId\":1003002,\"Monster\":[330006],\"Delay\":4.8},{\"FlushConfigId\":1003002,\"Monster\":[320017],\"Delay\":5},{\"FlushConfigId\":1003014,\"Monster\":[330006],\"Delay\":6},{\"FlushConfigId\":1003014,\"Monster\":[330006],\"Delay\":6.3},{\"FlushConfigId\":1003014,\"Monster\":[320017],\"Delay\":6.5},{\"FlushConfigId\":1003013,\"Monster\":[320066],\"Delay\":7.5},{\"FlushConfigId\":1003014,\"Monster\":[330006],\"Delay\":7.5},{\"FlushConfigId\":1003014,\"Monster\":[330006],\"Delay\":7.8},{\"FlushConfigId\":1003014,\"Monster\":[320017],\"Delay\":8},{\"FlushConfigId\":1003002,\"Monster\":[330006],\"Delay\":9},{\"FlushConfigId\":1003002,\"Monster\":[330006],\"Delay\":9.3},{\"FlushConfigId\":1003002,\"Monster\":[320017],\"Delay\":9.5},{\"FlushConfigId\":1003013,\"Monster\":[330006],\"Delay\":10.5},{\"FlushConfigId\":1003013,\"Monster\":[330006],\"Delay\":10.8},{\"FlushConfigId\":1003013,\"Monster\":[320017],\"Delay\":11}]"
+  },
+  {
+    "id": 3001051,
+    "flushPool": "[{\"FlushConfigId\":1002012,\"Monster\":[320007],\"Delay\":0},{\"FlushConfigId\":1001039,\"Monster\":[330006],\"Delay\":2},{\"FlushConfigId\":1001040,\"Monster\":[330006],\"Delay\":5.5}]"
+  },
+  {
+    "id": 3001052,
+    "flushPool": "[{\"FlushConfigId\":1003002,\"Monster\":[320066],\"Delay\":0},{\"FlushConfigId\":1003013,\"Monster\":[320045],\"Delay\":4},{\"FlushConfigId\":1003014,\"Monster\":[320045],\"Delay\":8},{\"FlushConfigId\":1003017,\"Monster\":[330018],\"Delay\":12},{\"FlushConfigId\":1003015,\"Monster\":[330018],\"Delay\":12.5},{\"FlushConfigId\":1003013,\"Monster\":[330018],\"Delay\":13},{\"FlushConfigId\":1003024,\"Monster\":[330018],\"Delay\":13.5},{\"FlushConfigId\":1003018,\"Monster\":[330018],\"Delay\":14},{\"FlushConfigId\":1003016,\"Monster\":[330018],\"Delay\":14.5},{\"FlushConfigId\":1003014,\"Monster\":[330018],\"Delay\":15},{\"FlushConfigId\":1003025,\"Monster\":[330018],\"Delay\":15.5}]"
+  },
+  {
+    "id": 3001053,
+    "flushPool": "[{\"FlushConfigId\":1003020,\"Monster\":[320019],\"Delay\":0},{\"FlushConfigId\":1003005,\"Monster\":[320019],\"Delay\":2},{\"FlushConfigId\":1003018,\"Monster\":[320036],\"Delay\":2.5},{\"FlushConfigId\":1003018,\"Monster\":[320036],\"Delay\":3.1},{\"FlushConfigId\":1003018,\"Monster\":[320036],\"Delay\":3.7},{\"FlushConfigId\":1003018,\"Monster\":[320036],\"Delay\":4.3},{\"FlushConfigId\":1003017,\"Monster\":[320037],\"Delay\":5.8},{\"FlushConfigId\":1003017,\"Monster\":[320037],\"Delay\":6.4},{\"FlushConfigId\":1003017,\"Monster\":[320037],\"Delay\":7},{\"FlushConfigId\":1003017,\"Monster\":[320037],\"Delay\":7.6}]"
+  },
+  {
+    "id": 3001054,
+    "flushPool": "[{\"FlushConfigId\":1002015,\"Monster\":[320014],\"Delay\":0},{\"FlushConfigId\":1003024,\"Monster\":[320017],\"Delay\":0.5},{\"FlushConfigId\":1003020,\"Monster\":[320017],\"Delay\":2},{\"FlushConfigId\":1003014,\"Monster\":[320017],\"Delay\":3.5},{\"FlushConfigId\":1003020,\"Monster\":[320017],\"Delay\":5},{\"FlushConfigId\":1003013,\"Monster\":[320017],\"Delay\":7.5}]"
+  },
+  {
+    "id": 3001055,
+    "flushPool": "[{\"FlushConfigId\":1002035,\"Monster\":[320012],\"Delay\":0},{\"FlushConfigId\":1001014,\"Monster\":[330006],\"Delay\":2},{\"FlushConfigId\":1001015,\"Monster\":[330006],\"Delay\":5.5}]"
+  },
+  {
+    "id": 3001056,
+    "flushPool": "[{\"FlushConfigId\":1001019,\"Monster\":[330006],\"Delay\":0},{\"FlushConfigId\":1001019,\"Monster\":[330006],\"Delay\":0.2},{\"FlushConfigId\":1001019,\"Monster\":[330006],\"Delay\":0.4},{\"FlushConfigId\":1001020,\"Monster\":[330006],\"Delay\":1.3},{\"FlushConfigId\":1001020,\"Monster\":[330006],\"Delay\":1.5},{\"FlushConfigId\":1001020,\"Monster\":[330006],\"Delay\":1.7},{\"FlushConfigId\":1003024,\"Monster\":[330006],\"Delay\":2.6},{\"FlushConfigId\":1003024,\"Monster\":[330006],\"Delay\":2.8},{\"FlushConfigId\":1003024,\"Monster\":[330006],\"Delay\":3},{\"FlushConfigId\":1002014,\"Monster\":[320021],\"Delay\":3},{\"FlushConfigId\":1001019,\"Monster\":[330006],\"Delay\":3.5},{\"FlushConfigId\":1001019,\"Monster\":[330006],\"Delay\":3.7},{\"FlushConfigId\":1001030,\"Monster\":[330006],\"Delay\":4.8},{\"FlushConfigId\":1001020,\"Monster\":[330006],\"Delay\":6.5},{\"FlushConfigId\":1001020,\"Monster\":[330006],\"Delay\":6.7},{\"FlushConfigId\":1002013,\"Monster\":[320021],\"Delay\":5},{\"FlushConfigId\":1001029,\"Monster\":[330006],\"Delay\":7},{\"FlushConfigId\":1001019,\"Monster\":[330006],\"Delay\":9.5},{\"FlushConfigId\":1001019,\"Monster\":[330006],\"Delay\":9.7},{\"FlushConfigId\":1001019,\"Monster\":[330006],\"Delay\":9.9}]"
+  },
+  {
+    "id": 3001057,
+    "flushPool": "[{\"FlushConfigId\":1001019,\"Monster\":[330006],\"Delay\":0},{\"FlushConfigId\":1001019,\"Monster\":[330006],\"Delay\":0.2},{\"FlushConfigId\":1001019,\"Monster\":[330006],\"Delay\":0.4},{\"FlushConfigId\":1002033,\"Monster\":[320022],\"Delay\":1},{\"FlushConfigId\":1001030,\"Monster\":[330006],\"Delay\":2},{\"FlushConfigId\":1002034,\"Monster\":[320022],\"Delay\":3},{\"FlushConfigId\":1001020,\"Monster\":[330006],\"Delay\":4},{\"FlushConfigId\":1001020,\"Monster\":[330006],\"Delay\":4.2},{\"FlushConfigId\":1001020,\"Monster\":[330006],\"Delay\":4.4},{\"FlushConfigId\":1001029,\"Monster\":[330006],\"Delay\":5.5}]"
+  },
+  {
+    "id": 3001058,
+    "flushPool": "[{\"FlushConfigId\":1002005,\"Monster\":[320021],\"Delay\":0},{\"FlushConfigId\":1001023,\"Monster\":[330006],\"Delay\":0.5},{\"FlushConfigId\":1003020,\"Monster\":[320017],\"Delay\":2.8},{\"FlushConfigId\":1001023,\"Monster\":[330006],\"Delay\":5.1},{\"FlushConfigId\":1003020,\"Monster\":[320017],\"Delay\":7.4}]"
+  },
+  {
+    "id": 3001059,
+    "flushPool": "[{\"FlushConfigId\":1003013,\"Monster\":[320019],\"Delay\":0},{\"FlushConfigId\":1003005,\"Monster\":[320017],\"Delay\":3.5},{\"FlushConfigId\":1003014,\"Monster\":[320019],\"Delay\":7},{\"FlushConfigId\":1003005,\"Monster\":[320017],\"Delay\":10.5},{\"FlushConfigId\":1001023,\"Monster\":[330006],\"Delay\":1},{\"FlushConfigId\":1001023,\"Monster\":[330006],\"Delay\":4.5},{\"FlushConfigId\":1001023,\"Monster\":[330006],\"Delay\":8}]"
+  },
+  {
+    "id": 3001060,
+    "flushPool": "[{\"FlushConfigId\":1002002,\"Monster\":[320005],\"Delay\":0},{\"FlushConfigId\":1001056,\"Monster\":[330006],\"Delay\":0},{\"FlushConfigId\":1001057,\"Monster\":[330006],\"Delay\":2.2},{\"FlushConfigId\":1001056,\"Monster\":[330006],\"Delay\":4.4},{\"FlushConfigId\":1001057,\"Monster\":[330006],\"Delay\":6.6}]"
+  },
+  {
+    "id": 3001061,
+    "flushPool": "[{\"FlushConfigId\":1003029,\"Monster\":[320017],\"Delay\":0},{\"FlushConfigId\":1003002,\"Monster\":[320017],\"Delay\":1.5},{\"FlushConfigId\":1002014,\"Monster\":[320005],\"Delay\":3},{\"FlushConfigId\":1003025,\"Monster\":[320017],\"Delay\":4},{\"FlushConfigId\":1002013,\"Monster\":[320017],\"Delay\":5.5},{\"FlushConfigId\":1003024,\"Monster\":[320019],\"Delay\":7},{\"FlushConfigId\":1003030,\"Monster\":[320019],\"Delay\":8.5}]"
+  },
+  {
+    "id": 3001062,
+    "flushPool": "[{\"FlushConfigId\":1002033,\"Monster\":[320005],\"Delay\":0},{\"FlushConfigId\":1003013,\"Monster\":[320030],\"Delay\":0},{\"FlushConfigId\":1003013,\"Monster\":[320030],\"Delay\":1.6},{\"FlushConfigId\":1003013,\"Monster\":[320030],\"Delay\":3.2},{\"FlushConfigId\":1003013,\"Monster\":[320030],\"Delay\":4.8}]"
+  }
+]

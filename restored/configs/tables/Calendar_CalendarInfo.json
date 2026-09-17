@@ -1,0 +1,60 @@
+[
+  {
+    "Id": 10001,
+    "Name": "231001",
+    "Type": 101,
+    "GroupIDs": [
+      10101,
+      10102,
+      10103,
+      10104
+    ],
+    "ActvDes": 41,
+    "Duration": 7,
+    "RankID": 2,
+    "ShopID": 33,
+    "FinalRewardID": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "JumpInterface": 6,
+    "JumpInterfaceName": "231005",
+    "Currency": [
+      11
+    ],
+    "roundRewardMail": "20250904174139400",
+    "BannerBg": "stg_sprint_target_BG",
+    "Round": 4
+  },
+  {
+    "Id": 10002,
+    "Name": "231002",
+    "Type": 102,
+    "GroupIDs": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "ActvDes": 41,
+    "Duration": 7,
+    "RankID": 2,
+    "ShopID": 34,
+    "FinalRewardID": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "JumpInterface": 7,
+    "JumpInterfaceName": "231005",
+    "Currency": [
+      30
+    ],
+    "roundRewardMail": "20250904174139400",
+    "BannerBg": "stg_sprint_target_BG",
+    "Round": 4
+  }
+]

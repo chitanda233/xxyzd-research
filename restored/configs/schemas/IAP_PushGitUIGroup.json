@@ -1,0 +1,66 @@
+{
+  "name": "IAP_PushGitUIGroup",
+  "assembly": "HotFixBattle.dll",
+  "read_impl_rva": "0x6aa8e30",
+  "fields": [
+    {
+      "type": "int",
+      "name": "id",
+      "offset": 32,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "PosType",
+      "offset": 36,
+      "reader": "readInt"
+    },
+    {
+      "type": "string",
+      "name": "Title",
+      "offset": 40,
+      "reader": "readLocalString"
+    },
+    {
+      "type": "string",
+      "name": "ViewName",
+      "offset": 48,
+      "reader": "readLocalString"
+    },
+    {
+      "type": "int",
+      "name": "Atlas",
+      "offset": 56,
+      "reader": "readInt"
+    },
+    {
+      "type": "string",
+      "name": "Icon",
+      "offset": 64,
+      "reader": "readLocalString"
+    },
+    {
+      "type": "int",
+      "name": "GiftType",
+      "offset": 72,
+      "reader": "readInt"
+    },
+    {
+      "type": "int[]",
+      "name": "PopTrigger",
+      "offset": 80,
+      "reader": "readArrayint"
+    }
+  ],
+  "native_reader_calls": [
+    "readInt",
+    "readInt",
+    "readLocalString",
+    "readLocalString",
+    "readInt",
+    "readLocalString",
+    "readInt",
+    "readArrayint"
+  ],
+  "field_count_matches_native_calls": true
+}

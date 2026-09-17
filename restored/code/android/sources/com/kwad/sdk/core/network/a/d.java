@@ -1,0 +1,26 @@
+package com.kwad.sdk.core.network.a;
+
+import android.text.TextUtils;
+import java.net.InetAddress;
+import java.util.Arrays;
+import java.util.List;
+import okhttp3.Dns;
+
+/* JADX INFO: loaded from: classes3.dex */
+public final class d implements Dns {
+    private static final Dns SYSTEM = Dns.SYSTEM;
+
+    public final List<InetAddress> lookup(String str) {
+        String strGK = com.kwad.sdk.ip.direct.a.gK(str);
+        if (!TextUtils.isEmpty(strGK)) {
+            List<InetAddress> listAsList = Arrays.asList(InetAddress.getAllByName(strGK));
+            if (listAsList == null || listAsList.isEmpty()) {
+                return SYSTEM.lookup(str);
+            }
+            com.kwad.sdk.core.d.c.d("IpDirect_OkHttpDns", "inetAddresses:" + listAsList);
+            return listAsList;
+        }
+        com.kwad.sdk.core.d.c.d("IpDirect_OkHttpDns", "Dns.SYSTEM.lookup(hostname):" + Dns.SYSTEM.lookup(str));
+        return SYSTEM.lookup(str);
+    }
+}

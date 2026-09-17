@@ -1,0 +1,31 @@
+{
+  "name": "Item_drop",
+  "assembly": "HotFixBattle.dll",
+  "read_impl_rva": "0x6aacf9c",
+  "fields": [
+    {
+      "type": "int",
+      "name": "drop_id",
+      "offset": 32,
+      "reader": "readInt"
+    },
+    {
+      "type": "string[]",
+      "name": "reward",
+      "offset": 40,
+      "reader": "readArraystring"
+    },
+    {
+      "type": "int[]",
+      "name": "lvReward",
+      "offset": 48,
+      "reader": "readArrayint"
+    }
+  ],
+  "native_reader_calls": [
+    "readInt",
+    "readArraystring",
+    "readArrayint"
+  ],
+  "field_count_matches_native_calls": true
+}

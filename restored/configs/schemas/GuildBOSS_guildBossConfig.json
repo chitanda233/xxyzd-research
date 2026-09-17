@@ -1,0 +1,52 @@
+{
+  "name": "GuildBOSS_guildBossConfig",
+  "assembly": "HotFixBattle.dll",
+  "read_impl_rva": "0x6a85d18",
+  "fields": [
+    {
+      "type": "int",
+      "name": "ID",
+      "offset": 32,
+      "reader": "readInt"
+    },
+    {
+      "type": "string",
+      "name": "key",
+      "offset": 40,
+      "reader": "readLocalString"
+    },
+    {
+      "type": "string",
+      "name": "Notes",
+      "offset": 48,
+      "reader": "readLocalString"
+    },
+    {
+      "type": "int",
+      "name": "TypeInt",
+      "offset": 56,
+      "reader": "readInt"
+    },
+    {
+      "type": "int[]",
+      "name": "TypeIntArray",
+      "offset": 64,
+      "reader": "readArrayint"
+    },
+    {
+      "type": "string",
+      "name": "TypeString",
+      "offset": 72,
+      "reader": "readLocalString"
+    }
+  ],
+  "native_reader_calls": [
+    "readInt",
+    "readLocalString",
+    "readLocalString",
+    "readInt",
+    "readArrayint",
+    "readLocalString"
+  ],
+  "field_count_matches_native_calls": true
+}

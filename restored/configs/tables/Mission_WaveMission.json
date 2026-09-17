@@ -1,0 +1,32 @@
+[
+  {
+    "id": 4001001,
+    "GroupId": 1,
+    "MapIndex": 0,
+    "missionPool": [
+      "W_2_01_001"
+    ],
+    "firstMissionPool": [],
+    "refreshTime": {
+      "serialized_int32": -10000,
+      "decimal": -1.0,
+      "fp_raw": -65536,
+      "runtime_value": -1.0
+    },
+    "refreshCount": 0,
+    "missinType": 1,
+    "bgMusic": 0,
+    "hpUpgrade": {
+      "serialized_int32": 23410000,
+      "decimal": 2341.0,
+      "fp_raw": 153419776,
+      "runtime_value": 2341.0
+    },
+    "attackUp": {
+      "serialized_int32": 10530000,
+      "decimal": 1053.0,
+      "fp_raw": 69009408,
+      "runtime_value": 1053.0
+    }
+  }
+]

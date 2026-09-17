@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1001001,
+    "firstMissionPool": [
+      "S_1_45_011"
+    ],
+    "missionPool": [
+      "S_1_45_011"
+    ],
+    "refreshTime": {
+      "serialized_int32": -10000,
+      "decimal": -1.0,
+      "fp_raw": -65536,
+      "runtime_value": -1.0
+    },
+    "refreshCount": 5,
+    "missinType": 1,
+    "bgMusic": 0,
+    "cameraType": 1,
+    "hpUpgrade": {
+      "serialized_int32": -250000,
+      "decimal": -25.0,
+      "fp_raw": -1638400,
+      "runtime_value": -25.0
+    },
+    "attackUp": {
+      "serialized_int32": -250000,
+      "decimal": -25.0,
+      "fp_raw": -1638400,
+      "runtime_value": -25.0
+    },
+    "beeMonsterFlushConfigId": []
+  }
+]

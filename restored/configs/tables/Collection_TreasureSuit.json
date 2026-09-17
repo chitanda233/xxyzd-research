@@ -1,0 +1,782 @@
+[
+  {
+    "id": 1,
+    "suitId": 1,
+    "suitNameId": 210001,
+    "conditonPrifixTextId": 301,
+    "treasureId": [
+      63001,
+      63002,
+      63003,
+      63004
+    ],
+    "starCondition": 0,
+    "attributes": [
+      "Attack%=1",
+      "HPMax%=1"
+    ]
+  },
+  {
+    "id": 2,
+    "suitId": 1,
+    "suitNameId": 210001,
+    "conditonPrifixTextId": 301,
+    "treasureId": [
+      63001,
+      63002,
+      63003,
+      63004
+    ],
+    "starCondition": 3,
+    "attributes": [
+      "Attack%=1.5",
+      "HPMax%=1.5"
+    ]
+  },
+  {
+    "id": 3,
+    "suitId": 1,
+    "suitNameId": 210001,
+    "conditonPrifixTextId": 301,
+    "treasureId": [
+      63001,
+      63002,
+      63003,
+      63004
+    ],
+    "starCondition": 6,
+    "attributes": [
+      "Attack%=2",
+      "HPMax%=2"
+    ]
+  },
+  {
+    "id": 4,
+    "suitId": 1,
+    "suitNameId": 210001,
+    "conditonPrifixTextId": 301,
+    "treasureId": [
+      63001,
+      63002,
+      63003,
+      63004
+    ],
+    "starCondition": 9,
+    "attributes": [
+      "Attack%=2.5",
+      "HPMax%=2.5"
+    ]
+  },
+  {
+    "id": 5,
+    "suitId": 1,
+    "suitNameId": 210001,
+    "conditonPrifixTextId": 301,
+    "treasureId": [
+      63001,
+      63002,
+      63003,
+      63004
+    ],
+    "starCondition": 12,
+    "attributes": [
+      "Attack%=3",
+      "HPMax%=3"
+    ]
+  },
+  {
+    "id": 6,
+    "suitId": 1,
+    "suitNameId": 210001,
+    "conditonPrifixTextId": 301,
+    "treasureId": [
+      63001,
+      63002,
+      63003,
+      63004
+    ],
+    "starCondition": 15,
+    "attributes": [
+      "Attack%=3.5",
+      "HPMax%=3.5"
+    ]
+  },
+  {
+    "id": 7,
+    "suitId": 2,
+    "suitNameId": 210002,
+    "conditonPrifixTextId": 301,
+    "treasureId": [
+      63005,
+      64001,
+      64002
+    ],
+    "starCondition": 0,
+    "attributes": [
+      "Attack%=2",
+      "HPMax%=2"
+    ]
+  },
+  {
+    "id": 8,
+    "suitId": 2,
+    "suitNameId": 210002,
+    "conditonPrifixTextId": 301,
+    "treasureId": [
+      63005,
+      64001,
+      64002
+    ],
+    "starCondition": 3,
+    "attributes": [
+      "Attack%=3",
+      "HPMax%=3"
+    ]
+  },
+  {
+    "id": 9,
+    "suitId": 2,
+    "suitNameId": 210002,
+    "conditonPrifixTextId": 301,
+    "treasureId": [
+      63005,
+      64001,
+      64002
+    ],
+    "starCondition": 6,
+    "attributes": [
+      "Attack%=4",
+      "HPMax%=4"
+    ]
+  },
+  {
+    "id": 10,
+    "suitId": 2,
+    "suitNameId": 210002,
+    "conditonPrifixTextId": 301,
+    "treasureId": [
+      63005,
+      64001,
+      64002
+    ],
+    "starCondition": 9,
+    "attributes": [
+      "Attack%=5",
+      "HPMax%=5"
+    ]
+  },
+  {
+    "id": 11,
+    "suitId": 2,
+    "suitNameId": 210002,
+    "conditonPrifixTextId": 301,
+    "treasureId": [
+      63005,
+      64001,
+      64002
+    ],
+    "starCondition": 12,
+    "attributes": [
+      "Attack%=6",
+      "HPMax%=6"
+    ]
+  },
+  {
+    "id": 12,
+    "suitId": 2,
+    "suitNameId": 210002,
+    "conditonPrifixTextId": 301,
+    "treasureId": [
+      63005,
+      64001,
+      64002
+    ],
+    "starCondition": 15,
+    "attributes": [
+      "Attack%=7",
+      "HPMax%=7"
+    ]
+  },
+  {
+    "id": 13,
+    "suitId": 3,
+    "suitNameId": 210003,
+    "conditonPrifixTextId": 301,
+    "treasureId": [
+      64003,
+      64004,
+      64005,
+      64006
+    ],
+    "starCondition": 0,
+    "attributes": [
+      "Attack%=2",
+      "HPMax%=2"
+    ]
+  },
+  {
+    "id": 14,
+    "suitId": 3,
+    "suitNameId": 210003,
+    "conditonPrifixTextId": 301,
+    "treasureId": [
+      64003,
+      64004,
+      64005,
+      64006
+    ],
+    "starCondition": 3,
+    "attributes": [
+      "Attack%=3",
+      "HPMax%=3"
+    ]
+  },
+  {
+    "id": 15,
+    "suitId": 3,
+    "suitNameId": 210003,
+    "conditonPrifixTextId": 301,
+    "treasureId": [
+      64003,
+      64004,
+      64005,
+      64006
+    ],
+    "starCondition": 6,
+    "attributes": [
+      "Attack%=4",
+      "HPMax%=4"
+    ]
+  },
+  {
+    "id": 16,
+    "suitId": 3,
+    "suitNameId": 210003,
+    "conditonPrifixTextId": 301,
+    "treasureId": [
+      64003,
+      64004,
+      64005,
+      64006
+    ],
+    "starCondition": 9,
+    "attributes": [
+      "Attack%=5",
+      "HPMax%=5"
+    ]
+  },
+  {
+    "id": 17,
+    "suitId": 3,
+    "suitNameId": 210003,
+    "conditonPrifixTextId": 301,
+    "treasureId": [
+      64003,
+      64004,
+      64005,
+      64006
+    ],
+    "starCondition": 12,
+    "attributes": [
+      "Attack%=6",
+      "HPMax%=6"
+    ]
+  },
+  {
+    "id": 18,
+    "suitId": 3,
+    "suitNameId": 210003,
+    "conditonPrifixTextId": 301,
+    "treasureId": [
+      64003,
+      64004,
+      64005,
+      64006
+    ],
+    "starCondition": 15,
+    "attributes": [
+      "Attack%=7",
+      "HPMax%=7"
+    ]
+  },
+  {
+    "id": 19,
+    "suitId": 4,
+    "suitNameId": 210004,
+    "conditonPrifixTextId": 301,
+    "treasureId": [
+      64007,
+      65001,
+      65002
+    ],
+    "starCondition": 0,
+    "attributes": [
+      "Attack%=4",
+      "HPMax%=4"
+    ]
+  },
+  {
+    "id": 20,
+    "suitId": 4,
+    "suitNameId": 210004,
+    "conditonPrifixTextId": 301,
+    "treasureId": [
+      64007,
+      65001,
+      65002
+    ],
+    "starCondition": 3,
+    "attributes": [
+      "Attack%=6",
+      "HPMax%=6"
+    ]
+  },
+  {
+    "id": 21,
+    "suitId": 4,
+    "suitNameId": 210004,
+    "conditonPrifixTextId": 301,
+    "treasureId": [
+      64007,
+      65001,
+      65002
+    ],
+    "starCondition": 6,
+    "attributes": [
+      "Attack%=8",
+      "HPMax%=8"
+    ]
+  },
+  {
+    "id": 22,
+    "suitId": 4,
+    "suitNameId": 210004,
+    "conditonPrifixTextId": 301,
+    "treasureId": [
+      64007,
+      65001,
+      65002
+    ],
+    "starCondition": 9,
+    "attributes": [
+      "Attack%=10",
+      "HPMax%=10"
+    ]
+  },
+  {
+    "id": 23,
+    "suitId": 4,
+    "suitNameId": 210004,
+    "conditonPrifixTextId": 301,
+    "treasureId": [
+      64007,
+      65001,
+      65002
+    ],
+    "starCondition": 12,
+    "attributes": [
+      "Attack%=12",
+      "HPMax%=12"
+    ]
+  },
+  {
+    "id": 24,
+    "suitId": 4,
+    "suitNameId": 210004,
+    "conditonPrifixTextId": 301,
+    "treasureId": [
+      64007,
+      65001,
+      65002
+    ],
+    "starCondition": 15,
+    "attributes": [
+      "Attack%=14",
+      "HPMax%=14"
+    ]
+  },
+  {
+    "id": 25,
+    "suitId": 5,
+    "suitNameId": 210005,
+    "conditonPrifixTextId": 301,
+    "treasureId": [
+      65003,
+      65004,
+      65005
+    ],
+    "starCondition": 0,
+    "attributes": [
+      "Attack%=4",
+      "HPMax%=4"
+    ]
+  },
+  {
+    "id": 26,
+    "suitId": 5,
+    "suitNameId": 210005,
+    "conditonPrifixTextId": 301,
+    "treasureId": [
+      65003,
+      65004,
+      65005
+    ],
+    "starCondition": 3,
+    "attributes": [
+      "Attack%=6",
+      "HPMax%=6"
+    ]
+  },
+  {
+    "id": 27,
+    "suitId": 5,
+    "suitNameId": 210005,
+    "conditonPrifixTextId": 301,
+    "treasureId": [
+      65003,
+      65004,
+      65005
+    ],
+    "starCondition": 6,
+    "attributes": [
+      "Attack%=8",
+      "HPMax%=8"
+    ]
+  },
+  {
+    "id": 28,
+    "suitId": 5,
+    "suitNameId": 210005,
+    "conditonPrifixTextId": 301,
+    "treasureId": [
+      65003,
+      65004,
+      65005
+    ],
+    "starCondition": 9,
+    "attributes": [
+      "Attack%=10",
+      "HPMax%=10"
+    ]
+  },
+  {
+    "id": 29,
+    "suitId": 5,
+    "suitNameId": 210005,
+    "conditonPrifixTextId": 301,
+    "treasureId": [
+      65003,
+      65004,
+      65005
+    ],
+    "starCondition": 12,
+    "attributes": [
+      "Attack%=12",
+      "HPMax%=12"
+    ]
+  },
+  {
+    "id": 30,
+    "suitId": 5,
+    "suitNameId": 210005,
+    "conditonPrifixTextId": 301,
+    "treasureId": [
+      65003,
+      65004,
+      65005
+    ],
+    "starCondition": 15,
+    "attributes": [
+      "Attack%=14",
+      "HPMax%=14"
+    ]
+  },
+  {
+    "id": 31,
+    "suitId": 6,
+    "suitNameId": 210006,
+    "conditonPrifixTextId": 301,
+    "treasureId": [
+      65006,
+      65007,
+      65008
+    ],
+    "starCondition": 0,
+    "attributes": [
+      "Attack%=4",
+      "HPMax%=4"
+    ]
+  },
+  {
+    "id": 32,
+    "suitId": 6,
+    "suitNameId": 210006,
+    "conditonPrifixTextId": 301,
+    "treasureId": [
+      65006,
+      65007,
+      65008
+    ],
+    "starCondition": 3,
+    "attributes": [
+      "Attack%=6",
+      "HPMax%=6"
+    ]
+  },
+  {
+    "id": 33,
+    "suitId": 6,
+    "suitNameId": 210006,
+    "conditonPrifixTextId": 301,
+    "treasureId": [
+      65006,
+      65007,
+      65008
+    ],
+    "starCondition": 6,
+    "attributes": [
+      "Attack%=8",
+      "HPMax%=8"
+    ]
+  },
+  {
+    "id": 34,
+    "suitId": 6,
+    "suitNameId": 210006,
+    "conditonPrifixTextId": 301,
+    "treasureId": [
+      65006,
+      65007,
+      65008
+    ],
+    "starCondition": 9,
+    "attributes": [
+      "Attack%=10",
+      "HPMax%=10"
+    ]
+  },
+  {
+    "id": 35,
+    "suitId": 6,
+    "suitNameId": 210006,
+    "conditonPrifixTextId": 301,
+    "treasureId": [
+      65006,
+      65007,
+      65008
+    ],
+    "starCondition": 12,
+    "attributes": [
+      "Attack%=12",
+      "HPMax%=12"
+    ]
+  },
+  {
+    "id": 36,
+    "suitId": 6,
+    "suitNameId": 210006,
+    "conditonPrifixTextId": 301,
+    "treasureId": [
+      65006,
+      65007,
+      65008
+    ],
+    "starCondition": 15,
+    "attributes": [
+      "Attack%=14",
+      "HPMax%=14"
+    ]
+  },
+  {
+    "id": 37,
+    "suitId": 7,
+    "suitNameId": 210007,
+    "conditonPrifixTextId": 301,
+    "treasureId": [
+      65009,
+      65010,
+      65011
+    ],
+    "starCondition": 0,
+    "attributes": [
+      "Attack%=12",
+      "HPMax%=12"
+    ]
+  },
+  {
+    "id": 38,
+    "suitId": 7,
+    "suitNameId": 210007,
+    "conditonPrifixTextId": 301,
+    "treasureId": [
+      65009,
+      65010,
+      65011
+    ],
+    "starCondition": 3,
+    "attributes": [
+      "Attack%=18",
+      "HPMax%=18"
+    ]
+  },
+  {
+    "id": 39,
+    "suitId": 7,
+    "suitNameId": 210007,
+    "conditonPrifixTextId": 301,
+    "treasureId": [
+      65009,
+      65010,
+      65011
+    ],
+    "starCondition": 6,
+    "attributes": [
+      "Attack%=24",
+      "HPMax%=24"
+    ]
+  },
+  {
+    "id": 40,
+    "suitId": 7,
+    "suitNameId": 210007,
+    "conditonPrifixTextId": 301,
+    "treasureId": [
+      65009,
+      65010,
+      65011
+    ],
+    "starCondition": 9,
+    "attributes": [
+      "Attack%=30",
+      "HPMax%=30"
+    ]
+  },
+  {
+    "id": 41,
+    "suitId": 7,
+    "suitNameId": 210007,
+    "conditonPrifixTextId": 301,
+    "treasureId": [
+      65009,
+      65010,
+      65011
+    ],
+    "starCondition": 12,
+    "attributes": [
+      "Attack%=36",
+      "HPMax%=36"
+    ]
+  },
+  {
+    "id": 42,
+    "suitId": 7,
+    "suitNameId": 210007,
+    "conditonPrifixTextId": 301,
+    "treasureId": [
+      65009,
+      65010,
+      65011
+    ],
+    "starCondition": 15,
+    "attributes": [
+      "Attack%=42",
+      "HPMax%=42"
+    ]
+  },
+  {
+    "id": 43,
+    "suitId": 8,
+    "suitNameId": 210008,
+    "conditonPrifixTextId": 301,
+    "treasureId": [
+      65012,
+      65013,
+      65014
+    ],
+    "starCondition": 0,
+    "attributes": [
+      "Attack%=12",
+      "HPMax%=12"
+    ]
+  },
+  {
+    "id": 44,
+    "suitId": 8,
+    "suitNameId": 210008,
+    "conditonPrifixTextId": 301,
+    "treasureId": [
+      65012,
+      65013,
+      65014
+    ],
+    "starCondition": 3,
+    "attributes": [
+      "Attack%=18",
+      "HPMax%=18"
+    ]
+  },
+  {
+    "id": 45,
+    "suitId": 8,
+    "suitNameId": 210008,
+    "conditonPrifixTextId": 301,
+    "treasureId": [
+      65012,
+      65013,
+      65014
+    ],
+    "starCondition": 6,
+    "attributes": [
+      "Attack%=24",
+      "HPMax%=24"
+    ]
+  },
+  {
+    "id": 46,
+    "suitId": 8,
+    "suitNameId": 210008,
+    "conditonPrifixTextId": 301,
+    "treasureId": [
+      65012,
+      65013,
+      65014
+    ],
+    "starCondition": 9,
+    "attributes": [
+      "Attack%=30",
+      "HPMax%=30"
+    ]
+  },
+  {
+    "id": 47,
+    "suitId": 8,
+    "suitNameId": 210008,
+    "conditonPrifixTextId": 301,
+    "treasureId": [
+      65012,
+      65013,
+      65014
+    ],
+    "starCondition": 12,
+    "attributes": [
+      "Attack%=36",
+      "HPMax%=36"
+    ]
+  },
+  {
+    "id": 48,
+    "suitId": 8,
+    "suitNameId": 210008,
+    "conditonPrifixTextId": 301,
+    "treasureId": [
+      65012,
+      65013,
+      65014
+    ],
+    "starCondition": 15,
+    "attributes": [
+      "Attack%=42",
+      "HPMax%=42"
+    ]
+  }
+]

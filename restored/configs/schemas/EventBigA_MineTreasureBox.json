@@ -1,0 +1,73 @@
+{
+  "name": "EventBigA_MineTreasureBox",
+  "assembly": "HotFixBattle.dll",
+  "read_impl_rva": "0x6a6bca0",
+  "fields": [
+    {
+      "type": "int",
+      "name": "ID",
+      "offset": 32,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "BaseOpenTimes",
+      "offset": 36,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "BaseQuality",
+      "offset": 40,
+      "reader": "readInt"
+    },
+    {
+      "type": "int[][]",
+      "name": "QualityUpgradeRate",
+      "offset": 48,
+      "reader": "readArrayArrayint"
+    },
+    {
+      "type": "int[][]",
+      "name": "InitialOpenTimes",
+      "offset": 56,
+      "reader": "readArrayArrayint"
+    },
+    {
+      "type": "int",
+      "name": "TreasureBoxAtlas",
+      "offset": 64,
+      "reader": "readInt"
+    },
+    {
+      "type": "string",
+      "name": "TreasureBoxIcon",
+      "offset": 72,
+      "reader": "readLocalString"
+    },
+    {
+      "type": "string",
+      "name": "TreasureBoxIconPreview",
+      "offset": 80,
+      "reader": "readLocalString"
+    },
+    {
+      "type": "int[]",
+      "name": "TreasureSize",
+      "offset": 88,
+      "reader": "readArrayint"
+    }
+  ],
+  "native_reader_calls": [
+    "readInt",
+    "readInt",
+    "readInt",
+    "readArrayArrayint",
+    "readArrayArrayint",
+    "readInt",
+    "readLocalString",
+    "readLocalString",
+    "readArrayint"
+  ],
+  "field_count_matches_native_calls": true
+}

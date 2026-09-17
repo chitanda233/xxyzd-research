@@ -1,0 +1,152 @@
+[
+  {
+    "ID": 101,
+    "Need": 1,
+    "BossId": 101,
+    "Reward": [
+      "7100001,10",
+      "7100002,10"
+    ],
+    "OtherReward": [
+      "7100003,10"
+    ],
+    "ShowBoxAtlas": "uiguild",
+    "ShowBoxIconIdle": "baoxiang_01_idle",
+    "ShowBoxIconOpen": "baoxiang_01_open"
+  },
+  {
+    "ID": 102,
+    "Need": 3,
+    "BossId": 103,
+    "Reward": [
+      "7100001,10",
+      "7100002,11"
+    ],
+    "OtherReward": [
+      "7100003,10"
+    ],
+    "ShowBoxAtlas": "uiguild",
+    "ShowBoxIconIdle": "baoxiang_02_idle",
+    "ShowBoxIconOpen": "baoxiang_02_open"
+  },
+  {
+    "ID": 103,
+    "Need": 5,
+    "BossId": 105,
+    "Reward": [
+      "7100001,10",
+      "7100002,12"
+    ],
+    "OtherReward": [
+      "7100003,10"
+    ],
+    "ShowBoxAtlas": "uiguild",
+    "ShowBoxIconIdle": "baoxiang_01_idle",
+    "ShowBoxIconOpen": "baoxiang_01_open"
+  },
+  {
+    "ID": 104,
+    "Need": 8,
+    "BossId": 107,
+    "Reward": [
+      "7100001,10",
+      "7100002,13"
+    ],
+    "OtherReward": [
+      "7100003,11"
+    ],
+    "ShowBoxAtlas": "uiguild",
+    "ShowBoxIconIdle": "baoxiang_02_idle",
+    "ShowBoxIconOpen": "baoxiang_02_open"
+  },
+  {
+    "ID": 105,
+    "Need": 10,
+    "BossId": 109,
+    "Reward": [
+      "7100001,10",
+      "7100002,14"
+    ],
+    "OtherReward": [
+      "7100003,12"
+    ],
+    "ShowBoxAtlas": "uiguild",
+    "ShowBoxIconIdle": "baoxiang_01_idle",
+    "ShowBoxIconOpen": "baoxiang_01_open"
+  },
+  {
+    "ID": 201,
+    "Need": 1,
+    "BossId": 201,
+    "Reward": [
+      "7100001,10",
+      "7100002,15"
+    ],
+    "OtherReward": [
+      "7100003,13"
+    ],
+    "ShowBoxAtlas": "uiguild",
+    "ShowBoxIconIdle": "baoxiang_02_idle",
+    "ShowBoxIconOpen": "baoxiang_02_open"
+  },
+  {
+    "ID": 202,
+    "Need": 3,
+    "BossId": 203,
+    "Reward": [
+      "7100001,10",
+      "7100002,16"
+    ],
+    "OtherReward": [
+      "7100003,14"
+    ],
+    "ShowBoxAtlas": "uiguild",
+    "ShowBoxIconIdle": "baoxiang_01_idle",
+    "ShowBoxIconOpen": "baoxiang_01_open"
+  },
+  {
+    "ID": 203,
+    "Need": 5,
+    "BossId": 205,
+    "Reward": [
+      "7100001,10",
+      "7100002,17"
+    ],
+    "OtherReward": [
+      "7100003,15"
+    ],
+    "ShowBoxAtlas": "uiguild",
+    "ShowBoxIconIdle": "baoxiang_02_idle",
+    "ShowBoxIconOpen": "baoxiang_02_open"
+  },
+  {
+    "ID": 204,
+    "Need": 8,
+    "BossId": 207,
+    "Reward": [
+      "7100001,10",
+      "7100002,18"
+    ],
+    "OtherReward": [
+      "7100003,16"
+    ],
+    "ShowBoxAtlas": "uiguild",
+    "ShowBoxIconIdle": "baoxiang_01_idle",
+    "ShowBoxIconOpen": "baoxiang_01_open"
+  },
+  {
+    "ID": 205,
+    "Need": 10,
+    "BossId": 210,
+    "Reward": [
+      "7100001,10",
+      "7100002,19"
+    ],
+    "OtherReward": [
+      "7100003,17"
+    ],
+    "ShowBoxAtlas": "uiguild",
+    "ShowBoxIconIdle": "baoxiang_02_idle",
+    "ShowBoxIconOpen": "baoxiang_02_open"
+  }
+]

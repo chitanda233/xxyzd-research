@@ -1,0 +1,29 @@
+[
+  {
+    "ID": 1,
+    "Notes": "勇士体力与加分",
+    "TypeInt": 0,
+    "TypeIntArray": [
+      1,
+      1
+    ]
+  },
+  {
+    "ID": 2,
+    "Notes": "精英体力与加分",
+    "TypeInt": 0,
+    "TypeIntArray": [
+      2,
+      3
+    ]
+  },
+  {
+    "ID": 3,
+    "Notes": "大将体力与加分",
+    "TypeInt": 0,
+    "TypeIntArray": [
+      3,
+      5
+    ]
+  }
+]

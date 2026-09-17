@@ -1,0 +1,20 @@
+[
+  {
+    "ID": 1,
+    "NetVersion": 400,
+    "FreeCnt": 2,
+    "BuyCnt": 0,
+    "BuyDiamonds": 800,
+    "MissionID": [
+      21000,
+      21001,
+      21002,
+      21003,
+      21004,
+      21005,
+      21006
+    ],
+    "OpenTime": 1727222400,
+    "FinishTime": 0
+  }
+]

@@ -1,0 +1,8854 @@
+[
+  {
+    "id": 1001001,
+    "wave": 1,
+    "time": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "delayTime": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "missinType": 0,
+    "interval": [],
+    "pathMonster": [],
+    "positionMonster": 0,
+    "Monster": [],
+    "MultiHp": [],
+    "positionGroupMonster": [
+      3001056
+    ],
+    "randomMonster": [],
+    "numberRandom": 0,
+    "heightRandom": 0,
+    "hpUpgrade": {
+      "serialized_int32": 8000,
+      "decimal": 0.8,
+      "fp_raw": 52428,
+      "runtime_value": 0.79998779296875
+    },
+    "attackUp": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "addExpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "HPPickUpAddPercent": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "RandomNpc": 0,
+    "MonsterFlushConfigId": [],
+    "refreshCount": 0,
+    "missionTypeParam": "",
+    "missionPool": []
+  },
+  {
+    "id": 1001002,
+    "wave": 1,
+    "time": {
+      "serialized_int32": 150000,
+      "decimal": 15.0,
+      "fp_raw": 983040,
+      "runtime_value": 15.0
+    },
+    "delayTime": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "missinType": 0,
+    "interval": [],
+    "pathMonster": [],
+    "positionMonster": 0,
+    "Monster": [],
+    "MultiHp": [],
+    "positionGroupMonster": [
+      3001057
+    ],
+    "randomMonster": [],
+    "numberRandom": 0,
+    "heightRandom": 0,
+    "hpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "attackUp": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "addExpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "HPPickUpAddPercent": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "RandomNpc": 0,
+    "MonsterFlushConfigId": [],
+    "refreshCount": 0,
+    "missionTypeParam": "",
+    "missionPool": []
+  },
+  {
+    "id": 1001003,
+    "wave": 1,
+    "time": {
+      "serialized_int32": 300000,
+      "decimal": 30.0,
+      "fp_raw": 1966080,
+      "runtime_value": 30.0
+    },
+    "delayTime": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "missinType": 0,
+    "interval": [],
+    "pathMonster": [],
+    "positionMonster": 0,
+    "Monster": [],
+    "MultiHp": [],
+    "positionGroupMonster": [
+      3001058
+    ],
+    "randomMonster": [],
+    "numberRandom": 0,
+    "heightRandom": 0,
+    "hpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "attackUp": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "addExpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "HPPickUpAddPercent": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "RandomNpc": 0,
+    "MonsterFlushConfigId": [],
+    "refreshCount": 0,
+    "missionTypeParam": "",
+    "missionPool": []
+  },
+  {
+    "id": 1001004,
+    "wave": 1,
+    "time": {
+      "serialized_int32": 450000,
+      "decimal": 45.0,
+      "fp_raw": 2949120,
+      "runtime_value": 45.0
+    },
+    "delayTime": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "missinType": 0,
+    "interval": [],
+    "pathMonster": [],
+    "positionMonster": 0,
+    "Monster": [],
+    "MultiHp": [],
+    "positionGroupMonster": [
+      3001059
+    ],
+    "randomMonster": [],
+    "numberRandom": 0,
+    "heightRandom": 0,
+    "hpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "attackUp": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "addExpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "HPPickUpAddPercent": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "RandomNpc": 0,
+    "MonsterFlushConfigId": [],
+    "refreshCount": 0,
+    "missionTypeParam": "",
+    "missionPool": []
+  },
+  {
+    "id": 1001005,
+    "wave": 1,
+    "time": {
+      "serialized_int32": 620000,
+      "decimal": 62.0,
+      "fp_raw": 4063232,
+      "runtime_value": 62.0
+    },
+    "delayTime": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "missinType": 0,
+    "interval": [],
+    "pathMonster": [],
+    "positionMonster": 1002002,
+    "Monster": [
+      320005
+    ],
+    "MultiHp": [],
+    "positionGroupMonster": [],
+    "randomMonster": [],
+    "numberRandom": 0,
+    "heightRandom": 0,
+    "hpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "attackUp": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "addExpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "HPPickUpAddPercent": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "RandomNpc": 0,
+    "MonsterFlushConfigId": [],
+    "refreshCount": 0,
+    "missionTypeParam": "",
+    "missionPool": []
+  },
+  {
+    "id": 1001006,
+    "wave": 1,
+    "time": {
+      "serialized_int32": 620000,
+      "decimal": 62.0,
+      "fp_raw": 4063232,
+      "runtime_value": 62.0
+    },
+    "delayTime": {
+      "serialized_int32": 5000,
+      "decimal": 0.5,
+      "fp_raw": 32768,
+      "runtime_value": 0.5
+    },
+    "missinType": 0,
+    "interval": [],
+    "pathMonster": [],
+    "positionMonster": 1002007,
+    "Monster": [
+      320021
+    ],
+    "MultiHp": [],
+    "positionGroupMonster": [],
+    "randomMonster": [],
+    "numberRandom": 0,
+    "heightRandom": 0,
+    "hpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "attackUp": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "addExpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "HPPickUpAddPercent": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "RandomNpc": 0,
+    "MonsterFlushConfigId": [],
+    "refreshCount": 0,
+    "missionTypeParam": "",
+    "missionPool": []
+  },
+  {
+    "id": 1001007,
+    "wave": 1,
+    "time": {
+      "serialized_int32": 620000,
+      "decimal": 62.0,
+      "fp_raw": 4063232,
+      "runtime_value": 62.0
+    },
+    "delayTime": {
+      "serialized_int32": 30000,
+      "decimal": 3.0,
+      "fp_raw": 196608,
+      "runtime_value": 3.0
+    },
+    "missinType": 0,
+    "interval": [],
+    "pathMonster": [],
+    "positionMonster": 1003013,
+    "Monster": [
+      320017
+    ],
+    "MultiHp": [],
+    "positionGroupMonster": [],
+    "randomMonster": [],
+    "numberRandom": 0,
+    "heightRandom": 0,
+    "hpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "attackUp": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "addExpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "HPPickUpAddPercent": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "RandomNpc": 0,
+    "MonsterFlushConfigId": [],
+    "refreshCount": 0,
+    "missionTypeParam": "",
+    "missionPool": []
+  },
+  {
+    "id": 1001008,
+    "wave": 1,
+    "time": {
+      "serialized_int32": 620000,
+      "decimal": 62.0,
+      "fp_raw": 4063232,
+      "runtime_value": 62.0
+    },
+    "delayTime": {
+      "serialized_int32": 60000,
+      "decimal": 6.0,
+      "fp_raw": 393216,
+      "runtime_value": 6.0
+    },
+    "missinType": 0,
+    "interval": [],
+    "pathMonster": [],
+    "positionMonster": 1003014,
+    "Monster": [
+      320017
+    ],
+    "MultiHp": [],
+    "positionGroupMonster": [],
+    "randomMonster": [],
+    "numberRandom": 0,
+    "heightRandom": 0,
+    "hpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "attackUp": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "addExpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "HPPickUpAddPercent": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "RandomNpc": 0,
+    "MonsterFlushConfigId": [],
+    "refreshCount": 0,
+    "missionTypeParam": "",
+    "missionPool": []
+  },
+  {
+    "id": 1001009,
+    "wave": 1,
+    "time": {
+      "serialized_int32": 620000,
+      "decimal": 62.0,
+      "fp_raw": 4063232,
+      "runtime_value": 62.0
+    },
+    "delayTime": {
+      "serialized_int32": 90000,
+      "decimal": 9.0,
+      "fp_raw": 589824,
+      "runtime_value": 9.0
+    },
+    "missinType": 0,
+    "interval": [],
+    "pathMonster": [],
+    "positionMonster": 1003013,
+    "Monster": [
+      320017
+    ],
+    "MultiHp": [],
+    "positionGroupMonster": [],
+    "randomMonster": [],
+    "numberRandom": 0,
+    "heightRandom": 0,
+    "hpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "attackUp": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "addExpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "HPPickUpAddPercent": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "RandomNpc": 0,
+    "MonsterFlushConfigId": [],
+    "refreshCount": 0,
+    "missionTypeParam": "",
+    "missionPool": []
+  },
+  {
+    "id": 1001010,
+    "wave": 1,
+    "time": {
+      "serialized_int32": 620000,
+      "decimal": 62.0,
+      "fp_raw": 4063232,
+      "runtime_value": 62.0
+    },
+    "delayTime": {
+      "serialized_int32": 5000,
+      "decimal": 0.5,
+      "fp_raw": 32768,
+      "runtime_value": 0.5
+    },
+    "missinType": 0,
+    "interval": [],
+    "pathMonster": [],
+    "positionMonster": 1001050,
+    "Monster": [
+      330006
+    ],
+    "MultiHp": [],
+    "positionGroupMonster": [],
+    "randomMonster": [],
+    "numberRandom": 0,
+    "heightRandom": 0,
+    "hpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "attackUp": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "addExpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "HPPickUpAddPercent": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "RandomNpc": 0,
+    "MonsterFlushConfigId": [],
+    "refreshCount": 0,
+    "missionTypeParam": "",
+    "missionPool": []
+  },
+  {
+    "id": 1001011,
+    "wave": 1,
+    "time": {
+      "serialized_int32": 620000,
+      "decimal": 62.0,
+      "fp_raw": 4063232,
+      "runtime_value": 62.0
+    },
+    "delayTime": {
+      "serialized_int32": 20000,
+      "decimal": 2.0,
+      "fp_raw": 131072,
+      "runtime_value": 2.0
+    },
+    "missinType": 0,
+    "interval": [],
+    "pathMonster": [],
+    "positionMonster": 1003024,
+    "Monster": [
+      330006
+    ],
+    "MultiHp": [],
+    "positionGroupMonster": [],
+    "randomMonster": [],
+    "numberRandom": 0,
+    "heightRandom": 0,
+    "hpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "attackUp": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "addExpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "HPPickUpAddPercent": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "RandomNpc": 0,
+    "MonsterFlushConfigId": [],
+    "refreshCount": 0,
+    "missionTypeParam": "",
+    "missionPool": []
+  },
+  {
+    "id": 1001012,
+    "wave": 1,
+    "time": {
+      "serialized_int32": 620000,
+      "decimal": 62.0,
+      "fp_raw": 4063232,
+      "runtime_value": 62.0
+    },
+    "delayTime": {
+      "serialized_int32": 22000,
+      "decimal": 2.2,
+      "fp_raw": 144179,
+      "runtime_value": 2.1999969482421875
+    },
+    "missinType": 0,
+    "interval": [],
+    "pathMonster": [],
+    "positionMonster": 1003024,
+    "Monster": [
+      330006
+    ],
+    "MultiHp": [],
+    "positionGroupMonster": [],
+    "randomMonster": [],
+    "numberRandom": 0,
+    "heightRandom": 0,
+    "hpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "attackUp": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "addExpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "HPPickUpAddPercent": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "RandomNpc": 0,
+    "MonsterFlushConfigId": [],
+    "refreshCount": 0,
+    "missionTypeParam": "",
+    "missionPool": []
+  },
+  {
+    "id": 1001013,
+    "wave": 1,
+    "time": {
+      "serialized_int32": 620000,
+      "decimal": 62.0,
+      "fp_raw": 4063232,
+      "runtime_value": 62.0
+    },
+    "delayTime": {
+      "serialized_int32": 24000,
+      "decimal": 2.4,
+      "fp_raw": 157286,
+      "runtime_value": 2.399993896484375
+    },
+    "missinType": 0,
+    "interval": [],
+    "pathMonster": [],
+    "positionMonster": 1003024,
+    "Monster": [
+      330006
+    ],
+    "MultiHp": [],
+    "positionGroupMonster": [],
+    "randomMonster": [],
+    "numberRandom": 0,
+    "heightRandom": 0,
+    "hpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "attackUp": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "addExpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "HPPickUpAddPercent": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "RandomNpc": 0,
+    "MonsterFlushConfigId": [],
+    "refreshCount": 0,
+    "missionTypeParam": "",
+    "missionPool": []
+  },
+  {
+    "id": 1001014,
+    "wave": 1,
+    "time": {
+      "serialized_int32": 620000,
+      "decimal": 62.0,
+      "fp_raw": 4063232,
+      "runtime_value": 62.0
+    },
+    "delayTime": {
+      "serialized_int32": 35000,
+      "decimal": 3.5,
+      "fp_raw": 229376,
+      "runtime_value": 3.5
+    },
+    "missinType": 0,
+    "interval": [],
+    "pathMonster": [],
+    "positionMonster": 1001051,
+    "Monster": [
+      330006
+    ],
+    "MultiHp": [],
+    "positionGroupMonster": [],
+    "randomMonster": [],
+    "numberRandom": 0,
+    "heightRandom": 0,
+    "hpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "attackUp": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "addExpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "HPPickUpAddPercent": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "RandomNpc": 0,
+    "MonsterFlushConfigId": [],
+    "refreshCount": 0,
+    "missionTypeParam": "",
+    "missionPool": []
+  },
+  {
+    "id": 1001015,
+    "wave": 1,
+    "time": {
+      "serialized_int32": 620000,
+      "decimal": 62.0,
+      "fp_raw": 4063232,
+      "runtime_value": 62.0
+    },
+    "delayTime": {
+      "serialized_int32": 50000,
+      "decimal": 5.0,
+      "fp_raw": 327680,
+      "runtime_value": 5.0
+    },
+    "missinType": 0,
+    "interval": [],
+    "pathMonster": [],
+    "positionMonster": 1003025,
+    "Monster": [
+      330006
+    ],
+    "MultiHp": [],
+    "positionGroupMonster": [],
+    "randomMonster": [],
+    "numberRandom": 0,
+    "heightRandom": 0,
+    "hpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "attackUp": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "addExpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "HPPickUpAddPercent": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "RandomNpc": 0,
+    "MonsterFlushConfigId": [],
+    "refreshCount": 0,
+    "missionTypeParam": "",
+    "missionPool": []
+  },
+  {
+    "id": 1001016,
+    "wave": 1,
+    "time": {
+      "serialized_int32": 620000,
+      "decimal": 62.0,
+      "fp_raw": 4063232,
+      "runtime_value": 62.0
+    },
+    "delayTime": {
+      "serialized_int32": 52000,
+      "decimal": 5.2,
+      "fp_raw": 340787,
+      "runtime_value": 5.1999969482421875
+    },
+    "missinType": 0,
+    "interval": [],
+    "pathMonster": [],
+    "positionMonster": 1003025,
+    "Monster": [
+      330006
+    ],
+    "MultiHp": [],
+    "positionGroupMonster": [],
+    "randomMonster": [],
+    "numberRandom": 0,
+    "heightRandom": 0,
+    "hpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "attackUp": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "addExpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "HPPickUpAddPercent": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "RandomNpc": 0,
+    "MonsterFlushConfigId": [],
+    "refreshCount": 0,
+    "missionTypeParam": "",
+    "missionPool": []
+  },
+  {
+    "id": 1001017,
+    "wave": 1,
+    "time": {
+      "serialized_int32": 620000,
+      "decimal": 62.0,
+      "fp_raw": 4063232,
+      "runtime_value": 62.0
+    },
+    "delayTime": {
+      "serialized_int32": 60000,
+      "decimal": 6.0,
+      "fp_raw": 393216,
+      "runtime_value": 6.0
+    },
+    "missinType": 0,
+    "interval": [],
+    "pathMonster": [],
+    "positionMonster": 1001052,
+    "Monster": [
+      330006
+    ],
+    "MultiHp": [],
+    "positionGroupMonster": [],
+    "randomMonster": [],
+    "numberRandom": 0,
+    "heightRandom": 0,
+    "hpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "attackUp": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "addExpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "HPPickUpAddPercent": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "RandomNpc": 0,
+    "MonsterFlushConfigId": [],
+    "refreshCount": 0,
+    "missionTypeParam": "",
+    "missionPool": []
+  },
+  {
+    "id": 1001018,
+    "wave": 1,
+    "time": {
+      "serialized_int32": 620000,
+      "decimal": 62.0,
+      "fp_raw": 4063232,
+      "runtime_value": 62.0
+    },
+    "delayTime": {
+      "serialized_int32": 75000,
+      "decimal": 7.5,
+      "fp_raw": 491520,
+      "runtime_value": 7.5
+    },
+    "missinType": 0,
+    "interval": [],
+    "pathMonster": [],
+    "positionMonster": 1003025,
+    "Monster": [
+      330006
+    ],
+    "MultiHp": [],
+    "positionGroupMonster": [],
+    "randomMonster": [],
+    "numberRandom": 0,
+    "heightRandom": 0,
+    "hpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "attackUp": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "addExpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "HPPickUpAddPercent": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "RandomNpc": 0,
+    "MonsterFlushConfigId": [],
+    "refreshCount": 0,
+    "missionTypeParam": "",
+    "missionPool": []
+  },
+  {
+    "id": 1001019,
+    "wave": 1,
+    "time": {
+      "serialized_int32": 620000,
+      "decimal": 62.0,
+      "fp_raw": 4063232,
+      "runtime_value": 62.0
+    },
+    "delayTime": {
+      "serialized_int32": 77000,
+      "decimal": 7.7,
+      "fp_raw": 504627,
+      "runtime_value": 7.6999969482421875
+    },
+    "missinType": 0,
+    "interval": [],
+    "pathMonster": [],
+    "positionMonster": 1003025,
+    "Monster": [
+      330006
+    ],
+    "MultiHp": [],
+    "positionGroupMonster": [],
+    "randomMonster": [],
+    "numberRandom": 0,
+    "heightRandom": 0,
+    "hpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "attackUp": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "addExpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "HPPickUpAddPercent": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "RandomNpc": 0,
+    "MonsterFlushConfigId": [],
+    "refreshCount": 0,
+    "missionTypeParam": "",
+    "missionPool": []
+  },
+  {
+    "id": 1001020,
+    "wave": 1,
+    "time": {
+      "serialized_int32": 620000,
+      "decimal": 62.0,
+      "fp_raw": 4063232,
+      "runtime_value": 62.0
+    },
+    "delayTime": {
+      "serialized_int32": 85000,
+      "decimal": 8.5,
+      "fp_raw": 557056,
+      "runtime_value": 8.5
+    },
+    "missinType": 0,
+    "interval": [],
+    "pathMonster": [],
+    "positionMonster": 1001051,
+    "Monster": [
+      330006
+    ],
+    "MultiHp": [],
+    "positionGroupMonster": [],
+    "randomMonster": [],
+    "numberRandom": 0,
+    "heightRandom": 0,
+    "hpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "attackUp": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "addExpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "HPPickUpAddPercent": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "RandomNpc": 0,
+    "MonsterFlushConfigId": [],
+    "refreshCount": 0,
+    "missionTypeParam": "",
+    "missionPool": []
+  },
+  {
+    "id": 1001022,
+    "wave": 2,
+    "time": {
+      "serialized_int32": 1070000,
+      "decimal": 107.0,
+      "fp_raw": 7012352,
+      "runtime_value": 107.0
+    },
+    "delayTime": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "missinType": 0,
+    "interval": [],
+    "pathMonster": [],
+    "positionMonster": 0,
+    "Monster": [],
+    "MultiHp": [],
+    "positionGroupMonster": [
+      3001060
+    ],
+    "randomMonster": [],
+    "numberRandom": 0,
+    "heightRandom": 0,
+    "hpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "attackUp": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "addExpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "HPPickUpAddPercent": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "RandomNpc": 0,
+    "MonsterFlushConfigId": [],
+    "refreshCount": 0,
+    "missionTypeParam": "",
+    "missionPool": []
+  },
+  {
+    "id": 1001023,
+    "wave": 2,
+    "time": {
+      "serialized_int32": 1350000,
+      "decimal": 135.0,
+      "fp_raw": 8847360,
+      "runtime_value": 135.0
+    },
+    "delayTime": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "missinType": 0,
+    "interval": [],
+    "pathMonster": [],
+    "positionMonster": 0,
+    "Monster": [],
+    "MultiHp": [],
+    "positionGroupMonster": [
+      3001061
+    ],
+    "randomMonster": [],
+    "numberRandom": 0,
+    "heightRandom": 0,
+    "hpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "attackUp": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "addExpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "HPPickUpAddPercent": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "RandomNpc": 0,
+    "MonsterFlushConfigId": [],
+    "refreshCount": 0,
+    "missionTypeParam": "",
+    "missionPool": []
+  },
+  {
+    "id": 1001024,
+    "wave": 2,
+    "time": {
+      "serialized_int32": 1500000,
+      "decimal": 150.0,
+      "fp_raw": 9830400,
+      "runtime_value": 150.0
+    },
+    "delayTime": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "missinType": 0,
+    "interval": [],
+    "pathMonster": [],
+    "positionMonster": 0,
+    "Monster": [],
+    "MultiHp": [],
+    "positionGroupMonster": [
+      3001062
+    ],
+    "randomMonster": [
+      5,
+      13
+    ],
+    "numberRandom": 2,
+    "heightRandom": 30,
+    "hpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "attackUp": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "addExpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "HPPickUpAddPercent": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "RandomNpc": 0,
+    "MonsterFlushConfigId": [],
+    "refreshCount": 0,
+    "missionTypeParam": "",
+    "missionPool": []
+  },
+  {
+    "id": 1001025,
+    "wave": 2,
+    "time": {
+      "serialized_int32": 1500000,
+      "decimal": 150.0,
+      "fp_raw": 9830400,
+      "runtime_value": 150.0
+    },
+    "delayTime": {
+      "serialized_int32": 16000,
+      "decimal": 1.6,
+      "fp_raw": 104857,
+      "runtime_value": 1.5999908447265625
+    },
+    "missinType": 0,
+    "interval": [],
+    "pathMonster": [],
+    "positionMonster": 0,
+    "Monster": [],
+    "MultiHp": [],
+    "positionGroupMonster": [],
+    "randomMonster": [
+      2
+    ],
+    "numberRandom": 1,
+    "heightRandom": 30,
+    "hpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "attackUp": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "addExpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "HPPickUpAddPercent": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "RandomNpc": 0,
+    "MonsterFlushConfigId": [],
+    "refreshCount": 0,
+    "missionTypeParam": "",
+    "missionPool": []
+  },
+  {
+    "id": 1001026,
+    "wave": 2,
+    "time": {
+      "serialized_int32": 1500000,
+      "decimal": 150.0,
+      "fp_raw": 9830400,
+      "runtime_value": 150.0
+    },
+    "delayTime": {
+      "serialized_int32": 32000,
+      "decimal": 3.2,
+      "fp_raw": 209715,
+      "runtime_value": 3.1999969482421875
+    },
+    "missinType": 0,
+    "interval": [],
+    "pathMonster": [],
+    "positionMonster": 0,
+    "Monster": [],
+    "MultiHp": [],
+    "positionGroupMonster": [],
+    "randomMonster": [
+      2
+    ],
+    "numberRandom": 1,
+    "heightRandom": 30,
+    "hpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "attackUp": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "addExpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "HPPickUpAddPercent": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "RandomNpc": 0,
+    "MonsterFlushConfigId": [],
+    "refreshCount": 0,
+    "missionTypeParam": "",
+    "missionPool": []
+  },
+  {
+    "id": 1001027,
+    "wave": 2,
+    "time": {
+      "serialized_int32": 1500000,
+      "decimal": 150.0,
+      "fp_raw": 9830400,
+      "runtime_value": 150.0
+    },
+    "delayTime": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "missinType": 0,
+    "interval": [],
+    "pathMonster": [],
+    "positionMonster": 0,
+    "Monster": [],
+    "MultiHp": [],
+    "positionGroupMonster": [],
+    "randomMonster": [
+      2
+    ],
+    "numberRandom": 1,
+    "heightRandom": 30,
+    "hpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "attackUp": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "addExpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "HPPickUpAddPercent": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "RandomNpc": 0,
+    "MonsterFlushConfigId": [],
+    "refreshCount": 0,
+    "missionTypeParam": "",
+    "missionPool": []
+  },
+  {
+    "id": 1001028,
+    "wave": 2,
+    "time": {
+      "serialized_int32": 1500000,
+      "decimal": 150.0,
+      "fp_raw": 9830400,
+      "runtime_value": 150.0
+    },
+    "delayTime": {
+      "serialized_int32": 30000,
+      "decimal": 3.0,
+      "fp_raw": 196608,
+      "runtime_value": 3.0
+    },
+    "missinType": 0,
+    "interval": [],
+    "pathMonster": [],
+    "positionMonster": 0,
+    "Monster": [],
+    "MultiHp": [],
+    "positionGroupMonster": [],
+    "randomMonster": [
+      2
+    ],
+    "numberRandom": 1,
+    "heightRandom": 30,
+    "hpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "attackUp": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "addExpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "HPPickUpAddPercent": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "RandomNpc": 0,
+    "MonsterFlushConfigId": [],
+    "refreshCount": 0,
+    "missionTypeParam": "",
+    "missionPool": []
+  },
+  {
+    "id": 1001029,
+    "wave": 2,
+    "time": {
+      "serialized_int32": 1650000,
+      "decimal": 165.0,
+      "fp_raw": 10813440,
+      "runtime_value": 165.0
+    },
+    "delayTime": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "missinType": 0,
+    "interval": [],
+    "pathMonster": [],
+    "positionMonster": 1002005,
+    "Monster": [
+      320005
+    ],
+    "MultiHp": [],
+    "positionGroupMonster": [],
+    "randomMonster": [],
+    "numberRandom": 0,
+    "heightRandom": 0,
+    "hpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "attackUp": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "addExpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "HPPickUpAddPercent": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "RandomNpc": 0,
+    "MonsterFlushConfigId": [],
+    "refreshCount": 0,
+    "missionTypeParam": "",
+    "missionPool": []
+  },
+  {
+    "id": 1001030,
+    "wave": 2,
+    "time": {
+      "serialized_int32": 1650000,
+      "decimal": 165.0,
+      "fp_raw": 10813440,
+      "runtime_value": 165.0
+    },
+    "delayTime": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "missinType": 0,
+    "interval": [],
+    "pathMonster": [],
+    "positionMonster": 1001050,
+    "Monster": [
+      330006
+    ],
+    "MultiHp": [],
+    "positionGroupMonster": [],
+    "randomMonster": [],
+    "numberRandom": 0,
+    "heightRandom": 0,
+    "hpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "attackUp": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "addExpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "HPPickUpAddPercent": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "RandomNpc": 0,
+    "MonsterFlushConfigId": [],
+    "refreshCount": 0,
+    "missionTypeParam": "",
+    "missionPool": []
+  },
+  {
+    "id": 1001031,
+    "wave": 2,
+    "time": {
+      "serialized_int32": 1650000,
+      "decimal": 165.0,
+      "fp_raw": 10813440,
+      "runtime_value": 165.0
+    },
+    "delayTime": {
+      "serialized_int32": 8000,
+      "decimal": 0.8,
+      "fp_raw": 52428,
+      "runtime_value": 0.79998779296875
+    },
+    "missinType": 0,
+    "interval": [],
+    "pathMonster": [],
+    "positionMonster": 1001051,
+    "Monster": [
+      330006
+    ],
+    "MultiHp": [],
+    "positionGroupMonster": [],
+    "randomMonster": [],
+    "numberRandom": 0,
+    "heightRandom": 0,
+    "hpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "attackUp": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "addExpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "HPPickUpAddPercent": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "RandomNpc": 0,
+    "MonsterFlushConfigId": [],
+    "refreshCount": 0,
+    "missionTypeParam": "",
+    "missionPool": []
+  },
+  {
+    "id": 1001032,
+    "wave": 2,
+    "time": {
+      "serialized_int32": 1650000,
+      "decimal": 165.0,
+      "fp_raw": 10813440,
+      "runtime_value": 165.0
+    },
+    "delayTime": {
+      "serialized_int32": 16000,
+      "decimal": 1.6,
+      "fp_raw": 104857,
+      "runtime_value": 1.5999908447265625
+    },
+    "missinType": 0,
+    "interval": [],
+    "pathMonster": [],
+    "positionMonster": 1001052,
+    "Monster": [
+      330006
+    ],
+    "MultiHp": [],
+    "positionGroupMonster": [],
+    "randomMonster": [],
+    "numberRandom": 0,
+    "heightRandom": 0,
+    "hpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "attackUp": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "addExpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "HPPickUpAddPercent": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "RandomNpc": 0,
+    "MonsterFlushConfigId": [],
+    "refreshCount": 0,
+    "missionTypeParam": "",
+    "missionPool": []
+  },
+  {
+    "id": 1001033,
+    "wave": 2,
+    "time": {
+      "serialized_int32": 1650000,
+      "decimal": 165.0,
+      "fp_raw": 10813440,
+      "runtime_value": 165.0
+    },
+    "delayTime": {
+      "serialized_int32": 24000,
+      "decimal": 2.4,
+      "fp_raw": 157286,
+      "runtime_value": 2.399993896484375
+    },
+    "missinType": 0,
+    "interval": [],
+    "pathMonster": [],
+    "positionMonster": 1001052,
+    "Monster": [
+      330006
+    ],
+    "MultiHp": [],
+    "positionGroupMonster": [],
+    "randomMonster": [],
+    "numberRandom": 0,
+    "heightRandom": 0,
+    "hpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "attackUp": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "addExpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "HPPickUpAddPercent": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "RandomNpc": 0,
+    "MonsterFlushConfigId": [],
+    "refreshCount": 0,
+    "missionTypeParam": "",
+    "missionPool": []
+  },
+  {
+    "id": 1001034,
+    "wave": 2,
+    "time": {
+      "serialized_int32": 1650000,
+      "decimal": 165.0,
+      "fp_raw": 10813440,
+      "runtime_value": 165.0
+    },
+    "delayTime": {
+      "serialized_int32": 32000,
+      "decimal": 3.2,
+      "fp_raw": 209715,
+      "runtime_value": 3.1999969482421875
+    },
+    "missinType": 0,
+    "interval": [],
+    "pathMonster": [],
+    "positionMonster": 1001051,
+    "Monster": [
+      330006
+    ],
+    "MultiHp": [],
+    "positionGroupMonster": [],
+    "randomMonster": [],
+    "numberRandom": 0,
+    "heightRandom": 0,
+    "hpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "attackUp": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "addExpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "HPPickUpAddPercent": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "RandomNpc": 0,
+    "MonsterFlushConfigId": [],
+    "refreshCount": 0,
+    "missionTypeParam": "",
+    "missionPool": []
+  },
+  {
+    "id": 1001035,
+    "wave": 2,
+    "time": {
+      "serialized_int32": 1650000,
+      "decimal": 165.0,
+      "fp_raw": 10813440,
+      "runtime_value": 165.0
+    },
+    "delayTime": {
+      "serialized_int32": 40000,
+      "decimal": 4.0,
+      "fp_raw": 262144,
+      "runtime_value": 4.0
+    },
+    "missinType": 0,
+    "interval": [],
+    "pathMonster": [],
+    "positionMonster": 1001050,
+    "Monster": [
+      330006
+    ],
+    "MultiHp": [],
+    "positionGroupMonster": [],
+    "randomMonster": [],
+    "numberRandom": 0,
+    "heightRandom": 0,
+    "hpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "attackUp": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "addExpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "HPPickUpAddPercent": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "RandomNpc": 0,
+    "MonsterFlushConfigId": [],
+    "refreshCount": 0,
+    "missionTypeParam": "",
+    "missionPool": []
+  },
+  {
+    "id": 1001036,
+    "wave": 3,
+    "time": {
+      "serialized_int32": 1800000,
+      "decimal": 180.0,
+      "fp_raw": 11796480,
+      "runtime_value": 180.0
+    },
+    "delayTime": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "missinType": 0,
+    "interval": [],
+    "pathMonster": [],
+    "positionMonster": 1003023,
+    "Monster": [
+      320017
+    ],
+    "MultiHp": [],
+    "positionGroupMonster": [],
+    "randomMonster": [],
+    "numberRandom": 0,
+    "heightRandom": 0,
+    "hpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "attackUp": {
+      "serialized_int32": 15000,
+      "decimal": 1.5,
+      "fp_raw": 98304,
+      "runtime_value": 1.5
+    },
+    "addExpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "HPPickUpAddPercent": {
+      "serialized_int32": 5000,
+      "decimal": 0.5,
+      "fp_raw": 32768,
+      "runtime_value": 0.5
+    },
+    "RandomNpc": 0,
+    "MonsterFlushConfigId": [],
+    "refreshCount": 0,
+    "missionTypeParam": "",
+    "missionPool": []
+  },
+  {
+    "id": 1001037,
+    "wave": 3,
+    "time": {
+      "serialized_int32": 1800000,
+      "decimal": 180.0,
+      "fp_raw": 11796480,
+      "runtime_value": 180.0
+    },
+    "delayTime": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "missinType": 0,
+    "interval": [
+      {
+        "serialized_int32": 20000,
+        "decimal": 2.0,
+        "fp_raw": 131072,
+        "runtime_value": 2.0
+      },
+      {
+        "serialized_int32": 40000,
+        "decimal": 4.0,
+        "fp_raw": 262144,
+        "runtime_value": 4.0
+      }
+    ],
+    "pathMonster": [],
+    "positionMonster": 1001008,
+    "Monster": [
+      330006
+    ],
+    "MultiHp": [],
+    "positionGroupMonster": [],
+    "randomMonster": [],
+    "numberRandom": 0,
+    "heightRandom": 0,
+    "hpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "attackUp": {
+      "serialized_int32": 15000,
+      "decimal": 1.5,
+      "fp_raw": 98304,
+      "runtime_value": 1.5
+    },
+    "addExpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "HPPickUpAddPercent": {
+      "serialized_int32": 5000,
+      "decimal": 0.5,
+      "fp_raw": 32768,
+      "runtime_value": 0.5
+    },
+    "RandomNpc": 0,
+    "MonsterFlushConfigId": [],
+    "refreshCount": 0,
+    "missionTypeParam": "",
+    "missionPool": []
+  },
+  {
+    "id": 1001038,
+    "wave": 3,
+    "time": {
+      "serialized_int32": 1970000,
+      "decimal": 197.0,
+      "fp_raw": 12910592,
+      "runtime_value": 197.0
+    },
+    "delayTime": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "missinType": 0,
+    "interval": [],
+    "pathMonster": [],
+    "positionMonster": 1002002,
+    "Monster": [
+      310008
+    ],
+    "MultiHp": [],
+    "positionGroupMonster": [],
+    "randomMonster": [],
+    "numberRandom": 0,
+    "heightRandom": 0,
+    "hpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "attackUp": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "addExpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "HPPickUpAddPercent": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "RandomNpc": 0,
+    "MonsterFlushConfigId": [],
+    "refreshCount": 0,
+    "missionTypeParam": "",
+    "missionPool": []
+  },
+  {
+    "id": 1001039,
+    "wave": 3,
+    "time": {
+      "serialized_int32": 1970000,
+      "decimal": 197.0,
+      "fp_raw": 12910592,
+      "runtime_value": 197.0
+    },
+    "delayTime": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "missinType": 0,
+    "interval": [],
+    "pathMonster": [],
+    "positionMonster": 1002019,
+    "Monster": [
+      320021
+    ],
+    "MultiHp": [],
+    "positionGroupMonster": [],
+    "randomMonster": [],
+    "numberRandom": 0,
+    "heightRandom": 0,
+    "hpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "attackUp": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "addExpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "HPPickUpAddPercent": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "RandomNpc": 0,
+    "MonsterFlushConfigId": [],
+    "refreshCount": 0,
+    "missionTypeParam": "",
+    "missionPool": []
+  },
+  {
+    "id": 1001040,
+    "wave": 3,
+    "time": {
+      "serialized_int32": 1970000,
+      "decimal": 197.0,
+      "fp_raw": 12910592,
+      "runtime_value": 197.0
+    },
+    "delayTime": {
+      "serialized_int32": 35000,
+      "decimal": 3.5,
+      "fp_raw": 229376,
+      "runtime_value": 3.5
+    },
+    "missinType": 0,
+    "interval": [],
+    "pathMonster": [],
+    "positionMonster": 1003013,
+    "Monster": [
+      320017
+    ],
+    "MultiHp": [],
+    "positionGroupMonster": [],
+    "randomMonster": [
+      2
+    ],
+    "numberRandom": 1,
+    "heightRandom": 30,
+    "hpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "attackUp": {
+      "serialized_int32": 15000,
+      "decimal": 1.5,
+      "fp_raw": 98304,
+      "runtime_value": 1.5
+    },
+    "addExpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "HPPickUpAddPercent": {
+      "serialized_int32": 5000,
+      "decimal": 0.5,
+      "fp_raw": 32768,
+      "runtime_value": 0.5
+    },
+    "RandomNpc": 0,
+    "MonsterFlushConfigId": [],
+    "refreshCount": 0,
+    "missionTypeParam": "",
+    "missionPool": []
+  },
+  {
+    "id": 1001041,
+    "wave": 3,
+    "time": {
+      "serialized_int32": 1970000,
+      "decimal": 197.0,
+      "fp_raw": 12910592,
+      "runtime_value": 197.0
+    },
+    "delayTime": {
+      "serialized_int32": 70000,
+      "decimal": 7.0,
+      "fp_raw": 458752,
+      "runtime_value": 7.0
+    },
+    "missinType": 0,
+    "interval": [],
+    "pathMonster": [],
+    "positionMonster": 1003014,
+    "Monster": [
+      320019
+    ],
+    "MultiHp": [],
+    "positionGroupMonster": [],
+    "randomMonster": [
+      2
+    ],
+    "numberRandom": 1,
+    "heightRandom": 30,
+    "hpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "attackUp": {
+      "serialized_int32": 15000,
+      "decimal": 1.5,
+      "fp_raw": 98304,
+      "runtime_value": 1.5
+    },
+    "addExpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "HPPickUpAddPercent": {
+      "serialized_int32": 5000,
+      "decimal": 0.5,
+      "fp_raw": 32768,
+      "runtime_value": 0.5
+    },
+    "RandomNpc": 0,
+    "MonsterFlushConfigId": [],
+    "refreshCount": 0,
+    "missionTypeParam": "",
+    "missionPool": []
+  },
+  {
+    "id": 1001042,
+    "wave": 3,
+    "time": {
+      "serialized_int32": 1970000,
+      "decimal": 197.0,
+      "fp_raw": 12910592,
+      "runtime_value": 197.0
+    },
+    "delayTime": {
+      "serialized_int32": 105000,
+      "decimal": 10.5,
+      "fp_raw": 688128,
+      "runtime_value": 10.5
+    },
+    "missinType": 0,
+    "interval": [],
+    "pathMonster": [],
+    "positionMonster": 1003002,
+    "Monster": [
+      320017
+    ],
+    "MultiHp": [],
+    "positionGroupMonster": [],
+    "randomMonster": [
+      2
+    ],
+    "numberRandom": 1,
+    "heightRandom": 30,
+    "hpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "attackUp": {
+      "serialized_int32": 15000,
+      "decimal": 1.5,
+      "fp_raw": 98304,
+      "runtime_value": 1.5
+    },
+    "addExpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "HPPickUpAddPercent": {
+      "serialized_int32": 5000,
+      "decimal": 0.5,
+      "fp_raw": 32768,
+      "runtime_value": 0.5
+    },
+    "RandomNpc": 0,
+    "MonsterFlushConfigId": [],
+    "refreshCount": 0,
+    "missionTypeParam": "",
+    "missionPool": []
+  },
+  {
+    "id": 1001043,
+    "wave": 3,
+    "time": {
+      "serialized_int32": 1970000,
+      "decimal": 197.0,
+      "fp_raw": 12910592,
+      "runtime_value": 197.0
+    },
+    "delayTime": {
+      "serialized_int32": 140000,
+      "decimal": 14.0,
+      "fp_raw": 917504,
+      "runtime_value": 14.0
+    },
+    "missinType": 0,
+    "interval": [],
+    "pathMonster": [],
+    "positionMonster": 1003013,
+    "Monster": [
+      320019
+    ],
+    "MultiHp": [],
+    "positionGroupMonster": [],
+    "randomMonster": [
+      2
+    ],
+    "numberRandom": 1,
+    "heightRandom": 30,
+    "hpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "attackUp": {
+      "serialized_int32": 15000,
+      "decimal": 1.5,
+      "fp_raw": 98304,
+      "runtime_value": 1.5
+    },
+    "addExpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "HPPickUpAddPercent": {
+      "serialized_int32": 5000,
+      "decimal": 0.5,
+      "fp_raw": 32768,
+      "runtime_value": 0.5
+    },
+    "RandomNpc": 0,
+    "MonsterFlushConfigId": [],
+    "refreshCount": 0,
+    "missionTypeParam": "",
+    "missionPool": []
+  },
+  {
+    "id": 1001044,
+    "wave": 3,
+    "time": {
+      "serialized_int32": 1970000,
+      "decimal": 197.0,
+      "fp_raw": 12910592,
+      "runtime_value": 197.0
+    },
+    "delayTime": {
+      "serialized_int32": 175000,
+      "decimal": 17.5,
+      "fp_raw": 1146880,
+      "runtime_value": 17.5
+    },
+    "missinType": 0,
+    "interval": [],
+    "pathMonster": [],
+    "positionMonster": 1003014,
+    "Monster": [
+      320017
+    ],
+    "MultiHp": [],
+    "positionGroupMonster": [],
+    "randomMonster": [
+      2
+    ],
+    "numberRandom": 1,
+    "heightRandom": 30,
+    "hpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "attackUp": {
+      "serialized_int32": 15000,
+      "decimal": 1.5,
+      "fp_raw": 98304,
+      "runtime_value": 1.5
+    },
+    "addExpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "HPPickUpAddPercent": {
+      "serialized_int32": 5000,
+      "decimal": 0.5,
+      "fp_raw": 32768,
+      "runtime_value": 0.5
+    },
+    "RandomNpc": 0,
+    "MonsterFlushConfigId": [],
+    "refreshCount": 0,
+    "missionTypeParam": "",
+    "missionPool": []
+  },
+  {
+    "id": 1001045,
+    "wave": 3,
+    "time": {
+      "serialized_int32": 1970000,
+      "decimal": 197.0,
+      "fp_raw": 12910592,
+      "runtime_value": 197.0
+    },
+    "delayTime": {
+      "serialized_int32": 210000,
+      "decimal": 21.0,
+      "fp_raw": 1376256,
+      "runtime_value": 21.0
+    },
+    "missinType": 0,
+    "interval": [],
+    "pathMonster": [],
+    "positionMonster": 1003002,
+    "Monster": [
+      320019
+    ],
+    "MultiHp": [],
+    "positionGroupMonster": [],
+    "randomMonster": [
+      2
+    ],
+    "numberRandom": 1,
+    "heightRandom": 30,
+    "hpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "attackUp": {
+      "serialized_int32": 15000,
+      "decimal": 1.5,
+      "fp_raw": 98304,
+      "runtime_value": 1.5
+    },
+    "addExpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "HPPickUpAddPercent": {
+      "serialized_int32": 5000,
+      "decimal": 0.5,
+      "fp_raw": 32768,
+      "runtime_value": 0.5
+    },
+    "RandomNpc": 0,
+    "MonsterFlushConfigId": [],
+    "refreshCount": 0,
+    "missionTypeParam": "",
+    "missionPool": []
+  },
+  {
+    "id": 1001046,
+    "wave": 3,
+    "time": {
+      "serialized_int32": 1970000,
+      "decimal": 197.0,
+      "fp_raw": 12910592,
+      "runtime_value": 197.0
+    },
+    "delayTime": {
+      "serialized_int32": 245000,
+      "decimal": 24.5,
+      "fp_raw": 1605632,
+      "runtime_value": 24.5
+    },
+    "missinType": 0,
+    "interval": [],
+    "pathMonster": [],
+    "positionMonster": 1003013,
+    "Monster": [
+      320017
+    ],
+    "MultiHp": [],
+    "positionGroupMonster": [],
+    "randomMonster": [
+      2
+    ],
+    "numberRandom": 1,
+    "heightRandom": 30,
+    "hpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "attackUp": {
+      "serialized_int32": 15000,
+      "decimal": 1.5,
+      "fp_raw": 98304,
+      "runtime_value": 1.5
+    },
+    "addExpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "HPPickUpAddPercent": {
+      "serialized_int32": 5000,
+      "decimal": 0.5,
+      "fp_raw": 32768,
+      "runtime_value": 0.5
+    },
+    "RandomNpc": 0,
+    "MonsterFlushConfigId": [],
+    "refreshCount": 0,
+    "missionTypeParam": "",
+    "missionPool": []
+  },
+  {
+    "id": 1001047,
+    "wave": 3,
+    "time": {
+      "serialized_int32": 1970000,
+      "decimal": 197.0,
+      "fp_raw": 12910592,
+      "runtime_value": 197.0
+    },
+    "delayTime": {
+      "serialized_int32": 280000,
+      "decimal": 28.0,
+      "fp_raw": 1835008,
+      "runtime_value": 28.0
+    },
+    "missinType": 0,
+    "interval": [],
+    "pathMonster": [],
+    "positionMonster": 1003014,
+    "Monster": [
+      320019
+    ],
+    "MultiHp": [],
+    "positionGroupMonster": [],
+    "randomMonster": [
+      2
+    ],
+    "numberRandom": 1,
+    "heightRandom": 30,
+    "hpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "attackUp": {
+      "serialized_int32": 15000,
+      "decimal": 1.5,
+      "fp_raw": 98304,
+      "runtime_value": 1.5
+    },
+    "addExpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "HPPickUpAddPercent": {
+      "serialized_int32": 5000,
+      "decimal": 0.5,
+      "fp_raw": 32768,
+      "runtime_value": 0.5
+    },
+    "RandomNpc": 0,
+    "MonsterFlushConfigId": [],
+    "refreshCount": 0,
+    "missionTypeParam": "",
+    "missionPool": []
+  },
+  {
+    "id": 1001049,
+    "wave": 3,
+    "time": {
+      "serialized_int32": 2420000,
+      "decimal": 242.0,
+      "fp_raw": 15859712,
+      "runtime_value": 242.0
+    },
+    "delayTime": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "missinType": 0,
+    "interval": [],
+    "pathMonster": [],
+    "positionMonster": 1002056,
+    "Monster": [
+      320021
+    ],
+    "MultiHp": [],
+    "positionGroupMonster": [],
+    "randomMonster": [],
+    "numberRandom": 0,
+    "heightRandom": 0,
+    "hpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "attackUp": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "addExpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "HPPickUpAddPercent": {
+      "serialized_int32": 5000,
+      "decimal": 0.5,
+      "fp_raw": 32768,
+      "runtime_value": 0.5
+    },
+    "RandomNpc": 0,
+    "MonsterFlushConfigId": [],
+    "refreshCount": 0,
+    "missionTypeParam": "",
+    "missionPool": []
+  },
+  {
+    "id": 1001050,
+    "wave": 3,
+    "time": {
+      "serialized_int32": 2420000,
+      "decimal": 242.0,
+      "fp_raw": 15859712,
+      "runtime_value": 242.0
+    },
+    "delayTime": {
+      "serialized_int32": 5000,
+      "decimal": 0.5,
+      "fp_raw": 32768,
+      "runtime_value": 0.5
+    },
+    "missinType": 0,
+    "interval": [],
+    "pathMonster": [],
+    "positionMonster": 1003029,
+    "Monster": [
+      320019
+    ],
+    "MultiHp": [],
+    "positionGroupMonster": [],
+    "randomMonster": [
+      5,
+      13
+    ],
+    "numberRandom": 2,
+    "heightRandom": 30,
+    "hpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "attackUp": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "addExpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "HPPickUpAddPercent": {
+      "serialized_int32": 5000,
+      "decimal": 0.5,
+      "fp_raw": 32768,
+      "runtime_value": 0.5
+    },
+    "RandomNpc": 0,
+    "MonsterFlushConfigId": [],
+    "refreshCount": 0,
+    "missionTypeParam": "",
+    "missionPool": []
+  },
+  {
+    "id": 1001051,
+    "wave": 3,
+    "time": {
+      "serialized_int32": 2420000,
+      "decimal": 242.0,
+      "fp_raw": 15859712,
+      "runtime_value": 242.0
+    },
+    "delayTime": {
+      "serialized_int32": 33000,
+      "decimal": 3.3,
+      "fp_raw": 216268,
+      "runtime_value": 3.29998779296875
+    },
+    "missinType": 0,
+    "interval": [],
+    "pathMonster": [],
+    "positionMonster": 1003030,
+    "Monster": [
+      320019
+    ],
+    "MultiHp": [],
+    "positionGroupMonster": [],
+    "randomMonster": [
+      5,
+      13
+    ],
+    "numberRandom": 2,
+    "heightRandom": 30,
+    "hpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "attackUp": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "addExpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "HPPickUpAddPercent": {
+      "serialized_int32": 5000,
+      "decimal": 0.5,
+      "fp_raw": 32768,
+      "runtime_value": 0.5
+    },
+    "RandomNpc": 0,
+    "MonsterFlushConfigId": [],
+    "refreshCount": 0,
+    "missionTypeParam": "",
+    "missionPool": []
+  },
+  {
+    "id": 1001052,
+    "wave": 3,
+    "time": {
+      "serialized_int32": 2420000,
+      "decimal": 242.0,
+      "fp_raw": 15859712,
+      "runtime_value": 242.0
+    },
+    "delayTime": {
+      "serialized_int32": 61000,
+      "decimal": 6.1,
+      "fp_raw": 399769,
+      "runtime_value": 6.0999908447265625
+    },
+    "missinType": 0,
+    "interval": [],
+    "pathMonster": [],
+    "positionMonster": 1003020,
+    "Monster": [
+      320019
+    ],
+    "MultiHp": [],
+    "positionGroupMonster": [],
+    "randomMonster": [],
+    "numberRandom": 0,
+    "heightRandom": 0,
+    "hpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "attackUp": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "addExpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "HPPickUpAddPercent": {
+      "serialized_int32": 5000,
+      "decimal": 0.5,
+      "fp_raw": 32768,
+      "runtime_value": 0.5
+    },
+    "RandomNpc": 0,
+    "MonsterFlushConfigId": [],
+    "refreshCount": 0,
+    "missionTypeParam": "",
+    "missionPool": []
+  },
+  {
+    "id": 1001053,
+    "wave": 4,
+    "time": {
+      "serialized_int32": 2700000,
+      "decimal": 270.0,
+      "fp_raw": 17694720,
+      "runtime_value": 270.0
+    },
+    "delayTime": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "missinType": 0,
+    "interval": [],
+    "pathMonster": [],
+    "positionMonster": 1003026,
+    "Monster": [
+      320017
+    ],
+    "MultiHp": [],
+    "positionGroupMonster": [],
+    "randomMonster": [
+      5
+    ],
+    "numberRandom": 2,
+    "heightRandom": 30,
+    "hpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "attackUp": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "addExpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "HPPickUpAddPercent": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "RandomNpc": 0,
+    "MonsterFlushConfigId": [],
+    "refreshCount": 0,
+    "missionTypeParam": "",
+    "missionPool": []
+  },
+  {
+    "id": 1001054,
+    "wave": 4,
+    "time": {
+      "serialized_int32": 2700000,
+      "decimal": 270.0,
+      "fp_raw": 17694720,
+      "runtime_value": 270.0
+    },
+    "delayTime": {
+      "serialized_int32": 27000,
+      "decimal": 2.7,
+      "fp_raw": 176947,
+      "runtime_value": 2.6999969482421875
+    },
+    "missinType": 0,
+    "interval": [],
+    "pathMonster": [],
+    "positionMonster": 1003025,
+    "Monster": [
+      320035
+    ],
+    "MultiHp": [],
+    "positionGroupMonster": [],
+    "randomMonster": [
+      5
+    ],
+    "numberRandom": 2,
+    "heightRandom": 30,
+    "hpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "attackUp": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "addExpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "HPPickUpAddPercent": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "RandomNpc": 0,
+    "MonsterFlushConfigId": [],
+    "refreshCount": 0,
+    "missionTypeParam": "",
+    "missionPool": []
+  },
+  {
+    "id": 1001055,
+    "wave": 4,
+    "time": {
+      "serialized_int32": 2700000,
+      "decimal": 270.0,
+      "fp_raw": 17694720,
+      "runtime_value": 270.0
+    },
+    "delayTime": {
+      "serialized_int32": 54000,
+      "decimal": 5.4,
+      "fp_raw": 353894,
+      "runtime_value": 5.399993896484375
+    },
+    "missinType": 0,
+    "interval": [],
+    "pathMonster": [],
+    "positionMonster": 1003026,
+    "Monster": [
+      320017
+    ],
+    "MultiHp": [],
+    "positionGroupMonster": [],
+    "randomMonster": [],
+    "numberRandom": 0,
+    "heightRandom": 0,
+    "hpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "attackUp": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "addExpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "HPPickUpAddPercent": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "RandomNpc": 0,
+    "MonsterFlushConfigId": [],
+    "refreshCount": 0,
+    "missionTypeParam": "",
+    "missionPool": []
+  },
+  {
+    "id": 1001056,
+    "wave": 4,
+    "time": {
+      "serialized_int32": 2700000,
+      "decimal": 270.0,
+      "fp_raw": 17694720,
+      "runtime_value": 270.0
+    },
+    "delayTime": {
+      "serialized_int32": 81000,
+      "decimal": 8.1,
+      "fp_raw": 530841,
+      "runtime_value": 8.099990844726562
+    },
+    "missinType": 0,
+    "interval": [],
+    "pathMonster": [],
+    "positionMonster": 1003025,
+    "Monster": [
+      320035
+    ],
+    "MultiHp": [],
+    "positionGroupMonster": [],
+    "randomMonster": [
+      5
+    ],
+    "numberRandom": 2,
+    "heightRandom": 30,
+    "hpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "attackUp": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "addExpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "HPPickUpAddPercent": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "RandomNpc": 0,
+    "MonsterFlushConfigId": [],
+    "refreshCount": 0,
+    "missionTypeParam": "",
+    "missionPool": []
+  },
+  {
+    "id": 1001057,
+    "wave": 4,
+    "time": {
+      "serialized_int32": 2700000,
+      "decimal": 270.0,
+      "fp_raw": 17694720,
+      "runtime_value": 270.0
+    },
+    "delayTime": {
+      "serialized_int32": 108000,
+      "decimal": 10.8,
+      "fp_raw": 707788,
+      "runtime_value": 10.79998779296875
+    },
+    "missinType": 0,
+    "interval": [],
+    "pathMonster": [],
+    "positionMonster": 1003020,
+    "Monster": [
+      320019
+    ],
+    "MultiHp": [],
+    "positionGroupMonster": [],
+    "randomMonster": [],
+    "numberRandom": 0,
+    "heightRandom": 0,
+    "hpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "attackUp": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "addExpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "HPPickUpAddPercent": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "RandomNpc": 0,
+    "MonsterFlushConfigId": [],
+    "refreshCount": 0,
+    "missionTypeParam": "",
+    "missionPool": []
+  },
+  {
+    "id": 1001058,
+    "wave": 4,
+    "time": {
+      "serialized_int32": 2850000,
+      "decimal": 285.0,
+      "fp_raw": 18677760,
+      "runtime_value": 285.0
+    },
+    "delayTime": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "missinType": 0,
+    "interval": [],
+    "pathMonster": [],
+    "positionMonster": 1002008,
+    "Monster": [
+      320044
+    ],
+    "MultiHp": [],
+    "positionGroupMonster": [],
+    "randomMonster": [],
+    "numberRandom": 0,
+    "heightRandom": 0,
+    "hpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "attackUp": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "addExpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "HPPickUpAddPercent": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "RandomNpc": 0,
+    "MonsterFlushConfigId": [],
+    "refreshCount": 0,
+    "missionTypeParam": "",
+    "missionPool": []
+  },
+  {
+    "id": 1001059,
+    "wave": 4,
+    "time": {
+      "serialized_int32": 2850000,
+      "decimal": 285.0,
+      "fp_raw": 18677760,
+      "runtime_value": 285.0
+    },
+    "delayTime": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "missinType": 0,
+    "interval": [],
+    "pathMonster": [],
+    "positionMonster": 1001039,
+    "Monster": [
+      330006
+    ],
+    "MultiHp": [],
+    "positionGroupMonster": [],
+    "randomMonster": [],
+    "numberRandom": 0,
+    "heightRandom": 0,
+    "hpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "attackUp": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "addExpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "HPPickUpAddPercent": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "RandomNpc": 0,
+    "MonsterFlushConfigId": [],
+    "refreshCount": 0,
+    "missionTypeParam": "",
+    "missionPool": []
+  },
+  {
+    "id": 1001060,
+    "wave": 4,
+    "time": {
+      "serialized_int32": 2850000,
+      "decimal": 285.0,
+      "fp_raw": 18677760,
+      "runtime_value": 285.0
+    },
+    "delayTime": {
+      "serialized_int32": 30000,
+      "decimal": 3.0,
+      "fp_raw": 196608,
+      "runtime_value": 3.0
+    },
+    "missinType": 0,
+    "interval": [],
+    "pathMonster": [],
+    "positionMonster": 1001040,
+    "Monster": [
+      330006
+    ],
+    "MultiHp": [],
+    "positionGroupMonster": [],
+    "randomMonster": [
+      5
+    ],
+    "numberRandom": 2,
+    "heightRandom": 30,
+    "hpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "attackUp": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "addExpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "HPPickUpAddPercent": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "RandomNpc": 0,
+    "MonsterFlushConfigId": [],
+    "refreshCount": 0,
+    "missionTypeParam": "",
+    "missionPool": []
+  },
+  {
+    "id": 1001061,
+    "wave": 4,
+    "time": {
+      "serialized_int32": 2850000,
+      "decimal": 285.0,
+      "fp_raw": 18677760,
+      "runtime_value": 285.0
+    },
+    "delayTime": {
+      "serialized_int32": 60000,
+      "decimal": 6.0,
+      "fp_raw": 393216,
+      "runtime_value": 6.0
+    },
+    "missinType": 0,
+    "interval": [],
+    "pathMonster": [],
+    "positionMonster": 1001039,
+    "Monster": [
+      330006
+    ],
+    "MultiHp": [],
+    "positionGroupMonster": [],
+    "randomMonster": [],
+    "numberRandom": 0,
+    "heightRandom": 0,
+    "hpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "attackUp": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "addExpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "HPPickUpAddPercent": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "RandomNpc": 0,
+    "MonsterFlushConfigId": [],
+    "refreshCount": 0,
+    "missionTypeParam": "",
+    "missionPool": []
+  },
+  {
+    "id": 1001062,
+    "wave": 4,
+    "time": {
+      "serialized_int32": 2850000,
+      "decimal": 285.0,
+      "fp_raw": 18677760,
+      "runtime_value": 285.0
+    },
+    "delayTime": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "missinType": 0,
+    "interval": [],
+    "pathMonster": [],
+    "positionMonster": 0,
+    "Monster": [],
+    "MultiHp": [],
+    "positionGroupMonster": [],
+    "randomMonster": [
+      5
+    ],
+    "numberRandom": 2,
+    "heightRandom": 30,
+    "hpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "attackUp": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "addExpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "HPPickUpAddPercent": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "RandomNpc": 0,
+    "MonsterFlushConfigId": [],
+    "refreshCount": 0,
+    "missionTypeParam": "",
+    "missionPool": []
+  },
+  {
+    "id": 1001063,
+    "wave": 4,
+    "time": {
+      "serialized_int32": 2850000,
+      "decimal": 285.0,
+      "fp_raw": 18677760,
+      "runtime_value": 285.0
+    },
+    "delayTime": {
+      "serialized_int32": 25000,
+      "decimal": 2.5,
+      "fp_raw": 163840,
+      "runtime_value": 2.5
+    },
+    "missinType": 0,
+    "interval": [],
+    "pathMonster": [],
+    "positionMonster": 0,
+    "Monster": [],
+    "MultiHp": [],
+    "positionGroupMonster": [],
+    "randomMonster": [],
+    "numberRandom": 0,
+    "heightRandom": 0,
+    "hpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "attackUp": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "addExpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "HPPickUpAddPercent": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "RandomNpc": 0,
+    "MonsterFlushConfigId": [],
+    "refreshCount": 0,
+    "missionTypeParam": "",
+    "missionPool": []
+  },
+  {
+    "id": 1001064,
+    "wave": 4,
+    "time": {
+      "serialized_int32": 2850000,
+      "decimal": 285.0,
+      "fp_raw": 18677760,
+      "runtime_value": 285.0
+    },
+    "delayTime": {
+      "serialized_int32": 50000,
+      "decimal": 5.0,
+      "fp_raw": 327680,
+      "runtime_value": 5.0
+    },
+    "missinType": 0,
+    "interval": [],
+    "pathMonster": [],
+    "positionMonster": 0,
+    "Monster": [],
+    "MultiHp": [],
+    "positionGroupMonster": [],
+    "randomMonster": [
+      5
+    ],
+    "numberRandom": 2,
+    "heightRandom": 30,
+    "hpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "attackUp": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "addExpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "HPPickUpAddPercent": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "RandomNpc": 0,
+    "MonsterFlushConfigId": [],
+    "refreshCount": 0,
+    "missionTypeParam": "",
+    "missionPool": []
+  },
+  {
+    "id": 1001065,
+    "wave": 4,
+    "time": {
+      "serialized_int32": 3000000,
+      "decimal": 300.0,
+      "fp_raw": 19660800,
+      "runtime_value": 300.0
+    },
+    "delayTime": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "missinType": 0,
+    "interval": [
+      {
+        "serialized_int32": 30000,
+        "decimal": 3.0,
+        "fp_raw": 196608,
+        "runtime_value": 3.0
+      },
+      {
+        "serialized_int32": 50000,
+        "decimal": 5.0,
+        "fp_raw": 327680,
+        "runtime_value": 5.0
+      }
+    ],
+    "pathMonster": [],
+    "positionMonster": 1003023,
+    "Monster": [
+      320017
+    ],
+    "MultiHp": [],
+    "positionGroupMonster": [],
+    "randomMonster": [],
+    "numberRandom": 0,
+    "heightRandom": 0,
+    "hpUpgrade": {
+      "serialized_int32": 8000,
+      "decimal": 0.8,
+      "fp_raw": 52428,
+      "runtime_value": 0.79998779296875
+    },
+    "attackUp": {
+      "serialized_int32": 14000,
+      "decimal": 1.4,
+      "fp_raw": 91750,
+      "runtime_value": 1.399993896484375
+    },
+    "addExpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "HPPickUpAddPercent": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "RandomNpc": 0,
+    "MonsterFlushConfigId": [],
+    "refreshCount": 0,
+    "missionTypeParam": "",
+    "missionPool": []
+  },
+  {
+    "id": 1001066,
+    "wave": 4,
+    "time": {
+      "serialized_int32": 3000000,
+      "decimal": 300.0,
+      "fp_raw": 19660800,
+      "runtime_value": 300.0
+    },
+    "delayTime": {
+      "serialized_int32": 15000,
+      "decimal": 1.5,
+      "fp_raw": 98304,
+      "runtime_value": 1.5
+    },
+    "missinType": 0,
+    "interval": [],
+    "pathMonster": [],
+    "positionMonster": 1001008,
+    "Monster": [
+      330006
+    ],
+    "MultiHp": [],
+    "positionGroupMonster": [],
+    "randomMonster": [],
+    "numberRandom": 0,
+    "heightRandom": 0,
+    "hpUpgrade": {
+      "serialized_int32": 8000,
+      "decimal": 0.8,
+      "fp_raw": 52428,
+      "runtime_value": 0.79998779296875
+    },
+    "attackUp": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "addExpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "HPPickUpAddPercent": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "RandomNpc": 0,
+    "MonsterFlushConfigId": [],
+    "refreshCount": 0,
+    "missionTypeParam": "",
+    "missionPool": []
+  },
+  {
+    "id": 1001067,
+    "wave": 4,
+    "time": {
+      "serialized_int32": 3000000,
+      "decimal": 300.0,
+      "fp_raw": 19660800,
+      "runtime_value": 300.0
+    },
+    "delayTime": {
+      "serialized_int32": 65000,
+      "decimal": 6.5,
+      "fp_raw": 425984,
+      "runtime_value": 6.5
+    },
+    "missinType": 0,
+    "interval": [],
+    "pathMonster": [],
+    "positionMonster": 1001008,
+    "Monster": [
+      330006
+    ],
+    "MultiHp": [],
+    "positionGroupMonster": [],
+    "randomMonster": [],
+    "numberRandom": 0,
+    "heightRandom": 0,
+    "hpUpgrade": {
+      "serialized_int32": 8000,
+      "decimal": 0.8,
+      "fp_raw": 52428,
+      "runtime_value": 0.79998779296875
+    },
+    "attackUp": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "addExpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "HPPickUpAddPercent": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "RandomNpc": 0,
+    "MonsterFlushConfigId": [],
+    "refreshCount": 0,
+    "missionTypeParam": "",
+    "missionPool": []
+  },
+  {
+    "id": 1001068,
+    "wave": 4,
+    "time": {
+      "serialized_int32": 3000000,
+      "decimal": 300.0,
+      "fp_raw": 19660800,
+      "runtime_value": 300.0
+    },
+    "delayTime": {
+      "serialized_int32": 115000,
+      "decimal": 11.5,
+      "fp_raw": 753664,
+      "runtime_value": 11.5
+    },
+    "missinType": 0,
+    "interval": [],
+    "pathMonster": [],
+    "positionMonster": 1001008,
+    "Monster": [
+      330006
+    ],
+    "MultiHp": [],
+    "positionGroupMonster": [],
+    "randomMonster": [],
+    "numberRandom": 0,
+    "heightRandom": 0,
+    "hpUpgrade": {
+      "serialized_int32": 8000,
+      "decimal": 0.8,
+      "fp_raw": 52428,
+      "runtime_value": 0.79998779296875
+    },
+    "attackUp": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "addExpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "HPPickUpAddPercent": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "RandomNpc": 0,
+    "MonsterFlushConfigId": [],
+    "refreshCount": 0,
+    "missionTypeParam": "",
+    "missionPool": []
+  },
+  {
+    "id": 1001069,
+    "wave": 4,
+    "time": {
+      "serialized_int32": 3150000,
+      "decimal": 315.0,
+      "fp_raw": 20643840,
+      "runtime_value": 315.0
+    },
+    "delayTime": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "missinType": 0,
+    "interval": [],
+    "pathMonster": [],
+    "positionMonster": 1002030,
+    "Monster": [
+      320021
+    ],
+    "MultiHp": [],
+    "positionGroupMonster": [],
+    "randomMonster": [],
+    "numberRandom": 0,
+    "heightRandom": 0,
+    "hpUpgrade": {
+      "serialized_int32": 8000,
+      "decimal": 0.8,
+      "fp_raw": 52428,
+      "runtime_value": 0.79998779296875
+    },
+    "attackUp": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "addExpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "HPPickUpAddPercent": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "RandomNpc": 0,
+    "MonsterFlushConfigId": [],
+    "refreshCount": 0,
+    "missionTypeParam": "",
+    "missionPool": []
+  },
+  {
+    "id": 1001070,
+    "wave": 4,
+    "time": {
+      "serialized_int32": 3150000,
+      "decimal": 315.0,
+      "fp_raw": 20643840,
+      "runtime_value": 315.0
+    },
+    "delayTime": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "missinType": 0,
+    "interval": [],
+    "pathMonster": [],
+    "positionMonster": 1003014,
+    "Monster": [
+      320019
+    ],
+    "MultiHp": [],
+    "positionGroupMonster": [],
+    "randomMonster": [],
+    "numberRandom": 0,
+    "heightRandom": 0,
+    "hpUpgrade": {
+      "serialized_int32": 8000,
+      "decimal": 0.8,
+      "fp_raw": 52428,
+      "runtime_value": 0.79998779296875
+    },
+    "attackUp": {
+      "serialized_int32": 13000,
+      "decimal": 1.3,
+      "fp_raw": 85196,
+      "runtime_value": 1.29998779296875
+    },
+    "addExpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "HPPickUpAddPercent": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "RandomNpc": 0,
+    "MonsterFlushConfigId": [],
+    "refreshCount": 0,
+    "missionTypeParam": "",
+    "missionPool": []
+  },
+  {
+    "id": 1001071,
+    "wave": 4,
+    "time": {
+      "serialized_int32": 3150000,
+      "decimal": 315.0,
+      "fp_raw": 20643840,
+      "runtime_value": 315.0
+    },
+    "delayTime": {
+      "serialized_int32": 20000,
+      "decimal": 2.0,
+      "fp_raw": 131072,
+      "runtime_value": 2.0
+    },
+    "missinType": 0,
+    "interval": [],
+    "pathMonster": [],
+    "positionMonster": 1003030,
+    "Monster": [
+      320017
+    ],
+    "MultiHp": [],
+    "positionGroupMonster": [],
+    "randomMonster": [],
+    "numberRandom": 0,
+    "heightRandom": 0,
+    "hpUpgrade": {
+      "serialized_int32": 8000,
+      "decimal": 0.8,
+      "fp_raw": 52428,
+      "runtime_value": 0.79998779296875
+    },
+    "attackUp": {
+      "serialized_int32": 13000,
+      "decimal": 1.3,
+      "fp_raw": 85196,
+      "runtime_value": 1.29998779296875
+    },
+    "addExpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "HPPickUpAddPercent": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "RandomNpc": 0,
+    "MonsterFlushConfigId": [],
+    "refreshCount": 0,
+    "missionTypeParam": "",
+    "missionPool": []
+  },
+  {
+    "id": 1001072,
+    "wave": 4,
+    "time": {
+      "serialized_int32": 3150000,
+      "decimal": 315.0,
+      "fp_raw": 20643840,
+      "runtime_value": 315.0
+    },
+    "delayTime": {
+      "serialized_int32": 40000,
+      "decimal": 4.0,
+      "fp_raw": 262144,
+      "runtime_value": 4.0
+    },
+    "missinType": 0,
+    "interval": [],
+    "pathMonster": [],
+    "positionMonster": 1003014,
+    "Monster": [
+      320019
+    ],
+    "MultiHp": [],
+    "positionGroupMonster": [],
+    "randomMonster": [],
+    "numberRandom": 0,
+    "heightRandom": 0,
+    "hpUpgrade": {
+      "serialized_int32": 8000,
+      "decimal": 0.8,
+      "fp_raw": 52428,
+      "runtime_value": 0.79998779296875
+    },
+    "attackUp": {
+      "serialized_int32": 13000,
+      "decimal": 1.3,
+      "fp_raw": 85196,
+      "runtime_value": 1.29998779296875
+    },
+    "addExpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "HPPickUpAddPercent": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "RandomNpc": 0,
+    "MonsterFlushConfigId": [],
+    "refreshCount": 0,
+    "missionTypeParam": "",
+    "missionPool": []
+  },
+  {
+    "id": 1001073,
+    "wave": 4,
+    "time": {
+      "serialized_int32": 3150000,
+      "decimal": 315.0,
+      "fp_raw": 20643840,
+      "runtime_value": 315.0
+    },
+    "delayTime": {
+      "serialized_int32": 60000,
+      "decimal": 6.0,
+      "fp_raw": 393216,
+      "runtime_value": 6.0
+    },
+    "missinType": 0,
+    "interval": [],
+    "pathMonster": [],
+    "positionMonster": 1003030,
+    "Monster": [
+      320017
+    ],
+    "MultiHp": [],
+    "positionGroupMonster": [],
+    "randomMonster": [],
+    "numberRandom": 0,
+    "heightRandom": 0,
+    "hpUpgrade": {
+      "serialized_int32": 8000,
+      "decimal": 0.8,
+      "fp_raw": 52428,
+      "runtime_value": 0.79998779296875
+    },
+    "attackUp": {
+      "serialized_int32": 13000,
+      "decimal": 1.3,
+      "fp_raw": 85196,
+      "runtime_value": 1.29998779296875
+    },
+    "addExpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "HPPickUpAddPercent": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "RandomNpc": 0,
+    "MonsterFlushConfigId": [],
+    "refreshCount": 0,
+    "missionTypeParam": "",
+    "missionPool": []
+  },
+  {
+    "id": 1001074,
+    "wave": 4,
+    "time": {
+      "serialized_int32": 3300000,
+      "decimal": 330.0,
+      "fp_raw": 21626880,
+      "runtime_value": 330.0
+    },
+    "delayTime": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "missinType": 0,
+    "interval": [
+      {
+        "serialized_int32": 50000,
+        "decimal": 5.0,
+        "fp_raw": 327680,
+        "runtime_value": 5.0
+      },
+      {
+        "serialized_int32": 3000,
+        "decimal": 0.3,
+        "fp_raw": 19660,
+        "runtime_value": 0.29998779296875
+      }
+    ],
+    "pathMonster": [],
+    "positionMonster": 1001043,
+    "Monster": [
+      330006
+    ],
+    "MultiHp": [],
+    "positionGroupMonster": [],
+    "randomMonster": [],
+    "numberRandom": 0,
+    "heightRandom": 0,
+    "hpUpgrade": {
+      "serialized_int32": 8000,
+      "decimal": 0.8,
+      "fp_raw": 52428,
+      "runtime_value": 0.79998779296875
+    },
+    "attackUp": {
+      "serialized_int32": 13000,
+      "decimal": 1.3,
+      "fp_raw": 85196,
+      "runtime_value": 1.29998779296875
+    },
+    "addExpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "HPPickUpAddPercent": {
+      "serialized_int32": 4000,
+      "decimal": 0.4,
+      "fp_raw": 26214,
+      "runtime_value": 0.399993896484375
+    },
+    "RandomNpc": 0,
+    "MonsterFlushConfigId": [],
+    "refreshCount": 0,
+    "missionTypeParam": "",
+    "missionPool": []
+  },
+  {
+    "id": 1001075,
+    "wave": 4,
+    "time": {
+      "serialized_int32": 3300000,
+      "decimal": 330.0,
+      "fp_raw": 21626880,
+      "runtime_value": 330.0
+    },
+    "delayTime": {
+      "serialized_int32": 20000,
+      "decimal": 2.0,
+      "fp_raw": 131072,
+      "runtime_value": 2.0
+    },
+    "missinType": 0,
+    "interval": [
+      {
+        "serialized_int32": 50000,
+        "decimal": 5.0,
+        "fp_raw": 327680,
+        "runtime_value": 5.0
+      },
+      {
+        "serialized_int32": 3000,
+        "decimal": 0.3,
+        "fp_raw": 19660,
+        "runtime_value": 0.29998779296875
+      }
+    ],
+    "pathMonster": [],
+    "positionMonster": 1001043,
+    "Monster": [
+      330006
+    ],
+    "MultiHp": [],
+    "positionGroupMonster": [],
+    "randomMonster": [],
+    "numberRandom": 0,
+    "heightRandom": 0,
+    "hpUpgrade": {
+      "serialized_int32": 8000,
+      "decimal": 0.8,
+      "fp_raw": 52428,
+      "runtime_value": 0.79998779296875
+    },
+    "attackUp": {
+      "serialized_int32": 13000,
+      "decimal": 1.3,
+      "fp_raw": 85196,
+      "runtime_value": 1.29998779296875
+    },
+    "addExpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "HPPickUpAddPercent": {
+      "serialized_int32": 4000,
+      "decimal": 0.4,
+      "fp_raw": 26214,
+      "runtime_value": 0.399993896484375
+    },
+    "RandomNpc": 0,
+    "MonsterFlushConfigId": [],
+    "refreshCount": 0,
+    "missionTypeParam": "",
+    "missionPool": []
+  },
+  {
+    "id": 1001076,
+    "wave": 4,
+    "time": {
+      "serialized_int32": 3300000,
+      "decimal": 330.0,
+      "fp_raw": 21626880,
+      "runtime_value": 330.0
+    },
+    "delayTime": {
+      "serialized_int32": 40000,
+      "decimal": 4.0,
+      "fp_raw": 262144,
+      "runtime_value": 4.0
+    },
+    "missinType": 0,
+    "interval": [
+      {
+        "serialized_int32": 50000,
+        "decimal": 5.0,
+        "fp_raw": 327680,
+        "runtime_value": 5.0
+      },
+      {
+        "serialized_int32": 3000,
+        "decimal": 0.3,
+        "fp_raw": 19660,
+        "runtime_value": 0.29998779296875
+      }
+    ],
+    "pathMonster": [],
+    "positionMonster": 1001043,
+    "Monster": [
+      330006
+    ],
+    "MultiHp": [],
+    "positionGroupMonster": [],
+    "randomMonster": [],
+    "numberRandom": 0,
+    "heightRandom": 0,
+    "hpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "attackUp": {
+      "serialized_int32": 13000,
+      "decimal": 1.3,
+      "fp_raw": 85196,
+      "runtime_value": 1.29998779296875
+    },
+    "addExpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "HPPickUpAddPercent": {
+      "serialized_int32": 4000,
+      "decimal": 0.4,
+      "fp_raw": 26214,
+      "runtime_value": 0.399993896484375
+    },
+    "RandomNpc": 0,
+    "MonsterFlushConfigId": [],
+    "refreshCount": 0,
+    "missionTypeParam": "",
+    "missionPool": []
+  },
+  {
+    "id": 1001078,
+    "wave": 5,
+    "time": {
+      "serialized_int32": 3470000,
+      "decimal": 347.0,
+      "fp_raw": 22740992,
+      "runtime_value": 347.0
+    },
+    "delayTime": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "missinType": 10,
+    "interval": [],
+    "pathMonster": [],
+    "positionMonster": 0,
+    "Monster": [],
+    "MultiHp": [],
+    "positionGroupMonster": [],
+    "randomMonster": [],
+    "numberRandom": 0,
+    "heightRandom": 0,
+    "hpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "attackUp": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "addExpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "HPPickUpAddPercent": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "RandomNpc": 0,
+    "MonsterFlushConfigId": [],
+    "refreshCount": 0,
+    "missionTypeParam": "",
+    "missionPool": []
+  },
+  {
+    "id": 1001079,
+    "wave": 5,
+    "time": {
+      "serialized_int32": 3470000,
+      "decimal": 347.0,
+      "fp_raw": 22740992,
+      "runtime_value": 347.0
+    },
+    "delayTime": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "missinType": 2,
+    "interval": [],
+    "pathMonster": [],
+    "positionMonster": 1002002,
+    "Monster": [
+      340002
+    ],
+    "MultiHp": [],
+    "positionGroupMonster": [],
+    "randomMonster": [],
+    "numberRandom": 0,
+    "heightRandom": 0,
+    "hpUpgrade": {
+      "serialized_int32": 15000,
+      "decimal": 1.5,
+      "fp_raw": 98304,
+      "runtime_value": 1.5
+    },
+    "attackUp": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "addExpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "HPPickUpAddPercent": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "RandomNpc": 0,
+    "MonsterFlushConfigId": [],
+    "refreshCount": 0,
+    "missionTypeParam": "",
+    "missionPool": []
+  },
+  {
+    "id": 1002001,
+    "wave": 1,
+    "time": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "delayTime": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "missinType": 0,
+    "interval": [],
+    "pathMonster": [],
+    "positionMonster": 0,
+    "Monster": [],
+    "MultiHp": [],
+    "positionGroupMonster": [
+      3001056
+    ],
+    "randomMonster": [],
+    "numberRandom": 0,
+    "heightRandom": 0,
+    "hpUpgrade": {
+      "serialized_int32": 8000,
+      "decimal": 0.8,
+      "fp_raw": 52428,
+      "runtime_value": 0.79998779296875
+    },
+    "attackUp": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "addExpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "HPPickUpAddPercent": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "RandomNpc": 0,
+    "MonsterFlushConfigId": [],
+    "refreshCount": 0,
+    "missionTypeParam": "",
+    "missionPool": []
+  },
+  {
+    "id": 1002002,
+    "wave": 1,
+    "time": {
+      "serialized_int32": 150000,
+      "decimal": 15.0,
+      "fp_raw": 983040,
+      "runtime_value": 15.0
+    },
+    "delayTime": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "missinType": 0,
+    "interval": [],
+    "pathMonster": [],
+    "positionMonster": 0,
+    "Monster": [],
+    "MultiHp": [],
+    "positionGroupMonster": [
+      3001057
+    ],
+    "randomMonster": [],
+    "numberRandom": 0,
+    "heightRandom": 0,
+    "hpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "attackUp": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "addExpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "HPPickUpAddPercent": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "RandomNpc": 0,
+    "MonsterFlushConfigId": [],
+    "refreshCount": 0,
+    "missionTypeParam": "",
+    "missionPool": []
+  },
+  {
+    "id": 1002003,
+    "wave": 1,
+    "time": {
+      "serialized_int32": 300000,
+      "decimal": 30.0,
+      "fp_raw": 1966080,
+      "runtime_value": 30.0
+    },
+    "delayTime": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "missinType": 0,
+    "interval": [],
+    "pathMonster": [],
+    "positionMonster": 0,
+    "Monster": [],
+    "MultiHp": [],
+    "positionGroupMonster": [
+      3001058
+    ],
+    "randomMonster": [],
+    "numberRandom": 0,
+    "heightRandom": 0,
+    "hpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "attackUp": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "addExpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "HPPickUpAddPercent": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "RandomNpc": 0,
+    "MonsterFlushConfigId": [],
+    "refreshCount": 0,
+    "missionTypeParam": "",
+    "missionPool": []
+  },
+  {
+    "id": 1002004,
+    "wave": 1,
+    "time": {
+      "serialized_int32": 450000,
+      "decimal": 45.0,
+      "fp_raw": 2949120,
+      "runtime_value": 45.0
+    },
+    "delayTime": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "missinType": 0,
+    "interval": [],
+    "pathMonster": [],
+    "positionMonster": 0,
+    "Monster": [],
+    "MultiHp": [],
+    "positionGroupMonster": [
+      3001059
+    ],
+    "randomMonster": [],
+    "numberRandom": 0,
+    "heightRandom": 0,
+    "hpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "attackUp": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "addExpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "HPPickUpAddPercent": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "RandomNpc": 0,
+    "MonsterFlushConfigId": [],
+    "refreshCount": 0,
+    "missionTypeParam": "",
+    "missionPool": []
+  },
+  {
+    "id": 1002005,
+    "wave": 1,
+    "time": {
+      "serialized_int32": 620000,
+      "decimal": 62.0,
+      "fp_raw": 4063232,
+      "runtime_value": 62.0
+    },
+    "delayTime": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "missinType": 0,
+    "interval": [],
+    "pathMonster": [],
+    "positionMonster": 1002002,
+    "Monster": [
+      320005
+    ],
+    "MultiHp": [],
+    "positionGroupMonster": [],
+    "randomMonster": [],
+    "numberRandom": 0,
+    "heightRandom": 0,
+    "hpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "attackUp": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "addExpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "HPPickUpAddPercent": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "RandomNpc": 0,
+    "MonsterFlushConfigId": [],
+    "refreshCount": 0,
+    "missionTypeParam": "",
+    "missionPool": []
+  },
+  {
+    "id": 1002006,
+    "wave": 1,
+    "time": {
+      "serialized_int32": 620000,
+      "decimal": 62.0,
+      "fp_raw": 4063232,
+      "runtime_value": 62.0
+    },
+    "delayTime": {
+      "serialized_int32": 5000,
+      "decimal": 0.5,
+      "fp_raw": 32768,
+      "runtime_value": 0.5
+    },
+    "missinType": 0,
+    "interval": [],
+    "pathMonster": [],
+    "positionMonster": 1002007,
+    "Monster": [
+      320021
+    ],
+    "MultiHp": [],
+    "positionGroupMonster": [],
+    "randomMonster": [],
+    "numberRandom": 0,
+    "heightRandom": 0,
+    "hpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "attackUp": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "addExpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "HPPickUpAddPercent": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "RandomNpc": 0,
+    "MonsterFlushConfigId": [],
+    "refreshCount": 0,
+    "missionTypeParam": "",
+    "missionPool": []
+  },
+  {
+    "id": 1002007,
+    "wave": 1,
+    "time": {
+      "serialized_int32": 620000,
+      "decimal": 62.0,
+      "fp_raw": 4063232,
+      "runtime_value": 62.0
+    },
+    "delayTime": {
+      "serialized_int32": 30000,
+      "decimal": 3.0,
+      "fp_raw": 196608,
+      "runtime_value": 3.0
+    },
+    "missinType": 0,
+    "interval": [],
+    "pathMonster": [],
+    "positionMonster": 1003013,
+    "Monster": [
+      320017
+    ],
+    "MultiHp": [],
+    "positionGroupMonster": [],
+    "randomMonster": [],
+    "numberRandom": 0,
+    "heightRandom": 0,
+    "hpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "attackUp": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "addExpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "HPPickUpAddPercent": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "RandomNpc": 0,
+    "MonsterFlushConfigId": [],
+    "refreshCount": 0,
+    "missionTypeParam": "",
+    "missionPool": []
+  },
+  {
+    "id": 1002008,
+    "wave": 1,
+    "time": {
+      "serialized_int32": 620000,
+      "decimal": 62.0,
+      "fp_raw": 4063232,
+      "runtime_value": 62.0
+    },
+    "delayTime": {
+      "serialized_int32": 60000,
+      "decimal": 6.0,
+      "fp_raw": 393216,
+      "runtime_value": 6.0
+    },
+    "missinType": 0,
+    "interval": [],
+    "pathMonster": [],
+    "positionMonster": 1003014,
+    "Monster": [
+      320017
+    ],
+    "MultiHp": [],
+    "positionGroupMonster": [],
+    "randomMonster": [],
+    "numberRandom": 0,
+    "heightRandom": 0,
+    "hpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "attackUp": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "addExpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "HPPickUpAddPercent": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "RandomNpc": 0,
+    "MonsterFlushConfigId": [],
+    "refreshCount": 0,
+    "missionTypeParam": "",
+    "missionPool": []
+  },
+  {
+    "id": 1002009,
+    "wave": 1,
+    "time": {
+      "serialized_int32": 620000,
+      "decimal": 62.0,
+      "fp_raw": 4063232,
+      "runtime_value": 62.0
+    },
+    "delayTime": {
+      "serialized_int32": 90000,
+      "decimal": 9.0,
+      "fp_raw": 589824,
+      "runtime_value": 9.0
+    },
+    "missinType": 0,
+    "interval": [],
+    "pathMonster": [],
+    "positionMonster": 1003013,
+    "Monster": [
+      320017
+    ],
+    "MultiHp": [],
+    "positionGroupMonster": [],
+    "randomMonster": [],
+    "numberRandom": 0,
+    "heightRandom": 0,
+    "hpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "attackUp": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "addExpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "HPPickUpAddPercent": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "RandomNpc": 0,
+    "MonsterFlushConfigId": [],
+    "refreshCount": 0,
+    "missionTypeParam": "",
+    "missionPool": []
+  },
+  {
+    "id": 1002010,
+    "wave": 1,
+    "time": {
+      "serialized_int32": 620000,
+      "decimal": 62.0,
+      "fp_raw": 4063232,
+      "runtime_value": 62.0
+    },
+    "delayTime": {
+      "serialized_int32": 5000,
+      "decimal": 0.5,
+      "fp_raw": 32768,
+      "runtime_value": 0.5
+    },
+    "missinType": 0,
+    "interval": [],
+    "pathMonster": [],
+    "positionMonster": 1001050,
+    "Monster": [
+      330006
+    ],
+    "MultiHp": [],
+    "positionGroupMonster": [],
+    "randomMonster": [],
+    "numberRandom": 0,
+    "heightRandom": 0,
+    "hpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "attackUp": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "addExpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "HPPickUpAddPercent": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "RandomNpc": 0,
+    "MonsterFlushConfigId": [],
+    "refreshCount": 0,
+    "missionTypeParam": "",
+    "missionPool": []
+  },
+  {
+    "id": 1002011,
+    "wave": 1,
+    "time": {
+      "serialized_int32": 620000,
+      "decimal": 62.0,
+      "fp_raw": 4063232,
+      "runtime_value": 62.0
+    },
+    "delayTime": {
+      "serialized_int32": 20000,
+      "decimal": 2.0,
+      "fp_raw": 131072,
+      "runtime_value": 2.0
+    },
+    "missinType": 0,
+    "interval": [],
+    "pathMonster": [],
+    "positionMonster": 1003024,
+    "Monster": [
+      330006
+    ],
+    "MultiHp": [],
+    "positionGroupMonster": [],
+    "randomMonster": [],
+    "numberRandom": 0,
+    "heightRandom": 0,
+    "hpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "attackUp": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "addExpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "HPPickUpAddPercent": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "RandomNpc": 0,
+    "MonsterFlushConfigId": [],
+    "refreshCount": 0,
+    "missionTypeParam": "",
+    "missionPool": []
+  },
+  {
+    "id": 1002012,
+    "wave": 1,
+    "time": {
+      "serialized_int32": 620000,
+      "decimal": 62.0,
+      "fp_raw": 4063232,
+      "runtime_value": 62.0
+    },
+    "delayTime": {
+      "serialized_int32": 22000,
+      "decimal": 2.2,
+      "fp_raw": 144179,
+      "runtime_value": 2.1999969482421875
+    },
+    "missinType": 0,
+    "interval": [],
+    "pathMonster": [],
+    "positionMonster": 1003024,
+    "Monster": [
+      330006
+    ],
+    "MultiHp": [],
+    "positionGroupMonster": [],
+    "randomMonster": [],
+    "numberRandom": 0,
+    "heightRandom": 0,
+    "hpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "attackUp": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "addExpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "HPPickUpAddPercent": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "RandomNpc": 0,
+    "MonsterFlushConfigId": [],
+    "refreshCount": 0,
+    "missionTypeParam": "",
+    "missionPool": []
+  },
+  {
+    "id": 1002013,
+    "wave": 1,
+    "time": {
+      "serialized_int32": 620000,
+      "decimal": 62.0,
+      "fp_raw": 4063232,
+      "runtime_value": 62.0
+    },
+    "delayTime": {
+      "serialized_int32": 24000,
+      "decimal": 2.4,
+      "fp_raw": 157286,
+      "runtime_value": 2.399993896484375
+    },
+    "missinType": 0,
+    "interval": [],
+    "pathMonster": [],
+    "positionMonster": 1003024,
+    "Monster": [
+      330006
+    ],
+    "MultiHp": [],
+    "positionGroupMonster": [],
+    "randomMonster": [],
+    "numberRandom": 0,
+    "heightRandom": 0,
+    "hpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "attackUp": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "addExpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "HPPickUpAddPercent": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "RandomNpc": 0,
+    "MonsterFlushConfigId": [],
+    "refreshCount": 0,
+    "missionTypeParam": "",
+    "missionPool": []
+  },
+  {
+    "id": 1002014,
+    "wave": 1,
+    "time": {
+      "serialized_int32": 620000,
+      "decimal": 62.0,
+      "fp_raw": 4063232,
+      "runtime_value": 62.0
+    },
+    "delayTime": {
+      "serialized_int32": 35000,
+      "decimal": 3.5,
+      "fp_raw": 229376,
+      "runtime_value": 3.5
+    },
+    "missinType": 0,
+    "interval": [],
+    "pathMonster": [],
+    "positionMonster": 1001051,
+    "Monster": [
+      330006
+    ],
+    "MultiHp": [],
+    "positionGroupMonster": [],
+    "randomMonster": [],
+    "numberRandom": 0,
+    "heightRandom": 0,
+    "hpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "attackUp": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "addExpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "HPPickUpAddPercent": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "RandomNpc": 0,
+    "MonsterFlushConfigId": [],
+    "refreshCount": 0,
+    "missionTypeParam": "",
+    "missionPool": []
+  },
+  {
+    "id": 1002015,
+    "wave": 1,
+    "time": {
+      "serialized_int32": 620000,
+      "decimal": 62.0,
+      "fp_raw": 4063232,
+      "runtime_value": 62.0
+    },
+    "delayTime": {
+      "serialized_int32": 50000,
+      "decimal": 5.0,
+      "fp_raw": 327680,
+      "runtime_value": 5.0
+    },
+    "missinType": 0,
+    "interval": [],
+    "pathMonster": [],
+    "positionMonster": 1003025,
+    "Monster": [
+      330006
+    ],
+    "MultiHp": [],
+    "positionGroupMonster": [],
+    "randomMonster": [],
+    "numberRandom": 0,
+    "heightRandom": 0,
+    "hpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "attackUp": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "addExpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "HPPickUpAddPercent": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "RandomNpc": 0,
+    "MonsterFlushConfigId": [],
+    "refreshCount": 0,
+    "missionTypeParam": "",
+    "missionPool": []
+  },
+  {
+    "id": 1002016,
+    "wave": 1,
+    "time": {
+      "serialized_int32": 620000,
+      "decimal": 62.0,
+      "fp_raw": 4063232,
+      "runtime_value": 62.0
+    },
+    "delayTime": {
+      "serialized_int32": 52000,
+      "decimal": 5.2,
+      "fp_raw": 340787,
+      "runtime_value": 5.1999969482421875
+    },
+    "missinType": 0,
+    "interval": [],
+    "pathMonster": [],
+    "positionMonster": 1003025,
+    "Monster": [
+      330006
+    ],
+    "MultiHp": [],
+    "positionGroupMonster": [],
+    "randomMonster": [],
+    "numberRandom": 0,
+    "heightRandom": 0,
+    "hpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "attackUp": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "addExpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "HPPickUpAddPercent": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "RandomNpc": 0,
+    "MonsterFlushConfigId": [],
+    "refreshCount": 0,
+    "missionTypeParam": "",
+    "missionPool": []
+  },
+  {
+    "id": 1002017,
+    "wave": 1,
+    "time": {
+      "serialized_int32": 620000,
+      "decimal": 62.0,
+      "fp_raw": 4063232,
+      "runtime_value": 62.0
+    },
+    "delayTime": {
+      "serialized_int32": 60000,
+      "decimal": 6.0,
+      "fp_raw": 393216,
+      "runtime_value": 6.0
+    },
+    "missinType": 0,
+    "interval": [],
+    "pathMonster": [],
+    "positionMonster": 1001052,
+    "Monster": [
+      330006
+    ],
+    "MultiHp": [],
+    "positionGroupMonster": [],
+    "randomMonster": [],
+    "numberRandom": 0,
+    "heightRandom": 0,
+    "hpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "attackUp": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "addExpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "HPPickUpAddPercent": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "RandomNpc": 0,
+    "MonsterFlushConfigId": [],
+    "refreshCount": 0,
+    "missionTypeParam": "",
+    "missionPool": []
+  },
+  {
+    "id": 1002018,
+    "wave": 1,
+    "time": {
+      "serialized_int32": 620000,
+      "decimal": 62.0,
+      "fp_raw": 4063232,
+      "runtime_value": 62.0
+    },
+    "delayTime": {
+      "serialized_int32": 75000,
+      "decimal": 7.5,
+      "fp_raw": 491520,
+      "runtime_value": 7.5
+    },
+    "missinType": 0,
+    "interval": [],
+    "pathMonster": [],
+    "positionMonster": 1003025,
+    "Monster": [
+      330006
+    ],
+    "MultiHp": [],
+    "positionGroupMonster": [],
+    "randomMonster": [],
+    "numberRandom": 0,
+    "heightRandom": 0,
+    "hpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "attackUp": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "addExpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "HPPickUpAddPercent": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "RandomNpc": 0,
+    "MonsterFlushConfigId": [],
+    "refreshCount": 0,
+    "missionTypeParam": "",
+    "missionPool": []
+  },
+  {
+    "id": 1002019,
+    "wave": 1,
+    "time": {
+      "serialized_int32": 620000,
+      "decimal": 62.0,
+      "fp_raw": 4063232,
+      "runtime_value": 62.0
+    },
+    "delayTime": {
+      "serialized_int32": 77000,
+      "decimal": 7.7,
+      "fp_raw": 504627,
+      "runtime_value": 7.6999969482421875
+    },
+    "missinType": 0,
+    "interval": [],
+    "pathMonster": [],
+    "positionMonster": 1003025,
+    "Monster": [
+      330006
+    ],
+    "MultiHp": [],
+    "positionGroupMonster": [],
+    "randomMonster": [],
+    "numberRandom": 0,
+    "heightRandom": 0,
+    "hpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "attackUp": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "addExpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "HPPickUpAddPercent": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "RandomNpc": 0,
+    "MonsterFlushConfigId": [],
+    "refreshCount": 0,
+    "missionTypeParam": "",
+    "missionPool": []
+  },
+  {
+    "id": 1002020,
+    "wave": 1,
+    "time": {
+      "serialized_int32": 620000,
+      "decimal": 62.0,
+      "fp_raw": 4063232,
+      "runtime_value": 62.0
+    },
+    "delayTime": {
+      "serialized_int32": 85000,
+      "decimal": 8.5,
+      "fp_raw": 557056,
+      "runtime_value": 8.5
+    },
+    "missinType": 0,
+    "interval": [],
+    "pathMonster": [],
+    "positionMonster": 1001051,
+    "Monster": [
+      330006
+    ],
+    "MultiHp": [],
+    "positionGroupMonster": [],
+    "randomMonster": [],
+    "numberRandom": 0,
+    "heightRandom": 0,
+    "hpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "attackUp": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "addExpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "HPPickUpAddPercent": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "RandomNpc": 0,
+    "MonsterFlushConfigId": [],
+    "refreshCount": 0,
+    "missionTypeParam": "",
+    "missionPool": []
+  },
+  {
+    "id": 1002021,
+    "wave": 2,
+    "time": {
+      "serialized_int32": 1070000,
+      "decimal": 107.0,
+      "fp_raw": 7012352,
+      "runtime_value": 107.0
+    },
+    "delayTime": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "missinType": 0,
+    "interval": [],
+    "pathMonster": [],
+    "positionMonster": 0,
+    "Monster": [],
+    "MultiHp": [],
+    "positionGroupMonster": [
+      3001060
+    ],
+    "randomMonster": [],
+    "numberRandom": 0,
+    "heightRandom": 0,
+    "hpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "attackUp": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "addExpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "HPPickUpAddPercent": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "RandomNpc": 0,
+    "MonsterFlushConfigId": [],
+    "refreshCount": 0,
+    "missionTypeParam": "",
+    "missionPool": []
+  },
+  {
+    "id": 1002022,
+    "wave": 2,
+    "time": {
+      "serialized_int32": 1350000,
+      "decimal": 135.0,
+      "fp_raw": 8847360,
+      "runtime_value": 135.0
+    },
+    "delayTime": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "missinType": 0,
+    "interval": [],
+    "pathMonster": [],
+    "positionMonster": 0,
+    "Monster": [],
+    "MultiHp": [],
+    "positionGroupMonster": [
+      3001061
+    ],
+    "randomMonster": [],
+    "numberRandom": 0,
+    "heightRandom": 0,
+    "hpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "attackUp": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "addExpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "HPPickUpAddPercent": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "RandomNpc": 0,
+    "MonsterFlushConfigId": [],
+    "refreshCount": 0,
+    "missionTypeParam": "",
+    "missionPool": []
+  },
+  {
+    "id": 1002023,
+    "wave": 2,
+    "time": {
+      "serialized_int32": 1500000,
+      "decimal": 150.0,
+      "fp_raw": 9830400,
+      "runtime_value": 150.0
+    },
+    "delayTime": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "missinType": 0,
+    "interval": [],
+    "pathMonster": [],
+    "positionMonster": 0,
+    "Monster": [],
+    "MultiHp": [],
+    "positionGroupMonster": [
+      3001062
+    ],
+    "randomMonster": [
+      5,
+      13
+    ],
+    "numberRandom": 2,
+    "heightRandom": 30,
+    "hpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "attackUp": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "addExpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "HPPickUpAddPercent": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "RandomNpc": 0,
+    "MonsterFlushConfigId": [],
+    "refreshCount": 0,
+    "missionTypeParam": "",
+    "missionPool": []
+  },
+  {
+    "id": 1002024,
+    "wave": 2,
+    "time": {
+      "serialized_int32": 1500000,
+      "decimal": 150.0,
+      "fp_raw": 9830400,
+      "runtime_value": 150.0
+    },
+    "delayTime": {
+      "serialized_int32": 16000,
+      "decimal": 1.6,
+      "fp_raw": 104857,
+      "runtime_value": 1.5999908447265625
+    },
+    "missinType": 0,
+    "interval": [],
+    "pathMonster": [],
+    "positionMonster": 0,
+    "Monster": [],
+    "MultiHp": [],
+    "positionGroupMonster": [],
+    "randomMonster": [
+      2
+    ],
+    "numberRandom": 1,
+    "heightRandom": 30,
+    "hpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "attackUp": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "addExpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "HPPickUpAddPercent": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "RandomNpc": 0,
+    "MonsterFlushConfigId": [],
+    "refreshCount": 0,
+    "missionTypeParam": "",
+    "missionPool": []
+  },
+  {
+    "id": 1002025,
+    "wave": 2,
+    "time": {
+      "serialized_int32": 1500000,
+      "decimal": 150.0,
+      "fp_raw": 9830400,
+      "runtime_value": 150.0
+    },
+    "delayTime": {
+      "serialized_int32": 32000,
+      "decimal": 3.2,
+      "fp_raw": 209715,
+      "runtime_value": 3.1999969482421875
+    },
+    "missinType": 0,
+    "interval": [],
+    "pathMonster": [],
+    "positionMonster": 0,
+    "Monster": [],
+    "MultiHp": [],
+    "positionGroupMonster": [],
+    "randomMonster": [
+      2
+    ],
+    "numberRandom": 1,
+    "heightRandom": 30,
+    "hpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "attackUp": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "addExpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "HPPickUpAddPercent": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "RandomNpc": 0,
+    "MonsterFlushConfigId": [],
+    "refreshCount": 0,
+    "missionTypeParam": "",
+    "missionPool": []
+  },
+  {
+    "id": 1002026,
+    "wave": 2,
+    "time": {
+      "serialized_int32": 1500000,
+      "decimal": 150.0,
+      "fp_raw": 9830400,
+      "runtime_value": 150.0
+    },
+    "delayTime": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "missinType": 0,
+    "interval": [],
+    "pathMonster": [],
+    "positionMonster": 0,
+    "Monster": [],
+    "MultiHp": [],
+    "positionGroupMonster": [],
+    "randomMonster": [
+      2
+    ],
+    "numberRandom": 1,
+    "heightRandom": 30,
+    "hpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "attackUp": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "addExpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "HPPickUpAddPercent": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "RandomNpc": 0,
+    "MonsterFlushConfigId": [],
+    "refreshCount": 0,
+    "missionTypeParam": "",
+    "missionPool": []
+  },
+  {
+    "id": 1002027,
+    "wave": 2,
+    "time": {
+      "serialized_int32": 1500000,
+      "decimal": 150.0,
+      "fp_raw": 9830400,
+      "runtime_value": 150.0
+    },
+    "delayTime": {
+      "serialized_int32": 30000,
+      "decimal": 3.0,
+      "fp_raw": 196608,
+      "runtime_value": 3.0
+    },
+    "missinType": 0,
+    "interval": [],
+    "pathMonster": [],
+    "positionMonster": 0,
+    "Monster": [],
+    "MultiHp": [],
+    "positionGroupMonster": [],
+    "randomMonster": [
+      2
+    ],
+    "numberRandom": 1,
+    "heightRandom": 30,
+    "hpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "attackUp": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "addExpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "HPPickUpAddPercent": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "RandomNpc": 0,
+    "MonsterFlushConfigId": [],
+    "refreshCount": 0,
+    "missionTypeParam": "",
+    "missionPool": []
+  },
+  {
+    "id": 1002028,
+    "wave": 2,
+    "time": {
+      "serialized_int32": 1650000,
+      "decimal": 165.0,
+      "fp_raw": 10813440,
+      "runtime_value": 165.0
+    },
+    "delayTime": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "missinType": 0,
+    "interval": [],
+    "pathMonster": [],
+    "positionMonster": 1002005,
+    "Monster": [
+      320005
+    ],
+    "MultiHp": [],
+    "positionGroupMonster": [],
+    "randomMonster": [],
+    "numberRandom": 0,
+    "heightRandom": 0,
+    "hpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "attackUp": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "addExpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "HPPickUpAddPercent": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "RandomNpc": 0,
+    "MonsterFlushConfigId": [],
+    "refreshCount": 0,
+    "missionTypeParam": "",
+    "missionPool": []
+  },
+  {
+    "id": 1002029,
+    "wave": 2,
+    "time": {
+      "serialized_int32": 1650000,
+      "decimal": 165.0,
+      "fp_raw": 10813440,
+      "runtime_value": 165.0
+    },
+    "delayTime": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "missinType": 0,
+    "interval": [],
+    "pathMonster": [],
+    "positionMonster": 1001050,
+    "Monster": [
+      330006
+    ],
+    "MultiHp": [],
+    "positionGroupMonster": [],
+    "randomMonster": [],
+    "numberRandom": 0,
+    "heightRandom": 0,
+    "hpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "attackUp": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "addExpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "HPPickUpAddPercent": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "RandomNpc": 0,
+    "MonsterFlushConfigId": [],
+    "refreshCount": 0,
+    "missionTypeParam": "",
+    "missionPool": []
+  },
+  {
+    "id": 1002030,
+    "wave": 2,
+    "time": {
+      "serialized_int32": 1650000,
+      "decimal": 165.0,
+      "fp_raw": 10813440,
+      "runtime_value": 165.0
+    },
+    "delayTime": {
+      "serialized_int32": 8000,
+      "decimal": 0.8,
+      "fp_raw": 52428,
+      "runtime_value": 0.79998779296875
+    },
+    "missinType": 0,
+    "interval": [],
+    "pathMonster": [],
+    "positionMonster": 1001051,
+    "Monster": [
+      330006
+    ],
+    "MultiHp": [],
+    "positionGroupMonster": [],
+    "randomMonster": [],
+    "numberRandom": 0,
+    "heightRandom": 0,
+    "hpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "attackUp": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "addExpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "HPPickUpAddPercent": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "RandomNpc": 0,
+    "MonsterFlushConfigId": [],
+    "refreshCount": 0,
+    "missionTypeParam": "",
+    "missionPool": []
+  },
+  {
+    "id": 1002031,
+    "wave": 2,
+    "time": {
+      "serialized_int32": 1650000,
+      "decimal": 165.0,
+      "fp_raw": 10813440,
+      "runtime_value": 165.0
+    },
+    "delayTime": {
+      "serialized_int32": 16000,
+      "decimal": 1.6,
+      "fp_raw": 104857,
+      "runtime_value": 1.5999908447265625
+    },
+    "missinType": 0,
+    "interval": [],
+    "pathMonster": [],
+    "positionMonster": 1001052,
+    "Monster": [
+      330006
+    ],
+    "MultiHp": [],
+    "positionGroupMonster": [],
+    "randomMonster": [],
+    "numberRandom": 0,
+    "heightRandom": 0,
+    "hpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "attackUp": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "addExpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "HPPickUpAddPercent": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "RandomNpc": 0,
+    "MonsterFlushConfigId": [],
+    "refreshCount": 0,
+    "missionTypeParam": "",
+    "missionPool": []
+  },
+  {
+    "id": 1002032,
+    "wave": 2,
+    "time": {
+      "serialized_int32": 1650000,
+      "decimal": 165.0,
+      "fp_raw": 10813440,
+      "runtime_value": 165.0
+    },
+    "delayTime": {
+      "serialized_int32": 24000,
+      "decimal": 2.4,
+      "fp_raw": 157286,
+      "runtime_value": 2.399993896484375
+    },
+    "missinType": 0,
+    "interval": [],
+    "pathMonster": [],
+    "positionMonster": 1001052,
+    "Monster": [
+      330006
+    ],
+    "MultiHp": [],
+    "positionGroupMonster": [],
+    "randomMonster": [],
+    "numberRandom": 0,
+    "heightRandom": 0,
+    "hpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "attackUp": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "addExpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "HPPickUpAddPercent": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "RandomNpc": 0,
+    "MonsterFlushConfigId": [],
+    "refreshCount": 0,
+    "missionTypeParam": "",
+    "missionPool": []
+  },
+  {
+    "id": 1002033,
+    "wave": 2,
+    "time": {
+      "serialized_int32": 1650000,
+      "decimal": 165.0,
+      "fp_raw": 10813440,
+      "runtime_value": 165.0
+    },
+    "delayTime": {
+      "serialized_int32": 32000,
+      "decimal": 3.2,
+      "fp_raw": 209715,
+      "runtime_value": 3.1999969482421875
+    },
+    "missinType": 0,
+    "interval": [],
+    "pathMonster": [],
+    "positionMonster": 1001051,
+    "Monster": [
+      330006
+    ],
+    "MultiHp": [],
+    "positionGroupMonster": [],
+    "randomMonster": [],
+    "numberRandom": 0,
+    "heightRandom": 0,
+    "hpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "attackUp": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "addExpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "HPPickUpAddPercent": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "RandomNpc": 0,
+    "MonsterFlushConfigId": [],
+    "refreshCount": 0,
+    "missionTypeParam": "",
+    "missionPool": []
+  },
+  {
+    "id": 1002034,
+    "wave": 2,
+    "time": {
+      "serialized_int32": 1650000,
+      "decimal": 165.0,
+      "fp_raw": 10813440,
+      "runtime_value": 165.0
+    },
+    "delayTime": {
+      "serialized_int32": 40000,
+      "decimal": 4.0,
+      "fp_raw": 262144,
+      "runtime_value": 4.0
+    },
+    "missinType": 0,
+    "interval": [],
+    "pathMonster": [],
+    "positionMonster": 1001050,
+    "Monster": [
+      330006
+    ],
+    "MultiHp": [],
+    "positionGroupMonster": [],
+    "randomMonster": [],
+    "numberRandom": 0,
+    "heightRandom": 0,
+    "hpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "attackUp": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "addExpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "HPPickUpAddPercent": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "RandomNpc": 0,
+    "MonsterFlushConfigId": [],
+    "refreshCount": 0,
+    "missionTypeParam": "",
+    "missionPool": []
+  },
+  {
+    "id": 1002035,
+    "wave": 3,
+    "time": {
+      "serialized_int32": 1800000,
+      "decimal": 180.0,
+      "fp_raw": 11796480,
+      "runtime_value": 180.0
+    },
+    "delayTime": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "missinType": 0,
+    "interval": [],
+    "pathMonster": [],
+    "positionMonster": 1003023,
+    "Monster": [
+      320017
+    ],
+    "MultiHp": [],
+    "positionGroupMonster": [],
+    "randomMonster": [],
+    "numberRandom": 0,
+    "heightRandom": 0,
+    "hpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "attackUp": {
+      "serialized_int32": 15000,
+      "decimal": 1.5,
+      "fp_raw": 98304,
+      "runtime_value": 1.5
+    },
+    "addExpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "HPPickUpAddPercent": {
+      "serialized_int32": 5000,
+      "decimal": 0.5,
+      "fp_raw": 32768,
+      "runtime_value": 0.5
+    },
+    "RandomNpc": 0,
+    "MonsterFlushConfigId": [],
+    "refreshCount": 0,
+    "missionTypeParam": "",
+    "missionPool": []
+  },
+  {
+    "id": 1002036,
+    "wave": 3,
+    "time": {
+      "serialized_int32": 1800000,
+      "decimal": 180.0,
+      "fp_raw": 11796480,
+      "runtime_value": 180.0
+    },
+    "delayTime": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "missinType": 0,
+    "interval": [
+      {
+        "serialized_int32": 20000,
+        "decimal": 2.0,
+        "fp_raw": 131072,
+        "runtime_value": 2.0
+      },
+      {
+        "serialized_int32": 40000,
+        "decimal": 4.0,
+        "fp_raw": 262144,
+        "runtime_value": 4.0
+      }
+    ],
+    "pathMonster": [],
+    "positionMonster": 1001008,
+    "Monster": [
+      330006
+    ],
+    "MultiHp": [],
+    "positionGroupMonster": [],
+    "randomMonster": [],
+    "numberRandom": 0,
+    "heightRandom": 0,
+    "hpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "attackUp": {
+      "serialized_int32": 15000,
+      "decimal": 1.5,
+      "fp_raw": 98304,
+      "runtime_value": 1.5
+    },
+    "addExpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "HPPickUpAddPercent": {
+      "serialized_int32": 5000,
+      "decimal": 0.5,
+      "fp_raw": 32768,
+      "runtime_value": 0.5
+    },
+    "RandomNpc": 0,
+    "MonsterFlushConfigId": [],
+    "refreshCount": 0,
+    "missionTypeParam": "",
+    "missionPool": []
+  },
+  {
+    "id": 1002037,
+    "wave": 3,
+    "time": {
+      "serialized_int32": 1970000,
+      "decimal": 197.0,
+      "fp_raw": 12910592,
+      "runtime_value": 197.0
+    },
+    "delayTime": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "missinType": 0,
+    "interval": [],
+    "pathMonster": [],
+    "positionMonster": 1002002,
+    "Monster": [
+      310008
+    ],
+    "MultiHp": [],
+    "positionGroupMonster": [],
+    "randomMonster": [],
+    "numberRandom": 0,
+    "heightRandom": 0,
+    "hpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "attackUp": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "addExpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "HPPickUpAddPercent": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "RandomNpc": 0,
+    "MonsterFlushConfigId": [],
+    "refreshCount": 0,
+    "missionTypeParam": "",
+    "missionPool": []
+  },
+  {
+    "id": 1002038,
+    "wave": 3,
+    "time": {
+      "serialized_int32": 1970000,
+      "decimal": 197.0,
+      "fp_raw": 12910592,
+      "runtime_value": 197.0
+    },
+    "delayTime": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "missinType": 0,
+    "interval": [],
+    "pathMonster": [],
+    "positionMonster": 1002019,
+    "Monster": [
+      320021
+    ],
+    "MultiHp": [],
+    "positionGroupMonster": [],
+    "randomMonster": [],
+    "numberRandom": 0,
+    "heightRandom": 0,
+    "hpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "attackUp": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "addExpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "HPPickUpAddPercent": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "RandomNpc": 0,
+    "MonsterFlushConfigId": [],
+    "refreshCount": 0,
+    "missionTypeParam": "",
+    "missionPool": []
+  },
+  {
+    "id": 1002039,
+    "wave": 3,
+    "time": {
+      "serialized_int32": 1970000,
+      "decimal": 197.0,
+      "fp_raw": 12910592,
+      "runtime_value": 197.0
+    },
+    "delayTime": {
+      "serialized_int32": 35000,
+      "decimal": 3.5,
+      "fp_raw": 229376,
+      "runtime_value": 3.5
+    },
+    "missinType": 0,
+    "interval": [],
+    "pathMonster": [],
+    "positionMonster": 1003013,
+    "Monster": [
+      320017
+    ],
+    "MultiHp": [],
+    "positionGroupMonster": [],
+    "randomMonster": [
+      2
+    ],
+    "numberRandom": 1,
+    "heightRandom": 30,
+    "hpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "attackUp": {
+      "serialized_int32": 15000,
+      "decimal": 1.5,
+      "fp_raw": 98304,
+      "runtime_value": 1.5
+    },
+    "addExpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "HPPickUpAddPercent": {
+      "serialized_int32": 5000,
+      "decimal": 0.5,
+      "fp_raw": 32768,
+      "runtime_value": 0.5
+    },
+    "RandomNpc": 0,
+    "MonsterFlushConfigId": [],
+    "refreshCount": 0,
+    "missionTypeParam": "",
+    "missionPool": []
+  },
+  {
+    "id": 1002040,
+    "wave": 3,
+    "time": {
+      "serialized_int32": 1970000,
+      "decimal": 197.0,
+      "fp_raw": 12910592,
+      "runtime_value": 197.0
+    },
+    "delayTime": {
+      "serialized_int32": 70000,
+      "decimal": 7.0,
+      "fp_raw": 458752,
+      "runtime_value": 7.0
+    },
+    "missinType": 0,
+    "interval": [],
+    "pathMonster": [],
+    "positionMonster": 1003014,
+    "Monster": [
+      320019
+    ],
+    "MultiHp": [],
+    "positionGroupMonster": [],
+    "randomMonster": [
+      2
+    ],
+    "numberRandom": 1,
+    "heightRandom": 30,
+    "hpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "attackUp": {
+      "serialized_int32": 15000,
+      "decimal": 1.5,
+      "fp_raw": 98304,
+      "runtime_value": 1.5
+    },
+    "addExpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "HPPickUpAddPercent": {
+      "serialized_int32": 5000,
+      "decimal": 0.5,
+      "fp_raw": 32768,
+      "runtime_value": 0.5
+    },
+    "RandomNpc": 0,
+    "MonsterFlushConfigId": [],
+    "refreshCount": 0,
+    "missionTypeParam": "",
+    "missionPool": []
+  },
+  {
+    "id": 1002041,
+    "wave": 3,
+    "time": {
+      "serialized_int32": 1970000,
+      "decimal": 197.0,
+      "fp_raw": 12910592,
+      "runtime_value": 197.0
+    },
+    "delayTime": {
+      "serialized_int32": 105000,
+      "decimal": 10.5,
+      "fp_raw": 688128,
+      "runtime_value": 10.5
+    },
+    "missinType": 0,
+    "interval": [],
+    "pathMonster": [],
+    "positionMonster": 1003002,
+    "Monster": [
+      320017
+    ],
+    "MultiHp": [],
+    "positionGroupMonster": [],
+    "randomMonster": [
+      2
+    ],
+    "numberRandom": 1,
+    "heightRandom": 30,
+    "hpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "attackUp": {
+      "serialized_int32": 15000,
+      "decimal": 1.5,
+      "fp_raw": 98304,
+      "runtime_value": 1.5
+    },
+    "addExpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "HPPickUpAddPercent": {
+      "serialized_int32": 5000,
+      "decimal": 0.5,
+      "fp_raw": 32768,
+      "runtime_value": 0.5
+    },
+    "RandomNpc": 0,
+    "MonsterFlushConfigId": [],
+    "refreshCount": 0,
+    "missionTypeParam": "",
+    "missionPool": []
+  },
+  {
+    "id": 1002042,
+    "wave": 3,
+    "time": {
+      "serialized_int32": 1970000,
+      "decimal": 197.0,
+      "fp_raw": 12910592,
+      "runtime_value": 197.0
+    },
+    "delayTime": {
+      "serialized_int32": 140000,
+      "decimal": 14.0,
+      "fp_raw": 917504,
+      "runtime_value": 14.0
+    },
+    "missinType": 0,
+    "interval": [],
+    "pathMonster": [],
+    "positionMonster": 1003013,
+    "Monster": [
+      320019
+    ],
+    "MultiHp": [],
+    "positionGroupMonster": [],
+    "randomMonster": [
+      2
+    ],
+    "numberRandom": 1,
+    "heightRandom": 30,
+    "hpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "attackUp": {
+      "serialized_int32": 15000,
+      "decimal": 1.5,
+      "fp_raw": 98304,
+      "runtime_value": 1.5
+    },
+    "addExpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "HPPickUpAddPercent": {
+      "serialized_int32": 5000,
+      "decimal": 0.5,
+      "fp_raw": 32768,
+      "runtime_value": 0.5
+    },
+    "RandomNpc": 0,
+    "MonsterFlushConfigId": [],
+    "refreshCount": 0,
+    "missionTypeParam": "",
+    "missionPool": []
+  },
+  {
+    "id": 1002043,
+    "wave": 3,
+    "time": {
+      "serialized_int32": 1970000,
+      "decimal": 197.0,
+      "fp_raw": 12910592,
+      "runtime_value": 197.0
+    },
+    "delayTime": {
+      "serialized_int32": 175000,
+      "decimal": 17.5,
+      "fp_raw": 1146880,
+      "runtime_value": 17.5
+    },
+    "missinType": 0,
+    "interval": [],
+    "pathMonster": [],
+    "positionMonster": 1003014,
+    "Monster": [
+      320017
+    ],
+    "MultiHp": [],
+    "positionGroupMonster": [],
+    "randomMonster": [
+      2
+    ],
+    "numberRandom": 1,
+    "heightRandom": 30,
+    "hpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "attackUp": {
+      "serialized_int32": 15000,
+      "decimal": 1.5,
+      "fp_raw": 98304,
+      "runtime_value": 1.5
+    },
+    "addExpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "HPPickUpAddPercent": {
+      "serialized_int32": 5000,
+      "decimal": 0.5,
+      "fp_raw": 32768,
+      "runtime_value": 0.5
+    },
+    "RandomNpc": 0,
+    "MonsterFlushConfigId": [],
+    "refreshCount": 0,
+    "missionTypeParam": "",
+    "missionPool": []
+  },
+  {
+    "id": 1002044,
+    "wave": 3,
+    "time": {
+      "serialized_int32": 1970000,
+      "decimal": 197.0,
+      "fp_raw": 12910592,
+      "runtime_value": 197.0
+    },
+    "delayTime": {
+      "serialized_int32": 210000,
+      "decimal": 21.0,
+      "fp_raw": 1376256,
+      "runtime_value": 21.0
+    },
+    "missinType": 0,
+    "interval": [],
+    "pathMonster": [],
+    "positionMonster": 1003002,
+    "Monster": [
+      320019
+    ],
+    "MultiHp": [],
+    "positionGroupMonster": [],
+    "randomMonster": [
+      2
+    ],
+    "numberRandom": 1,
+    "heightRandom": 30,
+    "hpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "attackUp": {
+      "serialized_int32": 15000,
+      "decimal": 1.5,
+      "fp_raw": 98304,
+      "runtime_value": 1.5
+    },
+    "addExpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "HPPickUpAddPercent": {
+      "serialized_int32": 5000,
+      "decimal": 0.5,
+      "fp_raw": 32768,
+      "runtime_value": 0.5
+    },
+    "RandomNpc": 0,
+    "MonsterFlushConfigId": [],
+    "refreshCount": 0,
+    "missionTypeParam": "",
+    "missionPool": []
+  },
+  {
+    "id": 1002045,
+    "wave": 3,
+    "time": {
+      "serialized_int32": 1970000,
+      "decimal": 197.0,
+      "fp_raw": 12910592,
+      "runtime_value": 197.0
+    },
+    "delayTime": {
+      "serialized_int32": 245000,
+      "decimal": 24.5,
+      "fp_raw": 1605632,
+      "runtime_value": 24.5
+    },
+    "missinType": 0,
+    "interval": [],
+    "pathMonster": [],
+    "positionMonster": 1003013,
+    "Monster": [
+      320017
+    ],
+    "MultiHp": [],
+    "positionGroupMonster": [],
+    "randomMonster": [
+      2
+    ],
+    "numberRandom": 1,
+    "heightRandom": 30,
+    "hpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "attackUp": {
+      "serialized_int32": 15000,
+      "decimal": 1.5,
+      "fp_raw": 98304,
+      "runtime_value": 1.5
+    },
+    "addExpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "HPPickUpAddPercent": {
+      "serialized_int32": 5000,
+      "decimal": 0.5,
+      "fp_raw": 32768,
+      "runtime_value": 0.5
+    },
+    "RandomNpc": 0,
+    "MonsterFlushConfigId": [],
+    "refreshCount": 0,
+    "missionTypeParam": "",
+    "missionPool": []
+  },
+  {
+    "id": 1002046,
+    "wave": 3,
+    "time": {
+      "serialized_int32": 1970000,
+      "decimal": 197.0,
+      "fp_raw": 12910592,
+      "runtime_value": 197.0
+    },
+    "delayTime": {
+      "serialized_int32": 280000,
+      "decimal": 28.0,
+      "fp_raw": 1835008,
+      "runtime_value": 28.0
+    },
+    "missinType": 0,
+    "interval": [],
+    "pathMonster": [],
+    "positionMonster": 1003014,
+    "Monster": [
+      320019
+    ],
+    "MultiHp": [],
+    "positionGroupMonster": [],
+    "randomMonster": [
+      2
+    ],
+    "numberRandom": 1,
+    "heightRandom": 30,
+    "hpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "attackUp": {
+      "serialized_int32": 15000,
+      "decimal": 1.5,
+      "fp_raw": 98304,
+      "runtime_value": 1.5
+    },
+    "addExpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "HPPickUpAddPercent": {
+      "serialized_int32": 5000,
+      "decimal": 0.5,
+      "fp_raw": 32768,
+      "runtime_value": 0.5
+    },
+    "RandomNpc": 0,
+    "MonsterFlushConfigId": [],
+    "refreshCount": 0,
+    "missionTypeParam": "",
+    "missionPool": []
+  },
+  {
+    "id": 1002047,
+    "wave": 3,
+    "time": {
+      "serialized_int32": 2420000,
+      "decimal": 242.0,
+      "fp_raw": 15859712,
+      "runtime_value": 242.0
+    },
+    "delayTime": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "missinType": 0,
+    "interval": [],
+    "pathMonster": [],
+    "positionMonster": 1002056,
+    "Monster": [
+      320021
+    ],
+    "MultiHp": [],
+    "positionGroupMonster": [],
+    "randomMonster": [],
+    "numberRandom": 0,
+    "heightRandom": 0,
+    "hpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "attackUp": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "addExpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "HPPickUpAddPercent": {
+      "serialized_int32": 5000,
+      "decimal": 0.5,
+      "fp_raw": 32768,
+      "runtime_value": 0.5
+    },
+    "RandomNpc": 0,
+    "MonsterFlushConfigId": [],
+    "refreshCount": 0,
+    "missionTypeParam": "",
+    "missionPool": []
+  },
+  {
+    "id": 1002048,
+    "wave": 3,
+    "time": {
+      "serialized_int32": 2420000,
+      "decimal": 242.0,
+      "fp_raw": 15859712,
+      "runtime_value": 242.0
+    },
+    "delayTime": {
+      "serialized_int32": 5000,
+      "decimal": 0.5,
+      "fp_raw": 32768,
+      "runtime_value": 0.5
+    },
+    "missinType": 0,
+    "interval": [],
+    "pathMonster": [],
+    "positionMonster": 1003029,
+    "Monster": [
+      320019
+    ],
+    "MultiHp": [],
+    "positionGroupMonster": [],
+    "randomMonster": [
+      5,
+      13
+    ],
+    "numberRandom": 2,
+    "heightRandom": 30,
+    "hpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "attackUp": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "addExpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "HPPickUpAddPercent": {
+      "serialized_int32": 5000,
+      "decimal": 0.5,
+      "fp_raw": 32768,
+      "runtime_value": 0.5
+    },
+    "RandomNpc": 0,
+    "MonsterFlushConfigId": [],
+    "refreshCount": 0,
+    "missionTypeParam": "",
+    "missionPool": []
+  },
+  {
+    "id": 1002049,
+    "wave": 3,
+    "time": {
+      "serialized_int32": 2420000,
+      "decimal": 242.0,
+      "fp_raw": 15859712,
+      "runtime_value": 242.0
+    },
+    "delayTime": {
+      "serialized_int32": 33000,
+      "decimal": 3.3,
+      "fp_raw": 216268,
+      "runtime_value": 3.29998779296875
+    },
+    "missinType": 0,
+    "interval": [],
+    "pathMonster": [],
+    "positionMonster": 1003030,
+    "Monster": [
+      320019
+    ],
+    "MultiHp": [],
+    "positionGroupMonster": [],
+    "randomMonster": [
+      5,
+      13
+    ],
+    "numberRandom": 2,
+    "heightRandom": 30,
+    "hpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "attackUp": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "addExpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "HPPickUpAddPercent": {
+      "serialized_int32": 5000,
+      "decimal": 0.5,
+      "fp_raw": 32768,
+      "runtime_value": 0.5
+    },
+    "RandomNpc": 0,
+    "MonsterFlushConfigId": [],
+    "refreshCount": 0,
+    "missionTypeParam": "",
+    "missionPool": []
+  },
+  {
+    "id": 1002050,
+    "wave": 3,
+    "time": {
+      "serialized_int32": 2420000,
+      "decimal": 242.0,
+      "fp_raw": 15859712,
+      "runtime_value": 242.0
+    },
+    "delayTime": {
+      "serialized_int32": 61000,
+      "decimal": 6.1,
+      "fp_raw": 399769,
+      "runtime_value": 6.0999908447265625
+    },
+    "missinType": 0,
+    "interval": [],
+    "pathMonster": [],
+    "positionMonster": 1003020,
+    "Monster": [
+      320019
+    ],
+    "MultiHp": [],
+    "positionGroupMonster": [],
+    "randomMonster": [],
+    "numberRandom": 0,
+    "heightRandom": 0,
+    "hpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "attackUp": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "addExpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "HPPickUpAddPercent": {
+      "serialized_int32": 5000,
+      "decimal": 0.5,
+      "fp_raw": 32768,
+      "runtime_value": 0.5
+    },
+    "RandomNpc": 0,
+    "MonsterFlushConfigId": [],
+    "refreshCount": 0,
+    "missionTypeParam": "",
+    "missionPool": []
+  },
+  {
+    "id": 1002051,
+    "wave": 4,
+    "time": {
+      "serialized_int32": 2700000,
+      "decimal": 270.0,
+      "fp_raw": 17694720,
+      "runtime_value": 270.0
+    },
+    "delayTime": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "missinType": 0,
+    "interval": [],
+    "pathMonster": [],
+    "positionMonster": 1003026,
+    "Monster": [
+      320017
+    ],
+    "MultiHp": [],
+    "positionGroupMonster": [],
+    "randomMonster": [
+      5
+    ],
+    "numberRandom": 2,
+    "heightRandom": 30,
+    "hpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "attackUp": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "addExpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "HPPickUpAddPercent": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "RandomNpc": 0,
+    "MonsterFlushConfigId": [],
+    "refreshCount": 0,
+    "missionTypeParam": "",
+    "missionPool": []
+  },
+  {
+    "id": 1002052,
+    "wave": 4,
+    "time": {
+      "serialized_int32": 2700000,
+      "decimal": 270.0,
+      "fp_raw": 17694720,
+      "runtime_value": 270.0
+    },
+    "delayTime": {
+      "serialized_int32": 27000,
+      "decimal": 2.7,
+      "fp_raw": 176947,
+      "runtime_value": 2.6999969482421875
+    },
+    "missinType": 0,
+    "interval": [],
+    "pathMonster": [],
+    "positionMonster": 1003025,
+    "Monster": [
+      320035
+    ],
+    "MultiHp": [],
+    "positionGroupMonster": [],
+    "randomMonster": [
+      5
+    ],
+    "numberRandom": 2,
+    "heightRandom": 30,
+    "hpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "attackUp": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "addExpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "HPPickUpAddPercent": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "RandomNpc": 0,
+    "MonsterFlushConfigId": [],
+    "refreshCount": 0,
+    "missionTypeParam": "",
+    "missionPool": []
+  },
+  {
+    "id": 1002053,
+    "wave": 4,
+    "time": {
+      "serialized_int32": 2700000,
+      "decimal": 270.0,
+      "fp_raw": 17694720,
+      "runtime_value": 270.0
+    },
+    "delayTime": {
+      "serialized_int32": 54000,
+      "decimal": 5.4,
+      "fp_raw": 353894,
+      "runtime_value": 5.399993896484375
+    },
+    "missinType": 0,
+    "interval": [],
+    "pathMonster": [],
+    "positionMonster": 1003026,
+    "Monster": [
+      320017
+    ],
+    "MultiHp": [],
+    "positionGroupMonster": [],
+    "randomMonster": [],
+    "numberRandom": 0,
+    "heightRandom": 0,
+    "hpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "attackUp": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "addExpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "HPPickUpAddPercent": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "RandomNpc": 0,
+    "MonsterFlushConfigId": [],
+    "refreshCount": 0,
+    "missionTypeParam": "",
+    "missionPool": []
+  },
+  {
+    "id": 1002054,
+    "wave": 4,
+    "time": {
+      "serialized_int32": 2700000,
+      "decimal": 270.0,
+      "fp_raw": 17694720,
+      "runtime_value": 270.0
+    },
+    "delayTime": {
+      "serialized_int32": 81000,
+      "decimal": 8.1,
+      "fp_raw": 530841,
+      "runtime_value": 8.099990844726562
+    },
+    "missinType": 0,
+    "interval": [],
+    "pathMonster": [],
+    "positionMonster": 1003025,
+    "Monster": [
+      320035
+    ],
+    "MultiHp": [],
+    "positionGroupMonster": [],
+    "randomMonster": [
+      5
+    ],
+    "numberRandom": 2,
+    "heightRandom": 30,
+    "hpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "attackUp": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "addExpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "HPPickUpAddPercent": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "RandomNpc": 0,
+    "MonsterFlushConfigId": [],
+    "refreshCount": 0,
+    "missionTypeParam": "",
+    "missionPool": []
+  },
+  {
+    "id": 1002055,
+    "wave": 4,
+    "time": {
+      "serialized_int32": 2700000,
+      "decimal": 270.0,
+      "fp_raw": 17694720,
+      "runtime_value": 270.0
+    },
+    "delayTime": {
+      "serialized_int32": 108000,
+      "decimal": 10.8,
+      "fp_raw": 707788,
+      "runtime_value": 10.79998779296875
+    },
+    "missinType": 0,
+    "interval": [],
+    "pathMonster": [],
+    "positionMonster": 1003020,
+    "Monster": [
+      320019
+    ],
+    "MultiHp": [],
+    "positionGroupMonster": [],
+    "randomMonster": [],
+    "numberRandom": 0,
+    "heightRandom": 0,
+    "hpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "attackUp": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "addExpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "HPPickUpAddPercent": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "RandomNpc": 0,
+    "MonsterFlushConfigId": [],
+    "refreshCount": 0,
+    "missionTypeParam": "",
+    "missionPool": []
+  },
+  {
+    "id": 1002056,
+    "wave": 4,
+    "time": {
+      "serialized_int32": 2850000,
+      "decimal": 285.0,
+      "fp_raw": 18677760,
+      "runtime_value": 285.0
+    },
+    "delayTime": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "missinType": 0,
+    "interval": [],
+    "pathMonster": [],
+    "positionMonster": 1002008,
+    "Monster": [
+      320044
+    ],
+    "MultiHp": [],
+    "positionGroupMonster": [],
+    "randomMonster": [],
+    "numberRandom": 0,
+    "heightRandom": 0,
+    "hpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "attackUp": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "addExpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "HPPickUpAddPercent": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "RandomNpc": 0,
+    "MonsterFlushConfigId": [],
+    "refreshCount": 0,
+    "missionTypeParam": "",
+    "missionPool": []
+  },
+  {
+    "id": 1002057,
+    "wave": 4,
+    "time": {
+      "serialized_int32": 2850000,
+      "decimal": 285.0,
+      "fp_raw": 18677760,
+      "runtime_value": 285.0
+    },
+    "delayTime": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "missinType": 0,
+    "interval": [],
+    "pathMonster": [],
+    "positionMonster": 1001039,
+    "Monster": [
+      330006
+    ],
+    "MultiHp": [],
+    "positionGroupMonster": [],
+    "randomMonster": [],
+    "numberRandom": 0,
+    "heightRandom": 0,
+    "hpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "attackUp": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "addExpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "HPPickUpAddPercent": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "RandomNpc": 0,
+    "MonsterFlushConfigId": [],
+    "refreshCount": 0,
+    "missionTypeParam": "",
+    "missionPool": []
+  },
+  {
+    "id": 1002058,
+    "wave": 4,
+    "time": {
+      "serialized_int32": 2850000,
+      "decimal": 285.0,
+      "fp_raw": 18677760,
+      "runtime_value": 285.0
+    },
+    "delayTime": {
+      "serialized_int32": 30000,
+      "decimal": 3.0,
+      "fp_raw": 196608,
+      "runtime_value": 3.0
+    },
+    "missinType": 0,
+    "interval": [],
+    "pathMonster": [],
+    "positionMonster": 1001040,
+    "Monster": [
+      330006
+    ],
+    "MultiHp": [],
+    "positionGroupMonster": [],
+    "randomMonster": [
+      5
+    ],
+    "numberRandom": 2,
+    "heightRandom": 30,
+    "hpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "attackUp": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "addExpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "HPPickUpAddPercent": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "RandomNpc": 0,
+    "MonsterFlushConfigId": [],
+    "refreshCount": 0,
+    "missionTypeParam": "",
+    "missionPool": []
+  },
+  {
+    "id": 1002059,
+    "wave": 4,
+    "time": {
+      "serialized_int32": 2850000,
+      "decimal": 285.0,
+      "fp_raw": 18677760,
+      "runtime_value": 285.0
+    },
+    "delayTime": {
+      "serialized_int32": 60000,
+      "decimal": 6.0,
+      "fp_raw": 393216,
+      "runtime_value": 6.0
+    },
+    "missinType": 0,
+    "interval": [],
+    "pathMonster": [],
+    "positionMonster": 1001039,
+    "Monster": [
+      330006
+    ],
+    "MultiHp": [],
+    "positionGroupMonster": [],
+    "randomMonster": [],
+    "numberRandom": 0,
+    "heightRandom": 0,
+    "hpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "attackUp": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "addExpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "HPPickUpAddPercent": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "RandomNpc": 0,
+    "MonsterFlushConfigId": [],
+    "refreshCount": 0,
+    "missionTypeParam": "",
+    "missionPool": []
+  },
+  {
+    "id": 1002060,
+    "wave": 4,
+    "time": {
+      "serialized_int32": 2850000,
+      "decimal": 285.0,
+      "fp_raw": 18677760,
+      "runtime_value": 285.0
+    },
+    "delayTime": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "missinType": 0,
+    "interval": [],
+    "pathMonster": [],
+    "positionMonster": 0,
+    "Monster": [],
+    "MultiHp": [],
+    "positionGroupMonster": [],
+    "randomMonster": [
+      5
+    ],
+    "numberRandom": 2,
+    "heightRandom": 30,
+    "hpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "attackUp": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "addExpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "HPPickUpAddPercent": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "RandomNpc": 0,
+    "MonsterFlushConfigId": [],
+    "refreshCount": 0,
+    "missionTypeParam": "",
+    "missionPool": []
+  },
+  {
+    "id": 1002061,
+    "wave": 4,
+    "time": {
+      "serialized_int32": 2850000,
+      "decimal": 285.0,
+      "fp_raw": 18677760,
+      "runtime_value": 285.0
+    },
+    "delayTime": {
+      "serialized_int32": 25000,
+      "decimal": 2.5,
+      "fp_raw": 163840,
+      "runtime_value": 2.5
+    },
+    "missinType": 0,
+    "interval": [],
+    "pathMonster": [],
+    "positionMonster": 0,
+    "Monster": [],
+    "MultiHp": [],
+    "positionGroupMonster": [],
+    "randomMonster": [],
+    "numberRandom": 0,
+    "heightRandom": 0,
+    "hpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "attackUp": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "addExpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "HPPickUpAddPercent": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "RandomNpc": 0,
+    "MonsterFlushConfigId": [],
+    "refreshCount": 0,
+    "missionTypeParam": "",
+    "missionPool": []
+  },
+  {
+    "id": 1002062,
+    "wave": 4,
+    "time": {
+      "serialized_int32": 2850000,
+      "decimal": 285.0,
+      "fp_raw": 18677760,
+      "runtime_value": 285.0
+    },
+    "delayTime": {
+      "serialized_int32": 50000,
+      "decimal": 5.0,
+      "fp_raw": 327680,
+      "runtime_value": 5.0
+    },
+    "missinType": 0,
+    "interval": [],
+    "pathMonster": [],
+    "positionMonster": 0,
+    "Monster": [],
+    "MultiHp": [],
+    "positionGroupMonster": [],
+    "randomMonster": [
+      5
+    ],
+    "numberRandom": 2,
+    "heightRandom": 30,
+    "hpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "attackUp": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "addExpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "HPPickUpAddPercent": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "RandomNpc": 0,
+    "MonsterFlushConfigId": [],
+    "refreshCount": 0,
+    "missionTypeParam": "",
+    "missionPool": []
+  },
+  {
+    "id": 1002063,
+    "wave": 4,
+    "time": {
+      "serialized_int32": 3000000,
+      "decimal": 300.0,
+      "fp_raw": 19660800,
+      "runtime_value": 300.0
+    },
+    "delayTime": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "missinType": 0,
+    "interval": [
+      {
+        "serialized_int32": 30000,
+        "decimal": 3.0,
+        "fp_raw": 196608,
+        "runtime_value": 3.0
+      },
+      {
+        "serialized_int32": 50000,
+        "decimal": 5.0,
+        "fp_raw": 327680,
+        "runtime_value": 5.0
+      }
+    ],
+    "pathMonster": [],
+    "positionMonster": 1003023,
+    "Monster": [
+      320017
+    ],
+    "MultiHp": [],
+    "positionGroupMonster": [],
+    "randomMonster": [],
+    "numberRandom": 0,
+    "heightRandom": 0,
+    "hpUpgrade": {
+      "serialized_int32": 8000,
+      "decimal": 0.8,
+      "fp_raw": 52428,
+      "runtime_value": 0.79998779296875
+    },
+    "attackUp": {
+      "serialized_int32": 14000,
+      "decimal": 1.4,
+      "fp_raw": 91750,
+      "runtime_value": 1.399993896484375
+    },
+    "addExpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "HPPickUpAddPercent": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "RandomNpc": 0,
+    "MonsterFlushConfigId": [],
+    "refreshCount": 0,
+    "missionTypeParam": "",
+    "missionPool": []
+  },
+  {
+    "id": 1002064,
+    "wave": 4,
+    "time": {
+      "serialized_int32": 3000000,
+      "decimal": 300.0,
+      "fp_raw": 19660800,
+      "runtime_value": 300.0
+    },
+    "delayTime": {
+      "serialized_int32": 15000,
+      "decimal": 1.5,
+      "fp_raw": 98304,
+      "runtime_value": 1.5
+    },
+    "missinType": 0,
+    "interval": [],
+    "pathMonster": [],
+    "positionMonster": 1001008,
+    "Monster": [
+      330006
+    ],
+    "MultiHp": [],
+    "positionGroupMonster": [],
+    "randomMonster": [],
+    "numberRandom": 0,
+    "heightRandom": 0,
+    "hpUpgrade": {
+      "serialized_int32": 8000,
+      "decimal": 0.8,
+      "fp_raw": 52428,
+      "runtime_value": 0.79998779296875
+    },
+    "attackUp": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "addExpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "HPPickUpAddPercent": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "RandomNpc": 0,
+    "MonsterFlushConfigId": [],
+    "refreshCount": 0,
+    "missionTypeParam": "",
+    "missionPool": []
+  },
+  {
+    "id": 1002065,
+    "wave": 4,
+    "time": {
+      "serialized_int32": 3000000,
+      "decimal": 300.0,
+      "fp_raw": 19660800,
+      "runtime_value": 300.0
+    },
+    "delayTime": {
+      "serialized_int32": 65000,
+      "decimal": 6.5,
+      "fp_raw": 425984,
+      "runtime_value": 6.5
+    },
+    "missinType": 0,
+    "interval": [],
+    "pathMonster": [],
+    "positionMonster": 1001008,
+    "Monster": [
+      330006
+    ],
+    "MultiHp": [],
+    "positionGroupMonster": [],
+    "randomMonster": [],
+    "numberRandom": 0,
+    "heightRandom": 0,
+    "hpUpgrade": {
+      "serialized_int32": 8000,
+      "decimal": 0.8,
+      "fp_raw": 52428,
+      "runtime_value": 0.79998779296875
+    },
+    "attackUp": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "addExpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "HPPickUpAddPercent": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "RandomNpc": 0,
+    "MonsterFlushConfigId": [],
+    "refreshCount": 0,
+    "missionTypeParam": "",
+    "missionPool": []
+  },
+  {
+    "id": 1002066,
+    "wave": 4,
+    "time": {
+      "serialized_int32": 3000000,
+      "decimal": 300.0,
+      "fp_raw": 19660800,
+      "runtime_value": 300.0
+    },
+    "delayTime": {
+      "serialized_int32": 115000,
+      "decimal": 11.5,
+      "fp_raw": 753664,
+      "runtime_value": 11.5
+    },
+    "missinType": 0,
+    "interval": [],
+    "pathMonster": [],
+    "positionMonster": 1001008,
+    "Monster": [
+      330006
+    ],
+    "MultiHp": [],
+    "positionGroupMonster": [],
+    "randomMonster": [],
+    "numberRandom": 0,
+    "heightRandom": 0,
+    "hpUpgrade": {
+      "serialized_int32": 8000,
+      "decimal": 0.8,
+      "fp_raw": 52428,
+      "runtime_value": 0.79998779296875
+    },
+    "attackUp": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "addExpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "HPPickUpAddPercent": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "RandomNpc": 0,
+    "MonsterFlushConfigId": [],
+    "refreshCount": 0,
+    "missionTypeParam": "",
+    "missionPool": []
+  },
+  {
+    "id": 1002067,
+    "wave": 4,
+    "time": {
+      "serialized_int32": 3150000,
+      "decimal": 315.0,
+      "fp_raw": 20643840,
+      "runtime_value": 315.0
+    },
+    "delayTime": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "missinType": 0,
+    "interval": [],
+    "pathMonster": [],
+    "positionMonster": 1002030,
+    "Monster": [
+      320021
+    ],
+    "MultiHp": [],
+    "positionGroupMonster": [],
+    "randomMonster": [],
+    "numberRandom": 0,
+    "heightRandom": 0,
+    "hpUpgrade": {
+      "serialized_int32": 8000,
+      "decimal": 0.8,
+      "fp_raw": 52428,
+      "runtime_value": 0.79998779296875
+    },
+    "attackUp": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "addExpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "HPPickUpAddPercent": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "RandomNpc": 0,
+    "MonsterFlushConfigId": [],
+    "refreshCount": 0,
+    "missionTypeParam": "",
+    "missionPool": []
+  },
+  {
+    "id": 1002068,
+    "wave": 4,
+    "time": {
+      "serialized_int32": 3150000,
+      "decimal": 315.0,
+      "fp_raw": 20643840,
+      "runtime_value": 315.0
+    },
+    "delayTime": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "missinType": 0,
+    "interval": [],
+    "pathMonster": [],
+    "positionMonster": 1003014,
+    "Monster": [
+      320019
+    ],
+    "MultiHp": [],
+    "positionGroupMonster": [],
+    "randomMonster": [],
+    "numberRandom": 0,
+    "heightRandom": 0,
+    "hpUpgrade": {
+      "serialized_int32": 8000,
+      "decimal": 0.8,
+      "fp_raw": 52428,
+      "runtime_value": 0.79998779296875
+    },
+    "attackUp": {
+      "serialized_int32": 13000,
+      "decimal": 1.3,
+      "fp_raw": 85196,
+      "runtime_value": 1.29998779296875
+    },
+    "addExpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "HPPickUpAddPercent": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "RandomNpc": 0,
+    "MonsterFlushConfigId": [],
+    "refreshCount": 0,
+    "missionTypeParam": "",
+    "missionPool": []
+  },
+  {
+    "id": 1002069,
+    "wave": 4,
+    "time": {
+      "serialized_int32": 3150000,
+      "decimal": 315.0,
+      "fp_raw": 20643840,
+      "runtime_value": 315.0
+    },
+    "delayTime": {
+      "serialized_int32": 20000,
+      "decimal": 2.0,
+      "fp_raw": 131072,
+      "runtime_value": 2.0
+    },
+    "missinType": 0,
+    "interval": [],
+    "pathMonster": [],
+    "positionMonster": 1003030,
+    "Monster": [
+      320017
+    ],
+    "MultiHp": [],
+    "positionGroupMonster": [],
+    "randomMonster": [],
+    "numberRandom": 0,
+    "heightRandom": 0,
+    "hpUpgrade": {
+      "serialized_int32": 8000,
+      "decimal": 0.8,
+      "fp_raw": 52428,
+      "runtime_value": 0.79998779296875
+    },
+    "attackUp": {
+      "serialized_int32": 13000,
+      "decimal": 1.3,
+      "fp_raw": 85196,
+      "runtime_value": 1.29998779296875
+    },
+    "addExpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "HPPickUpAddPercent": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "RandomNpc": 0,
+    "MonsterFlushConfigId": [],
+    "refreshCount": 0,
+    "missionTypeParam": "",
+    "missionPool": []
+  },
+  {
+    "id": 1002070,
+    "wave": 4,
+    "time": {
+      "serialized_int32": 3150000,
+      "decimal": 315.0,
+      "fp_raw": 20643840,
+      "runtime_value": 315.0
+    },
+    "delayTime": {
+      "serialized_int32": 40000,
+      "decimal": 4.0,
+      "fp_raw": 262144,
+      "runtime_value": 4.0
+    },
+    "missinType": 0,
+    "interval": [],
+    "pathMonster": [],
+    "positionMonster": 1003014,
+    "Monster": [
+      320019
+    ],
+    "MultiHp": [],
+    "positionGroupMonster": [],
+    "randomMonster": [],
+    "numberRandom": 0,
+    "heightRandom": 0,
+    "hpUpgrade": {
+      "serialized_int32": 8000,
+      "decimal": 0.8,
+      "fp_raw": 52428,
+      "runtime_value": 0.79998779296875
+    },
+    "attackUp": {
+      "serialized_int32": 13000,
+      "decimal": 1.3,
+      "fp_raw": 85196,
+      "runtime_value": 1.29998779296875
+    },
+    "addExpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "HPPickUpAddPercent": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "RandomNpc": 0,
+    "MonsterFlushConfigId": [],
+    "refreshCount": 0,
+    "missionTypeParam": "",
+    "missionPool": []
+  },
+  {
+    "id": 1002071,
+    "wave": 4,
+    "time": {
+      "serialized_int32": 3150000,
+      "decimal": 315.0,
+      "fp_raw": 20643840,
+      "runtime_value": 315.0
+    },
+    "delayTime": {
+      "serialized_int32": 60000,
+      "decimal": 6.0,
+      "fp_raw": 393216,
+      "runtime_value": 6.0
+    },
+    "missinType": 0,
+    "interval": [],
+    "pathMonster": [],
+    "positionMonster": 1003030,
+    "Monster": [
+      320017
+    ],
+    "MultiHp": [],
+    "positionGroupMonster": [],
+    "randomMonster": [],
+    "numberRandom": 0,
+    "heightRandom": 0,
+    "hpUpgrade": {
+      "serialized_int32": 8000,
+      "decimal": 0.8,
+      "fp_raw": 52428,
+      "runtime_value": 0.79998779296875
+    },
+    "attackUp": {
+      "serialized_int32": 13000,
+      "decimal": 1.3,
+      "fp_raw": 85196,
+      "runtime_value": 1.29998779296875
+    },
+    "addExpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "HPPickUpAddPercent": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "RandomNpc": 0,
+    "MonsterFlushConfigId": [],
+    "refreshCount": 0,
+    "missionTypeParam": "",
+    "missionPool": []
+  },
+  {
+    "id": 1002072,
+    "wave": 4,
+    "time": {
+      "serialized_int32": 3300000,
+      "decimal": 330.0,
+      "fp_raw": 21626880,
+      "runtime_value": 330.0
+    },
+    "delayTime": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "missinType": 0,
+    "interval": [
+      {
+        "serialized_int32": 50000,
+        "decimal": 5.0,
+        "fp_raw": 327680,
+        "runtime_value": 5.0
+      },
+      {
+        "serialized_int32": 3000,
+        "decimal": 0.3,
+        "fp_raw": 19660,
+        "runtime_value": 0.29998779296875
+      }
+    ],
+    "pathMonster": [],
+    "positionMonster": 1001043,
+    "Monster": [
+      330006
+    ],
+    "MultiHp": [],
+    "positionGroupMonster": [],
+    "randomMonster": [],
+    "numberRandom": 0,
+    "heightRandom": 0,
+    "hpUpgrade": {
+      "serialized_int32": 8000,
+      "decimal": 0.8,
+      "fp_raw": 52428,
+      "runtime_value": 0.79998779296875
+    },
+    "attackUp": {
+      "serialized_int32": 13000,
+      "decimal": 1.3,
+      "fp_raw": 85196,
+      "runtime_value": 1.29998779296875
+    },
+    "addExpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "HPPickUpAddPercent": {
+      "serialized_int32": 4000,
+      "decimal": 0.4,
+      "fp_raw": 26214,
+      "runtime_value": 0.399993896484375
+    },
+    "RandomNpc": 0,
+    "MonsterFlushConfigId": [],
+    "refreshCount": 0,
+    "missionTypeParam": "",
+    "missionPool": []
+  },
+  {
+    "id": 1002073,
+    "wave": 4,
+    "time": {
+      "serialized_int32": 3300000,
+      "decimal": 330.0,
+      "fp_raw": 21626880,
+      "runtime_value": 330.0
+    },
+    "delayTime": {
+      "serialized_int32": 20000,
+      "decimal": 2.0,
+      "fp_raw": 131072,
+      "runtime_value": 2.0
+    },
+    "missinType": 0,
+    "interval": [
+      {
+        "serialized_int32": 50000,
+        "decimal": 5.0,
+        "fp_raw": 327680,
+        "runtime_value": 5.0
+      },
+      {
+        "serialized_int32": 3000,
+        "decimal": 0.3,
+        "fp_raw": 19660,
+        "runtime_value": 0.29998779296875
+      }
+    ],
+    "pathMonster": [],
+    "positionMonster": 1001043,
+    "Monster": [
+      330006
+    ],
+    "MultiHp": [],
+    "positionGroupMonster": [],
+    "randomMonster": [],
+    "numberRandom": 0,
+    "heightRandom": 0,
+    "hpUpgrade": {
+      "serialized_int32": 8000,
+      "decimal": 0.8,
+      "fp_raw": 52428,
+      "runtime_value": 0.79998779296875
+    },
+    "attackUp": {
+      "serialized_int32": 13000,
+      "decimal": 1.3,
+      "fp_raw": 85196,
+      "runtime_value": 1.29998779296875
+    },
+    "addExpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "HPPickUpAddPercent": {
+      "serialized_int32": 4000,
+      "decimal": 0.4,
+      "fp_raw": 26214,
+      "runtime_value": 0.399993896484375
+    },
+    "RandomNpc": 0,
+    "MonsterFlushConfigId": [],
+    "refreshCount": 0,
+    "missionTypeParam": "",
+    "missionPool": []
+  },
+  {
+    "id": 1002074,
+    "wave": 4,
+    "time": {
+      "serialized_int32": 3300000,
+      "decimal": 330.0,
+      "fp_raw": 21626880,
+      "runtime_value": 330.0
+    },
+    "delayTime": {
+      "serialized_int32": 40000,
+      "decimal": 4.0,
+      "fp_raw": 262144,
+      "runtime_value": 4.0
+    },
+    "missinType": 0,
+    "interval": [
+      {
+        "serialized_int32": 50000,
+        "decimal": 5.0,
+        "fp_raw": 327680,
+        "runtime_value": 5.0
+      },
+      {
+        "serialized_int32": 3000,
+        "decimal": 0.3,
+        "fp_raw": 19660,
+        "runtime_value": 0.29998779296875
+      }
+    ],
+    "pathMonster": [],
+    "positionMonster": 1001043,
+    "Monster": [
+      330006
+    ],
+    "MultiHp": [],
+    "positionGroupMonster": [],
+    "randomMonster": [],
+    "numberRandom": 0,
+    "heightRandom": 0,
+    "hpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "attackUp": {
+      "serialized_int32": 13000,
+      "decimal": 1.3,
+      "fp_raw": 85196,
+      "runtime_value": 1.29998779296875
+    },
+    "addExpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "HPPickUpAddPercent": {
+      "serialized_int32": 4000,
+      "decimal": 0.4,
+      "fp_raw": 26214,
+      "runtime_value": 0.399993896484375
+    },
+    "RandomNpc": 0,
+    "MonsterFlushConfigId": [],
+    "refreshCount": 0,
+    "missionTypeParam": "",
+    "missionPool": []
+  },
+  {
+    "id": 1002075,
+    "wave": 5,
+    "time": {
+      "serialized_int32": 3470000,
+      "decimal": 347.0,
+      "fp_raw": 22740992,
+      "runtime_value": 347.0
+    },
+    "delayTime": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "missinType": 10,
+    "interval": [],
+    "pathMonster": [],
+    "positionMonster": 0,
+    "Monster": [],
+    "MultiHp": [],
+    "positionGroupMonster": [],
+    "randomMonster": [],
+    "numberRandom": 0,
+    "heightRandom": 0,
+    "hpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "attackUp": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "addExpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "HPPickUpAddPercent": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "RandomNpc": 0,
+    "MonsterFlushConfigId": [],
+    "refreshCount": 0,
+    "missionTypeParam": "",
+    "missionPool": []
+  },
+  {
+    "id": 1002076,
+    "wave": 5,
+    "time": {
+      "serialized_int32": 3470000,
+      "decimal": 347.0,
+      "fp_raw": 22740992,
+      "runtime_value": 347.0
+    },
+    "delayTime": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "missinType": 2,
+    "interval": [],
+    "pathMonster": [],
+    "positionMonster": 1002002,
+    "Monster": [
+      340002
+    ],
+    "MultiHp": [],
+    "positionGroupMonster": [],
+    "randomMonster": [],
+    "numberRandom": 0,
+    "heightRandom": 0,
+    "hpUpgrade": {
+      "serialized_int32": 15000,
+      "decimal": 1.5,
+      "fp_raw": 98304,
+      "runtime_value": 1.5
+    },
+    "attackUp": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "addExpUpgrade": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "HPPickUpAddPercent": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "RandomNpc": 0,
+    "MonsterFlushConfigId": [],
+    "refreshCount": 0,
+    "missionTypeParam": "",
+    "missionPool": []
+  }
+]

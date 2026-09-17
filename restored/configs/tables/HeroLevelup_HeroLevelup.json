@@ -1,0 +1,1202 @@
+[
+  {
+    "ID": 1,
+    "titleName": 13001,
+    "levelUpCost": [
+      "1,200"
+    ],
+    "gradeUpCost": [],
+    "levelUpRewards": [
+      "HPMax=50",
+      "Attack=5"
+    ]
+  },
+  {
+    "ID": 2,
+    "titleName": 13001,
+    "levelUpCost": [
+      "1,200"
+    ],
+    "gradeUpCost": [],
+    "levelUpRewards": [
+      "HPMax=50",
+      "Attack=5"
+    ]
+  },
+  {
+    "ID": 3,
+    "titleName": 13001,
+    "levelUpCost": [
+      "1,200"
+    ],
+    "gradeUpCost": [],
+    "levelUpRewards": [
+      "HPMax=50",
+      "Attack=5"
+    ]
+  },
+  {
+    "ID": 4,
+    "titleName": 13001,
+    "levelUpCost": [
+      "1,200"
+    ],
+    "gradeUpCost": [],
+    "levelUpRewards": [
+      "HPMax=50",
+      "Attack=5"
+    ]
+  },
+  {
+    "ID": 5,
+    "titleName": 13001,
+    "levelUpCost": [
+      "1,200"
+    ],
+    "gradeUpCost": [],
+    "levelUpRewards": [
+      "HPMax=50",
+      "Attack=5"
+    ]
+  },
+  {
+    "ID": 6,
+    "titleName": 13001,
+    "levelUpCost": [
+      "1,200"
+    ],
+    "gradeUpCost": [],
+    "levelUpRewards": [
+      "HPMax=50",
+      "Attack=5"
+    ]
+  },
+  {
+    "ID": 7,
+    "titleName": 13001,
+    "levelUpCost": [
+      "1,200"
+    ],
+    "gradeUpCost": [],
+    "levelUpRewards": [
+      "HPMax=50",
+      "Attack=5"
+    ]
+  },
+  {
+    "ID": 8,
+    "titleName": 13001,
+    "levelUpCost": [
+      "1,200"
+    ],
+    "gradeUpCost": [],
+    "levelUpRewards": [
+      "HPMax=50",
+      "Attack=5"
+    ]
+  },
+  {
+    "ID": 9,
+    "titleName": 13001,
+    "levelUpCost": [
+      "1,200"
+    ],
+    "gradeUpCost": [],
+    "levelUpRewards": [
+      "HPMax=50",
+      "Attack=5"
+    ]
+  },
+  {
+    "ID": 10,
+    "titleName": 13001,
+    "levelUpCost": [],
+    "gradeUpCost": [
+      "2,20"
+    ],
+    "levelUpRewards": [
+      "HPMax=500",
+      "Attack=50"
+    ]
+  },
+  {
+    "ID": 11,
+    "titleName": 13002,
+    "levelUpCost": [
+      "1,200"
+    ],
+    "gradeUpCost": [],
+    "levelUpRewards": [
+      "HPMax=50",
+      "Attack=5"
+    ]
+  },
+  {
+    "ID": 12,
+    "titleName": 13002,
+    "levelUpCost": [
+      "1,200"
+    ],
+    "gradeUpCost": [],
+    "levelUpRewards": [
+      "HPMax=50",
+      "Attack=5"
+    ]
+  },
+  {
+    "ID": 13,
+    "titleName": 13002,
+    "levelUpCost": [
+      "1,200"
+    ],
+    "gradeUpCost": [],
+    "levelUpRewards": [
+      "HPMax=50",
+      "Attack=5"
+    ]
+  },
+  {
+    "ID": 14,
+    "titleName": 13002,
+    "levelUpCost": [
+      "1,200"
+    ],
+    "gradeUpCost": [],
+    "levelUpRewards": [
+      "HPMax=50",
+      "Attack=5"
+    ]
+  },
+  {
+    "ID": 15,
+    "titleName": 13002,
+    "levelUpCost": [
+      "1,200"
+    ],
+    "gradeUpCost": [],
+    "levelUpRewards": [
+      "HPMax=50",
+      "Attack=5"
+    ]
+  },
+  {
+    "ID": 16,
+    "titleName": 13002,
+    "levelUpCost": [
+      "1,200"
+    ],
+    "gradeUpCost": [],
+    "levelUpRewards": [
+      "HPMax=50",
+      "Attack=5"
+    ]
+  },
+  {
+    "ID": 17,
+    "titleName": 13002,
+    "levelUpCost": [
+      "1,200"
+    ],
+    "gradeUpCost": [],
+    "levelUpRewards": [
+      "HPMax=50",
+      "Attack=5"
+    ]
+  },
+  {
+    "ID": 18,
+    "titleName": 13002,
+    "levelUpCost": [
+      "1,200"
+    ],
+    "gradeUpCost": [],
+    "levelUpRewards": [
+      "HPMax=50",
+      "Attack=5"
+    ]
+  },
+  {
+    "ID": 19,
+    "titleName": 13002,
+    "levelUpCost": [
+      "1,200"
+    ],
+    "gradeUpCost": [],
+    "levelUpRewards": [
+      "HPMax=50",
+      "Attack=5"
+    ]
+  },
+  {
+    "ID": 20,
+    "titleName": 13002,
+    "levelUpCost": [],
+    "gradeUpCost": [
+      "2,20"
+    ],
+    "levelUpRewards": [
+      "HPMax=500",
+      "Attack=50"
+    ]
+  },
+  {
+    "ID": 21,
+    "titleName": 13003,
+    "levelUpCost": [
+      "1,200"
+    ],
+    "gradeUpCost": [],
+    "levelUpRewards": [
+      "HPMax=50",
+      "Attack=5"
+    ]
+  },
+  {
+    "ID": 22,
+    "titleName": 13003,
+    "levelUpCost": [
+      "1,200"
+    ],
+    "gradeUpCost": [],
+    "levelUpRewards": [
+      "HPMax=50",
+      "Attack=5"
+    ]
+  },
+  {
+    "ID": 23,
+    "titleName": 13003,
+    "levelUpCost": [
+      "1,200"
+    ],
+    "gradeUpCost": [],
+    "levelUpRewards": [
+      "HPMax=50",
+      "Attack=5"
+    ]
+  },
+  {
+    "ID": 24,
+    "titleName": 13003,
+    "levelUpCost": [
+      "1,200"
+    ],
+    "gradeUpCost": [],
+    "levelUpRewards": [
+      "HPMax=50",
+      "Attack=5"
+    ]
+  },
+  {
+    "ID": 25,
+    "titleName": 13003,
+    "levelUpCost": [
+      "1,200"
+    ],
+    "gradeUpCost": [],
+    "levelUpRewards": [
+      "HPMax=50",
+      "Attack=5"
+    ]
+  },
+  {
+    "ID": 26,
+    "titleName": 13003,
+    "levelUpCost": [
+      "1,200"
+    ],
+    "gradeUpCost": [],
+    "levelUpRewards": [
+      "HPMax=50",
+      "Attack=5"
+    ]
+  },
+  {
+    "ID": 27,
+    "titleName": 13003,
+    "levelUpCost": [
+      "1,200"
+    ],
+    "gradeUpCost": [],
+    "levelUpRewards": [
+      "HPMax=50",
+      "Attack=5"
+    ]
+  },
+  {
+    "ID": 28,
+    "titleName": 13003,
+    "levelUpCost": [
+      "1,200"
+    ],
+    "gradeUpCost": [],
+    "levelUpRewards": [
+      "HPMax=50",
+      "Attack=5"
+    ]
+  },
+  {
+    "ID": 29,
+    "titleName": 13003,
+    "levelUpCost": [
+      "1,200"
+    ],
+    "gradeUpCost": [],
+    "levelUpRewards": [
+      "HPMax=50",
+      "Attack=5"
+    ]
+  },
+  {
+    "ID": 30,
+    "titleName": 13003,
+    "levelUpCost": [],
+    "gradeUpCost": [
+      "2,20"
+    ],
+    "levelUpRewards": [
+      "HPMax=500",
+      "Attack=50"
+    ]
+  },
+  {
+    "ID": 31,
+    "titleName": 13004,
+    "levelUpCost": [
+      "1,200"
+    ],
+    "gradeUpCost": [],
+    "levelUpRewards": [
+      "HPMax=50",
+      "Attack=5"
+    ]
+  },
+  {
+    "ID": 32,
+    "titleName": 13004,
+    "levelUpCost": [
+      "1,200"
+    ],
+    "gradeUpCost": [],
+    "levelUpRewards": [
+      "HPMax=50",
+      "Attack=5"
+    ]
+  },
+  {
+    "ID": 33,
+    "titleName": 13004,
+    "levelUpCost": [
+      "1,200"
+    ],
+    "gradeUpCost": [],
+    "levelUpRewards": [
+      "HPMax=50",
+      "Attack=5"
+    ]
+  },
+  {
+    "ID": 34,
+    "titleName": 13004,
+    "levelUpCost": [
+      "1,200"
+    ],
+    "gradeUpCost": [],
+    "levelUpRewards": [
+      "HPMax=50",
+      "Attack=5"
+    ]
+  },
+  {
+    "ID": 35,
+    "titleName": 13004,
+    "levelUpCost": [
+      "1,200"
+    ],
+    "gradeUpCost": [],
+    "levelUpRewards": [
+      "HPMax=50",
+      "Attack=5"
+    ]
+  },
+  {
+    "ID": 36,
+    "titleName": 13004,
+    "levelUpCost": [
+      "1,200"
+    ],
+    "gradeUpCost": [],
+    "levelUpRewards": [
+      "HPMax=50",
+      "Attack=5"
+    ]
+  },
+  {
+    "ID": 37,
+    "titleName": 13004,
+    "levelUpCost": [
+      "1,200"
+    ],
+    "gradeUpCost": [],
+    "levelUpRewards": [
+      "HPMax=50",
+      "Attack=5"
+    ]
+  },
+  {
+    "ID": 38,
+    "titleName": 13004,
+    "levelUpCost": [
+      "1,200"
+    ],
+    "gradeUpCost": [],
+    "levelUpRewards": [
+      "HPMax=50",
+      "Attack=5"
+    ]
+  },
+  {
+    "ID": 39,
+    "titleName": 13004,
+    "levelUpCost": [
+      "1,200"
+    ],
+    "gradeUpCost": [],
+    "levelUpRewards": [
+      "HPMax=50",
+      "Attack=5"
+    ]
+  },
+  {
+    "ID": 40,
+    "titleName": 13004,
+    "levelUpCost": [],
+    "gradeUpCost": [
+      "2,20"
+    ],
+    "levelUpRewards": [
+      "HPMax=500",
+      "Attack=50"
+    ]
+  },
+  {
+    "ID": 41,
+    "titleName": 13005,
+    "levelUpCost": [
+      "1,200"
+    ],
+    "gradeUpCost": [],
+    "levelUpRewards": [
+      "HPMax=50",
+      "Attack=5"
+    ]
+  },
+  {
+    "ID": 42,
+    "titleName": 13005,
+    "levelUpCost": [
+      "1,200"
+    ],
+    "gradeUpCost": [],
+    "levelUpRewards": [
+      "HPMax=50",
+      "Attack=5"
+    ]
+  },
+  {
+    "ID": 43,
+    "titleName": 13005,
+    "levelUpCost": [
+      "1,200"
+    ],
+    "gradeUpCost": [],
+    "levelUpRewards": [
+      "HPMax=50",
+      "Attack=5"
+    ]
+  },
+  {
+    "ID": 44,
+    "titleName": 13005,
+    "levelUpCost": [
+      "1,200"
+    ],
+    "gradeUpCost": [],
+    "levelUpRewards": [
+      "HPMax=50",
+      "Attack=5"
+    ]
+  },
+  {
+    "ID": 45,
+    "titleName": 13005,
+    "levelUpCost": [
+      "1,200"
+    ],
+    "gradeUpCost": [],
+    "levelUpRewards": [
+      "HPMax=50",
+      "Attack=5"
+    ]
+  },
+  {
+    "ID": 46,
+    "titleName": 13005,
+    "levelUpCost": [
+      "1,200"
+    ],
+    "gradeUpCost": [],
+    "levelUpRewards": [
+      "HPMax=50",
+      "Attack=5"
+    ]
+  },
+  {
+    "ID": 47,
+    "titleName": 13005,
+    "levelUpCost": [
+      "1,200"
+    ],
+    "gradeUpCost": [],
+    "levelUpRewards": [
+      "HPMax=50",
+      "Attack=5"
+    ]
+  },
+  {
+    "ID": 48,
+    "titleName": 13005,
+    "levelUpCost": [
+      "1,200"
+    ],
+    "gradeUpCost": [],
+    "levelUpRewards": [
+      "HPMax=50",
+      "Attack=5"
+    ]
+  },
+  {
+    "ID": 49,
+    "titleName": 13005,
+    "levelUpCost": [
+      "1,200"
+    ],
+    "gradeUpCost": [],
+    "levelUpRewards": [
+      "HPMax=50",
+      "Attack=5"
+    ]
+  },
+  {
+    "ID": 50,
+    "titleName": 13005,
+    "levelUpCost": [],
+    "gradeUpCost": [
+      "2,20"
+    ],
+    "levelUpRewards": [
+      "HPMax=500",
+      "Attack=50"
+    ]
+  },
+  {
+    "ID": 51,
+    "titleName": 13006,
+    "levelUpCost": [
+      "1,200"
+    ],
+    "gradeUpCost": [],
+    "levelUpRewards": [
+      "HPMax=50",
+      "Attack=5"
+    ]
+  },
+  {
+    "ID": 52,
+    "titleName": 13006,
+    "levelUpCost": [
+      "1,200"
+    ],
+    "gradeUpCost": [],
+    "levelUpRewards": [
+      "HPMax=50",
+      "Attack=5"
+    ]
+  },
+  {
+    "ID": 53,
+    "titleName": 13006,
+    "levelUpCost": [
+      "1,200"
+    ],
+    "gradeUpCost": [],
+    "levelUpRewards": [
+      "HPMax=50",
+      "Attack=5"
+    ]
+  },
+  {
+    "ID": 54,
+    "titleName": 13006,
+    "levelUpCost": [
+      "1,200"
+    ],
+    "gradeUpCost": [],
+    "levelUpRewards": [
+      "HPMax=50",
+      "Attack=5"
+    ]
+  },
+  {
+    "ID": 55,
+    "titleName": 13006,
+    "levelUpCost": [
+      "1,200"
+    ],
+    "gradeUpCost": [],
+    "levelUpRewards": [
+      "HPMax=50",
+      "Attack=5"
+    ]
+  },
+  {
+    "ID": 56,
+    "titleName": 13006,
+    "levelUpCost": [
+      "1,200"
+    ],
+    "gradeUpCost": [],
+    "levelUpRewards": [
+      "HPMax=50",
+      "Attack=5"
+    ]
+  },
+  {
+    "ID": 57,
+    "titleName": 13006,
+    "levelUpCost": [
+      "1,200"
+    ],
+    "gradeUpCost": [],
+    "levelUpRewards": [
+      "HPMax=50",
+      "Attack=5"
+    ]
+  },
+  {
+    "ID": 58,
+    "titleName": 13006,
+    "levelUpCost": [
+      "1,200"
+    ],
+    "gradeUpCost": [],
+    "levelUpRewards": [
+      "HPMax=50",
+      "Attack=5"
+    ]
+  },
+  {
+    "ID": 59,
+    "titleName": 13006,
+    "levelUpCost": [
+      "1,200"
+    ],
+    "gradeUpCost": [],
+    "levelUpRewards": [
+      "HPMax=50",
+      "Attack=5"
+    ]
+  },
+  {
+    "ID": 60,
+    "titleName": 13006,
+    "levelUpCost": [],
+    "gradeUpCost": [
+      "2,20"
+    ],
+    "levelUpRewards": [
+      "HPMax=500",
+      "Attack=50"
+    ]
+  },
+  {
+    "ID": 61,
+    "titleName": 13007,
+    "levelUpCost": [
+      "1,200"
+    ],
+    "gradeUpCost": [],
+    "levelUpRewards": [
+      "HPMax=50",
+      "Attack=5"
+    ]
+  },
+  {
+    "ID": 62,
+    "titleName": 13007,
+    "levelUpCost": [
+      "1,200"
+    ],
+    "gradeUpCost": [],
+    "levelUpRewards": [
+      "HPMax=50",
+      "Attack=5"
+    ]
+  },
+  {
+    "ID": 63,
+    "titleName": 13007,
+    "levelUpCost": [
+      "1,200"
+    ],
+    "gradeUpCost": [],
+    "levelUpRewards": [
+      "HPMax=50",
+      "Attack=5"
+    ]
+  },
+  {
+    "ID": 64,
+    "titleName": 13007,
+    "levelUpCost": [
+      "1,200"
+    ],
+    "gradeUpCost": [],
+    "levelUpRewards": [
+      "HPMax=50",
+      "Attack=5"
+    ]
+  },
+  {
+    "ID": 65,
+    "titleName": 13007,
+    "levelUpCost": [
+      "1,200"
+    ],
+    "gradeUpCost": [],
+    "levelUpRewards": [
+      "HPMax=50",
+      "Attack=5"
+    ]
+  },
+  {
+    "ID": 66,
+    "titleName": 13007,
+    "levelUpCost": [
+      "1,200"
+    ],
+    "gradeUpCost": [],
+    "levelUpRewards": [
+      "HPMax=50",
+      "Attack=5"
+    ]
+  },
+  {
+    "ID": 67,
+    "titleName": 13007,
+    "levelUpCost": [
+      "1,200"
+    ],
+    "gradeUpCost": [],
+    "levelUpRewards": [
+      "HPMax=50",
+      "Attack=5"
+    ]
+  },
+  {
+    "ID": 68,
+    "titleName": 13007,
+    "levelUpCost": [
+      "1,200"
+    ],
+    "gradeUpCost": [],
+    "levelUpRewards": [
+      "HPMax=50",
+      "Attack=5"
+    ]
+  },
+  {
+    "ID": 69,
+    "titleName": 13007,
+    "levelUpCost": [
+      "1,200"
+    ],
+    "gradeUpCost": [],
+    "levelUpRewards": [
+      "HPMax=50",
+      "Attack=5"
+    ]
+  },
+  {
+    "ID": 70,
+    "titleName": 13007,
+    "levelUpCost": [],
+    "gradeUpCost": [
+      "2,20"
+    ],
+    "levelUpRewards": [
+      "HPMax=500",
+      "Attack=50"
+    ]
+  },
+  {
+    "ID": 71,
+    "titleName": 13008,
+    "levelUpCost": [
+      "1,200"
+    ],
+    "gradeUpCost": [],
+    "levelUpRewards": [
+      "HPMax=50",
+      "Attack=5"
+    ]
+  },
+  {
+    "ID": 72,
+    "titleName": 13008,
+    "levelUpCost": [
+      "1,200"
+    ],
+    "gradeUpCost": [],
+    "levelUpRewards": [
+      "HPMax=50",
+      "Attack=5"
+    ]
+  },
+  {
+    "ID": 73,
+    "titleName": 13008,
+    "levelUpCost": [
+      "1,200"
+    ],
+    "gradeUpCost": [],
+    "levelUpRewards": [
+      "HPMax=50",
+      "Attack=5"
+    ]
+  },
+  {
+    "ID": 74,
+    "titleName": 13008,
+    "levelUpCost": [
+      "1,200"
+    ],
+    "gradeUpCost": [],
+    "levelUpRewards": [
+      "HPMax=50",
+      "Attack=5"
+    ]
+  },
+  {
+    "ID": 75,
+    "titleName": 13008,
+    "levelUpCost": [
+      "1,200"
+    ],
+    "gradeUpCost": [],
+    "levelUpRewards": [
+      "HPMax=50",
+      "Attack=5"
+    ]
+  },
+  {
+    "ID": 76,
+    "titleName": 13008,
+    "levelUpCost": [
+      "1,200"
+    ],
+    "gradeUpCost": [],
+    "levelUpRewards": [
+      "HPMax=50",
+      "Attack=5"
+    ]
+  },
+  {
+    "ID": 77,
+    "titleName": 13008,
+    "levelUpCost": [
+      "1,200"
+    ],
+    "gradeUpCost": [],
+    "levelUpRewards": [
+      "HPMax=50",
+      "Attack=5"
+    ]
+  },
+  {
+    "ID": 78,
+    "titleName": 13008,
+    "levelUpCost": [
+      "1,200"
+    ],
+    "gradeUpCost": [],
+    "levelUpRewards": [
+      "HPMax=50",
+      "Attack=5"
+    ]
+  },
+  {
+    "ID": 79,
+    "titleName": 13008,
+    "levelUpCost": [
+      "1,200"
+    ],
+    "gradeUpCost": [],
+    "levelUpRewards": [
+      "HPMax=50",
+      "Attack=5"
+    ]
+  },
+  {
+    "ID": 80,
+    "titleName": 13008,
+    "levelUpCost": [],
+    "gradeUpCost": [
+      "2,20"
+    ],
+    "levelUpRewards": [
+      "HPMax=500",
+      "Attack=50"
+    ]
+  },
+  {
+    "ID": 81,
+    "titleName": 13009,
+    "levelUpCost": [
+      "1,200"
+    ],
+    "gradeUpCost": [],
+    "levelUpRewards": [
+      "HPMax=50",
+      "Attack=5"
+    ]
+  },
+  {
+    "ID": 82,
+    "titleName": 13009,
+    "levelUpCost": [
+      "1,200"
+    ],
+    "gradeUpCost": [],
+    "levelUpRewards": [
+      "HPMax=50",
+      "Attack=5"
+    ]
+  },
+  {
+    "ID": 83,
+    "titleName": 13009,
+    "levelUpCost": [
+      "1,200"
+    ],
+    "gradeUpCost": [],
+    "levelUpRewards": [
+      "HPMax=50",
+      "Attack=5"
+    ]
+  },
+  {
+    "ID": 84,
+    "titleName": 13009,
+    "levelUpCost": [
+      "1,200"
+    ],
+    "gradeUpCost": [],
+    "levelUpRewards": [
+      "HPMax=50",
+      "Attack=5"
+    ]
+  },
+  {
+    "ID": 85,
+    "titleName": 13009,
+    "levelUpCost": [
+      "1,200"
+    ],
+    "gradeUpCost": [],
+    "levelUpRewards": [
+      "HPMax=50",
+      "Attack=5"
+    ]
+  },
+  {
+    "ID": 86,
+    "titleName": 13009,
+    "levelUpCost": [
+      "1,200"
+    ],
+    "gradeUpCost": [],
+    "levelUpRewards": [
+      "HPMax=50",
+      "Attack=5"
+    ]
+  },
+  {
+    "ID": 87,
+    "titleName": 13009,
+    "levelUpCost": [
+      "1,200"
+    ],
+    "gradeUpCost": [],
+    "levelUpRewards": [
+      "HPMax=50",
+      "Attack=5"
+    ]
+  },
+  {
+    "ID": 88,
+    "titleName": 13009,
+    "levelUpCost": [
+      "1,200"
+    ],
+    "gradeUpCost": [],
+    "levelUpRewards": [
+      "HPMax=50",
+      "Attack=5"
+    ]
+  },
+  {
+    "ID": 89,
+    "titleName": 13009,
+    "levelUpCost": [
+      "1,200"
+    ],
+    "gradeUpCost": [],
+    "levelUpRewards": [
+      "HPMax=50",
+      "Attack=5"
+    ]
+  },
+  {
+    "ID": 90,
+    "titleName": 13009,
+    "levelUpCost": [],
+    "gradeUpCost": [
+      "2,20"
+    ],
+    "levelUpRewards": [
+      "HPMax=500",
+      "Attack=50"
+    ]
+  },
+  {
+    "ID": 91,
+    "titleName": 13010,
+    "levelUpCost": [
+      "1,200"
+    ],
+    "gradeUpCost": [],
+    "levelUpRewards": [
+      "HPMax=50",
+      "Attack=5"
+    ]
+  },
+  {
+    "ID": 92,
+    "titleName": 13010,
+    "levelUpCost": [
+      "1,200"
+    ],
+    "gradeUpCost": [],
+    "levelUpRewards": [
+      "HPMax=50",
+      "Attack=5"
+    ]
+  },
+  {
+    "ID": 93,
+    "titleName": 13010,
+    "levelUpCost": [
+      "1,200"
+    ],
+    "gradeUpCost": [],
+    "levelUpRewards": [
+      "HPMax=50",
+      "Attack=5"
+    ]
+  },
+  {
+    "ID": 94,
+    "titleName": 13010,
+    "levelUpCost": [
+      "1,200"
+    ],
+    "gradeUpCost": [],
+    "levelUpRewards": [
+      "HPMax=50",
+      "Attack=5"
+    ]
+  },
+  {
+    "ID": 95,
+    "titleName": 13010,
+    "levelUpCost": [
+      "1,200"
+    ],
+    "gradeUpCost": [],
+    "levelUpRewards": [
+      "HPMax=50",
+      "Attack=5"
+    ]
+  },
+  {
+    "ID": 96,
+    "titleName": 13010,
+    "levelUpCost": [
+      "1,200"
+    ],
+    "gradeUpCost": [],
+    "levelUpRewards": [
+      "HPMax=50",
+      "Attack=5"
+    ]
+  },
+  {
+    "ID": 97,
+    "titleName": 13010,
+    "levelUpCost": [
+      "1,200"
+    ],
+    "gradeUpCost": [],
+    "levelUpRewards": [
+      "HPMax=50",
+      "Attack=5"
+    ]
+  },
+  {
+    "ID": 98,
+    "titleName": 13010,
+    "levelUpCost": [
+      "1,200"
+    ],
+    "gradeUpCost": [],
+    "levelUpRewards": [
+      "HPMax=50",
+      "Attack=5"
+    ]
+  },
+  {
+    "ID": 99,
+    "titleName": 13010,
+    "levelUpCost": [
+      "1,200"
+    ],
+    "gradeUpCost": [],
+    "levelUpRewards": [
+      "HPMax=50",
+      "Attack=5"
+    ]
+  },
+  {
+    "ID": 100,
+    "titleName": 13010,
+    "levelUpCost": [],
+    "gradeUpCost": [
+      "2,20"
+    ],
+    "levelUpRewards": [
+      "HPMax=500",
+      "Attack=50"
+    ]
+  }
+]

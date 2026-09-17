@@ -1,0 +1,340 @@
+{
+  "skeleton": {
+    "hash": "sEoOBwv92Gg",
+    "spine": "4.1.24",
+    "x": -115.5,
+    "y": -75.77,
+    "width": 231,
+    "height": 231,
+    "images": "",
+    "audio": "E:/\u6253\u98de\u673a/\u98de\u673aspine"
+  },
+  "bones": [
+    {
+      "name": "root"
+    },
+    {
+      "name": "all",
+      "parent": "root",
+      "scaleX": 0.66,
+      "scaleY": 0.66
+    },
+    {
+      "name": "plume1",
+      "parent": "all",
+      "x": 73.95,
+      "y": -26.91
+    },
+    {
+      "name": "plume2",
+      "parent": "all",
+      "x": -74.57,
+      "y": -26.76
+    },
+    {
+      "name": "plume3",
+      "parent": "all",
+      "y": -10.94
+    },
+    {
+      "name": "plane5",
+      "parent": "all",
+      "y": 60.2
+    }
+  ],
+  "slots": [
+    {
+      "name": "plane_model_2_04",
+      "bone": "plane5",
+      "attachment": "plane_model_5_01"
+    }
+  ],
+  "skins": [
+    {
+      "name": "default",
+      "attachments": {
+        "plane_model_2_04": {
+          "plane_model_5_01": {
+            "width": 350,
+            "height": 350
+          },
+          "plane_model_5_02": {
+            "width": 350,
+            "height": 350
+          },
+          "plane_model_5_03": {
+            "width": 350,
+            "height": 350
+          },
+          "plane_model_5_04": {
+            "width": 350,
+            "height": 350
+          }
+        }
+      }
+    }
+  ],
+  "animations": {
+    "left": {
+      "slots": {
+        "plane_model_2_04": {
+          "attachment": [
+            {
+              "name": "plane_model_5_04"
+            }
+          ]
+        }
+      },
+      "bones": {
+        "plane5": {
+          "scale": [
+            {
+              "x": -1
+            }
+          ]
+        },
+        "plume2": {
+          "translate": [
+            {
+              "x": 20.17,
+              "y": -27.79
+            }
+          ]
+        },
+        "plume1": {
+          "translate": [
+            {
+              "x": -3.14,
+              "y": 20.17
+            }
+          ]
+        }
+      }
+    },
+    "left_running": {
+      "slots": {
+        "plane_model_2_04": {
+          "attachment": [
+            {
+              "time": 0.1667,
+              "name": "plane_model_5_02"
+            },
+            {
+              "time": 0.3333,
+              "name": "plane_model_5_03"
+            },
+            {
+              "time": 0.5,
+              "name": "plane_model_5_04"
+            }
+          ]
+        }
+      },
+      "bones": {
+        "plane5": {
+          "scale": [
+            {
+              "x": -1
+            }
+          ]
+        },
+        "plume1": {
+          "translate": [
+            {
+              "curve": "stepped"
+            },
+            {
+              "time": 0.1667,
+              "x": 2.69,
+              "y": 6.28,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.3333,
+              "x": 3.14,
+              "y": 13,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.5,
+              "x": -3.14,
+              "y": 20.17
+            }
+          ]
+        },
+        "plume2": {
+          "translate": [
+            {
+              "curve": "stepped"
+            },
+            {
+              "time": 0.1667,
+              "x": 4.48,
+              "y": -12.1,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.3333,
+              "x": 13.45,
+              "y": -21.07,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.5,
+              "x": 20.17,
+              "y": -27.79
+            }
+          ]
+        },
+        "plume3": {
+          "translate": [
+            {
+              "time": 0.6667
+            }
+          ]
+        }
+      }
+    },
+    "normal": {
+      "slots": {
+        "plane_model_2_04": {
+          "attachment": [
+            {
+              "name": "plane_model_5_01"
+            }
+          ]
+        }
+      }
+    },
+    "right": {
+      "slots": {
+        "plane_model_2_04": {
+          "attachment": [
+            {
+              "name": "plane_model_5_04"
+            }
+          ]
+        }
+      },
+      "bones": {
+        "plume1": {
+          "translate": [
+            {
+              "x": -19.03,
+              "y": -26.17
+            }
+          ]
+        },
+        "plume2": {
+          "translate": [
+            {
+              "x": 5.35,
+              "y": 20.82
+            }
+          ]
+        },
+        "plume3": {
+          "translate": [
+            {
+              "x": -2.69,
+              "y": -1.34
+            }
+          ]
+        }
+      }
+    },
+    "right_running": {
+      "slots": {
+        "plane_model_2_04": {
+          "attachment": [
+            {
+              "time": 0.1667,
+              "name": "plane_model_5_02"
+            },
+            {
+              "time": 0.3333,
+              "name": "plane_model_5_03"
+            },
+            {
+              "time": 0.5,
+              "name": "plane_model_5_04"
+            }
+          ]
+        }
+      },
+      "bones": {
+        "plume1": {
+          "translate": [
+            {
+              "curve": "stepped"
+            },
+            {
+              "time": 0.1667,
+              "x": -2.97,
+              "y": -10.11,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.3333,
+              "x": -11.3,
+              "y": -20.82,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.5,
+              "x": -19.03,
+              "y": -26.17
+            }
+          ]
+        },
+        "plume2": {
+          "translate": [
+            {
+              "curve": "stepped"
+            },
+            {
+              "time": 0.1667,
+              "x": -1.19,
+              "y": 9.52,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.3333,
+              "y": 13.08,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.5,
+              "x": 5.35,
+              "y": 20.82
+            }
+          ]
+        },
+        "plume3": {
+          "translate": [
+            {
+              "time": 0.1667,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.3333,
+              "y": -0.9,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.5,
+              "x": -2.69,
+              "y": -1.34,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.6667,
+              "x": -2.69,
+              "y": -1.34
+            }
+          ]
+        }
+      }
+    }
+  }
+}

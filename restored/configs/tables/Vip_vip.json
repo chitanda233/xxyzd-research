@@ -1,0 +1,145 @@
+[
+  {
+    "id": 1,
+    "Exp": 60,
+    "UnlockReward": [
+      "1,1000"
+    ],
+    "Price": [
+      "2,60"
+    ],
+    "PriceOld": [
+      "2,100"
+    ],
+    "Power1": "1",
+    "Power2": "1",
+    "Power3": "0.05",
+    "Power4": "0.05",
+    "Power5": "0.05",
+    "Power6": "",
+    "Power7": "",
+    "Power8": "",
+    "Power9": "",
+    "Power10": ""
+  },
+  {
+    "id": 2,
+    "Exp": 120,
+    "UnlockReward": [
+      "1,1000",
+      "2,1000"
+    ],
+    "Price": [
+      "2,120"
+    ],
+    "PriceOld": [
+      "2,200"
+    ],
+    "Power1": "1",
+    "Power2": "1",
+    "Power3": "0.1",
+    "Power4": "0.1",
+    "Power5": "0.1",
+    "Power6": "1",
+    "Power7": "",
+    "Power8": "",
+    "Power9": "",
+    "Power10": ""
+  },
+  {
+    "id": 3,
+    "Exp": 240,
+    "UnlockReward": [
+      "1,2000",
+      "2,2000"
+    ],
+    "Price": [
+      "2,180"
+    ],
+    "PriceOld": [
+      "2,300"
+    ],
+    "Power1": "1",
+    "Power2": "2",
+    "Power3": "0.15",
+    "Power4": "0.15",
+    "Power5": "0.15",
+    "Power6": "1",
+    "Power7": "1",
+    "Power8": "",
+    "Power9": "",
+    "Power10": ""
+  },
+  {
+    "id": 4,
+    "Exp": 480,
+    "UnlockReward": [
+      "1,3000",
+      "2,3000"
+    ],
+    "Price": [
+      "2,240"
+    ],
+    "PriceOld": [
+      "2,400"
+    ],
+    "Power1": "1",
+    "Power2": "2",
+    "Power3": "0.2",
+    "Power4": "0.2",
+    "Power5": "0.2",
+    "Power6": "2",
+    "Power7": "1",
+    "Power8": "1",
+    "Power9": "",
+    "Power10": ""
+  },
+  {
+    "id": 5,
+    "Exp": 960,
+    "UnlockReward": [
+      "1,4000",
+      "2,4000"
+    ],
+    "Price": [
+      "2,300"
+    ],
+    "PriceOld": [
+      "2,500"
+    ],
+    "Power1": "1",
+    "Power2": "3",
+    "Power3": "0.25",
+    "Power4": "0.25",
+    "Power5": "0.25",
+    "Power6": "2",
+    "Power7": "2",
+    "Power8": "1",
+    "Power9": "1",
+    "Power10": ""
+  },
+  {
+    "id": 6,
+    "Exp": 1960,
+    "UnlockReward": [
+      "1,4000",
+      "2,5000"
+    ],
+    "Price": [
+      "2,360"
+    ],
+    "PriceOld": [
+      "2,600"
+    ],
+    "Power1": "1",
+    "Power2": "4",
+    "Power3": "0.3",
+    "Power4": "0.3",
+    "Power5": "0.3",
+    "Power6": "3",
+    "Power7": "2",
+    "Power8": "1",
+    "Power9": "1",
+    "Power10": "1"
+  }
+]

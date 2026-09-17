@@ -1,0 +1,80 @@
+{
+  "name": "Task_CelebrateTask",
+  "assembly": "HotFixBattle.dll",
+  "read_impl_rva": "0x6b117c8",
+  "fields": [
+    {
+      "type": "int",
+      "name": "ID",
+      "offset": 32,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "Type",
+      "offset": 36,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "Days",
+      "offset": 40,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "Hours",
+      "offset": 44,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "ScoreID",
+      "offset": 48,
+      "reader": "readInt"
+    },
+    {
+      "type": "int[]",
+      "name": "ScoreBoxReward",
+      "offset": 56,
+      "reader": "readArrayint"
+    },
+    {
+      "type": "string",
+      "name": "unlock",
+      "offset": 64,
+      "reader": "readLocalString"
+    },
+    {
+      "type": "string",
+      "name": "TabNameId",
+      "offset": 72,
+      "reader": "readLocalString"
+    },
+    {
+      "type": "int",
+      "name": "TabIconAtlas",
+      "offset": 80,
+      "reader": "readInt"
+    },
+    {
+      "type": "string",
+      "name": "TabIconName",
+      "offset": 88,
+      "reader": "readLocalString"
+    }
+  ],
+  "native_reader_calls": [
+    "readInt",
+    "readInt",
+    "readInt",
+    "readInt",
+    "readInt",
+    "readArrayint",
+    "readLocalString",
+    "readLocalString",
+    "readInt",
+    "readLocalString"
+  ],
+  "field_count_matches_native_calls": true
+}

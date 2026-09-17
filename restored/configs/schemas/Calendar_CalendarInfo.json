@@ -1,0 +1,115 @@
+{
+  "name": "Calendar_CalendarInfo",
+  "assembly": "HotFixBattle.dll",
+  "read_impl_rva": "0x6891f24",
+  "fields": [
+    {
+      "type": "int",
+      "name": "Id",
+      "offset": 32,
+      "reader": "readInt"
+    },
+    {
+      "type": "string",
+      "name": "Name",
+      "offset": 40,
+      "reader": "readLocalString"
+    },
+    {
+      "type": "int",
+      "name": "Type",
+      "offset": 48,
+      "reader": "readInt"
+    },
+    {
+      "type": "int[]",
+      "name": "GroupIDs",
+      "offset": 56,
+      "reader": "readArrayint"
+    },
+    {
+      "type": "int",
+      "name": "ActvDes",
+      "offset": 64,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "Duration",
+      "offset": 68,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "RankID",
+      "offset": 72,
+      "reader": "readInt"
+    },
+    {
+      "type": "int",
+      "name": "ShopID",
+      "offset": 76,
+      "reader": "readInt"
+    },
+    {
+      "type": "int[]",
+      "name": "FinalRewardID",
+      "offset": 80,
+      "reader": "readArrayint"
+    },
+    {
+      "type": "int",
+      "name": "JumpInterface",
+      "offset": 88,
+      "reader": "readInt"
+    },
+    {
+      "type": "string",
+      "name": "JumpInterfaceName",
+      "offset": 96,
+      "reader": "readLocalString"
+    },
+    {
+      "type": "int[]",
+      "name": "Currency",
+      "offset": 104,
+      "reader": "readArrayint"
+    },
+    {
+      "type": "string",
+      "name": "roundRewardMail",
+      "offset": 112,
+      "reader": "readLocalString"
+    },
+    {
+      "type": "string",
+      "name": "BannerBg",
+      "offset": 120,
+      "reader": "readLocalString"
+    },
+    {
+      "type": "int",
+      "name": "Round",
+      "offset": 128,
+      "reader": "readInt"
+    }
+  ],
+  "native_reader_calls": [
+    "readInt",
+    "readLocalString",
+    "readInt",
+    "readArrayint",
+    "readInt",
+    "readInt",
+    "readInt",
+    "readInt",
+    "readArrayint",
+    "readInt",
+    "readLocalString",
+    "readArrayint",
+    "readLocalString",
+    "readLocalString",
+    "readInt"
+  ],
+  "field_count_matches_native_calls": true
+}
