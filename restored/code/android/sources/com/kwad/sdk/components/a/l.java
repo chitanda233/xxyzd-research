@@ -1,9 +1,0 @@
-package com.kwad.sdk.components.a;
-
-/* JADX INFO: loaded from: classes3.dex */
-public final class l {
-    public static void IQ() {
-        com.kwad.components.ad.g.b bVar = new com.kwad.components.ad.g.b();
-        com.kwad.sdk.components.d.a(bVar.getComponentsType(), bVar);
-    }
-}

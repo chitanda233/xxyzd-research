@@ -1,9 +1,0 @@
-package com.cmic.gen.sdk.auth;
-
-import org.json.JSONObject;
-
-/* JADX INFO: compiled from: AuthnCallback.java */
-/* JADX INFO: loaded from: classes2.dex */
-public interface b {
-    void a(String str, String str2, com.cmic.gen.sdk.a aVar, JSONObject jSONObject);
-}

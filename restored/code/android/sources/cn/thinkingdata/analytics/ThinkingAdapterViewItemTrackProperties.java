@@ -1,8 +1,0 @@
-package cn.thinkingdata.analytics;
-
-import org.json.JSONObject;
-
-/* JADX INFO: loaded from: classes.dex */
-public interface ThinkingAdapterViewItemTrackProperties {
-    JSONObject getThinkingItemTrackProperties(int i);
-}

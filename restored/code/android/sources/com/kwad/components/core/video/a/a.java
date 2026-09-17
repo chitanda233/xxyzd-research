@@ -1,8 +1,0 @@
-package com.kwad.components.core.video.a;
-
-import com.kwad.components.core.video.m;
-
-/* JADX INFO: loaded from: classes3.dex */
-public abstract class a extends m implements c {
-    public abstract void qY();
-}

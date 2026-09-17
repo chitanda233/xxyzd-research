@@ -1,7 +1,0 @@
-package com.kwad.sdk.commercial.c;
-
-/* JADX INFO: loaded from: classes3.dex */
-public final class c extends b {
-    public boolean aKo;
-    public boolean aKp;
-}

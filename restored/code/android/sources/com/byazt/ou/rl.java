@@ -1,8 +1,0 @@
-package com.byazt.ou;
-
-/* JADX INFO: loaded from: classes2.dex */
-public interface rl {
-    void c();
-
-    void c(String str);
-}
