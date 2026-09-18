@@ -1,1 +1,170 @@
-<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="小小远征队局内核心玩法拆解"><title>小小远征队 · 局内核心玩法</title><link rel="stylesheet" href="assets/style.css"></head><body><header class="page-head"><div class="hero"><div class="eyebrow">CORE BATTLE RESEARCH</div><h1>局内核心玩法</h1><p>从章节、波次、实体战斗、升级抽取池和奖励结算重建一局的骨架。这里把“局内可选词条”和底层 <code>Skill_Main</code> 严格区分：玩家构筑首先受 SkillGroup 池控制，再沿 ID 进入具体技能效果。</p><div class="chips"><span>章节 / 波次</span><span>自动战斗</span><span>18 基础构筑入口</span><span>57 分支强化</span><span>111 后续升级</span><span>22 高阶升级组</span></div></div></header><main class="layout"><nav class="toc"><strong>页面目录</strong><ul><li><a href="#loop">一局主循环</a></li><li><a href="#chapter">章节与波次</a></li><li><a href="#combat">战斗执行</a></li><li><a href="#build">局内构筑</a></li><li><a href="#weights">抽取权重</a></li><li><a href="#meta">局外能力注入</a></li><li><a href="#reward">掉落与结算</a></li><li><a href="#modes">模式复用</a></li><li><a href="#limits">待验证</a></li></ul></nav><article class="article"><h2 id="loop">1. 一局游戏的主循环</h2><p class="summary">当前静态证据最支持的闭环是：<strong>选择章节/模式 → 加载地图与波次 → 敌人持续刷新 → 战机与僚机执行战斗 → 到达成长节点后从当前有效池里抽取升级项 → 构筑逐步分支/强化 → 完成后获得战斗掉落和关卡奖励 → 回到局外继续战机、武器、僚机、收藏等培养。</strong></p><div class="flow"><div><b>① 进入关卡</b>Chapter / Mission / map / wave</div><div><b>② 刷新敌人</b>波次与怪物创建器</div><div><b>③ 战斗结算</b>实体、Buff、受击、技能效果</div><div><b>④ 升级选词条</b>四层 SkillGroup + 加权随机</div><div><b>⑤ 构筑继续</b>前置、分支、后续、高阶节点</div><div><b>⑥ 结算回局外</b>掉落、奖励、永久培养</div></div><div class="callout"><strong>仍需运行态确认：</strong>具体经验条怎么增长、多久弹一次升级、一次出现几个候选、重抽/刷新是否存在，以及 Boss 波的精确切换时机，目前不能只靠静态表下结论。</div><h2 id="chapter">2. 章节容器与 15 波结构</h2><p><code>Chapter_MainChapter</code> 第一条记录已经把章节与战斗参数直接绑在一起：<code>waveNum=15</code>、<code>waveId=100100</code>、地图样式、预览怪物、推荐技能、宝箱类型、首通奖励与完成奖励同时存在。也就是说章节不是只有标题/关卡号，它是把“战斗内容 + 构筑提示 + 奖励”封装起来的一层容器。</p><div class="scroll"><table><thead><tr><th>层级</th><th>证据</th><th>职责</th></tr></thead><tbody><tr><td>章节</td><td><code>Chapter_MainChapter</code></td><td>波次数、waveId、地图、预览怪物、推荐技能、奖励</td></tr><tr><td>房间</td><td><code>Mission_RoomMission</code></td><td>房间池、门、重复规则、属性倍率</td></tr><tr><td>塔</td><td><code>Mission_TowerMission</code></td><td>基础 Mission、刷新参数、HP/攻击倍率</td></tr><tr><td>刷怪执行</td><td><code>BeeMonsterCreator</code> / <code>BeeMonsterRefresher</code></td><td>独立负责怪物创建与刷新</td></tr><tr><td>生存/瀑布</td><td><code>WaterfallBattleManager</code> / <code>BaseSurvivalBattleManager</code></td><td>说明同一底层战斗骨架存在不同模式管理器</td></tr></tbody></table></div><h2 id="combat">3. 战斗执行：实体 + 技能 + Buff</h2><p>代码入口 <code>CharacterComponentOnHit</code>、<code>CharacterComponentBuff</code> 与 <code>EntityMonster</code> 支持典型的数据驱动结构：实体配置决定“是谁”，技能/武器/环形效果等配置决定“会什么”，Component 层处理运行时受击、状态和伤害。怪物图鉴表也把 characterId 与 SkillId 直接关联。</p><p><code>Skillss_Ring</code> 里还能看到 <code>RingSlowBullet</code>、<code>RingAddBuffContinue</code>、<code>RingDamageContinue</code>、<code>RingCombine</code> 等效果类名及半径、Buff、Damage、Interval、阵营、目标类型。这说明局内构筑中的一部分效果会真正创建范围/持续逻辑，而不只是给面板加百分比。</p><h2 id="build">4. 真正的局内升级池</h2><p>之前把 1,184 条 <code>Skill_Main</code> 当成“技能全集”会严重高估玩家实际可选内容。更正确的入口是四张 SkillGroup 表：</p><div class="scroll"><table><thead><tr><th>池</th><th>行数</th><th>作用</th><th>ID 形态</th></tr></thead><tbody><tr><td><code>SurvivorGroup</code></td><td>18</td><td>基础武器与通用强化入口</td><td>100… / 110…</td></tr><tr><td><code>BranchSurvivorGroup</code></td><td>57</td><td>武器分支强化</td><td>104…</td></tr><tr><td><code>UpgradeSurvivorGroup</code></td><td>111</td><td>战斗中继续出现的后续升级</td><td>101…</td></tr><tr><td><code>UpgradeSkillGroup</code></td><td>22</td><td>独立高阶升级池</td><td>105…</td></tr></tbody></table></div><p>基础池 18 条里可以直接从 notes 确认 11 个武器入口：主武器、酸液弹、电弧枪、霰弹枪、冰刃弹、高爆导弹、黑洞、星空剑、激光炮、旋转锯盘、灼热射线；另有生命、攻击、子弹变大/范围、减冷却、暴击、飞机缩小、血豆掉率/回血等通用强化。</p><p><a href="skills.html">局内升级词条页</a> 会实时把这四张池里的 GetID 与 <code>Skill_Main</code> 反查，展示名称、说明、前置、互斥、后续节点，而不是把整张 Skill_Main 平铺给玩家。</p><h2 id="weights">5. 抽取权重随情境变化</h2><p>基础池和后续升级池都有默认 <code>Weight</code>，并存在 <code>Weight_1 … Weight_10</code> 与 <code>WeightForNewplayer</code>。这直接证明候选项不是永远固定等概率。例如基础“主武器-1”默认权重 100，在前三组情境变成 300 / 250 / 180；“冰刃弹-1”也有同样的前期提升；“旋转锯盘-1”在前三组是 50，却在另一组升到 200。</p><p>基础池还存在一条“子弹变大，范围提升-1”，其默认、新手和各情境权重全部为 0。这个案例非常重要：<strong>配置存在 ≠ 默认可抽到</strong>。后续必须结合条件代码确认它何时会被激活。</p><p>此外 <code>Skill_SkillTypeWeight</code> 出现 <code>AddWeightPerSkill=50</code>、<code>AddWeightMax=500</code>。这说明系统还存在类型级动态权重参数，但“是否属于防脸黑/保底”仍需继续追 <code>WeightRandom</code> 的调用逻辑。</p><h2 id="meta">6. 局外培养如何注入一局</h2><p>局内构筑并不是从零开始。<a href="weapons.html">武器</a> 的 <code>AirplaneGun_Star</code> 会通过 <code>FeatureInitSkill</code> 与 <code>FeatureOnStarUp</code> 引用技能 ID；<a href="aircraft.html">战机</a> Role 本体也有 <code>SuperSkill</code> 和 <code>FeatureSkills</code>；<a href="drones.html">僚机</a> 在 1/2/4/7/10 星节点解锁自己的 SkillDetail。于是完整战斗 Build 更接近：</p><p class="summary"><strong>局外战机/武器/僚机预装能力 + 本局抽到的基础武器/通用强化 + 分支/后续/高阶升级 = 最终一局构筑。</strong></p><p>这也是为什么网站把“武器培养”和“局内升级词条”拆成两个页面：前者决定进入战斗前有什么，后者研究进入战斗后还能选什么。</p><h2 id="reward">7. 掉落与结算</h2><p><code>MainDropManager</code>、<code>DropMgr</code>、<code>Item_drop</code> 支持战斗过程掉落；章节配置又有首通和完成奖励，因此至少存在“局内掉落”和“关卡结算奖励”两层。它们共同把资源送回局外的战机、武器、僚机、收藏等成长线。</p><h2 id="modes">8. 同一骨架上的模式变体</h2><div class="system-grid"><div class="system-card"><h3>主线 Chapter</h3><p>15 波等章节结构最完整，直接挂推荐技能与奖励。</p></div><div class="system-card"><h3>Room / Tower</h3><p>独立 Mission 表改变房间规则、倍率和刷新参数。</p></div><div class="system-card"><h3>Waterfall / Survival</h3><p>独立 BattleManager 表明存在持续生存型战斗管理分支。</p></div><div class="system-card"><h3>多人 / Boss</h3><p>WaterfallMulti、GuildBoss、WorldBoss 各有专门 BattleManager。</p></div></div><h2 id="limits">9. 下一步最值得追的逻辑</h2><div class="evidence"><ol><li>升级事件到底如何触发，以及一次生成几个候选。</li><li>四层池的进入/退出条件，尤其 104 分支与 105 高阶节点。</li><li><code>PreSkillIds / NeedSkills / RejectSkills / UpgradeSkillId / NextSkill</code> 的筛选先后顺序。</li><li><code>Weight_1…10</code> 各自对应什么战机、武器、模式或构筑状态。</li><li>局外 FeatureSkill 与局内抽取池发生重复时，系统是升级、替换、覆盖还是过滤。</li></ol></div></article></main><a class="back" href="index.html">← 研究首页</a></body></html>
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="小小远征队策划向局内核心循环反拆">
+<title>小小远征队 · 局内核心循环反拆</title>
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<header class="page-head">
+  <div class="hero">
+    <div class="eyebrow">CORE BATTLE DESIGN TEARDOWN</div>
+    <h1>局内核心循环反拆</h1>
+    <p>第一章不是一段连续生存，而是一条被精确编排的 15 波 Build 时间轴：波次负责制造压力，经验预算负责控制成长速度，三选一负责把随机性收束成可成型的 Build，W10 精英与 W15 Boss 再分别做中盘和终局验收。</p>
+    <div class="chips">
+      <span>15 波</span><span>一波约一升</span><span>W10 精英门槛</span><span>W15 Boss 门槛</span><span>动态权重</span><span>武器突破</span>
+    </div>
+  </div>
+</header>
+
+<main class="layout">
+<nav class="toc">
+  <strong>页面目录</strong>
+  <ul>
+    <li><a href="#loop">一局到底怎么跑</a></li>
+    <li><a href="#pacing">15 波节奏</a></li>
+    <li><a href="#exp">经验与升级</a></li>
+    <li><a href="#random">三选一</a></li>
+    <li><a href="#build">Build 成型</a></li>
+    <li><a href="#checks">精英 / Boss 节点</a></li>
+    <li><a href="#meaning">设计意义</a></li>
+    <li><a href="#limits">证据边界</a></li>
+  </ul>
+</nav>
+
+<article class="article">
+<h2 id="loop">1. 一局到底怎么跑</h2>
+<p class="summary">第一章当前最完整的运行模型是：<strong>进入关卡 → 按脚本批次刷怪 → 击杀产生经验掉落 → 波末主动吸收遗漏经验 → 结算本波升级 → 从当前合法候选里做 Build 选择 → 下一波继续加压 → W10 精英硬门槛 → W15 Boss 硬门槛 → 结算回局外。</strong></p>
+
+<div class="flow">
+  <div><b>① 进入关卡</b>装入本章 15 波与推荐 Build</div>
+  <div><b>② 刷怪推进</b>位置组、定时批次、随机组混合</div>
+  <div><b>③ 击杀掉落</b>经验按本波总预算向怪物分配</div>
+  <div><b>④ 波末收束</b>吸收残留经验，统一处理升级</div>
+  <div><b>⑤ Build 选择</b>合法性过滤 + 分池 + 动态权重</div>
+  <div><b>⑥ 节点验收</b>W10 精英、W15 Boss 检查输出成型</div>
+</div>
+
+<p>这和典型“无限时间轴上不断刷怪，经验条一满就随时弹升级”的 Survivor 结构不同。《小小远征队》把“刷怪段”和“成长决策”绑得更紧：经验总量先由波次定义，波末再把遗漏掉落吸回来，最后统一进入选技能流程。这样一来，关卡策划能够知道玩家在进入下一波之前大致已经做过多少次成长决策。</p>
+
+<h2 id="pacing">2. 第一章 15 波：不是三个相同的 4+1</h2>
+<p>旧版分析曾把第 5、10、15 波都视为相同的“精英/Boss 强制击杀节点”，原因是读取了通用 Section 数据。重新沿着第一章实际引用的 <code>waveId=100100</code> 追到 <code>ChapterWave_Waves</code> 后可以确认：<strong>W5 并没有开启击杀锁，真正的硬门槛只有 W10 与 W15。</strong>因此三个阶段虽然都大约五波，但高潮职责并不相同。</p>
+
+<div class="scroll">
+<table>
+<thead><tr><th>阶段</th><th>刷新脚本时钟</th><th>经验进度</th><th>压力变化</th><th>策划职责</th></tr></thead>
+<tbody>
+<tr><td>W1～W4</td><td>0～45s</td><td>200 → 1950</td><td>位置组为主，HP 倍率约 1.0 → 2.0</td><td>快速建立操作、第一把武器与基础模块</td></tr>
+<tr><td>W5</td><td>约 62s</td><td>累计 2650</td><td>单波拆成 16 条刷新任务，密度突然上升</td><td><strong>第一次压力峰</strong>，但不锁死推进</td></tr>
+<tr><td>W6～W9</td><td>105～180s</td><td>3450 → 6200</td><td>加入随机组、间隔刷新与更重怪型</td><td>让已选 Build 开始承担持续输出压力</td></tr>
+<tr><td>W10</td><td>约 197s</td><td>累计 7300</td><td>精英 310008，HP 7000，必须击杀</td><td><strong>第一次硬 Build 校验</strong></td></tr>
+<tr><td>W11～W14</td><td>240～330s</td><td>8500 → 12800</td><td>混合刷新、HP 与攻击压力继续提高</td><td>把分支、模块与突破推向成型</td></tr>
+<tr><td>W15</td><td>约 345s</td><td>累计 14800</td><td>Boss 340002，基础 HP 40000，波次 HP 倍率 11</td><td><strong>最终 Build 验收</strong></td></tr>
+</tbody>
+</table>
+</div>
+
+<div class="callout"><strong>时间说明：</strong>345 秒是 W15 Boss 刷新脚本的战斗时间轴起点，不等于玩家从点“开始”到 Boss 出现的真实墙钟时间。三选一界面、波间 UI、精英/Boss 等待都会把实际一局拉长。</div>
+
+<h2 id="exp">3. 为什么可以说“一波约一升”</h2>
+<p>第一章的每波经验不是随怪物数量自然漂出来的，而是关卡层先给出一份明确的总预算。更关键的是，这 15 份预算的逐波累计值和玩家前 15 个升级阈值逐项完全相等。</p>
+
+<div class="scroll">
+<table>
+<thead><tr><th>节点</th><th>本波经验</th><th>累计波经验</th><th>对应升级阈值</th><th>含义</th></tr></thead>
+<tbody>
+<tr><td>W1</td><td>200</td><td>200</td><td>200</td><td>第一波完整经验正好跨过第一个阈值</td></tr>
+<tr><td>W5</td><td>700</td><td>2650</td><td>2650</td><td>第一次压力峰前后约已有 5 次成长</td></tr>
+<tr><td>W10</td><td>1100</td><td>7300</td><td>7300</td><td>精英门槛前约已有 10 次成长</td></tr>
+<tr><td>W15</td><td>2000</td><td>14800</td><td>14800</td><td>Boss 结束时完整覆盖前 15 级曲线</td></tr>
+</tbody>
+</table>
+</div>
+
+<p>native 实现解释了为什么怪物数量变化却不会破坏这条成长曲线。新波开始时，<code>WaterfallBattleManager</code> 会先统计本波的经验分配权重，再把 <code>WaveAllExp</code> 除以总权重得到基础份额；具体怪物再按自身 <code>expWeight</code> 分走对应份数。也就是说，重怪可以拿更多经验，密集小怪可以拆成更多份，但<strong>整波最终仍然围绕同一个经验总预算</strong>。</p>
+
+<p>波末还会检查场上是否留有经验掉落；如果还有，会主动执行 <code>AbsorbAll</code>，等待经验动画进入可升级状态，再把待处理升级送入选技能队列。策划结果非常清楚：<strong>经验不是只负责奖励击杀，它还承担“把玩家准时送到下一次 Build 决策”的节奏控制。</strong></p>
+
+<h2 id="random">4. 三选一不是“从固定池随机 3 个”</h2>
+<p>候选生成器同时维护全部战斗技能、当前已学技能、按 <code>SkillType</code> 分组的池、各类型已学习数量与每个候选的权重。实际过程更接近下面这条链：</p>
+
+<div class="flow">
+  <div><b>① 资格过滤</b>前置、互斥、Flag、最大次数</div>
+  <div><b>② 选择候选池</b>武器、模块、后续强化等不是同一平面</div>
+  <div><b>③ 动态加权</b>按当前已学习类型改变相对概率</div>
+  <div><b>④ 状态分流</b>已学、待学、一星入口分别处理</div>
+  <div><b>⑤ 子分支随机</b>父武器升级还能再次抽自己的分支</div>
+  <div><b>⑥ 去重输出</b>排除冲突项后形成最终 UI 候选</div>
+</div>
+
+<p>目前最重要的动态权重已经能从 ARM64 实现直接还原：标准 Type 1 的配置是“每学一个 +50%，最多 +500%”，而底层实际权重公式是 <code>BaseWeight × (1 + Delta)</code>。</p>
+
+<div class="scroll">
+<table>
+<thead><tr><th>已计入的 Type 1 学习数</th><th>权重修正</th><th>实际基础权重倍率</th></tr></thead>
+<tbody>
+<tr><td>0</td><td>0%</td><td>1.0×</td></tr>
+<tr><td>1</td><td>+50%</td><td>1.5×</td></tr>
+<tr><td>3</td><td>+150%</td><td>2.5×</td></tr>
+<tr><td>5</td><td>+250%</td><td>3.5×</td></tr>
+<tr><td>10+</td><td>+500%</td><td>6.0×</td></tr>
+</tbody>
+</table>
+</div>
+
+<p>这是一种力度很强的反坏运气机制：玩家越把成长投入武器类，后续合法的武器类候选越不容易被大量通用项稀释。但这里必须避免过度解释——<strong>加权粒度是 SkillType，不是具体武器家族。</strong>目前不能写成“选了冰刃弹，冰刃弹系以后自动 +50%”；它更像让“武器成长”这个大方向获得越来越强的出现惯性。</p>
+
+<p>除此之外，新玩家路径还存在一次性的 <code>BoostWeightByPercent → 抽取 → RevertWeightBoost</code>，说明系统可以只针对某次候选临时扶正，而不永久修改基础权重。刷新也有独立上下文，但“刷新是否强制避开上一屏”和不同场景究竟显示两选一还是三选一，仍需继续读剩余 hotfix 分支，现阶段不写死概率。</p>
+
+<h2 id="build">5. Build 怎么从一张牌长成完整路线</h2>
+<p>局内真正可见的 Build 不是 1,184 条底层 <code>Skill_Main</code> 的平铺，而是四层结构：11 个武器入口、7 个通用模块、57 个武器分支、以及 111 个深层强化加 22 个突破节点。<code>Skill_Main</code> 更适合作为效果实现与配置附录，不应该直接等同于“玩家有 1,184 个技能可选”。</p>
+
+<div class="system-grid">
+  <div class="system-card"><h3>武器主线</h3><p>首次获得决定攻击方式，后续通过 NextSkill 推进星级与阶段。</p></div>
+  <div class="system-card"><h3>武器分支</h3><p>主线升级时可挂接归属武器的 104 系分支，形成弹道、伤害、频率与副作用差异。</p></div>
+  <div class="system-card"><h3>通用模块</h3><p>攻击、生命、冷却、暴击、维修等既提供泛用收益，也充当部分武器突破的配方件。</p></div>
+  <div class="system-card"><h3>突破 / 深层强化</h3><p>达到指定武器节点并拥有对应模块后，解锁 105 系突破和更深层的 101 系强化。</p></div>
+</div>
+
+<p>以速射机炮为例：首次获得后，主线继续升级；二星以后会挂接自己的 104 系分支，其中既有纯攻击强化，也有“增加正向子弹但降低攻击力”这种带取舍的改造。到 3 星节点后，如果玩家同时拿到暴击模块，就能解锁对应突破。灼热射线也共享暴击模块作为自己的突破组件，而冰刃弹则与“缩小！”模块形成另一条配方关系。</p>
+
+<p class="summary"><strong>所以一条完整 Build 更接近：主武器 → 主线等级 → 武器专属分支 → 配套通用模块 → 突破 / 深层强化。</strong>同一个通用模块可以服务一到两条武器路线，这让早期选择既有方向感，又不会过早把玩家锁死。</p>
+
+<h2 id="checks">6. W5、W10、W15 为什么要做成三种不同节点</h2>
+<div class="scroll">
+<table>
+<thead><tr><th>节点</th><th>玩家约已完成的成长决策</th><th>关卡手段</th><th>检查内容</th></tr></thead>
+<tbody>
+<tr><td>W5</td><td>4～5 次</td><td>刷新任务密度突然放大，不锁推进</td><td>有没有形成最初的战斗方向；失败成本不能太重</td></tr>
+<tr><td>W10</td><td>9～10 次</td><td>精英 310008 + 必须击杀</td><td>主输出链是否已经具有足够单体/持续伤害</td></tr>
+<tr><td>W15</td><td>14～15 次</td><td>Boss 340002 + 更高 HP 倍率 + 必须击杀</td><td>武器、分支、模块、突破是否真正形成完整 Build</td></tr>
+</tbody>
+</table>
+</div>
+
+<p>这种编排比“每五波单纯把 HP 再乘一档”更有效。W5 允许玩家在 Build 尚未成熟时体验一次明显峰值，却不通过硬门槛把坏随机直接判死；W10 再开始要求输出成型；W15 才做最终验收。压力和玩家可做出的成长决策数是一起设计的。</p>
+
+<h2 id="meaning">7. 这些设计为什么这样做</h2>
+<p>第一层价值是<strong>可控节奏</strong>。经验预算与等级阈值完全对齐，让策划能够非常稳定地知道“第几波之前玩家大约做过几次选择”，因此怪物压力、精英/Boss 与 Build 成长可以在同一张时间表上调，而不是两个系统各自漂移。</p>
+
+<p>第二层价值是<strong>减少 Roguelike 随机的挫败尾部</strong>。候选仍然随机，所以每局会有变化；但 SkillType 动态权重、前置过滤、父子分支和一次性权重扶正又在不断把结果拉回“能成型”的区间。玩家感觉是在做随机选择，系统实际上在控制“连续十次都没有有效成长”的概率。</p>
+
+<p>第三层价值是<strong>让选择同时具备短期收益和长期路线承诺</strong>。拿一个通用模块不仅改变当前数值，还可能成为某把武器未来突破的配方件；拿一把武器也不只是增加一个自动攻击，而是开启后续主线与分支池。这样三选一里的一张牌会同时影响“现在打得更轻松”和“后面能不能完成质变”，决策密度明显高于普通百分比加点。</p>
+
+<p>第四层价值是<strong>支撑重复游玩而不完全依赖重运营</strong>。相同章节可以因为武器入口、分支取舍、配套模块和突破顺序不同形成不同战斗形态；而动态随机又避免重开后体验完全被坏运气摧毁。至于这些结构具体怎样与付费入口连接，还需要外围经济与商业化单独反拆，当前局内证据不足以直接推导付费结论。</p>
+
+<h2 id="limits">8. 当前已经确认什么，什么还没有</h2>
+<div class="evidence">
+  <p><strong>已经确认：</strong>第一章实际 15 波刷新结构；W5 非击杀锁、W10/W15 为硬门槛；每波经验预算与前 15 级阈值逐项对齐；经验按波预算再按怪物权重拆分；波末会主动吸收残留经验并排队处理升级；候选按池和 SkillType 组织；Type 1 动态权重公式与 1.5×～6×倍率；已学/待学/一星候选分流；父技能对子分支二次随机；武器节点 + 模块 → 突破的 Build 配方关系。</p>
+  <p><strong>尚未写死：</strong>不同场景最终显示 2 个还是 3 个候选的精确概率；刷新是否明确禁止上一屏全部重复； <code>randomSkillFactor</code> 与质量/星级提升的完整 hotfix 规则；失败、复活、三星条件和结算奖励如何与局外经济闭环。这些会作为下一轮反拆对象，而不是用字段名猜答案。</p>
+</div>
+
+<div class="callout"><strong>配置与证据分离：</strong>本页只保留能支撑策划结论的少量数字。需要查 ID、字段、底层技能实现时进入 <a href="skill-config.html">技能底层配置</a>；研究过程与原始 native 证据保存在仓库的 <code>research/in-run/</code> 与 <code>restored/code/native-evidence/</code>。</div>
+
+</article>
+</main>
+<a class="back" href="index.html">← 研究首页</a>
+</body>
+</html>
