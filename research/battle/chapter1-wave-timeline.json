@@ -1,0 +1,1691 @@
+{
+  "source": {
+    "client": "1.0.16",
+    "versionCode": 40,
+    "chapterId": 1,
+    "waveId": 100100,
+    "missionIdRange": [
+      1001001,
+      1001078
+    ],
+    "missionRowCount": 78
+  },
+  "notes": [
+    "Random spawn count follows WaterfallBattleManager.CalRandomMonster: numberRandom is the target emitted entity count.",
+    "All Chapter 1 random configs used by these rows resolve to entity 330006, so the reconstructed random composition is exact.",
+    "configuredMonsterCount is the maximum scripted composition. On StopByEliteOrBossKilled waves, killing the special monster can clear queued CreateMonsterData, so realized spawns can be fewer.",
+    "scheduledWindow is based on configured absolute mission times; Wave 10 and Wave 15 additionally have special-monster kill gates."
+  ],
+  "experience": {
+    "waveAllExp": [
+      200,
+      550,
+      600,
+      600,
+      700,
+      800,
+      800,
+      950,
+      1000,
+      1100,
+      1200,
+      1200,
+      1400,
+      1700,
+      2000
+    ],
+    "cumulativeThresholds": [
+      200,
+      750,
+      1350,
+      1950,
+      2650,
+      3450,
+      4250,
+      5200,
+      6200,
+      7300,
+      8500,
+      9700,
+      11100,
+      12800,
+      14800
+    ],
+    "thresholdDeltas": [
+      200,
+      550,
+      600,
+      600,
+      700,
+      800,
+      800,
+      950,
+      1000,
+      1100,
+      1200,
+      1200,
+      1400,
+      1700,
+      2000
+    ],
+    "exactMatch": true
+  },
+  "waves": [
+    {
+      "wave": 1,
+      "nominalStart": 0,
+      "combatStart": 0,
+      "lastConfiguredSpawn": 9.9,
+      "scheduledWindow": 15,
+      "rawMissionRows": 1,
+      "spawnMoments": 19,
+      "configuredMonsterCount": 20,
+      "composition": {
+        "320021": 2,
+        "330006": 18
+      },
+      "specialMonsters": [],
+      "stopByEliteOrBossKilled": 0,
+      "waveAllExp": 200,
+      "waveStartSpecialUIType": [
+        1
+      ],
+      "waveEndSpecialUIType": [
+        4
+      ],
+      "missionEvents": [],
+      "timeline": [
+        {
+          "at": 0,
+          "relative": 0,
+          "composition": {
+            "330006": 1
+          },
+          "sources": [
+            "group:3001056"
+          ]
+        },
+        {
+          "at": 0.2,
+          "relative": 0.2,
+          "composition": {
+            "330006": 1
+          },
+          "sources": [
+            "group:3001056"
+          ]
+        },
+        {
+          "at": 0.4,
+          "relative": 0.4,
+          "composition": {
+            "330006": 1
+          },
+          "sources": [
+            "group:3001056"
+          ]
+        },
+        {
+          "at": 1.3,
+          "relative": 1.3,
+          "composition": {
+            "330006": 1
+          },
+          "sources": [
+            "group:3001056"
+          ]
+        },
+        {
+          "at": 1.5,
+          "relative": 1.5,
+          "composition": {
+            "330006": 1
+          },
+          "sources": [
+            "group:3001056"
+          ]
+        },
+        {
+          "at": 1.7,
+          "relative": 1.7,
+          "composition": {
+            "330006": 1
+          },
+          "sources": [
+            "group:3001056"
+          ]
+        },
+        {
+          "at": 2.6,
+          "relative": 2.6,
+          "composition": {
+            "330006": 1
+          },
+          "sources": [
+            "group:3001056"
+          ]
+        },
+        {
+          "at": 2.8,
+          "relative": 2.8,
+          "composition": {
+            "330006": 1
+          },
+          "sources": [
+            "group:3001056"
+          ]
+        },
+        {
+          "at": 3,
+          "relative": 3,
+          "composition": {
+            "320021": 1,
+            "330006": 1
+          },
+          "sources": [
+            "group:3001056"
+          ]
+        },
+        {
+          "at": 3.5,
+          "relative": 3.5,
+          "composition": {
+            "330006": 1
+          },
+          "sources": [
+            "group:3001056"
+          ]
+        },
+        {
+          "at": 3.7,
+          "relative": 3.7,
+          "composition": {
+            "330006": 1
+          },
+          "sources": [
+            "group:3001056"
+          ]
+        },
+        {
+          "at": 4.8,
+          "relative": 4.8,
+          "composition": {
+            "330006": 1
+          },
+          "sources": [
+            "group:3001056"
+          ]
+        },
+        {
+          "at": 5,
+          "relative": 5,
+          "composition": {
+            "320021": 1
+          },
+          "sources": [
+            "group:3001056"
+          ]
+        },
+        {
+          "at": 6.5,
+          "relative": 6.5,
+          "composition": {
+            "330006": 1
+          },
+          "sources": [
+            "group:3001056"
+          ]
+        },
+        {
+          "at": 6.7,
+          "relative": 6.7,
+          "composition": {
+            "330006": 1
+          },
+          "sources": [
+            "group:3001056"
+          ]
+        },
+        {
+          "at": 7,
+          "relative": 7,
+          "composition": {
+            "330006": 1
+          },
+          "sources": [
+            "group:3001056"
+          ]
+        },
+        {
+          "at": 9.5,
+          "relative": 9.5,
+          "composition": {
+            "330006": 1
+          },
+          "sources": [
+            "group:3001056"
+          ]
+        },
+        {
+          "at": 9.7,
+          "relative": 9.7,
+          "composition": {
+            "330006": 1
+          },
+          "sources": [
+            "group:3001056"
+          ]
+        },
+        {
+          "at": 9.9,
+          "relative": 9.9,
+          "composition": {
+            "330006": 1
+          },
+          "sources": [
+            "group:3001056"
+          ]
+        }
+      ]
+    },
+    {
+      "wave": 2,
+      "nominalStart": 15,
+      "combatStart": 15,
+      "lastConfiguredSpawn": 20.5,
+      "scheduledWindow": 15,
+      "rawMissionRows": 1,
+      "spawnMoments": 10,
+      "configuredMonsterCount": 10,
+      "composition": {
+        "320022": 2,
+        "330006": 8
+      },
+      "specialMonsters": [],
+      "stopByEliteOrBossKilled": 0,
+      "waveAllExp": 550,
+      "waveStartSpecialUIType": [
+        1
+      ],
+      "waveEndSpecialUIType": [
+        4
+      ],
+      "missionEvents": [],
+      "timeline": [
+        {
+          "at": 15,
+          "relative": 0,
+          "composition": {
+            "330006": 1
+          },
+          "sources": [
+            "group:3001057"
+          ]
+        },
+        {
+          "at": 15.2,
+          "relative": 0.1999999999999993,
+          "composition": {
+            "330006": 1
+          },
+          "sources": [
+            "group:3001057"
+          ]
+        },
+        {
+          "at": 15.4,
+          "relative": 0.40000000000000036,
+          "composition": {
+            "330006": 1
+          },
+          "sources": [
+            "group:3001057"
+          ]
+        },
+        {
+          "at": 16,
+          "relative": 1,
+          "composition": {
+            "320022": 1
+          },
+          "sources": [
+            "group:3001057"
+          ]
+        },
+        {
+          "at": 17,
+          "relative": 2,
+          "composition": {
+            "330006": 1
+          },
+          "sources": [
+            "group:3001057"
+          ]
+        },
+        {
+          "at": 18,
+          "relative": 3,
+          "composition": {
+            "320022": 1
+          },
+          "sources": [
+            "group:3001057"
+          ]
+        },
+        {
+          "at": 19,
+          "relative": 4,
+          "composition": {
+            "330006": 1
+          },
+          "sources": [
+            "group:3001057"
+          ]
+        },
+        {
+          "at": 19.2,
+          "relative": 4.199999999999999,
+          "composition": {
+            "330006": 1
+          },
+          "sources": [
+            "group:3001057"
+          ]
+        },
+        {
+          "at": 19.4,
+          "relative": 4.399999999999999,
+          "composition": {
+            "330006": 1
+          },
+          "sources": [
+            "group:3001057"
+          ]
+        },
+        {
+          "at": 20.5,
+          "relative": 5.5,
+          "composition": {
+            "330006": 1
+          },
+          "sources": [
+            "group:3001057"
+          ]
+        }
+      ]
+    },
+    {
+      "wave": 3,
+      "nominalStart": 30,
+      "combatStart": 30,
+      "lastConfiguredSpawn": 37.4,
+      "scheduledWindow": 15,
+      "rawMissionRows": 1,
+      "spawnMoments": 5,
+      "configuredMonsterCount": 5,
+      "composition": {
+        "320017": 2,
+        "320021": 1,
+        "330006": 2
+      },
+      "specialMonsters": [],
+      "stopByEliteOrBossKilled": 0,
+      "waveAllExp": 600,
+      "waveStartSpecialUIType": [
+        1
+      ],
+      "waveEndSpecialUIType": [
+        4
+      ],
+      "missionEvents": [],
+      "timeline": [
+        {
+          "at": 30,
+          "relative": 0,
+          "composition": {
+            "320021": 1
+          },
+          "sources": [
+            "group:3001058"
+          ]
+        },
+        {
+          "at": 30.5,
+          "relative": 0.5,
+          "composition": {
+            "330006": 1
+          },
+          "sources": [
+            "group:3001058"
+          ]
+        },
+        {
+          "at": 32.8,
+          "relative": 2.799999999999997,
+          "composition": {
+            "320017": 1
+          },
+          "sources": [
+            "group:3001058"
+          ]
+        },
+        {
+          "at": 35.1,
+          "relative": 5.100000000000001,
+          "composition": {
+            "330006": 1
+          },
+          "sources": [
+            "group:3001058"
+          ]
+        },
+        {
+          "at": 37.4,
+          "relative": 7.399999999999999,
+          "composition": {
+            "320017": 1
+          },
+          "sources": [
+            "group:3001058"
+          ]
+        }
+      ]
+    },
+    {
+      "wave": 4,
+      "nominalStart": 45,
+      "combatStart": 45,
+      "lastConfiguredSpawn": 55.5,
+      "scheduledWindow": 17,
+      "rawMissionRows": 1,
+      "spawnMoments": 7,
+      "configuredMonsterCount": 7,
+      "composition": {
+        "320017": 2,
+        "320019": 2,
+        "330006": 3
+      },
+      "specialMonsters": [],
+      "stopByEliteOrBossKilled": 0,
+      "waveAllExp": 600,
+      "waveStartSpecialUIType": [
+        1
+      ],
+      "waveEndSpecialUIType": [
+        4
+      ],
+      "missionEvents": [],
+      "timeline": [
+        {
+          "at": 45,
+          "relative": 0,
+          "composition": {
+            "320019": 1
+          },
+          "sources": [
+            "group:3001059"
+          ]
+        },
+        {
+          "at": 46,
+          "relative": 1,
+          "composition": {
+            "330006": 1
+          },
+          "sources": [
+            "group:3001059"
+          ]
+        },
+        {
+          "at": 48.5,
+          "relative": 3.5,
+          "composition": {
+            "320017": 1
+          },
+          "sources": [
+            "group:3001059"
+          ]
+        },
+        {
+          "at": 49.5,
+          "relative": 4.5,
+          "composition": {
+            "330006": 1
+          },
+          "sources": [
+            "group:3001059"
+          ]
+        },
+        {
+          "at": 52,
+          "relative": 7,
+          "composition": {
+            "320019": 1
+          },
+          "sources": [
+            "group:3001059"
+          ]
+        },
+        {
+          "at": 53,
+          "relative": 8,
+          "composition": {
+            "330006": 1
+          },
+          "sources": [
+            "group:3001059"
+          ]
+        },
+        {
+          "at": 55.5,
+          "relative": 10.5,
+          "composition": {
+            "320017": 1
+          },
+          "sources": [
+            "group:3001059"
+          ]
+        }
+      ]
+    },
+    {
+      "wave": 5,
+      "nominalStart": 62,
+      "combatStart": 62,
+      "lastConfiguredSpawn": 71,
+      "scheduledWindow": 43,
+      "rawMissionRows": 16,
+      "spawnMoments": 14,
+      "configuredMonsterCount": 16,
+      "composition": {
+        "320005": 1,
+        "320017": 3,
+        "320021": 1,
+        "330006": 11
+      },
+      "specialMonsters": [],
+      "stopByEliteOrBossKilled": 0,
+      "waveAllExp": 700,
+      "waveStartSpecialUIType": [
+        1,
+        5
+      ],
+      "waveEndSpecialUIType": [
+        4
+      ],
+      "missionEvents": [],
+      "timeline": [
+        {
+          "at": 62,
+          "relative": 0,
+          "composition": {
+            "320005": 1
+          },
+          "sources": [
+            "direct:1001005"
+          ]
+        },
+        {
+          "at": 62.5,
+          "relative": 0.5,
+          "composition": {
+            "320021": 1,
+            "330006": 1
+          },
+          "sources": [
+            "direct:1001006",
+            "direct:1001010"
+          ]
+        },
+        {
+          "at": 64,
+          "relative": 2,
+          "composition": {
+            "330006": 1
+          },
+          "sources": [
+            "direct:1001011"
+          ]
+        },
+        {
+          "at": 64.2,
+          "relative": 2.200000000000003,
+          "composition": {
+            "330006": 1
+          },
+          "sources": [
+            "direct:1001012"
+          ]
+        },
+        {
+          "at": 64.4,
+          "relative": 2.4000000000000057,
+          "composition": {
+            "330006": 1
+          },
+          "sources": [
+            "direct:1001013"
+          ]
+        },
+        {
+          "at": 65,
+          "relative": 3,
+          "composition": {
+            "320017": 1
+          },
+          "sources": [
+            "direct:1001007"
+          ]
+        },
+        {
+          "at": 65.5,
+          "relative": 3.5,
+          "composition": {
+            "330006": 1
+          },
+          "sources": [
+            "direct:1001014"
+          ]
+        },
+        {
+          "at": 67,
+          "relative": 5,
+          "composition": {
+            "330006": 1
+          },
+          "sources": [
+            "direct:1001015"
+          ]
+        },
+        {
+          "at": 67.2,
+          "relative": 5.200000000000003,
+          "composition": {
+            "330006": 1
+          },
+          "sources": [
+            "direct:1001016"
+          ]
+        },
+        {
+          "at": 68,
+          "relative": 6,
+          "composition": {
+            "320017": 1,
+            "330006": 1
+          },
+          "sources": [
+            "direct:1001008",
+            "direct:1001017"
+          ]
+        },
+        {
+          "at": 69.5,
+          "relative": 7.5,
+          "composition": {
+            "330006": 1
+          },
+          "sources": [
+            "direct:1001018"
+          ]
+        },
+        {
+          "at": 69.7,
+          "relative": 7.700000000000003,
+          "composition": {
+            "330006": 1
+          },
+          "sources": [
+            "direct:1001019"
+          ]
+        },
+        {
+          "at": 70.5,
+          "relative": 8.5,
+          "composition": {
+            "330006": 1
+          },
+          "sources": [
+            "direct:1001020"
+          ]
+        },
+        {
+          "at": 71,
+          "relative": 9,
+          "composition": {
+            "320017": 1
+          },
+          "sources": [
+            "direct:1001009"
+          ]
+        }
+      ]
+    },
+    {
+      "wave": 6,
+      "nominalStart": 105,
+      "combatStart": 107,
+      "lastConfiguredSpawn": 113.6,
+      "scheduledWindow": 30,
+      "rawMissionRows": 2,
+      "spawnMoments": 4,
+      "configuredMonsterCount": 5,
+      "composition": {
+        "320005": 1,
+        "330006": 4
+      },
+      "specialMonsters": [],
+      "stopByEliteOrBossKilled": 0,
+      "waveAllExp": 800,
+      "waveStartSpecialUIType": [
+        1
+      ],
+      "waveEndSpecialUIType": [
+        4
+      ],
+      "missionEvents": [
+        {
+          "at": 105,
+          "relative": 0,
+          "missionType": 9,
+          "rowId": 1001021
+        }
+      ],
+      "timeline": [
+        {
+          "at": 107,
+          "relative": 2,
+          "composition": {
+            "320005": 1,
+            "330006": 1
+          },
+          "sources": [
+            "group:3001060"
+          ]
+        },
+        {
+          "at": 109.2,
+          "relative": 4.200000000000003,
+          "composition": {
+            "330006": 1
+          },
+          "sources": [
+            "group:3001060"
+          ]
+        },
+        {
+          "at": 111.4,
+          "relative": 6.400000000000006,
+          "composition": {
+            "330006": 1
+          },
+          "sources": [
+            "group:3001060"
+          ]
+        },
+        {
+          "at": 113.6,
+          "relative": 8.599999999999994,
+          "composition": {
+            "330006": 1
+          },
+          "sources": [
+            "group:3001060"
+          ]
+        }
+      ]
+    },
+    {
+      "wave": 7,
+      "nominalStart": 135,
+      "combatStart": 135,
+      "lastConfiguredSpawn": 143.5,
+      "scheduledWindow": 15,
+      "rawMissionRows": 1,
+      "spawnMoments": 7,
+      "configuredMonsterCount": 7,
+      "composition": {
+        "320005": 1,
+        "320017": 4,
+        "320019": 2
+      },
+      "specialMonsters": [],
+      "stopByEliteOrBossKilled": 0,
+      "waveAllExp": 800,
+      "waveStartSpecialUIType": [
+        1
+      ],
+      "waveEndSpecialUIType": [
+        4
+      ],
+      "missionEvents": [],
+      "timeline": [
+        {
+          "at": 135,
+          "relative": 0,
+          "composition": {
+            "320017": 1
+          },
+          "sources": [
+            "group:3001061"
+          ]
+        },
+        {
+          "at": 136.5,
+          "relative": 1.5,
+          "composition": {
+            "320017": 1
+          },
+          "sources": [
+            "group:3001061"
+          ]
+        },
+        {
+          "at": 138,
+          "relative": 3,
+          "composition": {
+            "320005": 1
+          },
+          "sources": [
+            "group:3001061"
+          ]
+        },
+        {
+          "at": 139,
+          "relative": 4,
+          "composition": {
+            "320017": 1
+          },
+          "sources": [
+            "group:3001061"
+          ]
+        },
+        {
+          "at": 140.5,
+          "relative": 5.5,
+          "composition": {
+            "320017": 1
+          },
+          "sources": [
+            "group:3001061"
+          ]
+        },
+        {
+          "at": 142,
+          "relative": 7,
+          "composition": {
+            "320019": 1
+          },
+          "sources": [
+            "group:3001061"
+          ]
+        },
+        {
+          "at": 143.5,
+          "relative": 8.5,
+          "composition": {
+            "320019": 1
+          },
+          "sources": [
+            "group:3001061"
+          ]
+        }
+      ]
+    },
+    {
+      "wave": 8,
+      "nominalStart": 150,
+      "combatStart": 150,
+      "lastConfiguredSpawn": 169,
+      "scheduledWindow": 30,
+      "rawMissionRows": 12,
+      "spawnMoments": 11,
+      "configuredMonsterCount": 18,
+      "composition": {
+        "320005": 2,
+        "320030": 4,
+        "330006": 12
+      },
+      "specialMonsters": [],
+      "stopByEliteOrBossKilled": 0,
+      "waveAllExp": 950,
+      "waveStartSpecialUIType": [
+        1
+      ],
+      "waveEndSpecialUIType": [
+        4
+      ],
+      "missionEvents": [],
+      "timeline": [
+        {
+          "at": 150,
+          "relative": 0,
+          "composition": {
+            "320005": 1,
+            "320030": 1,
+            "330006": 3
+          },
+          "sources": [
+            "group:3001062",
+            "random:1001024",
+            "random:1001027"
+          ]
+        },
+        {
+          "at": 151.6,
+          "relative": 1.5999999999999943,
+          "composition": {
+            "320030": 1,
+            "330006": 1
+          },
+          "sources": [
+            "group:3001062",
+            "random:1001025"
+          ]
+        },
+        {
+          "at": 153,
+          "relative": 3,
+          "composition": {
+            "330006": 1
+          },
+          "sources": [
+            "random:1001028"
+          ]
+        },
+        {
+          "at": 153.2,
+          "relative": 3.1999999999999886,
+          "composition": {
+            "320030": 1,
+            "330006": 1
+          },
+          "sources": [
+            "group:3001062",
+            "random:1001026"
+          ]
+        },
+        {
+          "at": 154.8,
+          "relative": 4.800000000000011,
+          "composition": {
+            "320030": 1
+          },
+          "sources": [
+            "group:3001062"
+          ]
+        },
+        {
+          "at": 165,
+          "relative": 15,
+          "composition": {
+            "320005": 1,
+            "330006": 1
+          },
+          "sources": [
+            "direct:1001029",
+            "direct:1001030"
+          ]
+        },
+        {
+          "at": 165.8,
+          "relative": 15.800000000000011,
+          "composition": {
+            "330006": 1
+          },
+          "sources": [
+            "direct:1001031"
+          ]
+        },
+        {
+          "at": 166.6,
+          "relative": 16.599999999999994,
+          "composition": {
+            "330006": 1
+          },
+          "sources": [
+            "direct:1001032"
+          ]
+        },
+        {
+          "at": 167.4,
+          "relative": 17.400000000000006,
+          "composition": {
+            "330006": 1
+          },
+          "sources": [
+            "direct:1001033"
+          ]
+        },
+        {
+          "at": 168.2,
+          "relative": 18.19999999999999,
+          "composition": {
+            "330006": 1
+          },
+          "sources": [
+            "direct:1001034"
+          ]
+        },
+        {
+          "at": 169,
+          "relative": 19,
+          "composition": {
+            "330006": 1
+          },
+          "sources": [
+            "direct:1001035"
+          ]
+        }
+      ]
+    },
+    {
+      "wave": 9,
+      "nominalStart": 180,
+      "combatStart": 180,
+      "lastConfiguredSpawn": 180,
+      "scheduledWindow": 17,
+      "rawMissionRows": 2,
+      "spawnMoments": 1,
+      "configuredMonsterCount": 2,
+      "composition": {
+        "320017": 1,
+        "330006": 1
+      },
+      "specialMonsters": [],
+      "stopByEliteOrBossKilled": 0,
+      "waveAllExp": 1000,
+      "waveStartSpecialUIType": [
+        1
+      ],
+      "waveEndSpecialUIType": [
+        4
+      ],
+      "missionEvents": [],
+      "timeline": [
+        {
+          "at": 180,
+          "relative": 0,
+          "composition": {
+            "320017": 1,
+            "330006": 1
+          },
+          "sources": [
+            "direct:1001036",
+            "direct:1001037"
+          ]
+        }
+      ]
+    },
+    {
+      "wave": 10,
+      "nominalStart": 197,
+      "combatStart": 197,
+      "lastConfiguredSpawn": 225,
+      "scheduledWindow": 43,
+      "rawMissionRows": 10,
+      "spawnMoments": 9,
+      "configuredMonsterCount": 18,
+      "composition": {
+        "310008": 1,
+        "320017": 4,
+        "320019": 4,
+        "320021": 1,
+        "330006": 8
+      },
+      "specialMonsters": [
+        {
+          "entityId": 310008,
+          "type": 201,
+          "count": 1
+        }
+      ],
+      "stopByEliteOrBossKilled": 1,
+      "waveAllExp": 1100,
+      "waveStartSpecialUIType": [
+        1,
+        5
+      ],
+      "waveEndSpecialUIType": [
+        4
+      ],
+      "missionEvents": [],
+      "timeline": [
+        {
+          "at": 197,
+          "relative": 0,
+          "composition": {
+            "310008": 1,
+            "320021": 1
+          },
+          "sources": [
+            "direct:1001038",
+            "direct:1001039"
+          ]
+        },
+        {
+          "at": 200.5,
+          "relative": 3.5,
+          "composition": {
+            "320017": 1,
+            "330006": 1
+          },
+          "sources": [
+            "direct:1001040",
+            "random:1001040"
+          ]
+        },
+        {
+          "at": 204,
+          "relative": 7,
+          "composition": {
+            "320019": 1,
+            "330006": 1
+          },
+          "sources": [
+            "direct:1001041",
+            "random:1001041"
+          ]
+        },
+        {
+          "at": 207.5,
+          "relative": 10.5,
+          "composition": {
+            "320017": 1,
+            "330006": 1
+          },
+          "sources": [
+            "direct:1001042",
+            "random:1001042"
+          ]
+        },
+        {
+          "at": 211,
+          "relative": 14,
+          "composition": {
+            "320019": 1,
+            "330006": 1
+          },
+          "sources": [
+            "direct:1001043",
+            "random:1001043"
+          ]
+        },
+        {
+          "at": 214.5,
+          "relative": 17.5,
+          "composition": {
+            "320017": 1,
+            "330006": 1
+          },
+          "sources": [
+            "direct:1001044",
+            "random:1001044"
+          ]
+        },
+        {
+          "at": 218,
+          "relative": 21,
+          "composition": {
+            "320019": 1,
+            "330006": 1
+          },
+          "sources": [
+            "direct:1001045",
+            "random:1001045"
+          ]
+        },
+        {
+          "at": 221.5,
+          "relative": 24.5,
+          "composition": {
+            "320017": 1,
+            "330006": 1
+          },
+          "sources": [
+            "direct:1001046",
+            "random:1001046"
+          ]
+        },
+        {
+          "at": 225,
+          "relative": 28,
+          "composition": {
+            "320019": 1,
+            "330006": 1
+          },
+          "sources": [
+            "direct:1001047",
+            "random:1001047"
+          ]
+        }
+      ]
+    },
+    {
+      "wave": 11,
+      "nominalStart": 240,
+      "combatStart": 242,
+      "lastConfiguredSpawn": 248.1,
+      "scheduledWindow": 30,
+      "rawMissionRows": 5,
+      "spawnMoments": 4,
+      "configuredMonsterCount": 8,
+      "composition": {
+        "320019": 3,
+        "320021": 1,
+        "330006": 4
+      },
+      "specialMonsters": [],
+      "stopByEliteOrBossKilled": 0,
+      "waveAllExp": 1200,
+      "waveStartSpecialUIType": [
+        1
+      ],
+      "waveEndSpecialUIType": [
+        4
+      ],
+      "missionEvents": [
+        {
+          "at": 240,
+          "relative": 0,
+          "missionType": 9,
+          "rowId": 1001048
+        }
+      ],
+      "timeline": [
+        {
+          "at": 242,
+          "relative": 2,
+          "composition": {
+            "320021": 1
+          },
+          "sources": [
+            "direct:1001049"
+          ]
+        },
+        {
+          "at": 242.5,
+          "relative": 2.5,
+          "composition": {
+            "320019": 1,
+            "330006": 2
+          },
+          "sources": [
+            "direct:1001050",
+            "random:1001050"
+          ]
+        },
+        {
+          "at": 245.3,
+          "relative": 5.300000000000011,
+          "composition": {
+            "320019": 1,
+            "330006": 2
+          },
+          "sources": [
+            "direct:1001051",
+            "random:1001051"
+          ]
+        },
+        {
+          "at": 248.1,
+          "relative": 8.099999999999994,
+          "composition": {
+            "320019": 1
+          },
+          "sources": [
+            "direct:1001052"
+          ]
+        }
+      ]
+    },
+    {
+      "wave": 12,
+      "nominalStart": 270,
+      "combatStart": 270,
+      "lastConfiguredSpawn": 291,
+      "scheduledWindow": 30,
+      "rawMissionRows": 12,
+      "spawnMoments": 9,
+      "configuredMonsterCount": 21,
+      "composition": {
+        "320005": 1,
+        "320017": 2,
+        "320019": 1,
+        "320035": 2,
+        "330006": 15
+      },
+      "specialMonsters": [],
+      "stopByEliteOrBossKilled": 0,
+      "waveAllExp": 1200,
+      "waveStartSpecialUIType": [
+        1
+      ],
+      "waveEndSpecialUIType": [
+        4
+      ],
+      "missionEvents": [],
+      "timeline": [
+        {
+          "at": 270,
+          "relative": 0,
+          "composition": {
+            "320017": 1,
+            "330006": 2
+          },
+          "sources": [
+            "direct:1001053",
+            "random:1001053"
+          ]
+        },
+        {
+          "at": 272.7,
+          "relative": 2.6999999999999886,
+          "composition": {
+            "320035": 1,
+            "330006": 2
+          },
+          "sources": [
+            "direct:1001054",
+            "random:1001054"
+          ]
+        },
+        {
+          "at": 275.4,
+          "relative": 5.399999999999977,
+          "composition": {
+            "320017": 1
+          },
+          "sources": [
+            "direct:1001055"
+          ]
+        },
+        {
+          "at": 278.1,
+          "relative": 8.100000000000023,
+          "composition": {
+            "320035": 1,
+            "330006": 2
+          },
+          "sources": [
+            "direct:1001056",
+            "random:1001056"
+          ]
+        },
+        {
+          "at": 280.8,
+          "relative": 10.800000000000011,
+          "composition": {
+            "320019": 1
+          },
+          "sources": [
+            "direct:1001057"
+          ]
+        },
+        {
+          "at": 285,
+          "relative": 15,
+          "composition": {
+            "320005": 1,
+            "330006": 3
+          },
+          "sources": [
+            "direct:1001058",
+            "direct:1001059",
+            "random:1001062"
+          ]
+        },
+        {
+          "at": 288,
+          "relative": 18,
+          "composition": {
+            "330006": 3
+          },
+          "sources": [
+            "direct:1001060",
+            "random:1001060"
+          ]
+        },
+        {
+          "at": 290,
+          "relative": 20,
+          "composition": {
+            "330006": 2
+          },
+          "sources": [
+            "random:1001064"
+          ]
+        },
+        {
+          "at": 291,
+          "relative": 21,
+          "composition": {
+            "330006": 1
+          },
+          "sources": [
+            "direct:1001061"
+          ]
+        }
+      ]
+    },
+    {
+      "wave": 13,
+      "nominalStart": 300,
+      "combatStart": 300,
+      "lastConfiguredSpawn": 311.5,
+      "scheduledWindow": 15,
+      "rawMissionRows": 4,
+      "spawnMoments": 4,
+      "configuredMonsterCount": 4,
+      "composition": {
+        "320017": 1,
+        "330006": 3
+      },
+      "specialMonsters": [],
+      "stopByEliteOrBossKilled": 0,
+      "waveAllExp": 1400,
+      "waveStartSpecialUIType": [
+        1
+      ],
+      "waveEndSpecialUIType": [
+        4
+      ],
+      "missionEvents": [],
+      "timeline": [
+        {
+          "at": 300,
+          "relative": 0,
+          "composition": {
+            "320017": 1
+          },
+          "sources": [
+            "direct:1001065"
+          ]
+        },
+        {
+          "at": 301.5,
+          "relative": 1.5,
+          "composition": {
+            "330006": 1
+          },
+          "sources": [
+            "direct:1001066"
+          ]
+        },
+        {
+          "at": 306.5,
+          "relative": 6.5,
+          "composition": {
+            "330006": 1
+          },
+          "sources": [
+            "direct:1001067"
+          ]
+        },
+        {
+          "at": 311.5,
+          "relative": 11.5,
+          "composition": {
+            "330006": 1
+          },
+          "sources": [
+            "direct:1001068"
+          ]
+        }
+      ]
+    },
+    {
+      "wave": 14,
+      "nominalStart": 315,
+      "combatStart": 315,
+      "lastConfiguredSpawn": 334,
+      "scheduledWindow": 30,
+      "rawMissionRows": 8,
+      "spawnMoments": 7,
+      "configuredMonsterCount": 8,
+      "composition": {
+        "320017": 2,
+        "320019": 2,
+        "320021": 1,
+        "330006": 3
+      },
+      "specialMonsters": [],
+      "stopByEliteOrBossKilled": 0,
+      "waveAllExp": 1700,
+      "waveStartSpecialUIType": [
+        1
+      ],
+      "waveEndSpecialUIType": [
+        4
+      ],
+      "missionEvents": [],
+      "timeline": [
+        {
+          "at": 315,
+          "relative": 0,
+          "composition": {
+            "320019": 1,
+            "320021": 1
+          },
+          "sources": [
+            "direct:1001069",
+            "direct:1001070"
+          ]
+        },
+        {
+          "at": 317,
+          "relative": 2,
+          "composition": {
+            "320017": 1
+          },
+          "sources": [
+            "direct:1001071"
+          ]
+        },
+        {
+          "at": 319,
+          "relative": 4,
+          "composition": {
+            "320019": 1
+          },
+          "sources": [
+            "direct:1001072"
+          ]
+        },
+        {
+          "at": 321,
+          "relative": 6,
+          "composition": {
+            "320017": 1
+          },
+          "sources": [
+            "direct:1001073"
+          ]
+        },
+        {
+          "at": 330,
+          "relative": 15,
+          "composition": {
+            "330006": 1
+          },
+          "sources": [
+            "direct:1001074"
+          ]
+        },
+        {
+          "at": 332,
+          "relative": 17,
+          "composition": {
+            "330006": 1
+          },
+          "sources": [
+            "direct:1001075"
+          ]
+        },
+        {
+          "at": 334,
+          "relative": 19,
+          "composition": {
+            "330006": 1
+          },
+          "sources": [
+            "direct:1001076"
+          ]
+        }
+      ]
+    },
+    {
+      "wave": 15,
+      "nominalStart": 345,
+      "combatStart": 347,
+      "lastConfiguredSpawn": 347,
+      "scheduledWindow": null,
+      "rawMissionRows": 2,
+      "spawnMoments": 1,
+      "configuredMonsterCount": 1,
+      "composition": {
+        "340002": 1
+      },
+      "specialMonsters": [
+        {
+          "entityId": 340002,
+          "type": 3,
+          "count": 1
+        }
+      ],
+      "stopByEliteOrBossKilled": 1,
+      "waveAllExp": 2000,
+      "waveStartSpecialUIType": [
+        1,
+        2
+      ],
+      "waveEndSpecialUIType": [],
+      "missionEvents": [
+        {
+          "at": 345,
+          "relative": 0,
+          "missionType": 9,
+          "rowId": 1001077
+        },
+        {
+          "at": 347,
+          "relative": 2,
+          "missionType": 2,
+          "rowId": 1001078
+        }
+      ],
+      "timeline": [
+        {
+          "at": 347,
+          "relative": 2,
+          "composition": {
+            "340002": 1
+          },
+          "sources": [
+            "direct:1001078"
+          ]
+        }
+      ]
+    }
+  ]
+}
