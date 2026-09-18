@@ -1,176 +1,236 @@
-# 三选一随机机制：技能类型权重与 Build 收敛性
-
-> 研究对象：客户端 1.0.16 / versionCode 40。结论基于静态配置、C# 结构和 IL2CPP ARM64 native。当前没有运行线上热更新，因此“APK fallback 实现”与“线上实际热修实现”必须分开描述。
+# 三选一随机机制：品质池、候选合法性与 Build 收敛
 
 ## 当前结论
 
-三选一并不是一个简单的“从所有技能里等概率抽 3 个”。客户端存在完整的加权随机容器 `WeightRandom`，每个候选项有权重，抽取时按总权重做随机区间命中；技能还带前置、排斥、升级分支等规则，候选池会随玩家已经学会的技能发生变化。
+普通主线升级的三选一已经可以还原到比“加权随机”更具体的一层。
 
-但此前最值得怀疑的那条机制——**“学了某一 SkillType 后，该类型后续出现率每次 +50%，最多 +500%”**——目前必须做一个重要修正：
+主线每次升级明确需要给出 3 个候选，配置 `MainChapterRandomSkillCount = 3`。普通技能品质权重是 `RandomSkillWeight = {40,40,20,0}`，但这四个权重**不是三张牌分别独立掷一次品质**。客户端会先为本次整组三选一只做一次品质抽取，得到一个起始品质档，然后优先从这个品质档对应的 `WeightRandom` 池中一次抽满 3 张；只有该品质池当前合法候选不足 3 张时，才按后续品质池轮转补齐。
 
-> **配置和计算骨架已经被完整写进客户端，但 APK 自带的 native fallback 并没有真正执行这一步权重调整。**
+因此一次三选一通常会呈现明显的“整组同品质”倾向，而不是三张牌的品质完全独立。如果抽中的品质档候选不足，才会混入其他品质。
 
-也就是说，现阶段可以证明“设计上准备了同类型 Build 收敛权重”，却不能证明“1.0.16 APK 的基线逻辑里它实际生效”。它可能是未启用/遗留机制，也可能依赖运行时热修覆盖；在拿到线上热更实现或做实机统计前，不能把它写成已生效规则。
+刷新也不是重新完整抽一次：`GetRandomSkills` 在 `isRefresh=true` 时会复用上一次保存的品质索引，因此**刷新保留品质档，只重抽该档及其补位结果**。若 `qualityUp=true`，则会把本次选中的品质索引向上提升一档后再抽。
 
-## 一、基础抽取确实是加权随机，不是等概率
+普通主线还存在一个独立的“初始技能池”机制。运行时检查 `BattleData.InitSkillGroupCount`；计数大于 0 时使用 `_initRandoms`，完成抽取后计数减 1，否则使用普通 `DefaultRandoms`。配置 `UseInitSkillGroupCout = 1`，从策划意图上对应“首轮使用一次定制初始池，之后转普通池”。当前静态证据已经证明计数消费逻辑和配置值，但尚未补齐“战斗初始化时把这个 Const 写入 BattleData”的直接 native 调用，因此这里仍保留一层证据边界。
 
-`WeightRandom` 保存：
+另一个重要修正是：`Exp_exp.randomSkillFactor = [1/2,40,40,20]` **不是普通主线三选一的品质权重**。普通分支在 `HeroComponentRandomSkill.GetNormalSkill` 中使用的是 `Const.RandomSkillWeight`，并把 `randomSkillFactor` 以 null 传入；`Exp_exp.randomSkillFactor` 只在 Danke/特殊技能路径中被读取。不能再用这四个数解释普通三选一的槽位构成。
 
-- 当前候选数量；
-- 所有候选的 `WeightRandomData`；
-- 所有候选当前权重之和 `_allWeight`。
+最后，客户端确实设计了“同 SkillType 越学越增权”的动态 Build 收敛模型：每学一个同类型技能计划 +50%，最高 +500%。但当前 1.0.16 APK fallback 中，负责把这个增量真正写回组内候选的 `AdjustWeightsForSkillGroup` 是空实现。因此这套机制的**公式与设计意图已证实，APK 基线实际生效未证实**；线上热修若覆盖该函数，则可能启用。
 
-`WeightRandom.GetRandom` 会先在总权重范围内取随机数，再逐项减去候选的实际权重，落在哪个区间就返回哪个技能 ID。这个结构本身已经足够证明三选一底层是**权重随机**。
+## 一、普通三选一不是三张牌各自独立抽品质
 
-`RecalculateAllWeight` 会重新遍历所有候选，把每个 `WeightRandomData.Weight()` 累加回 `_allWeight`。因此候选权重一旦发生变化，后续随机概率会真实改变。
+关键常量来自 `Consts_Const`：
 
-客户端还实现了 `BoostWeightByPercent(id, percent)` 和 `RevertWeightBoost(id, increment)`：前者按 `BaseWeight × percent / 100` 算出整数增量，临时加到候选基础权重并同步更新总权重；后者再把同一增量撤销。这说明“临时提高某个候选的命中概率”是底层抽取器确实支持并执行的能力。它和上面的 SkillType 动态百分比是两套不同层次的机制：前者在 APK fallback 中有真实实现，后者的组级写回则停在空函数。
+| 配置 | 值 | 含义 |
+|---|---:|---|
+| MainChapterRandomSkillCount | 3 | 主线升级一次给 3 个技能 |
+| SkillQualityCount | 4 | 4 个品质档 |
+| RandomSkillWeight | 40 / 40 / 20 / 0 | 普通技能品质权重 |
+| UseInitSkillGroupCout | 1 | 初始技能库使用次数 |
 
-## 二、候选池会随已学技能变化，因此 Build 本身并非完全无记忆
+`HeroComponentRandomSkill.GetNormalSkill` 在普通模式下会先把 `Const.RandomSkillWeight` 复制到自己的 `_skillWeights`，然后把这组权重交给 `SinglePlayerSkillCreator.GetNormalSkill`，最终进入 `HeroSkillCreator.GetRandomSkills`。
 
-`HeroComponentRandomSkill` 会维护两份关键状态：
+`GetRandomSkills` 的 fallback 逻辑非常明确：
 
-- 每个 SkillType 包含哪些技能；
-- 每个 SkillType 当前已经学习了多少个技能。
+1. 先把当前 4 个品质权重求和；
+2. 只进行一次随机数抽取，决定一个起始品质索引；
+3. 若 `qualityUp=true` 且还未到最高档，则把该索引 +1；
+4. 从这个品质对应的 `WeightRandom` 中尽量抽够本次所需数量；
+5. 如果候选不足，则按 `(起始品质 + i) % 品质数量` 轮转到后续品质池继续补；
+6. 已经进入结果列表的技能会参与排重，不能在同一次三选一中重复出现。
 
-`GroupSkillsByType` 会遍历可用技能，并按照技能类型建立分组；`UpdateLearnedSkillCount` 在学到技能时对对应类型计数 +1，移除技能时也有对应的递减逻辑。
+所以普通三选一的真实模型更接近：
 
-与此同时，`WeightRandom` 本身存在独立的候选重建函数：
+`抽一次整组品质 → 该品质池内按技能权重抽 3 张 → 不足再跨品质池补位`
 
-- `GetAlreadyStudySkill`
-- `GetReadyStudySkill`
-- `GetOneStarSkill`
-- `RandomOneSubSkillByParent`
+而不是：
 
-这些函数会读取技能配置、当前权重、最大星级、升级分支、前置技能与排斥关系，再重新构造可抽候选。虽然当前静态调用链里部分调用经过间接分发，尚未把“三张牌分别优先占几个槽”的完整顺序还原出来，但至少可以确定：**抽取池不是每次从固定全集重新等概率抽取，而是会根据已学状态和技能进阶关系变化。**
+`第1张抽品质 → 第2张抽品质 → 第3张抽品质`
 
-因此，即便下面讨论的“同类型额外增权”在 APK fallback 中没有落地，Build 仍可能因为“已有技能升级、前置解锁、分支技能、排斥关系”自然出现一定程度的连续性。
+这是一个很重要的策划差异。前者会让一次三选一的品质表现更“成组”，同时还能通过品质池容量自然产生混合结果。
 
-进一步读 `GetAlreadyStudySkill / GetReadyStudySkill / GetOneStarSkill / RandomOneSubSkillByParent` 可以确认，候选池至少存在几类明确的结构化子池，而不是把所有合法技能混成一桶：
+## 二、刷新保留品质，品质提升直接推高整组三选一档位
 
-- `GetAlreadyStudySkill` 从当前抽取器中重新筛出已经进入玩家 Build、仍可继续成长的技能，并重新按原权重加入临时池；达到最大星级的项目不会继续作为普通升级项无限出现。
-- `GetReadyStudySkill` 筛出尚未正式进入 Build、但前置/可学习条件已经满足的技能。
-- `GetOneStarSkill` 单独构造一星/起始层候选，用于给玩家开启新的成长线。
-- `RandomOneSubSkillByParent` 在父技能存在多个可升级分支时，不是把所有子技能同时塞进最终结果，而是先检查分支是否可学、是否被禁用/重复，再从合法子分支中抽一个。
+`HeroSkillCreator.GetRandomSkills` 接收一个 `ref randomIndex`。
 
-因此三选一的“续已有 Build”和“开新 Build”并不是只靠动态权重完成的；**候选池结构本身就在主动区分已有成长线、可开启新线和分支升级。** 目前还没有把三张牌各自固定占几个槽完全还原，所以不能写成“必定一张旧技能 + 两张新技能”这类过度结论。
+正常首次抽取时，它会按照 `skillWeights` 重新随机品质，并把结果写回 `randomIndex`。但 `isRefresh=true` 时，不重新做这次品质骰，而是直接复用此前保存的 `randomIndex`。
 
-## 三、配置明确准备了“同类型越学越容易出”的参数
+因此刷新本质上是“在相同品质框架下重抽候选”，而不是重新购买一次完整的品质概率。
 
-`Skill_SkillTypeWeight` 一共 24 行，其中有效 SkillType（1、100～120）全部使用同一组参数：
+`qualityUp` 也不是把单张牌变高品质，而是在初始品质抽出后，如果还有上升空间，直接把整组起始品质提高一档。随后同样从这个提高后的品质池中尽量抽满 3 张。
 
-| 参数 | 配置值 | native 运行值 |
-|---|---:|---:|
-| AddWeightPerSkill | 50 | 0.5 |
-| AddWeightMax | 500 | 5.0 |
+这意味着游戏可以把“刷新”和“品质提升”设计成两种非常不同的玩家预期：
 
-两个 `id=0` 的占位行是 0/0。
+- 刷新：换牌，但大体保持这轮品质；
+- 品质提升：直接抬高整组三选一的品质起点。
 
-`HeroComponentRandomSkill.GetDeltaWeightPercent(skillType)` 的 native 实现会：
+## 三、每个品质档本身都是独立的加权候选池
 
-1. 根据 SkillType 取得 `Skill_SkillTypeWeight`；
-2. 读取该类型当前已学习数量；
-3. 把 `AddWeightPerSkill` 从整数百分制转成 FP；
-4. 计算“已学数量 × 单个增量”；
-5. 再和 `AddWeightMax` 比较取较小值。
+`HeroSkillCreator.AddSkillGroupToNormalRandom` 会读取 `Skill_Main.Quality`，把 `Quality - 1` 转成对应的品质索引，并将技能加入该索引下的 `WeightRandom`。
 
-因此公式可以直接还原为：
+所以 `DefaultRandoms` 和 `_initRandoms` 都不是“已学技能池 / 新技能池”这样的三槽结构，而是**按品质切分的 WeightRandom 数组**。
+
+进入某个品质池之后，底层 `WeightRandom.GetRandom` 才根据每个候选自己的权重做加权随机。也就是说抽取至少分两级：
+
+`品质权重`
+→ 选定起始品质池
+→ `技能自身权重`
+→ 从该品质池中选具体技能
+
+这也解释了为什么同一品质内仍然可以有明显不同的出现频率。
+
+## 四、候选池会根据已学技能、前置和升级分支动态变化
+
+品质只决定“去哪个池抽”，但池里当前有哪些合法技能，会随 Build 状态变化。
+
+客户端存在并实际使用的候选处理能力包括：
+
+- 已学习技能继续升级；
+- 尚未学习但已经满足前置条件的技能进入候选；
+- 一星/起始技能作为新成长线；
+- 达到最大星级后不再继续作为普通升级项；
+- 排斥技能、NeedSkill、SkillFlag 等条件过滤；
+- 一个父技能存在多个子升级分支时，通过 `RandomOneSubSkillByParent` 在当前合法分支中只随机一个，而不是把所有分支同时塞进三选一。
+
+`WeightRandom.GetRandomCount` 还会把本次已经抽到的结果作为排重条件继续抽取，所以同一张卡不会在同一组三选一里重复占位。
+
+因此 Build 收敛首先来自**候选合法性变化**，并不依赖“同类型增权”才能成立。玩家学到一个技能后，升级链、前置解锁和分支结构都会改变后续池子的组成。
+
+## 五、首轮存在独立 Init 池
+
+`HeroSkillCreator` 同时维护：
+
+- `_initRandoms`
+- `DefaultRandoms`
+
+`SinglePlayerSkillCreator.GetNormalSkill` 默认先取 `DefaultRandoms`。但如果 `BattleData.InitSkillGroupCount >= 1`，就切换到 `_initRandoms`，并在本次抽取前把该计数减 1。
+
+配置里恰好有：
+
+`UseInitSkillGroupCout = 1`
+
+因此从设计结构看，游戏明确准备了一次“初始技能组专用抽取”，之后才进入长期普通池。这种机制非常适合控制第一轮三选一：既可以让玩家较快拿到可用主技能，也能减少开局抽到意义不大的进阶项。
+
+需要保留的证据边界是：当前已确认运行时消费 `BattleData.InitSkillGroupCount`，也确认 Const 配置值为 1；但还没有从当前保存的 native 证据中找到初始化阶段“把 Const.UseInitSkillGroupCout 写入 BattleData”的直接调用。因此最终正文可以写“首轮定制池机制存在、配置为一次”，不要写成“已完整证明初始化赋值链”。
+
+## 六、新手保护是真正生效的临时概率修正
+
+相比同 SkillType 动态增权，新手保护的 native fallback 是完整的。
+
+配置：
+
+- `NewPlayerProtect_SkillDefault = 10000101`
+- `NewPlayerProtect_SkillDefault_SkillUp = {"10000101|10","10000601|10","10001701|10"}`
+
+当满足前期保护条件、且玩家还没有目标默认技能时，`SinglePlayerSkillCreator.GetNormalSkill` 会解析这组 `技能ID|百分比`，遍历当前品质随机池，对对应技能调用：
+
+`WeightRandom.BoostWeightByPercent(skillId, percent)`
+
+这里 10 就是临时 +10% 基础权重。抽取完成后，客户端记录每次真实增加的整数权重，并逐条调用：
+
+`RevertWeightBoost(skillId, increment)`
+
+把权重恢复。
+
+所以这是非常明确的“只影响这一轮抽取”的保护机制，不会永久污染后续权重。
+
+从策划角度看，这说明游戏的随机并非追求纯随机，而是允许为了前期体验对特定核心技能做轻量保底倾斜。
+
+## 七、Exp_exp.randomSkillFactor 不属于普通主线三选一
+
+`Exp_exp.randomSkillFactor` 的前几级形如：
+
+- Lv1：[2,40,40,20]
+- Lv2：[1,40,40,20]
+- Lv3：[2,40,40,20]
+- Lv4：[1,40,40,20]
+
+它很容易被误解成“普通三选一的四类槽位权重”，但 native 调用链否定了这个解释。
+
+普通主线 `HeroComponentRandomSkill.GetNormalSkill`：
+
+- 使用 `Const.RandomSkillWeight`；
+- 将 `randomSkillFactor` 参数置为 null；
+- 再进入普通 `SinglePlayerSkillCreator.GetNormalSkill`。
+
+只有 Danke/特殊技能分支会读取当前等级对应的 `Exp_exp.randomSkillFactor` 并传给技能创建器。
+
+因此当前可以确定：
+
+**普通主线品质权重 = 40 / 40 / 20 / 0。**
+
+而 `Exp_exp.randomSkillFactor` 属于特殊技能路径，具体四个数在 Danke 机制里各自代表什么，还需要单独继续拆，不能混入普通三选一结论。
+
+## 八、同 SkillType 动态增权：公式成立，但 APK fallback 未落地
+
+`Skill_SkillTypeWeight` 中有效 SkillType 基本统一为：
+
+- `AddWeightPerSkill = 50`
+- `AddWeightMax = 500`
+
+`HeroComponentRandomSkill.GetDeltaWeightPercent(skillType)` 会按照当前已学习的同类型技能数计算：
 
 `delta = min(learnedCount × 0.5, 5.0)`
 
-底层 `WeightRandomData` 还保存了这个动态百分比字段，实际权重计算逻辑是：
+底层 `WeightRandomData` 的实际权重结构也支持：
 
 `PracticalWeight = BaseWeight × (1 + delta)`
 
-所以如果这条动态写回链在热修层被启用，那么同类型已学 1 / 2 / 3 个时，组内每个候选会分别以自身基础权重的 1.5 / 2.0 / 2.5 倍参与抽取；达到 10 个同类型技能后封顶为 6.0 倍。它是对每张卡自身基础权重的乘法，不会抹平组内原本的稀有度差异。
+如果机制启用，则理论效果为：
 
-如果按策划百分比理解，就是：
+| 同类型已学数量 | 计划动态增权 | 实际权重倍率 |
+|---:|---:|---:|
+| 0 | 0% | ×1.0 |
+| 1 | +50% | ×1.5 |
+| 2 | +100% | ×2.0 |
+| 3 | +150% | ×2.5 |
+| 5 | +250% | ×3.5 |
+| 10+ | +500% | ×6.0 |
 
-| 同类型已学数量 | 计划增权 |
-|---:|---:|
-| 0 | 0% |
-| 1 | +50% |
-| 2 | +100% |
-| 3 | +150% |
-| 5 | +250% |
-| 10 及以上 | +500% 封顶 |
+问题仍然出在最后一步。
 
-这不是“看到两个字段名以后猜的”，而是 native 已经实际把两个参数做了乘法和封顶运算。
-
-## 四、但真正写回组权重的函数，在 APK fallback 中是空实现
-
-关键函数是：
-
-`HeroComponentRandomSkill.AdjustWeightsForSkillGroup(int skillType, FP delta)`
-
-它的结构正是理论上应该把上一步算出的 `delta` 应用到该 SkillType 组内候选的位置。
-
-调用链也已经坐实：
+调用链已经存在：
 
 `AddSkill`
-→ `UpdateLearnedSkillCount(skillType)`
-→ `GetDeltaWeightPercent(skillType)`
-→ `AdjustWeightsForSkillGroup(skillType, delta)`
+→ `UpdateLearnedSkillCount`
+→ `GetDeltaWeightPercent`
+→ `AdjustWeightsForSkillGroup`
 
-移除技能时也存在对应路径：
+但 `AdjustWeightsForSkillGroup` 的 RVA `0x686A17C` 在当前 APK fallback 中直接返回，没有遍历技能组，也没有调用已经存在的 `WeightRandom.UpdateWeightPercent`。
 
-`RemoveSkillInSTG`
-→ 更新已学状态
-→ `GetDeltaWeightPercent(skillType)`
-→ `AdjustWeightsForSkillGroup(skillType, delta)`
+因此最准确的结论仍然是：
 
-问题在于，`AdjustWeightsForSkillGroup` 的 APK native fallback 在进入实际方法体后**直接恢复寄存器并返回**，没有读取技能分组，没有遍历候选，也没有调用 `WeightRandom.UpdateWeightPercent`。
+> 客户端已经设计并计算了“同类型越学越容易出”的 +50%/次、+500% 封顶模型，但 1.0.16 APK 基线中负责应用它的 fallback 是空实现。它可能是 dormant/遗留逻辑，也可能依赖运行时热修覆盖；在拿到线上热修或实机统计前，不能作为已生效规则写死。
 
-它只保留了 IL2CPP/热修分发入口：RVA `0x686A17C` 在未命中热修分发时直接恢复寄存器并 `ret`；如果运行时方法被热修替换，才跳到外部实现。也就是说，如果没有热修，这一步确实什么也不做。
+## 九、策划视角下，当前三选一可以还原成什么
 
-这点非常关键，因为客户端其实已经存在一个真正能完成这件事的底层函数：
+普通主线的一次成长选择，可以暂时还原为：
 
-`WeightRandom.UpdateWeightPercent(int[] skillIds, FP value)`
+`波末达到升级条件`
+→ 使用普通池或一次性的 Init 池
+→ 根据 40 / 40 / 20 / 0 **只抽一次整组品质**
+→ 若有 QualityUp，则品质上移一档
+→ 进入该品质的加权技能池
+→ 按当前已学状态 / 前置 / 排斥 / 升级分支过滤合法候选
+→ 从池内按技能自身权重无重复抽取
+→ 尽量拿满 3 张
+→ 当前品质不足 3 张时轮转其他品质补齐
+→ 展示三选一
+→ 玩家选择并改变后续候选池结构
 
-这个函数会遍历当前候选，在技能 ID 命中传入数组时，把对应 `WeightRandomData` 的权重百分比字段更新成传入值。也就是说，“按技能组批量改权重”的底层基础设施已经写好了。
+其中还叠加两种概率修正：
 
-但在当前保存的 `HeroComponentRandomSkill.asm` 中，没有发现由该类型调整路径直接调用 `WeightRandom.UpdateWeightPercent`；负责把“技能类型 → 一组技能 ID → delta”连起来的正好就是那个空的 `AdjustWeightsForSkillGroup`。
+第一种是**已经确认实际工作的短期修正**：前期新手保护会临时给特定核心技能 +10%，抽完立即撤销。
 
-所以证据链停在了最后一步。换句话说，`UpdateLearnedSkillCount` 确实执行了“计数 +1 → `GetDeltaWeightPercent` → 调用 `AdjustWeightsForSkillGroup`”，但 APK fallback 到这里就断了，不能把“函数被调用”误写成“权重已实际修改”。
+第二种是**已经确认设计但 APK fallback 未落地的长期修正**：按已学习 SkillType 数量给同类技能 +50%/个、最高 +500%。
 
-## 五、这意味着什么
+这比最初“已有 Build 会不会因为同类型权重越来越高而自然成型”的假设更完整。当前版本即使不依赖那条 dormant 动态增权，也已经通过“初始池 + 品质整组抽取 + 合法候选重构 + 前置/升级链 + 新手保护”对随机结果进行了相当多的结构化控制。
 
-目前最准确的策划表述不是：
+## 十、还需要继续验证什么
 
-> 学某一类技能后，该类技能会越来越容易抽到。
+普通主线三选一的核心框架已经基本够写入《局内核心循环反拆》。剩下优先级最高的未决点只有三类：
 
-而应该改成：
+1. 找到 `BattleData.InitSkillGroupCount` 初始化赋值链，彻底坐实 `UseInitSkillGroupCout=1` 与首轮 Init 池的直接连接。
+2. 识别 `HeroComponentRandomSkill.GetNormalSkill` 中会同时放大第 2、3 个品质权重的那个战斗属性，解释哪些 Buff/角色能力会改变 40/40/20 的品质分布。
+3. 如果要研究特殊技能系统，再单独拆 Danke 路径中的 `Exp_exp.randomSkillFactor`；它不应继续阻塞普通主线核心循环报告。
 
-> 客户端设计了一套“按已学习 SkillType 数量提高同类技能权重”的 Build 收敛机制：每学一个同类技能计划增加 50% 权重，最高 +500%。但 1.0.16 APK 中负责把该增量应用到实际抽取池的 native fallback 是空实现，因此静态客户端只能证明机制意图和参数，不能证明该增权在线上实际生效。
-
-这是一个很有价值的反拆结果，因为它能避免把“配置里存在一套漂亮参数”误写成“玩家实际一定受到这套参数影响”。
-
-## 六、目前可以确定的三选一结构
-
-把“已证实”和“待验证”分开后，三选一可以暂时画成：
-
-`当前已学技能状态`
-→ 根据前置 / 排斥 / 升级分支等规则整理候选
-→ 候选保留各自基础权重
-→ `WeightRandom` 按权重抽取
-→ 处理重复、分支子技能和三张牌填充
-→ 玩家选择
-→ 更新已学技能与类型计数
-→ **计算同类型增权 delta**
-→ **[APK fallback：未实际应用；运行时热修待验证]**
-
-因此目前已经能确定两层“让 Build 更容易成型”的来源：
-
-第一层是**规则型收敛**：学过的技能会进入升级/分支体系，前置技能解锁后续，互斥技能被排除，候选池不是固定全集。
-
-第二层是**概率型收敛的设计骨架**：客户端准备了同类型 +50%/次、+500% 封顶的增权模型，但是否在线上真正启用仍待验证。
-
-## 七、下一步需要继续验证的点
-
-接下来最值得追的不是继续读配置，而是两件事。
-
-第一，继续把 `RandomSkill → GetNormalSkill` 之后的间接调用还原，确定三张牌在“已学可升级 / 已满足前置 / 一星新技能 / 父技能分支”之间有没有固定槽位、优先级或比例。这样才能真正解释玩家为什么经常看到“续已有 Build”和“开新 Build”同时出现。
-
-第二，如果能取得实际运行时热修或做足够大的实机抽样，再验证 `AdjustWeightsForSkillGroup` 是否被线上实现覆盖。若线上没有覆盖，那么 +50%/+500% 这组配置就是当前版本里的 dormant/遗留机制；若线上覆盖，则可以进一步还原真实的组内增权算法。
-
-在此之前，最终《局内核心循环反拆》里应该把“同类技能动态增权”标成**机制意图已证实、实际生效待验证**，而不能作为确定规则写进正文。
+对于最终策划报告而言，现在已经可以把普通主线三选一写成确定规则；只有“同 SkillType 动态增权是否线上启用”需要继续标成待验证。
