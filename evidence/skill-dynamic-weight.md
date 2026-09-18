@@ -54,3 +54,24 @@ delta(type) = min(learnedCount(type) × 50%, 500%)
 可能性包括：该功能被废弃/暂时关闭，或者线上运行时 hotfix 覆盖了 `AdjustWeightsForSkillGroup`。由于本轮没有下载线上热更，也没有实机统计，不应把“已有 Build 会实际提高同类出现率”写成确定规则。
 
 这条反证非常重要：它把“设计意图”和“当前静态 APK 能证明的运行行为”分开，避免策划报告把未生效逻辑写死。
+
+## 补充：底层动态百分比的实际数学含义
+
+`WeightRandom.UpdateWeightPercent(skillIds, value)`（RVA `0x66327C4`）会遍历池内候选，只对ID命中 `skillIds` 的 `WeightRandomData` 写入动态百分比字段。
+
+`WeightRandomData.PracticalWeight`（RVA `0x6632120`）随后按Q16定点数直接计算：
+
+```text
+PracticalWeight = BaseWeight × (1 + DeltaWeightPercent)
+```
+
+因此如果运行时HotFix真的实现了 `AdjustWeightsForSkillGroup` 并把 `GetDeltaWeightPercent` 的结果写入同类型候选，那么默认配置并非“最多变成5倍”，而是：
+
+- 学1个同类型：delta=0.5 → 实际1.5倍；
+- 学2个同类型：delta=1.0 → 实际2.0倍；
+- 学5个同类型：delta=2.5 → 实际3.5倍；
+- 学10个及以上：delta=5.0封顶 → 实际6.0倍。
+
+这进一步说明该系统若在线上被启用，会是很强的Build收敛器，而不是轻微的概率修饰。
+
+但证据边界不变：当前1.0.16 APK静态fallback中的 `AdjustWeightsForSkillGroup` 仍为空，因此这里证明的是“底层能力 + 精确数学结果”，不是“主线当前一定已调用”。
