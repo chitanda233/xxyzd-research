@@ -18,7 +18,8 @@
     "configuredBossSpawnSeconds": 347,
     "experienceModel": "Chapter 1 WaveAllExp exactly matches consecutive Exp_exp.waveExp threshold deltas.",
     "randomSpawnSemantics": "numberRandom is the total emitted entity target for a mission instruction, not a multiplier applied independently to every randomMonster config.",
-    "gateModel": "Only waves 10 and 15 have StopByEliteOrBossKilled=1. Wave 5 is a special-UI/event crest but not a kill gate."
+    "gateModel": "Only waves 10 and 15 have StopByEliteOrBossKilled=1. Wave 5 is a special-UI/event crest but not a kill gate.",
+    "regularWaveEndGrowth": "Static APK evidence clearly supports normal wave-end growth processing for W1-W14 because WaveEndSpecialUIType=[4]. W15 has no WaveEndSpecialUIType, so its 2000 EXP budget must not be mechanically counted as a guaranteed 15th normal three-choice selection."
   },
   "waves": [
     {
@@ -521,7 +522,9 @@
       1700,
       2000
     ],
-    "exactMatch": true
+    "exactMatch": true,
+    "regularWaveEndGrowthNodes": 14,
+    "wave15Caveat": "Wave 15 still matches the next cumulative EXP threshold delta, but lacks the normal wave-end UI path; treat it as terminal EXP/settlement budget unless runtime evidence shows a post-boss selection."
   },
   "evidence": {
     "waveEndUpgrade": "evidence/waterfall-wave-end-upgrade.md",
