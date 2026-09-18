@@ -85,11 +85,25 @@ QueueSelectSkill
 
 遍历技能数据，把技能 ID 按 `Skill_Main` 偏移 0x68（即 SkillType）分组到 `_skillGroupsByType`，并初始化 `_learnedSkillCountsByType`。这直接证明动态学习计数的粒度是 SkillType，而不是 BattleSkillGroup。
 
-### UpdateLearnedSkillCount / AddSkill / RemoveSkill
+### AddSkill / UpdateLearnedSkillCount / RemoveSkillInSTG
 
-每次技能加入或移除都会取技能的 SkillType，并更新对应类型计数，随后重新计算/调整权重。因此这个修正会跟着当前 Build 变化，而不是首抽时一次性确定。
+来源：`HotFix.BattleLogic.HeroComponentRandomSkill.asm`。
 
-### GetDeltaWeightPercent
+关键 RVA：
+
+- `AddSkill(Skill_Main)`：0x686A53C
+- `UpdateLearnedSkillCount`：0x686AEF4
+- `RemoveSkillInSTG(Skill_Main)`：0x6869554
+- `DecreaseLearnedSkillCount`：0x6869D14
+- `AdjustWeightsForSkillGroup`：0x686A17C
+
+STG 的 AddSkill 在读到 SkillType 后，**无条件先把该类型计数 +1**，之后才更新技能记录、Need/Reject/Flag，并用新的计数调用 GetDeltaWeightPercent → AdjustWeightsForSkillGroup。普通 AddSkill 内没有因为 CoverSkill 自动把旧节点的类型计数减回去。
+
+RemoveSkillInSTG 则做相反操作：先按 SkillType 调用 DecreaseLearnedSkillCount，再更新技能记录并重新计算该类型权重。
+
+因此 `_learnedSkillCountsByType` 更接近“该类型累计加入了多少次技能节点，减去显式移除次数”，而不是“当前有多少种不同武器”的去重数量。普通同类主线升级也会继续强化类型权重。
+
+### GetDeltaWeightPercent — RVA 0x6869E9C
 
 来源：`HotFix.BattleLogic.HeroComponentRandomSkill.asm`
 
@@ -117,6 +131,18 @@ PracticalWeight = BaseWeight * (FP.One + DeltaWeightPercent);
 
 所以 Type 1 的 50/500 是“+50% / +500%”，最终分别相当于 1.5x 与最高 6.0x 基础权重。
 
+### WeightRandom.GetRandom / GetRandomCount
+
+关键 RVA：
+
+- `GetRandom`：0x66339E8
+- `GetRandomCount`：0x6633C0C
+- `RandomOneSubSkillByParent`：0x66346A0
+
+`GetRandom` 是标准权重轮盘：在 `AllWeight` 范围随机，然后逐条减去当前合法候选的 Weight 直到命中。Weight 为 0 的非法候选不会进入有效概率。
+
+`GetRandomCount` 会在多抽过程中排除已选项和 ban 项；抽到需要分支化的父节点时，再进入 `RandomOneSubSkillByParent`。所以最终三张牌之间不是三个独立的 with-replacement 随机。
+
 ### WeightRandom.GetAlreadyStudySkill / GetReadyStudySkill / GetOneStarSkill
 
 来源：`HotFix.BattleLogic.WeightRandom.asm`。
@@ -139,11 +165,13 @@ PracticalWeight = BaseWeight * (FP.One + DeltaWeightPercent);
 
 `WeightRandomData` 保存 NeedSkills、RejectSkills、NeedFlags、SkillFlags 等，`WeightRandom` 在候选加入/筛选时使用这些条件。它们是候选资格硬约束；动态权重只在“已经有资格进入池”的项目之间改变相对概率。
 
-### HeroSkillCreator.GetRandomSkills
+### HeroSkillCreator.GetRandomSkills — RVA 0x685B9C4
 
 来源：`HotFix.BattleLogic.HeroSkillCreator.asm`。
 
-该方法会先根据一组“池权重”随机选择 WeightRandom 池，再调用目标池的 `GetRandomCount` 抽实际条目，并维护去重/ban 列表。三选一因此至少是“两段随机”：池级选择 + 池内选择。
+该方法会把 `randomSkillFactor` 整数数组先求和，在总权重范围内随机一个值，并据此得到一个池下标作为本次的优先起点。随后从对应 `WeightRandom` 调用 `GetCount` / `GetRandomCount` 抽实际条目；若一个池无法补足需求数量，会继续尝试后续池。它还维护 ban / 已出列表防止重复。
+
+因此三选一至少是“两段随机”：**池级起点选择 → 池内技能加权选择**。第一章常见 `[2,40,40,20]` / `[1,40,40,20]` 应解释为四个池的优先权重，而不是四个具体技能的概率。四个池的语义映射仍待从 OnInitRandoms / CreateRandoms 完整闭合。
 
 ### SinglePlayerSkillCreator.GetNormalSkill
 
@@ -160,4 +188,4 @@ PracticalWeight = BaseWeight * (FP.One + DeltaWeightPercent);
 - `SkillGroup_UpgradeSurvivorGroup`：111 个 Type 3 深层强化。
 - `SkillGroup_UpgradeSkillGroup`：22 个 Type 3 突破父节点。
 
-`Skill_SkillTypeWeight` 中当前标准类型只有 Type 1 有 50/500 的有效加权；Type 2/3/4 没有同样的普通键。因此不要把这条公式错误描述成“每个具体 Build 家族都自动 +50%”。
+`Skill_SkillTypeWeight` 中当前标准类型里 Type 1 使用 50/500 的强加权。它的计数会随普通 AddSkill 的同类节点投入持续增长，所以应描述成“玩家越持续投资 Type 1，Type 1 合法候选整体越容易继续出现”，而不是“每个具体 Build 家族自动 +50%”。
