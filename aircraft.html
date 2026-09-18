@@ -1,172 +1,75 @@
 <!doctype html>
 <html lang="zh-CN">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="description" content="《小小远征队》战机与皮肤系统策划反拆：定位、品质分层、五星成长与机制差异。">
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="《小小远征队》战机与皮肤系统策划反拆">
 <title>小小远征队 · 战机与皮肤策划反拆</title>
 <link rel="stylesheet" href="assets/style.css">
 <style>
+.summary-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}
+.summary-card,.plane-card{background:#fff;border:1px solid #dbe4e1;border-radius:14px;padding:18px}
+.summary-card b{display:block;margin-bottom:7px}
 .plane-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
-.plane{background:#fff;border:1px solid var(--line,#d9e1df);border-radius:14px;padding:18px}
-.plane-head{display:grid;grid-template-columns:92px 1fr;gap:14px;align-items:center;margin-bottom:12px}
-.thumb{height:72px;border:1px dashed #a8b8b5;border-radius:10px;background:#f2f6f5;display:flex;align-items:center;justify-content:center;text-align:center;font-size:12px;color:#6f8581;padding:8px}
-.plane h3{margin:0 0 6px}.plane .meta{font-size:13px;color:#637774}
-.starline{display:grid;grid-template-columns:36px 1fr;gap:8px;padding:7px 0;border-top:1px solid #edf1f0;font-size:14px}
-.starline:first-child{border-top:0}
-.verdict{font-size:16px;line-height:1.8}
-.tier{padding:15px 17px;border-left:4px solid var(--green,#0d766c);background:#f8fbfa;margin:12px 0;border-radius:8px}
-@media(max-width:760px){.plane-grid{grid-template-columns:1fr}.plane-head{grid-template-columns:74px 1fr}.thumb{height:64px}}
+.plane-head{display:flex;gap:14px;align-items:center;margin-bottom:10px}
+.thumb{width:92px;height:64px;border-radius:10px;background:#eef4f2;border:1px solid #d5e0dd;display:flex;align-items:center;justify-content:center;color:#71847f;font-size:12px;text-align:center;flex:0 0 auto}
+.plane-card h3{margin:0 0 4px}.tagline{color:#637774;font-size:13px}
+.star-rhythm{display:grid;grid-template-columns:repeat(5,1fr);gap:8px;margin:14px 0}
+.star-rhythm div{background:#f7faf9;border-radius:10px;padding:12px;font-size:13px;line-height:1.55}
+@media(max-width:820px){.summary-grid,.plane-grid{grid-template-columns:1fr}.star-rhythm{grid-template-columns:1fr}}
 </style>
 </head>
 <body>
-<header class="page-head">
-  <div class="hero">
-    <div class="eyebrow">AIRCRAFT / SKIN DESIGN BREAKDOWN</div>
-    <h1>战机与“皮肤”策划反拆</h1>
-    <p>这里不按程序表名解释系统，而按玩家实际感知来拆：游戏配置虽然把 10101–10108 叫作 <code>Skin</code>，但从品质、独立战斗实体、五星成长与专属机制看，它们实际上承担的是“不同战机形态 / 角色卡”的功能。</p>
-    <div class="chips"><span>1 个基础 Role</span><span>8 个战机形态</span><span>3 个品质档</span><span>6 条专属机制链</span><span>5 星成长</span></div>
-  </div>
-</header>
+<header class="page-head"><div class="hero">
+<div class="eyebrow">AIRCRAFT DESIGN BREAKDOWN</div>
+<h1>战机与皮肤：策划反拆</h1>
+<p>这页只讲设计：战机怎么分层、为什么要升星、不同机体怎样建立玩法差异，以及这套系统在长期培养里承担什么作用。具体 ID、字段和数值全部移到独立的配置查询区。</p>
+<div class="chips"><span>8 个战机形态</span><span>3 档品质</span><span>5 星成长</span><span>6 条机制型成长线</span></div>
+</div></header>
 
 <main class="article">
-<h2>策划结论先行</h2>
-<div class="verdict">
-<p><strong>第一，这不是传统皮肤系统。</strong>基础 <code>Role_Role</code> 只有一个战机入口 10100，但下面挂了 8 个 Skin。每个 Skin 都有独立 <code>RoleEntity</code>、品质和五星成长；从 10103 开始，每一星还会改变专属战斗机制。玩家实际获得的不是“同一架飞机换个样子”，而是“同一角色槽下切换不同机体玩法”。</p>
-<p><strong>第二，8 架机体的基础战斗模板被刻意做成一致。</strong>100001–100009 的基础 HP=600、Attack=100、MoveSpeed=70、FireCD=0.1、初始 WeaponID=100003，基础属性也一致。换句话说，设计没有靠一堆基础面板制造差异，而是把差异集中到“品质 + 升星属性 + 专属机制”三件事上。</p>
-<p><strong>第三，品质不是单纯数值颜色，而是机制复杂度分层。</strong>品质 40 的守卫/游侠只有攻击成长；品质 50 的三架机体开始拥有完整五星专属技能；品质 60 的三架机体不仅星级攻击曲线更高，技能链也明显更完整，出现腐蚀、持续增伤、连携、自强化、闪避联动等复合机制。</p>
-<p><strong>第四，升星的核心价值不是“+攻击”，而是逐步完成一套玩法。</strong>1 星通常给核心招牌技能，后续星级增加伤害、覆盖、续航、触发条件或循环效率，最终把一个简单的周期技能变成完整 Build。这一点是这套战机系统最值得策划关注的地方。</p>
+<h2>核心判断：所谓“皮肤”，实际承担的是新机体</h2>
+<p>游戏底层把这些内容放在 Skin 体系里，但从玩家体验看，它并不是传统“只换外观”的皮肤。不同形态有独立品质、独立五星成长，并且中高品质机体会逐星补完整一套专属战斗机制。因此从策划功能上，它更接近“同一个战机槽位下的不同机体卡”。</p>
+
+<section class="summary-grid">
+<div class="summary-card"><b>共享基础成长</b><span>玩家长期投入并没有因为换战机而完全清零。基础成长由母体承担，换机更像在已有战力上切换玩法分支。</span></div>
+<div class="summary-card"><b>机体负责差异化</b><span>机体自身主要承担品质、五星成长和专属机制。这样能把“长期数值成长”与“玩法收集”拆成两层。</span></div>
+<div class="summary-card"><b>高品质同时卖强度与机制</b><span>高品质机体不仅成长更高，玩法闭环也更完整，因此稀有度的价值不只来自面板。</span></div>
+</section>
+
+<h2>三档机体的设计目的</h2>
+<p><strong>低品质：</strong>主要让玩家理解“换机体、升星、变强”这件事，本身不塞太多复杂机制，适合做早期培养标尺。</p>
+<p><strong>中品质：</strong>开始让每架机体拥有非常明确的一招核心能力，例如受击反击、周期弹幕、周期轰炸。玩家从这里开始感受到“换机=换打法”。</p>
+<p><strong>高品质：</strong>不再只是多一个主动效果，而是把状态、触发、循环和自强化串起来。例如持续命中带来的递增收益、闪避反过来加速爆发循环、技能命中继续触发后续连携。高品质真正卖的是完整 Build。</p>
+
+<h2>五星成长节奏</h2>
+<p>六条机制型机体虽然细节不同，但整体采用了很典型的“逐星补完玩法”的方式，而不是五次简单加攻击。大体可以拆成：</p>
+<div class="star-rhythm">
+<div><b>1★ 建立身份</b><br>先把招牌机制给出来，让玩家知道这架机怎么玩。</div>
+<div><b>2★ 放大强度</b><br>通常先给直接伤害或基础效率提升，让首轮升星反馈足够明确。</div>
+<div><b>3★ 第一次质变</b><br>加入回血、腐蚀、连携、自强化等新关系，开始形成真正 Build。</div>
+<div><b>4★ 提高覆盖</b><br>延长持续、减少冷却、增加数量或提高覆盖，使机制更稳定。</div>
+<div><b>5★ 完成闭环</b><br>最后补上穿透、双发、额外状态或高额递增，让整套玩法进入完整形态。</div>
 </div>
+<p>从策划体验上看，3 星往往是“玩法开始成型”的节点，5 星才是“完整版本”。这种结构比每星都做线性数值更容易让玩家形成继续升星的明确目标。</p>
 
-<h2>系统真正的分层方式</h2>
-<div class="tier"><strong>品质 40：入门机体。</strong>守卫、游侠。五星攻击配置为 80 → 160 → 240 → 320 → 400，没有专属 Feature 技能。功能是让玩家先理解“换机体 + 升星”本身，而不是立即承受复杂机制。</div>
-<div class="tier"><strong>品质 50：玩法型机体。</strong>暗夜刀锋、天使号、飞鹰号。同样使用 80 → 400 的攻击成长，但从 1 星开始就解锁独立机制，五星分别围绕受击反击、周期弹幕、周期轰炸成长。</div>
-<div class="tier"><strong>品质 60：高级玩法型机体。</strong>毒蝎、黑武士、幻影。攻击配置提高为 100 → 200 → 300 → 400 → 500，同时专属技能更强调状态、循环和自我联动。品质提升同时卖“更高数值”和“更完整玩法”。</div>
-
-<h2>8 架机体定位总表</h2>
-<div class="scroll">
-<table>
-<thead><tr><th>机体</th><th>品质</th><th>核心机制</th><th>策划定位</th><th>五星完成形态</th></tr></thead>
-<tbody>
-<tr><td>守卫 10101</td><td>40</td><td>无专属机制</td><td>纯数值入门</td><td>攻击成长到 400</td></tr>
-<tr><td>游侠 10102</td><td>40</td><td>无专属机制</td><td>纯数值入门；当前静态配置 IfClose=1</td><td>攻击成长到 400</td></tr>
-<tr><td>暗夜刀锋 10103</td><td>50</td><td>辐射脉冲</td><td>受击反击 / 低血量风险收益</td><td>近身增伤 + 低血腐蚀 + 维修箱联动</td></tr>
-<tr><td>天使号 10104</td><td>50</td><td>光芒</td><td>正面弹幕 / 暴击续航</td><td>更多弹体 + 穿透 + 暴击回血</td></tr>
-<tr><td>飞鹰号 10105</td><td>50</td><td>飞鹰轰炸</td><td>周期范围爆发</td><td>双轮轰炸 + 高频释放</td></tr>
-<tr><td>毒蝎 10106</td><td>60</td><td>致命毒刺</td><td>持续输出 / 腐蚀 / 越打越强</td><td>7 秒持续激光 + 持续增伤最高 100%</td></tr>
-<tr><td>黑武士 10107</td><td>60</td><td>居合斩</td><td>周期爆发 / 连携 / 自强化</td><td>双斩 + 次元斩 + 攻击叠层</td></tr>
-<tr><td>幻影 10108</td><td>60</td><td>幻影状态</td><td>爆发窗口 / 闪避循环</td><td>攻击、闪避、暴击、移速形成自循环窗口</td></tr>
-</tbody>
-</table>
-</div>
-
-<h2>逐机体：五星到底在卖什么</h2>
+<h2>机体差异</h2>
 <div class="plane-grid">
-
-<section class="plane">
-<div class="plane-head"><div class="thumb">战机缩略图<br>待补真实图</div><div><h3>守卫</h3><div class="meta">10101 · Quality 40 · RoleEntity 100002</div></div></div>
-<p><strong>定位：</strong>纯数值型入门机体。没有专属五星技能链，升星只承担攻击成长。</p>
-<div class="starline"><b>1–5★</b><span>攻击配置 80 / 160 / 240 / 320 / 400。</span></div>
-<p><strong>策划作用：</strong>给玩家一个最容易理解的培养标尺，后续机制机体才有明显“换玩法”的感知。</p>
-</section>
-
-<section class="plane">
-<div class="plane-head"><div class="thumb">战机缩略图<br>待补真实图</div><div><h3>游侠</h3><div class="meta">10102 · Quality 40 · RoleEntity 100003</div></div></div>
-<p><strong>定位：</strong>同样是纯数值型入门机体，当前静态配置标记 <code>IfClose=1</code>。</p>
-<div class="starline"><b>1–5★</b><span>攻击配置 80 / 160 / 240 / 320 / 400，无专属机制。</span></div>
-<p><strong>策划判断：</strong>更像早期方案、暂时关闭内容或备用机体；静态配置不能证明线上实际开放状态。</p>
-</section>
-
-<section class="plane">
-<div class="plane-head"><div class="thumb">战机缩略图<br>待补真实图</div><div><h3>暗夜刀锋</h3><div class="meta">10103 · Quality 50 · RoleEntity 100004 · 辐射脉冲</div></div></div>
-<div class="starline"><b>1★</b><span>受伤时释放全屏辐射脉冲。</span></div>
-<div class="starline"><b>2★</b><span>脉冲伤害 +40%。</span></div>
-<div class="starline"><b>3★</b><span>脉冲自动拾取屏幕中的维修箱。</span></div>
-<div class="starline"><b>4★</b><span>距离敌人越近伤害越高，最高 +80%。</span></div>
-<div class="starline"><b>5★</b><span>生命低于 50% 时，脉冲附加【腐蚀】。</span></div>
-<p><strong>策划定位：</strong>把“挨打”从失败反馈改造成进攻触发器，再用近身和低血条件继续奖励风险。五星完成后是一套明显的高风险高收益玩法，而不是普通被动。</p>
-</section>
-
-<section class="plane">
-<div class="plane-head"><div class="thumb">战机缩略图<br>待补真实图</div><div><h3>天使号</h3><div class="meta">10104 · Quality 50 · RoleEntity 100005 · 光芒</div></div></div>
-<div class="starline"><b>1★</b><span>每 15 秒向前方发射大量光芒弹。</span></div>
-<div class="starline"><b>2★</b><span>光芒弹伤害 +50%。</span></div>
-<div class="starline"><b>3★</b><span>光芒弹暴击时回复少量生命，每秒最多触发 1 次。</span></div>
-<div class="starline"><b>4★</b><span>伤害再 +25%，同时增加 5 颗子弹。</span></div>
-<div class="starline"><b>5★</b><span>增加 2 次穿透。</span></div>
-<p><strong>策划定位：</strong>最标准的“正面火力型”成长。3 星把纯输出技能接入续航，5 星用穿透改变清屏效率，星级的体感变化比较直观。</p>
-</section>
-
-<section class="plane">
-<div class="plane-head"><div class="thumb">战机缩略图<br>待补真实图</div><div><h3>飞鹰号</h3><div class="meta">10105 · Quality 50 · RoleEntity 100007 · 飞鹰轰炸</div></div></div>
-<div class="starline"><b>1★</b><span>每 12 秒进行一轮飞鹰弹轰炸。</span></div>
-<div class="starline"><b>2★</b><span>增加 2 颗飞鹰弹。</span></div>
-<div class="starline"><b>3★</b><span>额外发射一轮，单轮伤害降低 25%。</span></div>
-<div class="starline"><b>4★</b><span>飞鹰弹伤害 +50%。</span></div>
-<div class="starline"><b>5★</b><span>冷却减少 3 秒。</span></div>
-<p><strong>策划定位：</strong>围绕“覆盖面积 × 轮次 × 频率”成长。3 星先扩大发射轮次但加一个伤害折损，5 星再提高循环频率，成长过程比简单加伤更有节奏。</p>
-</section>
-
-<section class="plane">
-<div class="plane-head"><div class="thumb">战机缩略图<br>待补真实图</div><div><h3>毒蝎</h3><div class="meta">10106 · Quality 60 · RoleEntity 100008 · 致命毒刺</div></div></div>
-<div class="starline"><b>1★</b><span>每 15 秒释放一轮毒刺激光，持续 5 秒。</span></div>
-<div class="starline"><b>2★</b><span>毒刺激光伤害大幅提升。</span></div>
-<div class="starline"><b>3★</b><span>每次造成伤害都有概率附加【腐蚀】。</span></div>
-<div class="starline"><b>4★</b><span>持续时间提高到 7 秒。</span></div>
-<div class="starline"><b>5★</b><span>持续攻击会继续抬高伤害，最多 +100%。</span></div>
-<p><strong>策划定位：</strong>持续命中型输出机。高品质的差异开始体现为“机制互相咬合”：持续时间越长，腐蚀触发机会越多，五星的持续增伤收益也越高。</p>
-</section>
-
-<section class="plane">
-<div class="plane-head"><div class="thumb">战机缩略图<br>待补真实图</div><div><h3>黑武士</h3><div class="meta">10107 · Quality 60 · RoleEntity 100009 · 居合斩</div></div></div>
-<div class="starline"><b>1★</b><span>每 15 秒向前释放一次居合斩剑气。</span></div>
-<div class="starline"><b>2★</b><span>居合斩伤害 +50%。</span></div>
-<div class="starline"><b>3★</b><span>命中后释放次元斩；次元斩命中还能提升自身攻击，可叠至 30%。</span></div>
-<div class="starline"><b>4★</b><span>冷却减少 4 秒。</span></div>
-<div class="starline"><b>5★</b><span>一次释放 2 道居合斩，单道伤害降低 25%。</span></div>
-<p><strong>策划定位：</strong>周期爆发逐渐演化成“命中 → 连携 → 自强化 → 更高频”的循环。3 星是真正的质变节点，开始从单次大招变成可滚动增益的玩法。</p>
-</section>
-
-<section class="plane">
-<div class="plane-head"><div class="thumb">战机缩略图<br>待补真实图</div><div><h3>幻影</h3><div class="meta">10108 · Quality 60 · RoleEntity 100006 · 幻影</div></div></div>
-<div class="starline"><b>1★</b><span>每 16 秒进入 5 秒幻影状态：攻击 +50%、闪避 +30%。</span></div>
-<div class="starline"><b>2★</b><span>每次成功闪避，立刻减少本技能 3 秒冷却。</span></div>
-<div class="starline"><b>3★</b><span>进入幻影时向前方发射大量强化射线。</span></div>
-<div class="starline"><b>4★</b><span>幻影状态延长 1 秒。</span></div>
-<div class="starline"><b>5★</b><span>幻影期间进一步提高暴击率与移动速度。</span></div>
-<p><strong>策划定位：</strong>最完整的状态循环型机体。闪避既是生存属性，又反过来缩短爆发技能 CD，因此防守行为直接促进进攻窗口，属于品质 60 里机制闭环最明显的一架。</p>
-</section>
-
+<section class="plane-card"><div class="plane-head"><div class="thumb">战机缩略图<br>待从包体补图</div><div><h3>守卫</h3><div class="tagline">入门 / 纯成长标尺</div></div></div><p>几乎不承担复杂机制，作用是给玩家建立最基础的培养参照。它的价值不在“好玩”，而在让后续机体的机制差异更容易被感知。</p></section>
+<section class="plane-card"><div class="plane-head"><div class="thumb">战机缩略图<br>待从包体补图</div><div><h3>游侠</h3><div class="tagline">入门 / 备用或关闭内容倾向</div></div></div><p>同样是偏纯数值的入门形态。当前静态数据表现出关闭倾向，因此策划报告只把它视为体系中的低阶模板，不把它当成当前线上核心内容。</p></section>
+<section class="plane-card"><div class="plane-head"><div class="thumb">战机缩略图<br>待从包体补图</div><div><h3>暗夜刀锋</h3><div class="tagline">受击反击 / 近身 / 低血风险收益</div></div></div><p>把“受到伤害”转化成反击触发，并继续奖励近距离和低生命状态。它的设计核心是把本来应当规避的风险重新包装成输出机会。</p></section>
+<section class="plane-card"><div class="plane-head"><div class="thumb">战机缩略图<br>待从包体补图</div><div><h3>天使号</h3><div class="tagline">正面火力 / 暴击续航</div></div></div><p>属于最容易理解的正面输出型机体：周期火力先建立爽点，中期把暴击接入回复，后期再扩大弹幕覆盖和穿透。成长感知非常直接。</p></section>
+<section class="plane-card"><div class="plane-head"><div class="thumb">战机缩略图<br>待从包体补图</div><div><h3>飞鹰号</h3><div class="tagline">周期轰炸 / 范围爆发</div></div></div><p>围绕“轰炸轮次、弹量、伤害、冷却”做一条完整成长线。重点不是复杂联动，而是每次升星都能直接扩大清屏效率。</p></section>
+<section class="plane-card"><div class="plane-head"><div class="thumb">战机缩略图<br>待从包体补图</div><div><h3>毒蝎</h3><div class="tagline">持续输出 / 腐蚀 / 越打越强</div></div></div><p>用持续攻击把多个收益串在一起：持续越久，状态触发机会越多，递增伤害越容易叠起来。它代表高品质机体开始强调机制之间的乘法关系。</p></section>
+<section class="plane-card"><div class="plane-head"><div class="thumb">战机缩略图<br>待从包体补图</div><div><h3>黑武士</h3><div class="tagline">周期爆发 / 连携 / 自强化</div></div></div><p>从单次爆发逐渐成长为“命中 → 后续斩击 → 自身增益 → 更高频释放”的循环。真正的质变点是技能开始互相驱动，而不是单纯变成更大的数字。</p></section>
+<section class="plane-card"><div class="plane-head"><div class="thumb">战机缩略图<br>待从包体补图</div><div><h3>幻影</h3><div class="tagline">爆发窗口 / 闪避循环</div></div></div><p>把生存属性和进攻循环绑在一起：进入爆发状态后同时提高输出与闪避，而成功闪避又会加速下一轮爆发。它是当前这组机体里机制闭环最清楚的一种。</p></section>
 </div>
 
-<h2>真正的养成结构：共享母体 + 机体形态</h2>
-<p>这套系统不是“每换一架飞机就从 1 级重练”。基础 <code>Role 10100</code> 自己有一条长期成长线：等级 1–160，并由 0–7 星逐段开放等级上限，依次是 20 / 40 / 60 / 80 / 100 / 120 / 140 / 160。机体形态 10101–10108 则在这条母体成长之上，再拥有自己的 5 星属性与专属机制。</p>
-<div class="flow">
-  <div class="flow-card"><b>共享母体</b><span>负责长期等级、基础 HP/攻击成长、等级上限与通用战力。</span></div>
-  <div class="flow-card"><b>机体形态</b><span>负责外观识别、品质和独立五星玩法链。</span></div>
-  <div class="flow-card"><b>玩家换机</b><span>不是完全推倒重练，而是在已有母体战力上追一个新玩法分支。</span></div>
-</div>
-<p>基础等级升级消耗金币与星币。按当前 160 条等级配置累计，升到 20 / 40 / 60 / 80 / 100 / 120 / 140 / 160 级时，金币累计约为 5.0 万 / 19.6 万 / 69.3 万 / 250.3 万 / 684.3 万 / 1387.3 万 / 2317.3 万 / 3372.3 万；星币累计约为 2680 / 1.08 万 / 2.93 万 / 6.86 万 / 14.25 万 / 25.48 万 / 38.94 万 / 52.44 万。</p>
-<p><strong>策划意义：</strong>大额、长期、稳定消耗放在共享母体；新机体不需要重新复制一整套等级坑，而是通过独立五星机制制造新的追求。这能同时保留长期资源回收和“抽到/解锁新机立刻可玩”的爽感，是一套很适合多机体 STG 的养成分层。</p>
+<h2>这套系统对玩家长期培养意味着什么</h2>
+<p>它没有采用“每拿到一架新飞机就彻底从头练”的方式，而是先保留一条共享的长期成长，再让每个机体单独追五星机制。这样做的直接效果是降低换新机体的心理成本：旧投入不会完全作废，但新机体仍然有足够深度可以继续追。</p>
+<p>从策划结构看，这是一套很典型的“双层成长”：共享母体负责长期战力沉淀，机体星级负责收集与玩法差异。高品质机体再通过更完整的机制链强化稀有度感知，因此既能承接数值成长，也能承接新玩法内容。</p>
 
-<h2>五星成长节奏：这套设计为什么有效</h2>
-<p>六架机制机体虽然效果完全不同，但升级节奏非常一致：<strong>1 星先交付核心幻想，2 星通常强化直接输出，3 星加入新的规则或联动，4 星扩大覆盖/持续/循环，5 星给最终形态。</strong>因此每一星都很容易写成“玩家看得懂的卖点”，而不是后台数值。</p>
-<p>这也是它比纯“升星 +5% 攻击”更强的地方：玩家追求重复获取时，目标不仅是战力，而是“我的机体还差一个关键能力没完成”。暗夜刀锋 3 星的维修箱、黑武士 3 星的次元斩、幻影 2 星的闪避减 CD，都是典型的玩法里程碑。</p>
-
-<h2>从策划角度看，它实际上是一套“低成本多角色”方案</h2>
-<p>底层只维护一套基础战机参数与初始武器，8 个形态共享 HP、攻击、移速、射速等基础框架。差异集中到模型、品质和一条五星技能链。这样新增一架“战机”时，不需要重做完整角色系统，只需增加一个形态、一条技能主题和一套星级递进。</p>
-<p>对小团队尤其值得注意：<strong>视觉上是 8 架飞机，系统上仍然是一套 Role。</strong>它用很低的系统复杂度实现了“收集多机体”的内容感。不过副作用也很明显——如果前台真的把这些东西叫“皮肤”，玩家会低估它们的战斗差异；从产品表达上更适合包装成“机体 / 战机型号”，皮肤只用于纯外观变化。</p>
-
-<h2>这套体系的商业化与留存作用</h2>
-<p>品质 40 提供低成本入门目标，品质 50 开始让玩家体验“不同机体有不同玩法”，品质 60 再同时抬数值上限和机制完整度。这形成了一条很标准的收集驱动力：<strong>先解锁新外观 → 发现它有独立技能 → 继续升星补完技能 → 追求高品质机体的完整循环。</strong></p>
-<p>当前 Skin 的解锁消耗直接使用自身 ID 对应的道具，说明机体形态天然适合接碎片、抽取、活动奖励或商店兑换；但 <code>ShopGoodsId</code> 在这张表里为 0，所以具体来源不能只凭这张表判断，我不会在这里猜获取渠道。</p>
-
-<h2>对《摩玩飞机大战》最值得借的不是“8 个皮肤”，而是这个结构</h2>
-<p>如果从设计方法上抽象，它的核心是：<strong>统一基础战机框架 + 少量机体主题 + 每个主题一条 5 阶机制成长链。</strong>这样既能让玩家明显感觉“换了一架飞机”，又不会把数值、武器、移动、碰撞、升级全部做成独立角色系统。对于 STG 小团队，这比堆几十架只有攻击数值不同的飞机更有效率。</p>
-
-<h2>证据边界</h2>
-<p>本页结论来自当前客户端静态配置：<code>Role_Role</code>、<code>Role_Skin</code>、<code>Role_SkinStar</code>、<code>Character_entity</code> 与对应的 <code>Skill_Main</code> 中文说明。10102 的关闭标记、具体机体获取渠道以及线上热更后的实际开放情况仍需运行态验证。</p>
+<div class="callout"><strong>后续重点：</strong>战机页接下来只补两类东西：每架战机一张缩略图，以及真实获取/升星成本与解锁节奏。其余底层字段不再往策划报告里塞。</div>
+<p style="margin-top:26px"><a href="config-view.html?group=aircraft">需要查具体数值或字段 → 进入战机配置查询</a></p>
 </main>
 <a class="back" href="index.html">← 研究首页</a>
-</body>
-</html>
+</body></html>
