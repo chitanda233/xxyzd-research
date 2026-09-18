@@ -30,3 +30,4 @@ jobs:
             restored/code/native-evidence/*HeroComponentExp*.asm
             restored/code/native-evidence/*ExpAnimProcessor*.asm
             indexes/native-evidence.json
+# manual rerun marker: 2026-09-18 wave-end-upgrade
