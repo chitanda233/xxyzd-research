@@ -10,6 +10,7 @@
 
 刷新也不是重新完整抽一次：`GetRandomSkills` 在 `isRefresh=true` 时会复用上一次保存的品质索引，因此**刷新保留品质档，只重抽该档及其补位结果**。若 `qualityUp=true`，则会把本次选中的品质索引向上提升一档后再抽。
 
+普通主线的 `40/40/20/0` 也不是永远原样使用。`HeroComponentRandomSkill.GetNormalSkill` 会先复制这组基础权重，然后读取玩家 `AttributeData` 中的一个“高品质技能”修正值；只要该 FP 值为正，就令 `factor = 1 + attr`，并把第 2、3 个品质档的权重分别乘以这个 factor 后四舍五入，第 1、4 档保持不变。属性表里与这一行为直接对应的是 `ExHighSkillRate%`（“获得更高品质技能几率”，id=110）。另外，`CheckQualityUp` 还有一条独立的概率判定，会在成功时直接把本轮整组三选一的起始品质上移一档；属性表中对应语义的是 `LevelUpSkillUpRate%`（“升级提升品质概率”，id=126）。由于当前 native 导出对这两个静态字符串引用没有符号名，属性名映射属于“native 行为 + 属性表语义”的高置信对应，而不是字符串地址级硬符号证明。
 普通主线还存在一个独立的“初始技能池”机制。运行时检查 `BattleData.InitSkillGroupCount`；计数大于 0 时使用 `_initRandoms`，完成抽取后计数减 1，否则使用普通 `DefaultRandoms`。配置 `UseInitSkillGroupCout = 1`，从策划意图上对应“首轮使用一次定制初始池，之后转普通池”。当前静态证据已经证明计数消费逻辑和配置值，但尚未补齐“战斗初始化时把这个 Const 写入 BattleData”的直接 native 调用，因此这里仍保留一层证据边界。
 
 另一个重要修正是：`Exp_exp.randomSkillFactor = [1/2,40,40,20]` **不是普通主线三选一的品质权重**。普通分支在 `HeroComponentRandomSkill.GetNormalSkill` 中使用的是 `Const.RandomSkillWeight`，并把 `randomSkillFactor` 以 null 传入；`Exp_exp.randomSkillFactor` 只在 Danke/特殊技能路径中被读取。不能再用这四个数解释普通三选一的槽位构成。
@@ -63,7 +64,21 @@
 - 刷新：换牌，但大体保持这轮品质；
 - 品质提升：直接抬高整组三选一的品质起点。
 
-## 三、每个品质档本身都是独立的加权候选池
+## 三、40 / 40 / 20 还会被“高品质出现率”二次修正
+
+普通主线进入技能创建器之前，`HeroComponentRandomSkill.GetNormalSkill` 会先把 `Const.RandomSkillWeight` 复制到自己的临时权重数组。基础值是 `40 / 40 / 20 / 0`。
+
+随后它从当前角色的 `AttributeData` 读取一个 FP 属性。如果该值大于 0，则计算 `factor = 1 + attr`，然后只修改第 2、3 个品质档：`weight[1] = round(weight[1] × factor)`，`weight[2] = round(weight[2] × factor)`。第 1 档和第 4 档不变。也就是说，这个属性不是“额外再掷一次高品质”，而是直接改变整组品质骰的权重分布。
+
+属性表中最直接对应这一行为的是 `ExHighSkillRate%`（id=110，中文备注“获得更高品质技能几率”）。例如该属性若为 +25%，临时品质权重会从 `40/40/20/0` 变成约 `40/50/25/0`，之后再按新的总权重做一次整组品质抽取。
+
+这与 `CheckQualityUp` 是两个不同层级。后者读取另一条概率属性，成功后直接把已经抽到的整组起始品质向上推一档，更接近“升级时触发品质提升”。属性表里 `LevelUpSkillUpRate%`（id=126，中文备注“升级提升品质概率”）与其语义吻合。
+
+因此普通三选一的品质控制至少有三层：`基础品质权重 40/40/20/0 → 高品质出现率属性重分配第 2、3 档权重 → 只抽一次整组起始品质 → 若 QualityUp 成功，再整体上移一档`。
+
+需要保留一个很小的证据边界：native 里传给 `AttributeData.GetAttributeValueOrDefault(string)` 的静态字符串对象没有被当前反汇编器恢复成符号名，所以“id=110 / id=126”的名称对应来自行为语义与属性配置表的强匹配；计算行为本身则由 native 完整坐实。
+
+## 四、每个品质档本身都是独立的加权候选池
 
 `HeroSkillCreator.AddSkillGroupToNormalRandom` 会读取 `Skill_Main.Quality`，把 `Quality - 1` 转成对应的品质索引，并将技能加入该索引下的 `WeightRandom`。
 
@@ -78,7 +93,7 @@
 
 这也解释了为什么同一品质内仍然可以有明显不同的出现频率。
 
-## 四、候选池会根据已学技能、前置和升级分支动态变化
+## 五、候选池会根据已学技能、前置和升级分支动态变化
 
 品质只决定“去哪个池抽”，但池里当前有哪些合法技能，会随 Build 状态变化。
 
@@ -95,7 +110,7 @@
 
 因此 Build 收敛首先来自**候选合法性变化**，并不依赖“同类型增权”才能成立。玩家学到一个技能后，升级链、前置解锁和分支结构都会改变后续池子的组成。
 
-## 五、首轮存在独立 Init 池
+## 六、首轮存在独立 Init 池
 
 `HeroSkillCreator` 同时维护：
 
@@ -110,9 +125,9 @@
 
 因此从设计结构看，游戏明确准备了一次“初始技能组专用抽取”，之后才进入长期普通池。这种机制非常适合控制第一轮三选一：既可以让玩家较快拿到可用主技能，也能减少开局抽到意义不大的进阶项。
 
-需要保留的证据边界是：当前已确认运行时消费 `BattleData.InitSkillGroupCount`，也确认 Const 配置值为 1；但还没有从当前保存的 native 证据中找到初始化阶段“把 Const.UseInitSkillGroupCout 写入 BattleData”的直接调用。因此最终正文可以写“首轮定制池机制存在、配置为一次”，不要写成“已完整证明初始化赋值链”。
+这条链现在又多补了一层结构证据：`BattleData` 明确把 `InitSkillGroupCount` 作为独立字段保存，`BattleSaveData` 也有 `initSkillGroupCount`，说明它会跟随局内存档持久化；`BattleWorldContext` 还专门暴露了 `get_InitSkillGroupCount()`、`DoInitSkillGroup()` 和 `DoInitSkillGroupCount(int count)`。因此它不是偶然复用的内存槽，而是一个有完整生命周期的首轮技能池计数。需要保留的最后证据边界仍然是：当前已保存的 native 函数集中，还没有抓到初始化阶段调用 `DoInitSkillGroup*` 并把 `Const.UseInitSkillGroupCout=1` 写进去的调用者。因此最终正文可以写“首轮定制池机制存在、配置目标为一次，并有专门运行时计数与存档字段”，但不要写成“初始化赋值调用已完整证明”。
 
-## 六、新手保护是真正生效的临时概率修正
+## 七、新手保护是真正生效的临时概率修正
 
 相比同 SkillType 动态增权，新手保护的 native fallback 是完整的。
 
@@ -135,7 +150,7 @@
 
 从策划角度看，这说明游戏的随机并非追求纯随机，而是允许为了前期体验对特定核心技能做轻量保底倾斜。
 
-## 七、Exp_exp.randomSkillFactor 不属于普通主线三选一
+## 八、Exp_exp.randomSkillFactor 不属于普通主线三选一
 
 `Exp_exp.randomSkillFactor` 的前几级形如：
 
@@ -160,7 +175,7 @@
 
 而 `Exp_exp.randomSkillFactor` 属于特殊技能路径，具体四个数在 Danke 机制里各自代表什么，还需要单独继续拆，不能混入普通三选一结论。
 
-## 八、同 SkillType 动态增权：公式成立，但 APK fallback 未落地
+## 九、同 SkillType 动态增权：公式成立，但 APK fallback 未落地
 
 `Skill_SkillTypeWeight` 中有效 SkillType 基本统一为：
 
@@ -201,7 +216,7 @@
 
 > 客户端已经设计并计算了“同类型越学越容易出”的 +50%/次、+500% 封顶模型，但 1.0.16 APK 基线中负责应用它的 fallback 是空实现。它可能是 dormant/遗留逻辑，也可能依赖运行时热修覆盖；在拿到线上热修或实机统计前，不能作为已生效规则写死。
 
-## 九、策划视角下，当前三选一可以还原成什么
+## 十、策划视角下，当前三选一可以还原成什么
 
 普通主线的一次成长选择，可以暂时还原为：
 
@@ -225,12 +240,12 @@
 
 这比最初“已有 Build 会不会因为同类型权重越来越高而自然成型”的假设更完整。当前版本即使不依赖那条 dormant 动态增权，也已经通过“初始池 + 品质整组抽取 + 合法候选重构 + 前置/升级链 + 新手保护”对随机结果进行了相当多的结构化控制。
 
-## 十、还需要继续验证什么
+## 十一、还需要继续验证什么
 
 普通主线三选一的核心框架已经基本够写入《局内核心循环反拆》。剩下优先级最高的未决点只有三类：
 
 1. 找到 `BattleData.InitSkillGroupCount` 初始化赋值链，彻底坐实 `UseInitSkillGroupCout=1` 与首轮 Init 池的直接连接。
-2. 识别 `HeroComponentRandomSkill.GetNormalSkill` 中会同时放大第 2、3 个品质权重的那个战斗属性，解释哪些 Buff/角色能力会改变 40/40/20 的品质分布。
+2. 继续追 `ExHighSkillRate%` / `LevelUpSkillUpRate%` 的具体来源技能、Buff、角色或局外养成入口；品质权重的 native 计算公式已经坐实，剩下是“谁能提供这些属性”。
 3. 如果要研究特殊技能系统，再单独拆 Danke 路径中的 `Exp_exp.randomSkillFactor`；它不应继续阻塞普通主线核心循环报告。
 
 对于最终策划报告而言，现在已经可以把普通主线三选一写成确定规则；只有“同 SkillType 动态增权是否线上启用”需要继续标成待验证。
