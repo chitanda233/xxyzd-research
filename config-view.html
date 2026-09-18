@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="《小小远征队》客户端配置浏览器">
+<title>小小远征队 · 配置浏览器</title>
+<link rel="stylesheet" href="assets/style.css">
+<style>
+.browser{max-width:1500px;margin:0 auto;padding:24px}
+.browserbar{display:grid;grid-template-columns:minmax(220px,340px) 1fr auto;gap:10px;margin:16px 0}
+.browserbar select,.browserbar input{width:100%;padding:11px 12px;border:1px solid #cfdad7;border-radius:9px;background:#fff;font:inherit}
+.datawrap{overflow:auto;background:#fff;border:1px solid #dbe4e1;border-radius:12px}
+.datatable{border-collapse:collapse;min-width:100%;font-size:13px}
+.datatable th,.datatable td{padding:9px 10px;border-bottom:1px solid #edf1f0;border-right:1px solid #edf1f0;vertical-align:top;white-space:nowrap;max-width:340px;overflow:hidden;text-overflow:ellipsis}
+.datatable th{position:sticky;top:0;background:#f4f8f7;z-index:1;text-align:left}
+.datatable td.object{white-space:pre-wrap;min-width:220px}
+.browser-meta{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;color:#647875;font-size:13px;margin:10px 2px}
+.pager2{display:flex;justify-content:center;align-items:center;gap:12px;margin:18px 0}
+.pager2 button{padding:8px 14px;border:1px solid #cbd7d4;background:#fff;border-radius:8px;cursor:pointer}
+.groupnav{display:flex;gap:8px;flex-wrap:wrap;margin-top:14px}
+.groupnav a{padding:7px 10px;border:1px solid #cfe0dc;border-radius:999px;text-decoration:none;color:#315c56;background:#fff;font-size:13px}
+.rawlink{font-size:13px}
+@media(max-width:760px){.browserbar{grid-template-columns:1fr}.browser{padding:16px}}
+</style>
+</head>
+<body>
+<header class="page-head"><div class="hero">
+<div class="eyebrow">CONFIGURATION / SECOND LEVEL</div>
+<h1 id="groupTitle">配置浏览器</h1>
+<p id="groupDesc">选择配置表后，可直接查看字段、搜索任意值并分页浏览。这里保留原始配置口径，不承担策划结论。</p>
+<div id="groupNav" class="groupnav"></div>
+</div></header>
+<main class="browser">
+<div class="browserbar">
+<select id="tableSelect"></select>
+<input id="configSearch" type="search" placeholder="搜索当前表所有字段 / 数值 / ID…">
+<a id="rawLink" class="rawlink" target="_blank" rel="noreferrer">打开原始 JSON ↗</a>
+</div>
+<div class="browser-meta"><span id="tableInfo">读取中…</span><span id="matchInfo"></span></div>
+<div id="dataWrap" class="datawrap"><div style="padding:24px">正在读取配置…</div></div>
+<div class="pager2"><button id="prevPage">← 上一页</button><span id="pageInfo">第 1 页</span><button id="nextPage">下一页 →</button></div>
+</main>
+<a class="back" href="config.html">← 配置分类</a>
+<script src="assets/config-browser.js"></script>
+</body></html>
