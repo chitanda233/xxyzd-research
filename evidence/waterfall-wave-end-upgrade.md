@@ -44,3 +44,29 @@ SkillSelected = 3
 ## 尚未捕获的调用点
 
 当前筛选出的 `WaterfallBattleManager.asm` 内没有保存到 `AddUpLevel` 的直接调用者。它很可能来自经验动画/角色升级相关状态或其他未筛选函数。现有证据已经证明 pending-level 的消费与波末串行处理，但如果需要做到函数调用链完全闭合，下一步应把 `ExpAnimProcessor`、选择技能状态和升级事件监听相关 native 一并筛出。
+
+## 补充：随机刷怪的 numberRandom 是“实体目标数”
+
+此前最容易误算的是第 8 / 11 / 12 波的随机怪。不能把 `numberRandom` 理解成“把随机配置完整执行 N 次”。
+
+`CalRandomMonster` 会先保存本条 mission 的随机选择结果，`CreateRandomMonster` 再按保存结果逐个取 `Mission_RandomMonsterFlushConfig.entityId` 创建实体。创建循环里有一个已生成实体计数，生成每个实体后 +1，并直接和 mission 的目标数比较；达到目标数就退出当前随机生成流程。对应 native 关键段在 `CreateRandomMonster` RVA 0x65CFF58 内：
+
+```text
+... create one entity ...
+emittedCount += 1
+if emittedCount < numberRandom:
+    continue
+else:
+    stop
+```
+
+因此 `numberRandom=2` 的语义是“这一条随机刷新最终补 2 个实体”，而不是“随机组选 2 次并完整生成每组所有 entityId”。即使抽到的随机配置内部含 3 个相同 entityId，也会在第 2 个实体处截断。
+
+第一章所引用的随机配置 2 / 5 / 13 最终都只包含 `330006`，所以虽然具体选中了哪个随机配置可能不同，**实际怪物种类与数量仍可精确还原**：
+
+- 第 8 波：随机部分共 6 个 `330006`，整波 18 只；
+- 第 10 波：随机部分共 8 个 `330006`，配置上限 18 只；
+- 第 11 波：随机部分共 4 个 `330006`，整波 8 只；
+- 第 12 波：随机部分共 12 个 `330006`，整波 21 只。
+
+这条解释已经同步进 `research/battle/chapter1-wave-summary.json` 与压缩脚本。
