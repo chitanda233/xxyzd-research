@@ -26,7 +26,7 @@ jobs:
         with:
           name: deep-native-evidence
           path: |
-            restored/code/native-evidence/HotFix.BattleLogic.DankeSkillCreator.asm
-            restored/code/native-evidence/HotFix.BattleLogic.HeroComponentExp.asm
-            restored/code/native-evidence/HotFix.BattleLogic.ExpAnimProcessor.asm
+            restored/code/native-evidence/*DankeSkillCreator*.asm
+            restored/code/native-evidence/*HeroComponentExp*.asm
+            restored/code/native-evidence/*ExpAnimProcessor*.asm
             indexes/native-evidence.json
