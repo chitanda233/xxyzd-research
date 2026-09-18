@@ -83,3 +83,15 @@ W10 还有一个重要细节：特殊怪死亡放行后会把当前 mission 推�
 **“同 SkillType 越学越增权”的公式和设计接口真实存在，但当前 APK 基线是否实际生效不能确认；fallback 本身没有落地应用。线上热修若覆盖该函数，则可能启用。**
 
 不要再把 +50%/次、+500% 封顶直接写成 1.0.16 主线三选一的已生效规则。当前已经坐实的普通主线随机结构，以 `research/battle/skill-random-analysis.md` 为准。
+
+
+## 7. 最终波经验不应机械计作第 15 次常规三选一
+
+第一章 W1～W14 的 `WaveEndSpecialUIType` 均为 `[4]`，W15 为 `[]`。对全部 6350 条 `ChapterWave_Waves` 统计，波末 UI 只出现类型 4，共 1892 次；没有其它波末 UI 类型。
+
+`WaterfallBattleManager.OnProgressFinish` 中的波末经验吸收、pending level 检查、`QueueSelectSkill` 与连续升级队列，处于这套 wave-end special UI progress 流程内。W15 没有普通波末 UI 配置，因此虽然它的 `WaveAllExp=2000` 仍精确覆盖一个等级跨度，也不能据此断言 Boss 死亡后一定再进入一次普通三选一。
+
+策划报告应区分：
+- **15 个精确经验预算刻度**；
+- **W1～W14 明确配置的 14 个常规波末成长节点**；
+- W15 是终局 Boss/结算边界，不计作已证明的第 15 次常规 Build 选择。
