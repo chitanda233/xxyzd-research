@@ -86,3 +86,43 @@ That is consistent with indirect object/virtual dispatch in parts of the selecti
 The correct current statement is therefore:
 
 **Type-based +50% / +500% Build weighting is designed and parameterized, but its activation is not proven in the bundled APK fallback. Runtime hotfix or statistical runtime evidence is required to upgrade it from “intended mechanism” to “active rule”.**
+
+## Ordinary quality-weight modifiers
+
+Source: `restored/code/native-evidence/HotFix.BattleLogic.HeroComponentRandomSkill.asm`.
+
+### `GetNormalSkill` — RVA **0x686E0A0**
+
+For the ordinary (non-Danke) branch the method:
+
+1. copies `Const.RandomSkillWeight` into the local `_skillWeights` array;
+2. obtains the current hero's `AttributeData`;
+3. calls `AttributeData.GetAttributeValueOrDefault(string)`;
+4. if the returned FP raw value is positive, computes `factor = attr + FP.One` (`0x10000` raw);
+5. multiplies array index 1 and array index 2 by that factor;
+6. rounds each result with `FPMath.RoundToInt`;
+7. leaves index 0 and index 3 unchanged;
+8. passes the adjusted array into the normal skill-creator call.
+
+This proves a second-stage quality-distribution modifier on top of the base `40/40/20/0`.
+
+Config evidence from `AttributeString_string` contains id **110**, `ExHighSkillRate%`, comment “获得更高品质技能几率”, and id **126**, `LevelUpSkillUpRate%`, comment “升级提升品质概率”. The first name is a direct semantic match for the index-1/index-2 multiplicative redistribution. The native static string operand is not symbolized by the current disassembler, so retain this as a high-confidence name mapping rather than address-level string proof.
+
+### `CheckQualityUp` — RVA **0x686DE10**
+
+This is separate from the weight redistribution. It reads another FP attribute through `AttributeData.GetAttributeValueOrDefault`, and when the value is positive passes it to `BattleWorldContext.SkillRandomNextBool`. On success it returns true and emits the related hover event. This behavior is the semantic match for `LevelUpSkillUpRate%`: a probability gate for the later quality-index +1 path, not a direct rewrite of the `40/40/20/0` array.
+
+## Init-pool runtime state is first-class and persistent
+
+Structure source: `restored/code/il2cpp/assemblies/HotFixBattle.dll.cs`.
+
+- `BattleData.InitSkillGroupCount` is its own field at struct offset **0x34**.
+- `BattleSaveData.initSkillGroupCount` exists at object offset **0x20**.
+- `BattleSaveData.SaveAllBattleData(..., int initSkillGroupCount, ...)` persists it.
+- `BattleWorldContext.get_InitSkillGroupCount()` — RVA **0x6A033B4**.
+- `BattleWorldContext.DoInitSkillGroup()` — RVA **0x6A035C0**.
+- `BattleWorldContext.DoInitSkillGroupCount(int count)` — RVA **0x6A0362C**.
+
+Combined with `SinglePlayerSkillCreator.GetNormalSkill` (RVA **0x6875450**) reading/decrementing the runtime counter and switching to `_initRandoms`, this proves the counter has a deliberate runtime and save-data lifecycle.
+
+Still missing: a stored native caller that connects battle preparation directly to `Const.UseInitSkillGroupCout = 1`. Do not upgrade that last link to hard proof yet.
