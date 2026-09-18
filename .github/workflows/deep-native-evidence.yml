@@ -1,0 +1,32 @@
+name: Export deep native evidence
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/04_native_evidence.py'
+      - '.github/workflows/deep-native-evidence.yml'
+  workflow_dispatch:
+
+jobs:
+  export:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          lfs: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install capstone pyelftools
+      - run: python scripts/04_native_evidence.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: deep-native-evidence
+          path: |
+            restored/code/native-evidence/HotFix.BattleLogic.DankeSkillCreator.asm
+            restored/code/native-evidence/HotFix.BattleLogic.HeroComponentExp.asm
+            restored/code/native-evidence/HotFix.BattleLogic.ExpAnimProcessor.asm
+            indexes/native-evidence.json
