@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="《小小远征队》客户端配置查询入口">
+<title>小小远征队 · 配置查询</title>
+<link rel="stylesheet" href="assets/style.css">
+<style>
+.config-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+.config-card{display:block;background:#fff;border:1px solid #dbe4e1;border-radius:14px;padding:20px;text-decoration:none;color:inherit}
+.config-card:hover{transform:translateY(-1px);box-shadow:0 8px 24px rgba(12,68,61,.08)}
+.config-card h3{margin:5px 0 8px}.config-card p{margin:0;color:#647875;line-height:1.65}
+.config-card .num{font-size:12px;color:#0d766c;font-weight:700;letter-spacing:.08em}
+@media(max-width:900px){.config-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:620px){.config-grid{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<header class="page-head"><div class="hero">
+<div class="eyebrow">CONFIGURATION BROWSER</div>
+<h1>配置查询</h1>
+<p>这里单独收纳客户端配置、字段和数值。它是查表工具，不是策划反拆报告。需要核对某架战机、某件装备、某把武器或某个局内词条的具体配置时，再从这里进入。</p>
+<div class="chips"><span>按系统分组</span><span>字段全文搜索</span><span>分页查数值</span><span>直达原始 JSON</span></div>
+</div></header>
+<main class="content wrap">
+<h2>配置分类</h2>
+<section class="config-grid">
+<a class="config-card" href="config-view.html?group=aircraft"><span class="num">01 / AIRCRAFT</span><h3>战机 / 皮肤</h3><p>Role 本体、等级、升星、皮肤及皮肤升星。</p></a>
+<a class="config-card" href="config-view.html?group=weapons"><span class="num">02 / WEAPONS</span><h3>武器</h3><p>AirplaneGun 本体、武器皮肤、升星和总配置。</p></a>
+<a class="config-card" href="config-view.html?group=equipment"><span class="num">03 / EQUIPMENT</span><h3>装备</h3><p>装备本体、部位、品质、等级以及相关显示配置。</p></a>
+<a class="config-card" href="config-view.html?group=drones"><span class="num">04 / DRONES</span><h3>僚机</h3><p>僚机本体、升星、等级模板、天赋节点和收藏成长。</p></a>
+<a class="config-card" href="config-view.html?group=pilots"><span class="num">05 / PILOT</span><h3>Pilot 配置组</h3><p>Pilot 本体、升星、动画映射和总配置。</p></a>
+<a class="config-card" href="config-view.html?group=collections"><span class="num">06 / COLLECTION</span><h3>收藏品</h3><p>Treasure、套装、品质、升星及历史 Collection 配置。</p></a>
+<a class="config-card" href="config-view.html?group=runbuild"><span class="num">07 / RUN BUILD</span><h3>局内构筑</h3><p>基础抽取池、分支强化、后续升级、高阶升级组等。</p></a>
+<a class="config-card" href="config-view.html?group=chapters"><span class="num">08 / CHAPTERS</span><h3>关卡 / 模式</h3><p>主线、困难、塔、竞技场、世界 Boss、公会 Boss 等。</p></a>
+</section>
+<div class="callout" style="margin-top:24px"><strong>使用原则：</strong>策划报告正文只引用“有意义的结论”，不会再把字段表、ID 清单和原始数值铺在报告里。需要追证据时从报告跳到这里查配置。</div>
+</main>
+<a class="back" href="index.html">← 研究首页</a>
+</body></html>
