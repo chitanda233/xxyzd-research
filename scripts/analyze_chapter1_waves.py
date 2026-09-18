@@ -93,7 +93,7 @@ def reconstruct() -> dict[str, Any]:
 
     chapter_rows = [
         x for x in missions
-        if 1001001 <= int(x["id"]) < 1002000
+        if 1001001 <= int(x["id"]) <= 1001078
     ]
     group_by_id = {int(x["id"]): x for x in groups}
     random_by_id = {int(x["id"]): x for x in random_cfg}
@@ -180,9 +180,21 @@ def reconstruct() -> dict[str, Any]:
                 "monsterDropType": c.get("MonsterDropType"),
             }
 
+        special_monsters = []
+        for monster_id, count in sorted(composition.items()):
+            monster_type = character_by_id.get(monster_id, {}).get("Type")
+            if monster_type in (201, 3):
+                special_monsters.append({
+                    "entityId": monster_id,
+                    "type": monster_type,
+                    "count": count,
+                })
+
         result_waves.append({
             "wave": wave_no,
             "start": start,
+            "combatStart": timeline[0]["at"] if timeline else None,
+            "lastConfiguredSpawn": timeline[-1]["at"] if timeline else None,
             "nextStart": next_start,
             "nominalDuration": None if next_start is None else round(next_start - start, 3),
             "stopByEliteOrBossKilled": int(wave_cfg.get("StopByEliteOrBossKilled", 0) or 0),
@@ -193,6 +205,7 @@ def reconstruct() -> dict[str, Any]:
             "spawnMoments": len(timeline),
             "totalMonsterCount": sum(composition.values()),
             "composition": dict(sorted(composition.items())),
+            "specialMonsters": special_monsters,
             "monsterMeta": monster_meta,
             "timeline": timeline,
             "missionEvents": mission_events,
@@ -210,10 +223,16 @@ def reconstruct() -> dict[str, Any]:
         "source": {
             "client": "1.0.16",
             "versionCode": 40,
-            "chapterMissionIdRange": [1001001, 1001999],
+            "chapterMissionIdRange": [1001001, 1001078],
             "missionRowCount": len(chapter_rows),
         },
         "timelineToBossSpawnSeconds": 347,
+        "notes": [
+            "CalRandomMonster native shows numberRandom is the target emitted entity count.",
+            "Chapter 1 random configs referenced here collapse to entity 330006, so random composition is exact.",
+            "totalMonsterCount is the configured maximum. On StopByEliteOrBossKilled waves, special-monster death can clear queued CreateMonsterData, so realized spawns can be lower.",
+            "nominalDuration is a configured scheduling window. Wave 10 and Wave 15 additionally have special-monster kill gates.",
+        ],
         "waves": result_waves,
         "experience": {
             "waveAllExp": wave_exp,
