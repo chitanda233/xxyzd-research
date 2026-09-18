@@ -10,7 +10,7 @@
 
 因此它同时在解决两个相反的问题：一方面需要随机性保证重复游玩；另一方面又不能让玩家已经投入的 Build 因为连续抽不到后续组件而报废。
 
-当前最重要的新结论是：此前“选了某一武器后，该武器家族整体被 +50%”的说法过度了。native 证据显示这一套 +50% 动态权重是按 `SkillType` 大类计算，不是按具体 `BattleSkillGroup` 计算。当前标准局内池里可明确对应的是 Type 1 武器主线，因此它更像 **提高武器类后续候选整体权重**，而不是专门给“冰刃弹家族”或“速射机炮家族”加权。
+当前最重要的新结论需要分成两层理解：第一，+50% 动态权重的分组粒度确实是 `SkillType`，不是具体 `BattleSkillGroup`，所以不能写成“拿到冰刃弹后，冰刃弹家族整体自动 +50%”。第二，native 进一步表明这个“已学习数量”也不是“当前持有几种不同武器”的去重计数：STG 的 `AddSkill` 每加入一次技能节点都会把该节点的 SkillType 计数 +1，然后立刻重算这一类型的权重；只有明确走 `RemoveSkillInSTG` 才会把对应类型计数减回去。于是它更接近 **玩家在某一类 Build 上累计投入了多少次选择**。对 Type 1 来说，主武器的后续升级本身也会继续增强“武器类候选”的出现惯性。
 
 ## 先把局内 Build 的四层结构讲清楚
 
@@ -61,7 +61,7 @@ native 的 `WeightRandom.RandomOneSubSkillByParent` 会读取父节点的 `Upgra
 
 ## 动态权重的公式已经可以坐实
 
-`HeroComponentRandomSkill` 在初始化时会执行 `GroupSkillsByType`，按 `Skill_Main.SkillType` 建立分组，并维护 `_learnedSkillCountsByType`。每次技能加入或移除都会更新对应类型的已学数量，然后重新计算这一类型的权重修正。
+`HeroComponentRandomSkill` 在初始化时会执行 `GroupSkillsByType`，按 `Skill_Main.SkillType` 建立分组，并维护 `_learnedSkillCountsByType`。在 STG 路径里，`AddSkill` 会先读取当前节点的 SkillType，调用 `UpdateLearnedSkillCount`，随后用新的计数计算 delta 并调用 `AdjustWeightsForSkillGroup`。对应的 `RemoveSkillInSTG` 才会调用 `DecreaseLearnedSkillCount`。因此这里统计的是加入/移除事件形成的“类型投入次数”，而不是简单的唯一技能种类数。
 
 `GetDeltaWeightPercent(skillType)` 的 native 逻辑等价于：
 
@@ -99,6 +99,32 @@ practicalWeight = baseWeight * (1 + deltaWeightPercent)
 
 但必须强调：**这是类型级，不是具体武器家族级。** 当前证据不支持“拿冰刃弹后，冰刃弹自己就 +50%”；更准确的说法是“随着武器类投入增加，武器类可用候选的整体相对权重提高”。具体某把武器能否出现，仍然受当前已学状态、NextSkill、NeedSkill、Reject、Flag、最大次数等条件过滤。
 
+### “已学习数量”到底怎么数
+
+这一点现在可以比上一版说得更精确。普通 STG `AddSkill(Skill_Main)` 的顺序是：
+
+```
+读 SkillType
+→ UpdateLearnedSkillCount(type)
+→ 更新已学技能记录 / Need / Reject / Flag
+→ GetDeltaWeightPercent(type)
+→ AdjustWeightsForSkillGroup(type, delta)
+```
+
+而 `RemoveSkillInSTG(Skill_Main)` 才会：
+
+```
+读 SkillType
+→ DecreaseLearnedSkillCount(type)
+→ 更新已学记录
+→ 重新计算该类型 delta
+→ AdjustWeightsForSkillGroup(type, delta)
+```
+
+这意味着权重强化不是“每新开一条武器路线只算一次”。例如同一条 Type 1 主武器从首层继续拿到二星、三星节点，只要这些节点通过普通 `AddSkill` 加入，就会继续把 Type 1 的学习计数往上推。配置里的 `CoverSkill` 负责运行时技能替换关系，但在 `AddSkill` 本身没有看到“因为 CoverSkill 而先自动减掉旧节点类型计数”的逻辑；如果某个特殊流程显式调用 `RemoveSkillInSTG`，计数才会相应回退。
+
+策划上应把它理解成一种**投入越深，方向惯性越强**的正反馈：玩家已经连续把升级机会花在武器成长上，系统就更不愿意在后续几次选择里突然把武器成长完全切断。但加权仍然只作用于“当前合法”的 Type 1 候选，因此不会绕过前置、最大星级或互斥条件，也不会保证某一把具体武器必出。
+
 ## 为什么要做这么强的类型加权
 
 如果完全均匀随机，局内 18 个首层入口、后续主线、57 个武器分支和大量深层强化混在一起，玩家很容易连续数波拿不到可以让输出质变的东西。第一章只有约 15 次基准升级机会，随机浪费两三次已经会显著影响 W10 精英和 W15 Boss。
@@ -124,6 +150,12 @@ practicalWeight = baseWeight * (1 + deltaWeightPercent)
 因此更合适的策划模型是：
 
 **先决定“本次候选应该从哪类东西里出” → 再决定“这一类里具体出哪条” → 再根据当前 Build 做可学性和互斥校验。**
+
+### `randomSkillFactor` 是候选池起点权重
+
+`HeroSkillCreator.GetRandomSkills` 对 `randomSkillFactor` 的处理已经可以从 native 读清：它先把数组各项求和，在总权重范围内随机一个值，再落到某个数组下标；这个下标决定本次优先尝试哪个 `WeightRandom` 池。随后系统从该池按权重抽实际技能；如果该池不足以填满本次候选数，再顺序尝试后续池补齐。
+
+第一章 `Exp_exp` 中常见的 `[2,40,40,20]` / `[1,40,40,20]` 因此不是“具体技能概率”，而是四个候选池的**池级优先权重**。目前已经确认“先选池，再在池内抽技能”的两级结构；但四个槽位和“新技能 / 已学升级 / 一星入口 / 其它池”的精确一一映射仍要继续从初始化代码闭合，所以这里暂不强行命名。
 
 ## 前置、互斥与 Flag 是硬约束，不只是降权
 
@@ -152,7 +184,7 @@ practicalWeight = baseWeight * (1 + deltaWeightPercent)
 
 ## 当前已确认、仍待继续确认的边界
 
-已确认：候选按类型分组；已学数量按类型统计；Type 1 每次 +50%、最多 +500%；实际权重公式为 base × (1+delta)；武器主线从 2 星起可挂分支；突破存在武器节点 + 模块前置；候选生成有已学/待学/一星/父子技能、Need/Reject/Flag、临时 Boost 和刷新上下文。
+已确认：候选按 SkillType 分组；STG 的 AddSkill 每加入一次节点就把对应类型学习计数 +1，RemoveSkillInSTG 才会 -1；Type 1 每次投入带来 +50%、最多 +500%，实际权重公式为 base × (1+delta)；randomSkillFactor 用于池级起点加权；池内再走 WeightRandom；武器主线从 2 星起可挂分支；突破存在武器节点 + 模块前置；候选生成还包含已学/待学/一星/父子技能、Need/Reject/Flag、临时 Boost 和刷新上下文。
 
 尚未写死：UI 最终显示 2 个还是 3 个候选时，各场景的精确概率；`randomSkillFactor` 在所有 hotfix 分支中的最终解释；刷新是否明确禁止上一屏全部重复；质量/星级提升在每个关卡等级的精确概率。这些应作为下一轮 native 深挖点，而不是用字段名猜结论。
 
