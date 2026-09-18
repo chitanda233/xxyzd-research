@@ -144,3 +144,8 @@
 - 线上热更是否改变本地配置或状态机。
 
 这些属于后续录像/运行时对照项，不影响当前对第一章核心节奏骨架的判断。
+
+
+## 复现与证据入口
+
+本报告对应的结构化中间结果保存在 [chapter1-wave-summary.json](./chapter1-wave-summary.json)，可复现压缩脚本为 [scripts/analyze_chapter1_waves.py](../../scripts/analyze_chapter1_waves.py)。波末经验吸收、待升级队列和连续三选一的 native 证据摘要见 [evidence/waterfall-wave-end-upgrade.md](../../evidence/waterfall-wave-end-upgrade.md)。原始 ARM64 仍以 `restored/code/native-evidence/HotFix.BattleLogic.WaterfallBattleManager.asm` 为最终静态证据。
