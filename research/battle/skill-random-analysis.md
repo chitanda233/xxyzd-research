@@ -249,3 +249,8 @@
 3. 如果要研究特殊技能系统，再单独拆 Danke 路径中的 `Exp_exp.randomSkillFactor`；它不应继续阻塞普通主线核心循环报告。
 
 对于最终策划报告而言，现在已经可以把普通主线三选一写成确定规则；只有“同 SkillType 动态增权是否线上启用”需要继续标成待验证。
+
+
+## 复现与证据入口
+
+“同 SkillType 每学一个计划 +50%、最多 +500%”以及“当前 APK fallback 应用函数为空实现”的证据边界，单独整理在 [evidence/skill-dynamic-weight.md](../../evidence/skill-dynamic-weight.md)。完整 ARM64 仍以 `restored/code/native-evidence/HotFix.BattleLogic.HeroComponentRandomSkill.asm` 与 `HotFix.BattleLogic.WeightRandom.asm` 为最终静态证据。
