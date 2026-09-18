@@ -42,7 +42,7 @@ def main():
     native = Native()
     folder = ROOT / 'restored/code/native-evidence'
     folder.mkdir(parents=True, exist_ok=True)
-    names = ['BaseLocalBean', 'CharacterComponentOnHit', 'WaterfallBattleManager', 'BaseSurvivalBattleManager', 'SinglePlayerBattleManager', 'BeeMonsterRefresher', 'BeeMonsterCreator', 'NormalSkillCreator', 'SinglePlayerSkillCreator', 'HeroSkillCreator', 'HeroComponentRandomSkill', 'DankeSkillCreator', 'HeroComponentExp', 'ExpAnimProcessor', 'WeightRandom', 'MainDropManager', 'CharacterComponentBuff']
+    names = ['BaseLocalBean', 'CharacterComponentOnHit', 'WaterfallBattleManager', 'BaseSurvivalBattleManager', 'SinglePlayerBattleManager', 'WaterfallStateSelectSkill', 'WaterfallStateSpecialSelectSkill', 'BeeMonsterRefresher', 'BeeMonsterCreator', 'NormalSkillCreator', 'SinglePlayerSkillCreator', 'HeroSkillCreator', 'HeroComponentRandomSkill', 'DankeSkillCreator', 'HeroComponentExp', 'ExpAnimProcessor', 'WeightRandom', 'MainDropManager', 'CharacterComponentBuff']
     selected = [m for m in native.methods if any(n in m['Name'].split('$$')[0] for n in names) or ('LocalModels.Bean.' in m['Name'] and m['Name'].endswith('$$readImpl'))]
     groups = {}
     for m in selected:
