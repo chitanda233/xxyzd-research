@@ -1,8 +1,13 @@
 #!/usr/bin/env python3
-"""Flatten Chapter 1 waterfall mission rows into a planner-readable 15-wave table.
+"""Flatten Chapter 1 waterfall missions into a planner-readable 15-wave table.
 
 Run from repository root:
     python scripts/08_analyze_chapter1_waves.py
+
+Important native rule:
+Mission.numberRandom is the TARGET MONSTER COUNT of that random-spawn
+instruction. CalRandomMonster repeatedly chooses a random config and expands
+its entityId list, but stops/truncates as soon as that target count is reached.
 """
 from __future__ import annotations
 
@@ -18,10 +23,18 @@ def load(name: str):
     return json.loads((TABLES / name).read_text(encoding="utf-8"))
 
 
-def dec(v) -> float:
-    if isinstance(v, dict):
-        return float(v.get("decimal", 0))
-    return float(v or 0)
+def dec(value) -> float:
+    if isinstance(value, dict):
+        return float(value.get("decimal", 0))
+    return float(value or 0)
+
+
+def random_entity_set(candidate_ids, random_map):
+    """Return all entity IDs that can appear from these candidate configs."""
+    result = set()
+    for cfg_id in candidate_ids:
+        result.update(random_map.get(cfg_id, []))
+    return result
 
 
 def main() -> None:
@@ -33,21 +46,24 @@ def main() -> None:
     exp_rows = load("Exp_exp.json")
 
     chapter = next(row for row in chapters if row["id"] == 1)
-    mission_prefix = chapter["missionIdPrev"]  # 1001 for Chapter 1
-    wave_base = chapter["waveId"]              # 100100 for Chapter 1
+    mission_prefix = chapter["missionIdPrev"]  # 1001
+    wave_base = chapter["waveId"]              # 100100
 
     chapter_missions = [m for m in missions if m["id"] // 1000 == mission_prefix]
     if len(chapter_missions) != 78:
-        raise RuntimeError(f"Expected 78 Chapter-1 mission rows, got {len(chapter_missions)}")
+        raise RuntimeError(
+            f"Expected 78 Chapter-1 mission rows, got {len(chapter_missions)}"
+        )
 
     group_map = {g["id"]: json.loads(g["flushPool"]) for g in groups}
     random_map = {r["id"]: r.get("entityId", []) for r in random_cfg}
     wave_map = {w["id"]: w for w in waves}
 
-    print("|波|开始|下一波|窗口|固定怪|随机怪|总量|最后刷出|EXP|硬门槛|固定组合|")
-    print("|---:|---:|---:|---:|---:|---:|---:|---:|---:|:---:|---|")
+    print("|波|开始|下一波|窗口|怪量|最后刷出|EXP|硬门槛|组合|")
+    print("|---:|---:|---:|---:|---:|---:|---:|:---:|---|")
 
     wave_exp = []
+
     for wave_no in range(1, chapter["waveNum"] + 1):
         rows = [m for m in chapter_missions if m["wave"] == wave_no]
         if not rows:
@@ -57,10 +73,9 @@ def main() -> None:
         next_rows = [m for m in chapter_missions if m["wave"] == wave_no + 1]
         next_start = min((dec(m["time"]) for m in next_rows), default=None)
 
-        fixed = Counter()
-        fixed_count = 0
-        random_min = 0
-        random_max = 0
+        composition = Counter()
+        unknown_random = []
+        total_count = 0
         latest = start
 
         for m in rows:
@@ -68,46 +83,56 @@ def main() -> None:
             delay = dec(m["delayTime"])
             latest = max(latest, base + delay)
 
-            # missionType 9 is an event/control row, not a monster row.
+            # missionType 9 is an event/control row, not a monster spawn.
             if m.get("missinType") == 9:
                 continue
 
             for entity_id in m.get("Monster", []):
-                fixed[entity_id] += 1
-                fixed_count += 1
+                composition[entity_id] += 1
+                total_count += 1
 
             for group_id in m.get("positionGroupMonster", []):
                 for entry in group_map.get(group_id, []):
                     latest = max(latest, base + float(entry.get("Delay", 0)))
                     for entity_id in entry.get("Monster", []):
-                        fixed[entity_id] += 1
-                        fixed_count += 1
+                        composition[entity_id] += 1
+                        total_count += 1
 
             candidates = m.get("randomMonster", [])
-            picks = int(m.get("numberRandom", 0))
-            if candidates and picks > 0:
-                sizes = [len(random_map[cfg_id]) for cfg_id in candidates]
-                random_min += min(sizes) * picks
-                random_max += max(sizes) * picks
+            target = int(m.get("numberRandom", 0))
+            if candidates and target > 0:
+                # Native CalRandomMonster guarantees exactly target entities
+                # (assuming valid configs); it can truncate a selected config.
+                total_count += target
+
+                possible_entities = random_entity_set(candidates, random_map)
+                if len(possible_entities) == 1:
+                    # Chapter 1 pools 2/5/13 all resolve only to 330006,
+                    # so the random composition is also exact.
+                    composition[next(iter(possible_entities))] += target
+                else:
+                    unknown_random.append(
+                        f"{target} random from cfg {','.join(map(str, candidates))}"
+                    )
 
         wcfg = wave_map[wave_base + wave_no]
         wave_exp.append(wcfg["WaveAllExp"])
-        total_min = fixed_count + random_min
-        total_max = fixed_count + random_max
-        random_text = str(random_min) if random_min == random_max else f"{random_min}~{random_max}"
-        total_text = str(total_min) if total_min == total_max else f"{total_min}~{total_max}"
+
         next_text = "-" if next_start is None else f"{next_start:g}s"
         window_text = "-" if next_start is None else f"{next_start - start:g}s"
-        comp = ", ".join(f"{eid}×{cnt}" for eid, cnt in sorted(fixed.items()))
+        comp = ", ".join(f"{eid}×{cnt}" for eid, cnt in sorted(composition.items()))
+        if unknown_random:
+            comp += ("; " if comp else "") + "; ".join(unknown_random)
 
         print(
-            f"|{wave_no}|{start:g}s|{next_text}|{window_text}|{fixed_count}|"
-            f"{random_text}|{total_text}|{latest:g}s|{wcfg['WaveAllExp']}|"
+            f"|{wave_no}|{start:g}s|{next_text}|{window_text}|{total_count}|"
+            f"{latest:g}s|{wcfg['WaveAllExp']}|"
             f"{wcfg['StopByEliteOrBossKilled']}|{comp}|"
         )
 
     thresholds = [row["waveExp"] for row in exp_rows[: len(wave_exp)]]
     deltas = [thresholds[0]] + [b - a for a, b in zip(thresholds, thresholds[1:])]
+
     print()
     print("WaveAllExp:", wave_exp)
     print("Threshold deltas:", deltas)
