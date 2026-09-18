@@ -24,7 +24,7 @@
 
 `RecalculateAllWeight` 会重新遍历所有候选，把每个 `WeightRandomData.Weight()` 累加回 `_allWeight`。因此候选权重一旦发生变化，后续随机概率会真实改变。
 
-客户端还实现了 `BoostWeightByPercent(id, percent)` 和 `RevertWeightBoost(id, increment)`：前者能对单个候选临时增权，同时把增量加入总权重；后者再把增量撤销。这说明“临时提高某个候选的命中概率”是底层抽取器确实支持并执行的能力。
+客户端还实现了 `BoostWeightByPercent(id, percent)` 和 `RevertWeightBoost(id, increment)`：前者按 `BaseWeight × percent / 100` 算出整数增量，临时加到候选基础权重并同步更新总权重；后者再把同一增量撤销。这说明“临时提高某个候选的命中概率”是底层抽取器确实支持并执行的能力。它和上面的 SkillType 动态百分比是两套不同层次的机制：前者在 APK fallback 中有真实实现，后者的组级写回则停在空函数。
 
 ## 二、候选池会随已学技能变化，因此 Build 本身并非完全无记忆
 
@@ -45,6 +45,15 @@
 这些函数会读取技能配置、当前权重、最大星级、升级分支、前置技能与排斥关系，再重新构造可抽候选。虽然当前静态调用链里部分调用经过间接分发，尚未把“三张牌分别优先占几个槽”的完整顺序还原出来，但至少可以确定：**抽取池不是每次从固定全集重新等概率抽取，而是会根据已学状态和技能进阶关系变化。**
 
 因此，即便下面讨论的“同类型额外增权”在 APK fallback 中没有落地，Build 仍可能因为“已有技能升级、前置解锁、分支技能、排斥关系”自然出现一定程度的连续性。
+
+进一步读 `GetAlreadyStudySkill / GetReadyStudySkill / GetOneStarSkill / RandomOneSubSkillByParent` 可以确认，候选池至少存在几类明确的结构化子池，而不是把所有合法技能混成一桶：
+
+- `GetAlreadyStudySkill` 从当前抽取器中重新筛出已经进入玩家 Build、仍可继续成长的技能，并重新按原权重加入临时池；达到最大星级的项目不会继续作为普通升级项无限出现。
+- `GetReadyStudySkill` 筛出尚未正式进入 Build、但前置/可学习条件已经满足的技能。
+- `GetOneStarSkill` 单独构造一星/起始层候选，用于给玩家开启新的成长线。
+- `RandomOneSubSkillByParent` 在父技能存在多个可升级分支时，不是把所有子技能同时塞进最终结果，而是先检查分支是否可学、是否被禁用/重复，再从合法子分支中抽一个。
+
+因此三选一的“续已有 Build”和“开新 Build”并不是只靠动态权重完成的；**候选池结构本身就在主动区分已有成长线、可开启新线和分支升级。** 目前还没有把三张牌各自固定占几个槽完全还原，所以不能写成“必定一张旧技能 + 两张新技能”这类过度结论。
 
 ## 三、配置明确准备了“同类型越学越容易出”的参数
 
@@ -68,6 +77,12 @@
 因此公式可以直接还原为：
 
 `delta = min(learnedCount × 0.5, 5.0)`
+
+底层 `WeightRandomData` 还保存了这个动态百分比字段，实际权重计算逻辑是：
+
+`PracticalWeight = BaseWeight × (1 + delta)`
+
+所以如果这条动态写回链在热修层被启用，那么同类型已学 1 / 2 / 3 个时，组内每个候选会分别以自身基础权重的 1.5 / 2.0 / 2.5 倍参与抽取；达到 10 个同类型技能后封顶为 6.0 倍。它是对每张卡自身基础权重的乘法，不会抹平组内原本的稀有度差异。
 
 如果按策划百分比理解，就是：
 
@@ -106,7 +121,7 @@
 
 问题在于，`AdjustWeightsForSkillGroup` 的 APK native fallback 在进入实际方法体后**直接恢复寄存器并返回**，没有读取技能分组，没有遍历候选，也没有调用 `WeightRandom.UpdateWeightPercent`。
 
-它只保留了 IL2CPP/热修分发入口：如果运行时方法被热修替换，就跳到外部实现；如果没有热修，则什么也不做。
+它只保留了 IL2CPP/热修分发入口：RVA `0x686A17C` 在未命中热修分发时直接恢复寄存器并 `ret`；如果运行时方法被热修替换，才跳到外部实现。也就是说，如果没有热修，这一步确实什么也不做。
 
 这点非常关键，因为客户端其实已经存在一个真正能完成这件事的底层函数：
 
@@ -114,9 +129,9 @@
 
 这个函数会遍历当前候选，在技能 ID 命中传入数组时，把对应 `WeightRandomData` 的权重百分比字段更新成传入值。也就是说，“按技能组批量改权重”的底层基础设施已经写好了。
 
-但在当前保存的 `HeroComponentRandomSkill.asm` 中，没有发现对 `WeightRandom.UpdateWeightPercent` 的直接调用；负责把“技能类型 → 一组技能 ID → delta”连起来的正好就是那个空的 `AdjustWeightsForSkillGroup`。
+但在当前保存的 `HeroComponentRandomSkill.asm` 中，没有发现由该类型调整路径直接调用 `WeightRandom.UpdateWeightPercent`；负责把“技能类型 → 一组技能 ID → delta”连起来的正好就是那个空的 `AdjustWeightsForSkillGroup`。
 
-所以证据链停在了最后一步。
+所以证据链停在了最后一步。换句话说，`UpdateLearnedSkillCount` 确实执行了“计数 +1 → `GetDeltaWeightPercent` → 调用 `AdjustWeightsForSkillGroup`”，但 APK fallback 到这里就断了，不能把“函数被调用”误写成“权重已实际修改”。
 
 ## 五、这意味着什么
 
