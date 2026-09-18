@@ -51,6 +51,22 @@ if (WaveAllExp >= 1) {
 
 直接读取当前 Wave 配置偏移 0x24，并判断是否等于 1。对照 `ChapterWave_Waves` 可确认第一章只有 W10、W15 为真；W5 为假。
 
+### EnemyDieSpecialLogic — RVA 0x65D4E80
+
+来源：`HotFix.BattleLogic.WaterfallBattleManager.asm`。
+
+在当前波 `StopByEliteOrBossKilled=1` 时：
+
+1. 读取死亡敌人的 Monster Type；
+2. 只对 Type 201 或 Type 3 计入特殊目标死亡；
+3. `_remainSpecialMonsterCount -= 1`；
+4. 归零后调用 `BaseSurvivalBattleManager.EnemySpecialDie`；
+5. 更新当前 mission，并调用 `ClearMonsterCreateData`。
+
+因此 W10/W15 是“关键目标击杀门槛”，不是“未来所有脚本必须完整刷新并清场”的门槛。关键目标完成后，尚未执行的创建计划会被截断。
+
+`BaseSurvivalBattleManager.EnemyDieSpecialLogic` 还单独确认：Type 3 死亡会直接调用 `ClearMonsterCreateData`，与 Boss 波行为一致。
+
 ### OnProgressFinish — RVA 0x65CC838
 
 波末进度处理器。关键路径：
