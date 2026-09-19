@@ -265,4 +265,4 @@
 
 ## 复现与证据入口
 
-“同 SkillType 每学一个计划 +50%、最多 +500%”以及“当前 APK fallback 应用函数为空实现”的证据边界，单独整理在 [evidence/skill-dynamic-weight.md](../../evidence/skill-dynamic-weight.md)。完整 ARM64 仍以 `restored/code/native-evidence/HotFix.BattleLogic.HeroComponentRandomSkill.asm` 与 `HotFix.BattleLogic.WeightRandom.asm` 为最终静态证据。
+“同 SkillType 每学一个计划 +50%、最多 +500%”以及“当前 APK fallback 应用函数为空实现”的证据边界，单独整理在 [evidence/skill-dynamic-weight.md](../../evidence/skill-dynamic-weight.md)。配置曲线可用 [scripts/analyze_skill_type_weight.py](../../scripts/analyze_skill_type_weight.py) 复现；该脚本只还原设计公式与倍率，不把 APK fallback 未启用的应用逻辑误写成已生效。完整 ARM64 仍以 `restored/code/native-evidence/HotFix.BattleLogic.HeroComponentRandomSkill.asm` 与 `HotFix.BattleLogic.WeightRandom.asm` 为最终静态证据。
