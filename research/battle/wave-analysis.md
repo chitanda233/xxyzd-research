@@ -103,3 +103,24 @@ native 里已经能直接看到两个计数器的行为：
 **高概率：**第 5 波 43 秒长窗口主要承担第一段高潮与过场/事件节奏，而不是精英死亡锁；第 9、13 波分别承担第 10 波精英与最终 Boss 前的缓冲。
 
 **仍需补证：**如果要把“实际持续秒数”还原成录像级数据，还需要继续反解 `CheckNeedPause`、特殊 UI 状态持续时长以及第 15 波最终结算分支。当前结果已经足够支撑策划向《局内核心循环反拆》，但不应把名义秒数误写成所有玩家都固定经历的实际时长。
+
+
+## 波末升级状态机：已经可以还原到 0→1→2→3→0
+
+继续下钻 native 后，波末升级已经不只是“有计数器”这一层，而是可以还原出明确的四态流程。为避免把未知源码枚举名伪造出来，这里用行为命名：
+
+`0 Idle → 1 Queued → 2 Selecting → 3 FinishedPendingContinue → 0`
+
+具体行为是：`QueueSelectSkill` 在波末且状态为 0 时先写成 1，再进入选择技能状态；进入选择界面时，`ShouldApplyLevelOnSelectSkillEnter` 把 1 改成 2；玩家完成一次选择后，`MarkWaveEndSelectSkillFinished` 只接受状态 2，把它改成 3，并调用 `DelUpLevel`，所以**一次三选一只消费一个待处理等级**；随后 `TryContinueWaveEndUpLevelAfterSelection` 只接受状态 3，归零状态，并继续波末流程。如果还有特殊技能选择会先进入对应状态，否则重新回到波末推进逻辑。
+
+这个闭环把“一波累计多个等级怎么办”进一步坐实：待处理等级存在 `_needUpLevelCount` 中，每完成一次选择才减 1。波末流程恢复后如果仍有升级债务，会再次进入选择流程，而不是把多个等级合并成一次三选一。
+
+另外，`TryResumeWaveEndUpLevelProgress` 有四个同时成立的恢复条件：当前确实在波末、当前特殊 UI 是升级 UI、不是 `AbsorbAll` 处理中、`CanRunUpLevelProgress` 为真。这解释了为什么掉落吸收、升级动画和选择 UI 不会互相穿插，而是被串成顺序状态机。
+
+## 精英/Boss 门槛的 native 闭环
+
+`CheckStopByEliteOrBossKilled`（RVA 0x65D3784）本身非常直接：读取当前波配置的开关并判断是否等于 1。更关键的是 `EnemyDieSpecialLogic`（RVA 0x65D4E80）只有在这个开关成立时才进入特殊死亡处理，并明确比较怪物类型 `0xC9 (=201)` 和 `3`。第一章第 10 波的 310008 正是 Type 201，第 15 波 340002 正是 Type 3。
+
+因此，“第 10 波是精英死亡锁、第 15 波是 Boss 死亡锁、第 5 波不是死亡锁”现在已经形成**波配置 → 实体类型 → 死亡逻辑**三方闭环，不再只是依据 `StopByEliteOrBossKilled` 字段名做解释。
+
+技术证据摘记已单独保存到 `evidence/waterfall-wave-end-state-machine.md`；15 波原始压缩结果保存到 `research/battle/chapter1-wave-summary.json`，可由 `scripts/analyze-chapter1-waves.py` 重算。
