@@ -15,7 +15,7 @@
 
 另一个重要修正是：`Exp_exp.randomSkillFactor = [1/2,40,40,20]` **不是普通主线三选一的品质权重**。普通分支在 `HeroComponentRandomSkill.GetNormalSkill` 中使用的是 `Const.RandomSkillWeight`，并把 `randomSkillFactor` 以 null 传入；`Exp_exp.randomSkillFactor` 只在 Danke/特殊技能路径中被读取。不能再用这四个数解释普通三选一的槽位构成。
 
-最后，客户端确实设计了“同 SkillType 越学越增权”的动态 Build 收敛模型：每学一个同类型技能计划 +50%，最高 +500%。但当前 1.0.16 APK fallback 中，负责把这个增量真正写回组内候选的 `AdjustWeightsForSkillGroup` 是空实现。因此这套机制的**公式与设计意图已证实，APK 基线实际生效未证实**；线上热修若覆盖该函数，则可能启用。
+最后，客户端确实设计了“同 SkillType 越学越增权”的动态 Build 收敛模型：每学一个同类型技能计划 +50%，最高 +500%。但当前 1.0.16 APK fallback 中，负责把这个增量真正写回组内候选的 `AdjustWeightsForSkillGroup` 是空实现。因此这套机制的**公式与设计意图已证实，APK 基线实际生效未证实**。本轮进一步确认客户端确实存在 `HotUpdateSnapshot/HotFixBattle.dll.bytes` 与独立代码 bundle 更新链，所以“线上 HotFixBattle 覆盖此空 fallback”是结构上真实可行的；但真正代码 bundle 尚未取得，仍不能把它写成已在线启用。
 
 ## 一、普通三选一不是三张牌各自独立抽品质
 
@@ -221,6 +221,8 @@
 
 问题仍然出在最后一步。
 
+这次又补到了一个重要运行时边界：APK 的 `catalog_hotfix.json` 键表中明确存在 `HotUpdateSnapshot/HotFixBattle.dll.bytes`，snapshot bundle 解开后还能得到真正代码包名 `0dc4ad20592f3aedee4d422f396422c9.bundle`。因此这个项目确实有独立的 HotFixBattle 代码热更新链，不只是资源表热更新。换句话说，APK fallback 为空不能证明线上一定为空；但在没有拿到这个真正代码包前，也不能反过来证明线上已经实现。
+
 调用链已经存在：
 
 `AddSkill`
@@ -279,7 +281,7 @@
 3. 补出 `PunchboardRandomSkillCountWeight` 的实际数组，以及 `GetPunchboardRandomCount` 中修正末档权重的角色属性名，从而把 Punchboard 的“展示几个技能”还原成可计算概率。
 4. 如果要研究特殊技能系统，再单独拆 Danke 路径中的 `Exp_exp.randomSkillFactor`；它不应继续阻塞普通主线核心循环报告。
 
-对于最终策划报告而言，现在已经可以把普通主线三选一写成确定规则；只有“同 SkillType 动态增权是否线上启用”需要继续标成待验证。
+对于最终策划报告而言，现在已经可以把普通主线三选一写成确定规则；只有“同 SkillType 动态增权是否线上启用”需要继续标成待验证。决定性证据不再是继续猜 APK fallback，而是取得 HotFixBattle 真正代码 bundle 并直接检查 `AdjustWeightsForSkillGroup`。
 
 
 ## 复现与证据入口
