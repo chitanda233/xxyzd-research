@@ -102,3 +102,16 @@
 - 更新命中项的 weight percent。
 
 策划结论：当前 Build 的技能类型构成会反馈到后续随机权重，形成软 Build 收敛。
+
+
+## 随机怪生成数量
+
+`WaterfallBattleManager.CreateRandomMonster`（RVA 0x65CFF58）：
+
+- 读取当前 mission 的随机生成数量；
+- 受 `MaxCreateMonsterCount = 600` 上限保护；
+- 循环中每次生成/写入一条 `MonsterCreateData`；
+- 循环索引逐次 +1，直到达到随机生成数量；
+- 结束时 `CreateMonsterCount += randomCount`。
+
+结论：该路径上 **1 次 random draw = 1 个实际生成实体**。第一章用到的随机池候选全部归于 330006，因此可以把 `numberRandom` 直接换算成额外杂兵数量。
