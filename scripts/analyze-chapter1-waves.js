@@ -1,128 +1,153 @@
 #!/usr/bin/env node
 
 /**
- * Chapter-1 Waterfall wave compressor.
+ * Compress Chapter 1 Waterfall mission instructions into 15 wave summaries.
  *
- * Converts the 78 raw MissionWaterfallMission rows into a 15-wave summary.
- * Important: deterministic spawns and random-pool draws are kept separate.
+ * Sources:
+ * - restored/configs/tables/MissionWaterfallMission_WaterfallMission.json
+ * - restored/configs/tables/Mission_PositionGroupMonsterFlushConfig.json
+ * - restored/configs/tables/Mission_RandomMonsterFlushConfig.json
+ * - restored/configs/tables/ChapterWave_Waves.json
+ *
+ * Usage:
+ *   node scripts/analyze-chapter1-waves.js
  */
 
 const fs = require("fs");
 const path = require("path");
 
-const ROOT = path.resolve(__dirname, "..");
-const readJson = rel => JSON.parse(fs.readFileSync(path.join(ROOT, rel), "utf8"));
+const root = path.resolve(__dirname, "..");
+const readJson = (p) =>
+  JSON.parse(fs.readFileSync(path.join(root, p), "utf8"));
 
-const missions = readJson("restored/configs/tables/MissionWaterfallMission_WaterfallMission.json");
-const groups = readJson("restored/configs/tables/Mission_PositionGroupMonsterFlushConfig.json");
-const randomPools = readJson("restored/configs/tables/Mission_RandomMonsterFlushConfig.json");
-const waves = readJson("restored/configs/tables/ChapterWave_Waves.json");
+const mission = readJson(
+  "restored/configs/tables/MissionWaterfallMission_WaterfallMission.json"
+);
+const positionGroups = readJson(
+  "restored/configs/tables/Mission_PositionGroupMonsterFlushConfig.json"
+);
+const randomPools = readJson(
+  "restored/configs/tables/Mission_RandomMonsterFlushConfig.json"
+);
+const chapterWaves = readJson(
+  "restored/configs/tables/ChapterWave_Waves.json"
+);
 
-const chapter1 = missions.filter(x => x.id >= 1001001 && x.id <= 1001078);
-if (chapter1.length !== 78) {
-  throw new Error(`Expected 78 chapter-1 mission rows, got ${chapter1.length}`);
-}
+const rows = mission.filter((x) => x.id >= 1001001 && x.id <= 1001078);
+const groupMap = new Map(
+  positionGroups.map((x) => [x.id, JSON.parse(x.flushPool)])
+);
+const randomMap = new Map(randomPools.map((x) => [x.id, x]));
 
-const groupMap = new Map(groups.map(x => [x.id, JSON.parse(x.flushPool)]));
-const randomMap = new Map(randomPools.map(x => [x.id, x]));
-
-function addRandomToExactTotals(exactTotals, pool, draws) {
-  // CreateRandomMonster native code proves 1 draw = 1 generated entity.
-  // Only collapse into an exact entity count when the pool has one unique candidate ID.
-  const ids = [...new Set(pool?.entityId || [])];
-  if (ids.length === 1) addCount(exactTotals, ids[0], draws);
-}
-
-function addCount(map, id, count = 1) {
-  if (id === undefined || id === null) return;
-  map[id] = (map[id] || 0) + count;
+function addCount(target, id, count = 1) {
+  if (id == null) return;
+  target[id] = (target[id] || 0) + count;
 }
 
 function summarizeWave(wave) {
-  const rows = chapter1.filter(x => x.wave === wave);
-  const deterministic = {};
-  const exactMonsterTotals = {};
-  const random = [];
-  const events = [];
+  const waveRows = rows.filter((x) => x.wave === wave);
+  const counts = {};
+  const timeline = [];
 
-  for (const row of rows) {
-    const base = row.time?.decimal || 0;
+  for (const row of waveRows) {
+    const baseTime = row.time?.decimal || 0;
     const delay = row.delayTime?.decimal || 0;
 
     if (row.missinType) {
-      events.push({ time: base, kind: "mission-event", missionType: row.missinType, missionId: row.id });
+      timeline.push({
+        time: baseTime,
+        kind: "event",
+        detail: { missionType: row.missinType, missionId: row.id },
+      });
     }
 
-    if ((row.Monster || []).length) {
-      const batch = {};
-      for (const monsterId of row.Monster) {
-        addCount(batch, monsterId);
-        addCount(deterministic, monsterId);
-        addCount(exactMonsterTotals, monsterId);
-      }
-      events.push({ time: base + delay, kind: "spawn", source: `mission:${row.id}`, monsters: batch });
+    const direct = {};
+
+    for (const monsterId of row.Monster || []) {
+      addCount(direct, monsterId);
+      addCount(counts, monsterId);
     }
 
     for (const randomId of row.randomMonster || []) {
       const pool = randomMap.get(randomId);
-      addRandomToExactTotals(exactMonsterTotals, pool, row.numberRandom || 0);
-      random.push({
-        time: base + delay,
-        missionId: row.id,
-        poolId: randomId,
-        draws: row.numberRandom || 0,
-        candidates: pool?.entityId || [],
-        weight: pool?.weight || pool?.Weight || null
-      });
-      events.push({
-        time: base + delay,
-        kind: "random-pool",
-        source: `mission:${row.id}`,
-        poolId: randomId,
-        draws: row.numberRandom || 0
+      if (!pool) continue;
+
+      for (const monsterId of pool.entityId || []) {
+        addCount(direct, monsterId, row.numberRandom || 0);
+        addCount(counts, monsterId, row.numberRandom || 0);
+      }
+    }
+
+    if (Object.keys(direct).length > 0) {
+      timeline.push({
+        time: baseTime + delay,
+        kind: "spawn",
+        detail: direct,
       });
     }
 
     for (const groupId of row.positionGroupMonster || []) {
-      for (const flush of groupMap.get(groupId) || []) {
-        const batch = {};
-        for (const monsterId of flush.Monster || []) {
-          addCount(batch, monsterId);
-          addCount(deterministic, monsterId);
-          addCount(exactMonsterTotals, monsterId);
+      const group = groupMap.get(groupId) || [];
+
+      for (const entry of group) {
+        const groupCounts = {};
+
+        for (const monsterId of entry.Monster || []) {
+          addCount(groupCounts, monsterId);
+          addCount(counts, monsterId);
         }
-        events.push({
-          time: base + (flush.Delay || 0),
+
+        timeline.push({
+          time: baseTime + (entry.Delay || 0),
           kind: "spawn",
-          source: `group:${groupId}`,
-          monsters: batch
+          detail: groupCounts,
+          groupId,
         });
       }
     }
   }
 
-  events.sort((a, b) => a.time - b.time);
+  timeline.sort((a, b) => a.time - b.time);
 
-  const waveConfig = waves.find(x => x.id === 100100 + wave);
-  const start = Math.min(...rows.map(x => x.time.decimal));
-  const nextRows = chapter1.filter(x => x.wave === wave + 1);
-  const nextStart = nextRows.length ? Math.min(...nextRows.map(x => x.time.decimal)) : null;
+  const config = chapterWaves.find((x) => x.id === 100100 + wave);
+  const start = Math.min(...waveRows.map((x) => x.time.decimal));
+  const nextRows = rows.filter((x) => x.wave === wave + 1);
+  const nextStart = nextRows.length
+    ? Math.min(...nextRows.map((x) => x.time.decimal))
+    : null;
+
+  const spawnTimes = [
+    ...new Set(
+      timeline
+        .filter((x) => x.kind === "spawn")
+        .map((x) => x.time)
+    ),
+  ];
 
   return {
     wave,
     start,
     nextStart,
-    nominalWindow: nextStart === null ? null : nextStart - start,
-    stopByEliteOrBossKilled: waveConfig?.StopByEliteOrBossKilled ?? null,
-    waveAllExp: waveConfig?.WaveAllExp ?? null,
-    startSpecialUI: waveConfig?.WaveStartSpecialUIType ?? [],
-    endSpecialUI: waveConfig?.WaveEndSpecialUIType ?? [],
-    deterministic,
-    exactMonsterTotals,
-    random,
-    events
+    nominalDuration:
+      nextStart == null ? null : nextStart - start,
+    stopByEliteOrBossKilled:
+      config?.StopByEliteOrBossKilled ?? null,
+    waveAllExp: config?.WaveAllExp ?? null,
+    waveStartSpecialUIType:
+      config?.WaveStartSpecialUIType ?? [],
+    waveEndSpecialUIType:
+      config?.WaveEndSpecialUIType ?? [],
+    distinctSpawnBatches: spawnTimes.length,
+    firstSpawn: spawnTimes[0] ?? null,
+    lastSpawn: spawnTimes.at(-1) ?? null,
+    monsterCounts: counts,
+    timeline,
   };
 }
 
-const result = Array.from({ length: 15 }, (_, i) => summarizeWave(i + 1));
+const result = {
+  sourceMissionRows: rows.length,
+  waves: Array.from({ length: 15 }, (_, i) => summarizeWave(i + 1)),
+};
+
 process.stdout.write(JSON.stringify(result, null, 2) + "\n");
