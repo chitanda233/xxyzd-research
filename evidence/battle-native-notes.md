@@ -115,3 +115,43 @@
 - 结束时 `CreateMonsterCount += randomCount`。
 
 结论：该路径上 **1 次 random draw = 1 个实际生成实体**。第一章用到的随机池候选全部归于 330006，因此可以把 `numberRandom` 直接换算成额外杂兵数量。
+
+
+## 三选一：组间随机与临时 Boost
+
+### HeroSkillCreator.GetRandomSkills
+
+已确认：
+- 输入包含多个 `WeightRandom` 子组和一组组权重；
+- 先按组权重选择子组；
+- 再调用该组 `WeightRandom.GetRandomCount`；
+- 已经在本轮结果中的技能会被排除；
+- 父技能可进入 `RandomOneSubSkillByParent`，筛 `CheckCanStudySkill` 后再对子技能加权随机。
+
+### SkillStar 子池筛选
+
+`Skill_Main` schema：offset `0x58 = SkillStar`。
+
+`WeightRandom.GetAlreadyStudySkill`：
+- 只收 `SkillStar >= 2`；
+- 返回值累计 `MaxStar - SkillStar + 1`。
+
+`WeightRandom.GetReadyStudySkill`：
+- 只收 `SkillStar == 1`；
+- 返回符合项数量。
+
+`WeightRandom.GetOneStarSkill`：
+- 只收 `SkillStar == 1`；
+- 返回符合项 `MaxStar` 合计。
+
+三者筛选语义明确，但尚未证明主三选一固定按三者各取一张。
+
+### SinglePlayerSkillCreator 临时加权
+
+`SinglePlayerSkillCreator.GetNormalSkill` 明确调用：
+- 抽取前：`WeightRandom.BoostWeightByPercent`
+- 记录：`NewPlayerBoostRecord`
+- 正常抽取：`HeroSkillCreator.GetRandomSkills`
+- 抽取后：遍历记录并调用 `WeightRandom.RevertWeightBoost`
+
+结论：存在“单次抽取临时定向”机制，与基于 Build 类型数量的持续动态权重是两套独立层。
