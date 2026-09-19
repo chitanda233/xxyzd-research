@@ -8,13 +8,15 @@
 
 | 波次 | 特殊 UI | StopByEliteOrBossKilled | 关键实体 | 实体 Type | native 性质 |
 |---|---|---:|---|---:|---|
-| W5 | startUI = [1,5] | 0 | 320005 等 | 2 | 软高潮/特殊展示，不构成特殊怪击杀锁 |
-| W10 | startUI = [1,5] | 1 | 310008 | 201 | 第一处真正精英击杀硬门 |
-| W15 | startUI = [1,2] | 1 | 340002 | 3 | 最终 Boss 击杀硬门 |
+| W5 | startUI = [1,5] = Progress + **SuperMonster** | 0 | 320005 等 | 2 | 强敌级演出/软高潮，不构成特殊怪击杀锁 |
+| W10 | startUI = [1,5] = Progress + **SuperMonster** | 1 | 310008 | 201 | 第一处真正精英击杀硬门 |
+| W15 | startUI = [1,2] = Progress + **Boss** | 1 | 340002 | 3 | Punchboard 后进入最终 Boss 击杀硬门 |
+
+这里的 UI 数值也已经有明确常量映射：`BattleUIType_Progress=1`、`BattleUIType_Boss=2`、`BattleUIType_UpLevel=4`、`BattleUIType_SuperMonster=5`。因此 W5 的“特殊 UI”不是泛称，而是代码命名上的 **SuperMonster** 演出；W10 也使用同样演出，而 W15 换成 Boss 演出。
 
 因此第一章更准确的结构是：
 
-`1–4 铺垫 → W5 第一次明显高潮 → 6–9 抬压 → W10 精英硬验收 → 11–14 终盘抬压 → W15 Boss 总验收`。
+`1–4 铺垫 → W5 SuperMonster 软高潮 → W6 Punchboard → 6–9 抬压 → W10 SuperMonster + 精英硬验收 → W11 Punchboard → 11–14 终盘抬压 → W15 Punchboard → Boss 总验收`。
 
 ## 1. 停止条件不是根据“第 5/10/15 波编号”硬编码
 
@@ -66,7 +68,7 @@ if type == 201 or type == 3:
 | 340002 | 3 | 40000 | 975 | 4 | W15 Boss |
 | 330006 | 2 | 150 | 12 | 1 | 基础杂兵 |
 
-W5 的组合里没有 Type=201 或 Type=3。即便 320005 相比杂兵明显更硬，也不能因为血量高或 UI 特殊就把它写成“精英怪”。从客户端真正参与门槛判断的 Type 分类看，W5 是特殊展示/压力高潮，而非精英硬门。
+W5 的组合里没有 Type=201 或 Type=3。即便 320005 相比杂兵明显更硬，也不能因为血量高或 UI 特殊就把它写成“精英怪”。现在还能进一步说明为什么它在体验上容易被误认成精英节点：W5 明确配置了 `BattleUIType_SuperMonster=5` 的波前强敌演出。也就是说，**表现层主动把 W5 包装成“强敌节点”，而推进逻辑仍把它留在普通定时波体系**。这是一种有意制造高潮、但不给玩家硬卡死的软验收。
 
 ## 4. W10 的怪量必须写成“配置上限”
 
@@ -91,13 +93,13 @@ W10 从 197 秒开始：
 
 W15 的静态节奏：
 
-- 345s：missionType=9 / 波前节点；
+- 345s：`MissionTypePunchboard=9`，先进入独立 Punchboard Build 节点；
 - 347s：生成 340002，同时存在 missionType=2 事件；
 - 340002 的 `Type=3`；
 - `StopByEliteOrBossKilled=1`；
 - 本波没有普通的 `WaveEndSpecialUIType=[4]`。
 
-因此 345→347 秒更像最终 Boss 的预告/入场缓冲，347 秒开始真正 Boss 战；Boss 死亡触发特殊怪门槛完成，之后转最终结束流程，而不是像 W1–W14 那样再进入一轮标准“波末成长→下一波”。
+因此不能再把 345→347 秒简单解释成“纯 2 秒 Boss 预告”。静态证据明确显示 345 秒先进入 Punchboard，347 秒才进入 Boss mission；同时 W15 的 `WaveStartSpecialUIType=[1,2]` 又会提供 Progress + Boss 的波前演出。更准确的结构是 **最后一次 Build 校准 → Boss 演出/入场 → Boss 硬门**。Boss 死亡后转最终结束流程，而不是像 W1–W14 那样再进入一轮标准“波末成长→下一波”。
 
 ## 证据边界
 
