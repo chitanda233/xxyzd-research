@@ -96,3 +96,29 @@ effectiveWeight
 因此可以严格写成：单个 `WeightRandom` 子池的多抽是**按当前 PracticalWeight 进行的去重加权抽样**。动态 Build 权重会真正进入每次随机区间，而不是只影响候选池排序。
 
 仍未完全闭合的是 `HeroSkillCreator.GetRandomSkills` 对多个子池的名额分配规则；它会先计算/选择一个池序，并逐池调用 `GetRandomCount` 补足结果，但最终“三个位置各优先来自哪种语义池”还需继续拆。
+
+
+## HeroSkillCreator：池级随机在技能级随机之前
+
+从 `HotFixBattle.dll.cs` 筛出的 `HeroSkillCreator` 结构给出了 `GetRandomSkills` 的完整签名；对应 native RVA 0x685B9C4。
+
+关键实现：
+
+- `skillWeights[]` 先求和并通过 `XXRandom.Next` 产生池级随机值。
+- 累计 `skillWeights[]` 得到起始 `randomIndex`，并写回 ref 参数。
+- 后续按 `(randomIndex + offset) % poolCount` 访问 `WeightRandom[] randoms`。
+- 对每个子池先调用 `GetCount(result)` 获取剩余合法数，再以 `min(池剩余数, 还缺的候选数)` 调用 `GetRandomCount`。
+- 结果不足才继续下一个池。
+
+所以抽取层级是“池级起点随机 → 子池内部动态权重抽取”，而不是单一全局池。
+
+## SinglePlayerSkillCreator：临时 Boost 的真实调用方
+
+`SinglePlayerSkillCreator.GetNormalSkill` RVA 0x6875450 中已经出现：
+
+- `WeightRandom.BoostWeightByPercent` RVA 0x6633824；
+- `NewPlayerBoostRecord(QualityIndex, SkillId, Increment)`；
+- 字段 `_newPlayerBoostRecords`；
+- 完成本轮 `GetRandomSkills` 后调用 `WeightRandom.RevertWeightBoost` RVA 0x6633908。
+
+这证明 Boost/Revert 是“先临时加权、抽完恢复”的独立机制，并且代码结构明确把它记录为 NewPlayerBoost。它不应与 skillType 的持续 Build 增权混为一谈。
