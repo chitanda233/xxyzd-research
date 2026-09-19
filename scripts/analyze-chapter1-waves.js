@@ -26,6 +26,13 @@ if (chapter1.length !== 78) {
 const groupMap = new Map(groups.map(x => [x.id, JSON.parse(x.flushPool)]));
 const randomMap = new Map(randomPools.map(x => [x.id, x]));
 
+function addRandomToExactTotals(exactTotals, pool, draws) {
+  // CreateRandomMonster native code proves 1 draw = 1 generated entity.
+  // Only collapse into an exact entity count when the pool has one unique candidate ID.
+  const ids = [...new Set(pool?.entityId || [])];
+  if (ids.length === 1) addCount(exactTotals, ids[0], draws);
+}
+
 function addCount(map, id, count = 1) {
   if (id === undefined || id === null) return;
   map[id] = (map[id] || 0) + count;
@@ -34,6 +41,7 @@ function addCount(map, id, count = 1) {
 function summarizeWave(wave) {
   const rows = chapter1.filter(x => x.wave === wave);
   const deterministic = {};
+  const exactMonsterTotals = {};
   const random = [];
   const events = [];
 
@@ -50,12 +58,14 @@ function summarizeWave(wave) {
       for (const monsterId of row.Monster) {
         addCount(batch, monsterId);
         addCount(deterministic, monsterId);
+        addCount(exactMonsterTotals, monsterId);
       }
       events.push({ time: base + delay, kind: "spawn", source: `mission:${row.id}`, monsters: batch });
     }
 
     for (const randomId of row.randomMonster || []) {
       const pool = randomMap.get(randomId);
+      addRandomToExactTotals(exactMonsterTotals, pool, row.numberRandom || 0);
       random.push({
         time: base + delay,
         missionId: row.id,
@@ -79,6 +89,7 @@ function summarizeWave(wave) {
         for (const monsterId of flush.Monster || []) {
           addCount(batch, monsterId);
           addCount(deterministic, monsterId);
+          addCount(exactMonsterTotals, monsterId);
         }
         events.push({
           time: base + (flush.Delay || 0),
@@ -107,6 +118,7 @@ function summarizeWave(wave) {
     startSpecialUI: waveConfig?.WaveStartSpecialUIType ?? [],
     endSpecialUI: waveConfig?.WaveEndSpecialUIType ?? [],
     deterministic,
+    exactMonsterTotals,
     random,
     events
   };
