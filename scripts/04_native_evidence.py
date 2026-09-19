@@ -74,7 +74,7 @@ def main():
     native = Native()
     folder = ROOT / 'restored/code/native-evidence'
     folder.mkdir(parents=True, exist_ok=True)
-    names = ['BaseLocalBean', 'CharacterComponentOnHit', 'WaterfallBattleManager', 'BaseSurvivalBattleManager', 'SinglePlayerBattleManager', 'WaterfallStateSelectSkill', 'WaterfallStateSpecialSelectSkill', 'BeeMonsterRefresher', 'BeeMonsterCreator', 'NormalSkillCreator', 'SinglePlayerSkillCreator', 'HeroSkillCreator', 'HeroComponentRandomSkill', 'DankeSkillCreator', 'HeroComponentExp', 'ExpAnimProcessor', 'WeightRandom', 'MainDropManager', 'CharacterComponentBuff', 'RunTimeModel_HyBridCLR']
+    names = ['BaseLocalBean', 'CharacterComponentOnHit', 'WaterfallBattleManager', 'BaseSurvivalBattleManager', 'SinglePlayerBattleManager', 'WaterfallStateSelectSkill', 'WaterfallStateSpecialSelectSkill', 'BeeMonsterRefresher', 'BeeMonsterCreator', 'NormalSkillCreator', 'SinglePlayerSkillCreator', 'HeroSkillCreator', 'HeroComponentRandomSkill', 'BattleWorldContext', 'BasePunchboardState', 'WaterfallStatePunchboard', 'PlayerPunchboard', 'DankeSkillCreator', 'HeroComponentExp', 'ExpAnimProcessor', 'WeightRandom', 'MainDropManager', 'CharacterComponentBuff', 'RunTimeModel_HyBridCLR']
     selected = [m for m in native.methods if any(n in m['Name'].split('$$')[0] for n in names) or ('LocalModels.Bean.' in m['Name'] and m['Name'].endswith('$$readImpl'))]
     groups = {}
     for m in selected:
@@ -92,6 +92,11 @@ def main():
         'WaterfallBattleManager.TryContinueWaveEndUpLevelAfterSelection': 0x65C8B28,
         'WaterfallBattleManager.QueueSelectSkill': 0x65C8E98,
         'WaterfallBattleManager.WaveModelLevelUp': 0x65D64F8,
+        'BattleWorldContext.get_InitSkillGroupCount': 0x6A033B4,
+        'BattleWorldContext.DoInitSkillGroup': 0x6A035C0,
+        'BattleWorldContext.DoInitSkillGroupCount': 0x6A0362C,
+        'HeroComponentRandomSkill.GetPunchboardRandomCount': 0x686F88C,
+        'WaterfallStatePunchboard.GetPunchboardRandomCount': 0x65B597C,
     }
     direct_xrefs = native.find_direct_branch_xrefs(xref_targets)
     (ROOT / 'indexes/native-direct-xrefs.json').write_text(
