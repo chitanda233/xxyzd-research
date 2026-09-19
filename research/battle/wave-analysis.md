@@ -148,4 +148,4 @@
 
 ## 复现与证据入口
 
-本报告对应的结构化中间结果保存在 [chapter1-wave-summary.json](./chapter1-wave-summary.json)，可复现压缩脚本为 [scripts/analyze_chapter1_waves.py](../../scripts/analyze_chapter1_waves.py)。波末经验吸收、待升级队列和连续三选一的 native 证据摘要见 [evidence/waterfall-wave-end-upgrade.md](../../evidence/waterfall-wave-end-upgrade.md)。原始 ARM64 仍以 `restored/code/native-evidence/HotFix.BattleLogic.WaterfallBattleManager.asm` 为最终静态证据。
+本报告对应的结构化中间结果保存在 [chapter1-wave-summary.json](./chapter1-wave-summary.json)，可复现压缩脚本为 [scripts/analyze_chapter1_waves.py](../../scripts/analyze_chapter1_waves.py)。波末经验吸收、待升级队列和连续三选一的 native 证据摘要见 [evidence/waterfall-wave-end-upgrade.md](../../evidence/waterfall-wave-end-upgrade.md)；W5 / W10 / W15 三个关键节点为什么不是同性质门槛，以及 W10 精英早死为何会截断后续支援怪，见 [evidence/battle/chapter1-wave-gates.md](../../evidence/battle/chapter1-wave-gates.md)。原始 ARM64 仍以 `restored/code/native-evidence/HotFix.BattleLogic.WaterfallBattleManager.asm` 为最终静态证据。
