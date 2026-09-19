@@ -174,6 +174,43 @@ effectiveWeight = baseWeight × (1 + delta)
 
 这里仍需保留一层边界：`HeroSkillCreator.GetRandomSkills` 会在多个 `WeightRandom` 子池之间分配抽取名额，因此“最终三个位置分别优先属于哪类池”还需要继续还原；但单个子池内部的权重抽样与去重规则已经明确。
 
+
+## 6.3 三选一不是从一个“大池”直接抽三次：先决定子池起点，再逐池补满
+
+`HeroSkillCreator.GetRandomSkills`（RVA 0x685B9C4）的完整签名已经从 IL2CPP 结构中恢复：
+
+```csharp
+GetRandomSkills(
+    List<int> result,
+    List<int> curAllSkills,
+    WeightRandom[] randoms,
+    int skillCount,
+    ref int randomIndex,
+    int[] skillWeights,
+    bool qualityUp,
+    bool isRefresh)
+```
+
+实现表明，`randoms` 是多个独立的 `WeightRandom` 子池，`skillWeights` 用来决定本次从哪个子池索引开始。非刷新时先对 `skillWeights` 求和并做一次加权随机，得到 `randomIndex`；刷新时则复用已经记录的 index。之后系统从这个 index 开始按数组循环访问各子池，对每个子池计算“当前还剩多少合法技能”，再调用 `GetRandomCount` 往同一个 `result` 里补，直到满足本次需要的 `skillCount` 或可用池耗尽。
+
+这意味着最终三选一不是“统一候选池中独立抽三张”，而是一个两层随机：
+
+**先用池级权重决定本轮从哪个子池开始 → 再在该子池内按技能动态权重做无放回抽取 → 数量不足时继续去下一个子池补位。**
+
+因此玩家看到的三张卡同时受到两种偏置：第一层是不同随机子池本身的出场优先级，第二层才是本文前面已经证明的同类型 Build 增权。后续若要精确回答“三个位置分别更倾向新技能、已学技能还是可升级技能”，重点不再是 `WeightRandom` 算法本身，而是把具体模式下传入 `GetRandomSkills` 的 `randoms[]` 与 `skillWeights[]` 对应关系还原出来。
+
+
+## 6.4 BoostWeightByPercent 是一个独立的“临时纠偏层”，已定位到新手增权流程
+
+此前 `BoostWeightByPercent / RevertWeightBoost` 的调用方尚未定位，现在可以补上。单人模式的 `SinglePlayerSkillCreator.GetNormalSkill`（RVA 0x6875450）持有明确命名的 `_newPlayerBoostRecords`，在满足特定局内条件时会解析一组“技能 ID + 增权百分比”，遍历默认随机池，对目标技能调用 `WeightRandom.BoostWeightByPercent`；本次 `GetRandomSkills` 完成后，再遍历 `_newPlayerBoostRecords` 调用 `RevertWeightBoost` 撤销本次临时增量。
+
+所以技能随机至少存在两套不同层级的偏置机制：
+
+- **Build 收敛层**：由已学习 skillType 数量产生持续性的 `deltaWeightPercent`，公式为 `base × (1 + min(n×0.5, 5.0))`。
+- **局部纠偏层**：在特定单人/新手条件下对指定技能临时 Boost，只作用于当次随机，抽完立即 Revert。
+
+这两者不要混写。前者是玩家已有 Build 对后续选择的长期反馈；后者更像教学/新手体验控制，用于在某些条件下提高指定技能出现机会。
+
 ## 7. 当前已经坐实与仍待补证的部分
 
 ### 已坐实
@@ -192,7 +229,7 @@ effectiveWeight = baseWeight × (1 + delta)
 
 1. `AdjustWeightsForSkillGroup` 在当前保存的 ARM64 文件中表现为 HotFix 分发壳，真实热更方法体没有被静态还原；因此“同类型组内每个成员如何接收 delta”的逐条实现仍需动态/热更层证据。这里不应把 `WeightRandom.UpdateWeightPercent` 与它强行写成直接 native 调用链。
 2. 最终三个候选位如何在多个 `WeightRandom` 子池之间分配名额，以及子池优先级是否会随局内状态改变。
-3. `BoostWeightByPercent / RevertWeightBoost` 的仓库级调用方仍未定位；当前不能把它们解释成三选一保底或 Build 收敛机制。
+3. `BoostWeightByPercent / RevertWeightBoost` 已定位到 `SinglePlayerSkillCreator.GetNormalSkill` 的 `_newPlayerBoostRecords` 临时增权流程；后续只需继续确认其触发条件对应的具体新手阶段/配置。
 4. `GetAlreadyStudySkill / GetReadyStudySkill / GetOneStarSkill` 在三个候选位中的优先级与占位顺序。
 
 ## 8. 下一步建议
