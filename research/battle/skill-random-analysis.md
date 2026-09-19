@@ -1,89 +1,78 @@
 # 三选一动态随机机制分析
 
-> 目标：判断《小小远征队》的三选一是否会根据玩家已经学习的技能类型动态改变后续抽取权重，以及具体如何改变。本文只写 native 与配置能够支撑的结论。
+> 目标：确认三选一是否会根据玩家已经学习的技能类型动态改变后续抽取权重，而不是把配置字段直接当结论。
 
-## 一、结论
+## 结论先行
 
-当前已经可以把“完全均匀随机”排除掉。三选一系统维护了按技能类型分组的随机池，并且会记录玩家已经学习的各类型技能数量；这个数量会参与计算一个动态的权重增量，然后应用到对应技能组，最后重算随机池总权重。
+目前已经可以把“Build 越选越容易成型”从假设提升为**有 native 代码支撑的机制结论**。核心不是简单的“某个技能被抽到后自身加权”，而是系统会先按技能类型分组，维护玩家已经学习的各类型数量，再根据该类型的学习数量计算一个动态权重增量，并把这个增量应用到对应技能组中的候选项。技能增加和技能移除都会更新类型计数，因此这是一套随当前 Build 状态变化的反馈型权重系统。
 
-核心链路为：
+配置 `Skill_SkillTypeWeight` 中大量条目的 `AddWeightPerSkill = 50`、`AddWeightMax = 500` 与 native 的 `GetDeltaWeightPercent` 对得上：函数先取得指定技能类型的配置，再调用 `GetSkillCountByType` 读取当前已学习数量，计算“每个已学习技能带来的增量”，最后与最大增量做上限比较。也就是说，概念公式可以写成：
 
-`GroupSkillsByType → UpdateLearnedSkillCount / DecreaseLearnedSkillCount → GetDeltaWeightPercent → AdjustWeightsForSkillGroup → WeightRandom.UpdateWeightPercent → RecalculateAllWeight`
+`该类型动态加权 ≈ min(已学习该类型数量 × AddWeightPerSkill, AddWeightMax)`
 
-这意味着玩家的既有选择会反过来影响未来抽取分布，系统明确存在 **Build 自强化/收敛机制**。
+这里的“50/500”在运行时还存在定点/百分比换算，因此最终写给策划时应解释成“每学一个同类技能提升一档权重，最多叠到上限”，而不是武断地写成“概率直接 +50%”。
 
-## 二、权重增量的精确形式
+## native 链路
 
-`GetDeltaWeightPercent(type)` 会读取 `Skill_SkillTypeWeight` 对应类型配置，并读取该类型当前已学习技能数量 `count`。从 ARM64 运算可以确认，它计算的是：
+初始化时，`InitRandomSkill` 会先初始化随机技能数据，然后调用 `GroupSkillsByType`，最后调用 `RecalculateAllWeight`。这说明“技能类型分组”不是日志或编辑器辅助，而是正式参与随机权重计算的数据结构。
 
-**delta = min(count × AddWeightPerSkill, AddWeightMax)**
+当玩家学习技能时，`UpdateLearnedSkillCount` 维护一个按技能类型索引的计数字典：若类型已存在则 +1，否则从 1 开始。移除技能时，`DecreaseLearnedSkillCount` 做相反操作。另一个 `GetSkillCountByType` 直接从这张字典返回当前类型学习数量。
 
-配置中目前绝大多数技能类型为：
+`GetDeltaWeightPercent` 随后读取 `Skill_SkillTypeWeight`，取得该技能类型对应的每技能增量与最大增量，并乘以当前类型学习数量，然后做封顶。也就是说，动态权重的输入明确包含“当前已经学了多少个该类型技能”。
 
-- `AddWeightPerSkill = 50`
-- `AddWeightMax = 500`
+`AdjustWeightsForSkillGroup` 负责把得到的动态权重变化作用到对应技能组；底层 `WeightRandom.UpdateWeightPercent` 会遍历候选项，找到目标 ID 后写入/更新该项的权重百分比。最终随机并不是重新建一个完全独立的池，而是在原有候选权重之上叠加 Build 状态修正。
 
-因此在这些类型上，动态加权是线性的：
+## 策划意义
 
-- 已学 0 个：+0
-- 已学 1 个：+50
-- 已学 2 个：+100
-- …
-- 已学 10 个及以上：封顶 +500
+这套机制实质上是一种“软定向 Build”。玩家第一次拿到某一类型技能时，并不会锁死路线；但随着同类技能数量增加，该类型后续候选会逐渐获得更高权重，于是 Build 越往后越容易收敛。它解决了纯随机 Roguelike 三选一最常见的问题：前几次选择刚形成方向，后续却因为完全均匀随机长期拿不到协同项。
 
-这里的“+50/+500”应理解为该系统内部的权重百分比/权重修正单位，而不是直接写成“抽中概率 +50%”。实际概率还取决于同池其他候选的当前权重和总权重。
+它也不是无限滚雪球，因为配置里存在 `AddWeightMax`。因此设计意图更像“帮助成型，而不是保证成型”。前期仍保留探索性，中期开始出现方向感，后期通过上限控制避免某一类型完全垄断候选池。
 
-## 三、这不是只在初始化时算一次
+## 当前可以确认的规则
 
-`UpdateLearnedSkillCount` 对相应类型计数执行 +1，`DecreaseLearnedSkillCount` 执行 -1；移除技能的路径随后又会调用：
+1. 技能会按类型被分组。
+2. 系统维护“每种技能类型已学习数量”。
+3. 学习同类技能会增加该类型计数，移除会减少。
+4. 动态增量读取 `Skill_SkillTypeWeight`。
+5. 增量随同类已学习数量增长，并受最大值封顶。
+6. 算出的增量会用于调整对应技能组的随机权重。
+7. 初始化和 Build 状态变化后会重新计算/刷新权重，因此不是一次性静态加权。
 
-`GetDeltaWeightPercent → AdjustWeightsForSkillGroup`
+## 仍需继续深挖
 
-说明这个系统会随玩家实际持有技能变化实时调整，而不是开局根据角色预设一次性决定。初始化阶段则执行：
+目前还没有把三选一候选生成的所有优先级完整排出来。下一步重点应继续还原 `GetNormalSkill`、`FillNormalSkill`、`GetAlreadyStudySkill`、`GetReadyStudySkill`、`GetOneStarSkill`、`RandomOneSubSkillByParent` 的先后关系，确认“已学技能升级”“未学一星技能”“父子技能/合成前置”在三张卡中的槽位规则，以及是否存在保底、去重和替补逻辑。
 
-`InitRandomSkill → GroupSkillsByType → RecalculateAllWeight`
+另外，`BoostWeightByPercent` / `RevertWeightBoost` 很可能对应临时加权场景（例如某次刷新、某个事件或指定池），需要继续追调用方，避免和长期 Build 加权混在一起。
 
-先把候选技能按类型建立分组与权重随机器，再进入运行时增减。
+## 配置摘录
 
-## 四、WeightRandom 的作用
+- id=1, AddWeightPerSkill=50, AddWeightMax=500
+- id=100, AddWeightPerSkill=50, AddWeightMax=500
+- id=101, AddWeightPerSkill=50, AddWeightMax=500
+- id=102, AddWeightPerSkill=50, AddWeightMax=500
+- id=103, AddWeightPerSkill=50, AddWeightMax=500
+- id=104, AddWeightPerSkill=50, AddWeightMax=500
+- id=105, AddWeightPerSkill=50, AddWeightMax=500
+- id=106, AddWeightPerSkill=50, AddWeightMax=500
+- id=107, AddWeightPerSkill=50, AddWeightMax=500
+- id=108, AddWeightPerSkill=50, AddWeightMax=500
+- id=109, AddWeightPerSkill=50, AddWeightMax=500
+- id=110, AddWeightPerSkill=50, AddWeightMax=500
+- id=111, AddWeightPerSkill=50, AddWeightMax=500
+- id=112, AddWeightPerSkill=50, AddWeightMax=500
+- id=113, AddWeightPerSkill=50, AddWeightMax=500
+- id=114, AddWeightPerSkill=50, AddWeightMax=500
+- id=115, AddWeightPerSkill=50, AddWeightMax=500
+- id=116, AddWeightPerSkill=50, AddWeightMax=500
+- id=117, AddWeightPerSkill=50, AddWeightMax=500
+- id=118, AddWeightPerSkill=50, AddWeightMax=500
+- id=119, AddWeightPerSkill=50, AddWeightMax=500
+- id=120, AddWeightPerSkill=50, AddWeightMax=500
+- id=0, AddWeightPerSkill=0, AddWeightMax=0
+- id=0, AddWeightPerSkill=0, AddWeightMax=0
 
-`WeightRandom.UpdateWeightPercent` 会遍历随机项，并对传入的一组目标 ID 更新其当前权重修正；`RecalculateAllWeight` 则重新计算该随机器的总权重。与此同时还存在：
+## 原始证据
 
-- `BoostWeightByPercent`
-- `RevertWeightBoost`
-
-这说明底层随机器本身支持临时权重增益与回滚，不只是静态权重表。
-
-因此从策划角度更合适的描述是：
-
-**游戏先构造若干技能类型池；玩家学到某一类型后，该类型相关候选的权重会随已学数量逐步增加，最高增加到配置上限；系统随后重算权重，使后续三选一更容易继续给出与当前 Build 同类型的成长。**
-
-## 五、它解决的设计问题
-
-如果每次三选一都独立均匀随机，15 波左右的短局内成长很容易出现“什么都来一点，最后没有一个 Build 成型”。本作通过类型权重自强化，把随机从“纯随机”改造成 **带记忆的随机**：
-
-第一次选某个方向只是轻微倾向；连续选择后倾向逐步增强；但由于有上限，它不会无限滚雪球到完全锁池。这种结构在短局里能明显提高“我主动选了一个方向，然后游戏开始配合我把它做出来”的体验。
-
-因此，第一章“一波约一级”和三选一“同类权重递增”其实是一套联动设计：**波次提供固定成长次数，动态权重保证这些有限次数更可能形成可感知 Build。**
-
-## 六、仍需继续补证的细节
-
-当前不建议直接写死的点有三个：
-
-1. **类型的具体语义。** 要把 `SkillType` 映射到策划命名，例如武器系、召唤系、元素系、被动系等，需要继续联表。
-2. **AdjustWeightsForSkillGroup 的精确目标集合。** 现在能确认它作用于“某技能类型相关分组”，但还需要把最终传给 `WeightRandom.UpdateWeightPercent` 的 ID 数组完整还原，确认是否包含父技能、子技能、合成链技能。
-3. **一次三选一中的去重/保底规则。** `GetAlreadyStudySkill`、`GetReadyStudySkill`、`GetOneStarSkill`、`RandomOneSubSkillByParent` 表明抽卡前还有资格筛选和优先级层，但这些规则应单独拆解，不能简单归为动态权重。
-
-## 七、下一步建议
-
-下一轮可以直接沿两条调用链继续：
-
-`RandomSkill → GetNormalSkill → FillNormalSkill → GetAlreadyStudySkill / GetReadyStudySkill / GetOneStarSkill`
-
-用于还原“三个格子到底按什么优先级填满”。
-
-以及：
-
-`GroupSkillsByType → AdjustWeightsForSkillGroup → WeightRandom.UpdateWeightPercent`
-
-用于把“类型加权”精确到候选技能 ID 列表。这样就可以把三选一写成真正可复用的策划规则，而不只是“有动态权重”这一层。
+- `restored/configs/tables/Skill_SkillTypeWeight.json`
+- `restored/code/native-evidence/HotFix.BattleLogic.HeroComponentRandomSkill.asm`
+- `restored/code/native-evidence/HotFix.BattleLogic.WeightRandom.asm`
