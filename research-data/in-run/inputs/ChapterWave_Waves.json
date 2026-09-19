@@ -1,0 +1,648 @@
+[
+  {
+    "id": 100101,
+    "StopByEliteOrBossKilled": 0,
+    "WaveAllExp": 200,
+    "WaveStartSpecialUIType": [
+      1
+    ],
+    "WaveEndSpecialUIType": [
+      4
+    ],
+    "refreshType": {
+      "serialized_int32": 10000,
+      "decimal": 1.0,
+      "fp_raw": 65536,
+      "runtime_value": 1.0
+    },
+    "hpUpgrade": {
+      "serialized_int32": 10000,
+      "decimal": 1.0,
+      "fp_raw": 65536,
+      "runtime_value": 1.0
+    },
+    "attackUp": {
+      "serialized_int32": 10000,
+      "decimal": 1.0,
+      "fp_raw": 65536,
+      "runtime_value": 1.0
+    },
+    "addExpUpgrade": {
+      "serialized_int32": 10000,
+      "decimal": 1.0,
+      "fp_raw": 65536,
+      "runtime_value": 1.0
+    },
+    "HPPickUpAddPercent": {
+      "serialized_int32": 10000,
+      "decimal": 1.0,
+      "fp_raw": 65536,
+      "runtime_value": 1.0
+    },
+    "bgMusic": 0,
+    "MonsterTotalGold": 54
+  },
+  {
+    "id": 100102,
+    "StopByEliteOrBossKilled": 0,
+    "WaveAllExp": 550,
+    "WaveStartSpecialUIType": [
+      1
+    ],
+    "WaveEndSpecialUIType": [
+      4
+    ],
+    "refreshType": {
+      "serialized_int32": 10000,
+      "decimal": 1.0,
+      "fp_raw": 65536,
+      "runtime_value": 1.0
+    },
+    "hpUpgrade": {
+      "serialized_int32": 14000,
+      "decimal": 1.4,
+      "fp_raw": 91750,
+      "runtime_value": 1.399993896484375
+    },
+    "attackUp": {
+      "serialized_int32": 10000,
+      "decimal": 1.0,
+      "fp_raw": 65536,
+      "runtime_value": 1.0
+    },
+    "addExpUpgrade": {
+      "serialized_int32": 10000,
+      "decimal": 1.0,
+      "fp_raw": 65536,
+      "runtime_value": 1.0
+    },
+    "HPPickUpAddPercent": {
+      "serialized_int32": 10000,
+      "decimal": 1.0,
+      "fp_raw": 65536,
+      "runtime_value": 1.0
+    },
+    "bgMusic": 0,
+    "MonsterTotalGold": 54
+  },
+  {
+    "id": 100103,
+    "StopByEliteOrBossKilled": 0,
+    "WaveAllExp": 600,
+    "WaveStartSpecialUIType": [
+      1
+    ],
+    "WaveEndSpecialUIType": [
+      4
+    ],
+    "refreshType": {
+      "serialized_int32": 10000,
+      "decimal": 1.0,
+      "fp_raw": 65536,
+      "runtime_value": 1.0
+    },
+    "hpUpgrade": {
+      "serialized_int32": 14000,
+      "decimal": 1.4,
+      "fp_raw": 91750,
+      "runtime_value": 1.399993896484375
+    },
+    "attackUp": {
+      "serialized_int32": 10000,
+      "decimal": 1.0,
+      "fp_raw": 65536,
+      "runtime_value": 1.0
+    },
+    "addExpUpgrade": {
+      "serialized_int32": 10000,
+      "decimal": 1.0,
+      "fp_raw": 65536,
+      "runtime_value": 1.0
+    },
+    "HPPickUpAddPercent": {
+      "serialized_int32": 10000,
+      "decimal": 1.0,
+      "fp_raw": 65536,
+      "runtime_value": 1.0
+    },
+    "bgMusic": 0,
+    "MonsterTotalGold": 54
+  },
+  {
+    "id": 100104,
+    "StopByEliteOrBossKilled": 0,
+    "WaveAllExp": 600,
+    "WaveStartSpecialUIType": [
+      1
+    ],
+    "WaveEndSpecialUIType": [
+      4
+    ],
+    "refreshType": {
+      "serialized_int32": 10000,
+      "decimal": 1.0,
+      "fp_raw": 65536,
+      "runtime_value": 1.0
+    },
+    "hpUpgrade": {
+      "serialized_int32": 20000,
+      "decimal": 2.0,
+      "fp_raw": 131072,
+      "runtime_value": 2.0
+    },
+    "attackUp": {
+      "serialized_int32": 10000,
+      "decimal": 1.0,
+      "fp_raw": 65536,
+      "runtime_value": 1.0
+    },
+    "addExpUpgrade": {
+      "serialized_int32": 10000,
+      "decimal": 1.0,
+      "fp_raw": 65536,
+      "runtime_value": 1.0
+    },
+    "HPPickUpAddPercent": {
+      "serialized_int32": 10000,
+      "decimal": 1.0,
+      "fp_raw": 65536,
+      "runtime_value": 1.0
+    },
+    "bgMusic": 0,
+    "MonsterTotalGold": 54
+  },
+  {
+    "id": 100105,
+    "StopByEliteOrBossKilled": 0,
+    "WaveAllExp": 700,
+    "WaveStartSpecialUIType": [
+      1,
+      5
+    ],
+    "WaveEndSpecialUIType": [
+      4
+    ],
+    "refreshType": {
+      "serialized_int32": 10000,
+      "decimal": 1.0,
+      "fp_raw": 65536,
+      "runtime_value": 1.0
+    },
+    "hpUpgrade": {
+      "serialized_int32": 20000,
+      "decimal": 2.0,
+      "fp_raw": 131072,
+      "runtime_value": 2.0
+    },
+    "attackUp": {
+      "serialized_int32": 10000,
+      "decimal": 1.0,
+      "fp_raw": 65536,
+      "runtime_value": 1.0
+    },
+    "addExpUpgrade": {
+      "serialized_int32": 10000,
+      "decimal": 1.0,
+      "fp_raw": 65536,
+      "runtime_value": 1.0
+    },
+    "HPPickUpAddPercent": {
+      "serialized_int32": 10000,
+      "decimal": 1.0,
+      "fp_raw": 65536,
+      "runtime_value": 1.0
+    },
+    "bgMusic": 0,
+    "MonsterTotalGold": 54
+  },
+  {
+    "id": 100106,
+    "StopByEliteOrBossKilled": 0,
+    "WaveAllExp": 800,
+    "WaveStartSpecialUIType": [
+      1
+    ],
+    "WaveEndSpecialUIType": [
+      4
+    ],
+    "refreshType": {
+      "serialized_int32": 10000,
+      "decimal": 1.0,
+      "fp_raw": 65536,
+      "runtime_value": 1.0
+    },
+    "hpUpgrade": {
+      "serialized_int32": 30000,
+      "decimal": 3.0,
+      "fp_raw": 196608,
+      "runtime_value": 3.0
+    },
+    "attackUp": {
+      "serialized_int32": 10000,
+      "decimal": 1.0,
+      "fp_raw": 65536,
+      "runtime_value": 1.0
+    },
+    "addExpUpgrade": {
+      "serialized_int32": 10000,
+      "decimal": 1.0,
+      "fp_raw": 65536,
+      "runtime_value": 1.0
+    },
+    "HPPickUpAddPercent": {
+      "serialized_int32": 10000,
+      "decimal": 1.0,
+      "fp_raw": 65536,
+      "runtime_value": 1.0
+    },
+    "bgMusic": 0,
+    "MonsterTotalGold": 54
+  },
+  {
+    "id": 100107,
+    "StopByEliteOrBossKilled": 0,
+    "WaveAllExp": 800,
+    "WaveStartSpecialUIType": [
+      1
+    ],
+    "WaveEndSpecialUIType": [
+      4
+    ],
+    "refreshType": {
+      "serialized_int32": 10000,
+      "decimal": 1.0,
+      "fp_raw": 65536,
+      "runtime_value": 1.0
+    },
+    "hpUpgrade": {
+      "serialized_int32": 30000,
+      "decimal": 3.0,
+      "fp_raw": 196608,
+      "runtime_value": 3.0
+    },
+    "attackUp": {
+      "serialized_int32": 10000,
+      "decimal": 1.0,
+      "fp_raw": 65536,
+      "runtime_value": 1.0
+    },
+    "addExpUpgrade": {
+      "serialized_int32": 10000,
+      "decimal": 1.0,
+      "fp_raw": 65536,
+      "runtime_value": 1.0
+    },
+    "HPPickUpAddPercent": {
+      "serialized_int32": 10000,
+      "decimal": 1.0,
+      "fp_raw": 65536,
+      "runtime_value": 1.0
+    },
+    "bgMusic": 0,
+    "MonsterTotalGold": 54
+  },
+  {
+    "id": 100108,
+    "StopByEliteOrBossKilled": 0,
+    "WaveAllExp": 950,
+    "WaveStartSpecialUIType": [
+      1
+    ],
+    "WaveEndSpecialUIType": [
+      4
+    ],
+    "refreshType": {
+      "serialized_int32": 10000,
+      "decimal": 1.0,
+      "fp_raw": 65536,
+      "runtime_value": 1.0
+    },
+    "hpUpgrade": {
+      "serialized_int32": 40000,
+      "decimal": 4.0,
+      "fp_raw": 262144,
+      "runtime_value": 4.0
+    },
+    "attackUp": {
+      "serialized_int32": 10000,
+      "decimal": 1.0,
+      "fp_raw": 65536,
+      "runtime_value": 1.0
+    },
+    "addExpUpgrade": {
+      "serialized_int32": 10000,
+      "decimal": 1.0,
+      "fp_raw": 65536,
+      "runtime_value": 1.0
+    },
+    "HPPickUpAddPercent": {
+      "serialized_int32": 10000,
+      "decimal": 1.0,
+      "fp_raw": 65536,
+      "runtime_value": 1.0
+    },
+    "bgMusic": 0,
+    "MonsterTotalGold": 54
+  },
+  {
+    "id": 100109,
+    "StopByEliteOrBossKilled": 0,
+    "WaveAllExp": 1000,
+    "WaveStartSpecialUIType": [
+      1
+    ],
+    "WaveEndSpecialUIType": [
+      4
+    ],
+    "refreshType": {
+      "serialized_int32": 10000,
+      "decimal": 1.0,
+      "fp_raw": 65536,
+      "runtime_value": 1.0
+    },
+    "hpUpgrade": {
+      "serialized_int32": 40000,
+      "decimal": 4.0,
+      "fp_raw": 262144,
+      "runtime_value": 4.0
+    },
+    "attackUp": {
+      "serialized_int32": 10000,
+      "decimal": 1.0,
+      "fp_raw": 65536,
+      "runtime_value": 1.0
+    },
+    "addExpUpgrade": {
+      "serialized_int32": 10000,
+      "decimal": 1.0,
+      "fp_raw": 65536,
+      "runtime_value": 1.0
+    },
+    "HPPickUpAddPercent": {
+      "serialized_int32": 10000,
+      "decimal": 1.0,
+      "fp_raw": 65536,
+      "runtime_value": 1.0
+    },
+    "bgMusic": 0,
+    "MonsterTotalGold": 71
+  },
+  {
+    "id": 100110,
+    "StopByEliteOrBossKilled": 1,
+    "WaveAllExp": 1100,
+    "WaveStartSpecialUIType": [
+      1,
+      5
+    ],
+    "WaveEndSpecialUIType": [
+      4
+    ],
+    "refreshType": {
+      "serialized_int32": 10000,
+      "decimal": 1.0,
+      "fp_raw": 65536,
+      "runtime_value": 1.0
+    },
+    "hpUpgrade": {
+      "serialized_int32": 54000,
+      "decimal": 5.4,
+      "fp_raw": 353894,
+      "runtime_value": 5.399993896484375
+    },
+    "attackUp": {
+      "serialized_int32": 10000,
+      "decimal": 1.0,
+      "fp_raw": 65536,
+      "runtime_value": 1.0
+    },
+    "addExpUpgrade": {
+      "serialized_int32": 10000,
+      "decimal": 1.0,
+      "fp_raw": 65536,
+      "runtime_value": 1.0
+    },
+    "HPPickUpAddPercent": {
+      "serialized_int32": 10000,
+      "decimal": 1.0,
+      "fp_raw": 65536,
+      "runtime_value": 1.0
+    },
+    "bgMusic": 0,
+    "MonsterTotalGold": 54
+  },
+  {
+    "id": 100111,
+    "StopByEliteOrBossKilled": 0,
+    "WaveAllExp": 1200,
+    "WaveStartSpecialUIType": [
+      1
+    ],
+    "WaveEndSpecialUIType": [
+      4
+    ],
+    "refreshType": {
+      "serialized_int32": 10000,
+      "decimal": 1.0,
+      "fp_raw": 65536,
+      "runtime_value": 1.0
+    },
+    "hpUpgrade": {
+      "serialized_int32": 54000,
+      "decimal": 5.4,
+      "fp_raw": 353894,
+      "runtime_value": 5.399993896484375
+    },
+    "attackUp": {
+      "serialized_int32": 10000,
+      "decimal": 1.0,
+      "fp_raw": 65536,
+      "runtime_value": 1.0
+    },
+    "addExpUpgrade": {
+      "serialized_int32": 10000,
+      "decimal": 1.0,
+      "fp_raw": 65536,
+      "runtime_value": 1.0
+    },
+    "HPPickUpAddPercent": {
+      "serialized_int32": 10000,
+      "decimal": 1.0,
+      "fp_raw": 65536,
+      "runtime_value": 1.0
+    },
+    "bgMusic": 0,
+    "MonsterTotalGold": 54
+  },
+  {
+    "id": 100112,
+    "StopByEliteOrBossKilled": 0,
+    "WaveAllExp": 1200,
+    "WaveStartSpecialUIType": [
+      1
+    ],
+    "WaveEndSpecialUIType": [
+      4
+    ],
+    "refreshType": {
+      "serialized_int32": 10000,
+      "decimal": 1.0,
+      "fp_raw": 65536,
+      "runtime_value": 1.0
+    },
+    "hpUpgrade": {
+      "serialized_int32": 54000,
+      "decimal": 5.4,
+      "fp_raw": 353894,
+      "runtime_value": 5.399993896484375
+    },
+    "attackUp": {
+      "serialized_int32": 10000,
+      "decimal": 1.0,
+      "fp_raw": 65536,
+      "runtime_value": 1.0
+    },
+    "addExpUpgrade": {
+      "serialized_int32": 10000,
+      "decimal": 1.0,
+      "fp_raw": 65536,
+      "runtime_value": 1.0
+    },
+    "HPPickUpAddPercent": {
+      "serialized_int32": 10000,
+      "decimal": 1.0,
+      "fp_raw": 65536,
+      "runtime_value": 1.0
+    },
+    "bgMusic": 0,
+    "MonsterTotalGold": 81
+  },
+  {
+    "id": 100113,
+    "StopByEliteOrBossKilled": 0,
+    "WaveAllExp": 1400,
+    "WaveStartSpecialUIType": [
+      1
+    ],
+    "WaveEndSpecialUIType": [
+      4
+    ],
+    "refreshType": {
+      "serialized_int32": 10000,
+      "decimal": 1.0,
+      "fp_raw": 65536,
+      "runtime_value": 1.0
+    },
+    "hpUpgrade": {
+      "serialized_int32": 70000,
+      "decimal": 7.0,
+      "fp_raw": 458752,
+      "runtime_value": 7.0
+    },
+    "attackUp": {
+      "serialized_int32": 10000,
+      "decimal": 1.0,
+      "fp_raw": 65536,
+      "runtime_value": 1.0
+    },
+    "addExpUpgrade": {
+      "serialized_int32": 10000,
+      "decimal": 1.0,
+      "fp_raw": 65536,
+      "runtime_value": 1.0
+    },
+    "HPPickUpAddPercent": {
+      "serialized_int32": 10000,
+      "decimal": 1.0,
+      "fp_raw": 65536,
+      "runtime_value": 1.0
+    },
+    "bgMusic": 0,
+    "MonsterTotalGold": 107
+  },
+  {
+    "id": 100114,
+    "StopByEliteOrBossKilled": 0,
+    "WaveAllExp": 1700,
+    "WaveStartSpecialUIType": [
+      1
+    ],
+    "WaveEndSpecialUIType": [
+      4
+    ],
+    "refreshType": {
+      "serialized_int32": 10000,
+      "decimal": 1.0,
+      "fp_raw": 65536,
+      "runtime_value": 1.0
+    },
+    "hpUpgrade": {
+      "serialized_int32": 70000,
+      "decimal": 7.0,
+      "fp_raw": 458752,
+      "runtime_value": 7.0
+    },
+    "attackUp": {
+      "serialized_int32": 10000,
+      "decimal": 1.0,
+      "fp_raw": 65536,
+      "runtime_value": 1.0
+    },
+    "addExpUpgrade": {
+      "serialized_int32": 10000,
+      "decimal": 1.0,
+      "fp_raw": 65536,
+      "runtime_value": 1.0
+    },
+    "HPPickUpAddPercent": {
+      "serialized_int32": 10000,
+      "decimal": 1.0,
+      "fp_raw": 65536,
+      "runtime_value": 1.0
+    },
+    "bgMusic": 0,
+    "MonsterTotalGold": 146
+  },
+  {
+    "id": 100115,
+    "StopByEliteOrBossKilled": 1,
+    "WaveAllExp": 2000,
+    "WaveStartSpecialUIType": [
+      1,
+      2
+    ],
+    "WaveEndSpecialUIType": [],
+    "refreshType": {
+      "serialized_int32": 10000,
+      "decimal": 1.0,
+      "fp_raw": 65536,
+      "runtime_value": 1.0
+    },
+    "hpUpgrade": {
+      "serialized_int32": 110000,
+      "decimal": 11.0,
+      "fp_raw": 720896,
+      "runtime_value": 11.0
+    },
+    "attackUp": {
+      "serialized_int32": 10000,
+      "decimal": 1.0,
+      "fp_raw": 65536,
+      "runtime_value": 1.0
+    },
+    "addExpUpgrade": {
+      "serialized_int32": 10000,
+      "decimal": 1.0,
+      "fp_raw": 65536,
+      "runtime_value": 1.0
+    },
+    "HPPickUpAddPercent": {
+      "serialized_int32": 10000,
+      "decimal": 1.0,
+      "fp_raw": 65536,
+      "runtime_value": 1.0
+    },
+    "bgMusic": 100006,
+    "MonsterTotalGold": 54
+  }
+]

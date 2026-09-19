@@ -1,0 +1,2058 @@
+[
+  {
+    "ID": 310008,
+    "Type": 201,
+    "Tag": [
+      103
+    ],
+    "SecondWeapenType": 0,
+    "BelongSkill": [],
+    "ModelID": 122003,
+    "ModelID_B": 122003,
+    "Shape": [
+      {
+        "serialized_int32": 27000,
+        "decimal": 2.7,
+        "fp_raw": 176947,
+        "runtime_value": 2.6999969482421875
+      }
+    ],
+    "ModelScale": {
+      "serialized_int32": 20000,
+      "decimal": 2.0,
+      "fp_raw": 131072,
+      "runtime_value": 2.0
+    },
+    "BuffScale": 0.0,
+    "mass": 30,
+    "CharacterID": 320005,
+    "HP": {
+      "serialized_int32": 70000000,
+      "decimal": 7000.0,
+      "fp_raw": 458752000,
+      "runtime_value": 7000.0
+    },
+    "Attack": {
+      "serialized_int32": 1000000,
+      "decimal": 100.0,
+      "fp_raw": 6553600,
+      "runtime_value": 100.0
+    },
+    "MoveSpeed": {
+      "serialized_int32": 20000,
+      "decimal": 2.0,
+      "fp_raw": 131072,
+      "runtime_value": 2.0
+    },
+    "AttackDistance": {
+      "serialized_int32": 900000,
+      "decimal": 90.0,
+      "fp_raw": 5898240,
+      "runtime_value": 90.0
+    },
+    "attributes": [],
+    "WeaponID": [
+      71001
+    ],
+    "MonsterTraitID": [],
+    "MonsterAbility": [
+      6000047
+    ],
+    "NoAttackArea": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "FireCD": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "BulletLifeRange": {
+      "serialized_int32": 990000,
+      "decimal": 99.0,
+      "fp_raw": 6488064,
+      "runtime_value": 99.0
+    },
+    "attackPossibility": {
+      "serialized_int32": 10000,
+      "decimal": 1.0,
+      "fp_raw": 65536,
+      "runtime_value": 1.0
+    },
+    "rotateWhenAttack": [
+      0
+    ],
+    "guardDistance": {
+      "serialized_int32": 990000,
+      "decimal": 99.0,
+      "fp_raw": 6488064,
+      "runtime_value": 99.0
+    },
+    "disengageDistance": {
+      "serialized_int32": 990000,
+      "decimal": 99.0,
+      "fp_raw": 6488064,
+      "runtime_value": 99.0
+    },
+    "ShowHp": 1,
+    "ShowHpType": 2,
+    "SpecialTrait": [],
+    "AIId": "AIMoveInTwoPointsAndAttack",
+    "AIParameters": "{\"nextPointX\":5,\"nextPointZ\":0,\"fireDirectionX\":0,\"fireDirectionZ\":-1,\"fireInterval\":1.5,\"fireDelay\":0,\"needAttack\":true}",
+    "WaveAIId": "AIMoveInTwoPointsAndAttack",
+    "WaveAIParameters": "{\"nextPointX\":3,\"nextPointZ\":0,\"fireDirectionX\":0,\"fireDirectionZ\":-1,\"fireInterval\":3,\"fireDelay\":0,\"needAttack\":true}",
+    "AIWeight": [],
+    "AICall": 0,
+    "AIRush": 0,
+    "bornType": 1,
+    "bornParameters": "{\"Duration\":0.5,\"Parallel\":1,\"RandomEdge\":1}",
+    "BulletMod1": [],
+    "BulletMod2": [],
+    "BulletMod3": [],
+    "WeaponMod1": [],
+    "WeaponMod2": [],
+    "WeaponMod3": [],
+    "leaveType": 0,
+    "WaveleaveType": 0,
+    "leaveParameters": "{\"AttackTime\":13,\"PathId\":7}",
+    "WaveleaveParameters": "{\"AttackTime\":13,\"PathId\":7}",
+    "UrgencyTipParameters": "",
+    "AlertId": 1,
+    "AlertParameters": "",
+    "rotateSpeed": {
+      "serialized_int32": 10000000,
+      "decimal": 1000.0,
+      "fp_raw": 65536000,
+      "runtime_value": 1000.0
+    },
+    "BodyAttack": {
+      "serialized_int32": 1000000,
+      "decimal": 100.0,
+      "fp_raw": 6553600,
+      "runtime_value": 100.0
+    },
+    "hitRimTime": 0.30000001192092896,
+    "jellyId": 1,
+    "hitPrefabId": 0,
+    "airplanetrail": 0,
+    "AttackSpeed": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "HittedInterval": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "moveType": 0,
+    "PreloadWeapon": [],
+    "dropID": [],
+    "nameLanguageId": "",
+    "infoLanguageId": "",
+    "hitSoundId": 330004,
+    "deadSoundId": 330006,
+    "deathClassId": 6,
+    "deathParams": "{\"ExplosionEffectId\":210009}",
+    "LinkEntityId": [],
+    "LinkBulletId": [],
+    "LinkModelId": [],
+    "LinkEffectId": [],
+    "hpDropRate": {
+      "serialized_int32": 10000,
+      "decimal": 1.0,
+      "fp_raw": 65536,
+      "runtime_value": 1.0
+    },
+    "hpDropRate2": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "hpDropRate3": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "expDropRate": {
+      "serialized_int32": 10000,
+      "decimal": 1.0,
+      "fp_raw": 65536,
+      "runtime_value": 1.0
+    },
+    "expType": 1,
+    "coin": 0,
+    "exp": 130,
+    "expWeight": 6,
+    "score": 0,
+    "bornEffect": 140003,
+    "AvoidRadius": 1,
+    "SelectScale": 2.0,
+    "Vibrate": 0,
+    "NoAnim": 0,
+    "MonsterDropType": 3
+  },
+  {
+    "ID": 320005,
+    "Type": 2,
+    "Tag": [
+      103
+    ],
+    "SecondWeapenType": 0,
+    "BelongSkill": [],
+    "ModelID": 120143,
+    "ModelID_B": 120143,
+    "Shape": [
+      {
+        "serialized_int32": 18000,
+        "decimal": 1.8,
+        "fp_raw": 117964,
+        "runtime_value": 1.79998779296875
+      },
+      {
+        "serialized_int32": 11000,
+        "decimal": 1.1,
+        "fp_raw": 72089,
+        "runtime_value": 1.0999908447265625
+      }
+    ],
+    "ModelScale": {
+      "serialized_int32": 20000,
+      "decimal": 2.0,
+      "fp_raw": 131072,
+      "runtime_value": 2.0
+    },
+    "BuffScale": 0.0,
+    "mass": 30,
+    "CharacterID": 320005,
+    "HP": {
+      "serialized_int32": 23500000,
+      "decimal": 2350.0,
+      "fp_raw": 154009600,
+      "runtime_value": 2350.0
+    },
+    "Attack": {
+      "serialized_int32": 1000000,
+      "decimal": 100.0,
+      "fp_raw": 6553600,
+      "runtime_value": 100.0
+    },
+    "MoveSpeed": {
+      "serialized_int32": 20000,
+      "decimal": 2.0,
+      "fp_raw": 131072,
+      "runtime_value": 2.0
+    },
+    "AttackDistance": {
+      "serialized_int32": 900000,
+      "decimal": 90.0,
+      "fp_raw": 5898240,
+      "runtime_value": 90.0
+    },
+    "attributes": [],
+    "WeaponID": [
+      70005
+    ],
+    "MonsterTraitID": [],
+    "MonsterAbility": [
+      6000001
+    ],
+    "NoAttackArea": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "FireCD": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "BulletLifeRange": {
+      "serialized_int32": 990000,
+      "decimal": 99.0,
+      "fp_raw": 6488064,
+      "runtime_value": 99.0
+    },
+    "attackPossibility": {
+      "serialized_int32": 10000,
+      "decimal": 1.0,
+      "fp_raw": 65536,
+      "runtime_value": 1.0
+    },
+    "rotateWhenAttack": [
+      0
+    ],
+    "guardDistance": {
+      "serialized_int32": 990000,
+      "decimal": 99.0,
+      "fp_raw": 6488064,
+      "runtime_value": 99.0
+    },
+    "disengageDistance": {
+      "serialized_int32": 990000,
+      "decimal": 99.0,
+      "fp_raw": 6488064,
+      "runtime_value": 99.0
+    },
+    "ShowHp": 1,
+    "ShowHpType": 1,
+    "SpecialTrait": [],
+    "AIId": "AIMoveInTwoPointsAndAttack",
+    "AIParameters": "{\"nextPointX\":5,\"nextPointZ\":0,\"fireDirectionX\":0,\"fireDirectionZ\":-1,\"fireInterval\":1.5,\"fireDelay\":0,\"needAttack\":true}",
+    "WaveAIId": "AIMoveInTwoPointsAndAttack",
+    "WaveAIParameters": "{\"nextPointX\":5,\"nextPointZ\":0,\"fireDirectionX\":0,\"fireDirectionZ\":-1,\"fireInterval\":2.5,\"fireDelay\":0,\"needAttack\":true}",
+    "AIWeight": [],
+    "AICall": 0,
+    "AIRush": 0,
+    "bornType": 1,
+    "bornParameters": "{\"Duration\":0.5,\"Parallel\":1,\"RandomEdge\":1}",
+    "BulletMod1": [],
+    "BulletMod2": [],
+    "BulletMod3": [],
+    "WeaponMod1": [],
+    "WeaponMod2": [],
+    "WeaponMod3": [],
+    "leaveType": 0,
+    "WaveleaveType": 0,
+    "leaveParameters": "{\"AttackTime\":13,\"PathId\":7}",
+    "WaveleaveParameters": "{\"AttackTime\":13,\"PathId\":7}",
+    "UrgencyTipParameters": "",
+    "AlertId": 1,
+    "AlertParameters": "",
+    "rotateSpeed": {
+      "serialized_int32": 10000000,
+      "decimal": 1000.0,
+      "fp_raw": 65536000,
+      "runtime_value": 1000.0
+    },
+    "BodyAttack": {
+      "serialized_int32": 1000000,
+      "decimal": 100.0,
+      "fp_raw": 6553600,
+      "runtime_value": 100.0
+    },
+    "hitRimTime": 0.30000001192092896,
+    "jellyId": 1,
+    "hitPrefabId": 0,
+    "airplanetrail": 0,
+    "AttackSpeed": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "HittedInterval": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "moveType": 0,
+    "PreloadWeapon": [],
+    "dropID": [],
+    "nameLanguageId": "",
+    "infoLanguageId": "",
+    "hitSoundId": 330004,
+    "deadSoundId": 330006,
+    "deathClassId": 6,
+    "deathParams": "{\"ExplosionEffectId\":210008}",
+    "LinkEntityId": [],
+    "LinkBulletId": [],
+    "LinkModelId": [],
+    "LinkEffectId": [],
+    "hpDropRate": {
+      "serialized_int32": 10000,
+      "decimal": 1.0,
+      "fp_raw": 65536,
+      "runtime_value": 1.0
+    },
+    "hpDropRate2": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "hpDropRate3": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "expDropRate": {
+      "serialized_int32": 10000,
+      "decimal": 1.0,
+      "fp_raw": 65536,
+      "runtime_value": 1.0
+    },
+    "expType": 1,
+    "coin": 2,
+    "exp": 130,
+    "expWeight": 6,
+    "score": 0,
+    "bornEffect": 140003,
+    "AvoidRadius": 1,
+    "SelectScale": 2.0,
+    "Vibrate": 0,
+    "NoAnim": 0,
+    "MonsterDropType": 2
+  },
+  {
+    "ID": 320017,
+    "Type": 2,
+    "Tag": [
+      102
+    ],
+    "SecondWeapenType": 0,
+    "BelongSkill": [],
+    "ModelID": 120137,
+    "ModelID_B": 120137,
+    "Shape": [
+      {
+        "serialized_int32": 12000,
+        "decimal": 1.2,
+        "fp_raw": 78643,
+        "runtime_value": 1.1999969482421875
+      },
+      {
+        "serialized_int32": 8000,
+        "decimal": 0.8,
+        "fp_raw": 52428,
+        "runtime_value": 0.79998779296875
+      }
+    ],
+    "ModelScale": {
+      "serialized_int32": 15000,
+      "decimal": 1.5,
+      "fp_raw": 98304,
+      "runtime_value": 1.5
+    },
+    "BuffScale": 0.0,
+    "mass": 20,
+    "CharacterID": 320017,
+    "HP": {
+      "serialized_int32": 8000000,
+      "decimal": 800.0,
+      "fp_raw": 52428800,
+      "runtime_value": 800.0
+    },
+    "Attack": {
+      "serialized_int32": 1000000,
+      "decimal": 100.0,
+      "fp_raw": 6553600,
+      "runtime_value": 100.0
+    },
+    "MoveSpeed": {
+      "serialized_int32": 50000,
+      "decimal": 5.0,
+      "fp_raw": 327680,
+      "runtime_value": 5.0
+    },
+    "AttackDistance": {
+      "serialized_int32": 900000,
+      "decimal": 90.0,
+      "fp_raw": 5898240,
+      "runtime_value": 90.0
+    },
+    "attributes": [],
+    "WeaponID": [
+      70016
+    ],
+    "MonsterTraitID": [],
+    "MonsterAbility": [
+      6000009
+    ],
+    "NoAttackArea": {
+      "serialized_int32": 10000,
+      "decimal": 1.0,
+      "fp_raw": 65536,
+      "runtime_value": 1.0
+    },
+    "FireCD": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "BulletLifeRange": {
+      "serialized_int32": 990000,
+      "decimal": 99.0,
+      "fp_raw": 6488064,
+      "runtime_value": 99.0
+    },
+    "attackPossibility": {
+      "serialized_int32": 10000,
+      "decimal": 1.0,
+      "fp_raw": 65536,
+      "runtime_value": 1.0
+    },
+    "rotateWhenAttack": [
+      0
+    ],
+    "guardDistance": {
+      "serialized_int32": 990000,
+      "decimal": 99.0,
+      "fp_raw": 6488064,
+      "runtime_value": 99.0
+    },
+    "disengageDistance": {
+      "serialized_int32": 990000,
+      "decimal": 99.0,
+      "fp_raw": 6488064,
+      "runtime_value": 99.0
+    },
+    "ShowHp": 1,
+    "ShowHpType": 1,
+    "SpecialTrait": [],
+    "AIId": "AIMoveToBottomAndAttack",
+    "AIParameters": "{\"nextPointOffsetX\":0,\"nextPointOffsetZ\":-10,\"fireDirectionX\":0,\"fireDirectionZ\":-1,\"fireInterval\":2,\"fireDelay\":0,\"isLoop\":1,\"needAttack\":true}",
+    "WaveAIId": "AIMoveToBottomAndAttack",
+    "WaveAIParameters": "{\"nextPointOffsetX\":0,\"nextPointOffsetZ\":-10,\"fireDirectionX\":0,\"fireDirectionZ\":-1,\"fireInterval\":2,\"fireDelay\":0,\"isLoop\":1,\"needAttack\":true}",
+    "AIWeight": [],
+    "AICall": 0,
+    "AIRush": 0,
+    "bornType": 1,
+    "bornParameters": "{\"Duration\":0.5,\"Parallel\":1,\"RandomEdge\":1}",
+    "BulletMod1": [],
+    "BulletMod2": [],
+    "BulletMod3": [],
+    "WeaponMod1": [],
+    "WeaponMod2": [],
+    "WeaponMod3": [],
+    "leaveType": 0,
+    "WaveleaveType": 0,
+    "leaveParameters": "{\"AttackTime\":13,\"PathId\":7}",
+    "WaveleaveParameters": "{\"AttackTime\":13,\"PathId\":7}",
+    "UrgencyTipParameters": "",
+    "AlertId": 1,
+    "AlertParameters": "",
+    "rotateSpeed": {
+      "serialized_int32": 10000000,
+      "decimal": 1000.0,
+      "fp_raw": 65536000,
+      "runtime_value": 1000.0
+    },
+    "BodyAttack": {
+      "serialized_int32": 1000000,
+      "decimal": 100.0,
+      "fp_raw": 6553600,
+      "runtime_value": 100.0
+    },
+    "hitRimTime": 0.30000001192092896,
+    "jellyId": 1,
+    "hitPrefabId": 0,
+    "airplanetrail": 0,
+    "AttackSpeed": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "HittedInterval": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "moveType": 0,
+    "PreloadWeapon": [],
+    "dropID": [],
+    "nameLanguageId": "",
+    "infoLanguageId": "",
+    "hitSoundId": 330004,
+    "deadSoundId": 330005,
+    "deathClassId": 6,
+    "deathParams": "{\"ExplosionEffectId\":210008}",
+    "LinkEntityId": [],
+    "LinkBulletId": [],
+    "LinkModelId": [],
+    "LinkEffectId": [],
+    "hpDropRate": {
+      "serialized_int32": 10000,
+      "decimal": 1.0,
+      "fp_raw": 65536,
+      "runtime_value": 1.0
+    },
+    "hpDropRate2": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "hpDropRate3": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "expDropRate": {
+      "serialized_int32": 10000,
+      "decimal": 1.0,
+      "fp_raw": 65536,
+      "runtime_value": 1.0
+    },
+    "expType": 1,
+    "coin": 1,
+    "exp": 65,
+    "expWeight": 3,
+    "score": 0,
+    "bornEffect": 140003,
+    "AvoidRadius": 1,
+    "SelectScale": 2.0,
+    "Vibrate": 0,
+    "NoAnim": 0,
+    "MonsterDropType": 2
+  },
+  {
+    "ID": 320019,
+    "Type": 2,
+    "Tag": [
+      103
+    ],
+    "SecondWeapenType": 0,
+    "BelongSkill": [],
+    "ModelID": 120135,
+    "ModelID_B": 120135,
+    "Shape": [
+      {
+        "serialized_int32": 16000,
+        "decimal": 1.6,
+        "fp_raw": 104857,
+        "runtime_value": 1.5999908447265625
+      },
+      {
+        "serialized_int32": 8500,
+        "decimal": 0.85,
+        "fp_raw": 55705,
+        "runtime_value": 0.8499908447265625
+      }
+    ],
+    "ModelScale": {
+      "serialized_int32": 13000,
+      "decimal": 1.3,
+      "fp_raw": 85196,
+      "runtime_value": 1.29998779296875
+    },
+    "BuffScale": 0.0,
+    "mass": 30,
+    "CharacterID": 320019,
+    "HP": {
+      "serialized_int32": 12000000,
+      "decimal": 1200.0,
+      "fp_raw": 78643200,
+      "runtime_value": 1200.0
+    },
+    "Attack": {
+      "serialized_int32": 1000000,
+      "decimal": 100.0,
+      "fp_raw": 6553600,
+      "runtime_value": 100.0
+    },
+    "MoveSpeed": {
+      "serialized_int32": 40000,
+      "decimal": 4.0,
+      "fp_raw": 262144,
+      "runtime_value": 4.0
+    },
+    "AttackDistance": {
+      "serialized_int32": 300000,
+      "decimal": 30.0,
+      "fp_raw": 1966080,
+      "runtime_value": 30.0
+    },
+    "attributes": [],
+    "WeaponID": [
+      70017
+    ],
+    "MonsterTraitID": [],
+    "MonsterAbility": [
+      6000010
+    ],
+    "NoAttackArea": {
+      "serialized_int32": 10000,
+      "decimal": 1.0,
+      "fp_raw": 65536,
+      "runtime_value": 1.0
+    },
+    "FireCD": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "BulletLifeRange": {
+      "serialized_int32": 990000,
+      "decimal": 99.0,
+      "fp_raw": 6488064,
+      "runtime_value": 99.0
+    },
+    "attackPossibility": {
+      "serialized_int32": 10000,
+      "decimal": 1.0,
+      "fp_raw": 65536,
+      "runtime_value": 1.0
+    },
+    "rotateWhenAttack": [
+      0
+    ],
+    "guardDistance": {
+      "serialized_int32": 990000,
+      "decimal": 99.0,
+      "fp_raw": 6488064,
+      "runtime_value": 99.0
+    },
+    "disengageDistance": {
+      "serialized_int32": 990000,
+      "decimal": 99.0,
+      "fp_raw": 6488064,
+      "runtime_value": 99.0
+    },
+    "ShowHp": 1,
+    "ShowHpType": 1,
+    "SpecialTrait": [],
+    "AIId": "AIMoveToBottomAndAttack",
+    "AIParameters": "{\"nextPointOffsetX\":0,\"nextPointOffsetZ\":-10,\"fireDirectionX\":0,\"fireDirectionZ\":-1,\"fireInterval\":2,\"fireDelay\":0,\"isLoop\":1,\"needAttack\":true}",
+    "WaveAIId": "AIMoveToBottomAndAttack",
+    "WaveAIParameters": "{\"nextPointOffsetX\":0,\"nextPointOffsetZ\":-10,\"fireDirectionX\":0,\"fireDirectionZ\":-1,\"fireInterval\":2,\"fireDelay\":0,\"isLoop\":1,\"needAttack\":true}",
+    "AIWeight": [],
+    "AICall": 0,
+    "AIRush": 0,
+    "bornType": 1,
+    "bornParameters": "{\"Duration\":0.5,\"Parallel\":1,\"RandomEdge\":1}",
+    "BulletMod1": [],
+    "BulletMod2": [],
+    "BulletMod3": [],
+    "WeaponMod1": [],
+    "WeaponMod2": [],
+    "WeaponMod3": [],
+    "leaveType": 0,
+    "WaveleaveType": 0,
+    "leaveParameters": "{\"AttackTime\":13,\"PathId\":7}",
+    "WaveleaveParameters": "{\"AttackTime\":13,\"PathId\":7}",
+    "UrgencyTipParameters": "",
+    "AlertId": 1,
+    "AlertParameters": "",
+    "rotateSpeed": {
+      "serialized_int32": 10000000,
+      "decimal": 1000.0,
+      "fp_raw": 65536000,
+      "runtime_value": 1000.0
+    },
+    "BodyAttack": {
+      "serialized_int32": 1000000,
+      "decimal": 100.0,
+      "fp_raw": 6553600,
+      "runtime_value": 100.0
+    },
+    "hitRimTime": 0.30000001192092896,
+    "jellyId": 1,
+    "hitPrefabId": 0,
+    "airplanetrail": 0,
+    "AttackSpeed": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "HittedInterval": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "moveType": 0,
+    "PreloadWeapon": [],
+    "dropID": [],
+    "nameLanguageId": "",
+    "infoLanguageId": "",
+    "hitSoundId": 330004,
+    "deadSoundId": 330005,
+    "deathClassId": 6,
+    "deathParams": "{\"ExplosionEffectId\":210008}",
+    "LinkEntityId": [],
+    "LinkBulletId": [],
+    "LinkModelId": [],
+    "LinkEffectId": [],
+    "hpDropRate": {
+      "serialized_int32": 10000,
+      "decimal": 1.0,
+      "fp_raw": 65536,
+      "runtime_value": 1.0
+    },
+    "hpDropRate2": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "hpDropRate3": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "expDropRate": {
+      "serialized_int32": 10000,
+      "decimal": 1.0,
+      "fp_raw": 65536,
+      "runtime_value": 1.0
+    },
+    "expType": 1,
+    "coin": 1,
+    "exp": 65,
+    "expWeight": 3,
+    "score": 0,
+    "bornEffect": 140003,
+    "AvoidRadius": 1,
+    "SelectScale": 2.0,
+    "Vibrate": 0,
+    "NoAnim": 0,
+    "MonsterDropType": 2
+  },
+  {
+    "ID": 320021,
+    "Type": 2,
+    "Tag": [
+      102
+    ],
+    "SecondWeapenType": 0,
+    "BelongSkill": [],
+    "ModelID": 120137,
+    "ModelID_B": 120137,
+    "Shape": [
+      {
+        "serialized_int32": 12000,
+        "decimal": 1.2,
+        "fp_raw": 78643,
+        "runtime_value": 1.1999969482421875
+      },
+      {
+        "serialized_int32": 8000,
+        "decimal": 0.8,
+        "fp_raw": 52428,
+        "runtime_value": 0.79998779296875
+      }
+    ],
+    "ModelScale": {
+      "serialized_int32": 15000,
+      "decimal": 1.5,
+      "fp_raw": 98304,
+      "runtime_value": 1.5
+    },
+    "BuffScale": 0.0,
+    "mass": 20,
+    "CharacterID": 320021,
+    "HP": {
+      "serialized_int32": 8000000,
+      "decimal": 800.0,
+      "fp_raw": 52428800,
+      "runtime_value": 800.0
+    },
+    "Attack": {
+      "serialized_int32": 1000000,
+      "decimal": 100.0,
+      "fp_raw": 6553600,
+      "runtime_value": 100.0
+    },
+    "MoveSpeed": {
+      "serialized_int32": 1000,
+      "decimal": 0.1,
+      "fp_raw": 6553,
+      "runtime_value": 0.0999908447265625
+    },
+    "AttackDistance": {
+      "serialized_int32": 900000,
+      "decimal": 90.0,
+      "fp_raw": 5898240,
+      "runtime_value": 90.0
+    },
+    "attributes": [],
+    "WeaponID": [
+      70016
+    ],
+    "MonsterTraitID": [],
+    "MonsterAbility": [
+      6000009
+    ],
+    "NoAttackArea": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "FireCD": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "BulletLifeRange": {
+      "serialized_int32": 990000,
+      "decimal": 99.0,
+      "fp_raw": 6488064,
+      "runtime_value": 99.0
+    },
+    "attackPossibility": {
+      "serialized_int32": 10000,
+      "decimal": 1.0,
+      "fp_raw": 65536,
+      "runtime_value": 1.0
+    },
+    "rotateWhenAttack": [
+      0
+    ],
+    "guardDistance": {
+      "serialized_int32": 990000,
+      "decimal": 99.0,
+      "fp_raw": 6488064,
+      "runtime_value": 99.0
+    },
+    "disengageDistance": {
+      "serialized_int32": 990000,
+      "decimal": 99.0,
+      "fp_raw": 6488064,
+      "runtime_value": 99.0
+    },
+    "ShowHp": 1,
+    "ShowHpType": 1,
+    "SpecialTrait": [],
+    "AIId": "AIMoveInTwoPointsAndAttack",
+    "AIParameters": "{\"nextPointX\":0,\"nextPointZ\":0,\"fireDirectionX\":0,\"fireDirectionZ\":-1,\"fireInterval\":1.6,\"needAttack\":true}",
+    "WaveAIId": "AIMoveInTwoPointsAndAttack",
+    "WaveAIParameters": "{\"nextPointX\":0,\"nextPointZ\":0.5,\"fireDirectionX\":0,\"fireDirectionZ\":-1,\"fireInterval\":2,\"needAttack\":true}",
+    "AIWeight": [],
+    "AICall": 0,
+    "AIRush": 0,
+    "bornType": 1,
+    "bornParameters": "{\"Duration\":0.5,\"Parallel\":1,\"RandomEdge\":1}",
+    "BulletMod1": [],
+    "BulletMod2": [],
+    "BulletMod3": [],
+    "WeaponMod1": [],
+    "WeaponMod2": [],
+    "WeaponMod3": [],
+    "leaveType": 0,
+    "WaveleaveType": 0,
+    "leaveParameters": "{\"AttackTime\":13,\"PathId\":7}",
+    "WaveleaveParameters": "{\"AttackTime\":13,\"PathId\":7}",
+    "UrgencyTipParameters": "",
+    "AlertId": 1,
+    "AlertParameters": "",
+    "rotateSpeed": {
+      "serialized_int32": 10000000,
+      "decimal": 1000.0,
+      "fp_raw": 65536000,
+      "runtime_value": 1000.0
+    },
+    "BodyAttack": {
+      "serialized_int32": 1000000,
+      "decimal": 100.0,
+      "fp_raw": 6553600,
+      "runtime_value": 100.0
+    },
+    "hitRimTime": 0.30000001192092896,
+    "jellyId": 1,
+    "hitPrefabId": 0,
+    "airplanetrail": 0,
+    "AttackSpeed": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "HittedInterval": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "moveType": 0,
+    "PreloadWeapon": [],
+    "dropID": [],
+    "nameLanguageId": "",
+    "infoLanguageId": "",
+    "hitSoundId": 330004,
+    "deadSoundId": 330005,
+    "deathClassId": 6,
+    "deathParams": "{\"ExplosionEffectId\":210008}",
+    "LinkEntityId": [],
+    "LinkBulletId": [],
+    "LinkModelId": [],
+    "LinkEffectId": [],
+    "hpDropRate": {
+      "serialized_int32": 10000,
+      "decimal": 1.0,
+      "fp_raw": 65536,
+      "runtime_value": 1.0
+    },
+    "hpDropRate2": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "hpDropRate3": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "expDropRate": {
+      "serialized_int32": 10000,
+      "decimal": 1.0,
+      "fp_raw": 65536,
+      "runtime_value": 1.0
+    },
+    "expType": 1,
+    "coin": 1,
+    "exp": 65,
+    "expWeight": 3,
+    "score": 0,
+    "bornEffect": 140003,
+    "AvoidRadius": 1,
+    "SelectScale": 2.0,
+    "Vibrate": 0,
+    "NoAnim": 0,
+    "MonsterDropType": 2
+  },
+  {
+    "ID": 320022,
+    "Type": 2,
+    "Tag": [
+      103
+    ],
+    "SecondWeapenType": 0,
+    "BelongSkill": [],
+    "ModelID": 120135,
+    "ModelID_B": 120135,
+    "Shape": [
+      {
+        "serialized_int32": 16000,
+        "decimal": 1.6,
+        "fp_raw": 104857,
+        "runtime_value": 1.5999908447265625
+      },
+      {
+        "serialized_int32": 8500,
+        "decimal": 0.85,
+        "fp_raw": 55705,
+        "runtime_value": 0.8499908447265625
+      }
+    ],
+    "ModelScale": {
+      "serialized_int32": 13000,
+      "decimal": 1.3,
+      "fp_raw": 85196,
+      "runtime_value": 1.29998779296875
+    },
+    "BuffScale": 0.0,
+    "mass": 30,
+    "CharacterID": 320022,
+    "HP": {
+      "serialized_int32": 11000000,
+      "decimal": 1100.0,
+      "fp_raw": 72089600,
+      "runtime_value": 1100.0
+    },
+    "Attack": {
+      "serialized_int32": 1000000,
+      "decimal": 100.0,
+      "fp_raw": 6553600,
+      "runtime_value": 100.0
+    },
+    "MoveSpeed": {
+      "serialized_int32": 1000,
+      "decimal": 0.1,
+      "fp_raw": 6553,
+      "runtime_value": 0.0999908447265625
+    },
+    "AttackDistance": {
+      "serialized_int32": 300000,
+      "decimal": 30.0,
+      "fp_raw": 1966080,
+      "runtime_value": 30.0
+    },
+    "attributes": [],
+    "WeaponID": [
+      70017
+    ],
+    "MonsterTraitID": [],
+    "MonsterAbility": [
+      6000010
+    ],
+    "NoAttackArea": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "FireCD": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "BulletLifeRange": {
+      "serialized_int32": 990000,
+      "decimal": 99.0,
+      "fp_raw": 6488064,
+      "runtime_value": 99.0
+    },
+    "attackPossibility": {
+      "serialized_int32": 10000,
+      "decimal": 1.0,
+      "fp_raw": 65536,
+      "runtime_value": 1.0
+    },
+    "rotateWhenAttack": [
+      0
+    ],
+    "guardDistance": {
+      "serialized_int32": 990000,
+      "decimal": 99.0,
+      "fp_raw": 6488064,
+      "runtime_value": 99.0
+    },
+    "disengageDistance": {
+      "serialized_int32": 990000,
+      "decimal": 99.0,
+      "fp_raw": 6488064,
+      "runtime_value": 99.0
+    },
+    "ShowHp": 1,
+    "ShowHpType": 1,
+    "SpecialTrait": [],
+    "AIId": "AIMoveInTwoPointsAndAttack",
+    "AIParameters": "{\"nextPointX\":0,\"nextPointZ\":0,\"fireDirectionX\":0,\"fireDirectionZ\":-1,\"fireInterval\":1.6,\"fireDelay\":0,\"needAttack\":true}",
+    "WaveAIId": "AIMoveInTwoPointsAndAttackNew",
+    "WaveAIParameters": "{\"nextPointX\":0,\"nextPointZ\":0.5,\"fireDirectionX\":0,\"fireDirectionZ\":-1,\"fireInterval\":2,\"fireDelay\":0,\"needAttack\":true}",
+    "AIWeight": [],
+    "AICall": 0,
+    "AIRush": 0,
+    "bornType": 1,
+    "bornParameters": "{\"Duration\":0.5,\"Parallel\":1,\"RandomEdge\":1}",
+    "BulletMod1": [],
+    "BulletMod2": [],
+    "BulletMod3": [],
+    "WeaponMod1": [],
+    "WeaponMod2": [],
+    "WeaponMod3": [],
+    "leaveType": 0,
+    "WaveleaveType": 0,
+    "leaveParameters": "{\"AttackTime\":13,\"PathId\":7}",
+    "WaveleaveParameters": "{\"AttackTime\":13,\"PathId\":7}",
+    "UrgencyTipParameters": "",
+    "AlertId": 1,
+    "AlertParameters": "",
+    "rotateSpeed": {
+      "serialized_int32": 10000000,
+      "decimal": 1000.0,
+      "fp_raw": 65536000,
+      "runtime_value": 1000.0
+    },
+    "BodyAttack": {
+      "serialized_int32": 1000000,
+      "decimal": 100.0,
+      "fp_raw": 6553600,
+      "runtime_value": 100.0
+    },
+    "hitRimTime": 0.30000001192092896,
+    "jellyId": 1,
+    "hitPrefabId": 0,
+    "airplanetrail": 0,
+    "AttackSpeed": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "HittedInterval": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "moveType": 0,
+    "PreloadWeapon": [],
+    "dropID": [],
+    "nameLanguageId": "",
+    "infoLanguageId": "",
+    "hitSoundId": 330004,
+    "deadSoundId": 330005,
+    "deathClassId": 6,
+    "deathParams": "{\"ExplosionEffectId\":210008}",
+    "LinkEntityId": [],
+    "LinkBulletId": [],
+    "LinkModelId": [],
+    "LinkEffectId": [],
+    "hpDropRate": {
+      "serialized_int32": 10000,
+      "decimal": 1.0,
+      "fp_raw": 65536,
+      "runtime_value": 1.0
+    },
+    "hpDropRate2": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "hpDropRate3": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "expDropRate": {
+      "serialized_int32": 10000,
+      "decimal": 1.0,
+      "fp_raw": 65536,
+      "runtime_value": 1.0
+    },
+    "expType": 1,
+    "coin": 1,
+    "exp": 65,
+    "expWeight": 3,
+    "score": 0,
+    "bornEffect": 140003,
+    "AvoidRadius": 1,
+    "SelectScale": 2.0,
+    "Vibrate": 0,
+    "NoAnim": 0,
+    "MonsterDropType": 2
+  },
+  {
+    "ID": 320030,
+    "Type": 2,
+    "Tag": [
+      102
+    ],
+    "SecondWeapenType": 0,
+    "BelongSkill": [],
+    "ModelID": 120137,
+    "ModelID_B": 120137,
+    "Shape": [
+      {
+        "serialized_int32": 12000,
+        "decimal": 1.2,
+        "fp_raw": 78643,
+        "runtime_value": 1.1999969482421875
+      },
+      {
+        "serialized_int32": 8000,
+        "decimal": 0.8,
+        "fp_raw": 52428,
+        "runtime_value": 0.79998779296875
+      }
+    ],
+    "ModelScale": {
+      "serialized_int32": 15000,
+      "decimal": 1.5,
+      "fp_raw": 98304,
+      "runtime_value": 1.5
+    },
+    "BuffScale": 0.0,
+    "mass": 20,
+    "CharacterID": 320017,
+    "HP": {
+      "serialized_int32": 8000000,
+      "decimal": 800.0,
+      "fp_raw": 52428800,
+      "runtime_value": 800.0
+    },
+    "Attack": {
+      "serialized_int32": 1000000,
+      "decimal": 100.0,
+      "fp_raw": 6553600,
+      "runtime_value": 100.0
+    },
+    "MoveSpeed": {
+      "serialized_int32": 55000,
+      "decimal": 5.5,
+      "fp_raw": 360448,
+      "runtime_value": 5.5
+    },
+    "AttackDistance": {
+      "serialized_int32": 900000,
+      "decimal": 90.0,
+      "fp_raw": 5898240,
+      "runtime_value": 90.0
+    },
+    "attributes": [],
+    "WeaponID": [
+      70016
+    ],
+    "MonsterTraitID": [],
+    "MonsterAbility": [
+      6000009
+    ],
+    "NoAttackArea": {
+      "serialized_int32": 10000,
+      "decimal": 1.0,
+      "fp_raw": 65536,
+      "runtime_value": 1.0
+    },
+    "FireCD": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "BulletLifeRange": {
+      "serialized_int32": 990000,
+      "decimal": 99.0,
+      "fp_raw": 6488064,
+      "runtime_value": 99.0
+    },
+    "attackPossibility": {
+      "serialized_int32": 10000,
+      "decimal": 1.0,
+      "fp_raw": 65536,
+      "runtime_value": 1.0
+    },
+    "rotateWhenAttack": [
+      0
+    ],
+    "guardDistance": {
+      "serialized_int32": 990000,
+      "decimal": 99.0,
+      "fp_raw": 6488064,
+      "runtime_value": 99.0
+    },
+    "disengageDistance": {
+      "serialized_int32": 990000,
+      "decimal": 99.0,
+      "fp_raw": 6488064,
+      "runtime_value": 99.0
+    },
+    "ShowHp": 1,
+    "ShowHpType": 1,
+    "SpecialTrait": [],
+    "AIId": "AIMoveOnPathAttackLoopBorn",
+    "AIParameters": "{\"PathId\":20,\"fireInterval\":2,\"fireDelay\":0,\"needAttack\":true}",
+    "WaveAIId": "AIMoveOnPathAttackLoopBorn",
+    "WaveAIParameters": "{\"PathId\":20,\"fireInterval\":2,\"fireDelay\":0,\"needAttack\":true}",
+    "AIWeight": [],
+    "AICall": 0,
+    "AIRush": 0,
+    "bornType": 0,
+    "bornParameters": "",
+    "BulletMod1": [],
+    "BulletMod2": [],
+    "BulletMod3": [],
+    "WeaponMod1": [],
+    "WeaponMod2": [],
+    "WeaponMod3": [],
+    "leaveType": 0,
+    "WaveleaveType": 0,
+    "leaveParameters": "{\"AttackTime\":13,\"PathId\":7}",
+    "WaveleaveParameters": "{\"AttackTime\":13,\"PathId\":7}",
+    "UrgencyTipParameters": "",
+    "AlertId": 0,
+    "AlertParameters": "",
+    "rotateSpeed": {
+      "serialized_int32": 10000000,
+      "decimal": 1000.0,
+      "fp_raw": 65536000,
+      "runtime_value": 1000.0
+    },
+    "BodyAttack": {
+      "serialized_int32": 1000000,
+      "decimal": 100.0,
+      "fp_raw": 6553600,
+      "runtime_value": 100.0
+    },
+    "hitRimTime": 0.30000001192092896,
+    "jellyId": 1,
+    "hitPrefabId": 0,
+    "airplanetrail": 0,
+    "AttackSpeed": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "HittedInterval": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "moveType": 0,
+    "PreloadWeapon": [],
+    "dropID": [],
+    "nameLanguageId": "",
+    "infoLanguageId": "",
+    "hitSoundId": 330004,
+    "deadSoundId": 330005,
+    "deathClassId": 6,
+    "deathParams": "{\"ExplosionEffectId\":210008}",
+    "LinkEntityId": [],
+    "LinkBulletId": [],
+    "LinkModelId": [],
+    "LinkEffectId": [],
+    "hpDropRate": {
+      "serialized_int32": 10000,
+      "decimal": 1.0,
+      "fp_raw": 65536,
+      "runtime_value": 1.0
+    },
+    "hpDropRate2": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "hpDropRate3": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "expDropRate": {
+      "serialized_int32": 10000,
+      "decimal": 1.0,
+      "fp_raw": 65536,
+      "runtime_value": 1.0
+    },
+    "expType": 1,
+    "coin": 2,
+    "exp": 65,
+    "expWeight": 3,
+    "score": 0,
+    "bornEffect": 140003,
+    "AvoidRadius": 1,
+    "SelectScale": 2.0,
+    "Vibrate": 0,
+    "NoAnim": 0,
+    "MonsterDropType": 2
+  },
+  {
+    "ID": 320035,
+    "Type": 2,
+    "Tag": [
+      103
+    ],
+    "SecondWeapenType": 0,
+    "BelongSkill": [],
+    "ModelID": 120143,
+    "ModelID_B": 120143,
+    "Shape": [
+      {
+        "serialized_int32": 18000,
+        "decimal": 1.8,
+        "fp_raw": 117964,
+        "runtime_value": 1.79998779296875
+      },
+      {
+        "serialized_int32": 11000,
+        "decimal": 1.1,
+        "fp_raw": 72089,
+        "runtime_value": 1.0999908447265625
+      }
+    ],
+    "ModelScale": {
+      "serialized_int32": 20000,
+      "decimal": 2.0,
+      "fp_raw": 131072,
+      "runtime_value": 2.0
+    },
+    "BuffScale": 0.0,
+    "mass": 30,
+    "CharacterID": 360005,
+    "HP": {
+      "serialized_int32": 23500000,
+      "decimal": 2350.0,
+      "fp_raw": 154009600,
+      "runtime_value": 2350.0
+    },
+    "Attack": {
+      "serialized_int32": 1000000,
+      "decimal": 100.0,
+      "fp_raw": 6553600,
+      "runtime_value": 100.0
+    },
+    "MoveSpeed": {
+      "serialized_int32": 30000,
+      "decimal": 3.0,
+      "fp_raw": 196608,
+      "runtime_value": 3.0
+    },
+    "AttackDistance": {
+      "serialized_int32": 900000,
+      "decimal": 90.0,
+      "fp_raw": 5898240,
+      "runtime_value": 90.0
+    },
+    "attributes": [],
+    "WeaponID": [
+      70005
+    ],
+    "MonsterTraitID": [],
+    "MonsterAbility": [
+      6000001
+    ],
+    "NoAttackArea": {
+      "serialized_int32": 10000,
+      "decimal": 1.0,
+      "fp_raw": 65536,
+      "runtime_value": 1.0
+    },
+    "FireCD": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "BulletLifeRange": {
+      "serialized_int32": 990000,
+      "decimal": 99.0,
+      "fp_raw": 6488064,
+      "runtime_value": 99.0
+    },
+    "attackPossibility": {
+      "serialized_int32": 10000,
+      "decimal": 1.0,
+      "fp_raw": 65536,
+      "runtime_value": 1.0
+    },
+    "rotateWhenAttack": [
+      0
+    ],
+    "guardDistance": {
+      "serialized_int32": 990000,
+      "decimal": 99.0,
+      "fp_raw": 6488064,
+      "runtime_value": 99.0
+    },
+    "disengageDistance": {
+      "serialized_int32": 990000,
+      "decimal": 99.0,
+      "fp_raw": 6488064,
+      "runtime_value": 99.0
+    },
+    "ShowHp": 1,
+    "ShowHpType": 1,
+    "SpecialTrait": [],
+    "AIId": "AIMoveToBottomAndAttack",
+    "AIParameters": "{\"nextPointOffsetX\":0,\"nextPointOffsetZ\":-10,\"fireDirectionX\":0,\"fireDirectionZ\":-1,\"fireInterval\":2.5,\"fireDelay\":0,\"isLoop\":1,\"needAttack\":true}",
+    "WaveAIId": "AIMoveToBottomAndAttack",
+    "WaveAIParameters": "{\"nextPointOffsetX\":0,\"nextPointOffsetZ\":-10,\"fireDirectionX\":0,\"fireDirectionZ\":-1,\"fireInterval\":2.5,\"fireDelay\":0,\"isLoop\":1,\"needAttack\":true}",
+    "AIWeight": [],
+    "AICall": 0,
+    "AIRush": 0,
+    "bornType": 1,
+    "bornParameters": "{\"Duration\":0.5,\"Parallel\":1,\"RandomEdge\":1}",
+    "BulletMod1": [],
+    "BulletMod2": [],
+    "BulletMod3": [],
+    "WeaponMod1": [],
+    "WeaponMod2": [],
+    "WeaponMod3": [],
+    "leaveType": 0,
+    "WaveleaveType": 0,
+    "leaveParameters": "{\"AttackTime\":13,\"PathId\":7}",
+    "WaveleaveParameters": "{\"AttackTime\":13,\"PathId\":7}",
+    "UrgencyTipParameters": "",
+    "AlertId": 1,
+    "AlertParameters": "",
+    "rotateSpeed": {
+      "serialized_int32": 10000000,
+      "decimal": 1000.0,
+      "fp_raw": 65536000,
+      "runtime_value": 1000.0
+    },
+    "BodyAttack": {
+      "serialized_int32": 1000000,
+      "decimal": 100.0,
+      "fp_raw": 6553600,
+      "runtime_value": 100.0
+    },
+    "hitRimTime": 0.30000001192092896,
+    "jellyId": 1,
+    "hitPrefabId": 0,
+    "airplanetrail": 0,
+    "AttackSpeed": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "HittedInterval": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "moveType": 0,
+    "PreloadWeapon": [],
+    "dropID": [],
+    "nameLanguageId": "",
+    "infoLanguageId": "",
+    "hitSoundId": 330004,
+    "deadSoundId": 330006,
+    "deathClassId": 6,
+    "deathParams": "{\"ExplosionEffectId\":210008}",
+    "LinkEntityId": [],
+    "LinkBulletId": [],
+    "LinkModelId": [],
+    "LinkEffectId": [],
+    "hpDropRate": {
+      "serialized_int32": 10000,
+      "decimal": 1.0,
+      "fp_raw": 65536,
+      "runtime_value": 1.0
+    },
+    "hpDropRate2": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "hpDropRate3": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "expDropRate": {
+      "serialized_int32": 10000,
+      "decimal": 1.0,
+      "fp_raw": 65536,
+      "runtime_value": 1.0
+    },
+    "expType": 1,
+    "coin": 2,
+    "exp": 130,
+    "expWeight": 6,
+    "score": 0,
+    "bornEffect": 140003,
+    "AvoidRadius": 1,
+    "SelectScale": 2.0,
+    "Vibrate": 0,
+    "NoAnim": 0,
+    "MonsterDropType": 2
+  },
+  {
+    "ID": 330006,
+    "Type": 2,
+    "Tag": [
+      101
+    ],
+    "SecondWeapenType": 0,
+    "BelongSkill": [],
+    "ModelID": 120130,
+    "ModelID_B": 120130,
+    "Shape": [
+      {
+        "serialized_int32": 10000,
+        "decimal": 1.0,
+        "fp_raw": 65536,
+        "runtime_value": 1.0
+      },
+      {
+        "serialized_int32": 7500,
+        "decimal": 0.75,
+        "fp_raw": 49152,
+        "runtime_value": 0.75
+      }
+    ],
+    "ModelScale": {
+      "serialized_int32": 10000,
+      "decimal": 1.0,
+      "fp_raw": 65536,
+      "runtime_value": 1.0
+    },
+    "BuffScale": 0.0,
+    "mass": 10,
+    "CharacterID": 330006,
+    "HP": {
+      "serialized_int32": 1500000,
+      "decimal": 150.0,
+      "fp_raw": 9830400,
+      "runtime_value": 150.0
+    },
+    "Attack": {
+      "serialized_int32": 750000,
+      "decimal": 75.0,
+      "fp_raw": 4915200,
+      "runtime_value": 75.0
+    },
+    "MoveSpeed": {
+      "serialized_int32": 75000,
+      "decimal": 7.5,
+      "fp_raw": 491520,
+      "runtime_value": 7.5
+    },
+    "AttackDistance": {
+      "serialized_int32": 50000,
+      "decimal": 5.0,
+      "fp_raw": 327680,
+      "runtime_value": 5.0
+    },
+    "attributes": [],
+    "WeaponID": [
+      70009
+    ],
+    "MonsterTraitID": [],
+    "MonsterAbility": [
+      6000037
+    ],
+    "NoAttackArea": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "FireCD": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "BulletLifeRange": {
+      "serialized_int32": 990000,
+      "decimal": 99.0,
+      "fp_raw": 6488064,
+      "runtime_value": 99.0
+    },
+    "attackPossibility": {
+      "serialized_int32": 10000,
+      "decimal": 1.0,
+      "fp_raw": 65536,
+      "runtime_value": 1.0
+    },
+    "rotateWhenAttack": [
+      0
+    ],
+    "guardDistance": {
+      "serialized_int32": 990000,
+      "decimal": 99.0,
+      "fp_raw": 6488064,
+      "runtime_value": 99.0
+    },
+    "disengageDistance": {
+      "serialized_int32": 990000,
+      "decimal": 99.0,
+      "fp_raw": 6488064,
+      "runtime_value": 99.0
+    },
+    "ShowHp": 0,
+    "ShowHpType": 0,
+    "SpecialTrait": [],
+    "AIId": "AIFixedBezierPath",
+    "AIParameters": "{\"PathId\":7,\"DeathOnFinish\":1,\"IsLoop\":0}",
+    "WaveAIId": "AIFixedBezierPath",
+    "WaveAIParameters": "{\"PathId\":7,\"DeathOnFinish\":1,\"IsLoop\":1,\"IsLoopSelf\":true}",
+    "AIWeight": [],
+    "AICall": 0,
+    "AIRush": 0,
+    "bornType": 0,
+    "bornParameters": "",
+    "BulletMod1": [],
+    "BulletMod2": [],
+    "BulletMod3": [],
+    "WeaponMod1": [],
+    "WeaponMod2": [],
+    "WeaponMod3": [],
+    "leaveType": 0,
+    "WaveleaveType": 0,
+    "leaveParameters": "",
+    "WaveleaveParameters": "",
+    "UrgencyTipParameters": "",
+    "AlertId": 0,
+    "AlertParameters": "",
+    "rotateSpeed": {
+      "serialized_int32": 5000000,
+      "decimal": 500.0,
+      "fp_raw": 32768000,
+      "runtime_value": 500.0
+    },
+    "BodyAttack": {
+      "serialized_int32": 1000000,
+      "decimal": 100.0,
+      "fp_raw": 6553600,
+      "runtime_value": 100.0
+    },
+    "hitRimTime": 0.30000001192092896,
+    "jellyId": 1,
+    "hitPrefabId": 120001,
+    "airplanetrail": 0,
+    "AttackSpeed": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "HittedInterval": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "moveType": 1,
+    "PreloadWeapon": [],
+    "dropID": [],
+    "nameLanguageId": "",
+    "infoLanguageId": "",
+    "hitSoundId": 330003,
+    "deadSoundId": 330005,
+    "deathClassId": 6,
+    "deathParams": "{\"ExplosionEffectId\":210002}",
+    "LinkEntityId": [],
+    "LinkBulletId": [],
+    "LinkModelId": [],
+    "LinkEffectId": [],
+    "hpDropRate": {
+      "serialized_int32": 1000,
+      "decimal": 0.1,
+      "fp_raw": 6553,
+      "runtime_value": 0.0999908447265625
+    },
+    "hpDropRate2": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "hpDropRate3": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "expDropRate": {
+      "serialized_int32": 10000,
+      "decimal": 1.0,
+      "fp_raw": 65536,
+      "runtime_value": 1.0
+    },
+    "expType": 0,
+    "coin": 1,
+    "exp": 12,
+    "expWeight": 1,
+    "score": 0,
+    "bornEffect": 140003,
+    "AvoidRadius": 1,
+    "SelectScale": 2.0,
+    "Vibrate": 0,
+    "NoAnim": 0,
+    "MonsterDropType": 1
+  },
+  {
+    "ID": 340002,
+    "Type": 3,
+    "Tag": [
+      103
+    ],
+    "SecondWeapenType": 0,
+    "BelongSkill": [],
+    "ModelID": 121002,
+    "ModelID_B": 121002,
+    "Shape": [
+      {
+        "serialized_int32": 57000,
+        "decimal": 5.7,
+        "fp_raw": 373555,
+        "runtime_value": 5.6999969482421875
+      },
+      {
+        "serialized_int32": 30000,
+        "decimal": 3.0,
+        "fp_raw": 196608,
+        "runtime_value": 3.0
+      }
+    ],
+    "ModelScale": {
+      "serialized_int32": 15000,
+      "decimal": 1.5,
+      "fp_raw": 98304,
+      "runtime_value": 1.5
+    },
+    "BuffScale": 0.0,
+    "mass": 99,
+    "CharacterID": 340002,
+    "HP": {
+      "serialized_int32": 400000000,
+      "decimal": 40000.0,
+      "fp_raw": 2621440000,
+      "runtime_value": 40000.0
+    },
+    "Attack": {
+      "serialized_int32": 1000000,
+      "decimal": 100.0,
+      "fp_raw": 6553600,
+      "runtime_value": 100.0
+    },
+    "MoveSpeed": {
+      "serialized_int32": 50000,
+      "decimal": 5.0,
+      "fp_raw": 327680,
+      "runtime_value": 5.0
+    },
+    "AttackDistance": {
+      "serialized_int32": 990000,
+      "decimal": 99.0,
+      "fp_raw": 6488064,
+      "runtime_value": 99.0
+    },
+    "attributes": [],
+    "WeaponID": [
+      50003,
+      50004,
+      50005
+    ],
+    "MonsterTraitID": [],
+    "MonsterAbility": [
+      6200002
+    ],
+    "NoAttackArea": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "FireCD": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "BulletLifeRange": {
+      "serialized_int32": 990000,
+      "decimal": 99.0,
+      "fp_raw": 6488064,
+      "runtime_value": 99.0
+    },
+    "attackPossibility": {
+      "serialized_int32": 10000,
+      "decimal": 1.0,
+      "fp_raw": 65536,
+      "runtime_value": 1.0
+    },
+    "rotateWhenAttack": [
+      0
+    ],
+    "guardDistance": {
+      "serialized_int32": 990000,
+      "decimal": 99.0,
+      "fp_raw": 6488064,
+      "runtime_value": 99.0
+    },
+    "disengageDistance": {
+      "serialized_int32": 990000,
+      "decimal": 99.0,
+      "fp_raw": 6488064,
+      "runtime_value": 99.0
+    },
+    "ShowHp": 1,
+    "ShowHpType": 1,
+    "SpecialTrait": [],
+    "AIId": "AICommonBoss",
+    "AIParameters": "{\"MinZs\":[0.5,0.5,0.5],\n\"MaxZs\":[0.9,0.9,0.9]}",
+    "WaveAIId": "AICommonBoss",
+    "WaveAIParameters": "{\"MinZs\":[0.5,0.5,0.5],\n\"MaxZs\":[0.9,0.9,0.9]}",
+    "AIWeight": [],
+    "AICall": 0,
+    "AIRush": 0,
+    "bornType": 1,
+    "bornParameters": "{\"Duration\":0.5,\"Parallel\":1,\"RandomEdge\":1}",
+    "BulletMod1": [],
+    "BulletMod2": [],
+    "BulletMod3": [],
+    "WeaponMod1": [],
+    "WeaponMod2": [],
+    "WeaponMod3": [],
+    "leaveType": 0,
+    "WaveleaveType": 0,
+    "leaveParameters": "",
+    "WaveleaveParameters": "",
+    "UrgencyTipParameters": "",
+    "AlertId": 2,
+    "AlertParameters": "{\"SpeedRatio\":0,\"WalkTimeMin\":1,\"WalkTimeMax\":2,\"WaitTime\":2}",
+    "rotateSpeed": {
+      "serialized_int32": 10000000,
+      "decimal": 1000.0,
+      "fp_raw": 65536000,
+      "runtime_value": 1000.0
+    },
+    "BodyAttack": {
+      "serialized_int32": 1000000,
+      "decimal": 100.0,
+      "fp_raw": 6553600,
+      "runtime_value": 100.0
+    },
+    "hitRimTime": 0.30000001192092896,
+    "jellyId": 0,
+    "hitPrefabId": 0,
+    "airplanetrail": 0,
+    "AttackSpeed": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "HittedInterval": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "moveType": 0,
+    "PreloadWeapon": [],
+    "dropID": [],
+    "nameLanguageId": "",
+    "infoLanguageId": "",
+    "hitSoundId": 330004,
+    "deadSoundId": 330008,
+    "deathClassId": 6,
+    "deathParams": "{\"ExplosionEffectId\":210061}",
+    "LinkEntityId": [],
+    "LinkBulletId": [],
+    "LinkModelId": [],
+    "LinkEffectId": [],
+    "hpDropRate": {
+      "serialized_int32": 10000,
+      "decimal": 1.0,
+      "fp_raw": 65536,
+      "runtime_value": 1.0
+    },
+    "hpDropRate2": {
+      "serialized_int32": 2500,
+      "decimal": 0.25,
+      "fp_raw": 16384,
+      "runtime_value": 0.25
+    },
+    "hpDropRate3": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "expDropRate": {
+      "serialized_int32": 10000,
+      "decimal": 1.0,
+      "fp_raw": 65536,
+      "runtime_value": 1.0
+    },
+    "expType": 1,
+    "coin": 0,
+    "exp": 975,
+    "expWeight": 15,
+    "score": 0,
+    "bornEffect": 140003,
+    "AvoidRadius": 1,
+    "SelectScale": 2.0,
+    "Vibrate": 0,
+    "NoAnim": 0,
+    "MonsterDropType": 4
+  }
+]

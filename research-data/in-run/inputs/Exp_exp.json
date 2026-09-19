@@ -1,0 +1,197 @@
+[
+  {
+    "id": 1,
+    "randomSkillFactor": [
+      2,
+      40,
+      40,
+      20
+    ],
+    "waveExp": 200,
+    "roomExp": 15,
+    "timeExp": 22,
+    "bossRushExp": 15
+  },
+  {
+    "id": 2,
+    "randomSkillFactor": [
+      1,
+      40,
+      40,
+      20
+    ],
+    "waveExp": 750,
+    "roomExp": 45,
+    "timeExp": 67,
+    "bossRushExp": 45
+  },
+  {
+    "id": 3,
+    "randomSkillFactor": [
+      2,
+      40,
+      40,
+      20
+    ],
+    "waveExp": 1350,
+    "roomExp": 87,
+    "timeExp": 130,
+    "bossRushExp": 87
+  },
+  {
+    "id": 4,
+    "randomSkillFactor": [
+      1,
+      40,
+      40,
+      20
+    ],
+    "waveExp": 1950,
+    "roomExp": 138,
+    "timeExp": 207,
+    "bossRushExp": 138
+  },
+  {
+    "id": 5,
+    "randomSkillFactor": [
+      2,
+      40,
+      40,
+      20
+    ],
+    "waveExp": 2650,
+    "roomExp": 198,
+    "timeExp": 297,
+    "bossRushExp": 198
+  },
+  {
+    "id": 6,
+    "randomSkillFactor": [
+      1,
+      40,
+      40,
+      20
+    ],
+    "waveExp": 3450,
+    "roomExp": 264,
+    "timeExp": 396,
+    "bossRushExp": 264
+  },
+  {
+    "id": 7,
+    "randomSkillFactor": [
+      2,
+      40,
+      40,
+      20
+    ],
+    "waveExp": 4250,
+    "roomExp": 336,
+    "timeExp": 504,
+    "bossRushExp": 336
+  },
+  {
+    "id": 8,
+    "randomSkillFactor": [
+      1,
+      40,
+      40,
+      20
+    ],
+    "waveExp": 5200,
+    "roomExp": 417,
+    "timeExp": 625,
+    "bossRushExp": 417
+  },
+  {
+    "id": 9,
+    "randomSkillFactor": [
+      2,
+      40,
+      40,
+      20
+    ],
+    "waveExp": 6200,
+    "roomExp": 504,
+    "timeExp": 756,
+    "bossRushExp": 504
+  },
+  {
+    "id": 10,
+    "randomSkillFactor": [
+      1,
+      40,
+      40,
+      20
+    ],
+    "waveExp": 7300,
+    "roomExp": 597,
+    "timeExp": 895,
+    "bossRushExp": 597
+  },
+  {
+    "id": 11,
+    "randomSkillFactor": [
+      2,
+      40,
+      40,
+      20
+    ],
+    "waveExp": 8500,
+    "roomExp": 783,
+    "timeExp": 1174,
+    "bossRushExp": 783
+  },
+  {
+    "id": 12,
+    "randomSkillFactor": [
+      1,
+      40,
+      40,
+      20
+    ],
+    "waveExp": 9700,
+    "roomExp": 906,
+    "timeExp": 1359,
+    "bossRushExp": 906
+  },
+  {
+    "id": 13,
+    "randomSkillFactor": [
+      2,
+      40,
+      40,
+      20
+    ],
+    "waveExp": 11100,
+    "roomExp": 1032,
+    "timeExp": 1548,
+    "bossRushExp": 1032
+  },
+  {
+    "id": 14,
+    "randomSkillFactor": [
+      1,
+      40,
+      40,
+      20
+    ],
+    "waveExp": 12800,
+    "roomExp": 1167,
+    "timeExp": 1750,
+    "bossRushExp": 1167
+  },
+  {
+    "id": 15,
+    "randomSkillFactor": [
+      2,
+      40,
+      40,
+      20
+    ],
+    "waveExp": 14800,
+    "roomExp": 1308,
+    "timeExp": 1962,
+    "bossRushExp": 1308
+  }
+]

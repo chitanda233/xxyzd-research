@@ -1,0 +1,29 @@
+[
+  {
+    "id": 601,
+    "note": "钻石复活",
+    "nameId": "",
+    "price": [
+      [
+        2,
+        50
+      ]
+    ],
+    "iapPrice": 0,
+    "DiscountLanguageid": "",
+    "IncreaseValue": 0,
+    "limit": 0,
+    "refresh": 0,
+    "reward": [],
+    "firstReward": [],
+    "type": 2,
+    "Unlock": "",
+    "adPrice": 0,
+    "iconAtlasID": 0,
+    "iconName": "",
+    "useImmediately": 0,
+    "perLimit": 0,
+    "Discount": 0,
+    "showReward": []
+  }
+]

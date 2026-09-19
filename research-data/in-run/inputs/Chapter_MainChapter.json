@@ -1,0 +1,155 @@
+[
+  {
+    "id": 1,
+    "chapterNameLanguageId": "MainChapter_Name_1",
+    "chapterType": 8,
+    "SkillGroupWeight": 1,
+    "SkillGroupWeight_B": 1,
+    "ResultType": [],
+    "waveNum": 15,
+    "missionIdPrev": 1001,
+    "ProtectTemplate": 1,
+    "hpUpgrade": {
+      "serialized_int32": 10000,
+      "decimal": 1.0,
+      "fp_raw": 65536,
+      "runtime_value": 1.0
+    },
+    "attackUp": {
+      "serialized_int32": 10000,
+      "decimal": 1.0,
+      "fp_raw": 65536,
+      "runtime_value": 1.0
+    },
+    "hpUpgrade_B": {
+      "serialized_int32": 10000,
+      "decimal": 1.0,
+      "fp_raw": 65536,
+      "runtime_value": 1.0
+    },
+    "attackUp_B": {
+      "serialized_int32": 10000,
+      "decimal": 1.0,
+      "fp_raw": 65536,
+      "runtime_value": 1.0
+    },
+    "addExpUpgrade": {
+      "serialized_int32": 10000,
+      "decimal": 1.0,
+      "fp_raw": 65536,
+      "runtime_value": 1.0
+    },
+    "HPPickUpAddPercent": {
+      "serialized_int32": 400,
+      "decimal": 0.04,
+      "fp_raw": 2621,
+      "runtime_value": 0.0399932861328125
+    },
+    "waveId": 100100,
+    "mapStyle": 10001,
+    "PreviewMonsters": [
+      310008,
+      330006,
+      320005,
+      320021,
+      320022,
+      340002
+    ],
+    "NewMonsters": [],
+    "SuggestedSkills": [
+      10000101,
+      10000601
+    ],
+    "missionIdPrev_B": 4001,
+    "addExpUpgrade_B": {
+      "serialized_int32": 10000,
+      "decimal": 1.0,
+      "fp_raw": 65536,
+      "runtime_value": 1.0
+    },
+    "HPPickUpAddPercent_B": {
+      "serialized_int32": 400,
+      "decimal": 0.04,
+      "fp_raw": 2621,
+      "runtime_value": 0.0399932861328125
+    },
+    "waveId_B": 400100,
+    "mapStyle_B": 10001,
+    "PreviewMonsters_B": [
+      310008,
+      330006,
+      320005,
+      320021,
+      320022,
+      340002
+    ],
+    "NewMonsters_B": [],
+    "SuggestedSkills_B": [
+      10000101,
+      10000601
+    ],
+    "SuggestedFunction": [],
+    "ChapterFeature": [],
+    "textureName": [
+      "stg_main_icon_island01",
+      "stg_MonsterHandBook_Plane_boss_2"
+    ],
+    "dataPath": "S_1_1",
+    "music": 100003,
+    "SkillType": 2,
+    "ChestType": 1,
+    "WaitUpLevel": 1,
+    "cameraId": 3,
+    "DropGoldBaseValue": 0,
+    "FirstReward": [
+      [
+        4300110,
+        1
+      ]
+    ],
+    "FinishReward": [
+      3,
+      113,
+      10010007,
+      1
+    ],
+    "starCondition": [
+      101,
+      102,
+      103
+    ],
+    "ResurrectionTimes": 0,
+    "NewPlayerProtect": [],
+    "missionPrefabName": "YiJi",
+    "unLockNeedLayer": 0,
+    "isHide": 0,
+    "worldRecordOnShow": 60,
+    "skill3SelectCreditsRandom": [
+      12800,
+      7000,
+      5500,
+      0,
+      40000
+    ],
+    "skill2SelectCreditsRandom": [
+      20888,
+      9000,
+      9000,
+      0,
+      60000
+    ],
+    "TwoSkillsProtectLevel": 0,
+    "skillSelectPassiveGold": 1,
+    "waveGold": 0,
+    "waveExp": 0,
+    "MonsterDropGroup": [],
+    "MonsterDropLimit": [],
+    "MonsterDropRate": [],
+    "BossDropGroup": [],
+    "BossDropLimit": [],
+    "BossDropRate": [],
+    "BossDropGuarantee": [],
+    "goldFortune": [],
+    "scrollFortune": []
+  }
+]

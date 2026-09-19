@@ -1,0 +1,59 @@
+[
+  {
+    "id": 2,
+    "entityId": [
+      330006
+    ],
+    "height": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    },
+    "weight": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    }
+  },
+  {
+    "id": 5,
+    "entityId": [
+      330006,
+      330006
+    ],
+    "height": {
+      "serialized_int32": 20000,
+      "decimal": 2.0,
+      "fp_raw": 131072,
+      "runtime_value": 2.0
+    },
+    "weight": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    }
+  },
+  {
+    "id": 13,
+    "entityId": [
+      330006,
+      330006,
+      330006
+    ],
+    "height": {
+      "serialized_int32": 20000,
+      "decimal": 2.0,
+      "fp_raw": 131072,
+      "runtime_value": 2.0
+    },
+    "weight": {
+      "serialized_int32": 0,
+      "decimal": 0.0,
+      "fp_raw": 0,
+      "runtime_value": 0.0
+    }
+  }
+]

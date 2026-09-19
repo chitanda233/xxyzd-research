@@ -1,0 +1,91 @@
+[
+  {
+    "id": "Q01",
+    "status": "open",
+    "fact_ids": [
+      "F10"
+    ],
+    "question": "新开局Init计数如何赋值？",
+    "already_checked": "检查PrepareBattle、BattleData.Init、读档及DoInitSkillGroup直接调用；读档已确认，直接调用无命中。",
+    "required_evidence": "追BattleData字段直接写入、内联或实际hotfix",
+    "impact": "影响首轮候选保证",
+    "reopen_when": "任务需要该结论的定量保证，或获得新的版本/运行态材料；否则复用已有结论并保留边界"
+  },
+  {
+    "id": "Q02",
+    "status": "open",
+    "fact_ids": [
+      "F12"
+    ],
+    "question": "线上是否启用同类长期增权？",
+    "already_checked": "APK组增权fallback为空，公式与底层引擎存在。",
+    "required_evidence": "实际热更新方法体或运行时权重采样",
+    "impact": "影响Build概率模型",
+    "reopen_when": "任务需要该结论的定量保证，或获得新的版本/运行态材料；否则复用已有结论并保留边界"
+  },
+  {
+    "id": "Q03",
+    "status": "open",
+    "fact_ids": [
+      "F15",
+      "F16"
+    ],
+    "question": "Punchboard各数量档概率与技能净变化？",
+    "already_checked": "独立状态和数量抽样已定位；内置表未找到数量权重数组。",
+    "required_evidence": "常量初始化/远端配置与PlayerPunchboard结果应用",
+    "impact": "影响Boss前实际构筑规模",
+    "reopen_when": "任务需要该结论的定量保证，或获得新的版本/运行态材料；否则复用已有结论并保留边界"
+  },
+  {
+    "id": "Q04",
+    "status": "open",
+    "fact_ids": [
+      "F18",
+      "F21",
+      "F22"
+    ],
+    "question": "复活资格上限、无敌与清弹规则？",
+    "already_checked": "资格优先级、flag接收、计数、返回战斗均已核对。",
+    "required_evidence": "资格初始化、HeroComponentDie.ReBorn后Buff和敌人系统",
+    "impact": "影响失败成本与生存定量分析",
+    "reopen_when": "任务需要该结论的定量保证，或获得新的版本/运行态材料；否则复用已有结论并保留边界"
+  },
+  {
+    "id": "Q05",
+    "status": "open",
+    "fact_ids": [
+      "F23",
+      "F24"
+    ],
+    "question": "终局精确UI顺序与HP采样时刻？",
+    "already_checked": "末波无普通升级UI；结束态处理掉落；成功事件收集星级；CheckHp直接引用仅CollectStar。",
+    "required_evidence": "结束状态全链或同版本终局录像",
+    "impact": "影响最后一次成长/回血价值",
+    "reopen_when": "任务需要该结论的定量保证，或获得新的版本/运行态材料；否则复用已有结论并保留边界"
+  },
+  {
+    "id": "Q06",
+    "status": "open",
+    "fact_ids": [
+      "F25"
+    ],
+    "question": "奖励数组、失败保留与实际到账？",
+    "already_checked": "章节和累计星级奖励配置可见；服务端发放未验证。",
+    "required_evidence": "奖励解析、响应字段及领取状态；需要服务端或运行态证据",
+    "impact": "影响局外回流收益",
+    "reopen_when": "任务需要该结论的定量保证，或获得新的版本/运行态材料；否则复用已有结论并保留边界"
+  },
+  {
+    "id": "Q07",
+    "status": "open",
+    "fact_ids": [
+      "F01",
+      "F07"
+    ],
+    "question": "线上实际采用基础还是_B分支？",
+    "already_checked": "本数据集明确采用非_B配置，输入快照保留_B列。",
+    "required_evidence": "版本对应的分流设置/运行态选择证据",
+    "impact": "不能将本基线推及全部线上玩家",
+    "reopen_when": "任务需要该结论的定量保证，或获得新的版本/运行态材料；否则复用已有结论并保留边界"
+  }
+]

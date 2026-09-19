@@ -1,0 +1,23 @@
+[
+  {
+    "id": 101,
+    "condition": 5,
+    "param": 0,
+    "exparam": 0,
+    "langId": "StarCondition_1"
+  },
+  {
+    "id": 102,
+    "condition": 3,
+    "param": 0,
+    "exparam": 0,
+    "langId": "StarCondition_2"
+  },
+  {
+    "id": 103,
+    "condition": 5,
+    "param": 100,
+    "exparam": 0,
+    "langId": "StarCondition_3"
+  }
+]

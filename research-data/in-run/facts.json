@@ -1,0 +1,562 @@
+[
+  {
+    "id": "F01",
+    "topic": "entry",
+    "title": "章节规则",
+    "status": "verified_static",
+    "statement": "第一章基础配置包含15波、78条脚本任务，波末处理升级。",
+    "parameters": {
+      "chapter_id": 1,
+      "wave_count": 15,
+      "mission_count": 78,
+      "wait_up_level": 1
+    },
+    "source_ids": [
+      "T:Chapter_MainChapter",
+      "T:MissionWaterfallMission_WaterfallMission"
+    ],
+    "applies_to": "client 1.0.16 / chapter 1 / base variant",
+    "limitations": [],
+    "report_anchor": "entry"
+  },
+  {
+    "id": "F02",
+    "topic": "pacing",
+    "title": "时间口径",
+    "status": "verified_static",
+    "statement": "波次时钟是配置脚本时间；玩家选牌、界面和击杀等待会影响真实耗时。",
+    "parameters": {
+      "unit": "seconds",
+      "time_basis": "configured_script_time"
+    },
+    "source_ids": [
+      "T:MissionWaterfallMission_WaterfallMission",
+      "N:wave-upgrade"
+    ],
+    "applies_to": "client 1.0.16 / chapter 1 / base variant",
+    "limitations": [
+      "不提供真实单局用时估计"
+    ],
+    "report_anchor": "pacing"
+  },
+  {
+    "id": "F03",
+    "topic": "pacing",
+    "title": "随机怪数量",
+    "status": "verified_static",
+    "statement": "随机刷新指令按numberRandom目标总数填充；本章随机池均只含330006，类型与数量可确定。",
+    "parameters": {
+      "random_count_semantics": "target_total_entities",
+      "random_entity_id": 330006
+    },
+    "source_ids": [
+      "T:Mission_RandomMonsterFlushConfig",
+      "N:wave-random"
+    ],
+    "applies_to": "client 1.0.16 / chapter 1 / base variant",
+    "limitations": [],
+    "report_anchor": "pacing"
+  },
+  {
+    "id": "F04",
+    "topic": "checks",
+    "title": "强节点门槛",
+    "status": "verified_static",
+    "statement": "W5为软高潮；W10和W15要求特殊目标死亡，特殊目标计数归零后取消尚未执行的刷新。",
+    "parameters": {
+      "death_gate_waves": [
+        10,
+        15
+      ],
+      "special_entity_types": [
+        201,
+        3
+      ],
+      "w10_configured_max": 18
+    },
+    "source_ids": [
+      "T:ChapterWave_Waves",
+      "T:Character_entity",
+      "N:wave-gate"
+    ],
+    "applies_to": "client 1.0.16 / chapter 1 / base variant",
+    "limitations": [
+      "不等于必须清空全部普通敌人",
+      "实战W10怪量可低于18"
+    ],
+    "report_anchor": "checks"
+  },
+  {
+    "id": "F05",
+    "topic": "exp",
+    "title": "经验预算",
+    "status": "verified_static",
+    "statement": "每波总经验预算与前15级累计经验阈值的相邻差一致；总预算14800。",
+    "parameters": {
+      "total_exp": 14800,
+      "one_wave_budget_equals_one_level_delta": true
+    },
+    "source_ids": [
+      "T:ChapterWave_Waves",
+      "T:Exp_exp",
+      "N:wave-exp"
+    ],
+    "applies_to": "client 1.0.16 / chapter 1 / base variant",
+    "limitations": [],
+    "report_anchor": "exp"
+  },
+  {
+    "id": "F06",
+    "topic": "exp",
+    "title": "普通成长节点",
+    "status": "verified_static",
+    "statement": "W1～W14配置波末升级UI；波末吸收遗漏经验并串行处理待升级次数。W15未配置普通波末升级UI。",
+    "parameters": {
+      "ordinary_growth_waves": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "pre_w5_growth": 4,
+      "pre_w10_growth": 9,
+      "pre_boss_growth": 14
+    },
+    "source_ids": [
+      "T:ChapterWave_Waves",
+      "N:wave-upgrade"
+    ],
+    "applies_to": "client 1.0.16 / chapter 1 / base variant",
+    "limitations": [
+      "普通成长数是基准预算，不含阶段事件或额外经验修正",
+      "不把末波经验直接计成第15次常规选择"
+    ],
+    "report_anchor": "exp"
+  },
+  {
+    "id": "F07",
+    "topic": "random",
+    "title": "整组品质抽取",
+    "status": "verified_static",
+    "statement": "普通主线目标候选数3，先按40/40/20/0抽整组起始品质，从对应池抽取，候选不足再轮转补池。",
+    "parameters": {
+      "choice_count": 3,
+      "quality_start_weights": [
+        40,
+        40,
+        20,
+        0
+      ]
+    },
+    "source_ids": [
+      "T:Consts_Const",
+      "N:normal-choice",
+      "N:quality"
+    ],
+    "applies_to": "client 1.0.16 / chapter 1 / base variant",
+    "limitations": [
+      "基础权重不是每张卡最终品质概率",
+      "角色属性可修正权重"
+    ],
+    "report_anchor": "random"
+  },
+  {
+    "id": "F08",
+    "topic": "random",
+    "title": "刷新与升品质",
+    "status": "verified_static",
+    "statement": "普通刷新复用已有品质索引；qualityUp提升起始品质档位，二者不同。",
+    "parameters": {
+      "refresh_reuses_quality_index": true,
+      "quality_up_index_delta": 1
+    },
+    "source_ids": [
+      "N:quality",
+      "N:init-boost"
+    ],
+    "applies_to": "client 1.0.16 / chapter 1 / base variant",
+    "limitations": [],
+    "report_anchor": "random"
+  },
+  {
+    "id": "F09",
+    "topic": "random",
+    "title": "候选合法性",
+    "status": "verified_static",
+    "statement": "前置、互斥、技能标记、星级、父子关系限制候选；同批技能ID去重，父技能继续解析一个合法子分支。",
+    "parameters": {
+      "duplicate_skill_ids_in_same_draw": false
+    },
+    "source_ids": [
+      "T:Skill_Main",
+      "N:weighted-draw",
+      "N:branch-choice"
+    ],
+    "applies_to": "client 1.0.16 / chapter 1 / base variant",
+    "limitations": [],
+    "report_anchor": "random"
+  },
+  {
+    "id": "F10",
+    "topic": "random",
+    "title": "初始池",
+    "status": "verified_static",
+    "statement": "Init计数大于0使用独立初始池并消费计数，配置目标1次；读档恢复计数。",
+    "parameters": {
+      "configured_init_count": 1
+    },
+    "source_ids": [
+      "T:Consts_Const",
+      "N:init-boost",
+      "N:save-init"
+    ],
+    "applies_to": "client 1.0.16 / chapter 1 / base variant",
+    "limitations": [
+      "新开局写入1的路径未闭合；不能保证每局首屏必走该池"
+    ],
+    "report_anchor": "random"
+  },
+  {
+    "id": "F11",
+    "topic": "random",
+    "title": "新手临时扶正",
+    "status": "verified_static",
+    "statement": "配置指定10000101、10000601、10001701各+10%临时权重；正常技能抽取路径支持Boost后Revert。",
+    "parameters": {
+      "boost_percent": 10,
+      "skill_ids": [
+        10000101,
+        10000601,
+        10001701
+      ]
+    },
+    "source_ids": [
+      "T:Consts_Const",
+      "N:init-boost"
+    ],
+    "applies_to": "client 1.0.16 / chapter 1 / base variant",
+    "limitations": [
+      "适用保护条件时生效，不是所有抽取普遍增加10%",
+      "不是最终概率增加10个百分点"
+    ],
+    "report_anchor": "random"
+  },
+  {
+    "id": "F12",
+    "topic": "random",
+    "title": "同类增权的启用边界",
+    "status": "designed_only",
+    "statement": "同类型每次+50%、上限+500%的公式存在，但APK的组增权fallback没有写入实现，不计入已生效规则。",
+    "parameters": {
+      "intended_delta_per_count": 0.5,
+      "intended_delta_cap": 5,
+      "apk_fallback_applies_delta": false
+    },
+    "source_ids": [
+      "T:Skill_SkillTypeWeight",
+      "N:type-delta",
+      "N:type-apply"
+    ],
+    "applies_to": "client 1.0.16 / chapter 1 / base variant",
+    "limitations": [
+      "线上hotfix是否覆盖未知"
+    ],
+    "report_anchor": "random"
+  },
+  {
+    "id": "F13",
+    "topic": "build",
+    "title": "构筑层次",
+    "status": "verified_static",
+    "statement": "基础池18入口（11武器、7模块），分支池57，深层池111，突破池22；这些是配置入口数。",
+    "parameters": {
+      "weapons": 11,
+      "modules": 7,
+      "branches": 57,
+      "deep_upgrades": 111,
+      "breakthroughs": 22
+    },
+    "source_ids": [
+      "T:SkillGroup_SurvivorGroup",
+      "T:SkillGroup_BranchSurvivorGroup",
+      "T:SkillGroup_UpgradeSurvivorGroup",
+      "T:SkillGroup_UpgradeSkillGroup",
+      "T:Skill_Main"
+    ],
+    "applies_to": "client 1.0.16 / chapter 1 / base variant",
+    "limitations": [
+      "不等于同时合法候选数或线上开放数"
+    ],
+    "report_anchor": "build"
+  },
+  {
+    "id": "F14",
+    "topic": "build",
+    "title": "突破配方",
+    "status": "verified_static",
+    "statement": "速射机炮节点10000103与暴击模块11000701关联突破10500101；模块还关联灼热射线突破。",
+    "parameters": {
+      "example": {
+        "weapon_node": 10000103,
+        "module": 11000701,
+        "result": 10500101
+      }
+    },
+    "source_ids": [
+      "T:Skill_Main"
+    ],
+    "applies_to": "client 1.0.16 / chapter 1 / base variant",
+    "limitations": [
+      "配置依赖成立仍需通过其它合法性过滤"
+    ],
+    "report_anchor": "build"
+  },
+  {
+    "id": "F15",
+    "topic": "punchboard",
+    "title": "阶段技能事件",
+    "status": "verified_static",
+    "statement": "W6/105s、W11/240s、W15/345s配置Punchboard；Boss任务在347s。",
+    "parameters": {
+      "waves": [
+        6,
+        11,
+        15
+      ],
+      "times_seconds": [
+        105,
+        240,
+        345
+      ],
+      "boss_task_seconds": 347
+    },
+    "source_ids": [
+      "T:MissionWaterfallMission_WaterfallMission",
+      "N:punch-count"
+    ],
+    "applies_to": "client 1.0.16 / chapter 1 / base variant",
+    "limitations": [
+      "脚本相差2秒不是玩家操作限时"
+    ],
+    "report_anchor": "punchboard"
+  },
+  {
+    "id": "F16",
+    "topic": "punchboard",
+    "title": "事件收益边界",
+    "status": "verified_static",
+    "statement": "阶段事件数量走独立加权随机，并受属性与已有技能状态修正；不是固定普通三选一。",
+    "parameters": {},
+    "source_ids": [
+      "N:punch-count",
+      "T:Consts_Const",
+      "N:punch-state",
+      "N:punch-init",
+      "N:punch-result"
+    ],
+    "applies_to": "client 1.0.16 / chapter 1 / base variant",
+    "limitations": [
+      "数量基础权重数组、净增减和替换结果未完整还原"
+    ],
+    "report_anchor": "punchboard"
+  },
+  {
+    "id": "F17",
+    "topic": "survival",
+    "title": "资源分工",
+    "status": "verified_static",
+    "statement": "局内经验用于构筑，生命用于存活和终局评价，持久奖励由结束与领取流程处理。",
+    "parameters": {},
+    "source_ids": [
+      "T:Chapter_MainChapter",
+      "N:wave-upgrade",
+      "N:star-hp",
+      "N:end-state"
+    ],
+    "applies_to": "client 1.0.16 / chapter 1 / base variant",
+    "limitations": [
+      "HPPickUpAddPercent=0.04不独立证明单个血包回复公式"
+    ],
+    "report_anchor": "survival"
+  },
+  {
+    "id": "F18",
+    "topic": "survival",
+    "title": "复活优先级",
+    "status": "verified_static",
+    "statement": "优先技能复活次数，再比较满血/普通复活属性与同一随机值，再检查剩余弹窗复活资格。",
+    "parameters": {
+      "ordered_types": [
+        4,
+        2,
+        1,
+        3,
+        0
+      ],
+      "probability_checks_share_random_value": true
+    },
+    "source_ids": [
+      "N:revive-priority"
+    ],
+    "applies_to": "client 1.0.16 / chapter 1 / base variant",
+    "limitations": [
+      "概率属性不是两次独立抽签"
+    ],
+    "report_anchor": "survival"
+  },
+  {
+    "id": "F19",
+    "topic": "survival",
+    "title": "购买广告复活",
+    "status": "verified_static",
+    "statement": "购买flag=1进入类型3复活；广告flag=2先增加广告次数再走类型3；关闭flag=0转无复活处理。",
+    "parameters": {
+      "flags": {
+        "1": "purchase",
+        "2": "ad",
+        "0": "decline"
+      }
+    },
+    "source_ids": [
+      "N:revive-input",
+      "N:revive-ad",
+      "N:revive-apply"
+    ],
+    "applies_to": "client 1.0.16 / chapter 1 / base variant",
+    "limitations": [],
+    "report_anchor": "survival"
+  },
+  {
+    "id": "F20",
+    "topic": "survival",
+    "title": "评价复活计数",
+    "status": "verified_static",
+    "statement": "AddReliveCount仅类型3减剩余资格并增已用复活次数；技能和概率类型不经此分支增加该计数。",
+    "parameters": {
+      "counted_reborn_type": 3
+    },
+    "source_ids": [
+      "N:revive-count",
+      "N:star-revive"
+    ],
+    "applies_to": "client 1.0.16 / chapter 1 / base variant",
+    "limitations": [
+      "结论限定已核对路径，不排除线上覆盖"
+    ],
+    "report_anchor": "survival"
+  },
+  {
+    "id": "F21",
+    "topic": "survival",
+    "title": "复活后续接",
+    "status": "verified_static",
+    "statement": "成功复活返回战斗态，并尝试恢复被打断的波末成长。",
+    "parameters": {
+      "battle_state": 1,
+      "resume_wave_end_upgrade": true
+    },
+    "source_ids": [
+      "N:revive-resume"
+    ],
+    "applies_to": "client 1.0.16 / chapter 1 / base variant",
+    "limitations": [
+      "不由此推断无敌时长、清弹范围或敌人HP保留"
+    ],
+    "report_anchor": "survival"
+  },
+  {
+    "id": "F22",
+    "topic": "survival",
+    "title": "复活价格与资格",
+    "status": "verified_static",
+    "statement": "弹窗商品601内置价格50钻石；资格与价格是不同问题。",
+    "parameters": {
+      "shop_goods_id": 601,
+      "currency_item_id": 2,
+      "price": 50
+    },
+    "source_ids": [
+      "T:Shop_ShopGoods",
+      "N:revive-input",
+      "N:revive-ui"
+    ],
+    "applies_to": "client 1.0.16 / chapter 1 / base variant",
+    "limitations": [
+      "不保证每局可购买或线上价格一致"
+    ],
+    "report_anchor": "survival"
+  },
+  {
+    "id": "F23",
+    "topic": "result",
+    "title": "结束收束",
+    "status": "verified_static",
+    "statement": "结束态包含装备、经验掉落检查与吸收；不等同于普通波末升级。",
+    "parameters": {},
+    "source_ids": [
+      "N:end-state",
+      "T:ChapterWave_Waves"
+    ],
+    "applies_to": "client 1.0.16 / chapter 1 / base variant",
+    "limitations": [
+      "Boss死后是否出现特殊成长界面未实测"
+    ],
+    "report_anchor": "result"
+  },
+  {
+    "id": "F24",
+    "topic": "result",
+    "title": "星级收集",
+    "status": "verified_static",
+    "statement": "成功且启用星级功能的结束事件路径调用CollectStar，检查已用复活次数与终局HP百分比并生成星级掩码。",
+    "parameters": {
+      "star_condition_ids": [
+        101,
+        102,
+        103
+      ],
+      "max_counted_revives": 0,
+      "hp_percent_required": 100
+    },
+    "source_ids": [
+      "N:result",
+      "N:star-collect",
+      "N:star-hp",
+      "N:star-revive",
+      "T:ChapterReward_Star",
+      "T:Language_languagetable"
+    ],
+    "applies_to": "client 1.0.16 / chapter 1 / base variant",
+    "limitations": [
+      "不代表全程无伤；间接调用/热更及服务端覆核未验证"
+    ],
+    "report_anchor": "result"
+  },
+  {
+    "id": "F25",
+    "topic": "result",
+    "title": "奖励入口",
+    "status": "verified_static",
+    "statement": "章节完成、首通与累计星级奖励分别配置。",
+    "parameters": {},
+    "source_ids": [
+      "T:Chapter_MainChapter",
+      "T:ChapterReward_StarReward"
+    ],
+    "applies_to": "client 1.0.16 / chapter 1 / base variant",
+    "limitations": [
+      "失败保留、发放数组解码及到账未闭合；不提供固定收益"
+    ],
+    "report_anchor": "result"
+  }
+]

@@ -1,0 +1,164 @@
+{
+  "kind": "planning_model_not_literal_state_machine",
+  "nodes": [
+    {
+      "id": "entry",
+      "label": "入场"
+    },
+    {
+      "id": "combat",
+      "label": "当前波战斗"
+    },
+    {
+      "id": "punchboard",
+      "label": "阶段事件"
+    },
+    {
+      "id": "growth",
+      "label": "波末成长"
+    },
+    {
+      "id": "choice",
+      "label": "技能选择"
+    },
+    {
+      "id": "death",
+      "label": "死亡资格判定"
+    },
+    {
+      "id": "revive",
+      "label": "复活恢复"
+    },
+    {
+      "id": "end",
+      "label": "结束收束"
+    },
+    {
+      "id": "result",
+      "label": "结果评价"
+    },
+    {
+      "id": "outside",
+      "label": "局外回流"
+    }
+  ],
+  "edges": [
+    {
+      "source": "entry",
+      "target": "combat",
+      "condition": "初始化完成",
+      "fact_ids": [
+        "F01"
+      ]
+    },
+    {
+      "source": "combat",
+      "target": "punchboard",
+      "condition": "W6/W11/W15脚本事件",
+      "fact_ids": [
+        "F15"
+      ]
+    },
+    {
+      "source": "punchboard",
+      "target": "combat",
+      "condition": "事件结束",
+      "fact_ids": [
+        "F16"
+      ]
+    },
+    {
+      "source": "combat",
+      "target": "growth",
+      "condition": "非最终波推进条件满足",
+      "fact_ids": [
+        "F04",
+        "F06"
+      ]
+    },
+    {
+      "source": "growth",
+      "target": "choice",
+      "condition": "还有待升级次数",
+      "fact_ids": [
+        "F06",
+        "F07"
+      ]
+    },
+    {
+      "source": "choice",
+      "target": "growth",
+      "condition": "选择完成，消费一次升级",
+      "fact_ids": [
+        "F06"
+      ]
+    },
+    {
+      "source": "growth",
+      "target": "combat",
+      "condition": "升级及波末流程完成",
+      "fact_ids": [
+        "F06"
+      ]
+    },
+    {
+      "source": "combat",
+      "target": "death",
+      "condition": "角色死亡",
+      "fact_ids": [
+        "F18"
+      ]
+    },
+    {
+      "source": "death",
+      "target": "revive",
+      "condition": "自身复活或弹窗成功",
+      "fact_ids": [
+        "F18",
+        "F19"
+      ]
+    },
+    {
+      "source": "revive",
+      "target": "combat",
+      "condition": "恢复战斗，必要时续接成长",
+      "fact_ids": [
+        "F21"
+      ]
+    },
+    {
+      "source": "death",
+      "target": "end",
+      "condition": "不复活",
+      "fact_ids": [
+        "F19"
+      ]
+    },
+    {
+      "source": "combat",
+      "target": "end",
+      "condition": "最终Boss满足结束条件",
+      "fact_ids": [
+        "F04",
+        "F23"
+      ]
+    },
+    {
+      "source": "end",
+      "target": "result",
+      "condition": "完成结束处理",
+      "fact_ids": [
+        "F23",
+        "F24"
+      ]
+    },
+    {
+      "source": "result",
+      "target": "outside",
+      "condition": "结果与奖励后续流程",
+      "fact_ids": [
+        "F25"
+      ]
+    }
+  ]
+}

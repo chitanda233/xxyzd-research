@@ -1,0 +1,222 @@
+{
+  "schema_version": "1.0.0",
+  "dataset_id": "xxyzd-in-run-1.0.16-base",
+  "files": {
+    "DICTIONARY.md": {
+      "sha256": "29a41e19f44c6a20d56260da2655bedfe788255cdb354b45cc2bba59840c90a5",
+      "bytes": 4748
+    },
+    "baseline.json": {
+      "sha256": "d26c7ea1a650585140558c4f182ecdafe94484dbc36e6d49777876f0d18ed175",
+      "bytes": 733
+    },
+    "datasets/chapter-1.json": {
+      "sha256": "2d2d84be60a6022736cd408e696820de7b02b90b745ea223e0dba3366acdb204",
+      "bytes": 64338
+    },
+    "datasets/skill-build.json": {
+      "sha256": "e38fe4f204e6631ff09583d65ad2cd8ebe85385135f772c82fff5c980a19623b",
+      "bytes": 306062
+    },
+    "evidence/branch-choice.asm": {
+      "sha256": "6543773bd16731aa2079fe01c6b8a4e088698eb85a60b2b41c8ca92ab3489e83",
+      "bytes": 19172
+    },
+    "evidence/end-state.asm": {
+      "sha256": "e5e71f2810bd2c41363e5cf0722a1028080ffc79ccb78aa5a51616535032969b",
+      "bytes": 13442
+    },
+    "evidence/init-boost.asm": {
+      "sha256": "dc6495ab28f78dbb5c58623a21f0bb7ac6c2b7f0a64b55cd05c56988dcec7496",
+      "bytes": 14738
+    },
+    "evidence/normal-choice.asm": {
+      "sha256": "a599af27be52c1f911e69ce606dc3f3cf56acf1fdd829024563c2b7f2e53a14a",
+      "bytes": 10918
+    },
+    "evidence/punch-count.asm": {
+      "sha256": "e158bd8f84492e767966c3b94c8005f633795cc5455a2bc0f9ad06a100bd0d7c",
+      "bytes": 16149
+    },
+    "evidence/punch-init.asm": {
+      "sha256": "db05f400cb08200bb93bf89912687563c24a80ab8d9c4914b879fe61473db9f6",
+      "bytes": 5511
+    },
+    "evidence/punch-result.asm": {
+      "sha256": "67ea7ea7f821340e5ce98fb8d4d5c56dbabf76dea2fd76012264d0110d2e3a0d",
+      "bytes": 9375
+    },
+    "evidence/punch-state.asm": {
+      "sha256": "0cae0a60fcf6538d7bd583f8fa9d8c3cb388237b673bc2285f78796cc1ae74d6",
+      "bytes": 3346
+    },
+    "evidence/quality.asm": {
+      "sha256": "cf9ec0d29df4840b55e046dfe001eee3705a2c6758ea71df773df5883c962e1b",
+      "bytes": 12359
+    },
+    "evidence/result.asm": {
+      "sha256": "f99e62ea202b003648a2a43f27073e3426b5821f45bd3a7814953bf1e828b56a",
+      "bytes": 85540
+    },
+    "evidence/revive-ad.asm": {
+      "sha256": "9ff557dff0fcbd8d39c60efedee2d61bf18c38fd87af770ee0f2cd1010446173",
+      "bytes": 2310
+    },
+    "evidence/revive-apply.asm": {
+      "sha256": "a37e0c346561d63c044464f5f49a51e822034afc757a4d376326dd4e9cd46a92",
+      "bytes": 3983
+    },
+    "evidence/revive-count.asm": {
+      "sha256": "9a7e1d4ac4104751a5feebca707fe22bca0b9d79fdb352cbac3f97ba62c4c834",
+      "bytes": 5997
+    },
+    "evidence/revive-input.asm": {
+      "sha256": "cdfcf6539c57662cc0ad5f32f404d400b7affc4399ec88abdea33ffcee3ef129",
+      "bytes": 3991
+    },
+    "evidence/revive-priority.asm": {
+      "sha256": "3598941917acedece235d9cc6632398765c3fac5ca5e0c0e71548656ce06a69e",
+      "bytes": 2797
+    },
+    "evidence/revive-resume.asm": {
+      "sha256": "c356b16f877b988c1ac02d743c08684de4096a663cc8b39652a4c55f7185d020",
+      "bytes": 6871
+    },
+    "evidence/revive-ui.asm": {
+      "sha256": "e5c02284e4201ae014570aeefa6ce312ba130716c68970991f994678907ba62a",
+      "bytes": 5420
+    },
+    "evidence/save-init.asm": {
+      "sha256": "c808a81fc497efee3ea0cc653e787fc39cd5fd26f4a7cefb2000f126c01dc613",
+      "bytes": 5973
+    },
+    "evidence/star-collect.asm": {
+      "sha256": "a24204ee79a3e364063acde335da32bf13501252da27a4c5478aa23dfc5e7baa",
+      "bytes": 3326
+    },
+    "evidence/star-hp.asm": {
+      "sha256": "c160ada1f1f7a474db0788ceb1a779102d9313cd35e700c5fa06545bd1606359",
+      "bytes": 4115
+    },
+    "evidence/star-revive.asm": {
+      "sha256": "3bc92d77b3d10cc644a20c7ddb204979296d6131889d7114e328b3bbd5c3809a",
+      "bytes": 6174
+    },
+    "evidence/type-apply.asm": {
+      "sha256": "9f172b1b595bf7e9ca2a97c3bb224259303f7a445de2991ea28e73229efb0d99",
+      "bytes": 1325
+    },
+    "evidence/type-delta.asm": {
+      "sha256": "8cdb12b607191b455be66a393e1be75b37b7923d19b3ba49792b7e48c300dea3",
+      "bytes": 6643
+    },
+    "evidence/wave-exp.asm": {
+      "sha256": "867e5799a0186aef51396fc1f7093e2bd3a9c348cc6eb042f2dd5df4ecad0361",
+      "bytes": 22715
+    },
+    "evidence/wave-gate.asm": {
+      "sha256": "ab88a259599b49a33ef2b1ff4e136c6e299fc4884a37cb27494c80544b375d2b",
+      "bytes": 6560
+    },
+    "evidence/wave-random.asm": {
+      "sha256": "00533c28662c49321d95a4eb79470d1be610ef1d9f92af1751aced3bc10d2174",
+      "bytes": 22163
+    },
+    "evidence/wave-upgrade.asm": {
+      "sha256": "c976d00d25fc9836fbefae9b6a5f1c39f1acf57ce357d5e4e7bfe4216f46b74e",
+      "bytes": 15379
+    },
+    "evidence/weighted-draw.asm": {
+      "sha256": "4caf9bf2ca379adf972c2328370c1db17f33020d1ff9c9aa4b5c112e3b6f1c9f",
+      "bytes": 21863
+    },
+    "facts.json": {
+      "sha256": "db9be7cb796f044c8cc2f23c4c5fb25ef79bcc44ae3de22995b16989f7789857",
+      "bytes": 15613
+    },
+    "flow.json": {
+      "sha256": "64cf8611c224c9d3bbc4b6ede3259b8c63d775166c9c56e2eb4c5ae8af9870f7",
+      "bytes": 2952
+    },
+    "inputs/ChapterReward_Star.json": {
+      "sha256": "eb99a24d5ec22919e069a22fefd9e702e2709ead2b6f3539a7e79213fe231728",
+      "bytes": 335
+    },
+    "inputs/ChapterReward_StarReward.json": {
+      "sha256": "9d89d38cfd930e407e6fffce7b7b2b0ff470b5cfc456a6ce97f79ba53712603f",
+      "bytes": 20612
+    },
+    "inputs/ChapterWave_Waves.json": {
+      "sha256": "46e6399d518beb0d964ca8d1051c133e7049f209ea631b2f6f9e60b4f7b861ad",
+      "bytes": 13466
+    },
+    "inputs/Chapter_MainChapter.json": {
+      "sha256": "567fc52ece2a27787752987cddf8687b585a499e51deea3078fec8c33b9f34f5",
+      "bytes": 3098
+    },
+    "inputs/Character_entity.json": {
+      "sha256": "f8804fa26f16c6334102d2774cd9a9e11ef3b8d2fa52cd68f899c99cfc499233",
+      "bytes": 48494
+    },
+    "inputs/Consts_Const.json": {
+      "sha256": "c1043fa6b5ee77731589ac6f4c2755df8b89bf7463a06df121dfa136cda455a5",
+      "bytes": 1616
+    },
+    "inputs/Exp_exp.json": {
+      "sha256": "35f1625187b588e570a0fca8b9e0db3c2092be1b94088301486a2d86f26a4dba",
+      "bytes": 2683
+    },
+    "inputs/Language_languagetable.json": {
+      "sha256": "5d0f6d18440e740fda13b2d3337601f5ab648f281204cf3adb7968c8c062046f",
+      "bytes": 276972
+    },
+    "inputs/MissionWaterfallMission_WaterfallMission.json": {
+      "sha256": "7d07057a7542c2630b7bdb00d9cffebb3a88234caf781250ceff771f3aec56b2",
+      "bytes": 94980
+    },
+    "inputs/Mission_PositionGroupMonsterFlushConfig.json": {
+      "sha256": "aa237551d60595f9d536ade56eceb9f88da0e7212f1766e80df273967a825d42",
+      "bytes": 4018
+    },
+    "inputs/Mission_RandomMonsterFlushConfig.json": {
+      "sha256": "712fe533964699b51db5b2d5af9886b1c76f1deb8bb48e06313c25f4675ee366",
+      "bytes": 961
+    },
+    "inputs/Shop_ShopGoods.json": {
+      "sha256": "62bee56253c7d7dc576d4f1336b81599a8c12fe9edb73183ea7715d44d300b0f",
+      "bytes": 458
+    },
+    "inputs/SkillGroup_BranchSurvivorGroup.json": {
+      "sha256": "af8c23722be812cdac6bb7a76a31dac145c484aa633f0da8542fddd9cecb5264",
+      "bytes": 4278
+    },
+    "inputs/SkillGroup_SurvivorGroup.json": {
+      "sha256": "3c1f00e932267d3dbab041a5a904da87038c61f9b99dd437ceaec3d6d936b7e2",
+      "bytes": 6130
+    },
+    "inputs/SkillGroup_UpgradeSkillGroup.json": {
+      "sha256": "e8485a430d1e9df41503a9bec3cc2609117f4cb2bfd7831fcafcd97fa97989c8",
+      "bytes": 1675
+    },
+    "inputs/SkillGroup_UpgradeSurvivorGroup.json": {
+      "sha256": "e8f1dc7f77ea625ad3261bcdc0b98974b8e8ba977dcd964dca78869791f2dbdb",
+      "bytes": 35160
+    },
+    "inputs/Skill_Main.json": {
+      "sha256": "adb1c18d124e6350b0adeb8d02b0bcec0b2a640091a697c3796cec21046f3ada",
+      "bytes": 462216
+    },
+    "inputs/Skill_SkillTypeWeight.json": {
+      "sha256": "78f301d2fda910be6169d3c1fc3bca3197c002c83cc2aa3cd4a23d13a1317f14",
+      "bytes": 1839
+    },
+    "questions.json": {
+      "sha256": "d4fbc574a57c303c15aa4d932a6853c7c68a3650c62093d01a6ca6e63cfca0db",
+      "bytes": 3780
+    },
+    "sources.json": {
+      "sha256": "120ee4288db036d5aecc0623be23641a09216f341a3b5be3eed840b09ddc6092",
+      "bytes": 52869
+    }
+  }
+}

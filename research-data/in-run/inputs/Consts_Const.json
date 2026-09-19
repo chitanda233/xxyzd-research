@@ -1,0 +1,65 @@
+[
+  {
+    "id": "60",
+    "note": "普通技能随机权重",
+    "keyName": "RandomSkillWeight",
+    "valueType": "int[]",
+    "value": "{40,40,20,0}"
+  },
+  {
+    "id": "69",
+    "note": "使用初始技能库的次数",
+    "keyName": "UseInitSkillGroupCout",
+    "valueType": "int",
+    "value": "1"
+  },
+  {
+    "id": "114",
+    "note": "赌博机随机浮动时间(用毫秒)",
+    "keyName": "PunchboardRandomTime",
+    "valueType": "int",
+    "value": "0"
+  },
+  {
+    "id": "115",
+    "note": "赌博机丢失一个增加多少概率",
+    "keyName": "PunchboardMissAddWeight",
+    "valueType": "int",
+    "value": "35"
+  },
+  {
+    "id": "116",
+    "note": "赌博机下落速度",
+    "keyName": "PunchboardMoveSpeedScale",
+    "valueType": "fp",
+    "value": "0.8f"
+  },
+  {
+    "id": "167",
+    "note": "前期定制-技能检测-当没有该技能时",
+    "keyName": "NewPlayerProtect_SkillDefault",
+    "valueType": "int",
+    "value": "10000101"
+  },
+  {
+    "id": "168",
+    "note": "前期定制-技能列表-如果没有机炮，初始武器中列表中技能概率提升(百分比)",
+    "keyName": "NewPlayerProtect_SkillDefault_SkillUp",
+    "valueType": "string[]",
+    "value": "{\"10000101|10\",\"10000601|10\",\"10001701|10\"}"
+  },
+  {
+    "id": "169",
+    "note": "主线章节的升级一次给随几个技能",
+    "keyName": "MainChapterRandomSkillCount",
+    "valueType": "int",
+    "value": "3"
+  },
+  {
+    "id": "170",
+    "note": "赌博机几个技能后解锁5个奖励概率",
+    "keyName": "PunchboardFiveSkillBlockThreshold",
+    "valueType": "int",
+    "value": "4"
+  }
+]

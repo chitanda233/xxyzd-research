@@ -1,0 +1,2552 @@
+{
+  "chapter_id": 1,
+  "variant": "base_non_B",
+  "time_basis": "configured_script_seconds_not_wall_clock",
+  "waves": [
+    {
+      "wave": 1,
+      "script_start_seconds": 0.0,
+      "next_script_start_seconds": 15.0,
+      "nominal_window_seconds": 15.0,
+      "configured_monster_count": 20,
+      "count_semantics": "configured_spawn_count",
+      "composition": {
+        "320021": 2,
+        "330006": 18
+      },
+      "special_entities": [],
+      "death_gate": false,
+      "experience_budget": 200,
+      "cumulative_experience": 200,
+      "level_threshold": 200,
+      "ordinary_growth_node": true,
+      "wave_start_ui": [
+        1
+      ],
+      "wave_end_ui": [
+        4
+      ],
+      "mission_ids": [
+        1001001
+      ],
+      "events": [
+        {
+          "kind": "spawn",
+          "script_time_seconds": 0.0,
+          "mission_id": 1001001,
+          "composition": {
+            "330006": 1
+          },
+          "source_ref": {
+            "source_id": "T:Mission_PositionGroupMonsterFlushConfig",
+            "row_id": 3001056,
+            "entry_index": 0
+          }
+        },
+        {
+          "kind": "spawn",
+          "script_time_seconds": 0.2,
+          "mission_id": 1001001,
+          "composition": {
+            "330006": 1
+          },
+          "source_ref": {
+            "source_id": "T:Mission_PositionGroupMonsterFlushConfig",
+            "row_id": 3001056,
+            "entry_index": 1
+          }
+        },
+        {
+          "kind": "spawn",
+          "script_time_seconds": 0.4,
+          "mission_id": 1001001,
+          "composition": {
+            "330006": 1
+          },
+          "source_ref": {
+            "source_id": "T:Mission_PositionGroupMonsterFlushConfig",
+            "row_id": 3001056,
+            "entry_index": 2
+          }
+        },
+        {
+          "kind": "spawn",
+          "script_time_seconds": 1.3,
+          "mission_id": 1001001,
+          "composition": {
+            "330006": 1
+          },
+          "source_ref": {
+            "source_id": "T:Mission_PositionGroupMonsterFlushConfig",
+            "row_id": 3001056,
+            "entry_index": 3
+          }
+        },
+        {
+          "kind": "spawn",
+          "script_time_seconds": 1.5,
+          "mission_id": 1001001,
+          "composition": {
+            "330006": 1
+          },
+          "source_ref": {
+            "source_id": "T:Mission_PositionGroupMonsterFlushConfig",
+            "row_id": 3001056,
+            "entry_index": 4
+          }
+        },
+        {
+          "kind": "spawn",
+          "script_time_seconds": 1.7,
+          "mission_id": 1001001,
+          "composition": {
+            "330006": 1
+          },
+          "source_ref": {
+            "source_id": "T:Mission_PositionGroupMonsterFlushConfig",
+            "row_id": 3001056,
+            "entry_index": 5
+          }
+        },
+        {
+          "kind": "spawn",
+          "script_time_seconds": 2.6,
+          "mission_id": 1001001,
+          "composition": {
+            "330006": 1
+          },
+          "source_ref": {
+            "source_id": "T:Mission_PositionGroupMonsterFlushConfig",
+            "row_id": 3001056,
+            "entry_index": 6
+          }
+        },
+        {
+          "kind": "spawn",
+          "script_time_seconds": 2.8,
+          "mission_id": 1001001,
+          "composition": {
+            "330006": 1
+          },
+          "source_ref": {
+            "source_id": "T:Mission_PositionGroupMonsterFlushConfig",
+            "row_id": 3001056,
+            "entry_index": 7
+          }
+        },
+        {
+          "kind": "spawn",
+          "script_time_seconds": 3.0,
+          "mission_id": 1001001,
+          "composition": {
+            "330006": 1
+          },
+          "source_ref": {
+            "source_id": "T:Mission_PositionGroupMonsterFlushConfig",
+            "row_id": 3001056,
+            "entry_index": 8
+          }
+        },
+        {
+          "kind": "spawn",
+          "script_time_seconds": 3.0,
+          "mission_id": 1001001,
+          "composition": {
+            "320021": 1
+          },
+          "source_ref": {
+            "source_id": "T:Mission_PositionGroupMonsterFlushConfig",
+            "row_id": 3001056,
+            "entry_index": 9
+          }
+        },
+        {
+          "kind": "spawn",
+          "script_time_seconds": 3.5,
+          "mission_id": 1001001,
+          "composition": {
+            "330006": 1
+          },
+          "source_ref": {
+            "source_id": "T:Mission_PositionGroupMonsterFlushConfig",
+            "row_id": 3001056,
+            "entry_index": 10
+          }
+        },
+        {
+          "kind": "spawn",
+          "script_time_seconds": 3.7,
+          "mission_id": 1001001,
+          "composition": {
+            "330006": 1
+          },
+          "source_ref": {
+            "source_id": "T:Mission_PositionGroupMonsterFlushConfig",
+            "row_id": 3001056,
+            "entry_index": 11
+          }
+        },
+        {
+          "kind": "spawn",
+          "script_time_seconds": 4.8,
+          "mission_id": 1001001,
+          "composition": {
+            "330006": 1
+          },
+          "source_ref": {
+            "source_id": "T:Mission_PositionGroupMonsterFlushConfig",
+            "row_id": 3001056,
+            "entry_index": 12
+          }
+        },
+        {
+          "kind": "spawn",
+          "script_time_seconds": 5.0,
+          "mission_id": 1001001,
+          "composition": {
+            "320021": 1
+          },
+          "source_ref": {
+            "source_id": "T:Mission_PositionGroupMonsterFlushConfig",
+            "row_id": 3001056,
+            "entry_index": 15
+          }
+        },
+        {
+          "kind": "spawn",
+          "script_time_seconds": 6.5,
+          "mission_id": 1001001,
+          "composition": {
+            "330006": 1
+          },
+          "source_ref": {
+            "source_id": "T:Mission_PositionGroupMonsterFlushConfig",
+            "row_id": 3001056,
+            "entry_index": 13
+          }
+        },
+        {
+          "kind": "spawn",
+          "script_time_seconds": 6.7,
+          "mission_id": 1001001,
+          "composition": {
+            "330006": 1
+          },
+          "source_ref": {
+            "source_id": "T:Mission_PositionGroupMonsterFlushConfig",
+            "row_id": 3001056,
+            "entry_index": 14
+          }
+        },
+        {
+          "kind": "spawn",
+          "script_time_seconds": 7.0,
+          "mission_id": 1001001,
+          "composition": {
+            "330006": 1
+          },
+          "source_ref": {
+            "source_id": "T:Mission_PositionGroupMonsterFlushConfig",
+            "row_id": 3001056,
+            "entry_index": 16
+          }
+        },
+        {
+          "kind": "spawn",
+          "script_time_seconds": 9.5,
+          "mission_id": 1001001,
+          "composition": {
+            "330006": 1
+          },
+          "source_ref": {
+            "source_id": "T:Mission_PositionGroupMonsterFlushConfig",
+            "row_id": 3001056,
+            "entry_index": 17
+          }
+        },
+        {
+          "kind": "spawn",
+          "script_time_seconds": 9.7,
+          "mission_id": 1001001,
+          "composition": {
+            "330006": 1
+          },
+          "source_ref": {
+            "source_id": "T:Mission_PositionGroupMonsterFlushConfig",
+            "row_id": 3001056,
+            "entry_index": 18
+          }
+        },
+        {
+          "kind": "spawn",
+          "script_time_seconds": 9.9,
+          "mission_id": 1001001,
+          "composition": {
+            "330006": 1
+          },
+          "source_ref": {
+            "source_id": "T:Mission_PositionGroupMonsterFlushConfig",
+            "row_id": 3001056,
+            "entry_index": 19
+          }
+        }
+      ],
+      "fact_ids": [
+        "F02",
+        "F03",
+        "F04",
+        "F05",
+        "F06"
+      ],
+      "source_ref": {
+        "source_id": "T:ChapterWave_Waves",
+        "row_id": 100101
+      }
+    },
+    {
+      "wave": 2,
+      "script_start_seconds": 15.0,
+      "next_script_start_seconds": 30.0,
+      "nominal_window_seconds": 15.0,
+      "configured_monster_count": 10,
+      "count_semantics": "configured_spawn_count",
+      "composition": {
+        "320022": 2,
+        "330006": 8
+      },
+      "special_entities": [],
+      "death_gate": false,
+      "experience_budget": 550,
+      "cumulative_experience": 750,
+      "level_threshold": 750,
+      "ordinary_growth_node": true,
+      "wave_start_ui": [
+        1
+      ],
+      "wave_end_ui": [
+        4
+      ],
+      "mission_ids": [
+        1001002
+      ],
+      "events": [
+        {
+          "kind": "spawn",
+          "script_time_seconds": 15.0,
+          "mission_id": 1001002,
+          "composition": {
+            "330006": 1
+          },
+          "source_ref": {
+            "source_id": "T:Mission_PositionGroupMonsterFlushConfig",
+            "row_id": 3001057,
+            "entry_index": 0
+          }
+        },
+        {
+          "kind": "spawn",
+          "script_time_seconds": 15.2,
+          "mission_id": 1001002,
+          "composition": {
+            "330006": 1
+          },
+          "source_ref": {
+            "source_id": "T:Mission_PositionGroupMonsterFlushConfig",
+            "row_id": 3001057,
+            "entry_index": 1
+          }
+        },
+        {
+          "kind": "spawn",
+          "script_time_seconds": 15.4,
+          "mission_id": 1001002,
+          "composition": {
+            "330006": 1
+          },
+          "source_ref": {
+            "source_id": "T:Mission_PositionGroupMonsterFlushConfig",
+            "row_id": 3001057,
+            "entry_index": 2
+          }
+        },
+        {
+          "kind": "spawn",
+          "script_time_seconds": 16.0,
+          "mission_id": 1001002,
+          "composition": {
+            "320022": 1
+          },
+          "source_ref": {
+            "source_id": "T:Mission_PositionGroupMonsterFlushConfig",
+            "row_id": 3001057,
+            "entry_index": 3
+          }
+        },
+        {
+          "kind": "spawn",
+          "script_time_seconds": 17.0,
+          "mission_id": 1001002,
+          "composition": {
+            "330006": 1
+          },
+          "source_ref": {
+            "source_id": "T:Mission_PositionGroupMonsterFlushConfig",
+            "row_id": 3001057,
+            "entry_index": 4
+          }
+        },
+        {
+          "kind": "spawn",
+          "script_time_seconds": 18.0,
+          "mission_id": 1001002,
+          "composition": {
+            "320022": 1
+          },
+          "source_ref": {
+            "source_id": "T:Mission_PositionGroupMonsterFlushConfig",
+            "row_id": 3001057,
+            "entry_index": 5
+          }
+        },
+        {
+          "kind": "spawn",
+          "script_time_seconds": 19.0,
+          "mission_id": 1001002,
+          "composition": {
+            "330006": 1
+          },
+          "source_ref": {
+            "source_id": "T:Mission_PositionGroupMonsterFlushConfig",
+            "row_id": 3001057,
+            "entry_index": 6
+          }
+        },
+        {
+          "kind": "spawn",
+          "script_time_seconds": 19.2,
+          "mission_id": 1001002,
+          "composition": {
+            "330006": 1
+          },
+          "source_ref": {
+            "source_id": "T:Mission_PositionGroupMonsterFlushConfig",
+            "row_id": 3001057,
+            "entry_index": 7
+          }
+        },
+        {
+          "kind": "spawn",
+          "script_time_seconds": 19.4,
+          "mission_id": 1001002,
+          "composition": {
+            "330006": 1
+          },
+          "source_ref": {
+            "source_id": "T:Mission_PositionGroupMonsterFlushConfig",
+            "row_id": 3001057,
+            "entry_index": 8
+          }
+        },
+        {
+          "kind": "spawn",
+          "script_time_seconds": 20.5,
+          "mission_id": 1001002,
+          "composition": {
+            "330006": 1
+          },
+          "source_ref": {
+            "source_id": "T:Mission_PositionGroupMonsterFlushConfig",
+            "row_id": 3001057,
+            "entry_index": 9
+          }
+        }
+      ],
+      "fact_ids": [
+        "F02",
+        "F03",
+        "F04",
+        "F05",
+        "F06"
+      ],
+      "source_ref": {
+        "source_id": "T:ChapterWave_Waves",
+        "row_id": 100102
+      }
+    },
+    {
+      "wave": 3,
+      "script_start_seconds": 30.0,
+      "next_script_start_seconds": 45.0,
+      "nominal_window_seconds": 15.0,
+      "configured_monster_count": 5,
+      "count_semantics": "configured_spawn_count",
+      "composition": {
+        "320017": 2,
+        "320021": 1,
+        "330006": 2
+      },
+      "special_entities": [],
+      "death_gate": false,
+      "experience_budget": 600,
+      "cumulative_experience": 1350,
+      "level_threshold": 1350,
+      "ordinary_growth_node": true,
+      "wave_start_ui": [
+        1
+      ],
+      "wave_end_ui": [
+        4
+      ],
+      "mission_ids": [
+        1001003
+      ],
+      "events": [
+        {
+          "kind": "spawn",
+          "script_time_seconds": 30.0,
+          "mission_id": 1001003,
+          "composition": {
+            "320021": 1
+          },
+          "source_ref": {
+            "source_id": "T:Mission_PositionGroupMonsterFlushConfig",
+            "row_id": 3001058,
+            "entry_index": 0
+          }
+        },
+        {
+          "kind": "spawn",
+          "script_time_seconds": 30.5,
+          "mission_id": 1001003,
+          "composition": {
+            "330006": 1
+          },
+          "source_ref": {
+            "source_id": "T:Mission_PositionGroupMonsterFlushConfig",
+            "row_id": 3001058,
+            "entry_index": 1
+          }
+        },
+        {
+          "kind": "spawn",
+          "script_time_seconds": 32.8,
+          "mission_id": 1001003,
+          "composition": {
+            "320017": 1
+          },
+          "source_ref": {
+            "source_id": "T:Mission_PositionGroupMonsterFlushConfig",
+            "row_id": 3001058,
+            "entry_index": 2
+          }
+        },
+        {
+          "kind": "spawn",
+          "script_time_seconds": 35.1,
+          "mission_id": 1001003,
+          "composition": {
+            "330006": 1
+          },
+          "source_ref": {
+            "source_id": "T:Mission_PositionGroupMonsterFlushConfig",
+            "row_id": 3001058,
+            "entry_index": 3
+          }
+        },
+        {
+          "kind": "spawn",
+          "script_time_seconds": 37.4,
+          "mission_id": 1001003,
+          "composition": {
+            "320017": 1
+          },
+          "source_ref": {
+            "source_id": "T:Mission_PositionGroupMonsterFlushConfig",
+            "row_id": 3001058,
+            "entry_index": 4
+          }
+        }
+      ],
+      "fact_ids": [
+        "F02",
+        "F03",
+        "F04",
+        "F05",
+        "F06"
+      ],
+      "source_ref": {
+        "source_id": "T:ChapterWave_Waves",
+        "row_id": 100103
+      }
+    },
+    {
+      "wave": 4,
+      "script_start_seconds": 45.0,
+      "next_script_start_seconds": 62.0,
+      "nominal_window_seconds": 17.0,
+      "configured_monster_count": 7,
+      "count_semantics": "configured_spawn_count",
+      "composition": {
+        "320017": 2,
+        "320019": 2,
+        "330006": 3
+      },
+      "special_entities": [],
+      "death_gate": false,
+      "experience_budget": 600,
+      "cumulative_experience": 1950,
+      "level_threshold": 1950,
+      "ordinary_growth_node": true,
+      "wave_start_ui": [
+        1
+      ],
+      "wave_end_ui": [
+        4
+      ],
+      "mission_ids": [
+        1001004
+      ],
+      "events": [
+        {
+          "kind": "spawn",
+          "script_time_seconds": 45.0,
+          "mission_id": 1001004,
+          "composition": {
+            "320019": 1
+          },
+          "source_ref": {
+            "source_id": "T:Mission_PositionGroupMonsterFlushConfig",
+            "row_id": 3001059,
+            "entry_index": 0
+          }
+        },
+        {
+          "kind": "spawn",
+          "script_time_seconds": 46.0,
+          "mission_id": 1001004,
+          "composition": {
+            "330006": 1
+          },
+          "source_ref": {
+            "source_id": "T:Mission_PositionGroupMonsterFlushConfig",
+            "row_id": 3001059,
+            "entry_index": 4
+          }
+        },
+        {
+          "kind": "spawn",
+          "script_time_seconds": 48.5,
+          "mission_id": 1001004,
+          "composition": {
+            "320017": 1
+          },
+          "source_ref": {
+            "source_id": "T:Mission_PositionGroupMonsterFlushConfig",
+            "row_id": 3001059,
+            "entry_index": 1
+          }
+        },
+        {
+          "kind": "spawn",
+          "script_time_seconds": 49.5,
+          "mission_id": 1001004,
+          "composition": {
+            "330006": 1
+          },
+          "source_ref": {
+            "source_id": "T:Mission_PositionGroupMonsterFlushConfig",
+            "row_id": 3001059,
+            "entry_index": 5
+          }
+        },
+        {
+          "kind": "spawn",
+          "script_time_seconds": 52.0,
+          "mission_id": 1001004,
+          "composition": {
+            "320019": 1
+          },
+          "source_ref": {
+            "source_id": "T:Mission_PositionGroupMonsterFlushConfig",
+            "row_id": 3001059,
+            "entry_index": 2
+          }
+        },
+        {
+          "kind": "spawn",
+          "script_time_seconds": 53.0,
+          "mission_id": 1001004,
+          "composition": {
+            "330006": 1
+          },
+          "source_ref": {
+            "source_id": "T:Mission_PositionGroupMonsterFlushConfig",
+            "row_id": 3001059,
+            "entry_index": 6
+          }
+        },
+        {
+          "kind": "spawn",
+          "script_time_seconds": 55.5,
+          "mission_id": 1001004,
+          "composition": {
+            "320017": 1
+          },
+          "source_ref": {
+            "source_id": "T:Mission_PositionGroupMonsterFlushConfig",
+            "row_id": 3001059,
+            "entry_index": 3
+          }
+        }
+      ],
+      "fact_ids": [
+        "F02",
+        "F03",
+        "F04",
+        "F05",
+        "F06"
+      ],
+      "source_ref": {
+        "source_id": "T:ChapterWave_Waves",
+        "row_id": 100104
+      }
+    },
+    {
+      "wave": 5,
+      "script_start_seconds": 62.0,
+      "next_script_start_seconds": 105.0,
+      "nominal_window_seconds": 43.0,
+      "configured_monster_count": 16,
+      "count_semantics": "configured_spawn_count",
+      "composition": {
+        "320005": 1,
+        "320017": 3,
+        "320021": 1,
+        "330006": 11
+      },
+      "special_entities": [],
+      "death_gate": false,
+      "experience_budget": 700,
+      "cumulative_experience": 2650,
+      "level_threshold": 2650,
+      "ordinary_growth_node": true,
+      "wave_start_ui": [
+        1,
+        5
+      ],
+      "wave_end_ui": [
+        4
+      ],
+      "mission_ids": [
+        1001005,
+        1001006,
+        1001007,
+        1001008,
+        1001009,
+        1001010,
+        1001011,
+        1001012,
+        1001013,
+        1001014,
+        1001015,
+        1001016,
+        1001017,
+        1001018,
+        1001019,
+        1001020
+      ],
+      "events": [
+        {
+          "kind": "spawn",
+          "script_time_seconds": 62.0,
+          "mission_id": 1001005,
+          "composition": {
+            "320005": 1
+          },
+          "source_ref": {
+            "source_id": "T:MissionWaterfallMission_WaterfallMission",
+            "row_id": 1001005
+          }
+        },
+        {
+          "kind": "spawn",
+          "script_time_seconds": 62.5,
+          "mission_id": 1001006,
+          "composition": {
+            "320021": 1
+          },
+          "source_ref": {
+            "source_id": "T:MissionWaterfallMission_WaterfallMission",
+            "row_id": 1001006
+          }
+        },
+        {
+          "kind": "spawn",
+          "script_time_seconds": 62.5,
+          "mission_id": 1001010,
+          "composition": {
+            "330006": 1
+          },
+          "source_ref": {
+            "source_id": "T:MissionWaterfallMission_WaterfallMission",
+            "row_id": 1001010
+          }
+        },
+        {
+          "kind": "spawn",
+          "script_time_seconds": 64.0,
+          "mission_id": 1001011,
+          "composition": {
+            "330006": 1
+          },
+          "source_ref": {
+            "source_id": "T:MissionWaterfallMission_WaterfallMission",
+            "row_id": 1001011
+          }
+        },
+        {
+          "kind": "spawn",
+          "script_time_seconds": 64.2,
+          "mission_id": 1001012,
+          "composition": {
+            "330006": 1
+          },
+          "source_ref": {
+            "source_id": "T:MissionWaterfallMission_WaterfallMission",
+            "row_id": 1001012
+          }
+        },
+        {
+          "kind": "spawn",
+          "script_time_seconds": 64.4,
+          "mission_id": 1001013,
+          "composition": {
+            "330006": 1
+          },
+          "source_ref": {
+            "source_id": "T:MissionWaterfallMission_WaterfallMission",
+            "row_id": 1001013
+          }
+        },
+        {
+          "kind": "spawn",
+          "script_time_seconds": 65.0,
+          "mission_id": 1001007,
+          "composition": {
+            "320017": 1
+          },
+          "source_ref": {
+            "source_id": "T:MissionWaterfallMission_WaterfallMission",
+            "row_id": 1001007
+          }
+        },
+        {
+          "kind": "spawn",
+          "script_time_seconds": 65.5,
+          "mission_id": 1001014,
+          "composition": {
+            "330006": 1
+          },
+          "source_ref": {
+            "source_id": "T:MissionWaterfallMission_WaterfallMission",
+            "row_id": 1001014
+          }
+        },
+        {
+          "kind": "spawn",
+          "script_time_seconds": 67.0,
+          "mission_id": 1001015,
+          "composition": {
+            "330006": 1
+          },
+          "source_ref": {
+            "source_id": "T:MissionWaterfallMission_WaterfallMission",
+            "row_id": 1001015
+          }
+        },
+        {
+          "kind": "spawn",
+          "script_time_seconds": 67.2,
+          "mission_id": 1001016,
+          "composition": {
+            "330006": 1
+          },
+          "source_ref": {
+            "source_id": "T:MissionWaterfallMission_WaterfallMission",
+            "row_id": 1001016
+          }
+        },
+        {
+          "kind": "spawn",
+          "script_time_seconds": 68.0,
+          "mission_id": 1001008,
+          "composition": {
+            "320017": 1
+          },
+          "source_ref": {
+            "source_id": "T:MissionWaterfallMission_WaterfallMission",
+            "row_id": 1001008
+          }
+        },
+        {
+          "kind": "spawn",
+          "script_time_seconds": 68.0,
+          "mission_id": 1001017,
+          "composition": {
+            "330006": 1
+          },
+          "source_ref": {
+            "source_id": "T:MissionWaterfallMission_WaterfallMission",
+            "row_id": 1001017
+          }
+        },
+        {
+          "kind": "spawn",
+          "script_time_seconds": 69.5,
+          "mission_id": 1001018,
+          "composition": {
+            "330006": 1
+          },
+          "source_ref": {
+            "source_id": "T:MissionWaterfallMission_WaterfallMission",
+            "row_id": 1001018
+          }
+        },
+        {
+          "kind": "spawn",
+          "script_time_seconds": 69.7,
+          "mission_id": 1001019,
+          "composition": {
+            "330006": 1
+          },
+          "source_ref": {
+            "source_id": "T:MissionWaterfallMission_WaterfallMission",
+            "row_id": 1001019
+          }
+        },
+        {
+          "kind": "spawn",
+          "script_time_seconds": 70.5,
+          "mission_id": 1001020,
+          "composition": {
+            "330006": 1
+          },
+          "source_ref": {
+            "source_id": "T:MissionWaterfallMission_WaterfallMission",
+            "row_id": 1001020
+          }
+        },
+        {
+          "kind": "spawn",
+          "script_time_seconds": 71.0,
+          "mission_id": 1001009,
+          "composition": {
+            "320017": 1
+          },
+          "source_ref": {
+            "source_id": "T:MissionWaterfallMission_WaterfallMission",
+            "row_id": 1001009
+          }
+        }
+      ],
+      "fact_ids": [
+        "F02",
+        "F03",
+        "F04",
+        "F05",
+        "F06"
+      ],
+      "source_ref": {
+        "source_id": "T:ChapterWave_Waves",
+        "row_id": 100105
+      }
+    },
+    {
+      "wave": 6,
+      "script_start_seconds": 105.0,
+      "next_script_start_seconds": 135.0,
+      "nominal_window_seconds": 30.0,
+      "configured_monster_count": 5,
+      "count_semantics": "configured_spawn_count",
+      "composition": {
+        "320005": 1,
+        "330006": 4
+      },
+      "special_entities": [],
+      "death_gate": false,
+      "experience_budget": 800,
+      "cumulative_experience": 3450,
+      "level_threshold": 3450,
+      "ordinary_growth_node": true,
+      "wave_start_ui": [
+        1
+      ],
+      "wave_end_ui": [
+        4
+      ],
+      "mission_ids": [
+        1001021,
+        1001022
+      ],
+      "events": [
+        {
+          "kind": "punchboard",
+          "script_time_seconds": 105.0,
+          "mission_id": 1001021,
+          "mission_type": 9,
+          "source_ref": {
+            "source_id": "T:MissionWaterfallMission_WaterfallMission",
+            "row_id": 1001021
+          }
+        },
+        {
+          "kind": "spawn",
+          "script_time_seconds": 107.0,
+          "mission_id": 1001022,
+          "composition": {
+            "320005": 1
+          },
+          "source_ref": {
+            "source_id": "T:Mission_PositionGroupMonsterFlushConfig",
+            "row_id": 3001060,
+            "entry_index": 0
+          }
+        },
+        {
+          "kind": "spawn",
+          "script_time_seconds": 107.0,
+          "mission_id": 1001022,
+          "composition": {
+            "330006": 1
+          },
+          "source_ref": {
+            "source_id": "T:Mission_PositionGroupMonsterFlushConfig",
+            "row_id": 3001060,
+            "entry_index": 1
+          }
+        },
+        {
+          "kind": "spawn",
+          "script_time_seconds": 109.2,
+          "mission_id": 1001022,
+          "composition": {
+            "330006": 1
+          },
+          "source_ref": {
+            "source_id": "T:Mission_PositionGroupMonsterFlushConfig",
+            "row_id": 3001060,
+            "entry_index": 2
+          }
+        },
+        {
+          "kind": "spawn",
+          "script_time_seconds": 111.4,
+          "mission_id": 1001022,
+          "composition": {
+            "330006": 1
+          },
+          "source_ref": {
+            "source_id": "T:Mission_PositionGroupMonsterFlushConfig",
+            "row_id": 3001060,
+            "entry_index": 3
+          }
+        },
+        {
+          "kind": "spawn",
+          "script_time_seconds": 113.6,
+          "mission_id": 1001022,
+          "composition": {
+            "330006": 1
+          },
+          "source_ref": {
+            "source_id": "T:Mission_PositionGroupMonsterFlushConfig",
+            "row_id": 3001060,
+            "entry_index": 4
+          }
+        }
+      ],
+      "fact_ids": [
+        "F02",
+        "F03",
+        "F04",
+        "F05",
+        "F06"
+      ],
+      "source_ref": {
+        "source_id": "T:ChapterWave_Waves",
+        "row_id": 100106
+      }
+    },
+    {
+      "wave": 7,
+      "script_start_seconds": 135.0,
+      "next_script_start_seconds": 150.0,
+      "nominal_window_seconds": 15.0,
+      "configured_monster_count": 7,
+      "count_semantics": "configured_spawn_count",
+      "composition": {
+        "320005": 1,
+        "320017": 4,
+        "320019": 2
+      },
+      "special_entities": [],
+      "death_gate": false,
+      "experience_budget": 800,
+      "cumulative_experience": 4250,
+      "level_threshold": 4250,
+      "ordinary_growth_node": true,
+      "wave_start_ui": [
+        1
+      ],
+      "wave_end_ui": [
+        4
+      ],
+      "mission_ids": [
+        1001023
+      ],
+      "events": [
+        {
+          "kind": "spawn",
+          "script_time_seconds": 135.0,
+          "mission_id": 1001023,
+          "composition": {
+            "320017": 1
+          },
+          "source_ref": {
+            "source_id": "T:Mission_PositionGroupMonsterFlushConfig",
+            "row_id": 3001061,
+            "entry_index": 0
+          }
+        },
+        {
+          "kind": "spawn",
+          "script_time_seconds": 136.5,
+          "mission_id": 1001023,
+          "composition": {
+            "320017": 1
+          },
+          "source_ref": {
+            "source_id": "T:Mission_PositionGroupMonsterFlushConfig",
+            "row_id": 3001061,
+            "entry_index": 1
+          }
+        },
+        {
+          "kind": "spawn",
+          "script_time_seconds": 138.0,
+          "mission_id": 1001023,
+          "composition": {
+            "320005": 1
+          },
+          "source_ref": {
+            "source_id": "T:Mission_PositionGroupMonsterFlushConfig",
+            "row_id": 3001061,
+            "entry_index": 2
+          }
+        },
+        {
+          "kind": "spawn",
+          "script_time_seconds": 139.0,
+          "mission_id": 1001023,
+          "composition": {
+            "320017": 1
+          },
+          "source_ref": {
+            "source_id": "T:Mission_PositionGroupMonsterFlushConfig",
+            "row_id": 3001061,
+            "entry_index": 3
+          }
+        },
+        {
+          "kind": "spawn",
+          "script_time_seconds": 140.5,
+          "mission_id": 1001023,
+          "composition": {
+            "320017": 1
+          },
+          "source_ref": {
+            "source_id": "T:Mission_PositionGroupMonsterFlushConfig",
+            "row_id": 3001061,
+            "entry_index": 4
+          }
+        },
+        {
+          "kind": "spawn",
+          "script_time_seconds": 142.0,
+          "mission_id": 1001023,
+          "composition": {
+            "320019": 1
+          },
+          "source_ref": {
+            "source_id": "T:Mission_PositionGroupMonsterFlushConfig",
+            "row_id": 3001061,
+            "entry_index": 5
+          }
+        },
+        {
+          "kind": "spawn",
+          "script_time_seconds": 143.5,
+          "mission_id": 1001023,
+          "composition": {
+            "320019": 1
+          },
+          "source_ref": {
+            "source_id": "T:Mission_PositionGroupMonsterFlushConfig",
+            "row_id": 3001061,
+            "entry_index": 6
+          }
+        }
+      ],
+      "fact_ids": [
+        "F02",
+        "F03",
+        "F04",
+        "F05",
+        "F06"
+      ],
+      "source_ref": {
+        "source_id": "T:ChapterWave_Waves",
+        "row_id": 100107
+      }
+    },
+    {
+      "wave": 8,
+      "script_start_seconds": 150.0,
+      "next_script_start_seconds": 180.0,
+      "nominal_window_seconds": 30.0,
+      "configured_monster_count": 18,
+      "count_semantics": "configured_spawn_count",
+      "composition": {
+        "320005": 2,
+        "320030": 4,
+        "330006": 12
+      },
+      "special_entities": [],
+      "death_gate": false,
+      "experience_budget": 950,
+      "cumulative_experience": 5200,
+      "level_threshold": 5200,
+      "ordinary_growth_node": true,
+      "wave_start_ui": [
+        1
+      ],
+      "wave_end_ui": [
+        4
+      ],
+      "mission_ids": [
+        1001024,
+        1001025,
+        1001026,
+        1001027,
+        1001028,
+        1001029,
+        1001030,
+        1001031,
+        1001032,
+        1001033,
+        1001034,
+        1001035
+      ],
+      "events": [
+        {
+          "kind": "spawn",
+          "script_time_seconds": 150.0,
+          "mission_id": 1001024,
+          "composition": {
+            "320005": 1
+          },
+          "source_ref": {
+            "source_id": "T:Mission_PositionGroupMonsterFlushConfig",
+            "row_id": 3001062,
+            "entry_index": 0
+          }
+        },
+        {
+          "kind": "spawn",
+          "script_time_seconds": 150.0,
+          "mission_id": 1001024,
+          "composition": {
+            "320030": 1
+          },
+          "source_ref": {
+            "source_id": "T:Mission_PositionGroupMonsterFlushConfig",
+            "row_id": 3001062,
+            "entry_index": 1
+          }
+        },
+        {
+          "kind": "spawn",
+          "script_time_seconds": 150.0,
+          "mission_id": 1001024,
+          "composition": {
+            "330006": 2
+          },
+          "source_ref": {
+            "source_id": "T:Mission_RandomMonsterFlushConfig",
+            "row_ids": [
+              5,
+              13
+            ],
+            "rule_fact_id": "F03"
+          }
+        },
+        {
+          "kind": "spawn",
+          "script_time_seconds": 150.0,
+          "mission_id": 1001027,
+          "composition": {
+            "330006": 1
+          },
+          "source_ref": {
+            "source_id": "T:Mission_RandomMonsterFlushConfig",
+            "row_ids": [
+              2
+            ],
+            "rule_fact_id": "F03"
+          }
+        },
+        {
+          "kind": "spawn",
+          "script_time_seconds": 151.6,
+          "mission_id": 1001024,
+          "composition": {
+            "320030": 1
+          },
+          "source_ref": {
+            "source_id": "T:Mission_PositionGroupMonsterFlushConfig",
+            "row_id": 3001062,
+            "entry_index": 2
+          }
+        },
+        {
+          "kind": "spawn",
+          "script_time_seconds": 151.6,
+          "mission_id": 1001025,
+          "composition": {
+            "330006": 1
+          },
+          "source_ref": {
+            "source_id": "T:Mission_RandomMonsterFlushConfig",
+            "row_ids": [
+              2
+            ],
+            "rule_fact_id": "F03"
+          }
+        },
+        {
+          "kind": "spawn",
+          "script_time_seconds": 153.0,
+          "mission_id": 1001028,
+          "composition": {
+            "330006": 1
+          },
+          "source_ref": {
+            "source_id": "T:Mission_RandomMonsterFlushConfig",
+            "row_ids": [
+              2
+            ],
+            "rule_fact_id": "F03"
+          }
+        },
+        {
+          "kind": "spawn",
+          "script_time_seconds": 153.2,
+          "mission_id": 1001024,
+          "composition": {
+            "320030": 1
+          },
+          "source_ref": {
+            "source_id": "T:Mission_PositionGroupMonsterFlushConfig",
+            "row_id": 3001062,
+            "entry_index": 3
+          }
+        },
+        {
+          "kind": "spawn",
+          "script_time_seconds": 153.2,
+          "mission_id": 1001026,
+          "composition": {
+            "330006": 1
+          },
+          "source_ref": {
+            "source_id": "T:Mission_RandomMonsterFlushConfig",
+            "row_ids": [
+              2
+            ],
+            "rule_fact_id": "F03"
+          }
+        },
+        {
+          "kind": "spawn",
+          "script_time_seconds": 154.8,
+          "mission_id": 1001024,
+          "composition": {
+            "320030": 1
+          },
+          "source_ref": {
+            "source_id": "T:Mission_PositionGroupMonsterFlushConfig",
+            "row_id": 3001062,
+            "entry_index": 4
+          }
+        },
+        {
+          "kind": "spawn",
+          "script_time_seconds": 165.0,
+          "mission_id": 1001029,
+          "composition": {
+            "320005": 1
+          },
+          "source_ref": {
+            "source_id": "T:MissionWaterfallMission_WaterfallMission",
+            "row_id": 1001029
+          }
+        },
+        {
+          "kind": "spawn",
+          "script_time_seconds": 165.0,
+          "mission_id": 1001030,
+          "composition": {
+            "330006": 1
+          },
+          "source_ref": {
+            "source_id": "T:MissionWaterfallMission_WaterfallMission",
+            "row_id": 1001030
+          }
+        },
+        {
+          "kind": "spawn",
+          "script_time_seconds": 165.8,
+          "mission_id": 1001031,
+          "composition": {
+            "330006": 1
+          },
+          "source_ref": {
+            "source_id": "T:MissionWaterfallMission_WaterfallMission",
+            "row_id": 1001031
+          }
+        },
+        {
+          "kind": "spawn",
+          "script_time_seconds": 166.6,
+          "mission_id": 1001032,
+          "composition": {
+            "330006": 1
+          },
+          "source_ref": {
+            "source_id": "T:MissionWaterfallMission_WaterfallMission",
+            "row_id": 1001032
+          }
+        },
+        {
+          "kind": "spawn",
+          "script_time_seconds": 167.4,
+          "mission_id": 1001033,
+          "composition": {
+            "330006": 1
+          },
+          "source_ref": {
+            "source_id": "T:MissionWaterfallMission_WaterfallMission",
+            "row_id": 1001033
+          }
+        },
+        {
+          "kind": "spawn",
+          "script_time_seconds": 168.2,
+          "mission_id": 1001034,
+          "composition": {
+            "330006": 1
+          },
+          "source_ref": {
+            "source_id": "T:MissionWaterfallMission_WaterfallMission",
+            "row_id": 1001034
+          }
+        },
+        {
+          "kind": "spawn",
+          "script_time_seconds": 169.0,
+          "mission_id": 1001035,
+          "composition": {
+            "330006": 1
+          },
+          "source_ref": {
+            "source_id": "T:MissionWaterfallMission_WaterfallMission",
+            "row_id": 1001035
+          }
+        }
+      ],
+      "fact_ids": [
+        "F02",
+        "F03",
+        "F04",
+        "F05",
+        "F06"
+      ],
+      "source_ref": {
+        "source_id": "T:ChapterWave_Waves",
+        "row_id": 100108
+      }
+    },
+    {
+      "wave": 9,
+      "script_start_seconds": 180.0,
+      "next_script_start_seconds": 197.0,
+      "nominal_window_seconds": 17.0,
+      "configured_monster_count": 2,
+      "count_semantics": "configured_spawn_count",
+      "composition": {
+        "320017": 1,
+        "330006": 1
+      },
+      "special_entities": [],
+      "death_gate": false,
+      "experience_budget": 1000,
+      "cumulative_experience": 6200,
+      "level_threshold": 6200,
+      "ordinary_growth_node": true,
+      "wave_start_ui": [
+        1
+      ],
+      "wave_end_ui": [
+        4
+      ],
+      "mission_ids": [
+        1001036,
+        1001037
+      ],
+      "events": [
+        {
+          "kind": "spawn",
+          "script_time_seconds": 180.0,
+          "mission_id": 1001036,
+          "composition": {
+            "320017": 1
+          },
+          "source_ref": {
+            "source_id": "T:MissionWaterfallMission_WaterfallMission",
+            "row_id": 1001036
+          }
+        },
+        {
+          "kind": "spawn",
+          "script_time_seconds": 180.0,
+          "mission_id": 1001037,
+          "composition": {
+            "330006": 1
+          },
+          "source_ref": {
+            "source_id": "T:MissionWaterfallMission_WaterfallMission",
+            "row_id": 1001037
+          }
+        }
+      ],
+      "fact_ids": [
+        "F02",
+        "F03",
+        "F04",
+        "F05",
+        "F06"
+      ],
+      "source_ref": {
+        "source_id": "T:ChapterWave_Waves",
+        "row_id": 100109
+      }
+    },
+    {
+      "wave": 10,
+      "script_start_seconds": 197.0,
+      "next_script_start_seconds": 240.0,
+      "nominal_window_seconds": 43.0,
+      "configured_monster_count": 18,
+      "count_semantics": "scripted_maximum_not_guaranteed_realized",
+      "composition": {
+        "310008": 1,
+        "320017": 4,
+        "320019": 4,
+        "320021": 1,
+        "330006": 8
+      },
+      "special_entities": [
+        310008
+      ],
+      "death_gate": true,
+      "experience_budget": 1100,
+      "cumulative_experience": 7300,
+      "level_threshold": 7300,
+      "ordinary_growth_node": true,
+      "wave_start_ui": [
+        1,
+        5
+      ],
+      "wave_end_ui": [
+        4
+      ],
+      "mission_ids": [
+        1001038,
+        1001039,
+        1001040,
+        1001041,
+        1001042,
+        1001043,
+        1001044,
+        1001045,
+        1001046,
+        1001047
+      ],
+      "events": [
+        {
+          "kind": "spawn",
+          "script_time_seconds": 197.0,
+          "mission_id": 1001038,
+          "composition": {
+            "310008": 1
+          },
+          "source_ref": {
+            "source_id": "T:MissionWaterfallMission_WaterfallMission",
+            "row_id": 1001038
+          }
+        },
+        {
+          "kind": "spawn",
+          "script_time_seconds": 197.0,
+          "mission_id": 1001039,
+          "composition": {
+            "320021": 1
+          },
+          "source_ref": {
+            "source_id": "T:MissionWaterfallMission_WaterfallMission",
+            "row_id": 1001039
+          }
+        },
+        {
+          "kind": "spawn",
+          "script_time_seconds": 200.5,
+          "mission_id": 1001040,
+          "composition": {
+            "320017": 1
+          },
+          "source_ref": {
+            "source_id": "T:MissionWaterfallMission_WaterfallMission",
+            "row_id": 1001040
+          }
+        },
+        {
+          "kind": "spawn",
+          "script_time_seconds": 200.5,
+          "mission_id": 1001040,
+          "composition": {
+            "330006": 1
+          },
+          "source_ref": {
+            "source_id": "T:Mission_RandomMonsterFlushConfig",
+            "row_ids": [
+              2
+            ],
+            "rule_fact_id": "F03"
+          }
+        },
+        {
+          "kind": "spawn",
+          "script_time_seconds": 204.0,
+          "mission_id": 1001041,
+          "composition": {
+            "320019": 1
+          },
+          "source_ref": {
+            "source_id": "T:MissionWaterfallMission_WaterfallMission",
+            "row_id": 1001041
+          }
+        },
+        {
+          "kind": "spawn",
+          "script_time_seconds": 204.0,
+          "mission_id": 1001041,
+          "composition": {
+            "330006": 1
+          },
+          "source_ref": {
+            "source_id": "T:Mission_RandomMonsterFlushConfig",
+            "row_ids": [
+              2
+            ],
+            "rule_fact_id": "F03"
+          }
+        },
+        {
+          "kind": "spawn",
+          "script_time_seconds": 207.5,
+          "mission_id": 1001042,
+          "composition": {
+            "320017": 1
+          },
+          "source_ref": {
+            "source_id": "T:MissionWaterfallMission_WaterfallMission",
+            "row_id": 1001042
+          }
+        },
+        {
+          "kind": "spawn",
+          "script_time_seconds": 207.5,
+          "mission_id": 1001042,
+          "composition": {
+            "330006": 1
+          },
+          "source_ref": {
+            "source_id": "T:Mission_RandomMonsterFlushConfig",
+            "row_ids": [
+              2
+            ],
+            "rule_fact_id": "F03"
+          }
+        },
+        {
+          "kind": "spawn",
+          "script_time_seconds": 211.0,
+          "mission_id": 1001043,
+          "composition": {
+            "320019": 1
+          },
+          "source_ref": {
+            "source_id": "T:MissionWaterfallMission_WaterfallMission",
+            "row_id": 1001043
+          }
+        },
+        {
+          "kind": "spawn",
+          "script_time_seconds": 211.0,
+          "mission_id": 1001043,
+          "composition": {
+            "330006": 1
+          },
+          "source_ref": {
+            "source_id": "T:Mission_RandomMonsterFlushConfig",
+            "row_ids": [
+              2
+            ],
+            "rule_fact_id": "F03"
+          }
+        },
+        {
+          "kind": "spawn",
+          "script_time_seconds": 214.5,
+          "mission_id": 1001044,
+          "composition": {
+            "320017": 1
+          },
+          "source_ref": {
+            "source_id": "T:MissionWaterfallMission_WaterfallMission",
+            "row_id": 1001044
+          }
+        },
+        {
+          "kind": "spawn",
+          "script_time_seconds": 214.5,
+          "mission_id": 1001044,
+          "composition": {
+            "330006": 1
+          },
+          "source_ref": {
+            "source_id": "T:Mission_RandomMonsterFlushConfig",
+            "row_ids": [
+              2
+            ],
+            "rule_fact_id": "F03"
+          }
+        },
+        {
+          "kind": "spawn",
+          "script_time_seconds": 218.0,
+          "mission_id": 1001045,
+          "composition": {
+            "320019": 1
+          },
+          "source_ref": {
+            "source_id": "T:MissionWaterfallMission_WaterfallMission",
+            "row_id": 1001045
+          }
+        },
+        {
+          "kind": "spawn",
+          "script_time_seconds": 218.0,
+          "mission_id": 1001045,
+          "composition": {
+            "330006": 1
+          },
+          "source_ref": {
+            "source_id": "T:Mission_RandomMonsterFlushConfig",
+            "row_ids": [
+              2
+            ],
+            "rule_fact_id": "F03"
+          }
+        },
+        {
+          "kind": "spawn",
+          "script_time_seconds": 221.5,
+          "mission_id": 1001046,
+          "composition": {
+            "320017": 1
+          },
+          "source_ref": {
+            "source_id": "T:MissionWaterfallMission_WaterfallMission",
+            "row_id": 1001046
+          }
+        },
+        {
+          "kind": "spawn",
+          "script_time_seconds": 221.5,
+          "mission_id": 1001046,
+          "composition": {
+            "330006": 1
+          },
+          "source_ref": {
+            "source_id": "T:Mission_RandomMonsterFlushConfig",
+            "row_ids": [
+              2
+            ],
+            "rule_fact_id": "F03"
+          }
+        },
+        {
+          "kind": "spawn",
+          "script_time_seconds": 225.0,
+          "mission_id": 1001047,
+          "composition": {
+            "320019": 1
+          },
+          "source_ref": {
+            "source_id": "T:MissionWaterfallMission_WaterfallMission",
+            "row_id": 1001047
+          }
+        },
+        {
+          "kind": "spawn",
+          "script_time_seconds": 225.0,
+          "mission_id": 1001047,
+          "composition": {
+            "330006": 1
+          },
+          "source_ref": {
+            "source_id": "T:Mission_RandomMonsterFlushConfig",
+            "row_ids": [
+              2
+            ],
+            "rule_fact_id": "F03"
+          }
+        }
+      ],
+      "fact_ids": [
+        "F02",
+        "F03",
+        "F04",
+        "F05",
+        "F06"
+      ],
+      "source_ref": {
+        "source_id": "T:ChapterWave_Waves",
+        "row_id": 100110
+      }
+    },
+    {
+      "wave": 11,
+      "script_start_seconds": 240.0,
+      "next_script_start_seconds": 270.0,
+      "nominal_window_seconds": 30.0,
+      "configured_monster_count": 8,
+      "count_semantics": "configured_spawn_count",
+      "composition": {
+        "320019": 3,
+        "320021": 1,
+        "330006": 4
+      },
+      "special_entities": [],
+      "death_gate": false,
+      "experience_budget": 1200,
+      "cumulative_experience": 8500,
+      "level_threshold": 8500,
+      "ordinary_growth_node": true,
+      "wave_start_ui": [
+        1
+      ],
+      "wave_end_ui": [
+        4
+      ],
+      "mission_ids": [
+        1001048,
+        1001049,
+        1001050,
+        1001051,
+        1001052
+      ],
+      "events": [
+        {
+          "kind": "punchboard",
+          "script_time_seconds": 240.0,
+          "mission_id": 1001048,
+          "mission_type": 9,
+          "source_ref": {
+            "source_id": "T:MissionWaterfallMission_WaterfallMission",
+            "row_id": 1001048
+          }
+        },
+        {
+          "kind": "spawn",
+          "script_time_seconds": 242.0,
+          "mission_id": 1001049,
+          "composition": {
+            "320021": 1
+          },
+          "source_ref": {
+            "source_id": "T:MissionWaterfallMission_WaterfallMission",
+            "row_id": 1001049
+          }
+        },
+        {
+          "kind": "spawn",
+          "script_time_seconds": 242.5,
+          "mission_id": 1001050,
+          "composition": {
+            "320019": 1
+          },
+          "source_ref": {
+            "source_id": "T:MissionWaterfallMission_WaterfallMission",
+            "row_id": 1001050
+          }
+        },
+        {
+          "kind": "spawn",
+          "script_time_seconds": 242.5,
+          "mission_id": 1001050,
+          "composition": {
+            "330006": 2
+          },
+          "source_ref": {
+            "source_id": "T:Mission_RandomMonsterFlushConfig",
+            "row_ids": [
+              5,
+              13
+            ],
+            "rule_fact_id": "F03"
+          }
+        },
+        {
+          "kind": "spawn",
+          "script_time_seconds": 245.3,
+          "mission_id": 1001051,
+          "composition": {
+            "320019": 1
+          },
+          "source_ref": {
+            "source_id": "T:MissionWaterfallMission_WaterfallMission",
+            "row_id": 1001051
+          }
+        },
+        {
+          "kind": "spawn",
+          "script_time_seconds": 245.3,
+          "mission_id": 1001051,
+          "composition": {
+            "330006": 2
+          },
+          "source_ref": {
+            "source_id": "T:Mission_RandomMonsterFlushConfig",
+            "row_ids": [
+              5,
+              13
+            ],
+            "rule_fact_id": "F03"
+          }
+        },
+        {
+          "kind": "spawn",
+          "script_time_seconds": 248.1,
+          "mission_id": 1001052,
+          "composition": {
+            "320019": 1
+          },
+          "source_ref": {
+            "source_id": "T:MissionWaterfallMission_WaterfallMission",
+            "row_id": 1001052
+          }
+        }
+      ],
+      "fact_ids": [
+        "F02",
+        "F03",
+        "F04",
+        "F05",
+        "F06"
+      ],
+      "source_ref": {
+        "source_id": "T:ChapterWave_Waves",
+        "row_id": 100111
+      }
+    },
+    {
+      "wave": 12,
+      "script_start_seconds": 270.0,
+      "next_script_start_seconds": 300.0,
+      "nominal_window_seconds": 30.0,
+      "configured_monster_count": 21,
+      "count_semantics": "configured_spawn_count",
+      "composition": {
+        "320005": 1,
+        "320017": 2,
+        "320019": 1,
+        "320035": 2,
+        "330006": 15
+      },
+      "special_entities": [],
+      "death_gate": false,
+      "experience_budget": 1200,
+      "cumulative_experience": 9700,
+      "level_threshold": 9700,
+      "ordinary_growth_node": true,
+      "wave_start_ui": [
+        1
+      ],
+      "wave_end_ui": [
+        4
+      ],
+      "mission_ids": [
+        1001053,
+        1001054,
+        1001055,
+        1001056,
+        1001057,
+        1001058,
+        1001059,
+        1001060,
+        1001061,
+        1001062,
+        1001063,
+        1001064
+      ],
+      "events": [
+        {
+          "kind": "spawn",
+          "script_time_seconds": 270.0,
+          "mission_id": 1001053,
+          "composition": {
+            "320017": 1
+          },
+          "source_ref": {
+            "source_id": "T:MissionWaterfallMission_WaterfallMission",
+            "row_id": 1001053
+          }
+        },
+        {
+          "kind": "spawn",
+          "script_time_seconds": 270.0,
+          "mission_id": 1001053,
+          "composition": {
+            "330006": 2
+          },
+          "source_ref": {
+            "source_id": "T:Mission_RandomMonsterFlushConfig",
+            "row_ids": [
+              5
+            ],
+            "rule_fact_id": "F03"
+          }
+        },
+        {
+          "kind": "spawn",
+          "script_time_seconds": 272.7,
+          "mission_id": 1001054,
+          "composition": {
+            "320035": 1
+          },
+          "source_ref": {
+            "source_id": "T:MissionWaterfallMission_WaterfallMission",
+            "row_id": 1001054
+          }
+        },
+        {
+          "kind": "spawn",
+          "script_time_seconds": 272.7,
+          "mission_id": 1001054,
+          "composition": {
+            "330006": 2
+          },
+          "source_ref": {
+            "source_id": "T:Mission_RandomMonsterFlushConfig",
+            "row_ids": [
+              5
+            ],
+            "rule_fact_id": "F03"
+          }
+        },
+        {
+          "kind": "spawn",
+          "script_time_seconds": 275.4,
+          "mission_id": 1001055,
+          "composition": {
+            "320017": 1
+          },
+          "source_ref": {
+            "source_id": "T:MissionWaterfallMission_WaterfallMission",
+            "row_id": 1001055
+          }
+        },
+        {
+          "kind": "spawn",
+          "script_time_seconds": 278.1,
+          "mission_id": 1001056,
+          "composition": {
+            "320035": 1
+          },
+          "source_ref": {
+            "source_id": "T:MissionWaterfallMission_WaterfallMission",
+            "row_id": 1001056
+          }
+        },
+        {
+          "kind": "spawn",
+          "script_time_seconds": 278.1,
+          "mission_id": 1001056,
+          "composition": {
+            "330006": 2
+          },
+          "source_ref": {
+            "source_id": "T:Mission_RandomMonsterFlushConfig",
+            "row_ids": [
+              5
+            ],
+            "rule_fact_id": "F03"
+          }
+        },
+        {
+          "kind": "spawn",
+          "script_time_seconds": 280.8,
+          "mission_id": 1001057,
+          "composition": {
+            "320019": 1
+          },
+          "source_ref": {
+            "source_id": "T:MissionWaterfallMission_WaterfallMission",
+            "row_id": 1001057
+          }
+        },
+        {
+          "kind": "spawn",
+          "script_time_seconds": 285.0,
+          "mission_id": 1001058,
+          "composition": {
+            "320005": 1
+          },
+          "source_ref": {
+            "source_id": "T:MissionWaterfallMission_WaterfallMission",
+            "row_id": 1001058
+          }
+        },
+        {
+          "kind": "spawn",
+          "script_time_seconds": 285.0,
+          "mission_id": 1001059,
+          "composition": {
+            "330006": 1
+          },
+          "source_ref": {
+            "source_id": "T:MissionWaterfallMission_WaterfallMission",
+            "row_id": 1001059
+          }
+        },
+        {
+          "kind": "spawn",
+          "script_time_seconds": 285.0,
+          "mission_id": 1001062,
+          "composition": {
+            "330006": 2
+          },
+          "source_ref": {
+            "source_id": "T:Mission_RandomMonsterFlushConfig",
+            "row_ids": [
+              5
+            ],
+            "rule_fact_id": "F03"
+          }
+        },
+        {
+          "kind": "spawn",
+          "script_time_seconds": 288.0,
+          "mission_id": 1001060,
+          "composition": {
+            "330006": 1
+          },
+          "source_ref": {
+            "source_id": "T:MissionWaterfallMission_WaterfallMission",
+            "row_id": 1001060
+          }
+        },
+        {
+          "kind": "spawn",
+          "script_time_seconds": 288.0,
+          "mission_id": 1001060,
+          "composition": {
+            "330006": 2
+          },
+          "source_ref": {
+            "source_id": "T:Mission_RandomMonsterFlushConfig",
+            "row_ids": [
+              5
+            ],
+            "rule_fact_id": "F03"
+          }
+        },
+        {
+          "kind": "spawn",
+          "script_time_seconds": 290.0,
+          "mission_id": 1001064,
+          "composition": {
+            "330006": 2
+          },
+          "source_ref": {
+            "source_id": "T:Mission_RandomMonsterFlushConfig",
+            "row_ids": [
+              5
+            ],
+            "rule_fact_id": "F03"
+          }
+        },
+        {
+          "kind": "spawn",
+          "script_time_seconds": 291.0,
+          "mission_id": 1001061,
+          "composition": {
+            "330006": 1
+          },
+          "source_ref": {
+            "source_id": "T:MissionWaterfallMission_WaterfallMission",
+            "row_id": 1001061
+          }
+        }
+      ],
+      "fact_ids": [
+        "F02",
+        "F03",
+        "F04",
+        "F05",
+        "F06"
+      ],
+      "source_ref": {
+        "source_id": "T:ChapterWave_Waves",
+        "row_id": 100112
+      }
+    },
+    {
+      "wave": 13,
+      "script_start_seconds": 300.0,
+      "next_script_start_seconds": 315.0,
+      "nominal_window_seconds": 15.0,
+      "configured_monster_count": 4,
+      "count_semantics": "configured_spawn_count",
+      "composition": {
+        "320017": 1,
+        "330006": 3
+      },
+      "special_entities": [],
+      "death_gate": false,
+      "experience_budget": 1400,
+      "cumulative_experience": 11100,
+      "level_threshold": 11100,
+      "ordinary_growth_node": true,
+      "wave_start_ui": [
+        1
+      ],
+      "wave_end_ui": [
+        4
+      ],
+      "mission_ids": [
+        1001065,
+        1001066,
+        1001067,
+        1001068
+      ],
+      "events": [
+        {
+          "kind": "spawn",
+          "script_time_seconds": 300.0,
+          "mission_id": 1001065,
+          "composition": {
+            "320017": 1
+          },
+          "source_ref": {
+            "source_id": "T:MissionWaterfallMission_WaterfallMission",
+            "row_id": 1001065
+          }
+        },
+        {
+          "kind": "spawn",
+          "script_time_seconds": 301.5,
+          "mission_id": 1001066,
+          "composition": {
+            "330006": 1
+          },
+          "source_ref": {
+            "source_id": "T:MissionWaterfallMission_WaterfallMission",
+            "row_id": 1001066
+          }
+        },
+        {
+          "kind": "spawn",
+          "script_time_seconds": 306.5,
+          "mission_id": 1001067,
+          "composition": {
+            "330006": 1
+          },
+          "source_ref": {
+            "source_id": "T:MissionWaterfallMission_WaterfallMission",
+            "row_id": 1001067
+          }
+        },
+        {
+          "kind": "spawn",
+          "script_time_seconds": 311.5,
+          "mission_id": 1001068,
+          "composition": {
+            "330006": 1
+          },
+          "source_ref": {
+            "source_id": "T:MissionWaterfallMission_WaterfallMission",
+            "row_id": 1001068
+          }
+        }
+      ],
+      "fact_ids": [
+        "F02",
+        "F03",
+        "F04",
+        "F05",
+        "F06"
+      ],
+      "source_ref": {
+        "source_id": "T:ChapterWave_Waves",
+        "row_id": 100113
+      }
+    },
+    {
+      "wave": 14,
+      "script_start_seconds": 315.0,
+      "next_script_start_seconds": 345.0,
+      "nominal_window_seconds": 30.0,
+      "configured_monster_count": 8,
+      "count_semantics": "configured_spawn_count",
+      "composition": {
+        "320017": 2,
+        "320019": 2,
+        "320021": 1,
+        "330006": 3
+      },
+      "special_entities": [],
+      "death_gate": false,
+      "experience_budget": 1700,
+      "cumulative_experience": 12800,
+      "level_threshold": 12800,
+      "ordinary_growth_node": true,
+      "wave_start_ui": [
+        1
+      ],
+      "wave_end_ui": [
+        4
+      ],
+      "mission_ids": [
+        1001069,
+        1001070,
+        1001071,
+        1001072,
+        1001073,
+        1001074,
+        1001075,
+        1001076
+      ],
+      "events": [
+        {
+          "kind": "spawn",
+          "script_time_seconds": 315.0,
+          "mission_id": 1001069,
+          "composition": {
+            "320021": 1
+          },
+          "source_ref": {
+            "source_id": "T:MissionWaterfallMission_WaterfallMission",
+            "row_id": 1001069
+          }
+        },
+        {
+          "kind": "spawn",
+          "script_time_seconds": 315.0,
+          "mission_id": 1001070,
+          "composition": {
+            "320019": 1
+          },
+          "source_ref": {
+            "source_id": "T:MissionWaterfallMission_WaterfallMission",
+            "row_id": 1001070
+          }
+        },
+        {
+          "kind": "spawn",
+          "script_time_seconds": 317.0,
+          "mission_id": 1001071,
+          "composition": {
+            "320017": 1
+          },
+          "source_ref": {
+            "source_id": "T:MissionWaterfallMission_WaterfallMission",
+            "row_id": 1001071
+          }
+        },
+        {
+          "kind": "spawn",
+          "script_time_seconds": 319.0,
+          "mission_id": 1001072,
+          "composition": {
+            "320019": 1
+          },
+          "source_ref": {
+            "source_id": "T:MissionWaterfallMission_WaterfallMission",
+            "row_id": 1001072
+          }
+        },
+        {
+          "kind": "spawn",
+          "script_time_seconds": 321.0,
+          "mission_id": 1001073,
+          "composition": {
+            "320017": 1
+          },
+          "source_ref": {
+            "source_id": "T:MissionWaterfallMission_WaterfallMission",
+            "row_id": 1001073
+          }
+        },
+        {
+          "kind": "spawn",
+          "script_time_seconds": 330.0,
+          "mission_id": 1001074,
+          "composition": {
+            "330006": 1
+          },
+          "source_ref": {
+            "source_id": "T:MissionWaterfallMission_WaterfallMission",
+            "row_id": 1001074
+          }
+        },
+        {
+          "kind": "spawn",
+          "script_time_seconds": 332.0,
+          "mission_id": 1001075,
+          "composition": {
+            "330006": 1
+          },
+          "source_ref": {
+            "source_id": "T:MissionWaterfallMission_WaterfallMission",
+            "row_id": 1001075
+          }
+        },
+        {
+          "kind": "spawn",
+          "script_time_seconds": 334.0,
+          "mission_id": 1001076,
+          "composition": {
+            "330006": 1
+          },
+          "source_ref": {
+            "source_id": "T:MissionWaterfallMission_WaterfallMission",
+            "row_id": 1001076
+          }
+        }
+      ],
+      "fact_ids": [
+        "F02",
+        "F03",
+        "F04",
+        "F05",
+        "F06"
+      ],
+      "source_ref": {
+        "source_id": "T:ChapterWave_Waves",
+        "row_id": 100114
+      }
+    },
+    {
+      "wave": 15,
+      "script_start_seconds": 345.0,
+      "next_script_start_seconds": null,
+      "nominal_window_seconds": null,
+      "configured_monster_count": 1,
+      "count_semantics": "scripted_maximum_not_guaranteed_realized",
+      "composition": {
+        "340002": 1
+      },
+      "special_entities": [
+        340002
+      ],
+      "death_gate": true,
+      "experience_budget": 2000,
+      "cumulative_experience": 14800,
+      "level_threshold": 14800,
+      "ordinary_growth_node": false,
+      "wave_start_ui": [
+        1,
+        2
+      ],
+      "wave_end_ui": [],
+      "mission_ids": [
+        1001077,
+        1001078
+      ],
+      "events": [
+        {
+          "kind": "punchboard",
+          "script_time_seconds": 345.0,
+          "mission_id": 1001077,
+          "mission_type": 9,
+          "source_ref": {
+            "source_id": "T:MissionWaterfallMission_WaterfallMission",
+            "row_id": 1001077
+          }
+        },
+        {
+          "kind": "boss_task",
+          "script_time_seconds": 347.0,
+          "mission_id": 1001078,
+          "mission_type": 2,
+          "source_ref": {
+            "source_id": "T:MissionWaterfallMission_WaterfallMission",
+            "row_id": 1001078
+          }
+        },
+        {
+          "kind": "spawn",
+          "script_time_seconds": 347.0,
+          "mission_id": 1001078,
+          "composition": {
+            "340002": 1
+          },
+          "source_ref": {
+            "source_id": "T:MissionWaterfallMission_WaterfallMission",
+            "row_id": 1001078
+          }
+        }
+      ],
+      "fact_ids": [
+        "F02",
+        "F03",
+        "F04",
+        "F05",
+        "F06"
+      ],
+      "source_ref": {
+        "source_id": "T:ChapterWave_Waves",
+        "row_id": 100115
+      }
+    }
+  ],
+  "source_ids": [
+    "T:Chapter_MainChapter",
+    "T:MissionWaterfallMission_WaterfallMission",
+    "T:ChapterWave_Waves",
+    "T:Exp_exp"
+  ]
+}
