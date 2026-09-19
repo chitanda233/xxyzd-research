@@ -93,25 +93,32 @@ def main():
                 "exp": c.get("exp"), "monsterDropType": c.get("MonsterDropType"),
             })
 
+        static_entity_exp = sum((char_map.get(entity_id, {}).get("exp") or 0) * count
+                                for entity_id, count in counts.items())
+        wave_all_exp = cfg.get("WaveAllExp")
+
         out["waves"].append({
             "wave": wave, "startTime": start, "nextWaveStartTime": next_start,
             "nominalDuration": None if next_start is None else next_start - start,
             "lastSpawnTime": max((e["time"] for e in events if e["kind"] == "spawn"), default=None),
             "spawnBatchCount": len(spawn_times), "rowCount": len(wr),
             "stopByEliteOrBossKilled": cfg.get("StopByEliteOrBossKilled"),
-            "waveAllExp": cfg.get("WaveAllExp"),
+            "waveAllExp": wave_all_exp,
+            "staticEntityExp": static_entity_exp,
+            "expBudgetDelta": None if wave_all_exp is None else wave_all_exp - static_entity_exp,
             "waveStartSpecialUIType": cfg.get("WaveStartSpecialUIType", []),
             "waveEndSpecialUIType": cfg.get("WaveEndSpecialUIType", []),
             "monsters": monsters, "events": events,
         })
 
-    print("|波|开始|下一波|名义时长|批次|总怪数|硬门槛|经验|")
-    print("|---:|---:|---:|---:|---:|---:|---:|---:|")
+    print("|波|开始|下一波|名义时长|批次|总怪数|硬门槛|WaveAllExp|静态怪物经验|预算差|")
+    print("|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|")
     for w in out["waves"]:
         total = sum(x["count"] for x in w["monsters"])
         print(f'|{w["wave"]}|{w["startTime"]}|{w["nextWaveStartTime"] or "-"}|'
               f'{w["nominalDuration"] or "-"}|{w["spawnBatchCount"]}|{total}|'
-              f'{w["stopByEliteOrBossKilled"]}|{w["waveAllExp"]}|')
+              f'{w["stopByEliteOrBossKilled"]}|{w["waveAllExp"]}|'
+              f'{w["staticEntityExp"]}|{w["expBudgetDelta"]}|')
 
     if args.json:
         path = args.json if args.json.is_absolute() else ROOT / args.json
