@@ -64,7 +64,7 @@ native 中可以直接看到 `ContainsKey → get_Item → +1/-1 → set_Item` �
 
 另有少量 `0 / 0` 项，表示该类型不启用这套动态增权。
 
-这里暂时不要把 50 和 500 直接写成“50% / 500%”。native 中还存在固定点/单位转换，当前能完全确认的是**线性累加 + 上限封顶**的关系，显示单位是否等同百分比还需要把字段类型和最终 WeightRandom 的归一化单位继续对齐。
+继续对 native 的整数→FP 转换做了数值复算后，这一层可以再推进一步：配置 50 会被转换成 FP 0.5，500 会被转换成 FP 5.0。结合方法名 `GetDeltaWeightPercent` / `UpdateWeightPercent`，策划语义可以明确写成**每学一个同类型技能增加 50 个百分点的权重修正，上限 500 个百分点**。但这里仍要保留最后一层边界：已经坐实的是传入权重修正层的 delta 为 0.5 / 5.0；最终单条目的有效权重究竟是 `base × (1 + delta)`、`base × delta` 还是其它组合，还要等 `WeightRandomData.Weight` 的 implementation 才能完全写死。
 
 ## 3. 这不是单张技能加权，而是技能组加权
 
@@ -144,6 +144,14 @@ native 中可以直接看到 `ContainsKey → get_Item → +1/-1 → set_Item` �
 
 因此报告正文不能把动态增权写成“同类技能必出”。它只是提高概率，不是硬保证。
 
+## 6.1 候选池已经确认是“分池后抽”，不是一锅随机
+
+继续下钻 `WeightRandom` 后，可以确认 `GetAlreadyStudySkill`、`GetReadyStudySkill`、`GetOneStarSkill` 的职责不是直接返回最终三选一，而是**构造新的 WeightRandom 子池**：它们先 Clear 目标池，逐条读取 `Skill_Main` 和当前条目的有效 Weight，再把符合“已学 / 可学 / 一星”等条件的技能 Add 进去。
+
+`RandomOneSubSkillByParent` 也显示了同样的结构：先沿父技能升级链与分支组筛选，经过 `GameUtils.CheckCanStudySkill` 和 ban list，再调用 `GetRandomCount`；这一条路径一次最多拿 1 个子技能。于是三选一的真实结构应改写为：**合法性与语义分池 → 各子池保留动态权重 → 按需要从子池抽取 → 汇总/补齐最终候选。**
+
+另外需要修正之前对 `BoostWeightByPercent / RevertWeightBoost` 的解读：当前 `HeroComponentRandomSkill.asm` 中没有发现这两个函数的直接调用。它们只能证明通用 `WeightRandom` 支持临时 Boost，**不能**作为“已有 Build 会自强化”的证据。Build 收敛的直接证据链是 `UpdateLearnedSkillCount → GetDeltaWeightPercent → AdjustWeightsForSkillGroup → UpdateWeightPercent`。
+
 ## 7. 当前已经坐实与仍待补证的部分
 
 ### 已坐实
@@ -162,7 +170,7 @@ native 中可以直接看到 `ContainsKey → get_Item → +1/-1 → set_Item` �
 
 1. `AdjustWeightsForSkillGroup` 到底是把同一增量完整加给组内每个成员，还是按组内规则分摊。
 2. 三选一是否采用无放回抽取，以及每抽一张后总权重如何重算。
-3. `BoostWeightByPercent / RevertWeightBoost` 的调用方，是否用于“保底”“首个同类型”“特殊技能临时增权”等机制。
+3. `BoostWeightByPercent / RevertWeightBoost` 的仓库级调用方仍未定位；当前不能把它们解释成三选一保底或 Build 收敛机制。
 4. `GetAlreadyStudySkill / GetReadyStudySkill / GetOneStarSkill` 在三个候选位中的优先级与占位顺序。
 
 ## 8. 下一步建议
@@ -176,3 +184,6 @@ native 中可以直接看到 `ContainsKey → get_Item → +1/-1 → set_Item` �
 `BoostWeightByPercent → 调用方 → RevertWeightBoost`
 
 只要把这两段还原出来，就能进一步写出“一个具体三选一是怎样从候选池一步步生成的”，并做概率模拟，而不只是证明存在动态权重。
+
+
+implementation 级证据摘记见 `evidence/skill-random-weight-native.md`。
