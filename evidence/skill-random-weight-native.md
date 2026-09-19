@@ -80,3 +80,19 @@ effectiveWeight
 ## Boost / Revert 的证据边界
 
 `WeightRandom` 存在 `BoostWeightByPercent` / `RevertWeightBoost`，但当前保存的 `HeroComponentRandomSkill.asm` 中没有找到两者 RVA 的直接调用。它们证明通用随机器支持临时 Boost，却不能作为 Build 收敛的直接证据。除非后续定位到真实调用方，否则不应写成“保底”“首选同类”或“三选一临时增权”。
+
+
+## GetRandomCount：实时权重抽样与同批去重
+
+`WeightRandom.GetRandomCount` RVA 0x6633C0C 的 implementation 进一步确认了单个随机池内部的抽取语义：
+
+1. 先遍历当前 `WeightRandomData[]`，对每个条目调用 `WeightRandomData.Weight`，把动态修正后的有效权重累加成总权重。
+2. 如果条目 ID 已经存在于传入的 `resultList`，该条目不会计入本轮总权重。
+3. 每一轮通过战斗随机源在当前总权重范围取随机数，再按累计权重定位命中条目。
+4. 普通条目命中后直接把 ID 加入 `resultList`；下一轮因此自动排除同 ID。
+5. 命中条目还会与活动区尾部 `WeightRandomData` 做交换，代码形态与无放回抽样一致。
+6. 如果 `Skill_Main.GetIsUpgrade() == 2`，不直接加入父技能，而是转入 `RandomOneSubSkillByParent`，从合法升级分支中最多选 1 个具体子技能。
+
+因此可以严格写成：单个 `WeightRandom` 子池的多抽是**按当前 PracticalWeight 进行的去重加权抽样**。动态 Build 权重会真正进入每次随机区间，而不是只影响候选池排序。
+
+仍未完全闭合的是 `HeroSkillCreator.GetRandomSkills` 对多个子池的名额分配规则；它会先计算/选择一个池序，并逐池调用 `GetRandomCount` 补足结果，但最终“三个位置各优先来自哪种语义池”还需继续拆。
