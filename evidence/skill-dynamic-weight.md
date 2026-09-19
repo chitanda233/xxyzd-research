@@ -65,13 +65,43 @@ delta(type) = min(learnedCount(type) × 50%, 500%)
 - `WeightRandom.BoostWeightByPercent`（RVA `0x6633824`）和 `RevertWeightBoost`（RVA `0x6633908`）也都存在，说明底层随机器有成熟的临时增权能力。
 - 但“底层能力存在”不能替代“主线动态 SkillType 机制实际调用它”的证据。
 
+## 新证据：APK 确实存在 HotFixBattle 代码热更新通道
+
+“可能由线上 HotFix 覆盖空 fallback”现在可以从泛化可能性提升为**客户端明确具备对应代码热更通道**，但仍不能直接提升为“该函数线上已经被覆盖”。
+
+APK 内的 `assets/FullRes/catalog_hotfix.json` 经 Base64 键表解码后，能直接找到：
+
+- `Assets/_Resources/HotUpdateSnapshot/HotFix.dll.bytes`
+- `Assets/_Resources/HotUpdateSnapshot/HotFixBattle.dll.bytes`
+- `Assets/_Resources/HotUpdateSnapshot/HotFix.mv.bytes`
+- `Assets/_Resources/HotUpdateSnapshot/HotFixBattle.mv.bytes`
+
+catalog 同时指向官方远端 bundle：
+
+`hotupdatesnapshot_assets_all_2b09cb64858ac1748bf35100e3663898.bundle`
+
+仓库里已经保存了这份 snapshot bundle。把 UnityFS 解开后可见四个 TextAsset 当前内容都是版本标记 `"1"`，同时 AssetBundle 数据给出了真正代码包名：
+
+`0dc4ad20592f3aedee4d422f396422c9.bundle`
+
+因此客户端的代码更新链可以高置信理解为：
+
+`HotUpdateSnapshot 版本标记 → 对应 HotFix/HotFixBattle 代码 bundle → 运行时覆盖/加载热更实现`。
+
+这对动态 SkillType 权重的证据边界很重要：
+
+- **比之前更确定的部分：** `AdjustWeightsForSkillGroup` 的 APK fallback 为空，并不等于线上绝无实现；本客户端确实为 `HotFixBattle` 准备了独立代码快照与代码 bundle 更新链。
+- **仍然不能跨越的边界：** 当前仓库没有保存真正的 `0dc4ad20592f3aedee4d422f396422c9.bundle`，本研究环境也无法直接访问该 CDN bundle，所以还没有拿到线上 `AdjustWeightsForSkillGroup` 的真实 IL/C# 实现。不能因此把动态增权写成“已在线启用”。
+
+后续如果拿到该代码 bundle，应优先提取 `HotFixBattle.dll`，直接反编译 `HeroComponentRandomSkill.AdjustWeightsForSkillGroup`。这比继续从 APK fallback 猜测更有决定性。
+
 ## 当前应采用的策划表述
 
 **已证实：** 客户端设计了同 SkillType 的 Build 收敛框架，理论参数为“每学一个同类型技能，计划增权 +50%，最多 +500%”。
 
 **未证实：** 1.0.16 APK 基线运行时真的把这项增权应用到主线三选一候选。当前 fallback 应用函数为空实现。
 
-可能性包括：该功能被废弃/暂时关闭，或者线上运行时 hotfix 覆盖了 `AdjustWeightsForSkillGroup`。由于本轮没有下载线上热更，也没有实机统计，不应把“已有 Build 会实际提高同类出现率”写成确定规则。
+可能性包括：该功能被废弃/暂时关闭，或者线上运行时 HotFixBattle 覆盖了 `AdjustWeightsForSkillGroup`。现在已经确认客户端存在 HotFixBattle 代码更新链，但尚未取得真正代码 bundle，因此仍不应把“已有 Build 会实际提高同类出现率”写成确定规则。
 
 这条反证非常重要：它把“设计意图”和“当前静态 APK 能证明的运行行为”分开，避免策划报告把未生效逻辑写死。
 
