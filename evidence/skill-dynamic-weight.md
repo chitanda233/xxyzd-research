@@ -32,6 +32,26 @@ delta(type) = min(learnedCount(type) × 50%, 500%)
 
 如果最终应用，则 1 / 2 / 3 / 5 / 10 个同类型技能分别对应 +50% / +100% / +150% / +250% / +500%。
 
+## 补充：delta 是当前状态的绝对目标值
+
+新增与移除技能的 native 调用顺序进一步排除了“每次在旧权重上继续 +50%”的解释。
+
+新增路径先调用：
+
+`UpdateLearnedSkillCount(skillType) → GetDeltaWeightPercent(skillType) → AdjustWeightsForSkillGroup(skillType, delta)`
+
+移除路径先调用：
+
+`DecreaseLearnedSkillCount(skillType) → GetDeltaWeightPercent(skillType) → AdjustWeightsForSkillGroup(skillType, delta)`
+
+也就是说，传给应用函数的 delta 每次都由**更新后的当前持有数量**重新计算。按当前配置，它表示：
+
+`targetDelta = min(currentCount × 0.5, 5.0)`
+
+所以如果线上 HotFix 启用了实际应用，3 个同类型技能对应的目标应是 +150%；移除 1 个后重新计算为 +100%，而不是保留 +150% 再做某种增量修正。这个调用顺序证明了“当前状态重算”的设计语义。
+
+需要再次强调：这只能强化公式和重算语义，不能绕过 `AdjustWeightsForSkillGroup` 在 APK fallback 中为空实现这一反证。
+
 ## 关键反证：当前 APK fallback 没有真正应用
 
 `AdjustWeightsForSkillGroup` — RVA `0x686A17C`。
