@@ -159,6 +159,21 @@ effectiveWeight = baseWeight × (1 + delta)
 
 另外需要修正之前对 `BoostWeightByPercent / RevertWeightBoost` 的解读：当前 `HeroComponentRandomSkill.asm` 中没有发现这两个函数的直接调用。它们只能证明通用 `WeightRandom` 支持临时 Boost，**不能**作为“已有 Build 会自强化”的证据。Build 收敛的直接证据链是 `UpdateLearnedSkillCount → GetDeltaWeightPercent → AdjustWeightsForSkillGroup → UpdateWeightPercent`。
 
+
+## 6.2 单次候选抽取是按实时有效权重做“去重抽样”
+
+继续下钻 `WeightRandom.GetRandomCount(count, resultList, allSkills, banSkills)`（RVA 0x6633C0C）后，候选抽取方式也可以进一步坐实。函数在每次抽取前会遍历当前随机项，调用 `WeightRandomData.Weight` 取得已经包含动态 delta 的有效权重，并跳过已经进入 `resultList` 的技能；随后在剩余总权重区间内取随机数，再按累计权重命中具体条目。
+
+命中后，普通技能 ID 会立刻加入 `resultList`。下一轮重新计算时，已经在结果列表里的 ID 会被排除，因此**同一次 `GetRandomCount` 不会重复抽出同一个技能 ID**。实现里还会对命中的 `WeightRandomData` 与活动区尾部条目做交换，进一步表现出典型的无放回抽样结构。
+
+如果命中的条目是“升级/父技能型”候选，代码不会直接把父 ID 塞进结果，而是转入 `RandomOneSubSkillByParent`：沿升级链和分支组检查可学习条件、已拥有技能和 ban list，再从合法子技能里最多补 1 个。于是最终候选并不是“随机出父技能后再由 UI 决定升级方向”，而是在生成候选阶段就已经把可用的具体升级分支解析出来。
+
+因此三选一可以进一步概括为：
+
+**先构造合法候选池 → 按动态有效权重抽一个 → 立即加入结果/排除重复 → 如为父技能则解析成一个合法子分支 → 重算剩余池后继续抽，直到补足目标数量。**
+
+这里仍需保留一层边界：`HeroSkillCreator.GetRandomSkills` 会在多个 `WeightRandom` 子池之间分配抽取名额，因此“最终三个位置分别优先属于哪类池”还需要继续还原；但单个子池内部的权重抽样与去重规则已经明确。
+
 ## 7. 当前已经坐实与仍待补证的部分
 
 ### 已坐实
@@ -176,13 +191,13 @@ effectiveWeight = baseWeight × (1 + delta)
 ### 高概率，但仍需继续深挖
 
 1. `AdjustWeightsForSkillGroup` 在当前保存的 ARM64 文件中表现为 HotFix 分发壳，真实热更方法体没有被静态还原；因此“同类型组内每个成员如何接收 delta”的逐条实现仍需动态/热更层证据。这里不应把 `WeightRandom.UpdateWeightPercent` 与它强行写成直接 native 调用链。
-2. 三选一是否采用无放回抽取，以及每抽一张后总权重如何重算。
+2. 最终三个候选位如何在多个 `WeightRandom` 子池之间分配名额，以及子池优先级是否会随局内状态改变。
 3. `BoostWeightByPercent / RevertWeightBoost` 的仓库级调用方仍未定位；当前不能把它们解释成三选一保底或 Build 收敛机制。
 4. `GetAlreadyStudySkill / GetReadyStudySkill / GetOneStarSkill` 在三个候选位中的优先级与占位顺序。
 
 ## 8. 下一步建议
 
-下一步最值得继续追的有两条。第一条是 `GetNormalSkill → GetAlreadyStudySkill / GetReadyStudySkill / GetOneStarSkill → GetRandomCount`，目标是还原三个候选位具体怎样从不同子池拼出来、是否无放回、每抽一张后是否立即重算权重。第二条已经完成：`WeightRandomData.PracticalWeight` 已把最终公式坐实为 `baseWeight × (1 + delta)`。下一步更值得追的是 `AdjustWeightsForSkillGroup` 的 HotFix 实际方法体或运行时行为，确认一个 skillType 的 delta 究竟覆盖组内哪些随机条目。
+下一步最值得继续追的有两条。第一条仍是 `GetNormalSkill → HeroSkillCreator.GetRandomSkills → 多个 WeightRandom 子池`，但目标已经缩小为“最终三个候选位怎样在不同子池之间分配名额”。单个子池内部已经确认按实时有效权重抽取，并通过结果列表排除实现同批去重。第二条已经完成：`WeightRandomData.PracticalWeight` 已把最终公式坐实为 `baseWeight × (1 + delta)`。下一步更值得追的是 `AdjustWeightsForSkillGroup` 的 HotFix 实际方法体或运行时行为，确认一个 skillType 的 delta 究竟覆盖组内哪些随机条目。
 
 `BoostWeightByPercent / RevertWeightBoost` 目前降为次要支线：先做仓库级调用方定位，只有确认它真的参与 `HeroComponentRandomSkill` 的三选一流程后，才讨论保底或临时增权。
 
