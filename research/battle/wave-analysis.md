@@ -8,10 +8,10 @@
 
 - **1～4 波：快速建立基础战斗节奏。** 0～62 秒，以 15～17 秒一波为主，怪量不大，主要让玩家完成前几轮成长。
 - **第 5 波：第一次明显高潮，但不是击杀门。** 62 秒开始，配置有特殊 UI 节点，但 `StopByEliteOrBossKilled = 0`。该波没有 Type=201 精英或 Type=3 Boss，最强的 `320005` 仍是 Type=2 普通怪。因此它更准确地应称为“第一次强事件/小高潮”，而不是精英硬门槛。
-- **6～9 波：继续抬压并引入更复杂的刷新方式。** 105～197 秒，开始出现随机补怪、两段式刷新和攻击强化。
+- **6～9 波：先用 Punchboard 重新校准 Build，再继续抬压。** 105 秒的 W6 先进入独立 Punchboard 技能事件，随后开始随机补怪、两段式刷新和攻击强化。
 - **第 10 波：第一处真正的硬门槛。** 197 秒开始，出现 Type=201 的 `310008` 精英；`StopByEliteOrBossKilled = 1`。native 会统计这一类特殊怪，最后一只死亡时触发特殊死亡推进。
-- **11～14 波：终盘抬压。** 240～345 秒，怪量峰值出现在第 12 波；第 14 波再次使用“两段刷新”制造终局前的节奏变化。
-- **第 15 波：最终 Boss 硬门槛。** 345 秒进入节点，347 秒生成 Type=3 的 `340002` Boss，`StopByEliteOrBossKilled = 1`，直到 Boss 死亡才完成关键推进。
+- **11～14 波：第二次 Punchboard 后进入终盘抬压。** 240 秒的 W11 先进入独立 Punchboard 技能事件，随后怪量峰值出现在第 12 波；第 14 波再次使用“两段刷新”制造终局前的节奏变化。
+- **第 15 波：Boss 前先给第三次 Punchboard，再进入最终硬门槛。** 345 秒先进入独立 Punchboard 技能事件，347 秒生成 Type=3 的 `340002` Boss，`StopByEliteOrBossKilled = 1`，直到 Boss 死亡才完成关键推进。
 
 从第一波开始到最终 Boss 出现，配置时间轴约 **347 秒（5 分 47 秒）**。这不是最终结算时长：第 10 波和第 15 波都存在击杀等待，尤其第 15 波的结束时间完全取决于 Boss 击杀。
 
@@ -26,16 +26,16 @@
 | 3 | 30s | 15s | 5 | 5：320021×1，320017×2，330006×2 | 定时波 | 600 |
 | 4 | 45s | 17s | 7 | 7：320019×2，320017×2，330006×3 | 定时波 | 600 |
 | 5 | 62s | 43s | 14 | 16：320005×1，320021×1，320017×3，330006×11 | 特殊事件波，但非击杀门 | 700 |
-| 6 | 105s | 30s | 4 | 5：320005×1，330006×4；105s 先有 missionType=9 事件，107s 开始刷怪 | 定时波 | 800 |
+| 6 | 105s | 30s | 4 | 5：320005×1，330006×4；105s 先进入 **Punchboard**，107s 开始刷怪 | Punchboard 起手 + 定时波 | 800 |
 | 7 | 135s | 15s | 7 | 7：320017×4，320005×1，320019×2 | 定时波 | 800 |
 | 8 | 150s | 30s | 11 | 18：320005×2，320030×4，330006×12 | 定时波；明显两段刷新 | 950 |
 | 9 | 180s | 17s | 1 | 2：320017×1，330006×1；该波任务行带攻击强化 | 定时波 | 1000 |
 | 10 | 197s | 43s + 击杀等待 | 9 | 配置上限 18：**310008 精英×1**，320021×1，320017×4，320019×4，330006×8；精英提前死亡时后续排队怪可被取消 | **精英击杀硬门** | 1100 |
-| 11 | 240s | 30s | 4 | 8：320021×1，320019×3，330006×4；240s 先有 missionType=9 | 定时波 | 1200 |
+| 11 | 240s | 30s | 4 | 8：320021×1，320019×3，330006×4；240s 先进入 **Punchboard** | Punchboard 起手 + 定时波 | 1200 |
 | 12 | 270s | 30s | 9 | **21**：320005×1，320017×2，320019×1，320035×2，330006×15 | 定时波；本章怪量峰值 | 1200 |
 | 13 | 300s | 15s | 4 | 4：320017×1，330006×3；任务行带明显属性强化 | 定时波 | 1400 |
 | 14 | 315s | 30s | 7 | 8：320021×1，320019×2，320017×2，330006×3 | 定时波；两段刷新 | 1700 |
-| 15 | 345s | 2s 预告 + Boss 战 | 1 | **340002 Boss×1**，347s 出现 | **Boss 击杀硬门** | 2000 |
+| 15 | 345s | 2s Build 节点 + Boss 战 | 1 | 345s 先进入 **Punchboard**；**340002 Boss×1** 于 347s 出现 | **Punchboard → Boss 击杀硬门** | 2000 |
 
 ### 关键波的内部节拍
 
@@ -71,6 +71,20 @@
 定时推进还有一条更直接的 native 证据：`WaterfallBattleManager.RefreshBattleData` 会读取当前任务和下一任务的绝对 `time`，计算 `next.time - current.time`，并把这个差值写入 `RefreshNextMissionTime`，随后由刷新状态机按时间更新。因此表里的 15 / 17 / 30 / 43 秒不是我们用相邻行“猜”的波长，而是客户端运行时本身用于安排下一任务的时间差。
 
 第 10 波还要注意一个容易误读的细节：表中的 18 只怪是**配置上限**，不保证实战一定全部生成。特殊怪计数清零后，`EnemyDieSpecialLogic` 会调用 `EnemySpecialDie` 重置刷新状态，把当前任务直接设到本波最后任务，并调用 `ClearMonsterCreateData` 清空尚未执行的刷怪队列。因此玩家如果很快击杀 `310008`，后面按 3.5 秒间隔排队的支援怪可能来不及全部出现。策划上更准确的理解是：第 10 波配置了一条“围绕精英逐步加压的最大压力包络”，精英击杀本身决定该压力包络何时被截断。
+
+## 三个阶段边界都插入了 Punchboard Build 节点
+
+前面的 `missionType=9` 现在已经可以进一步定性。它不是泛化的“特殊 UI”，也不能与网络协议里的 `Proto.Battle.MissionType` 混为一谈。局内瀑布流实际使用的是 `HotFix.BattleLogic.BattleConfig`，其中 `MissionTypePunchboard = 9`、`MissionTypeBoss = 2`。
+
+第一章只有四条非零 `missinType`：W6 105s、W11 240s、W15 345s 都是 9；W15 347s 则是 2，并直接生成最终 Boss。三条 Punchboard 行本身没有刷怪字段，因此它们是纯事件节点，而不是某种特殊刷怪指令。
+
+Punchboard 也不是普通波末三选一的另一种名字。代码里它有独立的 `StatePunchboard=11`、`WaterfallStatePunchboard`、`PlayerPunchboardFinish` 事件和专用 `PunchboardRandoms` 技能随机池；`PlayerPunchboard` 还单独维护已有技能、新技能、补位技能以及最终选取结果。更关键的是，`HeroComponentRandomSkill.GetPunchboardRandomCount` 会先读取 `PunchboardRandomSkillCountWeight`，再结合角色属性与当前已学技能状态修正数量档权重，最后通过加权 roulette 决定本次 Punchboard 给出几个技能。因此它应该被视为一套**独立的阶段性 Build 校准机制**。
+
+这让第一章的成长节奏从“每波一级”进一步变成两层结构：高频层是 W1～W14 基本每波一次普通成长；低频层则在 105s、240s、345s 三个大段落边界插入 Punchboard。策划语言可以压缩为：
+
+> **前 5 波成长与软高潮 → Punchboard → 中段 Build 成型 → W10 精英硬验收 → Punchboard → 终盘抬压 → Punchboard → 最终 Boss 总验收。**
+
+W15 尤其明确：345s 先进入 Punchboard，347s 才进入 Boss 任务。也就是说，最终 Boss 前不是单纯留 2 秒预告，而是主动给了最后一次 Build 介入机会。
 
 ## 经验：一波就是一个成长刻度
 
@@ -126,13 +140,13 @@
 
 **62～105s：第一次高潮。** 第 5 波短时间快速灌怪，并通过特殊 UI 明确告诉玩家“到节点了”，但不锁死推进。这是一次低风险的高潮预演。
 
-**105～197s：机制复杂化。** 6～9 波加入事件起手、随机补怪、两段式刷新和属性强化，让战斗从“看懂基础循环”转向“开始检验 Build”。
+**105～197s：先校准 Build，再机制复杂化。** W6 在 105 秒先进入 Punchboard，之后 6～9 波加入随机补怪、两段式刷新和属性强化，让战斗从“看懂基础循环”转向“开始检验 Build”。
 
 **197～240s：第一次真正验收。** 第 10 波放入 Type=201 精英并启用击杀门。玩家此前约 9 次成长选择在这里第一次被硬性检验。
 
-**240～345s：终盘压力。** 第 12 波用全章最高怪量制造群怪压力，第 14 波用两段刷新拉长终盘张力，同时经验奖励提高到 1700。
+**240～345s：第二次校准后进入终盘压力。** W11 在 240 秒先进入 Punchboard，第 12 波随后用全章最高怪量制造群怪压力，第 14 波用两段刷新拉长终盘张力，同时经验奖励提高到 1700。
 
-**345s 以后：Boss 结题。** 先给约 2 秒节点/预告，再生成最终 Boss；击杀是硬条件。整个第一章形成“多次小成长 → 第一次软高潮 → 中段 Build 成型 → 精英硬验收 → 终盘再抬压 → Boss 总验收”的完整单局曲线。
+**345s 以后：最后一次 Build 校准后 Boss 结题。** 345 秒进入第三次 Punchboard，347 秒生成最终 Boss；击杀是硬条件。整个第一章形成“多次小成长 → 第一次软高潮 → Punchboard 校准 → 中段 Build 成型 → 精英硬验收 → Punchboard 校准 → 终盘再抬压 → Punchboard 校准 → Boss 总验收”的完整单局曲线。
 
 ## 尚需运行时验证的点
 
@@ -148,4 +162,4 @@
 
 ## 复现与证据入口
 
-本报告对应的结构化中间结果保存在 [chapter1-wave-summary.json](./chapter1-wave-summary.json)，可复现压缩脚本为 [scripts/analyze_chapter1_waves.py](../../scripts/analyze_chapter1_waves.py)。波末经验吸收、待升级队列和连续三选一的 native 证据摘要见 [evidence/waterfall-wave-end-upgrade.md](../../evidence/waterfall-wave-end-upgrade.md)；W5 / W10 / W15 三个关键节点为什么不是同性质门槛，以及 W10 精英早死为何会截断后续支援怪，见 [evidence/battle/chapter1-wave-gates.md](../../evidence/battle/chapter1-wave-gates.md)。原始 ARM64 仍以 `restored/code/native-evidence/HotFix.BattleLogic.WaterfallBattleManager.asm` 为最终静态证据。
+本报告对应的结构化中间结果保存在 [chapter1-wave-summary.json](./chapter1-wave-summary.json)，可复现压缩脚本为 [scripts/analyze_chapter1_waves.py](../../scripts/analyze_chapter1_waves.py)。波末经验吸收、待升级队列和连续三选一的 native 证据摘要见 [evidence/waterfall-wave-end-upgrade.md](../../evidence/waterfall-wave-end-upgrade.md)；W5 / W10 / W15 三个关键节点为什么不是同性质门槛，以及 W10 精英早死为何会截断后续支援怪，见 [evidence/battle/chapter1-wave-gates.md](../../evidence/battle/chapter1-wave-gates.md)。W6 / W11 / W15 三个 Punchboard 节点及其独立技能随机结构见 [evidence/battle/chapter1-punchboard-nodes.md](../../evidence/battle/chapter1-punchboard-nodes.md)。原始 ARM64 仍以 `restored/code/native-evidence/HotFix.BattleLogic.WaterfallBattleManager.asm` 为最终静态证据。
