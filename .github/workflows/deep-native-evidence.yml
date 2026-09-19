@@ -32,5 +32,6 @@ jobs:
             restored/code/native-evidence/*SinglePlayerBattleManager*.asm
             restored/code/native-evidence/*WaterfallStateSelectSkill*.asm
             restored/code/native-evidence/*WaterfallStateSpecialSelectSkill*.asm
+            restored/code/native-evidence/*RunTimeModel_HyBridCLR*.asm
             indexes/native-evidence.json
 # manual rerun marker: 2026-09-18 wave-end-upgrade
