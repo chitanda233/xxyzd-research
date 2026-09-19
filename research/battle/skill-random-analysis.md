@@ -127,7 +127,25 @@
 
 这条链现在又多补了一层结构证据：`BattleData` 明确把 `InitSkillGroupCount` 作为独立字段保存，`BattleSaveData` 也有 `initSkillGroupCount`，说明它会跟随局内存档持久化；`BattleWorldContext` 还专门暴露了 `get_InitSkillGroupCount()`、`DoInitSkillGroup()` 和 `DoInitSkillGroupCount(int count)`。因此它不是偶然复用的内存槽，而是一个有完整生命周期的首轮技能池计数。需要保留的最后证据边界仍然是：当前已保存的 native 函数集中，还没有抓到初始化阶段调用 `DoInitSkillGroup*` 并把 `Const.UseInitSkillGroupCout=1` 写进去的调用者。因此最终正文可以写“首轮定制池机制存在、配置目标为一次，并有专门运行时计数与存档字段”，但不要写成“初始化赋值调用已完整证明”。
 
-## 七、新手保护是真正生效的临时概率修正
+## 七、Punchboard 是另一套独立的 Build 随机，不属于普通波末三选一
+
+第一章的 W6（105s）、W11（240s）、W15（345s）都配置了 `missinType=9`。局内 `BattleConfig` 明确把 9 定义为 `MissionTypePunchboard`；W15 紧接着在 347s 用 `MissionTypeBoss=2` 生成最终 Boss。因此这三次 Punchboard 应视为阶段边界的额外 Build 介入，而不是普通升级三选一的重复触发。
+
+代码结构也完全分开。Punchboard 有自己的 `StatePunchboard=11`、`WaterfallStatePunchboard`、`PlayerPunchboardFinish` 事件；`HeroSkillCreator` 维护独立的 `PunchboardRandoms`。其中 `PlayerPunchboard` 会分别维护已有技能、新技能、补位技能、随机结果和最终选择结果，并显式处理升级依赖。因此它更像一次“根据当前 Build 重新组织候选”的阶段性技能事件。
+
+更进一步，`HeroComponentRandomSkill.GetPunchboardRandomCount` 的 native fallback 证明 **Punchboard 给出几个技能本身也是加权随机**。它读取 `PunchboardRandomSkillCountWeight`，复制为工作数组，再结合角色属性与当前已学技能状态对数量档权重进行修正，最后用战斗随机数做 roulette 并返回 `index+1`。全局配置还给出 `PunchboardFiveSkillBlockThreshold=4`，备注为“赌博机几个技能后解锁5个奖励概率”，以及 `PunchboardMissAddWeight=35`。
+
+当前证据边界是：IL2CPP `LocalModels.Const` 明确存在 `PunchboardRandomSkillCountWeight` 和 getter，native 也真实读取它，但当前解码的 `Consts_Const.json` 没有这一数组对应的配置行，所以还不能写死“1/2/3/4/5 个技能各是多少概率”。数量随机算法已经坐实，具体基础数组仍需从 Const 初始化 native 或线上数据源继续补证。
+
+因此主线 Build 现在至少有两种不同节奏：
+
+**高频普通成长：** 波内获得经验 → 波末普通三选一；主线固定展示 3 个候选。
+
+**低频阶段校准：** 关卡脚本在 W6 / W11 / W15 主动进入 Punchboard；候选组织和展示数量都走自己的随机逻辑。
+
+第一章不是一条单纯的“每波三选一”成长线，而是用普通升级持续塑形，再用 Punchboard 在大阶段边界主动提供额外调整机会。
+
+## 八、新手保护是真正生效的临时概率修正
 
 相比同 SkillType 动态增权，新手保护的 native fallback 是完整的。
 
@@ -150,7 +168,7 @@
 
 从策划角度看，这说明游戏的随机并非追求纯随机，而是允许为了前期体验对特定核心技能做轻量保底倾斜。
 
-## 八、Exp_exp.randomSkillFactor 不属于普通主线三选一
+## 九、Exp_exp.randomSkillFactor 不属于普通主线三选一
 
 `Exp_exp.randomSkillFactor` 的前几级形如：
 
@@ -175,7 +193,7 @@
 
 而 `Exp_exp.randomSkillFactor` 属于特殊技能路径，具体四个数在 Danke 机制里各自代表什么，还需要单独继续拆，不能混入普通三选一结论。
 
-## 九、同 SkillType 动态增权：公式成立，但 APK fallback 未落地
+## 十、同 SkillType 动态增权：公式成立，但 APK fallback 未落地
 
 `Skill_SkillTypeWeight` 中有效 SkillType 基本统一为：
 
@@ -228,7 +246,7 @@
 
 这项补证没有改变前面的证据边界：**目标公式与重算时机已经证明，1.0.16 APK fallback 真正把目标值写进候选池仍未证明。**
 
-## 十、策划视角下，当前三选一可以还原成什么
+## 十一、策划视角下，当前三选一可以还原成什么
 
 普通主线的一次成长选择，可以暂时还原为：
 
@@ -252,17 +270,18 @@
 
 这比最初“已有 Build 会不会因为同类型权重越来越高而自然成型”的假设更完整。当前版本即使不依赖那条 dormant 动态增权，也已经通过“初始池 + 品质整组抽取 + 合法候选重构 + 前置/升级链 + 新手保护”对随机结果进行了相当多的结构化控制。
 
-## 十一、还需要继续验证什么
+## 十二、还需要继续验证什么
 
-普通主线三选一的核心框架已经基本够写入《局内核心循环反拆》。剩下优先级最高的未决点只有三类：
+普通主线三选一的核心框架已经基本够写入《局内核心循环反拆》。剩下优先级最高的未决点有四类：
 
 1. 找到 `BattleData.InitSkillGroupCount` 初始化赋值链，彻底坐实 `UseInitSkillGroupCout=1` 与首轮 Init 池的直接连接。
 2. 继续追 `ExHighSkillRate%` / `LevelUpSkillUpRate%` 的具体来源技能、Buff、角色或局外养成入口；品质权重的 native 计算公式已经坐实，剩下是“谁能提供这些属性”。
-3. 如果要研究特殊技能系统，再单独拆 Danke 路径中的 `Exp_exp.randomSkillFactor`；它不应继续阻塞普通主线核心循环报告。
+3. 补出 `PunchboardRandomSkillCountWeight` 的实际数组，以及 `GetPunchboardRandomCount` 中修正末档权重的角色属性名，从而把 Punchboard 的“展示几个技能”还原成可计算概率。
+4. 如果要研究特殊技能系统，再单独拆 Danke 路径中的 `Exp_exp.randomSkillFactor`；它不应继续阻塞普通主线核心循环报告。
 
 对于最终策划报告而言，现在已经可以把普通主线三选一写成确定规则；只有“同 SkillType 动态增权是否线上启用”需要继续标成待验证。
 
 
 ## 复现与证据入口
 
-“同 SkillType 每学一个计划 +50%、最多 +500%”以及“当前 APK fallback 应用函数为空实现”的证据边界，单独整理在 [evidence/skill-dynamic-weight.md](../../evidence/skill-dynamic-weight.md)。配置曲线可用 [scripts/analyze_skill_type_weight.py](../../scripts/analyze_skill_type_weight.py) 复现；该脚本只还原设计公式与倍率，不把 APK fallback 未启用的应用逻辑误写成已生效。完整 ARM64 仍以 `restored/code/native-evidence/HotFix.BattleLogic.HeroComponentRandomSkill.asm` 与 `HotFix.BattleLogic.WeightRandom.asm` 为最终静态证据。
+“同 SkillType 每学一个计划 +50%、最多 +500%”以及“当前 APK fallback 应用函数为空实现”的证据边界，单独整理在 [evidence/skill-dynamic-weight.md](../../evidence/skill-dynamic-weight.md)。配置曲线可用 [scripts/analyze_skill_type_weight.py](../../scripts/analyze_skill_type_weight.py) 复现；该脚本只还原设计公式与倍率，不把 APK fallback 未启用的应用逻辑误写成已生效。Punchboard 的波次位置、独立状态与数量随机证据见 [evidence/battle/chapter1-punchboard-nodes.md](../../evidence/battle/chapter1-punchboard-nodes.md)。完整 ARM64 仍以 `restored/code/native-evidence/HotFix.BattleLogic.HeroComponentRandomSkill.asm` 与 `HotFix.BattleLogic.WeightRandom.asm` 为最终静态证据。
