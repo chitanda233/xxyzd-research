@@ -175,15 +175,9 @@ native 中可以直接看到 `ContainsKey → get_Item → +1/-1 → set_Item` �
 
 ## 8. 下一步建议
 
-下一步最值得继续追的不是继续浏览配置，而是沿两条调用链往下：
+下一步最值得继续追的有两条。第一条是 `GetNormalSkill → GetAlreadyStudySkill / GetReadyStudySkill / GetOneStarSkill → GetRandomCount`，目标是还原三个候选位具体怎样从不同子池拼出来、是否无放回、每抽一张后是否立即重算权重。第二条是补出 `WeightRandomData.Weight` 的 implementation，彻底确认 0.5 / 5.0 这组 delta 与基础权重的最终组合公式。
 
-`GetNormalSkill → FillNormalSkill → WeightRandom最终抽取`
-
-以及：
-
-`BoostWeightByPercent → 调用方 → RevertWeightBoost`
-
-只要把这两段还原出来，就能进一步写出“一个具体三选一是怎样从候选池一步步生成的”，并做概率模拟，而不只是证明存在动态权重。
+`BoostWeightByPercent / RevertWeightBoost` 目前降为次要支线：先做仓库级调用方定位，只有确认它真的参与 `HeroComponentRandomSkill` 的三选一流程后，才讨论保底或临时增权。
 
 
 implementation 级证据摘记见 `evidence/skill-random-weight-native.md`。
