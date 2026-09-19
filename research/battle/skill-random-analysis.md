@@ -216,6 +216,18 @@
 
 > 客户端已经设计并计算了“同类型越学越容易出”的 +50%/次、+500% 封顶模型，但 1.0.16 APK 基线中负责应用它的 fallback 是空实现。它可能是 dormant/遗留逻辑，也可能依赖运行时热修覆盖；在拿到线上热修或实机统计前，不能作为已生效规则写死。
 
+### 动态增权是“按当前持有量重算目标值”，不是每次再叠一层 +50%
+
+新增/移除路径把这个公式的语义又坐实了一步。新增技能时，客户端先执行 `UpdateLearnedSkillCount(skillType)`，把该类型当前持有数加 1，然后才调用 `GetDeltaWeightPercent(skillType)`；移除技能时顺序相反，先执行 `DecreaseLearnedSkillCount(skillType)`，再重新调用 `GetDeltaWeightPercent(skillType)`。两条路径随后都把这次重新计算出的 delta 传给 `AdjustWeightsForSkillGroup`。
+
+因此 `GetDeltaWeightPercent` 返回的不是“本次变化量再 +50%”，而是由**当前同类型技能总数**决定的目标修正值：
+
+`targetDelta(type) = min(currentLearnedCount(type) × 50%, 500%)`
+
+如果线上 HotFix 实现了 `AdjustWeightsForSkillGroup`，合理的应用语义应是把该 SkillType 相关候选更新到这个当前目标值，而不是在旧修正上继续累计。这样在技能被替换/移除时，目标值也会自然从例如 +150% 回落到 +100%。这与新增、删除两条 native 调用顺序完全一致。
+
+这项补证没有改变前面的证据边界：**目标公式与重算时机已经证明，1.0.16 APK fallback 真正把目标值写进候选池仍未证明。**
+
 ## 十、策划视角下，当前三选一可以还原成什么
 
 普通主线的一次成长选择，可以暂时还原为：
