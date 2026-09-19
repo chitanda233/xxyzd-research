@@ -1,534 +1,1951 @@
 {
-  "source": {
-    "clientVersion": "1.0.16",
-    "versionCode": 40,
-    "missionTable": "restored/configs/tables/MissionWaterfallMission_WaterfallMission.json",
-    "chapterWaveTable": "restored/configs/tables/ChapterWave_Waves.json",
-    "positionGroupTable": "restored/configs/tables/Mission_PositionGroupMonsterFlushConfig.json",
-    "randomMonsterTable": "restored/configs/tables/Mission_RandomMonsterFlushConfig.json",
-    "characterTable": "restored/configs/tables/Character_entity.json",
-    "expTable": "restored/configs/tables/Exp_exp.json",
-    "missionIdRange": [
-      1001001,
-      1001078
-    ],
-    "missionRowCount": 78
-  },
-  "interpretation": {
-    "configuredBossSpawnSeconds": 347,
-    "experienceModel": "Chapter 1 WaveAllExp exactly matches consecutive Exp_exp.waveExp threshold deltas.",
-    "randomSpawnSemantics": "numberRandom is the total emitted entity target for a mission instruction, not a multiplier applied independently to every randomMonster config.",
-    "gateModel": "Only waves 10 and 15 have StopByEliteOrBossKilled=1. Wave 5 is a special-UI/event crest but not a kill gate.",
-    "regularWaveEndGrowth": "Static APK evidence clearly supports normal wave-end growth processing for W1-W14 because WaveEndSpecialUIType=[4]. W15 has no WaveEndSpecialUIType, so its 2000 EXP budget must not be mechanically counted as a guaranteed 15th normal three-choice selection."
-  },
+  "sourceMissionRange": [
+    1001001,
+    1001078
+  ],
+  "instructionCount": 78,
+  "chapter": 1,
   "waves": [
     {
       "wave": 1,
-      "start": 0,
-      "nextStart": 15,
+      "startTime": 0,
+      "nextWaveStartTime": 15,
       "nominalDuration": 15,
-      "lastConfiguredSpawn": 9.9,
-      "spawnMoments": 19,
-      "totalMonsterCount": 20,
-      "composition": {
-        "320021": 2,
-        "330006": 18
-      },
+      "lastSpawnTime": 9.9,
+      "spawnBatchCount": 19,
+      "rowCount": 1,
       "stopByEliteOrBossKilled": 0,
       "waveAllExp": 200,
-      "startUI": [
+      "waveStartSpecialUIType": [
         1
       ],
-      "endUI": [
+      "waveEndSpecialUIType": [
         4
+      ],
+      "monsters": [
+        {
+          "id": 320021,
+          "count": 2,
+          "type": 2,
+          "showHpType": 1,
+          "hp": 800,
+          "attack": 100,
+          "exp": 65,
+          "monsterDropType": 2
+        },
+        {
+          "id": 330006,
+          "count": 18,
+          "type": 2,
+          "showHpType": 0,
+          "hp": 150,
+          "attack": 75,
+          "exp": 12,
+          "monsterDropType": 1
+        }
+      ],
+      "events": [
+        {
+          "time": 0,
+          "kind": "spawn",
+          "source": "position_group:3001056",
+          "missionId": 1001001,
+          "monsters": {
+            "330006": 1
+          }
+        },
+        {
+          "time": 0.2,
+          "kind": "spawn",
+          "source": "position_group:3001056",
+          "missionId": 1001001,
+          "monsters": {
+            "330006": 1
+          }
+        },
+        {
+          "time": 0.4,
+          "kind": "spawn",
+          "source": "position_group:3001056",
+          "missionId": 1001001,
+          "monsters": {
+            "330006": 1
+          }
+        },
+        {
+          "time": 1.3,
+          "kind": "spawn",
+          "source": "position_group:3001056",
+          "missionId": 1001001,
+          "monsters": {
+            "330006": 1
+          }
+        },
+        {
+          "time": 1.5,
+          "kind": "spawn",
+          "source": "position_group:3001056",
+          "missionId": 1001001,
+          "monsters": {
+            "330006": 1
+          }
+        },
+        {
+          "time": 1.7,
+          "kind": "spawn",
+          "source": "position_group:3001056",
+          "missionId": 1001001,
+          "monsters": {
+            "330006": 1
+          }
+        },
+        {
+          "time": 2.6,
+          "kind": "spawn",
+          "source": "position_group:3001056",
+          "missionId": 1001001,
+          "monsters": {
+            "330006": 1
+          }
+        },
+        {
+          "time": 2.8,
+          "kind": "spawn",
+          "source": "position_group:3001056",
+          "missionId": 1001001,
+          "monsters": {
+            "330006": 1
+          }
+        },
+        {
+          "time": 3,
+          "kind": "spawn",
+          "source": "position_group:3001056",
+          "missionId": 1001001,
+          "monsters": {
+            "330006": 1
+          }
+        },
+        {
+          "time": 3,
+          "kind": "spawn",
+          "source": "position_group:3001056",
+          "missionId": 1001001,
+          "monsters": {
+            "320021": 1
+          }
+        },
+        {
+          "time": 3.5,
+          "kind": "spawn",
+          "source": "position_group:3001056",
+          "missionId": 1001001,
+          "monsters": {
+            "330006": 1
+          }
+        },
+        {
+          "time": 3.7,
+          "kind": "spawn",
+          "source": "position_group:3001056",
+          "missionId": 1001001,
+          "monsters": {
+            "330006": 1
+          }
+        },
+        {
+          "time": 4.8,
+          "kind": "spawn",
+          "source": "position_group:3001056",
+          "missionId": 1001001,
+          "monsters": {
+            "330006": 1
+          }
+        },
+        {
+          "time": 5,
+          "kind": "spawn",
+          "source": "position_group:3001056",
+          "missionId": 1001001,
+          "monsters": {
+            "320021": 1
+          }
+        },
+        {
+          "time": 6.5,
+          "kind": "spawn",
+          "source": "position_group:3001056",
+          "missionId": 1001001,
+          "monsters": {
+            "330006": 1
+          }
+        },
+        {
+          "time": 6.7,
+          "kind": "spawn",
+          "source": "position_group:3001056",
+          "missionId": 1001001,
+          "monsters": {
+            "330006": 1
+          }
+        },
+        {
+          "time": 7,
+          "kind": "spawn",
+          "source": "position_group:3001056",
+          "missionId": 1001001,
+          "monsters": {
+            "330006": 1
+          }
+        },
+        {
+          "time": 9.5,
+          "kind": "spawn",
+          "source": "position_group:3001056",
+          "missionId": 1001001,
+          "monsters": {
+            "330006": 1
+          }
+        },
+        {
+          "time": 9.7,
+          "kind": "spawn",
+          "source": "position_group:3001056",
+          "missionId": 1001001,
+          "monsters": {
+            "330006": 1
+          }
+        },
+        {
+          "time": 9.9,
+          "kind": "spawn",
+          "source": "position_group:3001056",
+          "missionId": 1001001,
+          "monsters": {
+            "330006": 1
+          }
+        }
       ]
     },
     {
       "wave": 2,
-      "start": 15,
-      "nextStart": 30,
+      "startTime": 15,
+      "nextWaveStartTime": 30,
       "nominalDuration": 15,
-      "lastConfiguredSpawn": 20.5,
-      "spawnMoments": 10,
-      "totalMonsterCount": 10,
-      "composition": {
-        "320022": 2,
-        "330006": 8
-      },
+      "lastSpawnTime": 20.5,
+      "spawnBatchCount": 10,
+      "rowCount": 1,
       "stopByEliteOrBossKilled": 0,
       "waveAllExp": 550,
-      "startUI": [
+      "waveStartSpecialUIType": [
         1
       ],
-      "endUI": [
+      "waveEndSpecialUIType": [
         4
+      ],
+      "monsters": [
+        {
+          "id": 320022,
+          "count": 2,
+          "type": 2,
+          "showHpType": 1,
+          "hp": 1100,
+          "attack": 100,
+          "exp": 65,
+          "monsterDropType": 2
+        },
+        {
+          "id": 330006,
+          "count": 8,
+          "type": 2,
+          "showHpType": 0,
+          "hp": 150,
+          "attack": 75,
+          "exp": 12,
+          "monsterDropType": 1
+        }
+      ],
+      "events": [
+        {
+          "time": 15,
+          "kind": "spawn",
+          "source": "position_group:3001057",
+          "missionId": 1001002,
+          "monsters": {
+            "330006": 1
+          }
+        },
+        {
+          "time": 15.2,
+          "kind": "spawn",
+          "source": "position_group:3001057",
+          "missionId": 1001002,
+          "monsters": {
+            "330006": 1
+          }
+        },
+        {
+          "time": 15.4,
+          "kind": "spawn",
+          "source": "position_group:3001057",
+          "missionId": 1001002,
+          "monsters": {
+            "330006": 1
+          }
+        },
+        {
+          "time": 16,
+          "kind": "spawn",
+          "source": "position_group:3001057",
+          "missionId": 1001002,
+          "monsters": {
+            "320022": 1
+          }
+        },
+        {
+          "time": 17,
+          "kind": "spawn",
+          "source": "position_group:3001057",
+          "missionId": 1001002,
+          "monsters": {
+            "330006": 1
+          }
+        },
+        {
+          "time": 18,
+          "kind": "spawn",
+          "source": "position_group:3001057",
+          "missionId": 1001002,
+          "monsters": {
+            "320022": 1
+          }
+        },
+        {
+          "time": 19,
+          "kind": "spawn",
+          "source": "position_group:3001057",
+          "missionId": 1001002,
+          "monsters": {
+            "330006": 1
+          }
+        },
+        {
+          "time": 19.2,
+          "kind": "spawn",
+          "source": "position_group:3001057",
+          "missionId": 1001002,
+          "monsters": {
+            "330006": 1
+          }
+        },
+        {
+          "time": 19.4,
+          "kind": "spawn",
+          "source": "position_group:3001057",
+          "missionId": 1001002,
+          "monsters": {
+            "330006": 1
+          }
+        },
+        {
+          "time": 20.5,
+          "kind": "spawn",
+          "source": "position_group:3001057",
+          "missionId": 1001002,
+          "monsters": {
+            "330006": 1
+          }
+        }
       ]
     },
     {
       "wave": 3,
-      "start": 30,
-      "nextStart": 45,
+      "startTime": 30,
+      "nextWaveStartTime": 45,
       "nominalDuration": 15,
-      "lastConfiguredSpawn": 37.4,
-      "spawnMoments": 5,
-      "totalMonsterCount": 5,
-      "composition": {
-        "320017": 2,
-        "320021": 1,
-        "330006": 2
-      },
+      "lastSpawnTime": 37.4,
+      "spawnBatchCount": 5,
+      "rowCount": 1,
       "stopByEliteOrBossKilled": 0,
       "waveAllExp": 600,
-      "startUI": [
+      "waveStartSpecialUIType": [
         1
       ],
-      "endUI": [
+      "waveEndSpecialUIType": [
         4
+      ],
+      "monsters": [
+        {
+          "id": 320017,
+          "count": 2,
+          "type": 2,
+          "showHpType": 1,
+          "hp": 800,
+          "attack": 100,
+          "exp": 65,
+          "monsterDropType": 2
+        },
+        {
+          "id": 320021,
+          "count": 1,
+          "type": 2,
+          "showHpType": 1,
+          "hp": 800,
+          "attack": 100,
+          "exp": 65,
+          "monsterDropType": 2
+        },
+        {
+          "id": 330006,
+          "count": 2,
+          "type": 2,
+          "showHpType": 0,
+          "hp": 150,
+          "attack": 75,
+          "exp": 12,
+          "monsterDropType": 1
+        }
+      ],
+      "events": [
+        {
+          "time": 30,
+          "kind": "spawn",
+          "source": "position_group:3001058",
+          "missionId": 1001003,
+          "monsters": {
+            "320021": 1
+          }
+        },
+        {
+          "time": 30.5,
+          "kind": "spawn",
+          "source": "position_group:3001058",
+          "missionId": 1001003,
+          "monsters": {
+            "330006": 1
+          }
+        },
+        {
+          "time": 32.8,
+          "kind": "spawn",
+          "source": "position_group:3001058",
+          "missionId": 1001003,
+          "monsters": {
+            "320017": 1
+          }
+        },
+        {
+          "time": 35.1,
+          "kind": "spawn",
+          "source": "position_group:3001058",
+          "missionId": 1001003,
+          "monsters": {
+            "330006": 1
+          }
+        },
+        {
+          "time": 37.4,
+          "kind": "spawn",
+          "source": "position_group:3001058",
+          "missionId": 1001003,
+          "monsters": {
+            "320017": 1
+          }
+        }
       ]
     },
     {
       "wave": 4,
-      "start": 45,
-      "nextStart": 62,
+      "startTime": 45,
+      "nextWaveStartTime": 62,
       "nominalDuration": 17,
-      "lastConfiguredSpawn": 55.5,
-      "spawnMoments": 7,
-      "totalMonsterCount": 7,
-      "composition": {
-        "320017": 2,
-        "320019": 2,
-        "330006": 3
-      },
+      "lastSpawnTime": 55.5,
+      "spawnBatchCount": 7,
+      "rowCount": 1,
       "stopByEliteOrBossKilled": 0,
       "waveAllExp": 600,
-      "startUI": [
+      "waveStartSpecialUIType": [
         1
       ],
-      "endUI": [
+      "waveEndSpecialUIType": [
         4
+      ],
+      "monsters": [
+        {
+          "id": 320017,
+          "count": 2,
+          "type": 2,
+          "showHpType": 1,
+          "hp": 800,
+          "attack": 100,
+          "exp": 65,
+          "monsterDropType": 2
+        },
+        {
+          "id": 320019,
+          "count": 2,
+          "type": 2,
+          "showHpType": 1,
+          "hp": 1200,
+          "attack": 100,
+          "exp": 65,
+          "monsterDropType": 2
+        },
+        {
+          "id": 330006,
+          "count": 3,
+          "type": 2,
+          "showHpType": 0,
+          "hp": 150,
+          "attack": 75,
+          "exp": 12,
+          "monsterDropType": 1
+        }
+      ],
+      "events": [
+        {
+          "time": 45,
+          "kind": "spawn",
+          "source": "position_group:3001059",
+          "missionId": 1001004,
+          "monsters": {
+            "320019": 1
+          }
+        },
+        {
+          "time": 46,
+          "kind": "spawn",
+          "source": "position_group:3001059",
+          "missionId": 1001004,
+          "monsters": {
+            "330006": 1
+          }
+        },
+        {
+          "time": 48.5,
+          "kind": "spawn",
+          "source": "position_group:3001059",
+          "missionId": 1001004,
+          "monsters": {
+            "320017": 1
+          }
+        },
+        {
+          "time": 49.5,
+          "kind": "spawn",
+          "source": "position_group:3001059",
+          "missionId": 1001004,
+          "monsters": {
+            "330006": 1
+          }
+        },
+        {
+          "time": 52,
+          "kind": "spawn",
+          "source": "position_group:3001059",
+          "missionId": 1001004,
+          "monsters": {
+            "320019": 1
+          }
+        },
+        {
+          "time": 53,
+          "kind": "spawn",
+          "source": "position_group:3001059",
+          "missionId": 1001004,
+          "monsters": {
+            "330006": 1
+          }
+        },
+        {
+          "time": 55.5,
+          "kind": "spawn",
+          "source": "position_group:3001059",
+          "missionId": 1001004,
+          "monsters": {
+            "320017": 1
+          }
+        }
       ]
     },
     {
       "wave": 5,
-      "start": 62,
-      "nextStart": 105,
+      "startTime": 62,
+      "nextWaveStartTime": 105,
       "nominalDuration": 43,
-      "lastConfiguredSpawn": 71,
-      "spawnMoments": 14,
-      "totalMonsterCount": 16,
-      "composition": {
-        "320005": 1,
-        "320017": 3,
-        "320021": 1,
-        "330006": 11
-      },
+      "lastSpawnTime": 71,
+      "spawnBatchCount": 14,
+      "rowCount": 16,
       "stopByEliteOrBossKilled": 0,
       "waveAllExp": 700,
-      "startUI": [
+      "waveStartSpecialUIType": [
         1,
         5
       ],
-      "endUI": [
+      "waveEndSpecialUIType": [
         4
       ],
-      "designRole": "first special-UI/event crest; soft checkpoint"
+      "monsters": [
+        {
+          "id": 320005,
+          "count": 1,
+          "type": 2,
+          "showHpType": 1,
+          "hp": 2350,
+          "attack": 100,
+          "exp": 130,
+          "monsterDropType": 2
+        },
+        {
+          "id": 320017,
+          "count": 3,
+          "type": 2,
+          "showHpType": 1,
+          "hp": 800,
+          "attack": 100,
+          "exp": 65,
+          "monsterDropType": 2
+        },
+        {
+          "id": 320021,
+          "count": 1,
+          "type": 2,
+          "showHpType": 1,
+          "hp": 800,
+          "attack": 100,
+          "exp": 65,
+          "monsterDropType": 2
+        },
+        {
+          "id": 330006,
+          "count": 11,
+          "type": 2,
+          "showHpType": 0,
+          "hp": 150,
+          "attack": 75,
+          "exp": 12,
+          "monsterDropType": 1
+        }
+      ],
+      "events": [
+        {
+          "time": 62,
+          "kind": "spawn",
+          "source": "direct_or_random",
+          "missionId": 1001005,
+          "monsters": {
+            "320005": 1
+          }
+        },
+        {
+          "time": 62.5,
+          "kind": "spawn",
+          "source": "direct_or_random",
+          "missionId": 1001006,
+          "monsters": {
+            "320021": 1
+          }
+        },
+        {
+          "time": 62.5,
+          "kind": "spawn",
+          "source": "direct_or_random",
+          "missionId": 1001010,
+          "monsters": {
+            "330006": 1
+          }
+        },
+        {
+          "time": 64,
+          "kind": "spawn",
+          "source": "direct_or_random",
+          "missionId": 1001011,
+          "monsters": {
+            "330006": 1
+          }
+        },
+        {
+          "time": 64.2,
+          "kind": "spawn",
+          "source": "direct_or_random",
+          "missionId": 1001012,
+          "monsters": {
+            "330006": 1
+          }
+        },
+        {
+          "time": 64.4,
+          "kind": "spawn",
+          "source": "direct_or_random",
+          "missionId": 1001013,
+          "monsters": {
+            "330006": 1
+          }
+        },
+        {
+          "time": 65,
+          "kind": "spawn",
+          "source": "direct_or_random",
+          "missionId": 1001007,
+          "monsters": {
+            "320017": 1
+          }
+        },
+        {
+          "time": 65.5,
+          "kind": "spawn",
+          "source": "direct_or_random",
+          "missionId": 1001014,
+          "monsters": {
+            "330006": 1
+          }
+        },
+        {
+          "time": 67,
+          "kind": "spawn",
+          "source": "direct_or_random",
+          "missionId": 1001015,
+          "monsters": {
+            "330006": 1
+          }
+        },
+        {
+          "time": 67.2,
+          "kind": "spawn",
+          "source": "direct_or_random",
+          "missionId": 1001016,
+          "monsters": {
+            "330006": 1
+          }
+        },
+        {
+          "time": 68,
+          "kind": "spawn",
+          "source": "direct_or_random",
+          "missionId": 1001008,
+          "monsters": {
+            "320017": 1
+          }
+        },
+        {
+          "time": 68,
+          "kind": "spawn",
+          "source": "direct_or_random",
+          "missionId": 1001017,
+          "monsters": {
+            "330006": 1
+          }
+        },
+        {
+          "time": 69.5,
+          "kind": "spawn",
+          "source": "direct_or_random",
+          "missionId": 1001018,
+          "monsters": {
+            "330006": 1
+          }
+        },
+        {
+          "time": 69.7,
+          "kind": "spawn",
+          "source": "direct_or_random",
+          "missionId": 1001019,
+          "monsters": {
+            "330006": 1
+          }
+        },
+        {
+          "time": 70.5,
+          "kind": "spawn",
+          "source": "direct_or_random",
+          "missionId": 1001020,
+          "monsters": {
+            "330006": 1
+          }
+        },
+        {
+          "time": 71,
+          "kind": "spawn",
+          "source": "direct_or_random",
+          "missionId": 1001009,
+          "monsters": {
+            "320017": 1
+          }
+        }
+      ]
     },
     {
       "wave": 6,
-      "start": 105,
-      "nextStart": 135,
+      "startTime": 105,
+      "nextWaveStartTime": 135,
       "nominalDuration": 30,
-      "lastConfiguredSpawn": 113.6,
-      "spawnMoments": 4,
-      "totalMonsterCount": 5,
-      "composition": {
-        "320005": 1,
-        "330006": 4
-      },
+      "lastSpawnTime": 113.6,
+      "spawnBatchCount": 4,
+      "rowCount": 2,
       "stopByEliteOrBossKilled": 0,
       "waveAllExp": 800,
-      "startUI": [
+      "waveStartSpecialUIType": [
         1
       ],
-      "endUI": [
+      "waveEndSpecialUIType": [
         4
       ],
-      "missionEvents": [
+      "monsters": [
         {
-          "at": 105,
-          "missionType": 9
+          "id": 320005,
+          "count": 1,
+          "type": 2,
+          "showHpType": 1,
+          "hp": 2350,
+          "attack": 100,
+          "exp": 130,
+          "monsterDropType": 2
+        },
+        {
+          "id": 330006,
+          "count": 4,
+          "type": 2,
+          "showHpType": 0,
+          "hp": 150,
+          "attack": 75,
+          "exp": 12,
+          "monsterDropType": 1
         }
       ],
-      "combatStart": 107
+      "events": [
+        {
+          "time": 105,
+          "kind": "mission_event",
+          "missionId": 1001021,
+          "missionType": 9
+        },
+        {
+          "time": 107,
+          "kind": "spawn",
+          "source": "position_group:3001060",
+          "missionId": 1001022,
+          "monsters": {
+            "320005": 1
+          }
+        },
+        {
+          "time": 107,
+          "kind": "spawn",
+          "source": "position_group:3001060",
+          "missionId": 1001022,
+          "monsters": {
+            "330006": 1
+          }
+        },
+        {
+          "time": 109.2,
+          "kind": "spawn",
+          "source": "position_group:3001060",
+          "missionId": 1001022,
+          "monsters": {
+            "330006": 1
+          }
+        },
+        {
+          "time": 111.4,
+          "kind": "spawn",
+          "source": "position_group:3001060",
+          "missionId": 1001022,
+          "monsters": {
+            "330006": 1
+          }
+        },
+        {
+          "time": 113.6,
+          "kind": "spawn",
+          "source": "position_group:3001060",
+          "missionId": 1001022,
+          "monsters": {
+            "330006": 1
+          }
+        }
+      ]
     },
     {
       "wave": 7,
-      "start": 135,
-      "nextStart": 150,
+      "startTime": 135,
+      "nextWaveStartTime": 150,
       "nominalDuration": 15,
-      "lastConfiguredSpawn": 143.5,
-      "spawnMoments": 7,
-      "totalMonsterCount": 7,
-      "composition": {
-        "320005": 1,
-        "320017": 4,
-        "320019": 2
-      },
+      "lastSpawnTime": 143.5,
+      "spawnBatchCount": 7,
+      "rowCount": 1,
       "stopByEliteOrBossKilled": 0,
       "waveAllExp": 800,
-      "startUI": [
+      "waveStartSpecialUIType": [
         1
       ],
-      "endUI": [
+      "waveEndSpecialUIType": [
         4
+      ],
+      "monsters": [
+        {
+          "id": 320005,
+          "count": 1,
+          "type": 2,
+          "showHpType": 1,
+          "hp": 2350,
+          "attack": 100,
+          "exp": 130,
+          "monsterDropType": 2
+        },
+        {
+          "id": 320017,
+          "count": 4,
+          "type": 2,
+          "showHpType": 1,
+          "hp": 800,
+          "attack": 100,
+          "exp": 65,
+          "monsterDropType": 2
+        },
+        {
+          "id": 320019,
+          "count": 2,
+          "type": 2,
+          "showHpType": 1,
+          "hp": 1200,
+          "attack": 100,
+          "exp": 65,
+          "monsterDropType": 2
+        }
+      ],
+      "events": [
+        {
+          "time": 135,
+          "kind": "spawn",
+          "source": "position_group:3001061",
+          "missionId": 1001023,
+          "monsters": {
+            "320017": 1
+          }
+        },
+        {
+          "time": 136.5,
+          "kind": "spawn",
+          "source": "position_group:3001061",
+          "missionId": 1001023,
+          "monsters": {
+            "320017": 1
+          }
+        },
+        {
+          "time": 138,
+          "kind": "spawn",
+          "source": "position_group:3001061",
+          "missionId": 1001023,
+          "monsters": {
+            "320005": 1
+          }
+        },
+        {
+          "time": 139,
+          "kind": "spawn",
+          "source": "position_group:3001061",
+          "missionId": 1001023,
+          "monsters": {
+            "320017": 1
+          }
+        },
+        {
+          "time": 140.5,
+          "kind": "spawn",
+          "source": "position_group:3001061",
+          "missionId": 1001023,
+          "monsters": {
+            "320017": 1
+          }
+        },
+        {
+          "time": 142,
+          "kind": "spawn",
+          "source": "position_group:3001061",
+          "missionId": 1001023,
+          "monsters": {
+            "320019": 1
+          }
+        },
+        {
+          "time": 143.5,
+          "kind": "spawn",
+          "source": "position_group:3001061",
+          "missionId": 1001023,
+          "monsters": {
+            "320019": 1
+          }
+        }
       ]
     },
     {
       "wave": 8,
-      "start": 150,
-      "nextStart": 180,
+      "startTime": 150,
+      "nextWaveStartTime": 180,
       "nominalDuration": 30,
-      "lastConfiguredSpawn": 169,
-      "spawnMoments": 11,
-      "totalMonsterCount": 18,
-      "composition": {
-        "320005": 2,
-        "320030": 4,
-        "330006": 12
-      },
+      "lastSpawnTime": 169,
+      "spawnBatchCount": 11,
+      "rowCount": 12,
       "stopByEliteOrBossKilled": 0,
       "waveAllExp": 950,
-      "startUI": [
+      "waveStartSpecialUIType": [
         1
       ],
-      "endUI": [
+      "waveEndSpecialUIType": [
         4
       ],
-      "designRole": "two-stage pressure wave"
+      "monsters": [
+        {
+          "id": 320005,
+          "count": 2,
+          "type": 2,
+          "showHpType": 1,
+          "hp": 2350,
+          "attack": 100,
+          "exp": 130,
+          "monsterDropType": 2
+        },
+        {
+          "id": 320030,
+          "count": 4,
+          "type": 2,
+          "showHpType": 1,
+          "hp": 800,
+          "attack": 100,
+          "exp": 65,
+          "monsterDropType": 2
+        },
+        {
+          "id": 330006,
+          "count": 20,
+          "type": 2,
+          "showHpType": 0,
+          "hp": 150,
+          "attack": 75,
+          "exp": 12,
+          "monsterDropType": 1
+        }
+      ],
+      "events": [
+        {
+          "time": 150,
+          "kind": "spawn",
+          "source": "direct_or_random",
+          "missionId": 1001024,
+          "monsters": {
+            "330006": 10
+          }
+        },
+        {
+          "time": 150,
+          "kind": "spawn",
+          "source": "position_group:3001062",
+          "missionId": 1001024,
+          "monsters": {
+            "320005": 1
+          }
+        },
+        {
+          "time": 150,
+          "kind": "spawn",
+          "source": "position_group:3001062",
+          "missionId": 1001024,
+          "monsters": {
+            "320030": 1
+          }
+        },
+        {
+          "time": 150,
+          "kind": "spawn",
+          "source": "direct_or_random",
+          "missionId": 1001027,
+          "monsters": {
+            "330006": 1
+          }
+        },
+        {
+          "time": 151.6,
+          "kind": "spawn",
+          "source": "position_group:3001062",
+          "missionId": 1001024,
+          "monsters": {
+            "320030": 1
+          }
+        },
+        {
+          "time": 151.6,
+          "kind": "spawn",
+          "source": "direct_or_random",
+          "missionId": 1001025,
+          "monsters": {
+            "330006": 1
+          }
+        },
+        {
+          "time": 153,
+          "kind": "spawn",
+          "source": "direct_or_random",
+          "missionId": 1001028,
+          "monsters": {
+            "330006": 1
+          }
+        },
+        {
+          "time": 153.2,
+          "kind": "spawn",
+          "source": "position_group:3001062",
+          "missionId": 1001024,
+          "monsters": {
+            "320030": 1
+          }
+        },
+        {
+          "time": 153.2,
+          "kind": "spawn",
+          "source": "direct_or_random",
+          "missionId": 1001026,
+          "monsters": {
+            "330006": 1
+          }
+        },
+        {
+          "time": 154.8,
+          "kind": "spawn",
+          "source": "position_group:3001062",
+          "missionId": 1001024,
+          "monsters": {
+            "320030": 1
+          }
+        },
+        {
+          "time": 165,
+          "kind": "spawn",
+          "source": "direct_or_random",
+          "missionId": 1001029,
+          "monsters": {
+            "320005": 1
+          }
+        },
+        {
+          "time": 165,
+          "kind": "spawn",
+          "source": "direct_or_random",
+          "missionId": 1001030,
+          "monsters": {
+            "330006": 1
+          }
+        },
+        {
+          "time": 165.8,
+          "kind": "spawn",
+          "source": "direct_or_random",
+          "missionId": 1001031,
+          "monsters": {
+            "330006": 1
+          }
+        },
+        {
+          "time": 166.6,
+          "kind": "spawn",
+          "source": "direct_or_random",
+          "missionId": 1001032,
+          "monsters": {
+            "330006": 1
+          }
+        },
+        {
+          "time": 167.4,
+          "kind": "spawn",
+          "source": "direct_or_random",
+          "missionId": 1001033,
+          "monsters": {
+            "330006": 1
+          }
+        },
+        {
+          "time": 168.2,
+          "kind": "spawn",
+          "source": "direct_or_random",
+          "missionId": 1001034,
+          "monsters": {
+            "330006": 1
+          }
+        },
+        {
+          "time": 169,
+          "kind": "spawn",
+          "source": "direct_or_random",
+          "missionId": 1001035,
+          "monsters": {
+            "330006": 1
+          }
+        }
+      ]
     },
     {
       "wave": 9,
-      "start": 180,
-      "nextStart": 197,
+      "startTime": 180,
+      "nextWaveStartTime": 197,
       "nominalDuration": 17,
-      "lastConfiguredSpawn": 180,
-      "spawnMoments": 1,
-      "totalMonsterCount": 2,
-      "composition": {
-        "320017": 1,
-        "330006": 1
-      },
+      "lastSpawnTime": 180,
+      "spawnBatchCount": 1,
+      "rowCount": 2,
       "stopByEliteOrBossKilled": 0,
       "waveAllExp": 1000,
-      "startUI": [
+      "waveStartSpecialUIType": [
         1
       ],
-      "endUI": [
+      "waveEndSpecialUIType": [
         4
+      ],
+      "monsters": [
+        {
+          "id": 320017,
+          "count": 1,
+          "type": 2,
+          "showHpType": 1,
+          "hp": 800,
+          "attack": 100,
+          "exp": 65,
+          "monsterDropType": 2
+        },
+        {
+          "id": 330006,
+          "count": 1,
+          "type": 2,
+          "showHpType": 0,
+          "hp": 150,
+          "attack": 75,
+          "exp": 12,
+          "monsterDropType": 1
+        }
+      ],
+      "events": [
+        {
+          "time": 180,
+          "kind": "spawn",
+          "source": "direct_or_random",
+          "missionId": 1001036,
+          "monsters": {
+            "320017": 1
+          }
+        },
+        {
+          "time": 180,
+          "kind": "spawn",
+          "source": "direct_or_random",
+          "missionId": 1001037,
+          "monsters": {
+            "330006": 1
+          }
+        }
       ]
     },
     {
       "wave": 10,
-      "start": 197,
-      "nextStart": 240,
+      "startTime": 197,
+      "nextWaveStartTime": 240,
       "nominalDuration": 43,
-      "lastConfiguredSpawn": 225,
-      "spawnMoments": 9,
-      "configuredMaxMonsterCount": 18,
-      "composition": {
-        "310008": 1,
-        "320017": 4,
-        "320019": 4,
-        "320021": 1,
-        "330006": 8
-      },
+      "lastSpawnTime": 225,
+      "spawnBatchCount": 9,
+      "rowCount": 10,
       "stopByEliteOrBossKilled": 1,
       "waveAllExp": 1100,
-      "startUI": [
+      "waveStartSpecialUIType": [
         1,
         5
       ],
-      "endUI": [
+      "waveEndSpecialUIType": [
         4
       ],
-      "designRole": "first true elite hard gate",
-      "note": "Early death of the special monster can clear queued spawn data, so realized monster count may be below configured maximum."
+      "monsters": [
+        {
+          "id": 310008,
+          "count": 1,
+          "type": 201,
+          "showHpType": 2,
+          "hp": 7000,
+          "attack": 100,
+          "exp": 130,
+          "monsterDropType": 3
+        },
+        {
+          "id": 320017,
+          "count": 4,
+          "type": 2,
+          "showHpType": 1,
+          "hp": 800,
+          "attack": 100,
+          "exp": 65,
+          "monsterDropType": 2
+        },
+        {
+          "id": 320019,
+          "count": 4,
+          "type": 2,
+          "showHpType": 1,
+          "hp": 1200,
+          "attack": 100,
+          "exp": 65,
+          "monsterDropType": 2
+        },
+        {
+          "id": 320021,
+          "count": 1,
+          "type": 2,
+          "showHpType": 1,
+          "hp": 800,
+          "attack": 100,
+          "exp": 65,
+          "monsterDropType": 2
+        },
+        {
+          "id": 330006,
+          "count": 8,
+          "type": 2,
+          "showHpType": 0,
+          "hp": 150,
+          "attack": 75,
+          "exp": 12,
+          "monsterDropType": 1
+        }
+      ],
+      "events": [
+        {
+          "time": 197,
+          "kind": "spawn",
+          "source": "direct_or_random",
+          "missionId": 1001038,
+          "monsters": {
+            "310008": 1
+          }
+        },
+        {
+          "time": 197,
+          "kind": "spawn",
+          "source": "direct_or_random",
+          "missionId": 1001039,
+          "monsters": {
+            "320021": 1
+          }
+        },
+        {
+          "time": 200.5,
+          "kind": "spawn",
+          "source": "direct_or_random",
+          "missionId": 1001040,
+          "monsters": {
+            "320017": 1,
+            "330006": 1
+          }
+        },
+        {
+          "time": 204,
+          "kind": "spawn",
+          "source": "direct_or_random",
+          "missionId": 1001041,
+          "monsters": {
+            "320019": 1,
+            "330006": 1
+          }
+        },
+        {
+          "time": 207.5,
+          "kind": "spawn",
+          "source": "direct_or_random",
+          "missionId": 1001042,
+          "monsters": {
+            "320017": 1,
+            "330006": 1
+          }
+        },
+        {
+          "time": 211,
+          "kind": "spawn",
+          "source": "direct_or_random",
+          "missionId": 1001043,
+          "monsters": {
+            "320019": 1,
+            "330006": 1
+          }
+        },
+        {
+          "time": 214.5,
+          "kind": "spawn",
+          "source": "direct_or_random",
+          "missionId": 1001044,
+          "monsters": {
+            "320017": 1,
+            "330006": 1
+          }
+        },
+        {
+          "time": 218,
+          "kind": "spawn",
+          "source": "direct_or_random",
+          "missionId": 1001045,
+          "monsters": {
+            "320019": 1,
+            "330006": 1
+          }
+        },
+        {
+          "time": 221.5,
+          "kind": "spawn",
+          "source": "direct_or_random",
+          "missionId": 1001046,
+          "monsters": {
+            "320017": 1,
+            "330006": 1
+          }
+        },
+        {
+          "time": 225,
+          "kind": "spawn",
+          "source": "direct_or_random",
+          "missionId": 1001047,
+          "monsters": {
+            "320019": 1,
+            "330006": 1
+          }
+        }
+      ]
     },
     {
       "wave": 11,
-      "start": 240,
-      "nextStart": 270,
+      "startTime": 240,
+      "nextWaveStartTime": 270,
       "nominalDuration": 30,
-      "lastConfiguredSpawn": 248.1,
-      "spawnMoments": 4,
-      "totalMonsterCount": 8,
-      "composition": {
-        "320019": 3,
-        "320021": 1,
-        "330006": 4
-      },
+      "lastSpawnTime": 248.1,
+      "spawnBatchCount": 4,
+      "rowCount": 5,
       "stopByEliteOrBossKilled": 0,
       "waveAllExp": 1200,
-      "startUI": [
+      "waveStartSpecialUIType": [
         1
       ],
-      "endUI": [
+      "waveEndSpecialUIType": [
         4
       ],
-      "missionEvents": [
+      "monsters": [
         {
-          "at": 240,
-          "missionType": 9
+          "id": 320019,
+          "count": 3,
+          "type": 2,
+          "showHpType": 1,
+          "hp": 1200,
+          "attack": 100,
+          "exp": 65,
+          "monsterDropType": 2
+        },
+        {
+          "id": 320021,
+          "count": 1,
+          "type": 2,
+          "showHpType": 1,
+          "hp": 800,
+          "attack": 100,
+          "exp": 65,
+          "monsterDropType": 2
+        },
+        {
+          "id": 330006,
+          "count": 20,
+          "type": 2,
+          "showHpType": 0,
+          "hp": 150,
+          "attack": 75,
+          "exp": 12,
+          "monsterDropType": 1
         }
       ],
-      "combatStart": 242
+      "events": [
+        {
+          "time": 240,
+          "kind": "mission_event",
+          "missionId": 1001048,
+          "missionType": 9
+        },
+        {
+          "time": 242,
+          "kind": "spawn",
+          "source": "direct_or_random",
+          "missionId": 1001049,
+          "monsters": {
+            "320021": 1
+          }
+        },
+        {
+          "time": 242.5,
+          "kind": "spawn",
+          "source": "direct_or_random",
+          "missionId": 1001050,
+          "monsters": {
+            "320019": 1,
+            "330006": 10
+          }
+        },
+        {
+          "time": 245.3,
+          "kind": "spawn",
+          "source": "direct_or_random",
+          "missionId": 1001051,
+          "monsters": {
+            "320019": 1,
+            "330006": 10
+          }
+        },
+        {
+          "time": 248.1,
+          "kind": "spawn",
+          "source": "direct_or_random",
+          "missionId": 1001052,
+          "monsters": {
+            "320019": 1
+          }
+        }
+      ]
     },
     {
       "wave": 12,
-      "start": 270,
-      "nextStart": 300,
+      "startTime": 270,
+      "nextWaveStartTime": 300,
       "nominalDuration": 30,
-      "lastConfiguredSpawn": 291,
-      "spawnMoments": 9,
-      "totalMonsterCount": 21,
-      "composition": {
-        "320005": 1,
-        "320017": 2,
-        "320019": 1,
-        "320035": 2,
-        "330006": 15
-      },
+      "lastSpawnTime": 291,
+      "spawnBatchCount": 9,
+      "rowCount": 12,
       "stopByEliteOrBossKilled": 0,
       "waveAllExp": 1200,
-      "startUI": [
+      "waveStartSpecialUIType": [
         1
       ],
-      "endUI": [
+      "waveEndSpecialUIType": [
         4
       ],
-      "designRole": "chapter monster-count peak"
+      "monsters": [
+        {
+          "id": 320005,
+          "count": 1,
+          "type": 2,
+          "showHpType": 1,
+          "hp": 2350,
+          "attack": 100,
+          "exp": 130,
+          "monsterDropType": 2
+        },
+        {
+          "id": 320017,
+          "count": 2,
+          "type": 2,
+          "showHpType": 1,
+          "hp": 800,
+          "attack": 100,
+          "exp": 65,
+          "monsterDropType": 2
+        },
+        {
+          "id": 320019,
+          "count": 1,
+          "type": 2,
+          "showHpType": 1,
+          "hp": 1200,
+          "attack": 100,
+          "exp": 65,
+          "monsterDropType": 2
+        },
+        {
+          "id": 320035,
+          "count": 2,
+          "type": 2,
+          "showHpType": 1,
+          "hp": 2350,
+          "attack": 100,
+          "exp": 130,
+          "monsterDropType": 2
+        },
+        {
+          "id": 330006,
+          "count": 27,
+          "type": 2,
+          "showHpType": 0,
+          "hp": 150,
+          "attack": 75,
+          "exp": 12,
+          "monsterDropType": 1
+        }
+      ],
+      "events": [
+        {
+          "time": 270,
+          "kind": "spawn",
+          "source": "direct_or_random",
+          "missionId": 1001053,
+          "monsters": {
+            "320017": 1,
+            "330006": 4
+          }
+        },
+        {
+          "time": 272.7,
+          "kind": "spawn",
+          "source": "direct_or_random",
+          "missionId": 1001054,
+          "monsters": {
+            "320035": 1,
+            "330006": 4
+          }
+        },
+        {
+          "time": 275.4,
+          "kind": "spawn",
+          "source": "direct_or_random",
+          "missionId": 1001055,
+          "monsters": {
+            "320017": 1
+          }
+        },
+        {
+          "time": 278.1,
+          "kind": "spawn",
+          "source": "direct_or_random",
+          "missionId": 1001056,
+          "monsters": {
+            "320035": 1,
+            "330006": 4
+          }
+        },
+        {
+          "time": 280.8,
+          "kind": "spawn",
+          "source": "direct_or_random",
+          "missionId": 1001057,
+          "monsters": {
+            "320019": 1
+          }
+        },
+        {
+          "time": 285,
+          "kind": "spawn",
+          "source": "direct_or_random",
+          "missionId": 1001058,
+          "monsters": {
+            "320005": 1
+          }
+        },
+        {
+          "time": 285,
+          "kind": "spawn",
+          "source": "direct_or_random",
+          "missionId": 1001059,
+          "monsters": {
+            "330006": 1
+          }
+        },
+        {
+          "time": 285,
+          "kind": "spawn",
+          "source": "direct_or_random",
+          "missionId": 1001062,
+          "monsters": {
+            "330006": 4
+          }
+        },
+        {
+          "time": 288,
+          "kind": "spawn",
+          "source": "direct_or_random",
+          "missionId": 1001060,
+          "monsters": {
+            "330006": 5
+          }
+        },
+        {
+          "time": 290,
+          "kind": "spawn",
+          "source": "direct_or_random",
+          "missionId": 1001064,
+          "monsters": {
+            "330006": 4
+          }
+        },
+        {
+          "time": 291,
+          "kind": "spawn",
+          "source": "direct_or_random",
+          "missionId": 1001061,
+          "monsters": {
+            "330006": 1
+          }
+        }
+      ]
     },
     {
       "wave": 13,
-      "start": 300,
-      "nextStart": 315,
+      "startTime": 300,
+      "nextWaveStartTime": 315,
       "nominalDuration": 15,
-      "lastConfiguredSpawn": 311.5,
-      "spawnMoments": 4,
-      "totalMonsterCount": 4,
-      "composition": {
-        "320017": 1,
-        "330006": 3
-      },
+      "lastSpawnTime": 311.5,
+      "spawnBatchCount": 4,
+      "rowCount": 4,
       "stopByEliteOrBossKilled": 0,
       "waveAllExp": 1400,
-      "startUI": [
+      "waveStartSpecialUIType": [
         1
       ],
-      "endUI": [
+      "waveEndSpecialUIType": [
         4
+      ],
+      "monsters": [
+        {
+          "id": 320017,
+          "count": 1,
+          "type": 2,
+          "showHpType": 1,
+          "hp": 800,
+          "attack": 100,
+          "exp": 65,
+          "monsterDropType": 2
+        },
+        {
+          "id": 330006,
+          "count": 3,
+          "type": 2,
+          "showHpType": 0,
+          "hp": 150,
+          "attack": 75,
+          "exp": 12,
+          "monsterDropType": 1
+        }
+      ],
+      "events": [
+        {
+          "time": 300,
+          "kind": "spawn",
+          "source": "direct_or_random",
+          "missionId": 1001065,
+          "monsters": {
+            "320017": 1
+          }
+        },
+        {
+          "time": 301.5,
+          "kind": "spawn",
+          "source": "direct_or_random",
+          "missionId": 1001066,
+          "monsters": {
+            "330006": 1
+          }
+        },
+        {
+          "time": 306.5,
+          "kind": "spawn",
+          "source": "direct_or_random",
+          "missionId": 1001067,
+          "monsters": {
+            "330006": 1
+          }
+        },
+        {
+          "time": 311.5,
+          "kind": "spawn",
+          "source": "direct_or_random",
+          "missionId": 1001068,
+          "monsters": {
+            "330006": 1
+          }
+        }
       ]
     },
     {
       "wave": 14,
-      "start": 315,
-      "nextStart": 345,
+      "startTime": 315,
+      "nextWaveStartTime": 345,
       "nominalDuration": 30,
-      "lastConfiguredSpawn": 334,
-      "spawnMoments": 7,
-      "totalMonsterCount": 8,
-      "composition": {
-        "320017": 2,
-        "320019": 2,
-        "320021": 1,
-        "330006": 3
-      },
+      "lastSpawnTime": 334,
+      "spawnBatchCount": 7,
+      "rowCount": 8,
       "stopByEliteOrBossKilled": 0,
       "waveAllExp": 1700,
-      "startUI": [
+      "waveStartSpecialUIType": [
         1
       ],
-      "endUI": [
+      "waveEndSpecialUIType": [
         4
       ],
-      "designRole": "two-stage pre-boss transition"
+      "monsters": [
+        {
+          "id": 320017,
+          "count": 2,
+          "type": 2,
+          "showHpType": 1,
+          "hp": 800,
+          "attack": 100,
+          "exp": 65,
+          "monsterDropType": 2
+        },
+        {
+          "id": 320019,
+          "count": 2,
+          "type": 2,
+          "showHpType": 1,
+          "hp": 1200,
+          "attack": 100,
+          "exp": 65,
+          "monsterDropType": 2
+        },
+        {
+          "id": 320021,
+          "count": 1,
+          "type": 2,
+          "showHpType": 1,
+          "hp": 800,
+          "attack": 100,
+          "exp": 65,
+          "monsterDropType": 2
+        },
+        {
+          "id": 330006,
+          "count": 3,
+          "type": 2,
+          "showHpType": 0,
+          "hp": 150,
+          "attack": 75,
+          "exp": 12,
+          "monsterDropType": 1
+        }
+      ],
+      "events": [
+        {
+          "time": 315,
+          "kind": "spawn",
+          "source": "direct_or_random",
+          "missionId": 1001069,
+          "monsters": {
+            "320021": 1
+          }
+        },
+        {
+          "time": 315,
+          "kind": "spawn",
+          "source": "direct_or_random",
+          "missionId": 1001070,
+          "monsters": {
+            "320019": 1
+          }
+        },
+        {
+          "time": 317,
+          "kind": "spawn",
+          "source": "direct_or_random",
+          "missionId": 1001071,
+          "monsters": {
+            "320017": 1
+          }
+        },
+        {
+          "time": 319,
+          "kind": "spawn",
+          "source": "direct_or_random",
+          "missionId": 1001072,
+          "monsters": {
+            "320019": 1
+          }
+        },
+        {
+          "time": 321,
+          "kind": "spawn",
+          "source": "direct_or_random",
+          "missionId": 1001073,
+          "monsters": {
+            "320017": 1
+          }
+        },
+        {
+          "time": 330,
+          "kind": "spawn",
+          "source": "direct_or_random",
+          "missionId": 1001074,
+          "monsters": {
+            "330006": 1
+          }
+        },
+        {
+          "time": 332,
+          "kind": "spawn",
+          "source": "direct_or_random",
+          "missionId": 1001075,
+          "monsters": {
+            "330006": 1
+          }
+        },
+        {
+          "time": 334,
+          "kind": "spawn",
+          "source": "direct_or_random",
+          "missionId": 1001076,
+          "monsters": {
+            "330006": 1
+          }
+        }
+      ]
     },
     {
       "wave": 15,
-      "start": 345,
-      "bossSpawn": 347,
+      "startTime": 345,
+      "nextWaveStartTime": null,
       "nominalDuration": null,
-      "lastConfiguredSpawn": 347,
-      "spawnMoments": 1,
-      "totalMonsterCount": 1,
-      "composition": {
-        "340002": 1
-      },
+      "lastSpawnTime": 347,
+      "spawnBatchCount": 1,
+      "rowCount": 2,
       "stopByEliteOrBossKilled": 1,
       "waveAllExp": 2000,
-      "startUI": [
+      "waveStartSpecialUIType": [
         1,
         2
       ],
-      "endUI": [],
-      "missionEvents": [
+      "waveEndSpecialUIType": [],
+      "monsters": [
         {
-          "at": 345,
+          "id": 340002,
+          "count": 1,
+          "type": 3,
+          "showHpType": 1,
+          "hp": 40000,
+          "attack": 100,
+          "exp": 975,
+          "monsterDropType": 4
+        }
+      ],
+      "events": [
+        {
+          "time": 345,
+          "kind": "mission_event",
+          "missionId": 1001077,
           "missionType": 9
         },
         {
-          "at": 347,
+          "time": 347,
+          "kind": "mission_event",
+          "missionId": 1001078,
           "missionType": 2
+        },
+        {
+          "time": 347,
+          "kind": "spawn",
+          "source": "direct_or_random",
+          "missionId": 1001078,
+          "monsters": {
+            "340002": 1
+          }
         }
-      ],
-      "designRole": "final boss hard gate"
+      ]
     }
   ],
-  "monsterClassification": {
-    "310008": {
-      "type": 201,
-      "hp": 7000,
-      "showHp": 1,
-      "showHpType": 2,
-      "exp": 130,
-      "expWeight": 6,
-      "monsterDropType": 3,
-      "role": "elite/special"
-    },
-    "320005": {
-      "type": 2,
-      "hp": 2350,
-      "showHp": 1,
-      "exp": 130,
-      "expWeight": 6,
-      "monsterDropType": 2
-    },
-    "320017": {
-      "type": 2,
-      "hp": 800,
-      "showHp": 1,
-      "exp": 65,
-      "expWeight": 3,
-      "monsterDropType": 2
-    },
-    "320019": {
-      "type": 2,
-      "hp": 1200,
-      "showHp": 1,
-      "exp": 65,
-      "expWeight": 3,
-      "monsterDropType": 2
-    },
-    "320021": {
-      "type": 2,
-      "hp": 800,
-      "showHp": 1,
-      "exp": 65,
-      "expWeight": 3,
-      "monsterDropType": 2
-    },
-    "320022": {
-      "type": 2,
-      "hp": 1100,
-      "showHp": 1,
-      "exp": 65,
-      "expWeight": 3,
-      "monsterDropType": 2
-    },
-    "320030": {
-      "type": 2,
-      "hp": 800,
-      "showHp": 1,
-      "exp": 65,
-      "expWeight": 3,
-      "monsterDropType": 2
-    },
-    "320035": {
-      "type": 2,
-      "hp": 2350,
-      "showHp": 1,
-      "exp": 130,
-      "expWeight": 6,
-      "monsterDropType": 2
-    },
-    "330006": {
-      "type": 2,
-      "hp": 150,
-      "showHp": 0,
-      "exp": 12,
-      "expWeight": 1,
-      "monsterDropType": 1,
-      "role": "fodder"
-    },
-    "340002": {
-      "type": 3,
-      "hp": 40000,
-      "showHp": 1,
-      "exp": 975,
-      "expWeight": 15,
-      "monsterDropType": 4,
-      "role": "boss"
-    }
-  },
-  "experience": {
-    "waveAllExp": [
-      200,
-      550,
-      600,
-      600,
-      700,
-      800,
-      800,
-      950,
-      1000,
-      1100,
-      1200,
-      1200,
-      1400,
-      1700,
-      2000
-    ],
-    "cumulativeThresholds": [
-      200,
-      750,
-      1350,
-      1950,
-      2650,
-      3450,
-      4250,
-      5200,
-      6200,
-      7300,
-      8500,
-      9700,
-      11100,
-      12800,
-      14800
-    ],
-    "thresholdDeltas": [
-      200,
-      550,
-      600,
-      600,
-      700,
-      800,
-      800,
-      950,
-      1000,
-      1100,
-      1200,
-      1200,
-      1400,
-      1700,
-      2000
-    ],
-    "exactMatch": true,
-    "regularWaveEndGrowthNodes": 14,
-    "wave15Caveat": "Wave 15 still matches the next cumulative EXP threshold delta, but lacks the normal wave-end UI path; treat it as terminal EXP/settlement budget unless runtime evidence shows a post-boss selection."
-  },
-  "evidence": {
-    "waveEndUpgrade": "evidence/waterfall-wave-end-upgrade.md",
-    "skillDynamicWeight": "evidence/skill-dynamic-weight.md",
-    "reproducibleScript": "scripts/analyze_chapter1_waves.py"
-  }
+  "notes": [
+    "nominalDuration is config start-to-next-start; wave 10/15 can be extended by kill gates",
+    "spawnBatchCount merges simultaneous spawn timestamps",
+    "randomMonster entityId arrays in chapter 1 contain repeated concrete entity IDs; numberRandom is applied as repeat count"
+  ]
 }
