@@ -78,7 +78,9 @@ IL2CPP 结构里它有完整独立状态：
 - `PunchboardRandomTime = 0`；
 - `PunchboardMoveSpeedScale = 0.8`。
 
-当前 `Consts_Const.json` 没有 `PunchboardRandomSkillCountWeight` 这一行，虽然 IL2CPP 的 `LocalModels.Const` 已存在该静态字段和 `GetPunchboardRandomSkillCountWeight()`。因此**数量随机算法已证明，但每一档的基础概率数值还不能从当前解码表直接写死**。这很可能需要继续从 Const 初始化 native / 热更数据来源补证。
+当前 `Consts_Const.json` 没有 `PunchboardRandomSkillCountWeight` 这一行，虽然 IL2CPP 的 `LocalModels.Const` 已存在该静态字段、`PunchboardRandomSkillCountWeight_B` A/B 版本和 `GetPunchboardRandomSkillCountWeight()`。因此**数量随机算法已证明，但每一档的基础概率数值还不能从当前解码表直接写死**。
+
+这里还有一个重要版本边界：APK 内的 `assets/FullRes/catalog_hotfix.json` 明确登记了官方远端 `localmodel_assets_all_a41b202b33068555edbf28ccb797083a.bundle`，说明 LocalModel 数据具备远端更新通道。因此“IL2CPP 已有字段、APK 内置旧表还没有对应行”并不矛盾。当前研究必须继续区分 **APK 基线配置** 与 **线上远端 LocalModel/HotFix 数据**；在拿到远端 bundle 或 `LocalModels.Const..cctor` native 前，不能把数组值补猜出来。
 
 ## 与第一章波次的关系
 
