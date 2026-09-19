@@ -1,0 +1,14 @@
+{
+  "InitCount": [],
+  "InitConsume": [],
+  "CheckHp": [
+    {
+      "pc": 106517728,
+      "kind": "BL",
+      "caller_address": 106517512,
+      "caller_names": [
+        "HotFix.BattleLogic.BattleStarManager$$CollectStar"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "status": "passed",
+  "scope": "static configuration, HTML anchors and referenced paths; no live gameplay verification",
+  "waves": 15,
+  "missions": 78,
+  "experience_total": 14800,
+  "death_gate_waves": [
+    10,
+    15
+  ],
+  "ordinary_wave_end_nodes": 14,
+  "punchboard_waves": [
+    6,
+    11,
+    15
+  ],
+  "html_sections": 13,
+  "links_checked": 30
+}
