@@ -64,7 +64,14 @@ native 中可以直接看到 `ContainsKey → get_Item → +1/-1 → set_Item` �
 
 另有少量 `0 / 0` 项，表示该类型不启用这套动态增权。
 
-继续对 native 的整数→FP 转换做了数值复算后，这一层可以再推进一步：配置 50 会被转换成 FP 0.5，500 会被转换成 FP 5.0。结合方法名 `GetDeltaWeightPercent` / `UpdateWeightPercent`，策划语义可以明确写成**每学一个同类型技能增加 50 个百分点的权重修正，上限 500 个百分点**。但这里仍要保留最后一层边界：已经坐实的是传入权重修正层的 delta 为 0.5 / 5.0；最终单条目的有效权重究竟是 `base × (1 + delta)`、`base × delta` 还是其它组合，还要等 `WeightRandomData.Weight` 的 implementation 才能完全写死。
+继续下钻 `WeightRandomData.asm` 后，最后一层也已经闭环。`WeightRandomData.PracticalWeight`（RVA 0x6632120）直接把动态修正值加上 FP 1.0，再与基础权重相乘，因此最终有效权重公式可以明确写死为：
+
+```text
+delta = min(同类型已学习数量 × 0.5, 5.0)
+effectiveWeight = baseWeight × (1 + delta)
+```
+
+因此，在其它条件相同的情况下，学习第 1 个同类型技能后，该类型命中项的有效权重变为基础值的 1.5 倍；第 2 个为 2.0 倍；第 3 个为 2.5 倍；此后每多学一个继续 +0.5 倍，直到学满 10 个同类型技能后封顶在 6.0 倍。这里的“倍数”是权重倍数，不等于最终展示概率倍数，因为实际概率还取决于当次合法候选池内其它条目的总权重。
 
 ## 3. 这不是单张技能加权，而是技能组加权
 
@@ -162,20 +169,20 @@ native 中可以直接看到 `ContainsKey → get_Item → +1/-1 → set_Item` �
 4. 计数变化后会调用 `GetDeltaWeightPercent`。
 5. `GetDeltaWeightPercent` 的结果由“学习数量 × 每技能增量”与“最大增量上限”共同决定，最终取封顶值。
 6. 结果会继续传给 `AdjustWeightsForSkillGroup`。
-7. `WeightRandom` 支持对指定条目修改动态权重，并重新计算总权重。
+7. `WeightRandomData.PracticalWeight` 已确认最终有效权重为 `baseWeight × (1 + delta)`，动态修正不是日志字段，而是直接进入抽取权重计算。
 
-因此，“已有 Build 会提高同类型后续技能的抽取倾向”已经可以从假设升级为报告中的正式结论。
+因此，“已有 Build 会提高同类型后续技能的抽取倾向”已经可以从假设升级为报告中的正式结论，而且增权幅度已经能精确量化。
 
 ### 高概率，但仍需继续深挖
 
-1. `AdjustWeightsForSkillGroup` 到底是把同一增量完整加给组内每个成员，还是按组内规则分摊。
+1. `AdjustWeightsForSkillGroup` 在当前保存的 ARM64 文件中表现为 HotFix 分发壳，真实热更方法体没有被静态还原；因此“同类型组内每个成员如何接收 delta”的逐条实现仍需动态/热更层证据。这里不应把 `WeightRandom.UpdateWeightPercent` 与它强行写成直接 native 调用链。
 2. 三选一是否采用无放回抽取，以及每抽一张后总权重如何重算。
 3. `BoostWeightByPercent / RevertWeightBoost` 的仓库级调用方仍未定位；当前不能把它们解释成三选一保底或 Build 收敛机制。
 4. `GetAlreadyStudySkill / GetReadyStudySkill / GetOneStarSkill` 在三个候选位中的优先级与占位顺序。
 
 ## 8. 下一步建议
 
-下一步最值得继续追的有两条。第一条是 `GetNormalSkill → GetAlreadyStudySkill / GetReadyStudySkill / GetOneStarSkill → GetRandomCount`，目标是还原三个候选位具体怎样从不同子池拼出来、是否无放回、每抽一张后是否立即重算权重。第二条是补出 `WeightRandomData.Weight` 的 implementation，彻底确认 0.5 / 5.0 这组 delta 与基础权重的最终组合公式。
+下一步最值得继续追的有两条。第一条是 `GetNormalSkill → GetAlreadyStudySkill / GetReadyStudySkill / GetOneStarSkill → GetRandomCount`，目标是还原三个候选位具体怎样从不同子池拼出来、是否无放回、每抽一张后是否立即重算权重。第二条已经完成：`WeightRandomData.PracticalWeight` 已把最终公式坐实为 `baseWeight × (1 + delta)`。下一步更值得追的是 `AdjustWeightsForSkillGroup` 的 HotFix 实际方法体或运行时行为，确认一个 skillType 的 delta 究竟覆盖组内哪些随机条目。
 
 `BoostWeightByPercent / RevertWeightBoost` 目前降为次要支线：先做仓库级调用方定位，只有确认它真的参与 `HeroComponentRandomSkill` 的三选一流程后，才讨论保底或临时增权。
 
