@@ -1,0 +1,916 @@
+[
+  {
+    "required_skill_ids": [
+      10000103,
+      11000701
+    ],
+    "required_names": [
+      "速射机炮",
+      "暴击模块"
+    ],
+    "result_skill_id": 10500101,
+    "result_name": "速射机炮",
+    "source_rows": [
+      10000103,
+      11000701
+    ],
+    "runtime_scope": "non_B / TryUnlockUpgradeSkills",
+    "effect": "adds_weighted_candidate_not_immediate_grant",
+    "candidate_weight": 5000,
+    "result_special_flag": 1,
+    "subchoice_ids": [
+      10100101,
+      10100102,
+      10100103,
+      10100104,
+      10100105,
+      10100106,
+      10100109,
+      10100110,
+      10100107
+    ],
+    "subchoice_ids_B": [
+      10100101,
+      10100102,
+      10100103,
+      10100104,
+      10100105,
+      10100106,
+      10100108,
+      10100110,
+      10100107
+    ]
+  },
+  {
+    "required_skill_ids": [
+      10000106,
+      11000702
+    ],
+    "required_names": [
+      "速射机炮",
+      "暴击模块"
+    ],
+    "result_skill_id": 10500102,
+    "result_name": "速射机炮",
+    "source_rows": [
+      10000106,
+      11000702
+    ],
+    "runtime_scope": "non_B / TryUnlockUpgradeSkills",
+    "effect": "adds_weighted_candidate_not_immediate_grant",
+    "candidate_weight": 5000,
+    "result_special_flag": 1,
+    "subchoice_ids": [
+      10100101,
+      10100102,
+      10100103,
+      10100104,
+      10100105,
+      10100106,
+      10100109,
+      10100110,
+      10100107
+    ],
+    "subchoice_ids_B": [
+      10100101,
+      10100102,
+      10100103,
+      10100104,
+      10100105,
+      10100106,
+      10100108,
+      10100110,
+      10100107,
+      10100109,
+      10100115
+    ]
+  },
+  {
+    "required_skill_ids": [
+      10000203,
+      11001101
+    ],
+    "required_names": [
+      "酸液枪",
+      "缩小！"
+    ],
+    "result_skill_id": 10500201,
+    "result_name": "酸液枪",
+    "source_rows": [
+      10000203,
+      11001101
+    ],
+    "runtime_scope": "non_B / TryUnlockUpgradeSkills",
+    "effect": "adds_weighted_candidate_not_immediate_grant",
+    "candidate_weight": 5000,
+    "result_special_flag": 1,
+    "subchoice_ids": [
+      10100201,
+      10100202,
+      10100204,
+      10100207,
+      10100220,
+      10100217,
+      10100213,
+      10100205
+    ],
+    "subchoice_ids_B": [
+      10100201,
+      10100202,
+      10100204,
+      10100207,
+      10100217,
+      10100213,
+      10100205
+    ]
+  },
+  {
+    "required_skill_ids": [
+      10000206,
+      11001102
+    ],
+    "required_names": [
+      "酸液枪",
+      "缩小！"
+    ],
+    "result_skill_id": 10500202,
+    "result_name": "酸液枪",
+    "source_rows": [
+      10000206,
+      11001102
+    ],
+    "runtime_scope": "non_B / TryUnlockUpgradeSkills",
+    "effect": "adds_weighted_candidate_not_immediate_grant",
+    "candidate_weight": 5000,
+    "result_special_flag": 1,
+    "subchoice_ids": [
+      10100201,
+      10100202,
+      10100204,
+      10100207,
+      10100220,
+      10100217,
+      10100213,
+      10100205
+    ],
+    "subchoice_ids_B": [
+      10100201,
+      10100202,
+      10100204,
+      10100207,
+      10100217,
+      10100213,
+      10100205,
+      10100219,
+      10100220
+    ]
+  },
+  {
+    "required_skill_ids": [
+      10000303,
+      11000101
+    ],
+    "required_names": [
+      "电弧枪",
+      "生命模块"
+    ],
+    "result_skill_id": 10500301,
+    "result_name": "电弧枪",
+    "source_rows": [
+      10000303,
+      11000101
+    ],
+    "runtime_scope": "non_B / TryUnlockUpgradeSkills",
+    "effect": "adds_weighted_candidate_not_immediate_grant",
+    "candidate_weight": 5000,
+    "result_special_flag": 1,
+    "subchoice_ids": [
+      10100301,
+      10100302,
+      10100303,
+      10100304,
+      10100305,
+      10100307,
+      10100313,
+      10100316
+    ],
+    "subchoice_ids_B": [
+      10100301,
+      10100302,
+      10100304,
+      10100305,
+      10100307,
+      10100313,
+      10100316,
+      10100310,
+      10100308
+    ]
+  },
+  {
+    "required_skill_ids": [
+      10000306,
+      11000102
+    ],
+    "required_names": [
+      "电弧枪",
+      "生命模块"
+    ],
+    "result_skill_id": 10500302,
+    "result_name": "电弧枪",
+    "source_rows": [
+      10000306,
+      11000102
+    ],
+    "runtime_scope": "non_B / TryUnlockUpgradeSkills",
+    "effect": "adds_weighted_candidate_not_immediate_grant",
+    "candidate_weight": 5000,
+    "result_special_flag": 1,
+    "subchoice_ids": [
+      10100301,
+      10100302,
+      10100303,
+      10100304,
+      10100305,
+      10100307,
+      10100313,
+      10100316
+    ],
+    "subchoice_ids_B": [
+      10100301,
+      10100302,
+      10100304,
+      10100305,
+      10100307,
+      10100313,
+      10100316,
+      10100310,
+      10100308,
+      10100309,
+      10100303
+    ]
+  },
+  {
+    "required_skill_ids": [
+      10000403,
+      11000201
+    ],
+    "required_names": [
+      "磁暴枪",
+      "攻击模块"
+    ],
+    "result_skill_id": 10500401,
+    "result_name": "磁暴枪",
+    "source_rows": [
+      10000403,
+      11000201
+    ],
+    "runtime_scope": "non_B / TryUnlockUpgradeSkills",
+    "effect": "adds_weighted_candidate_not_immediate_grant",
+    "candidate_weight": 5000,
+    "result_special_flag": 1,
+    "subchoice_ids": [
+      10100401,
+      10100402,
+      10100408,
+      10100409,
+      10100405,
+      10100411,
+      10100404,
+      10100406
+    ],
+    "subchoice_ids_B": [
+      10100401,
+      10100402,
+      10100403,
+      10100407,
+      10100408,
+      10100409,
+      10100405,
+      10100411,
+      10100404,
+      10100406
+    ]
+  },
+  {
+    "required_skill_ids": [
+      10000406,
+      11000202
+    ],
+    "required_names": [
+      "磁暴枪",
+      "攻击模块"
+    ],
+    "result_skill_id": 10500402,
+    "result_name": "磁暴枪",
+    "source_rows": [
+      10000406,
+      11000202
+    ],
+    "runtime_scope": "non_B / TryUnlockUpgradeSkills",
+    "effect": "adds_weighted_candidate_not_immediate_grant",
+    "candidate_weight": 5000,
+    "result_special_flag": 1,
+    "subchoice_ids": [
+      10100401,
+      10100402,
+      10100408,
+      10100409,
+      10100405,
+      10100411,
+      10100404,
+      10100406
+    ],
+    "subchoice_ids_B": [
+      10100401,
+      10100402,
+      10100403,
+      10100407,
+      10100408,
+      10100409,
+      10100405,
+      10100411,
+      10100404,
+      10100406
+    ]
+  },
+  {
+    "required_skill_ids": [
+      10000603,
+      11001101
+    ],
+    "required_names": [
+      "冰刃弹",
+      "缩小！"
+    ],
+    "result_skill_id": 10500601,
+    "result_name": "冰刃弹",
+    "source_rows": [
+      10000603,
+      11001101
+    ],
+    "runtime_scope": "non_B / TryUnlockUpgradeSkills",
+    "effect": "adds_weighted_candidate_not_immediate_grant",
+    "candidate_weight": 5000,
+    "result_special_flag": 1,
+    "subchoice_ids": [
+      10100601,
+      10100602,
+      10100603,
+      10100605,
+      10100607,
+      10100625,
+      10100609,
+      10100617
+    ],
+    "subchoice_ids_B": [
+      10100601,
+      10100602,
+      10100603,
+      10100605,
+      10100607,
+      10100625,
+      10100609,
+      10100617
+    ]
+  },
+  {
+    "required_skill_ids": [
+      10000606,
+      11001102
+    ],
+    "required_names": [
+      "冰刃弹",
+      "缩小！"
+    ],
+    "result_skill_id": 10500602,
+    "result_name": "冰刃弹",
+    "source_rows": [
+      10000606,
+      11001102
+    ],
+    "runtime_scope": "non_B / TryUnlockUpgradeSkills",
+    "effect": "adds_weighted_candidate_not_immediate_grant",
+    "candidate_weight": 5000,
+    "result_special_flag": 1,
+    "subchoice_ids": [
+      10100601,
+      10100602,
+      10100603,
+      10100605,
+      10100607,
+      10100625,
+      10100609,
+      10100617
+    ],
+    "subchoice_ids_B": [
+      10100601,
+      10100602,
+      10100603,
+      10100605,
+      10100607,
+      10100625,
+      10100609,
+      10100617,
+      10100618
+    ]
+  },
+  {
+    "required_skill_ids": [
+      10000703,
+      11001201
+    ],
+    "required_names": [
+      "爆燃导弹",
+      "维修强化"
+    ],
+    "result_skill_id": 10500701,
+    "result_name": "爆燃导弹",
+    "source_rows": [
+      10000703,
+      11001201
+    ],
+    "runtime_scope": "non_B / TryUnlockUpgradeSkills",
+    "effect": "adds_weighted_candidate_not_immediate_grant",
+    "candidate_weight": 5000,
+    "result_special_flag": 1,
+    "subchoice_ids": [
+      10100701,
+      10100706,
+      10100708,
+      10100709,
+      10100703,
+      10100710,
+      10100718,
+      10100711
+    ],
+    "subchoice_ids_B": [
+      10100701,
+      10100702,
+      10100706,
+      10100708,
+      10100717,
+      10100709,
+      10100703,
+      10100710,
+      10100718,
+      10100711
+    ]
+  },
+  {
+    "required_skill_ids": [
+      10000706,
+      11001202
+    ],
+    "required_names": [
+      "爆燃导弹",
+      "维修强化"
+    ],
+    "result_skill_id": 10500702,
+    "result_name": "爆燃导弹",
+    "source_rows": [
+      10000706,
+      11001202
+    ],
+    "runtime_scope": "non_B / TryUnlockUpgradeSkills",
+    "effect": "adds_weighted_candidate_not_immediate_grant",
+    "candidate_weight": 5000,
+    "result_special_flag": 1,
+    "subchoice_ids": [
+      10100701,
+      10100706,
+      10100708,
+      10100709,
+      10100703,
+      10100710,
+      10100718,
+      10100711
+    ],
+    "subchoice_ids_B": [
+      10100701,
+      10100702,
+      10100706,
+      10100708,
+      10100717,
+      10100709,
+      10100703,
+      10100710,
+      10100718,
+      10100711
+    ]
+  },
+  {
+    "required_skill_ids": [
+      10000903,
+      11001201
+    ],
+    "required_names": [
+      "酸性黑洞",
+      "维修强化"
+    ],
+    "result_skill_id": 10500901,
+    "result_name": "酸性黑洞",
+    "source_rows": [
+      10000903,
+      11001201
+    ],
+    "runtime_scope": "non_B / TryUnlockUpgradeSkills",
+    "effect": "adds_weighted_candidate_not_immediate_grant",
+    "candidate_weight": 5000,
+    "result_special_flag": 1,
+    "subchoice_ids": [
+      10100904,
+      10100905,
+      10100906,
+      10100907,
+      10100908,
+      10100910,
+      10100917,
+      10100909
+    ],
+    "subchoice_ids_B": [
+      10100904,
+      10100905,
+      10100906,
+      10100907,
+      10100908,
+      10100910,
+      10100917,
+      10100909
+    ]
+  },
+  {
+    "required_skill_ids": [
+      10000906,
+      11001202
+    ],
+    "required_names": [
+      "酸性黑洞",
+      "维修强化"
+    ],
+    "result_skill_id": 10500902,
+    "result_name": "酸性黑洞",
+    "source_rows": [
+      10000906,
+      11001202
+    ],
+    "runtime_scope": "non_B / TryUnlockUpgradeSkills",
+    "effect": "adds_weighted_candidate_not_immediate_grant",
+    "candidate_weight": 5000,
+    "result_special_flag": 1,
+    "subchoice_ids": [
+      10100904,
+      10100905,
+      10100906,
+      10100907,
+      10100908,
+      10100910,
+      10100917,
+      10100909
+    ],
+    "subchoice_ids_B": [
+      10100904,
+      10100905,
+      10100906,
+      10100907,
+      10100908,
+      10100910,
+      10100917,
+      10100909
+    ]
+  },
+  {
+    "required_skill_ids": [
+      10001103,
+      11000201
+    ],
+    "required_names": [
+      "能量光剑",
+      "攻击模块"
+    ],
+    "result_skill_id": 10501101,
+    "result_name": "能量光剑",
+    "source_rows": [
+      10001103,
+      11000201
+    ],
+    "runtime_scope": "non_B / TryUnlockUpgradeSkills",
+    "effect": "adds_weighted_candidate_not_immediate_grant",
+    "candidate_weight": 5000,
+    "result_special_flag": 1,
+    "subchoice_ids": [
+      10101101,
+      10101103,
+      10101104,
+      10101105,
+      10101106,
+      10101107,
+      10101110,
+      10101118,
+      10101117,
+      10101102
+    ],
+    "subchoice_ids_B": [
+      10101101,
+      10101103,
+      10101104,
+      10101105,
+      10101106,
+      10101107,
+      10101110,
+      10101118,
+      10101117,
+      10101102,
+      10101111
+    ]
+  },
+  {
+    "required_skill_ids": [
+      10001106,
+      11000202
+    ],
+    "required_names": [
+      "能量光剑",
+      "攻击模块"
+    ],
+    "result_skill_id": 10501102,
+    "result_name": "能量光剑",
+    "source_rows": [
+      10001106,
+      11000202
+    ],
+    "runtime_scope": "non_B / TryUnlockUpgradeSkills",
+    "effect": "adds_weighted_candidate_not_immediate_grant",
+    "candidate_weight": 5000,
+    "result_special_flag": 1,
+    "subchoice_ids": [
+      10101101,
+      10101103,
+      10101104,
+      10101105,
+      10101106,
+      10101107,
+      10101110,
+      10101118,
+      10101117,
+      10101102
+    ],
+    "subchoice_ids_B": [
+      10101101,
+      10101103,
+      10101104,
+      10101105,
+      10101106,
+      10101107,
+      10101110,
+      10101118,
+      10101117,
+      10101102,
+      10101111
+    ]
+  },
+  {
+    "required_skill_ids": [
+      10001503,
+      11000601
+    ],
+    "required_names": [
+      "高能激光",
+      "冷却模块"
+    ],
+    "result_skill_id": 10501501,
+    "result_name": "高能激光",
+    "source_rows": [
+      10001503,
+      11000601
+    ],
+    "runtime_scope": "non_B / TryUnlockUpgradeSkills",
+    "effect": "adds_weighted_candidate_not_immediate_grant",
+    "candidate_weight": 5000,
+    "result_special_flag": 1,
+    "subchoice_ids": [
+      10101502,
+      10101503,
+      10101507,
+      10101511,
+      10101512,
+      10101521,
+      10101513,
+      10101514,
+      10101518
+    ],
+    "subchoice_ids_B": [
+      10101502,
+      10101503,
+      10101507,
+      10101511,
+      10101512,
+      10101521,
+      10101513,
+      10101514,
+      10101518
+    ]
+  },
+  {
+    "required_skill_ids": [
+      10001506,
+      11000602
+    ],
+    "required_names": [
+      "高能激光",
+      "冷却模块"
+    ],
+    "result_skill_id": 10501502,
+    "result_name": "高能激光",
+    "source_rows": [
+      10001506,
+      11000602
+    ],
+    "runtime_scope": "non_B / TryUnlockUpgradeSkills",
+    "effect": "adds_weighted_candidate_not_immediate_grant",
+    "candidate_weight": 5000,
+    "result_special_flag": 1,
+    "subchoice_ids": [
+      10101502,
+      10101503,
+      10101507,
+      10101511,
+      10101512,
+      10101521,
+      10101513,
+      10101514,
+      10101518
+    ],
+    "subchoice_ids_B": [
+      10101502,
+      10101503,
+      10101507,
+      10101511,
+      10101512,
+      10101521,
+      10101513,
+      10101514,
+      10101518
+    ]
+  },
+  {
+    "required_skill_ids": [
+      10001703,
+      11000701
+    ],
+    "required_names": [
+      "灼热射线",
+      "暴击模块"
+    ],
+    "result_skill_id": 10501701,
+    "result_name": "灼热射线",
+    "source_rows": [
+      10001703,
+      11000701
+    ],
+    "runtime_scope": "non_B / TryUnlockUpgradeSkills",
+    "effect": "adds_weighted_candidate_not_immediate_grant",
+    "candidate_weight": 5000,
+    "result_special_flag": 1,
+    "subchoice_ids": [
+      10101701,
+      10101704,
+      10101707,
+      10101713,
+      10101706,
+      10101709,
+      10101703
+    ],
+    "subchoice_ids_B": [
+      10101701,
+      10101704,
+      10101707,
+      10101712,
+      10101713,
+      10101706,
+      10101709
+    ]
+  },
+  {
+    "required_skill_ids": [
+      10001706,
+      11000702
+    ],
+    "required_names": [
+      "灼热射线",
+      "暴击模块"
+    ],
+    "result_skill_id": 10501702,
+    "result_name": "灼热射线",
+    "source_rows": [
+      10001706,
+      11000702
+    ],
+    "runtime_scope": "non_B / TryUnlockUpgradeSkills",
+    "effect": "adds_weighted_candidate_not_immediate_grant",
+    "candidate_weight": 5000,
+    "result_special_flag": 1,
+    "subchoice_ids": [
+      10101701,
+      10101704,
+      10101707,
+      10101713,
+      10101706,
+      10101709,
+      10101703
+    ],
+    "subchoice_ids_B": [
+      10101701,
+      10101704,
+      10101707,
+      10101712,
+      10101713,
+      10101706,
+      10101709,
+      10101703
+    ]
+  },
+  {
+    "required_skill_ids": [
+      10001603,
+      11000101
+    ],
+    "required_names": [
+      "冰冻锯盘",
+      "生命模块"
+    ],
+    "result_skill_id": 10501601,
+    "result_name": "冰冻锯盘",
+    "source_rows": [
+      10001603,
+      11000101
+    ],
+    "runtime_scope": "non_B / TryUnlockUpgradeSkills",
+    "effect": "adds_weighted_candidate_not_immediate_grant",
+    "candidate_weight": 5000,
+    "result_special_flag": 1,
+    "subchoice_ids": [
+      10101601,
+      10101604,
+      10101607,
+      10101608,
+      10101610,
+      10101614,
+      10101616,
+      10101609,
+      10101605
+    ],
+    "subchoice_ids_B": [
+      10101601,
+      10101604,
+      10101607,
+      10101608,
+      10101610,
+      10101614,
+      10101616,
+      10101609,
+      10101605
+    ]
+  },
+  {
+    "required_skill_ids": [
+      10001606,
+      11000102
+    ],
+    "required_names": [
+      "冰冻锯盘",
+      "生命模块"
+    ],
+    "result_skill_id": 10501602,
+    "result_name": "冰冻锯盘",
+    "source_rows": [
+      10001606,
+      11000102
+    ],
+    "runtime_scope": "non_B / TryUnlockUpgradeSkills",
+    "effect": "adds_weighted_candidate_not_immediate_grant",
+    "candidate_weight": 5000,
+    "result_special_flag": 1,
+    "subchoice_ids": [
+      10101601,
+      10101604,
+      10101607,
+      10101608,
+      10101610,
+      10101614,
+      10101616,
+      10101609,
+      10101605
+    ],
+    "subchoice_ids_B": [
+      10101601,
+      10101604,
+      10101607,
+      10101608,
+      10101610,
+      10101614,
+      10101616,
+      10101609,
+      10101605
+    ]
+  }
+]

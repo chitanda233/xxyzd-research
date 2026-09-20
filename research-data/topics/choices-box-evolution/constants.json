@@ -1,0 +1,115 @@
+{
+  "danke_category_weights": [
+    0,
+    200,
+    300,
+    300
+  ],
+  "punchboard_count_weights": [
+    60,
+    0,
+    30,
+    0,
+    10
+  ],
+  "star_weight_multiplier": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    2,
+    1,
+    1,
+    1
+  ],
+  "weapon_slots": {
+    "base": 4,
+    "B": 5
+  },
+  "passive_slots": {
+    "base": 4,
+    "B": 5
+  },
+  "slot_unlock_thresholds": {
+    "base": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "B": [
+      0,
+      0,
+      0,
+      6,
+      6
+    ]
+  },
+  "superweapon_star_thresholds": [
+    3,
+    6,
+    9
+  ],
+  "random_skill_superweapon_func": 0,
+  "random_skill_weapon_weight_func": 0,
+  "guide_select_skill_ids": [
+    10400101,
+    10001701,
+    10000601
+  ],
+  "native_rodata": [
+    {
+      "rva": "0x1981860",
+      "file_offset": "0x1981860",
+      "int32": [
+        4,
+        5,
+        4,
+        5
+      ],
+      "destination_static_offsets": [
+        "0x518",
+        "0x51C",
+        "0x520",
+        "0x524"
+      ]
+    },
+    {
+      "rva": "0x197F818",
+      "file_offset": "0x197F818",
+      "int32": [
+        2,
+        1
+      ],
+      "destination_static_offsets": [
+        "0x528",
+        "0x52C"
+      ]
+    },
+    {
+      "rva": "0x197FDC0",
+      "file_offset": "0x197FDC0",
+      "int32": [
+        3,
+        4
+      ],
+      "destination_static_offsets": [
+        "0x4A0",
+        "0x4A4"
+      ]
+    }
+  ],
+  "evidence": [
+    "evidence/LocalModels.Const--.cctor.asm",
+    "inputs/native-constant-arrays.json"
+  ],
+  "limitations": [
+    "槽位开放还须走GetCanStudyCount等运行时判断；_B不能按账号新旧解释",
+    "类别3是否有候选取决于入池调用的GetSkillDeepType参数；配方解锁传true，初始入池传false，不能仅看常量开关推断所有候选类别"
+  ],
+  "punchboard_five_skill_block_threshold": 4
+}

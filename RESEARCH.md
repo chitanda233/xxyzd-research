@@ -58,3 +58,10 @@ python3 research-data/tools/research.py export
 ## 成本控制
 
 先查询→再计算→最后定向反编译。交接包保存的不只是结论，还包含推导所需输入和最小证据，避免下一位同事重复购买同一次分析成本。对已验证规则只在版本变化、出现反证或任务需要更精确结论时复核。
+
+## 三选一与武器进化专题
+
+- 唯一专题报告：`docs/choices-box-evolution.html`。
+- 结构化数据：`research-data/topics/choices-box-evolution/`（规则、71章权重映射、22条配方、常量、证据和未闭合断点）。
+- 校验：`python3 research-data/tools/choice_topic.py validate`。
+- 宝箱怪按“击杀→拾取物→三选一”定义，目前身份链未闭合；中途商店未确认，停止扩大搜索。不要用Punchboard或传统两结果Box替代。

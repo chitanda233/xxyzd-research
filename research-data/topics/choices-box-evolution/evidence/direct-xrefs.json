@@ -1,0 +1,112 @@
+{
+  "targets": {
+    "RandomSkill": 109496728,
+    "TrackShopTrade": 125985440,
+    "TrackSupplyStation": 125895860,
+    "CreateTreasureMonster": 109916656,
+    "QueueSelectSkill": 106729112,
+    "UseInitCounter": 111162924
+  },
+  "hits": {
+    "RandomSkill": [
+      {
+        "pc": 106549928,
+        "kind": "B",
+        "caller_address": 106549476,
+        "caller_names": [
+          "HotFix.BattleLogic.BaseInitState$$ShowSkillSelect"
+        ]
+      },
+      {
+        "pc": 106570856,
+        "kind": "BL",
+        "caller_address": 106570568,
+        "caller_names": [
+          "HotFix.BattleLogic.SingleState$$OnPlayerLevelUp"
+        ]
+      },
+      {
+        "pc": 106629728,
+        "kind": "BL",
+        "caller_address": 106629124,
+        "caller_names": [
+          "HotFix.BattleLogic.WaterfallMultiStateSelectSkill$$OnEnter"
+        ]
+      },
+      {
+        "pc": 106633288,
+        "kind": "BL",
+        "caller_address": 106632696,
+        "caller_names": [
+          "HotFix.BattleLogic.WaterfallMultiStateSelectSkill$$ProcessAutoRandomForPlayer"
+        ]
+      },
+      {
+        "pc": 106636832,
+        "kind": "BL",
+        "caller_address": 106635128,
+        "caller_names": [
+          "HotFix.BattleLogic.WaterfallMultiStateSelectSkill$$OnPlayerSelectSkill"
+        ]
+      },
+      {
+        "pc": 106653376,
+        "kind": "B",
+        "caller_address": 106652732,
+        "caller_names": [
+          "HotFix.BattleLogic.WaterfallStateSelectSkill$$OnPlayerLevelUp"
+        ]
+      },
+      {
+        "pc": 107323160,
+        "kind": "B",
+        "caller_address": 107322920,
+        "caller_names": [
+          "HotFix.BattleLogic.RefreshSkillCommand$$Exec"
+        ]
+      }
+    ],
+    "TrackShopTrade": [
+      {
+        "pc": 125984876,
+        "kind": "BL",
+        "caller_address": 125983388,
+        "caller_names": [
+          "HotFix.Tracker$$TrackShopBuy"
+        ]
+      }
+    ],
+    "TrackSupplyStation": [
+      {
+        "pc": 121943108,
+        "kind": "BL",
+        "caller_address": 121942552,
+        "caller_names": [
+          "HotFix.UIDepotViewModule$$OnOpen"
+        ]
+      }
+    ],
+    "CreateTreasureMonster": [
+      {
+        "pc": 109917372,
+        "kind": "B",
+        "caller_address": 109917212,
+        "caller_names": [
+          "HotFix.BattleLogic.EntityTreasure$$OnColliderWithHero"
+        ]
+      }
+    ],
+    "QueueSelectSkill": [
+      {
+        "pc": 106745520,
+        "kind": "B",
+        "caller_address": 106743864,
+        "caller_names": [
+          "HotFix.BattleLogic.WaterfallBattleManager$$OnProgressFinish"
+        ]
+      }
+    ],
+    "UseInitCounter": []
+  },
+  "scope": "Direct B/BL only, excludes virtual/hotfix calls"
+}

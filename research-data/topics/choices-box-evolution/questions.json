@@ -1,0 +1,58 @@
+[
+  {
+    "id": "CQ01",
+    "topic": "treasure_monster",
+    "question": "击杀哪一个实体后，哪一种拾取物进入三选一？",
+    "checked": [
+      "EntityTreasure碰撞造怪",
+      "EntityMonster死亡、BaseSurvival死亡通知",
+      "Item_battle与MainDropManager",
+      "DropItemScroll/Equip收集",
+      "BaseBoxState与NormalSkillCreator箱子结果",
+      "RandomSkill直接调用者"
+    ],
+    "breakpoint": "缺少 monster ID → drop ID → pickup handler → three-choice state 的闭合边；部分fallback为空",
+    "next_evidence": "同版本热更方法体或一段显示怪物外观、掉落物与三选一界面的实机记录",
+    "do_not_repeat": "不要仅因Treasure/Box/Punchboard命名相似就认定同一入口"
+  },
+  {
+    "id": "CQ02",
+    "topic": "mid_stage_shop",
+    "question": "小关中途商店入口是否在当前可读基线中？",
+    "checked": [
+      "战斗类与UI类命名检索",
+      "TrackShopTrade/TrackSupplyStation直接交叉引用",
+      "技能选择UI方法名与章节特殊UI配置"
+    ],
+    "breakpoint": "已发现埋点落到局外，未找到战斗购买链",
+    "next_evidence": "新的明确局内商店入口或对应版本资源；当前停止扩大搜索",
+    "do_not_repeat": "不要重新全库泛搜商店关键词"
+  },
+  {
+    "id": "CQ03",
+    "topic": "initialization",
+    "question": "新开局Init计数、引导覆盖及线上A/B如何赋值？",
+    "checked": [
+      "Init池消费",
+      "引导覆盖消费并清空",
+      "基础和_B配置读取"
+    ],
+    "breakpoint": "消费端确认，实际玩家初始化/热更路由未闭合",
+    "next_evidence": "初始化字段写入或同版本运行态",
+    "do_not_repeat": "不从变量NewPlayer/IsFirst字面推断注册时长"
+  },
+  {
+    "id": "CQ04",
+    "topic": "exact_probability",
+    "question": "指定账号与构筑下每张技能最终出现率？",
+    "checked": [
+      "两层权重",
+      "章节权重列",
+      "槽位与池过滤",
+      "纠偏和分支"
+    ],
+    "breakpoint": "需要当时的完整候选池、初始计数、属性、AB和热更状态",
+    "next_evidence": "保存一次抽取前状态再重放算法；不要仅用18入口计算",
+    "do_not_repeat": "不输出无状态前提的百分比"
+  }
+]

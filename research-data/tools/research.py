@@ -117,16 +117,16 @@ def main():
     elif a.command=='export':
         validate();manifest();out=ROOT/a.output;out.parent.mkdir(parents=True,exist_ok=True)
         paths=[p for p in (ROOT/'research-data').rglob('*') if p.is_file() and '__pycache__' not in p.parts]
-        paths += [ROOT/'RESEARCH.md',ROOT/'docs/core.html',ROOT/'docs/research-data.html',ROOT/'docs/assets/style.css']
+        paths += [ROOT/'RESEARCH.md',ROOT/'docs/core.html',ROOT/'docs/choices-box-evolution.html',ROOT/'docs/research-data.html',ROOT/'docs/assets/style.css']
         with zipfile.ZipFile(out,'w',zipfile.ZIP_DEFLATED) as z:
             for p in paths:
                 content=p.read_bytes()
-                if p.name in ['core.html','research-data.html']:
+                if p.name in ['core.html','research-data.html','choices-box-evolution.html']:
                     text=content.decode();text=re.sub(r'href="(index.html|skills.html|skill-config.html|config.html)"',lambda m:'href="https://chitanda233.github.io/xxyzd-research/'+m[1]+'"',text)
                     text=text.replace('href="downloads/xxyzd-in-run-handoff.zip"','href="../RESEARCH.md"')
-                    text=text.replace('https://github.com/chitanda233/xxyzd-research/blob/main/research-data/in-run/','../research-data/in-run/')
+                    text=text.replace('https://github.com/chitanda233/xxyzd-research/blob/main/research-data/','../research-data/')
                     content=text.encode()
                 z.writestr(str(p.relative_to(ROOT)),content)
-            z.writestr('START-HERE.txt','先打开 docs/core.html 阅读正式报告，或 docs/research-data.html 查看数据。\n数据与证据在 research-data/in-run/；离线校验：python3 research-data/tools/research.py validate\n研究结构：RESEARCH.md。APK和反编译环境不包含在此包中。\n')
+            z.writestr('START-HERE.txt','先打开 docs/core.html 阅读正式报告，或 docs/research-data.html 查看数据。\n专题报告 docs/choices-box-evolution.html；专题数据 research-data/topics/choices-box-evolution/。\n数据与证据在 research-data/in-run/；离线校验：python3 research-data/tools/research.py validate\n研究结构：RESEARCH.md。APK和反编译环境不包含在此包中。\n')
         print(json.dumps({'package':str(out),'bytes':out.stat().st_size,'sha256':digest(out),'files':len(paths)+1},ensure_ascii=False))
 if __name__=='__main__':main()

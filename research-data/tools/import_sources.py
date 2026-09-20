@@ -67,6 +67,9 @@ for key,(path,method) in methods.items():
  else:method=s.splitlines()[0][2:]
  p=D/'evidence'/(key+'.asm');p.write_text(s)
  sources.append(dict(id='N:'+key,kind='native_excerpt',path=str(p.relative_to(D)),sha256=sha(p),method=method,rva=re.search(r'RVA (0x[\dA-Fa-f]+)',s)[1],origin={'path':path,'sha256':sha(src)},scope='APK ARM64 fallback; hotfix/indirect branches not fully resolved; original export may be capped at 16000 bytes'))
+# Preserve reviewed cross-topic canonical evidence; validate detects changed hashes.
+existing=json.loads((D/'sources.json').read_text()) if (D/'sources.json').exists() else []
+sources += [r for r in existing if r['path'].startswith('../topics/')]
 write(D/'sources.json',sources)
 base=json.loads((R/'indexes/apk-summary.json').read_text());write(D/'baseline.json',dict(schema_version='1.0.0',dataset_id='xxyzd-in-run-1.0.16-base',package='com.fhzj.game',client='1.0.16',version_code=40,apk_sha256=base['apk_sha256'],apk_bytes=base['apk_bytes'],scope='主线第一章，非_B基础配置；APK静态分析，不代表线上热更/A-B路由或服务端已验证',updated='2026-09-20',source_layers={'L0':'original/ 与 unpacked/；APK只保留指纹，不随轻量包交付','L1':'restored/configs/tables、schemas 与 restored/code/native-evidence','L2':'research-data/in-run（独立快照、规则、数据、证据）','L3':'docs/core.html 与 docs/research-data.html'}))
 print('sources',len(sources),'skill nodes',len(skills),'rows',sum(x.get('record_count',0) for x in sources))

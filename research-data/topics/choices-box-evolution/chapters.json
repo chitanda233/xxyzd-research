@@ -1,0 +1,517 @@
+[
+  {
+    "chapter": 1,
+    "skill_type": 2,
+    "weight_group": 1,
+    "weight_group_B": 1,
+    "protection_codes": []
+  },
+  {
+    "chapter": 2,
+    "skill_type": 2,
+    "weight_group": 2,
+    "weight_group_B": 2,
+    "protection_codes": [
+      3
+    ]
+  },
+  {
+    "chapter": 3,
+    "skill_type": 2,
+    "weight_group": 3,
+    "weight_group_B": 3,
+    "protection_codes": [
+      3
+    ]
+  },
+  {
+    "chapter": 4,
+    "skill_type": 2,
+    "weight_group": 4,
+    "weight_group_B": 4,
+    "protection_codes": [
+      3
+    ]
+  },
+  {
+    "chapter": 5,
+    "skill_type": 2,
+    "weight_group": 0,
+    "weight_group_B": 0,
+    "protection_codes": [
+      3
+    ]
+  },
+  {
+    "chapter": 6,
+    "skill_type": 2,
+    "weight_group": 5,
+    "weight_group_B": 5,
+    "protection_codes": [
+      3
+    ]
+  },
+  {
+    "chapter": 7,
+    "skill_type": 2,
+    "weight_group": 0,
+    "weight_group_B": 0,
+    "protection_codes": [
+      3
+    ]
+  },
+  {
+    "chapter": 8,
+    "skill_type": 2,
+    "weight_group": 6,
+    "weight_group_B": 6,
+    "protection_codes": [
+      3
+    ]
+  },
+  {
+    "chapter": 9,
+    "skill_type": 2,
+    "weight_group": 0,
+    "weight_group_B": 0,
+    "protection_codes": [
+      3
+    ]
+  },
+  {
+    "chapter": 10,
+    "skill_type": 2,
+    "weight_group": 0,
+    "weight_group_B": 0,
+    "protection_codes": [
+      3
+    ]
+  },
+  {
+    "chapter": 11,
+    "skill_type": 2,
+    "weight_group": 0,
+    "weight_group_B": 0,
+    "protection_codes": []
+  },
+  {
+    "chapter": 12,
+    "skill_type": 2,
+    "weight_group": 0,
+    "weight_group_B": 0,
+    "protection_codes": []
+  },
+  {
+    "chapter": 13,
+    "skill_type": 2,
+    "weight_group": 0,
+    "weight_group_B": 0,
+    "protection_codes": []
+  },
+  {
+    "chapter": 14,
+    "skill_type": 2,
+    "weight_group": 0,
+    "weight_group_B": 0,
+    "protection_codes": []
+  },
+  {
+    "chapter": 15,
+    "skill_type": 2,
+    "weight_group": 0,
+    "weight_group_B": 0,
+    "protection_codes": []
+  },
+  {
+    "chapter": 16,
+    "skill_type": 2,
+    "weight_group": 0,
+    "weight_group_B": 0,
+    "protection_codes": []
+  },
+  {
+    "chapter": 17,
+    "skill_type": 2,
+    "weight_group": 0,
+    "weight_group_B": 0,
+    "protection_codes": []
+  },
+  {
+    "chapter": 18,
+    "skill_type": 2,
+    "weight_group": 0,
+    "weight_group_B": 0,
+    "protection_codes": []
+  },
+  {
+    "chapter": 19,
+    "skill_type": 2,
+    "weight_group": 0,
+    "weight_group_B": 0,
+    "protection_codes": []
+  },
+  {
+    "chapter": 20,
+    "skill_type": 2,
+    "weight_group": 0,
+    "weight_group_B": 0,
+    "protection_codes": []
+  },
+  {
+    "chapter": 21,
+    "skill_type": 2,
+    "weight_group": 0,
+    "weight_group_B": 0,
+    "protection_codes": []
+  },
+  {
+    "chapter": 22,
+    "skill_type": 2,
+    "weight_group": 0,
+    "weight_group_B": 0,
+    "protection_codes": []
+  },
+  {
+    "chapter": 23,
+    "skill_type": 2,
+    "weight_group": 0,
+    "weight_group_B": 0,
+    "protection_codes": []
+  },
+  {
+    "chapter": 24,
+    "skill_type": 2,
+    "weight_group": 0,
+    "weight_group_B": 0,
+    "protection_codes": []
+  },
+  {
+    "chapter": 25,
+    "skill_type": 2,
+    "weight_group": 0,
+    "weight_group_B": 0,
+    "protection_codes": []
+  },
+  {
+    "chapter": 26,
+    "skill_type": 2,
+    "weight_group": 0,
+    "weight_group_B": 0,
+    "protection_codes": []
+  },
+  {
+    "chapter": 27,
+    "skill_type": 2,
+    "weight_group": 0,
+    "weight_group_B": 0,
+    "protection_codes": []
+  },
+  {
+    "chapter": 28,
+    "skill_type": 2,
+    "weight_group": 0,
+    "weight_group_B": 0,
+    "protection_codes": []
+  },
+  {
+    "chapter": 29,
+    "skill_type": 2,
+    "weight_group": 0,
+    "weight_group_B": 0,
+    "protection_codes": []
+  },
+  {
+    "chapter": 30,
+    "skill_type": 2,
+    "weight_group": 0,
+    "weight_group_B": 0,
+    "protection_codes": []
+  },
+  {
+    "chapter": 31,
+    "skill_type": 2,
+    "weight_group": 0,
+    "weight_group_B": 0,
+    "protection_codes": []
+  },
+  {
+    "chapter": 32,
+    "skill_type": 2,
+    "weight_group": 0,
+    "weight_group_B": 0,
+    "protection_codes": []
+  },
+  {
+    "chapter": 33,
+    "skill_type": 2,
+    "weight_group": 0,
+    "weight_group_B": 0,
+    "protection_codes": []
+  },
+  {
+    "chapter": 34,
+    "skill_type": 2,
+    "weight_group": 0,
+    "weight_group_B": 0,
+    "protection_codes": []
+  },
+  {
+    "chapter": 35,
+    "skill_type": 2,
+    "weight_group": 0,
+    "weight_group_B": 0,
+    "protection_codes": []
+  },
+  {
+    "chapter": 36,
+    "skill_type": 2,
+    "weight_group": 0,
+    "weight_group_B": 0,
+    "protection_codes": []
+  },
+  {
+    "chapter": 37,
+    "skill_type": 2,
+    "weight_group": 0,
+    "weight_group_B": 0,
+    "protection_codes": []
+  },
+  {
+    "chapter": 38,
+    "skill_type": 2,
+    "weight_group": 0,
+    "weight_group_B": 0,
+    "protection_codes": []
+  },
+  {
+    "chapter": 39,
+    "skill_type": 2,
+    "weight_group": 0,
+    "weight_group_B": 0,
+    "protection_codes": []
+  },
+  {
+    "chapter": 40,
+    "skill_type": 2,
+    "weight_group": 0,
+    "weight_group_B": 0,
+    "protection_codes": []
+  },
+  {
+    "chapter": 41,
+    "skill_type": 2,
+    "weight_group": 0,
+    "weight_group_B": 0,
+    "protection_codes": []
+  },
+  {
+    "chapter": 42,
+    "skill_type": 2,
+    "weight_group": 0,
+    "weight_group_B": 0,
+    "protection_codes": []
+  },
+  {
+    "chapter": 43,
+    "skill_type": 2,
+    "weight_group": 0,
+    "weight_group_B": 0,
+    "protection_codes": []
+  },
+  {
+    "chapter": 44,
+    "skill_type": 2,
+    "weight_group": 0,
+    "weight_group_B": 0,
+    "protection_codes": []
+  },
+  {
+    "chapter": 45,
+    "skill_type": 2,
+    "weight_group": 0,
+    "weight_group_B": 0,
+    "protection_codes": []
+  },
+  {
+    "chapter": 46,
+    "skill_type": 2,
+    "weight_group": 0,
+    "weight_group_B": 0,
+    "protection_codes": []
+  },
+  {
+    "chapter": 47,
+    "skill_type": 2,
+    "weight_group": 0,
+    "weight_group_B": 0,
+    "protection_codes": []
+  },
+  {
+    "chapter": 48,
+    "skill_type": 2,
+    "weight_group": 0,
+    "weight_group_B": 0,
+    "protection_codes": []
+  },
+  {
+    "chapter": 49,
+    "skill_type": 2,
+    "weight_group": 0,
+    "weight_group_B": 0,
+    "protection_codes": []
+  },
+  {
+    "chapter": 50,
+    "skill_type": 2,
+    "weight_group": 0,
+    "weight_group_B": 0,
+    "protection_codes": []
+  },
+  {
+    "chapter": 51,
+    "skill_type": 2,
+    "weight_group": 0,
+    "weight_group_B": 0,
+    "protection_codes": []
+  },
+  {
+    "chapter": 52,
+    "skill_type": 2,
+    "weight_group": 0,
+    "weight_group_B": 0,
+    "protection_codes": []
+  },
+  {
+    "chapter": 53,
+    "skill_type": 2,
+    "weight_group": 0,
+    "weight_group_B": 0,
+    "protection_codes": []
+  },
+  {
+    "chapter": 54,
+    "skill_type": 2,
+    "weight_group": 0,
+    "weight_group_B": 0,
+    "protection_codes": []
+  },
+  {
+    "chapter": 55,
+    "skill_type": 2,
+    "weight_group": 0,
+    "weight_group_B": 0,
+    "protection_codes": []
+  },
+  {
+    "chapter": 56,
+    "skill_type": 2,
+    "weight_group": 0,
+    "weight_group_B": 0,
+    "protection_codes": []
+  },
+  {
+    "chapter": 57,
+    "skill_type": 2,
+    "weight_group": 0,
+    "weight_group_B": 0,
+    "protection_codes": []
+  },
+  {
+    "chapter": 58,
+    "skill_type": 2,
+    "weight_group": 0,
+    "weight_group_B": 0,
+    "protection_codes": []
+  },
+  {
+    "chapter": 59,
+    "skill_type": 2,
+    "weight_group": 0,
+    "weight_group_B": 0,
+    "protection_codes": []
+  },
+  {
+    "chapter": 60,
+    "skill_type": 2,
+    "weight_group": 0,
+    "weight_group_B": 0,
+    "protection_codes": []
+  },
+  {
+    "chapter": 61,
+    "skill_type": 2,
+    "weight_group": 0,
+    "weight_group_B": 0,
+    "protection_codes": []
+  },
+  {
+    "chapter": 62,
+    "skill_type": 2,
+    "weight_group": 0,
+    "weight_group_B": 0,
+    "protection_codes": []
+  },
+  {
+    "chapter": 63,
+    "skill_type": 2,
+    "weight_group": 0,
+    "weight_group_B": 0,
+    "protection_codes": []
+  },
+  {
+    "chapter": 64,
+    "skill_type": 2,
+    "weight_group": 0,
+    "weight_group_B": 0,
+    "protection_codes": []
+  },
+  {
+    "chapter": 65,
+    "skill_type": 2,
+    "weight_group": 0,
+    "weight_group_B": 0,
+    "protection_codes": []
+  },
+  {
+    "chapter": 66,
+    "skill_type": 2,
+    "weight_group": 0,
+    "weight_group_B": 0,
+    "protection_codes": []
+  },
+  {
+    "chapter": 67,
+    "skill_type": 2,
+    "weight_group": 0,
+    "weight_group_B": 0,
+    "protection_codes": []
+  },
+  {
+    "chapter": 68,
+    "skill_type": 2,
+    "weight_group": 0,
+    "weight_group_B": 0,
+    "protection_codes": []
+  },
+  {
+    "chapter": 69,
+    "skill_type": 2,
+    "weight_group": 0,
+    "weight_group_B": 0,
+    "protection_codes": []
+  },
+  {
+    "chapter": 70,
+    "skill_type": 2,
+    "weight_group": 0,
+    "weight_group_B": 0,
+    "protection_codes": []
+  },
+  {
+    "chapter": 9999,
+    "skill_type": 2,
+    "weight_group": 0,
+    "weight_group_B": 0,
+    "protection_codes": []
+  }
+]

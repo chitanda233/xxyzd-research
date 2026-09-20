@@ -25,3 +25,10 @@ python3 research-data/tools/render.py
 python3 research-data/tools/research.py validate
 python3 research-data/tools/research.py export
 ```
+
+## 三选一与武器进化专题
+
+- 唯一专题报告：`docs/choices-box-evolution.html`。
+- 结构化数据：`research-data/topics/choices-box-evolution/`（规则、71章权重映射、22条配方、常量、证据和未闭合断点）。
+- 校验：`python3 research-data/tools/choice_topic.py validate`。
+- 宝箱怪按“击杀→拾取物→三选一”定义，目前身份链未闭合；中途商店未确认，停止扩大搜索。不要用Punchboard或传统两结果Box替代。

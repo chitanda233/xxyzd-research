@@ -1,0 +1,59 @@
+[
+  {
+    "id": "P01",
+    "scope": "仅类别抽签，类别1和2可用、3不可用，无qualityUp、无刷新、尚未做补位纠偏",
+    "weights": [
+      0,
+      200,
+      300,
+      0
+    ],
+    "probabilities": [
+      0,
+      0.4,
+      0.6,
+      0
+    ],
+    "formula": "w_i / sum(w_available)",
+    "not_equivalent_to": "三张最终展示的组成或特定技能出现率"
+  },
+  {
+    "id": "P02",
+    "scope": "仅类别抽签，类别1/2/3均可用且未被其他逻辑清零，无qualityUp/刷新",
+    "weights": [
+      0,
+      200,
+      300,
+      300
+    ],
+    "probabilities": [
+      0,
+      0.25,
+      0.375,
+      0.375
+    ],
+    "formula": "w_i / sum(w_available)",
+    "not_equivalent_to": "当前所有构筑均有类别3候选"
+  },
+  {
+    "id": "P03",
+    "scope": "Punchboard数量权重未受任何运行态修正",
+    "count_values": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "probabilities": [
+      0.6,
+      0,
+      0.3,
+      0,
+      0.1
+    ],
+    "expected_count": 2.0,
+    "formula": "1*0.6+3*0.3+5*0.1",
+    "not_equivalent_to": "净增加2个技能"
+  }
+]

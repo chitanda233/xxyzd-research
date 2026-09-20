@@ -1,0 +1,302 @@
+[
+  {
+    "id": "C01",
+    "title": "主线使用专用构筑随机器",
+    "status": "verified_static",
+    "statement": "71条主线章节配置SkillType均为2，世界据此使用DankeSkillCreator；其三选一逐张调用类别抽取。",
+    "parameters": {
+      "choice_count": 3
+    },
+    "evidence": [
+      "inputs/Chapter_MainChapter.json",
+      "evidence/BattleWorldContext--IsDankeSkill.asm",
+      "evidence/HeroComponentRandomSkill--Init.asm",
+      "evidence/DankeSkillCreator--GetNormalSkill.asm"
+    ],
+    "limitations": [
+      "静态APK基础实现，不代表线上热更已验证"
+    ]
+  },
+  {
+    "id": "C02",
+    "title": "类别权重与池内权重是两层",
+    "status": "verified_static",
+    "statement": "主线类别权重为[0,200,300,300]，类别1为被动、2为武器、3为特殊升级分类。每轮先检查池可用性，再抽类别与具体技能。",
+    "parameters": {
+      "weights": [
+        0,
+        200,
+        300,
+        300
+      ]
+    },
+    "evidence": [
+      "evidence/HeroComponentRandomSkill--GetNormalSkill.asm",
+      "evidence/LocalModels.Const--.cctor.asm",
+      "evidence/LocalModelEx--GetSkillDeepType.asm",
+      "evidence/DankeSkillCreator--GetRandomSkills.asm",
+      "inputs/native-constant-arrays.json"
+    ],
+    "limitations": [
+      "这些是类别权重，不是白绿蓝紫品质概率",
+      "类别映射还受GetSkillDeepType的调用参数及IsUpgrade影响；配方解锁在开关0时进入武器类别2",
+      "40%被动/60%武器仅适用于类别1、2可用且3不可用等前提；补位、升档和整组纠偏后不能直接沿用"
+    ]
+  },
+  {
+    "id": "C03",
+    "title": "章节决定池内权重列",
+    "status": "verified_static",
+    "statement": "主线用章节GetSkillGroupWeight选择Weight_1至Weight_10，其他值回到Weight；第一章取Weight_1。字段WeightForNewplayer存在，但本条已核实路由不读取它。",
+    "parameters": {
+      "chapter_1_group": 1
+    },
+    "evidence": [
+      "evidence/HeroSkillCreator--GetEffectiveWeight.asm",
+      "evidence/LocalModels.Bean.Chapter_MainChapter--GetSkillGroupWeight.asm",
+      "evidence/LocalModels.Bean.SkillGroup_SurvivorGroup--GetWeightByGroup.asm",
+      "inputs/SkillGroup_SurvivorGroup.json"
+    ],
+    "limitations": [
+      "权重0入口不会按正权重加入；18入口不等于18个均可抽候选"
+    ]
+  },
+  {
+    "id": "C04",
+    "title": "初始池独立且仅含武器入口",
+    "status": "verified_static",
+    "statement": "InitSurvivorGroup有10个武器入口，常规SurvivorGroup为11武器+7被动。Init计数大于0时改用初始池并消费计数。",
+    "parameters": {
+      "init_pool_entries": 10,
+      "regular_pool_entries": 18
+    },
+    "evidence": [
+      "evidence/DankeSkillCreator--GetNormalSkill.asm",
+      "inputs/SkillGroup_InitSurvivorGroup.json",
+      "inputs/SkillGroup_SurvivorGroup.json"
+    ],
+    "limitations": [
+      "尚未闭合新开局计数写入，不能承诺每局首屏必走初始池",
+      "池会随学习更新，10是配置初始入口数"
+    ]
+  },
+  {
+    "id": "C05",
+    "title": "按章节与构筑触发的临时保护",
+    "status": "verified_static",
+    "statement": "WorldType=1、章节NewPlayerProtect含3、尚未持有10000101时，抽取前尝试给配置的机炮/冰刃弹/灼热射线入口临时增权，抽后撤销。第一章保护数组为空；第2—10章含3。",
+    "parameters": {
+      "chapter_ids": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "required_missing_skill": 10000101,
+      "boost_percent": 10,
+      "target_skill_ids": [
+        10000101,
+        10000601,
+        10001701
+      ]
+    },
+    "evidence": [
+      "evidence/DankeSkillCreator--GetNormalSkill.asm",
+      "inputs/Chapter_MainChapter.json"
+    ],
+    "limitations": [
+      "本分支没有直接检查注册时间或账号新旧",
+      "作用对象还取决于所选池中是否存在目标入口；非最终概率+10个百分点"
+    ]
+  },
+  {
+    "id": "C06",
+    "title": "引导覆盖与随机分开",
+    "status": "verified_static",
+    "statement": "OverrideGuideRandomSkill不为空时，直接将指定列表加入结果并清空覆盖字段；只有没有覆盖时进入常规随机。",
+    "parameters": {},
+    "evidence": [
+      "evidence/HeroComponentRandomSkill--RandomSkill.asm"
+    ],
+    "limitations": [
+      "不能由常量GuideSelectSkillId存在就保证所有新号首屏必定展示该列表；其赋值入口仍需运行态或初始化证据"
+    ]
+  },
+  {
+    "id": "C07",
+    "title": "满槽、去重和整组纠偏",
+    "status": "verified_static",
+    "statement": "随机器区分已学与待学池，计算可学习槽位，逐张取候选；最终多候选结果没有武器类时，会尝试替换一个位置为武器类。",
+    "parameters": {
+      "base_weapon_slots": 4,
+      "base_passive_slots": 4
+    },
+    "evidence": [
+      "evidence/DankeSkillCreator--GetNormalSkill.asm",
+      "evidence/DankeSkillCreator--GetRandomSkills.asm",
+      "evidence/DankeSkillCreator--GetCanStudyCount.asm",
+      "evidence/DankeSkillCreator--GetPassiveCanStudyCount.asm",
+      "evidence/WeightRandom--GetRandomCount.asm"
+    ],
+    "limitations": [
+      "纠偏依赖合法武器候选，不保证任何状态都有新武器",
+      "各卡并非独立同分布，不能用1-(1-p)^3当真实三选一出现率"
+    ]
+  },
+  {
+    "id": "C08",
+    "title": "属性、刷新与星级作用范围",
+    "status": "verified_static",
+    "statement": "主线传入_dankeSkillWeights；LevelUpSkillUpRate%修改的是另一个普通品质权重数组，不能直接宣称提高主线类别权重。ExHighSkillRate%进入qualityUp判断；刷新复用保存的类别索引。星级入池乘数仅索引8为2，其余已恢复索引为1。",
+    "parameters": {},
+    "evidence": [
+      "evidence/HeroComponentRandomSkill--GetNormalSkill.asm",
+      "evidence/HeroComponentRandomSkill--CheckQualityUp.asm",
+      "evidence/DankeSkillCreator--GetRandomSkills.asm",
+      "evidence/DankeSkillCreator--AddSkillToRandom.asm",
+      "constants.json"
+    ],
+    "limitations": [
+      "质量升档在此作用于类别索引，不能包装成固定稀有度提升",
+      "Exp.randomSkillFactor传入Danke.GetNormalSkill，但APK该实现未消费该参数；不能据此推导主线概率",
+      "跨三张牌的刷新行为不能简化为保留每个位置原类别"
+    ]
+  },
+  {
+    "id": "C09",
+    "title": "配方是解锁候选",
+    "status": "verified_static",
+    "statement": "非_B分支学习技能后检查UnlockUpgradeNeddSkill与UnlockUpgradeId，要求已有依赖且目标UpgradeSkillGroup权重>0，然后加入常规与Init候选池；_B分支在该配方函数提前返回。",
+    "parameters": {
+      "upgrade_group_rows": 22,
+      "configured_weight_each": 5000
+    },
+    "evidence": [
+      "evidence/DankeSkillCreator--AddSkillChangeRandomPool.asm",
+      "evidence/DankeSkillCreator--TryUnlockUpgradeSkills.asm",
+      "inputs/Skill_Main.json",
+      "inputs/SkillGroup_UpgradeSkillGroup.json"
+    ],
+    "limitations": [
+      "5000是池内权重，不是50%或必出",
+      "依赖检查使用已有技能ID；前后升级、覆盖关系也会影响可达性"
+    ]
+  },
+  {
+    "id": "C10",
+    "title": "突破后还有专属选择",
+    "status": "verified_static",
+    "statement": "GetIsUpgrade()==1的节点会加入待学习特殊技能列表，OpenSelectSpecialSkill继续产生特殊选项；机炮10500101配置9个深层子选项。普通升星还可附带104系分支，与105系配方解锁区分。",
+    "parameters": {
+      "example_requirements": [
+        10000103,
+        11000701
+      ],
+      "example_result": 10500101,
+      "example_subchoices": [
+        10100101,
+        10100102,
+        10100103,
+        10100104,
+        10100105,
+        10100106,
+        10100109,
+        10100110,
+        10100107
+      ]
+    },
+    "evidence": [
+      "evidence/DankeSkillCreator--CheckIsSpecialSkill.asm",
+      "evidence/HeroComponentRandomSkill--OpenSelectSpecialSkill.asm",
+      "evidence/DankeSkillCreator--GetAddSkillId.asm",
+      "inputs/Skill_Main.json"
+    ],
+    "limitations": [
+      "不能把22个突破入口、57个分支、111个深层入口相加当作局内可同时装备技能数"
+    ]
+  },
+  {
+    "id": "C11",
+    "title": "阶段事件数量分布",
+    "status": "verified_static",
+    "statement": "Punchboard使用独立状态。常量数量权重[60,0,30,0,10]经索引+1得到1/3/5档，基础概率60%/30%/10%。 已持有IsBattleSkill=1的不同BattleSkillGroup数量≤4时，5档权重清零，未加属性时剩余1/3档概率2/3和1/3。FiveSkillRate%只放大最后一档权重。",
+    "parameters": {
+      "count_values": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "base_probabilities": [
+        0.6,
+        0,
+        0.3,
+        0,
+        0.1
+      ],
+      "unmodified_expected_count": 2.0,
+      "five_skill_block_threshold": 4,
+      "blocked_probabilities": [
+        0.6666666666666666,
+        0,
+        0.3333333333333333,
+        0,
+        0
+      ],
+      "five_weight_formula": "Round(10*(1+a)), then block if unique battle groups <=4"
+    },
+    "evidence": [
+      "evidence/HeroComponentRandomSkill--GetPunchboardRandomCount.asm",
+      "evidence/LocalModels.Const--.cctor.asm",
+      "inputs/native-constant-arrays.json",
+      "evidence/PlayerPunchboard--FillRandomSkillList.asm"
+    ],
+    "limitations": [
+      "基础概率只适用于不同战斗技能组数>4且没有属性修正；数量不等于净新增",
+      "数量不等于净新增，也不证明它就是用户描述的击杀宝箱怪"
+    ]
+  },
+  {
+    "id": "C12",
+    "title": "宝箱怪的身份未闭合",
+    "status": "unresolved",
+    "statement": "已沿怪物死亡、掉落类型、NPC碰撞和技能随机入口排查；尚无完整证据把某个怪物ID连接到击杀后拾取物触发普通三选一。",
+    "parameters": {},
+    "evidence": [
+      "evidence/EntityTreasure--CreateMonster.asm",
+      "evidence/EntityTreasure--OnColliderWithHero.asm",
+      "evidence/MainDropManager--OnDropItem.asm",
+      "evidence/MainDropManager--CheckSpecialDrop.asm",
+      "evidence/DropItemScroll--Collect.asm",
+      "evidence/DropItemEquip--Collect.asm",
+      "evidence/BaseBoxState--ShowBox.asm",
+      "evidence/NormalSkillCreator--GetBoxRandomSkills.asm",
+      "evidence/direct-xrefs.json"
+    ],
+    "limitations": [
+      "EntityTreasure是碰撞后造怪，不能仅凭名称等同宝箱怪",
+      "传统BoxSkillResult路径有两个技能结果，不能等同用户指定三选一",
+      "MainDropManager.CheckSpecialDrop的APK fallback返回false，普通掉落继续执行；热更可能覆盖特殊掉落规则"
+    ]
+  },
+  {
+    "id": "C13",
+    "title": "中途商店未确认",
+    "status": "unresolved",
+    "statement": "已检索战斗/界面商店命名和相关埋点引用；TrackSupplyStation直接调用者为UIDepotViewModule.OnOpen，TrackShopTrade由Tracker.TrackShopBuy调用，尚未找到小关中途购买入口。",
+    "parameters": {},
+    "evidence": [
+      "evidence/direct-xrefs.json"
+    ],
+    "limitations": [
+      "没有证据给出出现波次、库存、价格、刷新率；不把局外商店当成局内商店",
+      "直接引用扫描不覆盖虚调用、反射与热更；未找到不等于证明不存在"
+    ]
+  }
+]

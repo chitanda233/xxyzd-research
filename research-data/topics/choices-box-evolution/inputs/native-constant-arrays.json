@@ -1,0 +1,295 @@
+{
+  "metadata_path": "unpacked/apk/assets/bin/Data/Managed/Metadata/global-metadata.dat",
+  "metadata_sha256": "4df966493f58692ffecbf8bca7b6c3ad16adab4ee1a54a121bf4fe450a22dca8",
+  "metadata_version": 31,
+  "method": "Exact SHA-256 match of literal bytes to compiler-generated PrivateImplementationDetails field name; cctor gives allocation length and destination static-field offset.",
+  "hits": [
+    {
+      "field_hash": "4636993D3E1DA4E9D6B8F87B79E8F7C6D018580D52661950EABC3845C5897A4D",
+      "metadata_offset": 14320984,
+      "bytes_hex": "010000000200000003000000",
+      "int32": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "field_hash": "4636993D3E1DA4E9D6B8F87B79E8F7C6D018580D52661950EABC3845C5897A4D",
+      "metadata_offset": 14691112,
+      "bytes_hex": "010000000200000003000000",
+      "int32": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "field_hash": "4636993D3E1DA4E9D6B8F87B79E8F7C6D018580D52661950EABC3845C5897A4D",
+      "metadata_offset": 14900468,
+      "bytes_hex": "010000000200000003000000",
+      "int32": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "field_hash": "4636993D3E1DA4E9D6B8F87B79E8F7C6D018580D52661950EABC3845C5897A4D",
+      "metadata_offset": 14900533,
+      "bytes_hex": "010000000200000003000000",
+      "int32": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "field_hash": "4636993D3E1DA4E9D6B8F87B79E8F7C6D018580D52661950EABC3845C5897A4D",
+      "metadata_offset": 14905756,
+      "bytes_hex": "010000000200000003000000",
+      "int32": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "field_hash": "4636993D3E1DA4E9D6B8F87B79E8F7C6D018580D52661950EABC3845C5897A4D",
+      "metadata_offset": 15143064,
+      "bytes_hex": "010000000200000003000000",
+      "int32": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "field_hash": "4636993D3E1DA4E9D6B8F87B79E8F7C6D018580D52661950EABC3845C5897A4D",
+      "metadata_offset": 15143220,
+      "bytes_hex": "010000000200000003000000",
+      "int32": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "field_hash": "2CF161A7E774A343C1B83578A5FD7119AC37CB23CCC1247146ECDBEC59A6C848",
+      "metadata_offset": 15341928,
+      "bytes_hex": "030000000600000009000000",
+      "int32": [
+        3,
+        6,
+        9
+      ]
+    },
+    {
+      "field_hash": "3D19C7805B075BA48E14837E4DD25CA6841DCBF7E8078CBED7628169ECD160CB",
+      "metadata_offset": 15568176,
+      "bytes_hex": "1e0000001e0000000f000000",
+      "int32": [
+        30,
+        30,
+        15
+      ]
+    },
+    {
+      "field_hash": "4636993D3E1DA4E9D6B8F87B79E8F7C6D018580D52661950EABC3845C5897A4D",
+      "metadata_offset": 15568192,
+      "bytes_hex": "010000000200000003000000",
+      "int32": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "field_hash": "6ED07971D1ADBE09E32B9327B51873D3662BC184794F65BFB82CE08845078495",
+      "metadata_offset": 15568288,
+      "bytes_hex": "65b19e00259d9800d9989800",
+      "int32": [
+        10400101,
+        10001701,
+        10000601
+      ]
+    },
+    {
+      "field_hash": "9C46821D7BC59985793D819AFE57D159A1AB7F71C37ED73CEE2561132C5A701F",
+      "metadata_offset": 15568424,
+      "bytes_hex": "0f000000170000001e000000",
+      "int32": [
+        15,
+        23,
+        30
+      ]
+    },
+    {
+      "field_hash": "ABEBB356B0E79353872304C65E74ED9C2C8C6A40D2A14B0060401460203FAC39",
+      "metadata_offset": 15568440,
+      "bytes_hex": "1e0000001400000014000000",
+      "int32": [
+        30,
+        20,
+        20
+      ]
+    },
+    {
+      "field_hash": "ABEBB356B0E79353872304C65E74ED9C2C8C6A40D2A14B0060401460203FAC39",
+      "metadata_offset": 15575180,
+      "bytes_hex": "1e0000001400000014000000",
+      "int32": [
+        30,
+        20,
+        20
+      ]
+    },
+    {
+      "field_hash": "ABEBB356B0E79353872304C65E74ED9C2C8C6A40D2A14B0060401460203FAC39",
+      "metadata_offset": 15612676,
+      "bytes_hex": "1e0000001400000014000000",
+      "int32": [
+        30,
+        20,
+        20
+      ]
+    },
+    {
+      "field_hash": "4636993D3E1DA4E9D6B8F87B79E8F7C6D018580D52661950EABC3845C5897A4D",
+      "metadata_offset": 15631652,
+      "bytes_hex": "010000000200000003000000",
+      "int32": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "field_hash": "4636993D3E1DA4E9D6B8F87B79E8F7C6D018580D52661950EABC3845C5897A4D",
+      "metadata_offset": 15717116,
+      "bytes_hex": "010000000200000003000000",
+      "int32": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "field_hash": "4636993D3E1DA4E9D6B8F87B79E8F7C6D018580D52661950EABC3845C5897A4D",
+      "metadata_offset": 15718196,
+      "bytes_hex": "010000000200000003000000",
+      "int32": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "field_hash": "4636993D3E1DA4E9D6B8F87B79E8F7C6D018580D52661950EABC3845C5897A4D",
+      "metadata_offset": 15823280,
+      "bytes_hex": "010000000200000003000000",
+      "int32": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "field_hash": "4636993D3E1DA4E9D6B8F87B79E8F7C6D018580D52661950EABC3845C5897A4D",
+      "metadata_offset": 15902188,
+      "bytes_hex": "010000000200000003000000",
+      "int32": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "field_hash": "031DCF86794ED3B7B93A3AE49907719276373FBE1362714C58F47FABDBA0C757",
+      "metadata_offset": 15159056,
+      "bytes_hex": "00000000c80000002c0100002c010000",
+      "int32": [
+        0,
+        200,
+        300,
+        300
+      ]
+    },
+    {
+      "field_hash": "131931F2A4B01925C926A97978131B7A19727030F96F6B7D8B40AB1F9D5A9594",
+      "metadata_offset": 15159168,
+      "bytes_hex": "0f0000000f0000000f00000000000000",
+      "int32": [
+        15,
+        15,
+        15,
+        0
+      ]
+    },
+    {
+      "field_hash": "DB56E033B581494BE8285BD23AC98B167F8B811EC7AA5DEC96392921A9BB374F",
+      "metadata_offset": 15568592,
+      "bytes_hex": "02000000320000003200000000000000",
+      "int32": [
+        2,
+        50,
+        50,
+        0
+      ]
+    },
+    {
+      "field_hash": "F34E33F6967B804C44DDF1406E1CCB6FE184819555D8502FD3FC1225B02EE4CA",
+      "metadata_offset": 15568680,
+      "bytes_hex": "28000000280000001400000000000000",
+      "int32": [
+        40,
+        40,
+        20,
+        0
+      ]
+    },
+    {
+      "field_hash": "C63570963939A2E8674CD4F4E3A4886DD6E9D8AD19231E2C0CBFC9393D76CFCB",
+      "metadata_offset": 15568512,
+      "bytes_hex": "6400000032000000280000001e00000014000000",
+      "int32": [
+        100,
+        50,
+        40,
+        30,
+        20
+      ]
+    },
+    {
+      "field_hash": "DA5CA61D688229CE187D4D9C203CD69F19427D7DA6A6327CDC54A7AF16DAAAB1",
+      "metadata_offset": 15568568,
+      "bytes_hex": "3c000000000000001e000000000000000a000000",
+      "int32": [
+        60,
+        0,
+        30,
+        0,
+        10
+      ]
+    },
+    {
+      "field_hash": "111FFA2FBA74FC2335C63D8CEDE434F7D4072AD7C78C6D2E5C47F4E902060C61",
+      "metadata_offset": 15159112,
+      "bytes_hex": "010000000100000001000000010000000100000001000000010000000100000002000000010000000100000001000000",
+      "int32": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2,
+        1,
+        1,
+        1
+      ]
+    }
+  ]
+}

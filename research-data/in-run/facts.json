@@ -146,46 +146,50 @@
   {
     "id": "F07",
     "topic": "random",
-    "title": "整组品质抽取",
+    "title": "主线逐张类别抽取",
     "status": "verified_static",
-    "statement": "普通主线目标候选数3，先按40/40/20/0抽整组起始品质，从对应池抽取，候选不足再轮转补池。",
+    "statement": "主线SkillType=2使用DankeSkillCreator；目标候选3，逐张抽取类别和技能。基础类别权重[0,200,300,300]，不是整组品质40/40/20/0。",
     "parameters": {
       "choice_count": 3,
-      "quality_start_weights": [
-        40,
-        40,
-        20,
-        0
+      "category_weights": [
+        0,
+        200,
+        300,
+        300
       ]
     },
     "source_ids": [
-      "T:Consts_Const",
-      "N:normal-choice",
-      "N:quality"
+      "N:choice-topic-HeroComponentRandomSkill--Init",
+      "N:choice-topic-BattleWorldContext--IsDankeSkill",
+      "N:choice-topic-HeroComponentRandomSkill--GetNormalSkill",
+      "N:choice-topic-DankeSkillCreator--GetNormalSkill",
+      "N:choice-topic-DankeSkillCreator--GetRandomSkills",
+      "N:choice-topic-LocalModels.Const--.cctor"
     ],
     "applies_to": "client 1.0.16 / chapter 1 / base variant",
     "limitations": [
-      "基础权重不是每张卡最终品质概率",
-      "角色属性可修正权重"
+      "空池、槽位、去重、升档和纠偏改变最终结果",
+      "类别权重不等于每张最终卡概率"
     ],
     "report_anchor": "random"
   },
   {
     "id": "F08",
     "topic": "random",
-    "title": "刷新与升品质",
+    "title": "刷新与类别升档",
     "status": "verified_static",
-    "statement": "普通刷新复用已有品质索引；qualityUp提升起始品质档位，二者不同。",
+    "statement": "Danke刷新复用保存的类别索引，qualityUp可将起始索引上移一档；主线传入独立Danke权重数组。LevelUpSkillUpRate%修改另一个普通品质数组，不能直接算进主线类别权重。",
     "parameters": {
-      "refresh_reuses_quality_index": true,
-      "quality_up_index_delta": 1
+      "refresh_reuses_category_index": true
     },
     "source_ids": [
-      "N:quality",
-      "N:init-boost"
+      "N:choice-topic-HeroComponentRandomSkill--GetNormalSkill",
+      "N:choice-topic-DankeSkillCreator--GetRandomSkills"
     ],
     "applies_to": "client 1.0.16 / chapter 1 / base variant",
-    "limitations": [],
+    "limitations": [
+      "不等于保留三张各自的品质或保证稀有度提升"
+    ],
     "report_anchor": "random"
   },
   {
@@ -209,45 +213,58 @@
   {
     "id": "F10",
     "topic": "random",
-    "title": "初始池",
+    "title": "独立初始池",
     "status": "verified_static",
-    "statement": "Init计数大于0使用独立初始池并消费计数，配置目标1次；读档恢复计数。",
+    "statement": "Init计数大于0时，Danke路径使用独立初始池并消费计数；InitSurvivorGroup配置10个武器入口。",
     "parameters": {
-      "configured_init_count": 1
+      "configured_init_count": 1,
+      "init_weapon_entries": 10
     },
     "source_ids": [
+      "N:choice-topic-DankeSkillCreator--GetNormalSkill",
       "T:Consts_Const",
-      "N:init-boost",
       "N:save-init"
     ],
     "applies_to": "client 1.0.16 / chapter 1 / base variant",
     "limitations": [
-      "新开局写入1的路径未闭合；不能保证每局首屏必走该池"
+      "新开局计数写入仍未闭合，不能保证每局首屏必走Init池"
     ],
     "report_anchor": "random"
   },
   {
     "id": "F11",
     "topic": "random",
-    "title": "新手临时扶正",
+    "title": "章节临时保护",
     "status": "verified_static",
-    "statement": "配置指定10000101、10000601、10001701各+10%临时权重；正常技能抽取路径支持Boost后Revert。",
+    "statement": "WorldType=1、章节保护数组含3且尚未持有10000101时，尝试对三个配置入口临时增权10%并在抽后撤销。第一章数组为空；第2—10章含3。",
     "parameters": {
       "boost_percent": 10,
       "skill_ids": [
         10000101,
         10000601,
         10001701
+      ],
+      "configured_chapters": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
       ]
     },
     "source_ids": [
-      "T:Consts_Const",
-      "N:init-boost"
+      "N:choice-topic-DankeSkillCreator--GetNormalSkill",
+      "T:choice-topic-chapters",
+      "T:Consts_Const"
     ],
-    "applies_to": "client 1.0.16 / chapter 1 / base variant",
+    "applies_to": "client 1.0.16 / main chapters / chapter-and-build conditional",
     "limitations": [
-      "适用保护条件时生效，不是所有抽取普遍增加10%",
-      "不是最终概率增加10个百分点"
+      "本分支不直接判断账号注册时间，不能称为新账号专属",
+      "增权不是概率加10个百分点，也不是必出"
     ],
     "report_anchor": "random"
   },
@@ -304,20 +321,23 @@
     "topic": "build",
     "title": "突破配方",
     "status": "verified_static",
-    "statement": "速射机炮节点10000103与暴击模块11000701关联突破10500101；模块还关联灼热射线突破。",
+    "statement": "非_B下速射机炮10000103与暴击模块11000701满足配方时，将10500101按配置权重5000加入常规与Init候选池；随后仍需抽取和选择。_B在此配方函数提前返回。",
     "parameters": {
       "example": {
         "weapon_node": 10000103,
         "module": 11000701,
         "result": 10500101
-      }
+      },
+      "candidate_weight": 5000
     },
     "source_ids": [
-      "T:Skill_Main"
+      "T:Skill_Main",
+      "N:choice-topic-DankeSkillCreator--TryUnlockUpgradeSkills"
     ],
     "applies_to": "client 1.0.16 / chapter 1 / base variant",
     "limitations": [
-      "配置依赖成立仍需通过其它合法性过滤"
+      "不是材料齐全就自动进化，5000不是50%概率",
+      "_B必须读另一条特殊升级路径"
     ],
     "report_anchor": "build"
   },
@@ -355,18 +375,30 @@
     "topic": "punchboard",
     "title": "事件收益边界",
     "status": "verified_static",
-    "statement": "阶段事件数量走独立加权随机，并受属性与已有技能状态修正；不是固定普通三选一。",
-    "parameters": {},
+    "statement": "阶段事件基础数量权重[60,0,30,0,10]对应1/3/5档；已有不同战斗技能组≤4时关闭5档，FiveSkillRate%只修正5档权重。",
+    "parameters": {
+      "base_count_weights": [
+        60,
+        0,
+        30,
+        0,
+        10
+      ],
+      "five_skill_block_threshold": 4
+    },
     "source_ids": [
       "N:punch-count",
       "T:Consts_Const",
       "N:punch-state",
       "N:punch-init",
-      "N:punch-result"
+      "N:punch-result",
+      "N:choice-topic-LocalModels.Const--.cctor",
+      "N:choice-topic-HeroComponentRandomSkill--GetPunchboardRandomCount"
     ],
     "applies_to": "client 1.0.16 / chapter 1 / base variant",
     "limitations": [
-      "数量基础权重数组、净增减和替换结果未完整还原"
+      "基础分布60%/30%/10%仅在5档开放且无属性修正时成立",
+      "净增减与替换收益不能由数量档直接推算"
     ],
     "report_anchor": "punchboard"
   },

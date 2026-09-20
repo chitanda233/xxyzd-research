@@ -30,9 +30,9 @@
       "F15",
       "F16"
     ],
-    "question": "Punchboard各数量档概率与技能净变化？",
-    "already_checked": "独立状态和数量抽样已定位；内置表未找到数量权重数组。",
-    "required_evidence": "常量初始化/远端配置与PlayerPunchboard结果应用",
+    "question": "Punchboard结果的净增减与替换收益？",
+    "already_checked": "基础数量权重60/0/30/0/10、FiveSkillRate修正和不同技能组≤4关闭5档已确认；独立状态与结果列表已定位。",
+    "required_evidence": "沿PlayerPunchboard结果应用核对具体构筑状态下的净变化",
     "impact": "影响Boss前实际构筑规模",
     "reopen_when": "任务需要该结论的定量保证，或获得新的版本/运行态材料；否则复用已有结论并保留边界"
   },

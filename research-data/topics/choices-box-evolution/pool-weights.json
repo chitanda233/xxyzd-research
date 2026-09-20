@@ -1,0 +1,702 @@
+[
+  {
+    "pool": "InitSurvivorGroup",
+    "skill_id": 10000101,
+    "name": "速射机炮",
+    "skill_type": 1,
+    "weight": 200,
+    "chapter_group_weights": {
+      "1": 300,
+      "2": 250,
+      "3": 180,
+      "4": 100,
+      "5": 100,
+      "6": 100,
+      "7": 200,
+      "8": 200,
+      "9": 200,
+      "10": 200
+    },
+    "weight_for_newplayer": 200,
+    "source": {
+      "path": "inputs/SkillGroup_InitSurvivorGroup.json",
+      "row_key": "EventID",
+      "row_id": 1
+    }
+  },
+  {
+    "pool": "InitSurvivorGroup",
+    "skill_id": 10000201,
+    "name": "酸液枪",
+    "skill_type": 1,
+    "weight": 200,
+    "chapter_group_weights": {
+      "1": 100,
+      "2": 100,
+      "3": 100,
+      "4": 100,
+      "5": 100,
+      "6": 100,
+      "7": 200,
+      "8": 200,
+      "9": 200,
+      "10": 200
+    },
+    "weight_for_newplayer": 100,
+    "source": {
+      "path": "inputs/SkillGroup_InitSurvivorGroup.json",
+      "row_key": "EventID",
+      "row_id": 2
+    }
+  },
+  {
+    "pool": "InitSurvivorGroup",
+    "skill_id": 10000301,
+    "name": "电弧枪",
+    "skill_type": 1,
+    "weight": 200,
+    "chapter_group_weights": {
+      "1": 100,
+      "2": 100,
+      "3": 100,
+      "4": 100,
+      "5": 100,
+      "6": 100,
+      "7": 200,
+      "8": 200,
+      "9": 200,
+      "10": 200
+    },
+    "weight_for_newplayer": 100,
+    "source": {
+      "path": "inputs/SkillGroup_InitSurvivorGroup.json",
+      "row_key": "EventID",
+      "row_id": 3
+    }
+  },
+  {
+    "pool": "InitSurvivorGroup",
+    "skill_id": 10000401,
+    "name": "磁暴枪",
+    "skill_type": 1,
+    "weight": 200,
+    "chapter_group_weights": {
+      "1": 100,
+      "2": 100,
+      "3": 100,
+      "4": 100,
+      "5": 100,
+      "6": 300,
+      "7": 200,
+      "8": 200,
+      "9": 200,
+      "10": 200
+    },
+    "weight_for_newplayer": 300,
+    "source": {
+      "path": "inputs/SkillGroup_InitSurvivorGroup.json",
+      "row_key": "EventID",
+      "row_id": 4
+    }
+  },
+  {
+    "pool": "InitSurvivorGroup",
+    "skill_id": 10000601,
+    "name": "冰刃弹",
+    "skill_type": 1,
+    "weight": 200,
+    "chapter_group_weights": {
+      "1": 300,
+      "2": 250,
+      "3": 180,
+      "4": 100,
+      "5": 100,
+      "6": 100,
+      "7": 200,
+      "8": 200,
+      "9": 200,
+      "10": 200
+    },
+    "weight_for_newplayer": 100,
+    "source": {
+      "path": "inputs/SkillGroup_InitSurvivorGroup.json",
+      "row_key": "EventID",
+      "row_id": 5
+    }
+  },
+  {
+    "pool": "InitSurvivorGroup",
+    "skill_id": 10000701,
+    "name": "爆燃导弹",
+    "skill_type": 1,
+    "weight": 200,
+    "chapter_group_weights": {
+      "1": 100,
+      "2": 100,
+      "3": 100,
+      "4": 100,
+      "5": 100,
+      "6": 100,
+      "7": 200,
+      "8": 200,
+      "9": 200,
+      "10": 200
+    },
+    "weight_for_newplayer": 25,
+    "source": {
+      "path": "inputs/SkillGroup_InitSurvivorGroup.json",
+      "row_key": "EventID",
+      "row_id": 6
+    }
+  },
+  {
+    "pool": "InitSurvivorGroup",
+    "skill_id": 10001101,
+    "name": "能量光剑",
+    "skill_type": 1,
+    "weight": 200,
+    "chapter_group_weights": {
+      "1": 100,
+      "2": 100,
+      "3": 100,
+      "4": 180,
+      "5": 100,
+      "6": 100,
+      "7": 200,
+      "8": 200,
+      "9": 200,
+      "10": 200
+    },
+    "weight_for_newplayer": 100,
+    "source": {
+      "path": "inputs/SkillGroup_InitSurvivorGroup.json",
+      "row_key": "EventID",
+      "row_id": 8
+    }
+  },
+  {
+    "pool": "InitSurvivorGroup",
+    "skill_id": 10001501,
+    "name": "高能激光",
+    "skill_type": 1,
+    "weight": 200,
+    "chapter_group_weights": {
+      "1": 100,
+      "2": 100,
+      "3": 100,
+      "4": 100,
+      "5": 100,
+      "6": 100,
+      "7": 200,
+      "8": 200,
+      "9": 200,
+      "10": 200
+    },
+    "weight_for_newplayer": 100,
+    "source": {
+      "path": "inputs/SkillGroup_InitSurvivorGroup.json",
+      "row_key": "EventID",
+      "row_id": 9
+    }
+  },
+  {
+    "pool": "InitSurvivorGroup",
+    "skill_id": 10001601,
+    "name": "冰冻锯盘",
+    "skill_type": 1,
+    "weight": 200,
+    "chapter_group_weights": {
+      "1": 50,
+      "2": 60,
+      "3": 60,
+      "4": 200,
+      "5": 100,
+      "6": 100,
+      "7": 200,
+      "8": 200,
+      "9": 200,
+      "10": 200
+    },
+    "weight_for_newplayer": 100,
+    "source": {
+      "path": "inputs/SkillGroup_InitSurvivorGroup.json",
+      "row_key": "EventID",
+      "row_id": 10
+    }
+  },
+  {
+    "pool": "InitSurvivorGroup",
+    "skill_id": 10001701,
+    "name": "灼热射线",
+    "skill_type": 1,
+    "weight": 200,
+    "chapter_group_weights": {
+      "1": 100,
+      "2": 200,
+      "3": 180,
+      "4": 100,
+      "5": 300,
+      "6": 100,
+      "7": 200,
+      "8": 200,
+      "9": 200,
+      "10": 200
+    },
+    "weight_for_newplayer": 200,
+    "source": {
+      "path": "inputs/SkillGroup_InitSurvivorGroup.json",
+      "row_key": "EventID",
+      "row_id": 11
+    }
+  },
+  {
+    "pool": "SurvivorGroup",
+    "skill_id": 10000101,
+    "name": "速射机炮",
+    "skill_type": 1,
+    "weight": 100,
+    "chapter_group_weights": {
+      "1": 300,
+      "2": 250,
+      "3": 180,
+      "4": 100,
+      "5": 100,
+      "6": 100,
+      "7": 100,
+      "8": 100,
+      "9": 100,
+      "10": 100
+    },
+    "weight_for_newplayer": 100,
+    "source": {
+      "path": "inputs/SkillGroup_SurvivorGroup.json",
+      "row_key": "EventID",
+      "row_id": 1
+    }
+  },
+  {
+    "pool": "SurvivorGroup",
+    "skill_id": 10000201,
+    "name": "酸液枪",
+    "skill_type": 1,
+    "weight": 100,
+    "chapter_group_weights": {
+      "1": 100,
+      "2": 100,
+      "3": 100,
+      "4": 100,
+      "5": 100,
+      "6": 100,
+      "7": 100,
+      "8": 100,
+      "9": 100,
+      "10": 100
+    },
+    "weight_for_newplayer": 100,
+    "source": {
+      "path": "inputs/SkillGroup_SurvivorGroup.json",
+      "row_key": "EventID",
+      "row_id": 2
+    }
+  },
+  {
+    "pool": "SurvivorGroup",
+    "skill_id": 10000301,
+    "name": "电弧枪",
+    "skill_type": 1,
+    "weight": 100,
+    "chapter_group_weights": {
+      "1": 100,
+      "2": 100,
+      "3": 100,
+      "4": 100,
+      "5": 100,
+      "6": 100,
+      "7": 100,
+      "8": 100,
+      "9": 100,
+      "10": 100
+    },
+    "weight_for_newplayer": 100,
+    "source": {
+      "path": "inputs/SkillGroup_SurvivorGroup.json",
+      "row_key": "EventID",
+      "row_id": 3
+    }
+  },
+  {
+    "pool": "SurvivorGroup",
+    "skill_id": 10000401,
+    "name": "磁暴枪",
+    "skill_type": 1,
+    "weight": 100,
+    "chapter_group_weights": {
+      "1": 100,
+      "2": 100,
+      "3": 100,
+      "4": 100,
+      "5": 100,
+      "6": 100,
+      "7": 100,
+      "8": 100,
+      "9": 100,
+      "10": 100
+    },
+    "weight_for_newplayer": 100,
+    "source": {
+      "path": "inputs/SkillGroup_SurvivorGroup.json",
+      "row_key": "EventID",
+      "row_id": 4
+    }
+  },
+  {
+    "pool": "SurvivorGroup",
+    "skill_id": 10000601,
+    "name": "冰刃弹",
+    "skill_type": 1,
+    "weight": 100,
+    "chapter_group_weights": {
+      "1": 300,
+      "2": 250,
+      "3": 180,
+      "4": 100,
+      "5": 100,
+      "6": 100,
+      "7": 100,
+      "8": 100,
+      "9": 100,
+      "10": 100
+    },
+    "weight_for_newplayer": 100,
+    "source": {
+      "path": "inputs/SkillGroup_SurvivorGroup.json",
+      "row_key": "EventID",
+      "row_id": 5
+    }
+  },
+  {
+    "pool": "SurvivorGroup",
+    "skill_id": 10000701,
+    "name": "爆燃导弹",
+    "skill_type": 1,
+    "weight": 100,
+    "chapter_group_weights": {
+      "1": 100,
+      "2": 100,
+      "3": 100,
+      "4": 100,
+      "5": 100,
+      "6": 100,
+      "7": 100,
+      "8": 100,
+      "9": 100,
+      "10": 100
+    },
+    "weight_for_newplayer": 100,
+    "source": {
+      "path": "inputs/SkillGroup_SurvivorGroup.json",
+      "row_key": "EventID",
+      "row_id": 6
+    }
+  },
+  {
+    "pool": "SurvivorGroup",
+    "skill_id": 10000901,
+    "name": "酸性黑洞",
+    "skill_type": 1,
+    "weight": 100,
+    "chapter_group_weights": {
+      "1": 100,
+      "2": 100,
+      "3": 100,
+      "4": 100,
+      "5": 100,
+      "6": 100,
+      "7": 100,
+      "8": 100,
+      "9": 100,
+      "10": 100
+    },
+    "weight_for_newplayer": 100,
+    "source": {
+      "path": "inputs/SkillGroup_SurvivorGroup.json",
+      "row_key": "EventID",
+      "row_id": 7
+    }
+  },
+  {
+    "pool": "SurvivorGroup",
+    "skill_id": 10001101,
+    "name": "能量光剑",
+    "skill_type": 1,
+    "weight": 100,
+    "chapter_group_weights": {
+      "1": 100,
+      "2": 100,
+      "3": 100,
+      "4": 180,
+      "5": 100,
+      "6": 100,
+      "7": 100,
+      "8": 100,
+      "9": 100,
+      "10": 100
+    },
+    "weight_for_newplayer": 100,
+    "source": {
+      "path": "inputs/SkillGroup_SurvivorGroup.json",
+      "row_key": "EventID",
+      "row_id": 8
+    }
+  },
+  {
+    "pool": "SurvivorGroup",
+    "skill_id": 10001501,
+    "name": "高能激光",
+    "skill_type": 1,
+    "weight": 100,
+    "chapter_group_weights": {
+      "1": 100,
+      "2": 100,
+      "3": 100,
+      "4": 100,
+      "5": 100,
+      "6": 100,
+      "7": 100,
+      "8": 100,
+      "9": 100,
+      "10": 100
+    },
+    "weight_for_newplayer": 100,
+    "source": {
+      "path": "inputs/SkillGroup_SurvivorGroup.json",
+      "row_key": "EventID",
+      "row_id": 9
+    }
+  },
+  {
+    "pool": "SurvivorGroup",
+    "skill_id": 10001601,
+    "name": "冰冻锯盘",
+    "skill_type": 1,
+    "weight": 100,
+    "chapter_group_weights": {
+      "1": 50,
+      "2": 50,
+      "3": 50,
+      "4": 200,
+      "5": 100,
+      "6": 100,
+      "7": 100,
+      "8": 100,
+      "9": 100,
+      "10": 100
+    },
+    "weight_for_newplayer": 100,
+    "source": {
+      "path": "inputs/SkillGroup_SurvivorGroup.json",
+      "row_key": "EventID",
+      "row_id": 10
+    }
+  },
+  {
+    "pool": "SurvivorGroup",
+    "skill_id": 10001701,
+    "name": "灼热射线",
+    "skill_type": 1,
+    "weight": 100,
+    "chapter_group_weights": {
+      "1": 100,
+      "2": 200,
+      "3": 180,
+      "4": 100,
+      "5": 100,
+      "6": 100,
+      "7": 100,
+      "8": 100,
+      "9": 100,
+      "10": 100
+    },
+    "weight_for_newplayer": 100,
+    "source": {
+      "path": "inputs/SkillGroup_SurvivorGroup.json",
+      "row_key": "EventID",
+      "row_id": 11
+    }
+  },
+  {
+    "pool": "SurvivorGroup",
+    "skill_id": 11000101,
+    "name": "生命模块",
+    "skill_type": 2,
+    "weight": 100,
+    "chapter_group_weights": {
+      "1": 100,
+      "2": 100,
+      "3": 100,
+      "4": 170,
+      "5": 100,
+      "6": 100,
+      "7": 100,
+      "8": 100,
+      "9": 100,
+      "10": 100
+    },
+    "weight_for_newplayer": 100,
+    "source": {
+      "path": "inputs/SkillGroup_SurvivorGroup.json",
+      "row_key": "EventID",
+      "row_id": 101
+    }
+  },
+  {
+    "pool": "SurvivorGroup",
+    "skill_id": 11000201,
+    "name": "攻击模块",
+    "skill_type": 2,
+    "weight": 100,
+    "chapter_group_weights": {
+      "1": 100,
+      "2": 100,
+      "3": 100,
+      "4": 160,
+      "5": 100,
+      "6": 100,
+      "7": 100,
+      "8": 100,
+      "9": 100,
+      "10": 100
+    },
+    "weight_for_newplayer": 100,
+    "source": {
+      "path": "inputs/SkillGroup_SurvivorGroup.json",
+      "row_key": "EventID",
+      "row_id": 102
+    }
+  },
+  {
+    "pool": "SurvivorGroup",
+    "skill_id": 11000301,
+    "name": "增幅模块",
+    "skill_type": 2,
+    "weight": 0,
+    "chapter_group_weights": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0
+    },
+    "weight_for_newplayer": 0,
+    "source": {
+      "path": "inputs/SkillGroup_SurvivorGroup.json",
+      "row_key": "EventID",
+      "row_id": 103
+    }
+  },
+  {
+    "pool": "SurvivorGroup",
+    "skill_id": 11000601,
+    "name": "冷却模块",
+    "skill_type": 2,
+    "weight": 100,
+    "chapter_group_weights": {
+      "1": 100,
+      "2": 100,
+      "3": 100,
+      "4": 100,
+      "5": 100,
+      "6": 100,
+      "7": 100,
+      "8": 100,
+      "9": 100,
+      "10": 100
+    },
+    "weight_for_newplayer": 100,
+    "source": {
+      "path": "inputs/SkillGroup_SurvivorGroup.json",
+      "row_key": "EventID",
+      "row_id": 104
+    }
+  },
+  {
+    "pool": "SurvivorGroup",
+    "skill_id": 11000701,
+    "name": "暴击模块",
+    "skill_type": 2,
+    "weight": 100,
+    "chapter_group_weights": {
+      "1": 300,
+      "2": 250,
+      "3": 180,
+      "4": 100,
+      "5": 100,
+      "6": 100,
+      "7": 100,
+      "8": 100,
+      "9": 100,
+      "10": 100
+    },
+    "weight_for_newplayer": 100,
+    "source": {
+      "path": "inputs/SkillGroup_SurvivorGroup.json",
+      "row_key": "EventID",
+      "row_id": 105
+    }
+  },
+  {
+    "pool": "SurvivorGroup",
+    "skill_id": 11001101,
+    "name": "缩小！",
+    "skill_type": 2,
+    "weight": 100,
+    "chapter_group_weights": {
+      "1": 300,
+      "2": 250,
+      "3": 180,
+      "4": 100,
+      "5": 100,
+      "6": 100,
+      "7": 100,
+      "8": 100,
+      "9": 100,
+      "10": 100
+    },
+    "weight_for_newplayer": 100,
+    "source": {
+      "path": "inputs/SkillGroup_SurvivorGroup.json",
+      "row_key": "EventID",
+      "row_id": 106
+    }
+  },
+  {
+    "pool": "SurvivorGroup",
+    "skill_id": 11001201,
+    "name": "维修强化",
+    "skill_type": 2,
+    "weight": 100,
+    "chapter_group_weights": {
+      "1": 100,
+      "2": 100,
+      "3": 100,
+      "4": 100,
+      "5": 100,
+      "6": 100,
+      "7": 100,
+      "8": 100,
+      "9": 100,
+      "10": 100
+    },
+    "weight_for_newplayer": 100,
+    "source": {
+      "path": "inputs/SkillGroup_SurvivorGroup.json",
+      "row_key": "EventID",
+      "row_id": 107
+    }
+  }
+]

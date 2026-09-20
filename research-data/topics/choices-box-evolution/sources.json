@@ -1,0 +1,1969 @@
+[
+  {
+    "id": "N:AIPunchboard--.ctor",
+    "path": "evidence/AIPunchboard--.ctor.asm",
+    "kind": "native_excerpt",
+    "method": "HotFix.BattleLogic.AIPunchboard$$.ctor",
+    "rva": "RVA 0x6B8AD64",
+    "sha256": "f7c43a0e207976af1c1ceaafe567bb306765d53b5028ac11d7378af18b96dd0e",
+    "origin": "unpacked/apk/lib/arm64-v8a/libil2cpp.so + restored/code/il2cpp/script.json",
+    "limitations": "ARM64 fallback; indirect calls/hotfix are not fully resolved"
+  },
+  {
+    "id": "N:AIPunchboard--<OnBorn>b__11_0",
+    "path": "evidence/AIPunchboard--<OnBorn>b__11_0.asm",
+    "kind": "native_excerpt",
+    "method": "HotFix.BattleLogic.AIPunchboard$$<OnBorn>b__11_0",
+    "rva": "RVA 0x6B8ADF4",
+    "sha256": "3c5f3c3cb1c99742df75de1690596c95c8f0f96fea0382e7cfec5d14a6f2f91c",
+    "origin": "unpacked/apk/lib/arm64-v8a/libil2cpp.so + restored/code/il2cpp/script.json",
+    "limitations": "ARM64 fallback; indirect calls/hotfix are not fully resolved"
+  },
+  {
+    "id": "N:AIPunchboard--InitAttackLoop",
+    "path": "evidence/AIPunchboard--InitAttackLoop.asm",
+    "kind": "native_excerpt",
+    "method": "HotFix.BattleLogic.AIPunchboard$$InitAttackLoop",
+    "rva": "RVA 0x6B8A3C0",
+    "sha256": "6789ff1bdb64e7a28386683bf40365a835464294382b2b392650eeb79d9bc280",
+    "origin": "unpacked/apk/lib/arm64-v8a/libil2cpp.so + restored/code/il2cpp/script.json",
+    "limitations": "ARM64 fallback; indirect calls/hotfix are not fully resolved"
+  },
+  {
+    "id": "N:AIPunchboard--InitDataByParams",
+    "path": "evidence/AIPunchboard--InitDataByParams.asm",
+    "kind": "native_excerpt",
+    "method": "HotFix.BattleLogic.AIPunchboard$$InitDataByParams",
+    "rva": "RVA 0x6B89D78",
+    "sha256": "f0b3a1c9573a4b7ef093050bc9dc0727b36c54cb6e03f3b1d18326cf5a1213ad",
+    "origin": "unpacked/apk/lib/arm64-v8a/libil2cpp.so + restored/code/il2cpp/script.json",
+    "limitations": "ARM64 fallback; indirect calls/hotfix are not fully resolved"
+  },
+  {
+    "id": "N:AIPunchboard--OnBorn",
+    "path": "evidence/AIPunchboard--OnBorn.asm",
+    "kind": "native_excerpt",
+    "method": "HotFix.BattleLogic.AIPunchboard$$OnBorn",
+    "rva": "RVA 0x6B8A05C",
+    "sha256": "1efc41ebcd18cf2937d2830550facb39bfbb0131792acb56dcc44439a40c8bc1",
+    "origin": "unpacked/apk/lib/arm64-v8a/libil2cpp.so + restored/code/il2cpp/script.json",
+    "limitations": "ARM64 fallback; indirect calls/hotfix are not fully resolved"
+  },
+  {
+    "id": "N:AIPunchboard--OnDeInit",
+    "path": "evidence/AIPunchboard--OnDeInit.asm",
+    "kind": "native_excerpt",
+    "method": "HotFix.BattleLogic.AIPunchboard$$OnDeInit",
+    "rva": "RVA 0x6B8A304",
+    "sha256": "443aae02ffeb44d3baf7356f2aeb5821148b44741dd5882395383e1868c5ef55",
+    "origin": "unpacked/apk/lib/arm64-v8a/libil2cpp.so + restored/code/il2cpp/script.json",
+    "limitations": "ARM64 fallback; indirect calls/hotfix are not fully resolved"
+  },
+  {
+    "id": "N:AIPunchboard--OnEventHook",
+    "path": "evidence/AIPunchboard--OnEventHook.asm",
+    "kind": "native_excerpt",
+    "method": "HotFix.BattleLogic.AIPunchboard$$OnEventHook",
+    "rva": "RVA 0x6B8ABD8",
+    "sha256": "3ec3f021b2102fc8893cbb8aac78084fab5e47997b998d9de729b8678a7f5055",
+    "origin": "unpacked/apk/lib/arm64-v8a/libil2cpp.so + restored/code/il2cpp/script.json",
+    "limitations": "ARM64 fallback; indirect calls/hotfix are not fully resolved"
+  },
+  {
+    "id": "N:AIPunchboard--OnUpdate",
+    "path": "evidence/AIPunchboard--OnUpdate.asm",
+    "kind": "native_excerpt",
+    "method": "HotFix.BattleLogic.AIPunchboard$$OnUpdate",
+    "rva": "RVA 0x6B8A420",
+    "sha256": "9ac230acc38d23966e1ea572ad96493ca208b839f84f41b398c9e32199ef3843",
+    "origin": "unpacked/apk/lib/arm64-v8a/libil2cpp.so + restored/code/il2cpp/script.json",
+    "limitations": "ARM64 fallback; indirect calls/hotfix are not fully resolved"
+  },
+  {
+    "id": "N:AIPunchboard--SetAIData",
+    "path": "evidence/AIPunchboard--SetAIData.asm",
+    "kind": "native_excerpt",
+    "method": "HotFix.BattleLogic.AIPunchboard$$SetAIData",
+    "rva": "RVA 0x6B89F28",
+    "sha256": "d8d3b2abd5177842ddc0029c517dac07532fd0312e79f4aac591fec92ed34523",
+    "origin": "unpacked/apk/lib/arm64-v8a/libil2cpp.so + restored/code/il2cpp/script.json",
+    "limitations": "ARM64 fallback; indirect calls/hotfix are not fully resolved"
+  },
+  {
+    "id": "N:BaseBoxState--.ctor",
+    "path": "evidence/BaseBoxState--.ctor.asm",
+    "kind": "native_excerpt",
+    "method": "HotFix.BattleLogic.BaseBoxState$$.ctor",
+    "rva": "RVA 0x65979A4",
+    "sha256": "1bcdac24251328c0f9de96980fd3b7f2fcb1dd3e43af4d1c38329c03e8992dfd",
+    "origin": "unpacked/apk/lib/arm64-v8a/libil2cpp.so + restored/code/il2cpp/script.json",
+    "limitations": "ARM64 fallback; indirect calls/hotfix are not fully resolved"
+  },
+  {
+    "id": "N:BaseBoxState--OnEnter",
+    "path": "evidence/BaseBoxState--OnEnter.asm",
+    "kind": "native_excerpt",
+    "method": "HotFix.BattleLogic.BaseBoxState$$OnEnter",
+    "rva": "RVA 0x6597350",
+    "sha256": "fb1cc4987184911f4d479f71e31f921dbe1031cadce0f7538abf7ab58be3ece4",
+    "origin": "unpacked/apk/lib/arm64-v8a/libil2cpp.so + restored/code/il2cpp/script.json",
+    "limitations": "ARM64 fallback; indirect calls/hotfix are not fully resolved"
+  },
+  {
+    "id": "N:BaseBoxState--OnExit",
+    "path": "evidence/BaseBoxState--OnExit.asm",
+    "kind": "native_excerpt",
+    "method": "HotFix.BattleLogic.BaseBoxState$$OnExit",
+    "rva": "RVA 0x65978D0",
+    "sha256": "0a192712e4ba9dfd7361ab07924f3691b685245d08f5b15d0388019998d79e8c",
+    "origin": "unpacked/apk/lib/arm64-v8a/libil2cpp.so + restored/code/il2cpp/script.json",
+    "limitations": "ARM64 fallback; indirect calls/hotfix are not fully resolved"
+  },
+  {
+    "id": "N:BaseBoxState--OnUpdate",
+    "path": "evidence/BaseBoxState--OnUpdate.asm",
+    "kind": "native_excerpt",
+    "method": "HotFix.BattleLogic.BaseBoxState$$OnUpdate",
+    "rva": "RVA 0x65972DC",
+    "sha256": "6584b08f703af06c0f9691882829e0a9584c718fd9119c76eb9ff87a5f9a6597",
+    "origin": "unpacked/apk/lib/arm64-v8a/libil2cpp.so + restored/code/il2cpp/script.json",
+    "limitations": "ARM64 fallback; indirect calls/hotfix are not fully resolved"
+  },
+  {
+    "id": "N:BaseBoxState--ShowBox",
+    "path": "evidence/BaseBoxState--ShowBox.asm",
+    "kind": "native_excerpt",
+    "method": "HotFix.BattleLogic.BaseBoxState$$ShowBox",
+    "rva": "RVA 0x65973C8",
+    "sha256": "6694002ffc723955856bcf14af1998a308e25acef05e4574df15da0dd7108e30",
+    "origin": "unpacked/apk/lib/arm64-v8a/libil2cpp.so + restored/code/il2cpp/script.json",
+    "limitations": "ARM64 fallback; indirect calls/hotfix are not fully resolved"
+  },
+  {
+    "id": "N:BaseBoxState--get_StopTime",
+    "path": "evidence/BaseBoxState--get_StopTime.asm",
+    "kind": "native_excerpt",
+    "method": "HotFix.BattleLogic.BaseBoxState$$get_StopTime",
+    "rva": "RVA 0x6597278",
+    "sha256": "202fa80e94a4cdaa2024c49fec51827fdcf77984e5a3420c46425bc645320708",
+    "origin": "unpacked/apk/lib/arm64-v8a/libil2cpp.so + restored/code/il2cpp/script.json",
+    "limitations": "ARM64 fallback; indirect calls/hotfix are not fully resolved"
+  },
+  {
+    "id": "N:BaseDropNpcState--.ctor",
+    "path": "evidence/BaseDropNpcState--.ctor.asm",
+    "kind": "native_excerpt",
+    "method": "HotFix.BattleLogic.BaseDropNpcState$$.ctor",
+    "rva": "RVA 0x6598E50",
+    "sha256": "d49353089253e6927828bfa76b493d2b04ac984e743076fdccd85dafb1ea21d1",
+    "origin": "unpacked/apk/lib/arm64-v8a/libil2cpp.so + restored/code/il2cpp/script.json",
+    "limitations": "ARM64 fallback; indirect calls/hotfix are not fully resolved"
+  },
+  {
+    "id": "N:BaseDropNpcState--GoNextState",
+    "path": "evidence/BaseDropNpcState--GoNextState.asm",
+    "kind": "native_excerpt",
+    "method": "HotFix.BattleLogic.BaseDropNpcState$$GoNextState",
+    "rva": "RVA 0x6598C38",
+    "sha256": "9b9d3fc9ff23421e46af0ebad6aaef42f550b8292e6440fc6426d4f190c3b215",
+    "origin": "unpacked/apk/lib/arm64-v8a/libil2cpp.so + restored/code/il2cpp/script.json",
+    "limitations": "ARM64 fallback; indirect calls/hotfix are not fully resolved"
+  },
+  {
+    "id": "N:BaseDropNpcState--Init",
+    "path": "evidence/BaseDropNpcState--Init.asm",
+    "kind": "native_excerpt",
+    "method": "HotFix.BattleLogic.BaseDropNpcState$$Init",
+    "rva": "RVA 0x6598614",
+    "sha256": "b7cd9a468e26195d29e6531cb85cde0be35d3e970a9e43c89b2a70771e0abb09",
+    "origin": "unpacked/apk/lib/arm64-v8a/libil2cpp.so + restored/code/il2cpp/script.json",
+    "limitations": "ARM64 fallback; indirect calls/hotfix are not fully resolved"
+  },
+  {
+    "id": "N:BaseDropNpcState--OnEnter",
+    "path": "evidence/BaseDropNpcState--OnEnter.asm",
+    "kind": "native_excerpt",
+    "method": "HotFix.BattleLogic.BaseDropNpcState$$OnEnter",
+    "rva": "RVA 0x659851C",
+    "sha256": "90179c7c836347c00f478c2ce52b953e1defbf9757238ff795ee70adb6b46afc",
+    "origin": "unpacked/apk/lib/arm64-v8a/libil2cpp.so + restored/code/il2cpp/script.json",
+    "limitations": "ARM64 fallback; indirect calls/hotfix are not fully resolved"
+  },
+  {
+    "id": "N:BaseDropNpcState--OnExit",
+    "path": "evidence/BaseDropNpcState--OnExit.asm",
+    "kind": "native_excerpt",
+    "method": "HotFix.BattleLogic.BaseDropNpcState$$OnExit",
+    "rva": "RVA 0x659880C",
+    "sha256": "e1fde4580b695bd5bbf50577df131db8441c1c5ca7c943f772bd503056d1da80",
+    "origin": "unpacked/apk/lib/arm64-v8a/libil2cpp.so + restored/code/il2cpp/script.json",
+    "limitations": "ARM64 fallback; indirect calls/hotfix are not fully resolved"
+  },
+  {
+    "id": "N:BaseDropNpcState--OnPush",
+    "path": "evidence/BaseDropNpcState--OnPush.asm",
+    "kind": "native_excerpt",
+    "method": "HotFix.BattleLogic.BaseDropNpcState$$OnPush",
+    "rva": "RVA 0x6598D40",
+    "sha256": "d872e1797cd64919ffc56b5280e8d0f503a79a629b0091bbb331946ebab73682",
+    "origin": "unpacked/apk/lib/arm64-v8a/libil2cpp.so + restored/code/il2cpp/script.json",
+    "limitations": "ARM64 fallback; indirect calls/hotfix are not fully resolved"
+  },
+  {
+    "id": "N:BaseDropNpcState--OnUpdate",
+    "path": "evidence/BaseDropNpcState--OnUpdate.asm",
+    "kind": "native_excerpt",
+    "method": "HotFix.BattleLogic.BaseDropNpcState$$OnUpdate",
+    "rva": "RVA 0x6598C98",
+    "sha256": "9b350724f4d411125ea3095174e9e8d0bea52830fdd0f99563eab01aeaad2482",
+    "origin": "unpacked/apk/lib/arm64-v8a/libil2cpp.so + restored/code/il2cpp/script.json",
+    "limitations": "ARM64 fallback; indirect calls/hotfix are not fully resolved"
+  },
+  {
+    "id": "N:BaseDropNpcState--TryShowBox",
+    "path": "evidence/BaseDropNpcState--TryShowBox.asm",
+    "kind": "native_excerpt",
+    "method": "HotFix.BattleLogic.BaseDropNpcState$$TryShowBox",
+    "rva": "RVA 0x6598A20",
+    "sha256": "c42e772ad6fe0bb78a44463e5ca6e94a76b0e3c0b4bd3c921521d6d111ea6b0d",
+    "origin": "unpacked/apk/lib/arm64-v8a/libil2cpp.so + restored/code/il2cpp/script.json",
+    "limitations": "ARM64 fallback; indirect calls/hotfix are not fully resolved"
+  },
+  {
+    "id": "N:BaseDropNpcState--TryShowNpc",
+    "path": "evidence/BaseDropNpcState--TryShowNpc.asm",
+    "kind": "native_excerpt",
+    "method": "HotFix.BattleLogic.BaseDropNpcState$$TryShowNpc",
+    "rva": "RVA 0x65989A4",
+    "sha256": "9c83a95eed5408a074d61f8314acf82b4e961cd2e9e13ee37c710318f2d2be81",
+    "origin": "unpacked/apk/lib/arm64-v8a/libil2cpp.so + restored/code/il2cpp/script.json",
+    "limitations": "ARM64 fallback; indirect calls/hotfix are not fully resolved"
+  },
+  {
+    "id": "N:BaseSurvivalBattleManager--EnemyDieSpecialLogic",
+    "path": "evidence/BaseSurvivalBattleManager--EnemyDieSpecialLogic.asm",
+    "kind": "native_excerpt",
+    "method": "HotFix.BattleLogic.BaseSurvivalBattleManager$$EnemyDieSpecialLogic",
+    "rva": "RVA 0x6588F5C",
+    "sha256": "754781bfe6880f0b9054429b53d1516cc05bdc43db7c37d12e1f50dd34541d04",
+    "origin": "unpacked/apk/lib/arm64-v8a/libil2cpp.so + restored/code/il2cpp/script.json",
+    "limitations": "ARM64 fallback; indirect calls/hotfix are not fully resolved"
+  },
+  {
+    "id": "N:BaseSurvivalBattleManager--EnemySpecialDie",
+    "path": "evidence/BaseSurvivalBattleManager--EnemySpecialDie.asm",
+    "kind": "native_excerpt",
+    "method": "HotFix.BattleLogic.BaseSurvivalBattleManager$$EnemySpecialDie",
+    "rva": "RVA 0x65875AC",
+    "sha256": "94f35f9ec0ecb2cd736a8976a242c1401f96c0270fe512365fd5eb1c43a415d5",
+    "origin": "unpacked/apk/lib/arm64-v8a/libil2cpp.so + restored/code/il2cpp/script.json",
+    "limitations": "ARM64 fallback; indirect calls/hotfix are not fully resolved"
+  },
+  {
+    "id": "N:BaseSurvivalBattleManager--OnEnemeyDieStart",
+    "path": "evidence/BaseSurvivalBattleManager--OnEnemeyDieStart.asm",
+    "kind": "native_excerpt",
+    "method": "HotFix.BattleLogic.BaseSurvivalBattleManager$$OnEnemeyDieStart",
+    "rva": "RVA 0x65893A4",
+    "sha256": "bc0c177b4607ea8f4045633dd1c658972675252445d31e941ce85648c5e2e041",
+    "origin": "unpacked/apk/lib/arm64-v8a/libil2cpp.so + restored/code/il2cpp/script.json",
+    "limitations": "ARM64 fallback; indirect calls/hotfix are not fully resolved"
+  },
+  {
+    "id": "N:BaseSurvivalBattleManager--OnEnemyDie",
+    "path": "evidence/BaseSurvivalBattleManager--OnEnemyDie.asm",
+    "kind": "native_excerpt",
+    "method": "HotFix.BattleLogic.BaseSurvivalBattleManager$$OnEnemyDie",
+    "rva": "RVA 0x6588C68",
+    "sha256": "be6d56201f5f36899ec1acaca7bd3c378ca0f6455cd3b5e04a932cfd40f688b9",
+    "origin": "unpacked/apk/lib/arm64-v8a/libil2cpp.so + restored/code/il2cpp/script.json",
+    "limitations": "ARM64 fallback; indirect calls/hotfix are not fully resolved"
+  },
+  {
+    "id": "N:BattleManager--CheckCacheNpcCollider",
+    "path": "evidence/BattleManager--CheckCacheNpcCollider.asm",
+    "kind": "native_excerpt",
+    "method": "HotFix.BattleLogic.BattleManager$$CheckCacheNpcCollider",
+    "rva": "RVA 0x6591F50",
+    "sha256": "ebefefef8eee9e97d5bd27bf7d681c3ced42cb14ad8ffd04fa7b86a9ad6ecdca",
+    "origin": "unpacked/apk/lib/arm64-v8a/libil2cpp.so + restored/code/il2cpp/script.json",
+    "limitations": "ARM64 fallback; indirect calls/hotfix are not fully resolved"
+  },
+  {
+    "id": "N:BattleManager--OnEnemeyDieStart",
+    "path": "evidence/BattleManager--OnEnemeyDieStart.asm",
+    "kind": "native_excerpt",
+    "method": "HotFix.BattleLogic.BattleManager$$OnEnemeyDieStart",
+    "rva": "RVA 0x65895A8",
+    "sha256": "aff273cdc419309a71b071d6f5e3df441d072183a116f99ec078d9ad2a66292c",
+    "origin": "unpacked/apk/lib/arm64-v8a/libil2cpp.so + restored/code/il2cpp/script.json",
+    "limitations": "ARM64 fallback; indirect calls/hotfix are not fully resolved"
+  },
+  {
+    "id": "N:BattleManager--OnHeroColliderWithNpc",
+    "path": "evidence/BattleManager--OnHeroColliderWithNpc.asm",
+    "kind": "native_excerpt",
+    "method": "HotFix.BattleLogic.BattleManager$$OnHeroColliderWithNpc",
+    "rva": "RVA 0x6591B74",
+    "sha256": "e6a35f20e849319a54968d858a40a9591022755978f1cc66e5aaca885edb0396",
+    "origin": "unpacked/apk/lib/arm64-v8a/libil2cpp.so + restored/code/il2cpp/script.json",
+    "limitations": "ARM64 fallback; indirect calls/hotfix are not fully resolved"
+  },
+  {
+    "id": "N:BattleWorldContext--IsDankeSkill",
+    "path": "evidence/BattleWorldContext--IsDankeSkill.asm",
+    "kind": "native_excerpt",
+    "method": "HotFix.BattleLogic.BattleWorldContext$$IsDankeSkill",
+    "rva": "RVA 0x6A04794",
+    "sha256": "eb171bb8341001ec627d81990cc13f1906470d1fe25eb644a98c67a25df3ca9a",
+    "origin": "unpacked/apk/lib/arm64-v8a/libil2cpp.so + restored/code/il2cpp/script.json",
+    "limitations": "ARM64 fallback; indirect calls/hotfix are not fully resolved"
+  },
+  {
+    "id": "N:BattleWorldContext--get_UseNvWuShenInitSkill",
+    "path": "evidence/BattleWorldContext--get_UseNvWuShenInitSkill.asm",
+    "kind": "native_excerpt",
+    "method": "HotFix.BattleLogic.BattleWorldContext$$get_UseNvWuShenInitSkill",
+    "rva": "RVA 0x69FFE94",
+    "sha256": "c8a6ebe6177c272675f35806e118ef3f38e91fe3eee7a0830d605aff491feed2",
+    "origin": "unpacked/apk/lib/arm64-v8a/libil2cpp.so + restored/code/il2cpp/script.json",
+    "limitations": "ARM64 fallback; indirect calls/hotfix are not fully resolved"
+  },
+  {
+    "id": "N:DankeSkillCreator--.ctor",
+    "path": "evidence/DankeSkillCreator--.ctor.asm",
+    "kind": "native_excerpt",
+    "method": "HotFix.BattleLogic.DankeSkillCreator$$.ctor",
+    "rva": "RVA 0x68662AC",
+    "sha256": "8897b9df15acb8d48a40e7ce20a3d32dad5173c1d58b2df18ddfb6f8367a49ff",
+    "origin": "unpacked/apk/lib/arm64-v8a/libil2cpp.so + restored/code/il2cpp/script.json",
+    "limitations": "ARM64 fallback; indirect calls/hotfix are not fully resolved"
+  },
+  {
+    "id": "N:DankeSkillCreator--AddSkillChangeRandomPool",
+    "path": "evidence/DankeSkillCreator--AddSkillChangeRandomPool.asm",
+    "kind": "native_excerpt",
+    "method": "HotFix.BattleLogic.DankeSkillCreator$$AddSkillChangeRandomPool",
+    "rva": "RVA 0x6860D20",
+    "sha256": "6f8034b388518a63282b4c343a0fa69e5b255c811ba5bc1c0b6428c426ace813",
+    "origin": "unpacked/apk/lib/arm64-v8a/libil2cpp.so + restored/code/il2cpp/script.json",
+    "limitations": "ARM64 fallback; indirect calls/hotfix are not fully resolved"
+  },
+  {
+    "id": "N:DankeSkillCreator--AddSkillToRandom",
+    "path": "evidence/DankeSkillCreator--AddSkillToRandom.asm",
+    "kind": "native_excerpt",
+    "method": "HotFix.BattleLogic.DankeSkillCreator$$AddSkillToRandom",
+    "rva": "RVA 0x6865E7C",
+    "sha256": "f54b8adcf344644489159a87443868e52a372586d7a3dc0220fb8d8acce680f8",
+    "origin": "unpacked/apk/lib/arm64-v8a/libil2cpp.so + restored/code/il2cpp/script.json",
+    "limitations": "ARM64 fallback; indirect calls/hotfix are not fully resolved"
+  },
+  {
+    "id": "N:DankeSkillCreator--CheckIsRightSkillType",
+    "path": "evidence/DankeSkillCreator--CheckIsRightSkillType.asm",
+    "kind": "native_excerpt",
+    "method": "HotFix.BattleLogic.DankeSkillCreator$$CheckIsRightSkillType",
+    "rva": "RVA 0x6865B3C",
+    "sha256": "e7aeb20f24834eddd5c1b8b59fedf69b2764af055db336ddb76d7d4f65c947e1",
+    "origin": "unpacked/apk/lib/arm64-v8a/libil2cpp.so + restored/code/il2cpp/script.json",
+    "limitations": "ARM64 fallback; indirect calls/hotfix are not fully resolved"
+  },
+  {
+    "id": "N:DankeSkillCreator--CheckIsSpecialSkill",
+    "path": "evidence/DankeSkillCreator--CheckIsSpecialSkill.asm",
+    "kind": "native_excerpt",
+    "method": "HotFix.BattleLogic.DankeSkillCreator$$CheckIsSpecialSkill",
+    "rva": "RVA 0x6861B78",
+    "sha256": "17b659b96ac2a9c7fb514b51c84306e1b63d348be81790180ddd1e1316a57910",
+    "origin": "unpacked/apk/lib/arm64-v8a/libil2cpp.so + restored/code/il2cpp/script.json",
+    "limitations": "ARM64 fallback; indirect calls/hotfix are not fully resolved"
+  },
+  {
+    "id": "N:DankeSkillCreator--CheckNeedOpenSpecialSkill",
+    "path": "evidence/DankeSkillCreator--CheckNeedOpenSpecialSkill.asm",
+    "kind": "native_excerpt",
+    "method": "HotFix.BattleLogic.DankeSkillCreator$$CheckNeedOpenSpecialSkill",
+    "rva": "RVA 0x6862BE8",
+    "sha256": "fa31324b055917c9740b9018462739b833d075bb2353e703b716b406e7f69e9d",
+    "origin": "unpacked/apk/lib/arm64-v8a/libil2cpp.so + restored/code/il2cpp/script.json",
+    "limitations": "ARM64 fallback; indirect calls/hotfix are not fully resolved"
+  },
+  {
+    "id": "N:DankeSkillCreator--CheckNeedTwoSkill",
+    "path": "evidence/DankeSkillCreator--CheckNeedTwoSkill.asm",
+    "kind": "native_excerpt",
+    "method": "HotFix.BattleLogic.DankeSkillCreator$$CheckNeedTwoSkill",
+    "rva": "RVA 0x685D6D8",
+    "sha256": "90da71fa6c19ca5c3d98e6d4c4036432826658891f83729443dcc9572984066f",
+    "origin": "unpacked/apk/lib/arm64-v8a/libil2cpp.so + restored/code/il2cpp/script.json",
+    "limitations": "ARM64 fallback; indirect calls/hotfix are not fully resolved"
+  },
+  {
+    "id": "N:DankeSkillCreator--DoSomethingOnGuide",
+    "path": "evidence/DankeSkillCreator--DoSomethingOnGuide.asm",
+    "kind": "native_excerpt",
+    "method": "HotFix.BattleLogic.DankeSkillCreator$$DoSomethingOnGuide",
+    "rva": "RVA 0x685DDCC",
+    "sha256": "c4ac548b6ff78d291b38531baff28bbad5d90f44a4bcbd03ec05beba720f6609",
+    "origin": "unpacked/apk/lib/arm64-v8a/libil2cpp.so + restored/code/il2cpp/script.json",
+    "limitations": "ARM64 fallback; indirect calls/hotfix are not fully resolved"
+  },
+  {
+    "id": "N:DankeSkillCreator--GetAddSkillId",
+    "path": "evidence/DankeSkillCreator--GetAddSkillId.asm",
+    "kind": "native_excerpt",
+    "method": "HotFix.BattleLogic.DankeSkillCreator$$GetAddSkillId",
+    "rva": "RVA 0x6862418",
+    "sha256": "c5089ac33671becaac1f36699f833a50a5fb6193f52049d775f2861c856bda50",
+    "origin": "unpacked/apk/lib/arm64-v8a/libil2cpp.so + restored/code/il2cpp/script.json",
+    "limitations": "ARM64 fallback; indirect calls/hotfix are not fully resolved"
+  },
+  {
+    "id": "N:DankeSkillCreator--GetAlreadyStudyRandomPool",
+    "path": "evidence/DankeSkillCreator--GetAlreadyStudyRandomPool.asm",
+    "kind": "native_excerpt",
+    "method": "HotFix.BattleLogic.DankeSkillCreator$$GetAlreadyStudyRandomPool",
+    "rva": "RVA 0x6863850",
+    "sha256": "a3dda5889e168a62b8e41dbe4d88c84715e1b5bfc8d3e452015680d4ee0a22bf",
+    "origin": "unpacked/apk/lib/arm64-v8a/libil2cpp.so + restored/code/il2cpp/script.json",
+    "limitations": "ARM64 fallback; indirect calls/hotfix are not fully resolved"
+  },
+  {
+    "id": "N:DankeSkillCreator--GetCanStudyCount",
+    "path": "evidence/DankeSkillCreator--GetCanStudyCount.asm",
+    "kind": "native_excerpt",
+    "method": "HotFix.BattleLogic.DankeSkillCreator$$GetCanStudyCount",
+    "rva": "RVA 0x685D8A4",
+    "sha256": "de2b3faee4ef5cce71fe7cdc214cdb63a6b726632239c8b093c02409eca63921",
+    "origin": "unpacked/apk/lib/arm64-v8a/libil2cpp.so + restored/code/il2cpp/script.json",
+    "limitations": "ARM64 fallback; indirect calls/hotfix are not fully resolved"
+  },
+  {
+    "id": "N:DankeSkillCreator--GetChangeIndex",
+    "path": "evidence/DankeSkillCreator--GetChangeIndex.asm",
+    "kind": "native_excerpt",
+    "method": "HotFix.BattleLogic.DankeSkillCreator$$GetChangeIndex",
+    "rva": "RVA 0x6860978",
+    "sha256": "e2491624717077aa1594c45c06406845a78a4bc3b854d78d3b17136262c3c00f",
+    "origin": "unpacked/apk/lib/arm64-v8a/libil2cpp.so + restored/code/il2cpp/script.json",
+    "limitations": "ARM64 fallback; indirect calls/hotfix are not fully resolved"
+  },
+  {
+    "id": "N:DankeSkillCreator--GetNormalSkill",
+    "path": "evidence/DankeSkillCreator--GetNormalSkill.asm",
+    "kind": "native_excerpt",
+    "method": "HotFix.BattleLogic.DankeSkillCreator$$GetNormalSkill",
+    "rva": "RVA 0x685DFAC",
+    "sha256": "941e1ce6f82663465002348c41550c70a536b68e99803d5d36956cdcd036a605",
+    "origin": "unpacked/apk/lib/arm64-v8a/libil2cpp.so + restored/code/il2cpp/script.json",
+    "limitations": "ARM64 fallback; indirect calls/hotfix are not fully resolved"
+  },
+  {
+    "id": "N:DankeSkillCreator--GetOneStarRandomPool",
+    "path": "evidence/DankeSkillCreator--GetOneStarRandomPool.asm",
+    "kind": "native_excerpt",
+    "method": "HotFix.BattleLogic.DankeSkillCreator$$GetOneStarRandomPool",
+    "rva": "RVA 0x6865A48",
+    "sha256": "f1ee3455d237bce2872ac9f24c162ef775af301aa2b682281f67ba74c3635127",
+    "origin": "unpacked/apk/lib/arm64-v8a/libil2cpp.so + restored/code/il2cpp/script.json",
+    "limitations": "ARM64 fallback; indirect calls/hotfix are not fully resolved"
+  },
+  {
+    "id": "N:DankeSkillCreator--GetPassiveCanStudyCount",
+    "path": "evidence/DankeSkillCreator--GetPassiveCanStudyCount.asm",
+    "kind": "native_excerpt",
+    "method": "HotFix.BattleLogic.DankeSkillCreator$$GetPassiveCanStudyCount",
+    "rva": "RVA 0x685DB38",
+    "sha256": "9cb2d2b555ec9d28ad3ecb44d4ceb55ea263e929e15dda94b68708bb1951070a",
+    "origin": "unpacked/apk/lib/arm64-v8a/libil2cpp.so + restored/code/il2cpp/script.json",
+    "limitations": "ARM64 fallback; indirect calls/hotfix are not fully resolved"
+  },
+  {
+    "id": "N:DankeSkillCreator--GetRandomPunchboardSkills",
+    "path": "evidence/DankeSkillCreator--GetRandomPunchboardSkills.asm",
+    "kind": "native_excerpt",
+    "method": "HotFix.BattleLogic.DankeSkillCreator$$GetRandomPunchboardSkills",
+    "rva": "RVA 0x6863A38",
+    "sha256": "954e4a488bca53666463863e012d488fc39aeb472b8f1e44b90dbebcdd532aff",
+    "origin": "unpacked/apk/lib/arm64-v8a/libil2cpp.so + restored/code/il2cpp/script.json",
+    "limitations": "ARM64 fallback; indirect calls/hotfix are not fully resolved"
+  },
+  {
+    "id": "N:DankeSkillCreator--GetRandomSkillByCredits",
+    "path": "evidence/DankeSkillCreator--GetRandomSkillByCredits.asm",
+    "kind": "native_excerpt",
+    "method": "HotFix.BattleLogic.DankeSkillCreator$$GetRandomSkillByCredits",
+    "rva": "RVA 0x685D150",
+    "sha256": "0d0c772305d81ec94864b3f4ad2fe3ebcedba535fecffcf3d1003352c8745067",
+    "origin": "unpacked/apk/lib/arm64-v8a/libil2cpp.so + restored/code/il2cpp/script.json",
+    "limitations": "ARM64 fallback; indirect calls/hotfix are not fully resolved"
+  },
+  {
+    "id": "N:DankeSkillCreator--GetRandomSkills",
+    "path": "evidence/DankeSkillCreator--GetRandomSkills.asm",
+    "kind": "native_excerpt",
+    "method": "HotFix.BattleLogic.DankeSkillCreator$$GetRandomSkills",
+    "rva": "RVA 0x685F434",
+    "sha256": "805cb37c453bc5c8035a31b1317875d5bbe263c1aa953d4b842da3636bb066f6",
+    "origin": "unpacked/apk/lib/arm64-v8a/libil2cpp.so + restored/code/il2cpp/script.json",
+    "limitations": "ARM64 fallback; indirect calls/hotfix are not fully resolved"
+  },
+  {
+    "id": "N:DankeSkillCreator--GetReadyStudyRandomPool",
+    "path": "evidence/DankeSkillCreator--GetReadyStudyRandomPool.asm",
+    "kind": "native_excerpt",
+    "method": "HotFix.BattleLogic.DankeSkillCreator$$GetReadyStudyRandomPool",
+    "rva": "RVA 0x6863944",
+    "sha256": "c634a9190cf85990ec116cf8bcdaae7c5497df627979c94c2a2412ede3d0c08c",
+    "origin": "unpacked/apk/lib/arm64-v8a/libil2cpp.so + restored/code/il2cpp/script.json",
+    "limitations": "ARM64 fallback; indirect calls/hotfix are not fully resolved"
+  },
+  {
+    "id": "N:DankeSkillCreator--GetSkillCountOnType",
+    "path": "evidence/DankeSkillCreator--GetSkillCountOnType.asm",
+    "kind": "native_excerpt",
+    "method": "HotFix.BattleLogic.DankeSkillCreator$$GetSkillCountOnType",
+    "rva": "RVA 0x685EFB0",
+    "sha256": "60967694cdf9707eb6f7f4c295e0566c43b8693c27f56485e6fa2a59f5323e01",
+    "origin": "unpacked/apk/lib/arm64-v8a/libil2cpp.so + restored/code/il2cpp/script.json",
+    "limitations": "ARM64 fallback; indirect calls/hotfix are not fully resolved"
+  },
+  {
+    "id": "N:DankeSkillCreator--GetSkillWeight",
+    "path": "evidence/DankeSkillCreator--GetSkillWeight.asm",
+    "kind": "native_excerpt",
+    "method": "HotFix.BattleLogic.DankeSkillCreator$$GetSkillWeight",
+    "rva": "RVA 0x68654A8",
+    "sha256": "67f095dcdc090d0d9fef4013579bb06f7912f705d9adb31aaa84d76196a501a5",
+    "origin": "unpacked/apk/lib/arm64-v8a/libil2cpp.so + restored/code/il2cpp/script.json",
+    "limitations": "ARM64 fallback; indirect calls/hotfix are not fully resolved"
+  },
+  {
+    "id": "N:DankeSkillCreator--InitDankeAlreadyStudySkills",
+    "path": "evidence/DankeSkillCreator--InitDankeAlreadyStudySkills.asm",
+    "kind": "native_excerpt",
+    "method": "HotFix.BattleLogic.DankeSkillCreator$$InitDankeAlreadyStudySkills",
+    "rva": "RVA 0x685ECF8",
+    "sha256": "81c4135becb5837f39f03ecbdaf179bacaf56d2aad7afb7d5fb3f0c7eec8229e",
+    "origin": "unpacked/apk/lib/arm64-v8a/libil2cpp.so + restored/code/il2cpp/script.json",
+    "limitations": "ARM64 fallback; indirect calls/hotfix are not fully resolved"
+  },
+  {
+    "id": "N:DankeSkillCreator--InitDankeReadyStudySkills",
+    "path": "evidence/DankeSkillCreator--InitDankeReadyStudySkills.asm",
+    "kind": "native_excerpt",
+    "method": "HotFix.BattleLogic.DankeSkillCreator$$InitDankeReadyStudySkills",
+    "rva": "RVA 0x685EE54",
+    "sha256": "d36f969692cdbe9dc7a13d9e90ba0937b0b86f2e6b116c01e0c295832162bd92",
+    "origin": "unpacked/apk/lib/arm64-v8a/libil2cpp.so + restored/code/il2cpp/script.json",
+    "limitations": "ARM64 fallback; indirect calls/hotfix are not fully resolved"
+  },
+  {
+    "id": "N:DankeSkillCreator--InitRandomFactor",
+    "path": "evidence/DankeSkillCreator--InitRandomFactor.asm",
+    "kind": "native_excerpt",
+    "method": "HotFix.BattleLogic.DankeSkillCreator$$InitRandomFactor",
+    "rva": "RVA 0x685D220",
+    "sha256": "0a7a8ff9e1504db525900189ba1a13ce0a489ed32365cb81ea9b6414a734b52b",
+    "origin": "unpacked/apk/lib/arm64-v8a/libil2cpp.so + restored/code/il2cpp/script.json",
+    "limitations": "ARM64 fallback; indirect calls/hotfix are not fully resolved"
+  },
+  {
+    "id": "N:DankeSkillCreator--IsFirst",
+    "path": "evidence/DankeSkillCreator--IsFirst.asm",
+    "kind": "native_excerpt",
+    "method": "HotFix.BattleLogic.DankeSkillCreator$$IsFirst",
+    "rva": "RVA 0x685DEE8",
+    "sha256": "ed8e53542657cd3454370a2e72689812db714c5ff03124d919f386449251bd33",
+    "origin": "unpacked/apk/lib/arm64-v8a/libil2cpp.so + restored/code/il2cpp/script.json",
+    "limitations": "ARM64 fallback; indirect calls/hotfix are not fully resolved"
+  },
+  {
+    "id": "N:DankeSkillCreator--LogError",
+    "path": "evidence/DankeSkillCreator--LogError.asm",
+    "kind": "native_excerpt",
+    "method": "HotFix.BattleLogic.DankeSkillCreator$$LogError",
+    "rva": "RVA 0x6860C34",
+    "sha256": "55eba7e7d7ab3bde36437189d0a2bfca62c433390ba94333cc75743feceae1e7",
+    "origin": "unpacked/apk/lib/arm64-v8a/libil2cpp.so + restored/code/il2cpp/script.json",
+    "limitations": "ARM64 fallback; indirect calls/hotfix are not fully resolved"
+  },
+  {
+    "id": "N:DankeSkillCreator--OnCheckNeedSkills",
+    "path": "evidence/DankeSkillCreator--OnCheckNeedSkills.asm",
+    "kind": "native_excerpt",
+    "method": "HotFix.BattleLogic.DankeSkillCreator$$OnCheckNeedSkills",
+    "rva": "RVA 0x6865BE4",
+    "sha256": "18210425f70857f91424a131bc4ad6b0a87d153a82dcab9cef0486dc2182f14d",
+    "origin": "unpacked/apk/lib/arm64-v8a/libil2cpp.so + restored/code/il2cpp/script.json",
+    "limitations": "ARM64 fallback; indirect calls/hotfix are not fully resolved"
+  },
+  {
+    "id": "N:DankeSkillCreator--OnCreateRandoms",
+    "path": "evidence/DankeSkillCreator--OnCreateRandoms.asm",
+    "kind": "native_excerpt",
+    "method": "HotFix.BattleLogic.DankeSkillCreator$$OnCreateRandoms",
+    "rva": "RVA 0x685CDDC",
+    "sha256": "4f863c3d5d6ec910288c240c5a82c63ebbf3bcab36a43c98d67f79daa3e7d95b",
+    "origin": "unpacked/apk/lib/arm64-v8a/libil2cpp.so + restored/code/il2cpp/script.json",
+    "limitations": "ARM64 fallback; indirect calls/hotfix are not fully resolved"
+  },
+  {
+    "id": "N:DankeSkillCreator--OnInitRandoms",
+    "path": "evidence/DankeSkillCreator--OnInitRandoms.asm",
+    "kind": "native_excerpt",
+    "method": "HotFix.BattleLogic.DankeSkillCreator$$OnInitRandoms",
+    "rva": "RVA 0x685CC70",
+    "sha256": "61f0fbbc34281bda8f5c3aeef2c4918cbecfc0997d6fa2b5129b7bc407e502ca",
+    "origin": "unpacked/apk/lib/arm64-v8a/libil2cpp.so + restored/code/il2cpp/script.json",
+    "limitations": "ARM64 fallback; indirect calls/hotfix are not fully resolved"
+  },
+  {
+    "id": "N:DankeSkillCreator--OpenSelectSpecialSkill",
+    "path": "evidence/DankeSkillCreator--OpenSelectSpecialSkill.asm",
+    "kind": "native_excerpt",
+    "method": "HotFix.BattleLogic.DankeSkillCreator$$OpenSelectSpecialSkill",
+    "rva": "RVA 0x6862C6C",
+    "sha256": "37f03596ab489a247a131bbc0c6c6afa7fa8c739f2c5c827f5464e15c87ca919",
+    "origin": "unpacked/apk/lib/arm64-v8a/libil2cpp.so + restored/code/il2cpp/script.json",
+    "limitations": "ARM64 fallback; indirect calls/hotfix are not fully resolved"
+  },
+  {
+    "id": "N:DankeSkillCreator--RandomPunchboardSkill",
+    "path": "evidence/DankeSkillCreator--RandomPunchboardSkill.asm",
+    "kind": "native_excerpt",
+    "method": "HotFix.BattleLogic.DankeSkillCreator$$RandomPunchboardSkill",
+    "rva": "RVA 0x6863D14",
+    "sha256": "d38f75021e75fa92026c26ff480612441b1341372c1ea588ad9fccc60fba3d0c",
+    "origin": "unpacked/apk/lib/arm64-v8a/libil2cpp.so + restored/code/il2cpp/script.json",
+    "limitations": "ARM64 fallback; indirect calls/hotfix are not fully resolved"
+  },
+  {
+    "id": "N:DankeSkillCreator--RemoveSkill",
+    "path": "evidence/DankeSkillCreator--RemoveSkill.asm",
+    "kind": "native_excerpt",
+    "method": "HotFix.BattleLogic.DankeSkillCreator$$RemoveSkill",
+    "rva": "RVA 0x6860F1C",
+    "sha256": "f12aacfeba3bba7499bf880d83f7d64bf152a4e481701c4cb6f50b541bc080fa",
+    "origin": "unpacked/apk/lib/arm64-v8a/libil2cpp.so + restored/code/il2cpp/script.json",
+    "limitations": "ARM64 fallback; indirect calls/hotfix are not fully resolved"
+  },
+  {
+    "id": "N:DankeSkillCreator--TryUnlockUpgradeSkills",
+    "path": "evidence/DankeSkillCreator--TryUnlockUpgradeSkills.asm",
+    "kind": "native_excerpt",
+    "method": "HotFix.BattleLogic.DankeSkillCreator$$TryUnlockUpgradeSkills",
+    "rva": "RVA 0x686145C",
+    "sha256": "dea92e3e9ce3f4824064f620e86bacacfc0032b5fea26fec714fd264b3123a79",
+    "origin": "unpacked/apk/lib/arm64-v8a/libil2cpp.so + restored/code/il2cpp/script.json",
+    "limitations": "ARM64 fallback; indirect calls/hotfix are not fully resolved"
+  },
+  {
+    "id": "N:DankeSkillCreator--TryUnlockUpgradeSkillsForPunchboard",
+    "path": "evidence/DankeSkillCreator--TryUnlockUpgradeSkillsForPunchboard.asm",
+    "kind": "native_excerpt",
+    "method": "HotFix.BattleLogic.DankeSkillCreator$$TryUnlockUpgradeSkillsForPunchboard",
+    "rva": "RVA 0x6861D30",
+    "sha256": "9edb0ae9701e5f1d6d5bfe8060ad7b070d55966bedb6898a49203bd6b6f428d2",
+    "origin": "unpacked/apk/lib/arm64-v8a/libil2cpp.so + restored/code/il2cpp/script.json",
+    "limitations": "ARM64 fallback; indirect calls/hotfix are not fully resolved"
+  },
+  {
+    "id": "N:DropItemBuff--Collect",
+    "path": "evidence/DropItemBuff--Collect.asm",
+    "kind": "native_excerpt",
+    "method": "HotFix.BattleLogic.DropItemBuff$$Collect",
+    "rva": "RVA 0x66610D8",
+    "sha256": "4c6b357a46376e789a32deb5f6ea21a151f780adb056302d5454088ac519b1cc",
+    "origin": "unpacked/apk/lib/arm64-v8a/libil2cpp.so + restored/code/il2cpp/script.json",
+    "limitations": "ARM64 fallback; indirect calls/hotfix are not fully resolved"
+  },
+  {
+    "id": "N:DropItemEquip--Collect",
+    "path": "evidence/DropItemEquip--Collect.asm",
+    "kind": "native_excerpt",
+    "method": "HotFix.BattleLogic.DropItemEquip$$Collect",
+    "rva": "RVA 0x666656C",
+    "sha256": "27c69fab1fcf1246eb3840597cd7865de1c879e867e1914b635d50bff992f59f",
+    "origin": "unpacked/apk/lib/arm64-v8a/libil2cpp.so + restored/code/il2cpp/script.json",
+    "limitations": "ARM64 fallback; indirect calls/hotfix are not fully resolved"
+  },
+  {
+    "id": "N:DropItemEquip--OnAbsorb",
+    "path": "evidence/DropItemEquip--OnAbsorb.asm",
+    "kind": "native_excerpt",
+    "method": "HotFix.BattleLogic.DropItemEquip$$OnAbsorb",
+    "rva": "RVA 0x6666068",
+    "sha256": "0bb84a176d53cdc59157d6c6ef4f195043f80f02f53cdc496b1082ea7583de0a",
+    "origin": "unpacked/apk/lib/arm64-v8a/libil2cpp.so + restored/code/il2cpp/script.json",
+    "limitations": "ARM64 fallback; indirect calls/hotfix are not fully resolved"
+  },
+  {
+    "id": "N:DropItemExp--Collect",
+    "path": "evidence/DropItemExp--Collect.asm",
+    "kind": "native_excerpt",
+    "method": "HotFix.BattleLogic.DropItemExp$$Collect",
+    "rva": "RVA 0x6666C30",
+    "sha256": "d0ef6191315175124cde80a3f5d87f30dae817783944a97cdc18eb13154c0166",
+    "origin": "unpacked/apk/lib/arm64-v8a/libil2cpp.so + restored/code/il2cpp/script.json",
+    "limitations": "ARM64 fallback; indirect calls/hotfix are not fully resolved"
+  },
+  {
+    "id": "N:DropItemScroll--Collect",
+    "path": "evidence/DropItemScroll--Collect.asm",
+    "kind": "native_excerpt",
+    "method": "HotFix.BattleLogic.DropItemScroll$$Collect",
+    "rva": "RVA 0x66692EC",
+    "sha256": "77f4f3387a09ec6c3bc8dd49dd3f6edd2f0ae4923e7772820cb37ff8671eaa8d",
+    "origin": "unpacked/apk/lib/arm64-v8a/libil2cpp.so + restored/code/il2cpp/script.json",
+    "limitations": "ARM64 fallback; indirect calls/hotfix are not fully resolved"
+  },
+  {
+    "id": "N:DropItemScroll--OnAbsorb",
+    "path": "evidence/DropItemScroll--OnAbsorb.asm",
+    "kind": "native_excerpt",
+    "method": "HotFix.BattleLogic.DropItemScroll$$OnAbsorb",
+    "rva": "RVA 0x6668F9C",
+    "sha256": "67ce250fd1f4978a345d936c08efffb3c5a3a7bd9e6c1d5c47f56ab39fc92288",
+    "origin": "unpacked/apk/lib/arm64-v8a/libil2cpp.so + restored/code/il2cpp/script.json",
+    "limitations": "ARM64 fallback; indirect calls/hotfix are not fully resolved"
+  },
+  {
+    "id": "N:DropItemTrigger--Collect",
+    "path": "evidence/DropItemTrigger--Collect.asm",
+    "kind": "native_excerpt",
+    "method": "HotFix.BattleLogic.DropItemTrigger$$Collect",
+    "rva": "RVA 0x6669984",
+    "sha256": "93554db53a26320a21d7ecd9db159058746dad0d5d1a5645cc3466d191f044a1",
+    "origin": "unpacked/apk/lib/arm64-v8a/libil2cpp.so + restored/code/il2cpp/script.json",
+    "limitations": "ARM64 fallback; indirect calls/hotfix are not fully resolved"
+  },
+  {
+    "id": "N:DropMgr--AddDropNpc",
+    "path": "evidence/DropMgr--AddDropNpc.asm",
+    "kind": "native_excerpt",
+    "method": "HotFix.BattleLogic.DropMgr$$AddDropNpc",
+    "rva": "RVA 0x666DEB0",
+    "sha256": "7bc80c95e1fcec054ecbc48a5b14e466e93b31ff15442f563f6b7a1e9d3801aa",
+    "origin": "unpacked/apk/lib/arm64-v8a/libil2cpp.so + restored/code/il2cpp/script.json",
+    "limitations": "ARM64 fallback; indirect calls/hotfix are not fully resolved"
+  },
+  {
+    "id": "N:EntityMonster--OnDeath",
+    "path": "evidence/EntityMonster--OnDeath.asm",
+    "kind": "native_excerpt",
+    "method": "HotFix.BattleLogic.EntityMonster$$OnDeath",
+    "rva": "RVA 0x68D2100",
+    "sha256": "1c973ec4d8217e1e3a63559185713ad0acd700d86fce668b58d4af6b13e4ee90",
+    "origin": "unpacked/apk/lib/arm64-v8a/libil2cpp.so + restored/code/il2cpp/script.json",
+    "limitations": "ARM64 fallback; indirect calls/hotfix are not fully resolved"
+  },
+  {
+    "id": "N:EntityNpc--.ctor",
+    "path": "evidence/EntityNpc--.ctor.asm",
+    "kind": "native_excerpt",
+    "method": "HotFix.BattleLogic.EntityNpc$$.ctor",
+    "rva": "RVA 0x68D3100",
+    "sha256": "a133be765308a35f1eb0f584f801d2e9816fd2c835a8e514bb7f73852ec59461",
+    "origin": "unpacked/apk/lib/arm64-v8a/libil2cpp.so + restored/code/il2cpp/script.json",
+    "limitations": "ARM64 fallback; indirect calls/hotfix are not fully resolved"
+  },
+  {
+    "id": "N:EntityNpc--OnColliderWithHero",
+    "path": "evidence/EntityNpc--OnColliderWithHero.asm",
+    "kind": "native_excerpt",
+    "method": "HotFix.BattleLogic.EntityNpc$$OnColliderWithHero",
+    "rva": "RVA 0x68D2BF0",
+    "sha256": "ca862cfd8c43f3e7afada274b8108aad31939b3afbeba4e19af772be4473fb75",
+    "origin": "unpacked/apk/lib/arm64-v8a/libil2cpp.so + restored/code/il2cpp/script.json",
+    "limitations": "ARM64 fallback; indirect calls/hotfix are not fully resolved"
+  },
+  {
+    "id": "N:EntityNpc--OnInit",
+    "path": "evidence/EntityNpc--OnInit.asm",
+    "kind": "native_excerpt",
+    "method": "HotFix.BattleLogic.EntityNpc$$OnInit",
+    "rva": "RVA 0x68D2AE8",
+    "sha256": "b731eda60165d87a23e6c0c7e57fed13092c345b9c5ed8f24a8897a9a0867eab",
+    "origin": "unpacked/apk/lib/arm64-v8a/libil2cpp.so + restored/code/il2cpp/script.json",
+    "limitations": "ARM64 fallback; indirect calls/hotfix are not fully resolved"
+  },
+  {
+    "id": "N:EntityNpc--OnTriggerEnter2D",
+    "path": "evidence/EntityNpc--OnTriggerEnter2D.asm",
+    "kind": "native_excerpt",
+    "method": "HotFix.BattleLogic.EntityNpc$$OnTriggerEnter2D",
+    "rva": "RVA 0x68D2E64",
+    "sha256": "8cdc8210e410f3a5b71129b51b003b086027f671cc12b374d5664d9db51f03a9",
+    "origin": "unpacked/apk/lib/arm64-v8a/libil2cpp.so + restored/code/il2cpp/script.json",
+    "limitations": "ARM64 fallback; indirect calls/hotfix are not fully resolved"
+  },
+  {
+    "id": "N:EntityNpc--OnTriggerExit2D",
+    "path": "evidence/EntityNpc--OnTriggerExit2D.asm",
+    "kind": "native_excerpt",
+    "method": "HotFix.BattleLogic.EntityNpc$$OnTriggerExit2D",
+    "rva": "RVA 0x68D2D10",
+    "sha256": "279a9abf5bcbb81e265f28f93098a41c23dbceecf6be00b27c5a526dc3b87ba4",
+    "origin": "unpacked/apk/lib/arm64-v8a/libil2cpp.so + restored/code/il2cpp/script.json",
+    "limitations": "ARM64 fallback; indirect calls/hotfix are not fully resolved"
+  },
+  {
+    "id": "N:EntityNpc--OnUpdate",
+    "path": "evidence/EntityNpc--OnUpdate.asm",
+    "kind": "native_excerpt",
+    "method": "HotFix.BattleLogic.EntityNpc$$OnUpdate",
+    "rva": "RVA 0x68D2FBC",
+    "sha256": "0bdad9cbf98aea1a3a67fe4dd613d5a1ec04f37c6557fd50f66a3919591d2f47",
+    "origin": "unpacked/apk/lib/arm64-v8a/libil2cpp.so + restored/code/il2cpp/script.json",
+    "limitations": "ARM64 fallback; indirect calls/hotfix are not fully resolved"
+  },
+  {
+    "id": "N:EntityTreasure--.ctor",
+    "path": "evidence/EntityTreasure--.ctor.asm",
+    "kind": "native_excerpt",
+    "method": "HotFix.BattleLogic.EntityTreasure$$.ctor",
+    "rva": "RVA 0x68D35F0",
+    "sha256": "134fc8661d92c96f2700167a6889545caba2a9c6431b8e31babf4f5c64da595b",
+    "origin": "unpacked/apk/lib/arm64-v8a/libil2cpp.so + restored/code/il2cpp/script.json",
+    "limitations": "ARM64 fallback; indirect calls/hotfix are not fully resolved"
+  },
+  {
+    "id": "N:EntityTreasure--CreateMonster",
+    "path": "evidence/EntityTreasure--CreateMonster.asm",
+    "kind": "native_excerpt",
+    "method": "HotFix.BattleLogic.EntityTreasure$$CreateMonster",
+    "rva": "RVA 0x68D31F0",
+    "sha256": "16f8e66afee780a8c7ccba9129299f50b9035731dfc4173f6335239e2c9cbf58",
+    "origin": "unpacked/apk/lib/arm64-v8a/libil2cpp.so + restored/code/il2cpp/script.json",
+    "limitations": "ARM64 fallback; indirect calls/hotfix are not fully resolved"
+  },
+  {
+    "id": "N:EntityTreasure--GetMonsterId",
+    "path": "evidence/EntityTreasure--GetMonsterId.asm",
+    "kind": "native_excerpt",
+    "method": "HotFix.BattleLogic.EntityTreasure$$GetMonsterId",
+    "rva": "RVA 0x68D318C",
+    "sha256": "0a31fcf0045204c5b56d532888aa8e831c5b5886e2a35f075d4e7a143b63b057",
+    "origin": "unpacked/apk/lib/arm64-v8a/libil2cpp.so + restored/code/il2cpp/script.json",
+    "limitations": "ARM64 fallback; indirect calls/hotfix are not fully resolved"
+  },
+  {
+    "id": "N:EntityTreasure--OnColliderWithHero",
+    "path": "evidence/EntityTreasure--OnColliderWithHero.asm",
+    "kind": "native_excerpt",
+    "method": "HotFix.BattleLogic.EntityTreasure$$OnColliderWithHero",
+    "rva": "RVA 0x68D341C",
+    "sha256": "a58157f0b5e068d31af4e8c3240753a7e86ff0f4aefd8038624ed4f7d04a17e9",
+    "origin": "unpacked/apk/lib/arm64-v8a/libil2cpp.so + restored/code/il2cpp/script.json",
+    "limitations": "ARM64 fallback; indirect calls/hotfix are not fully resolved"
+  },
+  {
+    "id": "N:EntityTreasure--OnRelease",
+    "path": "evidence/EntityTreasure--OnRelease.asm",
+    "kind": "native_excerpt",
+    "method": "HotFix.BattleLogic.EntityTreasure$$OnRelease",
+    "rva": "RVA 0x68D3558",
+    "sha256": "408d51b017deb4c0d8bd96cf18440f9674a8b76d6597f102c83ba8677467d538",
+    "origin": "unpacked/apk/lib/arm64-v8a/libil2cpp.so + restored/code/il2cpp/script.json",
+    "limitations": "ARM64 fallback; indirect calls/hotfix are not fully resolved"
+  },
+  {
+    "id": "N:EntityTreasure--OnUpdate",
+    "path": "evidence/EntityTreasure--OnUpdate.asm",
+    "kind": "native_excerpt",
+    "method": "HotFix.BattleLogic.EntityTreasure$$OnUpdate",
+    "rva": "RVA 0x68D34C0",
+    "sha256": "15db8993df01cae30bd8dc132b7cc0f8df05bc0dd58ae87e1045903489c07b7f",
+    "origin": "unpacked/apk/lib/arm64-v8a/libil2cpp.so + restored/code/il2cpp/script.json",
+    "limitations": "ARM64 fallback; indirect calls/hotfix are not fully resolved"
+  },
+  {
+    "id": "N:HeroComponentRandomSkill--AddSkill",
+    "path": "evidence/HeroComponentRandomSkill--AddSkill.asm",
+    "kind": "native_excerpt",
+    "method": "HotFix.BattleLogic.HeroComponentRandomSkill$$AddSkill",
+    "rva": "RVA 0x686A53C",
+    "sha256": "19122a6a749f41b62e69bc12dcbe0bd1546043813a3a6f18688a68db0eb129ca",
+    "origin": "unpacked/apk/lib/arm64-v8a/libil2cpp.so + restored/code/il2cpp/script.json",
+    "limitations": "ARM64 fallback; indirect calls/hotfix are not fully resolved"
+  },
+  {
+    "id": "N:HeroComponentRandomSkill--AddSkillSurvior",
+    "path": "evidence/HeroComponentRandomSkill--AddSkillSurvior.asm",
+    "kind": "native_excerpt",
+    "method": "HotFix.BattleLogic.HeroComponentRandomSkill$$AddSkillSurvior",
+    "rva": "RVA 0x686A2AC",
+    "sha256": "db066bcf55aa51b12bdf84a2ad356a3bf411b375de07b867a88e46c453f1ab55",
+    "origin": "unpacked/apk/lib/arm64-v8a/libil2cpp.so + restored/code/il2cpp/script.json",
+    "limitations": "ARM64 fallback; indirect calls/hotfix are not fully resolved"
+  },
+  {
+    "id": "N:HeroComponentRandomSkill--CheckQualityUp",
+    "path": "evidence/HeroComponentRandomSkill--CheckQualityUp.asm",
+    "kind": "native_excerpt",
+    "method": "HotFix.BattleLogic.HeroComponentRandomSkill$$CheckQualityUp",
+    "rva": "RVA 0x686DE10",
+    "sha256": "a9317b487356d66e6433c027b43d88b2cab5cd85f42d10b715c1b0ea397c56f1",
+    "origin": "unpacked/apk/lib/arm64-v8a/libil2cpp.so + restored/code/il2cpp/script.json",
+    "limitations": "ARM64 fallback; indirect calls/hotfix are not fully resolved"
+  },
+  {
+    "id": "N:HeroComponentRandomSkill--GetBoxRandomSkills",
+    "path": "evidence/HeroComponentRandomSkill--GetBoxRandomSkills.asm",
+    "kind": "native_excerpt",
+    "method": "HotFix.BattleLogic.HeroComponentRandomSkill$$GetBoxRandomSkills",
+    "rva": "RVA 0x686F134",
+    "sha256": "e30eb2b428f7e62c9dced5f73264b0245d7a6bd3ed8080eda7c05d66b02f096f",
+    "origin": "unpacked/apk/lib/arm64-v8a/libil2cpp.so + restored/code/il2cpp/script.json",
+    "limitations": "ARM64 fallback; indirect calls/hotfix are not fully resolved"
+  },
+  {
+    "id": "N:HeroComponentRandomSkill--GetNormalSkill",
+    "path": "evidence/HeroComponentRandomSkill--GetNormalSkill.asm",
+    "kind": "native_excerpt",
+    "method": "HotFix.BattleLogic.HeroComponentRandomSkill$$GetNormalSkill",
+    "rva": "RVA 0x686E0A0",
+    "sha256": "33c466bf0ff564a2f631b556b73490309d79980e4ed4e29de5bc45738461a50f",
+    "origin": "unpacked/apk/lib/arm64-v8a/libil2cpp.so + restored/code/il2cpp/script.json",
+    "limitations": "ARM64 fallback; indirect calls/hotfix are not fully resolved"
+  },
+  {
+    "id": "N:HeroComponentRandomSkill--GetPunchboardRandomCount",
+    "path": "evidence/HeroComponentRandomSkill--GetPunchboardRandomCount.asm",
+    "kind": "native_excerpt",
+    "method": "HotFix.BattleLogic.HeroComponentRandomSkill$$GetPunchboardRandomCount",
+    "rva": "RVA 0x686F88C",
+    "sha256": "7d9c36ff9a8070fab03de31b249b8425c0ec98a06a9b35ab06259b075328bfc6",
+    "origin": "unpacked/apk/lib/arm64-v8a/libil2cpp.so + restored/code/il2cpp/script.json",
+    "limitations": "ARM64 fallback; indirect calls/hotfix are not fully resolved"
+  },
+  {
+    "id": "N:HeroComponentRandomSkill--Init",
+    "path": "evidence/HeroComponentRandomSkill--Init.asm",
+    "kind": "native_excerpt",
+    "method": "HotFix.BattleLogic.HeroComponentRandomSkill$$Init",
+    "rva": "RVA 0x686BAC4",
+    "sha256": "a2af6cc50c0d821f23f3836144fa3fc59445917211c39ba69a5e4cf23e1d8bcb",
+    "origin": "unpacked/apk/lib/arm64-v8a/libil2cpp.so + restored/code/il2cpp/script.json",
+    "limitations": "ARM64 fallback; indirect calls/hotfix are not fully resolved"
+  },
+  {
+    "id": "N:HeroComponentRandomSkill--OnAddSkill",
+    "path": "evidence/HeroComponentRandomSkill--OnAddSkill.asm",
+    "kind": "native_excerpt",
+    "method": "HotFix.BattleLogic.HeroComponentRandomSkill$$OnAddSkill",
+    "rva": "RVA 0x6868274",
+    "sha256": "f1b6a7b085a511aa6d48e59da3f7b14ab92c802ce337dccff7e49865dac91532",
+    "origin": "unpacked/apk/lib/arm64-v8a/libil2cpp.so + restored/code/il2cpp/script.json",
+    "limitations": "ARM64 fallback; indirect calls/hotfix are not fully resolved"
+  },
+  {
+    "id": "N:HeroComponentRandomSkill--OpenSelectSpecialSkill",
+    "path": "evidence/HeroComponentRandomSkill--OpenSelectSpecialSkill.asm",
+    "kind": "native_excerpt",
+    "method": "HotFix.BattleLogic.HeroComponentRandomSkill$$OpenSelectSpecialSkill",
+    "rva": "RVA 0x6870474",
+    "sha256": "f8f28553d79813aae38e00182e8fca3d1650bce58f887ad55b1229be85b2d6f4",
+    "origin": "unpacked/apk/lib/arm64-v8a/libil2cpp.so + restored/code/il2cpp/script.json",
+    "limitations": "ARM64 fallback; indirect calls/hotfix are not fully resolved"
+  },
+  {
+    "id": "N:HeroComponentRandomSkill--RandomSkill",
+    "path": "evidence/HeroComponentRandomSkill--RandomSkill.asm",
+    "kind": "native_excerpt",
+    "method": "HotFix.BattleLogic.HeroComponentRandomSkill$$RandomSkill",
+    "rva": "RVA 0x686C998",
+    "sha256": "6d4467d26eaba5f28fe50aa3ff1a759e6b528ec8a91caf8fd18d2953e7feb635",
+    "origin": "unpacked/apk/lib/arm64-v8a/libil2cpp.so + restored/code/il2cpp/script.json",
+    "limitations": "ARM64 fallback; indirect calls/hotfix are not fully resolved"
+  },
+  {
+    "id": "N:HeroSkillCreator--AddDankeSkillGroupToRandom",
+    "path": "evidence/HeroSkillCreator--AddDankeSkillGroupToRandom.asm",
+    "kind": "native_excerpt",
+    "method": "HotFix.BattleLogic.HeroSkillCreator$$AddDankeSkillGroupToRandom",
+    "rva": "RVA 0x687260C",
+    "sha256": "0c8f2a9110d944b26e2014c802f02c83711b70f483294e4d7e1283597b48c179",
+    "origin": "unpacked/apk/lib/arm64-v8a/libil2cpp.so + restored/code/il2cpp/script.json",
+    "limitations": "ARM64 fallback; indirect calls/hotfix are not fully resolved"
+  },
+  {
+    "id": "N:HeroSkillCreator--GetEffectiveWeight",
+    "path": "evidence/HeroSkillCreator--GetEffectiveWeight.asm",
+    "kind": "native_excerpt",
+    "method": "HotFix.BattleLogic.HeroSkillCreator$$GetEffectiveWeight",
+    "rva": "RVA 0x6863690",
+    "sha256": "bbc89c78681f3d150ea7c56ef4d2d1630cfb1be75fe0ac976b6b5aedd6612328",
+    "origin": "unpacked/apk/lib/arm64-v8a/libil2cpp.so + restored/code/il2cpp/script.json",
+    "limitations": "ARM64 fallback; indirect calls/hotfix are not fully resolved"
+  },
+  {
+    "id": "N:HeroSkillCreator--GetRandomSkills",
+    "path": "evidence/HeroSkillCreator--GetRandomSkills.asm",
+    "kind": "native_excerpt",
+    "method": "HotFix.BattleLogic.HeroSkillCreator$$GetRandomSkills",
+    "rva": "RVA 0x685B9C4",
+    "sha256": "e9cf3c6326a2750c10ddb3889679c9c5c728d79fed2a74f9ebb6f0381e5bef9c",
+    "origin": "unpacked/apk/lib/arm64-v8a/libil2cpp.so + restored/code/il2cpp/script.json",
+    "limitations": "ARM64 fallback; indirect calls/hotfix are not fully resolved"
+  },
+  {
+    "id": "N:LocalModelEx--CheckSkillIndexIsOpen",
+    "path": "evidence/LocalModelEx--CheckSkillIndexIsOpen.asm",
+    "kind": "native_excerpt",
+    "method": "LocalModelEx$$CheckSkillIndexIsOpen",
+    "rva": "RVA 0x64C97A8",
+    "sha256": "b3d5c6ad30e006281916c611aa905cc0fd02829edf23511f611dcea923ef730e",
+    "origin": "unpacked/apk/lib/arm64-v8a/libil2cpp.so + restored/code/il2cpp/script.json",
+    "limitations": "ARM64 fallback; indirect calls/hotfix are not fully resolved"
+  },
+  {
+    "id": "N:LocalModelEx--GetSkillDeepType",
+    "path": "evidence/LocalModelEx--GetSkillDeepType.asm",
+    "kind": "native_excerpt",
+    "method": "LocalModelEx$$GetSkillDeepType",
+    "rva": "RVA 0x64C91A0",
+    "sha256": "e3f14da72b3a0669735c77c1ed530571ae67b3a89b7daa69ef94d002b992f7a1",
+    "origin": "unpacked/apk/lib/arm64-v8a/libil2cpp.so + restored/code/il2cpp/script.json",
+    "limitations": "ARM64 fallback; indirect calls/hotfix are not fully resolved"
+  },
+  {
+    "id": "N:LocalModels.Bean.Chapter_MainChapter--GetSkillGroupWeight",
+    "path": "evidence/LocalModels.Bean.Chapter_MainChapter--GetSkillGroupWeight.asm",
+    "kind": "native_excerpt",
+    "method": "LocalModels.Bean.Chapter_MainChapter$$GetSkillGroupWeight",
+    "rva": "RVA 0x68AFC9C",
+    "sha256": "bfdb242f5dd6e616e129952749d0e963e93162c70344208ae4773c7009b100d2",
+    "origin": "unpacked/apk/lib/arm64-v8a/libil2cpp.so + restored/code/il2cpp/script.json",
+    "limitations": "ARM64 fallback; indirect calls/hotfix are not fully resolved"
+  },
+  {
+    "id": "N:LocalModels.Bean.SkillGroup_InitSurvivorGroup--GetWeightByGroup",
+    "path": "evidence/LocalModels.Bean.SkillGroup_InitSurvivorGroup--GetWeightByGroup.asm",
+    "kind": "native_excerpt",
+    "method": "LocalModels.Bean.SkillGroup_InitSurvivorGroup$$GetWeightByGroup",
+    "rva": "RVA 0x6AF9E9C",
+    "sha256": "f0c900f2997c59f1cc7f8f8b4e2ba71755a4d2618e83851ea6c99c5c9b8a759d",
+    "origin": "unpacked/apk/lib/arm64-v8a/libil2cpp.so + restored/code/il2cpp/script.json",
+    "limitations": "ARM64 fallback; indirect calls/hotfix are not fully resolved"
+  },
+  {
+    "id": "N:LocalModels.Bean.SkillGroup_SurvivorGroup--GetWeightByGroup",
+    "path": "evidence/LocalModels.Bean.SkillGroup_SurvivorGroup--GetWeightByGroup.asm",
+    "kind": "native_excerpt",
+    "method": "LocalModels.Bean.SkillGroup_SurvivorGroup$$GetWeightByGroup",
+    "rva": "RVA 0x6AFC698",
+    "sha256": "d3965d3b9c38d380f6080ab760f7f5289c559d964f7926cd5a2f6590b007323a",
+    "origin": "unpacked/apk/lib/arm64-v8a/libil2cpp.so + restored/code/il2cpp/script.json",
+    "limitations": "ARM64 fallback; indirect calls/hotfix are not fully resolved"
+  },
+  {
+    "id": "N:LocalModels.Const--.cctor",
+    "path": "evidence/LocalModels.Const--.cctor.asm",
+    "kind": "native_excerpt",
+    "method": "LocalModels.Const$$.cctor",
+    "rva": "RVA 0x64CC3D0",
+    "sha256": "418dce717bc1417ff6dfc41f2e97b4119d0da007675da52a73f366310407220a",
+    "origin": "unpacked/apk/lib/arm64-v8a/libil2cpp.so + restored/code/il2cpp/script.json",
+    "limitations": "ARM64 fallback; indirect calls/hotfix are not fully resolved"
+  },
+  {
+    "id": "N:LocalModels.Const--GetDankeSkillWeight",
+    "path": "evidence/LocalModels.Const--GetDankeSkillWeight.asm",
+    "kind": "native_excerpt",
+    "method": "LocalModels.Const$$GetDankeSkillWeight",
+    "rva": "RVA 0x64CB688",
+    "sha256": "3176a5f87fca4b219ec68c902642de3d8f90b37828e44bbd9d982ff4ab269ebb",
+    "origin": "unpacked/apk/lib/arm64-v8a/libil2cpp.so + restored/code/il2cpp/script.json",
+    "limitations": "ARM64 fallback; indirect calls/hotfix are not fully resolved"
+  },
+  {
+    "id": "N:LocalModels.Const--GetPunchboardRandomSkillCountWeight",
+    "path": "evidence/LocalModels.Const--GetPunchboardRandomSkillCountWeight.asm",
+    "kind": "native_excerpt",
+    "method": "LocalModels.Const$$GetPunchboardRandomSkillCountWeight",
+    "rva": "RVA 0x64CB808",
+    "sha256": "12fb406b9ea942e90a3460690ecf5fca3a1b1f9e56dcb2a9bcd0ebe7a93f109b",
+    "origin": "unpacked/apk/lib/arm64-v8a/libil2cpp.so + restored/code/il2cpp/script.json",
+    "limitations": "ARM64 fallback; indirect calls/hotfix are not fully resolved"
+  },
+  {
+    "id": "N:MainDropManager--.ctor",
+    "path": "evidence/MainDropManager--.ctor.asm",
+    "kind": "native_excerpt",
+    "method": "HotFix.BattleLogic.MainDropManager$$.ctor",
+    "rva": "RVA 0x6671D60",
+    "sha256": "fa3b9267a87091c6b7fd471594a2a7cd529030779066eb3b15c3ea5e73ddc68f",
+    "origin": "unpacked/apk/lib/arm64-v8a/libil2cpp.so + restored/code/il2cpp/script.json",
+    "limitations": "ARM64 fallback; indirect calls/hotfix are not fully resolved"
+  },
+  {
+    "id": "N:MainDropManager--AddDropItemFromGroup",
+    "path": "evidence/MainDropManager--AddDropItemFromGroup.asm",
+    "kind": "native_excerpt",
+    "method": "HotFix.BattleLogic.MainDropManager$$AddDropItemFromGroup",
+    "rva": "RVA 0x6671CC8",
+    "sha256": "308321dfaff868f115cbf7182edf9d7a9152e30bd9157ab3cb48cd5494cf8696",
+    "origin": "unpacked/apk/lib/arm64-v8a/libil2cpp.so + restored/code/il2cpp/script.json",
+    "limitations": "ARM64 fallback; indirect calls/hotfix are not fully resolved"
+  },
+  {
+    "id": "N:MainDropManager--CheckSpecialDrop",
+    "path": "evidence/MainDropManager--CheckSpecialDrop.asm",
+    "kind": "native_excerpt",
+    "method": "HotFix.BattleLogic.MainDropManager$$CheckSpecialDrop",
+    "rva": "RVA 0x6671C2C",
+    "sha256": "720556fc53dfa5381b5e2983f8a4706107e582f5c1037af75b337d5077c09cde",
+    "origin": "unpacked/apk/lib/arm64-v8a/libil2cpp.so + restored/code/il2cpp/script.json",
+    "limitations": "ARM64 fallback; indirect calls/hotfix are not fully resolved"
+  },
+  {
+    "id": "N:MainDropManager--OnDropItem",
+    "path": "evidence/MainDropManager--OnDropItem.asm",
+    "kind": "native_excerpt",
+    "method": "HotFix.BattleLogic.MainDropManager$$OnDropItem",
+    "rva": "RVA 0x6671B50",
+    "sha256": "0c3fb31ce0f2d3aeb2a57f05c7c822895dea980bf562c0ab01224f112064b5d0",
+    "origin": "unpacked/apk/lib/arm64-v8a/libil2cpp.so + restored/code/il2cpp/script.json",
+    "limitations": "ARM64 fallback; indirect calls/hotfix are not fully resolved"
+  },
+  {
+    "id": "N:MainDropManager--OnSetChapterData",
+    "path": "evidence/MainDropManager--OnSetChapterData.asm",
+    "kind": "native_excerpt",
+    "method": "HotFix.BattleLogic.MainDropManager$$OnSetChapterData",
+    "rva": "RVA 0x6671934",
+    "sha256": "83238be1abbdb85ee25675e5fb5be12b7b8fa6f52d415a4339980a2614649542",
+    "origin": "unpacked/apk/lib/arm64-v8a/libil2cpp.so + restored/code/il2cpp/script.json",
+    "limitations": "ARM64 fallback; indirect calls/hotfix are not fully resolved"
+  },
+  {
+    "id": "N:MainDropManager--get_WaveExp",
+    "path": "evidence/MainDropManager--get_WaveExp.asm",
+    "kind": "native_excerpt",
+    "method": "HotFix.BattleLogic.MainDropManager$$get_WaveExp",
+    "rva": "RVA 0x6671868",
+    "sha256": "7eff2ec5d8467ed573097e78ee37ae66274e41f98c64c161aed52409feec8f80",
+    "origin": "unpacked/apk/lib/arm64-v8a/libil2cpp.so + restored/code/il2cpp/script.json",
+    "limitations": "ARM64 fallback; indirect calls/hotfix are not fully resolved"
+  },
+  {
+    "id": "N:MainDropManager--get_WaveGold",
+    "path": "evidence/MainDropManager--get_WaveGold.asm",
+    "kind": "native_excerpt",
+    "method": "HotFix.BattleLogic.MainDropManager$$get_WaveGold",
+    "rva": "RVA 0x667179C",
+    "sha256": "721c7510765a0fad3c3fdd0d0f5c077483350693d668a93a73d868036f4295de",
+    "origin": "unpacked/apk/lib/arm64-v8a/libil2cpp.so + restored/code/il2cpp/script.json",
+    "limitations": "ARM64 fallback; indirect calls/hotfix are not fully resolved"
+  },
+  {
+    "id": "N:NormalSkillCreator--.ctor",
+    "path": "evidence/NormalSkillCreator--.ctor.asm",
+    "kind": "native_excerpt",
+    "method": "HotFix.BattleLogic.NormalSkillCreator$$.ctor",
+    "rva": "RVA 0x6866460",
+    "sha256": "3cfbbf1f877fd69c58385b08b5dde790bf4a45134d4959d5d6ccac225affeb14",
+    "origin": "unpacked/apk/lib/arm64-v8a/libil2cpp.so + restored/code/il2cpp/script.json",
+    "limitations": "ARM64 fallback; indirect calls/hotfix are not fully resolved"
+  },
+  {
+    "id": "N:NormalSkillCreator--AddSkillChangeRandomPool",
+    "path": "evidence/NormalSkillCreator--AddSkillChangeRandomPool.asm",
+    "kind": "native_excerpt",
+    "method": "HotFix.BattleLogic.NormalSkillCreator$$AddSkillChangeRandomPool",
+    "rva": "RVA 0x6860EA0",
+    "sha256": "04a433cc0b977d71bd541dabf9a88459e20bb49439c2fd10d56793d0f54ef908",
+    "origin": "unpacked/apk/lib/arm64-v8a/libil2cpp.so + restored/code/il2cpp/script.json",
+    "limitations": "ARM64 fallback; indirect calls/hotfix are not fully resolved"
+  },
+  {
+    "id": "N:NormalSkillCreator--AngelRandomSkillQuality",
+    "path": "evidence/NormalSkillCreator--AngelRandomSkillQuality.asm",
+    "kind": "native_excerpt",
+    "method": "HotFix.BattleLogic.NormalSkillCreator$$AngelRandomSkillQuality",
+    "rva": "RVA 0x68730F0",
+    "sha256": "166b8977625b3112695291ed8182c658fbbf186c87966707d20bbb60406fc86a",
+    "origin": "unpacked/apk/lib/arm64-v8a/libil2cpp.so + restored/code/il2cpp/script.json",
+    "limitations": "ARM64 fallback; indirect calls/hotfix are not fully resolved"
+  },
+  {
+    "id": "N:NormalSkillCreator--CheckNeedOpenSpecialSkill",
+    "path": "evidence/NormalSkillCreator--CheckNeedOpenSpecialSkill.asm",
+    "kind": "native_excerpt",
+    "method": "HotFix.BattleLogic.NormalSkillCreator$$CheckNeedOpenSpecialSkill",
+    "rva": "RVA 0x6873728",
+    "sha256": "6852f8e20e81a1770120ccf6193cd6befbaf4f7cbc2cd99a1dc84d368cf51c26",
+    "origin": "unpacked/apk/lib/arm64-v8a/libil2cpp.so + restored/code/il2cpp/script.json",
+    "limitations": "ARM64 fallback; indirect calls/hotfix are not fully resolved"
+  },
+  {
+    "id": "N:NormalSkillCreator--CreateAngelRandoms",
+    "path": "evidence/NormalSkillCreator--CreateAngelRandoms.asm",
+    "kind": "native_excerpt",
+    "method": "HotFix.BattleLogic.NormalSkillCreator$$CreateAngelRandoms",
+    "rva": "RVA 0x68741FC",
+    "sha256": "68e4afc98e86c77d48e49a335149e018b17ea813737dbeb8def051410c0eeb43",
+    "origin": "unpacked/apk/lib/arm64-v8a/libil2cpp.so + restored/code/il2cpp/script.json",
+    "limitations": "ARM64 fallback; indirect calls/hotfix are not fully resolved"
+  },
+  {
+    "id": "N:NormalSkillCreator--GetBoxRandomSkills",
+    "path": "evidence/NormalSkillCreator--GetBoxRandomSkills.asm",
+    "kind": "native_excerpt",
+    "method": "HotFix.BattleLogic.NormalSkillCreator$$GetBoxRandomSkills",
+    "rva": "RVA 0x6872D70",
+    "sha256": "cc99810d451d14c70f2ad5e9862ff0098704c0d75738f45ab803bffd9ecd5a77",
+    "origin": "unpacked/apk/lib/arm64-v8a/libil2cpp.so + restored/code/il2cpp/script.json",
+    "limitations": "ARM64 fallback; indirect calls/hotfix are not fully resolved"
+  },
+  {
+    "id": "N:NormalSkillCreator--GetRandomAngleSkills",
+    "path": "evidence/NormalSkillCreator--GetRandomAngleSkills.asm",
+    "kind": "native_excerpt",
+    "method": "HotFix.BattleLogic.NormalSkillCreator$$GetRandomAngleSkills",
+    "rva": "RVA 0x6873358",
+    "sha256": "10c357e1c3c7c249e5b93f9af800836640087e74504aa4a9323c2d0bec7c8b2c",
+    "origin": "unpacked/apk/lib/arm64-v8a/libil2cpp.so + restored/code/il2cpp/script.json",
+    "limitations": "ARM64 fallback; indirect calls/hotfix are not fully resolved"
+  },
+  {
+    "id": "N:NormalSkillCreator--GetRandomPunchboardSkills",
+    "path": "evidence/NormalSkillCreator--GetRandomPunchboardSkills.asm",
+    "kind": "native_excerpt",
+    "method": "HotFix.BattleLogic.NormalSkillCreator$$GetRandomPunchboardSkills",
+    "rva": "RVA 0x687378C",
+    "sha256": "f8295fa728e3d2dbad313bd010e9b4f5aec12b1c5ec628e761e808c0bd930918",
+    "origin": "unpacked/apk/lib/arm64-v8a/libil2cpp.so + restored/code/il2cpp/script.json",
+    "limitations": "ARM64 fallback; indirect calls/hotfix are not fully resolved"
+  },
+  {
+    "id": "N:NormalSkillCreator--OnAddRejectFlag",
+    "path": "evidence/NormalSkillCreator--OnAddRejectFlag.asm",
+    "kind": "native_excerpt",
+    "method": "HotFix.BattleLogic.NormalSkillCreator$$OnAddRejectFlag",
+    "rva": "RVA 0x6874984",
+    "sha256": "c074df6e4a4eb980475c3e0247eeb090ed7ab53bc96547760e62e61737d83678",
+    "origin": "unpacked/apk/lib/arm64-v8a/libil2cpp.so + restored/code/il2cpp/script.json",
+    "limitations": "ARM64 fallback; indirect calls/hotfix are not fully resolved"
+  },
+  {
+    "id": "N:NormalSkillCreator--OnAddRejectSkills",
+    "path": "evidence/NormalSkillCreator--OnAddRejectSkills.asm",
+    "kind": "native_excerpt",
+    "method": "HotFix.BattleLogic.NormalSkillCreator$$OnAddRejectSkills",
+    "rva": "RVA 0x6874CF4",
+    "sha256": "de8ca2aaac39a1f95ac440d9804cb65d291d79d96531cda223a82a18ddad30bf",
+    "origin": "unpacked/apk/lib/arm64-v8a/libil2cpp.so + restored/code/il2cpp/script.json",
+    "limitations": "ARM64 fallback; indirect calls/hotfix are not fully resolved"
+  },
+  {
+    "id": "N:NormalSkillCreator--OnAddSkillFlag",
+    "path": "evidence/NormalSkillCreator--OnAddSkillFlag.asm",
+    "kind": "native_excerpt",
+    "method": "HotFix.BattleLogic.NormalSkillCreator$$OnAddSkillFlag",
+    "rva": "RVA 0x6874740",
+    "sha256": "03ff5016b3440f2e1ea22cc1fe11352c382379502a06a2bc9cc37b91ece991dc",
+    "origin": "unpacked/apk/lib/arm64-v8a/libil2cpp.so + restored/code/il2cpp/script.json",
+    "limitations": "ARM64 fallback; indirect calls/hotfix are not fully resolved"
+  },
+  {
+    "id": "N:NormalSkillCreator--OnCheckNeedSkills",
+    "path": "evidence/NormalSkillCreator--OnCheckNeedSkills.asm",
+    "kind": "native_excerpt",
+    "method": "HotFix.BattleLogic.NormalSkillCreator$$OnCheckNeedSkills",
+    "rva": "RVA 0x6865D44",
+    "sha256": "27ab3bca0241bf0cf8f99e639f3e515cbf4f9ceddb063f9b1f9833c83b843a73",
+    "origin": "unpacked/apk/lib/arm64-v8a/libil2cpp.so + restored/code/il2cpp/script.json",
+    "limitations": "ARM64 fallback; indirect calls/hotfix are not fully resolved"
+  },
+  {
+    "id": "N:NormalSkillCreator--OnCreateRandoms",
+    "path": "evidence/NormalSkillCreator--OnCreateRandoms.asm",
+    "kind": "native_excerpt",
+    "method": "HotFix.BattleLogic.NormalSkillCreator$$OnCreateRandoms",
+    "rva": "RVA 0x685CECC",
+    "sha256": "025f2830f9e53eef01918ba9e02228d906bca217bd2005f94497aeb4ee7fb1f3",
+    "origin": "unpacked/apk/lib/arm64-v8a/libil2cpp.so + restored/code/il2cpp/script.json",
+    "limitations": "ARM64 fallback; indirect calls/hotfix are not fully resolved"
+  },
+  {
+    "id": "N:NormalSkillCreator--OnDeInit",
+    "path": "evidence/NormalSkillCreator--OnDeInit.asm",
+    "kind": "native_excerpt",
+    "method": "HotFix.BattleLogic.NormalSkillCreator$$OnDeInit",
+    "rva": "RVA 0x6874638",
+    "sha256": "aa5228f5849c9eb5aae2639faffbdceb171fdea6bdb5af89ab68cae1034618ea",
+    "origin": "unpacked/apk/lib/arm64-v8a/libil2cpp.so + restored/code/il2cpp/script.json",
+    "limitations": "ARM64 fallback; indirect calls/hotfix are not fully resolved"
+  },
+  {
+    "id": "N:NormalSkillCreator--OnInitRandomSkill",
+    "path": "evidence/NormalSkillCreator--OnInitRandomSkill.asm",
+    "kind": "native_excerpt",
+    "method": "HotFix.BattleLogic.NormalSkillCreator$$OnInitRandomSkill",
+    "rva": "RVA 0x6874F38",
+    "sha256": "a328479cac80129aa454a05449b440cd5b5b338a3a3b144a3f1cfdcf23d19aa1",
+    "origin": "unpacked/apk/lib/arm64-v8a/libil2cpp.so + restored/code/il2cpp/script.json",
+    "limitations": "ARM64 fallback; indirect calls/hotfix are not fully resolved"
+  },
+  {
+    "id": "N:NormalSkillCreator--OnRemoveRandomSkill",
+    "path": "evidence/NormalSkillCreator--OnRemoveRandomSkill.asm",
+    "kind": "native_excerpt",
+    "method": "HotFix.BattleLogic.NormalSkillCreator$$OnRemoveRandomSkill",
+    "rva": "RVA 0x68743A4",
+    "sha256": "1fc3691506f2ab5e23d2bcdac402c25f1cd09e808fcde5ef729176efd06b9ac1",
+    "origin": "unpacked/apk/lib/arm64-v8a/libil2cpp.so + restored/code/il2cpp/script.json",
+    "limitations": "ARM64 fallback; indirect calls/hotfix are not fully resolved"
+  },
+  {
+    "id": "N:NormalSkillCreator--OpenSelectSpecialSkill",
+    "path": "evidence/NormalSkillCreator--OpenSelectSpecialSkill.asm",
+    "kind": "native_excerpt",
+    "method": "HotFix.BattleLogic.NormalSkillCreator$$OpenSelectSpecialSkill",
+    "rva": "RVA 0x6873690",
+    "sha256": "4b8195d71bd84508ae1dd6630d4c2e402e84494312024239d53d4672a4ddd575",
+    "origin": "unpacked/apk/lib/arm64-v8a/libil2cpp.so + restored/code/il2cpp/script.json",
+    "limitations": "ARM64 fallback; indirect calls/hotfix are not fully resolved"
+  },
+  {
+    "id": "N:NormalSkillCreator--RandomAngelSkill",
+    "path": "evidence/NormalSkillCreator--RandomAngelSkill.asm",
+    "kind": "native_excerpt",
+    "method": "HotFix.BattleLogic.NormalSkillCreator$$RandomAngelSkill",
+    "rva": "RVA 0x68735FC",
+    "sha256": "bd93f15fc7a6e5a07bf4a84fb5cb8334d9aab7f28771458499ca894fef07c449",
+    "origin": "unpacked/apk/lib/arm64-v8a/libil2cpp.so + restored/code/il2cpp/script.json",
+    "limitations": "ARM64 fallback; indirect calls/hotfix are not fully resolved"
+  },
+  {
+    "id": "N:NormalSkillCreator--RandomDevilSkill",
+    "path": "evidence/NormalSkillCreator--RandomDevilSkill.asm",
+    "kind": "native_excerpt",
+    "method": "HotFix.BattleLogic.NormalSkillCreator$$RandomDevilSkill",
+    "rva": "RVA 0x6873E44",
+    "sha256": "0a5477e3c76ec6930c80cc9378adbc66c0d8c1b919cf69541562e69dd408e88e",
+    "origin": "unpacked/apk/lib/arm64-v8a/libil2cpp.so + restored/code/il2cpp/script.json",
+    "limitations": "ARM64 fallback; indirect calls/hotfix are not fully resolved"
+  },
+  {
+    "id": "N:NormalSkillCreator--get_UseInitBox",
+    "path": "evidence/NormalSkillCreator--get_UseInitBox.asm",
+    "kind": "native_excerpt",
+    "method": "HotFix.BattleLogic.NormalSkillCreator$$get_UseInitBox",
+    "rva": "RVA 0x6872CFC",
+    "sha256": "5392e07e473558f6593e574de64ad4719d88329b3112deef1680e444425fb455",
+    "origin": "unpacked/apk/lib/arm64-v8a/libil2cpp.so + restored/code/il2cpp/script.json",
+    "limitations": "ARM64 fallback; indirect calls/hotfix are not fully resolved"
+  },
+  {
+    "id": "N:PlayerPunchboard--FillRandomSkillList",
+    "path": "evidence/PlayerPunchboard--FillRandomSkillList.asm",
+    "kind": "native_excerpt",
+    "method": "HotFix.BattleLogic.PlayerPunchboard$$FillRandomSkillList",
+    "rva": "RVA 0x65A3CEC",
+    "sha256": "162c725309e088b26c3a9b5754ab3920a1af7082d7246d1d36d9af09ef4c53ad",
+    "origin": "unpacked/apk/lib/arm64-v8a/libil2cpp.so + restored/code/il2cpp/script.json",
+    "limitations": "ARM64 fallback; indirect calls/hotfix are not fully resolved"
+  },
+  {
+    "id": "N:PlayerPunchboard--Show",
+    "path": "evidence/PlayerPunchboard--Show.asm",
+    "kind": "native_excerpt",
+    "method": "HotFix.BattleLogic.PlayerPunchboard$$Show",
+    "rva": "RVA 0x659F4C8",
+    "sha256": "20b30846c6a66fd88fdedc478f062ca5c447b49a7f0cca12660767d008cd1a06",
+    "origin": "unpacked/apk/lib/arm64-v8a/libil2cpp.so + restored/code/il2cpp/script.json",
+    "limitations": "ARM64 fallback; indirect calls/hotfix are not fully resolved"
+  },
+  {
+    "id": "N:PlayerSkillSelectState--.cctor",
+    "path": "evidence/PlayerSkillSelectState--.cctor.asm",
+    "kind": "native_excerpt",
+    "method": "HotFix.BattleLogic.PlayerSkillSelectState$$.cctor",
+    "rva": "RVA 0x65B0514",
+    "sha256": "ffcc1803bd78df4a849954d70200138d8320fe231cdb979beb30aa27af16bc39",
+    "origin": "unpacked/apk/lib/arm64-v8a/libil2cpp.so + restored/code/il2cpp/script.json",
+    "limitations": "ARM64 fallback; indirect calls/hotfix are not fully resolved"
+  },
+  {
+    "id": "N:PlayerSkillSelectState--.ctor",
+    "path": "evidence/PlayerSkillSelectState--.ctor.asm",
+    "kind": "native_excerpt",
+    "method": "HotFix.BattleLogic.PlayerSkillSelectState$$.ctor",
+    "rva": "RVA 0x65B04AC",
+    "sha256": "dc286983867243a34a3795518936cd97191546e41c3c940bf5f18cfeb9b28955",
+    "origin": "unpacked/apk/lib/arm64-v8a/libil2cpp.so + restored/code/il2cpp/script.json",
+    "limitations": "ARM64 fallback; indirect calls/hotfix are not fully resolved"
+  },
+  {
+    "id": "N:PunchboardGameplayCustomTable--.cctor",
+    "path": "evidence/PunchboardGameplayCustomTable--.cctor.asm",
+    "kind": "native_excerpt",
+    "method": "HotFix.BattleLogic.PunchboardGameplayCustomTable$$.cctor",
+    "rva": "RVA 0x65BD2CC",
+    "sha256": "490f7242a6d418b46dedd8a446ddb64c6a66b4a8a43ba5153701042364bbb092",
+    "origin": "unpacked/apk/lib/arm64-v8a/libil2cpp.so + restored/code/il2cpp/script.json",
+    "limitations": "ARM64 fallback; indirect calls/hotfix are not fully resolved"
+  },
+  {
+    "id": "N:PunchboardGameplayCustomTable--BuildRule",
+    "path": "evidence/PunchboardGameplayCustomTable--BuildRule.asm",
+    "kind": "native_excerpt",
+    "method": "HotFix.BattleLogic.PunchboardGameplayCustomTable$$BuildRule",
+    "rva": "RVA 0x65BCE54",
+    "sha256": "527d4c4764937636ce9e936661df9c3422a2765fd213b1b17b3b18df119a244c",
+    "origin": "unpacked/apk/lib/arm64-v8a/libil2cpp.so + restored/code/il2cpp/script.json",
+    "limitations": "ARM64 fallback; indirect calls/hotfix are not fully resolved"
+  },
+  {
+    "id": "N:PunchboardGameplayCustomTable--CreateAroundPlayerMoveRule",
+    "path": "evidence/PunchboardGameplayCustomTable--CreateAroundPlayerMoveRule.asm",
+    "kind": "native_excerpt",
+    "method": "HotFix.BattleLogic.PunchboardGameplayCustomTable$$CreateAroundPlayerMoveRule",
+    "rva": "RVA 0x65BD1F4",
+    "sha256": "7adcca1e964d8f8505ad55a4733ec7ae74a3f3fe9cbe5d16d278860939686d31",
+    "origin": "unpacked/apk/lib/arm64-v8a/libil2cpp.so + restored/code/il2cpp/script.json",
+    "limitations": "ARM64 fallback; indirect calls/hotfix are not fully resolved"
+  },
+  {
+    "id": "N:PunchboardGameplayCustomTable--CreateAroundPlayerRule",
+    "path": "evidence/PunchboardGameplayCustomTable--CreateAroundPlayerRule.asm",
+    "kind": "native_excerpt",
+    "method": "HotFix.BattleLogic.PunchboardGameplayCustomTable$$CreateAroundPlayerRule",
+    "rva": "RVA 0x65BCF6C",
+    "sha256": "62cd4c624db69e85041f534eb1cfec5161170a1d932450f7e3b0def2c2320689",
+    "origin": "unpacked/apk/lib/arm64-v8a/libil2cpp.so + restored/code/il2cpp/script.json",
+    "limitations": "ARM64 fallback; indirect calls/hotfix are not fully resolved"
+  },
+  {
+    "id": "N:PunchboardGameplayCustomTable--CreateDefaultRule",
+    "path": "evidence/PunchboardGameplayCustomTable--CreateDefaultRule.asm",
+    "kind": "native_excerpt",
+    "method": "HotFix.BattleLogic.PunchboardGameplayCustomTable$$CreateDefaultRule",
+    "rva": "RVA 0x65BCD7C",
+    "sha256": "28e21792138221a8d6b8953dba26e83090107ff644d17f3aff50d43b5c214c8c",
+    "origin": "unpacked/apk/lib/arm64-v8a/libil2cpp.so + restored/code/il2cpp/script.json",
+    "limitations": "ARM64 fallback; indirect calls/hotfix are not fully resolved"
+  },
+  {
+    "id": "N:PunchboardGameplayCustomTable--CreateMissionNpcMoveRule",
+    "path": "evidence/PunchboardGameplayCustomTable--CreateMissionNpcMoveRule.asm",
+    "kind": "native_excerpt",
+    "method": "HotFix.BattleLogic.PunchboardGameplayCustomTable$$CreateMissionNpcMoveRule",
+    "rva": "RVA 0x65BD11C",
+    "sha256": "8f58e9c21ddc2c3e443538e82c64b195ded6b1d29b9cb500e8c89d125b64aa5f",
+    "origin": "unpacked/apk/lib/arm64-v8a/libil2cpp.so + restored/code/il2cpp/script.json",
+    "limitations": "ARM64 fallback; indirect calls/hotfix are not fully resolved"
+  },
+  {
+    "id": "N:PunchboardGameplayCustomTable--CreateScreenTopMoveRule",
+    "path": "evidence/PunchboardGameplayCustomTable--CreateScreenTopMoveRule.asm",
+    "kind": "native_excerpt",
+    "method": "HotFix.BattleLogic.PunchboardGameplayCustomTable$$CreateScreenTopMoveRule",
+    "rva": "RVA 0x65BD044",
+    "sha256": "6bb3d8a84dd0644158c11adfbcc6f7e158bf0842007fc7103ed5960a6e4d29dd",
+    "origin": "unpacked/apk/lib/arm64-v8a/libil2cpp.so + restored/code/il2cpp/script.json",
+    "limitations": "ARM64 fallback; indirect calls/hotfix are not fully resolved"
+  },
+  {
+    "id": "N:PunchboardGameplayCustomTable--GetRule",
+    "path": "evidence/PunchboardGameplayCustomTable--GetRule.asm",
+    "kind": "native_excerpt",
+    "method": "HotFix.BattleLogic.PunchboardGameplayCustomTable$$GetRule",
+    "rva": "RVA 0x65BCC58",
+    "sha256": "6d53166aa8d162e3ed06a44943c550c396f1f21536738499c0e6773cda154841",
+    "origin": "unpacked/apk/lib/arm64-v8a/libil2cpp.so + restored/code/il2cpp/script.json",
+    "limitations": "ARM64 fallback; indirect calls/hotfix are not fully resolved"
+  },
+  {
+    "id": "N:RefreshPunchboardState--.ctor",
+    "path": "evidence/RefreshPunchboardState--.ctor.asm",
+    "kind": "native_excerpt",
+    "method": "HotFix.BattleLogic.RefreshPunchboardState$$.ctor",
+    "rva": "RVA 0x65BE0B0",
+    "sha256": "2982491d4031b8930101ff1b9fbc3ce5ca68bb2524ad3f68533121951becce90",
+    "origin": "unpacked/apk/lib/arm64-v8a/libil2cpp.so + restored/code/il2cpp/script.json",
+    "limitations": "ARM64 fallback; indirect calls/hotfix are not fully resolved"
+  },
+  {
+    "id": "N:RefreshPunchboardState--get_StateId",
+    "path": "evidence/RefreshPunchboardState--get_StateId.asm",
+    "kind": "native_excerpt",
+    "method": "HotFix.BattleLogic.RefreshPunchboardState$$get_StateId",
+    "rva": "RVA 0x65BE04C",
+    "sha256": "87bbc165e4f3f78212d19aa530bc8bb7b2f5b439dc2ef3c2d556d236cdb88333",
+    "origin": "unpacked/apk/lib/arm64-v8a/libil2cpp.so + restored/code/il2cpp/script.json",
+    "limitations": "ARM64 fallback; indirect calls/hotfix are not fully resolved"
+  },
+  {
+    "id": "N:SinglePlayerBattleManager--CreateDropNpc",
+    "path": "evidence/SinglePlayerBattleManager--CreateDropNpc.asm",
+    "kind": "native_excerpt",
+    "method": "HotFix.BattleLogic.SinglePlayerBattleManager$$CreateDropNpc",
+    "rva": "RVA 0x65C0C04",
+    "sha256": "75aa4d0cad951edf2e9a7b109af4cff9412ffec87e0fc644c44d3ac295630c8a",
+    "origin": "unpacked/apk/lib/arm64-v8a/libil2cpp.so + restored/code/il2cpp/script.json",
+    "limitations": "ARM64 fallback; indirect calls/hotfix are not fully resolved"
+  },
+  {
+    "id": "N:SinglePlayerSkillCreator--.ctor",
+    "path": "evidence/SinglePlayerSkillCreator--.ctor.asm",
+    "kind": "native_excerpt",
+    "method": "HotFix.BattleLogic.SinglePlayerSkillCreator$$.ctor",
+    "rva": "RVA 0x685CB68",
+    "sha256": "3b666ef8138f2c7cb09b45f0fff05ff7ff404352d3dffae0a308c2778a05b304",
+    "origin": "unpacked/apk/lib/arm64-v8a/libil2cpp.so + restored/code/il2cpp/script.json",
+    "limitations": "ARM64 fallback; indirect calls/hotfix are not fully resolved"
+  },
+  {
+    "id": "N:SinglePlayerSkillCreator--GetInginiteSkill",
+    "path": "evidence/SinglePlayerSkillCreator--GetInginiteSkill.asm",
+    "kind": "native_excerpt",
+    "method": "HotFix.BattleLogic.SinglePlayerSkillCreator$$GetInginiteSkill",
+    "rva": "RVA 0x68606EC",
+    "sha256": "1cd4e7356e9c2124c2c3a02416a89d99cb21eeab08c2996e2b8587162b23eca6",
+    "origin": "unpacked/apk/lib/arm64-v8a/libil2cpp.so + restored/code/il2cpp/script.json",
+    "limitations": "ARM64 fallback; indirect calls/hotfix are not fully resolved"
+  },
+  {
+    "id": "N:SinglePlayerSkillCreator--GetNormalSkill",
+    "path": "evidence/SinglePlayerSkillCreator--GetNormalSkill.asm",
+    "kind": "native_excerpt",
+    "method": "HotFix.BattleLogic.SinglePlayerSkillCreator$$GetNormalSkill",
+    "rva": "RVA 0x6875450",
+    "sha256": "cd4a0313b165699e35b9cd5050b1823aee1c42572a62d8cab5958027644d8a92",
+    "origin": "unpacked/apk/lib/arm64-v8a/libil2cpp.so + restored/code/il2cpp/script.json",
+    "limitations": "ARM64 fallback; indirect calls/hotfix are not fully resolved"
+  },
+  {
+    "id": "N:SinglePlayerSkillCreator--InitRandoms",
+    "path": "evidence/SinglePlayerSkillCreator--InitRandoms.asm",
+    "kind": "native_excerpt",
+    "method": "HotFix.BattleLogic.SinglePlayerSkillCreator$$InitRandoms",
+    "rva": "RVA 0x6875D08",
+    "sha256": "19f15c29f2a69dcdbc91dbdec0da6d533e220951198c3d1c7cdbc9b5f8a7812c",
+    "origin": "unpacked/apk/lib/arm64-v8a/libil2cpp.so + restored/code/il2cpp/script.json",
+    "limitations": "ARM64 fallback; indirect calls/hotfix are not fully resolved"
+  },
+  {
+    "id": "N:SinglePlayerSkillCreator--OnAddRejectFlag",
+    "path": "evidence/SinglePlayerSkillCreator--OnAddRejectFlag.asm",
+    "kind": "native_excerpt",
+    "method": "HotFix.BattleLogic.SinglePlayerSkillCreator$$OnAddRejectFlag",
+    "rva": "RVA 0x6874ABC",
+    "sha256": "72c87cd26e9c09518e898016d14b6f7dc9304724574bbfe05eaa8f391ba580bb",
+    "origin": "unpacked/apk/lib/arm64-v8a/libil2cpp.so + restored/code/il2cpp/script.json",
+    "limitations": "ARM64 fallback; indirect calls/hotfix are not fully resolved"
+  },
+  {
+    "id": "N:SinglePlayerSkillCreator--OnAddRejectSkills",
+    "path": "evidence/SinglePlayerSkillCreator--OnAddRejectSkills.asm",
+    "kind": "native_excerpt",
+    "method": "HotFix.BattleLogic.SinglePlayerSkillCreator$$OnAddRejectSkills",
+    "rva": "RVA 0x6874E2C",
+    "sha256": "d0cd491baf41554bea9fb16882f8d902c543f9e0ca61e697cf756571ce80d1ee",
+    "origin": "unpacked/apk/lib/arm64-v8a/libil2cpp.so + restored/code/il2cpp/script.json",
+    "limitations": "ARM64 fallback; indirect calls/hotfix are not fully resolved"
+  },
+  {
+    "id": "N:SinglePlayerSkillCreator--OnAddSkillFlag",
+    "path": "evidence/SinglePlayerSkillCreator--OnAddSkillFlag.asm",
+    "kind": "native_excerpt",
+    "method": "HotFix.BattleLogic.SinglePlayerSkillCreator$$OnAddSkillFlag",
+    "rva": "RVA 0x6874878",
+    "sha256": "8b060bb23afb76ab6d19ece084be26ed0fbc77bf16ca6e92d1f96270be9689a7",
+    "origin": "unpacked/apk/lib/arm64-v8a/libil2cpp.so + restored/code/il2cpp/script.json",
+    "limitations": "ARM64 fallback; indirect calls/hotfix are not fully resolved"
+  },
+  {
+    "id": "N:SinglePlayerSkillCreator--OnCheckNeedSkills",
+    "path": "evidence/SinglePlayerSkillCreator--OnCheckNeedSkills.asm",
+    "kind": "native_excerpt",
+    "method": "HotFix.BattleLogic.SinglePlayerSkillCreator$$OnCheckNeedSkills",
+    "rva": "RVA 0x6874BC8",
+    "sha256": "8774ab4ddc83649dcca685cf79912699a88087ad81986a796b1260b448373631",
+    "origin": "unpacked/apk/lib/arm64-v8a/libil2cpp.so + restored/code/il2cpp/script.json",
+    "limitations": "ARM64 fallback; indirect calls/hotfix are not fully resolved"
+  },
+  {
+    "id": "N:SinglePlayerSkillCreator--OnCreateRandoms",
+    "path": "evidence/SinglePlayerSkillCreator--OnCreateRandoms.asm",
+    "kind": "native_excerpt",
+    "method": "HotFix.BattleLogic.SinglePlayerSkillCreator$$OnCreateRandoms",
+    "rva": "RVA 0x68740D8",
+    "sha256": "e3931141238845aede8c46c26360eda0e6df61a76de2b588d20b6307fcfe758c",
+    "origin": "unpacked/apk/lib/arm64-v8a/libil2cpp.so + restored/code/il2cpp/script.json",
+    "limitations": "ARM64 fallback; indirect calls/hotfix are not fully resolved"
+  },
+  {
+    "id": "N:SinglePlayerSkillCreator--OnDeInit",
+    "path": "evidence/SinglePlayerSkillCreator--OnDeInit.asm",
+    "kind": "native_excerpt",
+    "method": "HotFix.BattleLogic.SinglePlayerSkillCreator$$OnDeInit",
+    "rva": "RVA 0x68746CC",
+    "sha256": "40129479218287a3804b46d7286363159f9b110a54eeba84d67b1557f9a7ef33",
+    "origin": "unpacked/apk/lib/arm64-v8a/libil2cpp.so + restored/code/il2cpp/script.json",
+    "limitations": "ARM64 fallback; indirect calls/hotfix are not fully resolved"
+  },
+  {
+    "id": "N:SinglePlayerSkillCreator--OnInitRandomSkill",
+    "path": "evidence/SinglePlayerSkillCreator--OnInitRandomSkill.asm",
+    "kind": "native_excerpt",
+    "method": "HotFix.BattleLogic.SinglePlayerSkillCreator$$OnInitRandomSkill",
+    "rva": "RVA 0x6875BFC",
+    "sha256": "6a2e8f830a832a3fd941c4291b45004c540f69c01d2ad3c27175529f4f17e04a",
+    "origin": "unpacked/apk/lib/arm64-v8a/libil2cpp.so + restored/code/il2cpp/script.json",
+    "limitations": "ARM64 fallback; indirect calls/hotfix are not fully resolved"
+  },
+  {
+    "id": "N:SinglePlayerSkillCreator--OnInitRandoms",
+    "path": "evidence/SinglePlayerSkillCreator--OnInitRandoms.asm",
+    "kind": "native_excerpt",
+    "method": "HotFix.BattleLogic.SinglePlayerSkillCreator$$OnInitRandoms",
+    "rva": "RVA 0x6875AAC",
+    "sha256": "f287dc3c387d4463b1a3189e038f404497df431dec74304162cb41a61bc56309",
+    "origin": "unpacked/apk/lib/arm64-v8a/libil2cpp.so + restored/code/il2cpp/script.json",
+    "limitations": "ARM64 fallback; indirect calls/hotfix are not fully resolved"
+  },
+  {
+    "id": "N:SinglePlayerSkillCreator--OnRemoveRandomSkill",
+    "path": "evidence/SinglePlayerSkillCreator--OnRemoveRandomSkill.asm",
+    "kind": "native_excerpt",
+    "method": "HotFix.BattleLogic.SinglePlayerSkillCreator$$OnRemoveRandomSkill",
+    "rva": "RVA 0x68744C4",
+    "sha256": "445d5c0cc6b116eb47ad051bdbdd5af568b7851126852d3b18d3e106c05d29ca",
+    "origin": "unpacked/apk/lib/arm64-v8a/libil2cpp.so + restored/code/il2cpp/script.json",
+    "limitations": "ARM64 fallback; indirect calls/hotfix are not fully resolved"
+  },
+  {
+    "id": "N:WaterfallBattleManager--CreatePunchboardNpc",
+    "path": "evidence/WaterfallBattleManager--CreatePunchboardNpc.asm",
+    "kind": "native_excerpt",
+    "method": "HotFix.BattleLogic.WaterfallBattleManager$$CreatePunchboardNpc",
+    "rva": "RVA 0x65CD7C4",
+    "sha256": "0dd0ed7ecf2d3a7c7199c19fa617e95d0b3527051d41beb2454c8eb0be16774b",
+    "origin": "unpacked/apk/lib/arm64-v8a/libil2cpp.so + restored/code/il2cpp/script.json",
+    "limitations": "ARM64 fallback; indirect calls/hotfix are not fully resolved"
+  },
+  {
+    "id": "N:WaterfallBattleManager--CreateTileNpc",
+    "path": "evidence/WaterfallBattleManager--CreateTileNpc.asm",
+    "kind": "native_excerpt",
+    "method": "HotFix.BattleLogic.WaterfallBattleManager$$CreateTileNpc",
+    "rva": "RVA 0x65CDB00",
+    "sha256": "8b6a910138ac56c3d4f0981923e4be386e2484c99a30d8646c67335d1b1de7a7",
+    "origin": "unpacked/apk/lib/arm64-v8a/libil2cpp.so + restored/code/il2cpp/script.json",
+    "limitations": "ARM64 fallback; indirect calls/hotfix are not fully resolved"
+  },
+  {
+    "id": "N:WaterfallBattleManager--EnemyDieSpecialLogic",
+    "path": "evidence/WaterfallBattleManager--EnemyDieSpecialLogic.asm",
+    "kind": "native_excerpt",
+    "method": "HotFix.BattleLogic.WaterfallBattleManager$$EnemyDieSpecialLogic",
+    "rva": "RVA 0x65D4E80",
+    "sha256": "ad3ddccf829b812feac4a2943a8d5a46844a12012c99335e3d42ab96c134e3f3",
+    "origin": "unpacked/apk/lib/arm64-v8a/libil2cpp.so + restored/code/il2cpp/script.json",
+    "limitations": "ARM64 fallback; indirect calls/hotfix are not fully resolved"
+  },
+  {
+    "id": "N:WaterfallBattleManager--RefreshMonsters",
+    "path": "evidence/WaterfallBattleManager--RefreshMonsters.asm",
+    "kind": "native_excerpt",
+    "method": "HotFix.BattleLogic.WaterfallBattleManager$$RefreshMonsters",
+    "rva": "RVA 0x65CD158",
+    "sha256": "1df8300ffa503ba7ffd961cba9005e82e0e079b61b7d17a442f7114bc3a36a29",
+    "origin": "unpacked/apk/lib/arm64-v8a/libil2cpp.so + restored/code/il2cpp/script.json",
+    "limitations": "ARM64 fallback; indirect calls/hotfix are not fully resolved"
+  },
+  {
+    "id": "N:WaterfallBattleManager--RefreshRandomNpc",
+    "path": "evidence/WaterfallBattleManager--RefreshRandomNpc.asm",
+    "kind": "native_excerpt",
+    "method": "HotFix.BattleLogic.WaterfallBattleManager$$RefreshRandomNpc",
+    "rva": "RVA 0x65CD8EC",
+    "sha256": "d3ef14498c2fccbd87d17835bfd2e155f1dff22e63a15e09e30d42cc7e2e6f12",
+    "origin": "unpacked/apk/lib/arm64-v8a/libil2cpp.so + restored/code/il2cpp/script.json",
+    "limitations": "ARM64 fallback; indirect calls/hotfix are not fully resolved"
+  },
+  {
+    "id": "N:WaterfallStatePunchboard--.ctor",
+    "path": "evidence/WaterfallStatePunchboard--.ctor.asm",
+    "kind": "native_excerpt",
+    "method": "HotFix.BattleLogic.WaterfallStatePunchboard$$.ctor",
+    "rva": "RVA 0x65A8F18",
+    "sha256": "5448f7c965e785fa5adfe3d1f424ae35d1752a045cea8f7e69098cca0c9fa922",
+    "origin": "unpacked/apk/lib/arm64-v8a/libil2cpp.so + restored/code/il2cpp/script.json",
+    "limitations": "ARM64 fallback; indirect calls/hotfix are not fully resolved"
+  },
+  {
+    "id": "N:WaterfallStatePunchboard--GetPunchboardRandomCount",
+    "path": "evidence/WaterfallStatePunchboard--GetPunchboardRandomCount.asm",
+    "kind": "native_excerpt",
+    "method": "HotFix.BattleLogic.WaterfallStatePunchboard$$GetPunchboardRandomCount",
+    "rva": "RVA 0x65B597C",
+    "sha256": "67c9948aeaab6a900db2fb5db59b48db27cecf9d9c633c3be08aef1a1c5e1b78",
+    "origin": "unpacked/apk/lib/arm64-v8a/libil2cpp.so + restored/code/il2cpp/script.json",
+    "limitations": "ARM64 fallback; indirect calls/hotfix are not fully resolved"
+  },
+  {
+    "id": "N:WaterfallStatePunchboard--OnEnter",
+    "path": "evidence/WaterfallStatePunchboard--OnEnter.asm",
+    "kind": "native_excerpt",
+    "method": "HotFix.BattleLogic.WaterfallStatePunchboard$$OnEnter",
+    "rva": "RVA 0x65B56A0",
+    "sha256": "78a817a6796fe9f353818ce58b66874113d8274a922fdf91332e904ec59194e6",
+    "origin": "unpacked/apk/lib/arm64-v8a/libil2cpp.so + restored/code/il2cpp/script.json",
+    "limitations": "ARM64 fallback; indirect calls/hotfix are not fully resolved"
+  },
+  {
+    "id": "N:WaterfallStatePunchboard--OnExit",
+    "path": "evidence/WaterfallStatePunchboard--OnExit.asm",
+    "kind": "native_excerpt",
+    "method": "HotFix.BattleLogic.WaterfallStatePunchboard$$OnExit",
+    "rva": "RVA 0x65B5808",
+    "sha256": "563e0d7d930c212d759db704a58bc7360fdef8e499736a54d30708da382068f5",
+    "origin": "unpacked/apk/lib/arm64-v8a/libil2cpp.so + restored/code/il2cpp/script.json",
+    "limitations": "ARM64 fallback; indirect calls/hotfix are not fully resolved"
+  },
+  {
+    "id": "N:WeightRandom--GetRandomCount",
+    "path": "evidence/WeightRandom--GetRandomCount.asm",
+    "kind": "native_excerpt",
+    "method": "HotFix.BattleLogic.WeightRandom$$GetRandomCount",
+    "rva": "RVA 0x6633C0C",
+    "sha256": "cb588da37d0cf0f6d13aec1cea730be540bf771ddb9d3952b65b1f7ee7f54d72",
+    "origin": "unpacked/apk/lib/arm64-v8a/libil2cpp.so + restored/code/il2cpp/script.json",
+    "limitations": "ARM64 fallback; indirect calls/hotfix are not fully resolved"
+  },
+  {
+    "id": "N:WeightRandomData--AddNeedSkill",
+    "path": "evidence/WeightRandomData--AddNeedSkill.asm",
+    "kind": "native_excerpt",
+    "method": "HotFix.BattleLogic.WeightRandomData$$AddNeedSkill",
+    "rva": "RVA 0x6632510",
+    "sha256": "5ce0d5aabe9b7c93ae0267fb77a23f2c851e65f4953df1c07ebbb6965730220f",
+    "origin": "unpacked/apk/lib/arm64-v8a/libil2cpp.so + restored/code/il2cpp/script.json",
+    "limitations": "ARM64 fallback; indirect calls/hotfix are not fully resolved"
+  },
+  {
+    "id": "N:WeightRandomData--AddRejectFlag",
+    "path": "evidence/WeightRandomData--AddRejectFlag.asm",
+    "kind": "native_excerpt",
+    "method": "HotFix.BattleLogic.WeightRandomData$$AddRejectFlag",
+    "rva": "RVA 0x663220C",
+    "sha256": "b350385a98635d37172c19b59f1a40ef1affd534d398bb60e2afc8cf51f7382c",
+    "origin": "unpacked/apk/lib/arm64-v8a/libil2cpp.so + restored/code/il2cpp/script.json",
+    "limitations": "ARM64 fallback; indirect calls/hotfix are not fully resolved"
+  },
+  {
+    "id": "N:WeightRandomData--AddRejectSkill",
+    "path": "evidence/WeightRandomData--AddRejectSkill.asm",
+    "kind": "native_excerpt",
+    "method": "HotFix.BattleLogic.WeightRandomData$$AddRejectSkill",
+    "rva": "RVA 0x663236C",
+    "sha256": "5839f5b2e0f5e5e1e42c9f565552d04a9f7641819a27d5bc787d082612e2a9a1",
+    "origin": "unpacked/apk/lib/arm64-v8a/libil2cpp.so + restored/code/il2cpp/script.json",
+    "limitations": "ARM64 fallback; indirect calls/hotfix are not fully resolved"
+  },
+  {
+    "id": "N:WeightRandomData--BoostWeight",
+    "path": "evidence/WeightRandomData--BoostWeight.asm",
+    "kind": "native_excerpt",
+    "method": "HotFix.BattleLogic.WeightRandomData$$BoostWeight",
+    "rva": "RVA 0x66323E4",
+    "sha256": "76353a14e908182de9e68b95a45771bb1262ff5c892444eebb4e9482b7b4843a",
+    "origin": "unpacked/apk/lib/arm64-v8a/libil2cpp.so + restored/code/il2cpp/script.json",
+    "limitations": "ARM64 fallback; indirect calls/hotfix are not fully resolved"
+  },
+  {
+    "id": "N:WeightRandomData--Clear",
+    "path": "evidence/WeightRandomData--Clear.asm",
+    "kind": "native_excerpt",
+    "method": "HotFix.BattleLogic.WeightRandomData$$Clear",
+    "rva": "RVA 0x6631E40",
+    "sha256": "38582292c237722eb769da0af53c44f00f0144ad56a689b57f7b3d7ef9a5e3d3",
+    "origin": "unpacked/apk/lib/arm64-v8a/libil2cpp.so + restored/code/il2cpp/script.json",
+    "limitations": "ARM64 fallback; indirect calls/hotfix are not fully resolved"
+  },
+  {
+    "id": "N:WeightRandomData--CopyFrom",
+    "path": "evidence/WeightRandomData--CopyFrom.asm",
+    "kind": "native_excerpt",
+    "method": "HotFix.BattleLogic.WeightRandomData$$CopyFrom",
+    "rva": "RVA 0x6632604",
+    "sha256": "502e266108ae90d10ea7b695710d33e085b7793498d22129212421ea4b6cc2f3",
+    "origin": "unpacked/apk/lib/arm64-v8a/libil2cpp.so + restored/code/il2cpp/script.json",
+    "limitations": "ARM64 fallback; indirect calls/hotfix are not fully resolved"
+  },
+  {
+    "id": "N:WeightRandomData--GetNeedFlags",
+    "path": "evidence/WeightRandomData--GetNeedFlags.asm",
+    "kind": "native_excerpt",
+    "method": "HotFix.BattleLogic.WeightRandomData$$GetNeedFlags",
+    "rva": "RVA 0x6631D14",
+    "sha256": "91a617b77284fcc56c55e5a3a95229e662334852aca5e0c85c6800a43a1757e9",
+    "origin": "unpacked/apk/lib/arm64-v8a/libil2cpp.so + restored/code/il2cpp/script.json",
+    "limitations": "ARM64 fallback; indirect calls/hotfix are not fully resolved"
+  },
+  {
+    "id": "N:WeightRandomData--GetNeedSkills",
+    "path": "evidence/WeightRandomData--GetNeedSkills.asm",
+    "kind": "native_excerpt",
+    "method": "HotFix.BattleLogic.WeightRandomData$$GetNeedSkills",
+    "rva": "RVA 0x6631DDC",
+    "sha256": "f5fea902dbeb088860b38ecdd6225ff338ef0144ab96a5ce874e1411940b46b8",
+    "origin": "unpacked/apk/lib/arm64-v8a/libil2cpp.so + restored/code/il2cpp/script.json",
+    "limitations": "ARM64 fallback; indirect calls/hotfix are not fully resolved"
+  },
+  {
+    "id": "N:WeightRandomData--GetSkillFlags",
+    "path": "evidence/WeightRandomData--GetSkillFlags.asm",
+    "kind": "native_excerpt",
+    "method": "HotFix.BattleLogic.WeightRandomData$$GetSkillFlags",
+    "rva": "RVA 0x6631D78",
+    "sha256": "d052e3887a8868179debdbee013bf794813d26f79a3396777ce5aa6e03f566ae",
+    "origin": "unpacked/apk/lib/arm64-v8a/libil2cpp.so + restored/code/il2cpp/script.json",
+    "limitations": "ARM64 fallback; indirect calls/hotfix are not fully resolved"
+  },
+  {
+    "id": "N:WeightRandomData--Init",
+    "path": "evidence/WeightRandomData--Init.asm",
+    "kind": "native_excerpt",
+    "method": "HotFix.BattleLogic.WeightRandomData$$Init",
+    "rva": "RVA 0x6631EE4",
+    "sha256": "4ae296adba1a4e1e1ceef73fc668ea05e041a0dee505b921b1fe2cdb786afee7",
+    "origin": "unpacked/apk/lib/arm64-v8a/libil2cpp.so + restored/code/il2cpp/script.json",
+    "limitations": "ARM64 fallback; indirect calls/hotfix are not fully resolved"
+  },
+  {
+    "id": "N:WeightRandomData--PracticalWeight",
+    "path": "evidence/WeightRandomData--PracticalWeight.asm",
+    "kind": "native_excerpt",
+    "method": "HotFix.BattleLogic.WeightRandomData$$PracticalWeight",
+    "rva": "RVA 0x6632120",
+    "sha256": "3218f29ced8e9cdec637649c1b815513609c9c2cc0c4cee49ca8b70df97ca1de",
+    "origin": "unpacked/apk/lib/arm64-v8a/libil2cpp.so + restored/code/il2cpp/script.json",
+    "limitations": "ARM64 fallback; indirect calls/hotfix are not fully resolved"
+  },
+  {
+    "id": "N:WeightRandomData--RevertWeightBoost",
+    "path": "evidence/WeightRandomData--RevertWeightBoost.asm",
+    "kind": "native_excerpt",
+    "method": "HotFix.BattleLogic.WeightRandomData$$RevertWeightBoost",
+    "rva": "RVA 0x6632490",
+    "sha256": "dd2536574aad5249a837c3362dc97e68253f86bbd0fc62e2337de378d478a796",
+    "origin": "unpacked/apk/lib/arm64-v8a/libil2cpp.so + restored/code/il2cpp/script.json",
+    "limitations": "ARM64 fallback; indirect calls/hotfix are not fully resolved"
+  },
+  {
+    "id": "N:WeightRandomData--TryAddFlag",
+    "path": "evidence/WeightRandomData--TryAddFlag.asm",
+    "kind": "native_excerpt",
+    "method": "HotFix.BattleLogic.WeightRandomData$$TryAddFlag",
+    "rva": "RVA 0x66322DC",
+    "sha256": "d68fe5447aee8bbf43f1acade384f9d2307a3d04f9ef81a5153eab0f136dae9c",
+    "origin": "unpacked/apk/lib/arm64-v8a/libil2cpp.so + restored/code/il2cpp/script.json",
+    "limitations": "ARM64 fallback; indirect calls/hotfix are not fully resolved"
+  },
+  {
+    "id": "N:WeightRandomData--UpdateDeltaWeightPercent",
+    "path": "evidence/WeightRandomData--UpdateDeltaWeightPercent.asm",
+    "kind": "native_excerpt",
+    "method": "HotFix.BattleLogic.WeightRandomData$$UpdateDeltaWeightPercent",
+    "rva": "RVA 0x6632194",
+    "sha256": "232d15dd90ac4e0aa5c9ad31058fe53e54238d65c06c82666aca4a0f2259b3ae",
+    "origin": "unpacked/apk/lib/arm64-v8a/libil2cpp.so + restored/code/il2cpp/script.json",
+    "limitations": "ARM64 fallback; indirect calls/hotfix are not fully resolved"
+  },
+  {
+    "id": "N:WeightRandomData--Weight",
+    "path": "evidence/WeightRandomData--Weight.asm",
+    "kind": "native_excerpt",
+    "method": "HotFix.BattleLogic.WeightRandomData$$Weight",
+    "rva": "RVA 0x663206C",
+    "sha256": "6b4508d83e48c2b0215f184372332707ecef0fbcf25c6dc2be20315885793741",
+    "origin": "unpacked/apk/lib/arm64-v8a/libil2cpp.so + restored/code/il2cpp/script.json",
+    "limitations": "ARM64 fallback; indirect calls/hotfix are not fully resolved"
+  },
+  {
+    "id": "T:Chapter_MainChapter",
+    "path": "inputs/Chapter_MainChapter.json",
+    "kind": "config_or_literal_snapshot",
+    "sha256": "df13c03c5bf20f943bb7f26ae740b5f058d476899c2e93de3fd258f8b574a7b0",
+    "origin": "restored/configs/tables/Chapter_MainChapter.json"
+  },
+  {
+    "id": "T:Item_battle",
+    "path": "inputs/Item_battle.json",
+    "kind": "config_or_literal_snapshot",
+    "sha256": "4a2450e57de558ed9267dc76209e7183bba947a84d190f58e99e30cb77323d33",
+    "origin": "restored/configs/tables/Item_battle.json"
+  },
+  {
+    "id": "T:Npc_Npc",
+    "path": "inputs/Npc_Npc.json",
+    "kind": "config_or_literal_snapshot",
+    "sha256": "99ff6d2a435e80a5d9f4d44839bc4b63cd7d6b65c57b554e4e54c4e81d6d5108",
+    "origin": "restored/configs/tables/Npc_Npc.json"
+  },
+  {
+    "id": "T:SkillGroup_BranchSurvivorGroup",
+    "path": "inputs/SkillGroup_BranchSurvivorGroup.json",
+    "kind": "config_or_literal_snapshot",
+    "sha256": "ec55ae3bae42dfea54043138d4ef7219be4ed515faffac820b8b342c94c133f4",
+    "origin": "restored/configs/tables/SkillGroup_BranchSurvivorGroup.json"
+  },
+  {
+    "id": "T:SkillGroup_InitSurvivorGroup",
+    "path": "inputs/SkillGroup_InitSurvivorGroup.json",
+    "kind": "config_or_literal_snapshot",
+    "sha256": "b5799a3141533801060fa77092aa4c20e3a54bc38f4de8c0a53fd10cc02d422e",
+    "origin": "restored/configs/tables/SkillGroup_InitSurvivorGroup.json"
+  },
+  {
+    "id": "T:SkillGroup_SurvivorGroup",
+    "path": "inputs/SkillGroup_SurvivorGroup.json",
+    "kind": "config_or_literal_snapshot",
+    "sha256": "33f3f782558af459aa9890dc65351803af462e60a7a1a33798c9e31fc3eb92e2",
+    "origin": "restored/configs/tables/SkillGroup_SurvivorGroup.json"
+  },
+  {
+    "id": "T:SkillGroup_UpgradeSkillGroup",
+    "path": "inputs/SkillGroup_UpgradeSkillGroup.json",
+    "kind": "config_or_literal_snapshot",
+    "sha256": "8c78082f7fda5eed1e9bdc3f5ccbbeb6d65bf496c86f1f06c70f441eccb233ab",
+    "origin": "restored/configs/tables/SkillGroup_UpgradeSkillGroup.json"
+  },
+  {
+    "id": "T:SkillGroup_UpgradeSurvivorGroup",
+    "path": "inputs/SkillGroup_UpgradeSurvivorGroup.json",
+    "kind": "config_or_literal_snapshot",
+    "sha256": "d4e41614440e964f3e8f14e70be51759c86efcbab28e3fdfe159f91de6f38960",
+    "origin": "restored/configs/tables/SkillGroup_UpgradeSurvivorGroup.json"
+  },
+  {
+    "id": "T:Skill_Main",
+    "path": "inputs/Skill_Main.json",
+    "kind": "config_or_literal_snapshot",
+    "sha256": "adb1c18d124e6350b0adeb8d02b0bcec0b2a640091a697c3796cec21046f3ada",
+    "origin": "restored/configs/tables/Skill_Main.json"
+  },
+  {
+    "id": "T:native-constant-arrays",
+    "path": "inputs/native-constant-arrays.json",
+    "kind": "config_or_literal_snapshot",
+    "sha256": "0dec5ebeb08f77a57179d985612b2a3dc972683de82d011dc472b6bb144718e0",
+    "origin": "metadata/compiler constant or language subset"
+  },
+  {
+    "id": "T:skill-names",
+    "path": "inputs/skill-names.json",
+    "kind": "config_or_literal_snapshot",
+    "sha256": "e0b750a695d2b524f03ba871a079309149ef7772df1b0004c085eaa119755b2e",
+    "origin": "metadata/compiler constant or language subset"
+  }
+]

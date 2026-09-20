@@ -1,4 +1,4 @@
-<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>局内研究数据 · 规则与证据</title><link rel="stylesheet" href="assets/style.css"><style>pre{white-space:pre-wrap;overflow-wrap:anywhere;background:#f3f7f6;padding:16px;border-radius:8px;font-size:13px}details{border-bottom:1px solid #d4e2de;padding:14px 0}summary{cursor:pointer;font-weight:bold}summary:focus-visible{outline:2px solid #0a756c}details:target{background:#edf4fb} .record{scroll-margin-top:18px}</style></head><body><header class="page-head"><div class="hero"><div class="eyebrow">REUSABLE RESEARCH DATA</div><h1>局内研究数据</h1><p>从规则查到参数，从数据查到依据。默认复用本数据集，遇到明确缺口再深入源码。</p><div class="chips"><span>客户端1.0.16</span><span>第一章基础配置</span><span>25条规则</span><span>15波明细</span><span>离线可用</span></div></div></header><main class="layout"><nav class="toc"><strong>数据目录</strong><ul><li><a href="#overview">使用方式</a></li><li><a href="#facts">规则索引</a></li><li><a href="#waves">波次数据</a></li><li><a href="#build-data">技能关系</a></li><li><a href="#sources">来源索引</a></li><li><a href="#questions">待证问题</a></li><li><a href="#dictionary">字段与校验</a></li></ul><a href="core.html">返回正式报告</a></nav><article class="article"><h2 id="overview">使用方式</h2><p class="summary">先查规则F编号或15波表，再按来源ID定位包内配置行或函数摘录。这里保存的是可复用研究结果；证据状态与适用条件不会因页面展示而省略。</p><p><a href="downloads/xxyzd-in-run-handoff.zip">下载报告＋中间数据交接包</a> · <a href="https://github.com/chitanda233/xxyzd-research/blob/main/research-data/in-run/baseline.json">版本指纹</a> · <a href="https://github.com/chitanda233/xxyzd-research/blob/main/research-data/in-run/manifest.json">文件哈希清单</a></p><pre>python3 research-data/tools/research.py query wave:10
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>局内研究数据 · 规则与证据</title><link rel="stylesheet" href="assets/style.css"><style>pre{white-space:pre-wrap;overflow-wrap:anywhere;background:#f3f7f6;padding:16px;border-radius:8px;font-size:13px}details{border-bottom:1px solid #d4e2de;padding:14px 0}summary{cursor:pointer;font-weight:bold}summary:focus-visible{outline:2px solid #0a756c}details:target{background:#edf4fb} .record{scroll-margin-top:18px}</style></head><body><header class="page-head"><div class="hero"><div class="eyebrow">REUSABLE RESEARCH DATA</div><h1>局内研究数据</h1><p>从规则查到参数，从数据查到依据。默认复用本数据集，遇到明确缺口再深入源码。</p><div class="chips"><span>客户端1.0.16</span><span>第一章基础配置</span><span>25条规则</span><span>15波明细</span><span>离线可用</span></div></div></header><main class="layout"><nav class="toc"><strong>数据目录</strong><ul><li><a href="#overview">使用方式</a></li><li><a href="#facts">规则索引</a></li><li><a href="#waves">波次数据</a></li><li><a href="#build-data">技能关系</a></li><li><a href="#sources">来源索引</a></li><li><a href="#questions">待证问题</a></li><li><a href="#dictionary">字段与校验</a></li></ul><a href="core.html">返回正式报告</a><p><a href="choices-box-evolution.html">三选一与武器进化专题</a></p></nav><article class="article"><h2 id="overview">使用方式</h2><p class="summary">先查规则F编号或15波表，再按来源ID定位包内配置行或函数摘录。这里保存的是可复用研究结果；证据状态与适用条件不会因页面展示而省略。</p><p><a href="downloads/xxyzd-in-run-handoff.zip">下载报告＋中间数据交接包</a> · <a href="https://github.com/chitanda233/xxyzd-research/blob/main/research-data/in-run/baseline.json">版本指纹</a> · <a href="https://github.com/chitanda233/xxyzd-research/blob/main/research-data/in-run/manifest.json">文件哈希清单</a></p><pre>python3 research-data/tools/research.py query wave:10
 python3 research-data/tools/research.py query skill:10000103
 python3 research-data/tools/research.py query 复活
 python3 research-data/tools/research.py validate</pre><h2 id="facts">规则索引</h2><p>静态确认：配置和APK实现范围内成立。设计存在：不能作为实际启用规则。每条记录可展开参数和限制。</p><details class="record" id="F01"><summary>F01 · 章节规则 <span class="badge">静态确认</span></summary><p>第一章基础配置包含15波、78条脚本任务，波末处理升级。</p><pre>{
@@ -45,29 +45,40 @@ python3 research-data/tools/research.py validate</pre><h2 id="facts">规则索�
   &quot;pre_w5_growth&quot;: 4,
   &quot;pre_w10_growth&quot;: 9,
   &quot;pre_boss_growth&quot;: 14
-}</pre><p>适用：client 1.0.16 / chapter 1 / base variant</p><p class="callout">普通成长数是基准预算，不含阶段事件或额外经验修正；不把末波经验直接计成第15次常规选择</p><p>依据：<a href="#src-T-ChapterWave_Waves">T:ChapterWave_Waves</a> · <a href="#src-N-wave-upgrade">N:wave-upgrade</a></p></details><details class="record" id="F07"><summary>F07 · 整组品质抽取 <span class="badge">静态确认</span></summary><p>普通主线目标候选数3，先按40/40/20/0抽整组起始品质，从对应池抽取，候选不足再轮转补池。</p><pre>{
+}</pre><p>适用：client 1.0.16 / chapter 1 / base variant</p><p class="callout">普通成长数是基准预算，不含阶段事件或额外经验修正；不把末波经验直接计成第15次常规选择</p><p>依据：<a href="#src-T-ChapterWave_Waves">T:ChapterWave_Waves</a> · <a href="#src-N-wave-upgrade">N:wave-upgrade</a></p></details><details class="record" id="F07"><summary>F07 · 主线逐张类别抽取 <span class="badge">静态确认</span></summary><p>主线SkillType=2使用DankeSkillCreator；目标候选3，逐张抽取类别和技能。基础类别权重[0,200,300,300]，不是整组品质40/40/20/0。</p><pre>{
   &quot;choice_count&quot;: 3,
-  &quot;quality_start_weights&quot;: [
-    40,
-    40,
-    20,
-    0
+  &quot;category_weights&quot;: [
+    0,
+    200,
+    300,
+    300
   ]
-}</pre><p>适用：client 1.0.16 / chapter 1 / base variant</p><p class="callout">基础权重不是每张卡最终品质概率；角色属性可修正权重</p><p>依据：<a href="#src-T-Consts_Const">T:Consts_Const</a> · <a href="#src-N-normal-choice">N:normal-choice</a> · <a href="#src-N-quality">N:quality</a></p></details><details class="record" id="F08"><summary>F08 · 刷新与升品质 <span class="badge">静态确认</span></summary><p>普通刷新复用已有品质索引；qualityUp提升起始品质档位，二者不同。</p><pre>{
-  &quot;refresh_reuses_quality_index&quot;: true,
-  &quot;quality_up_index_delta&quot;: 1
-}</pre><p>适用：client 1.0.16 / chapter 1 / base variant</p><p>依据：<a href="#src-N-quality">N:quality</a> · <a href="#src-N-init-boost">N:init-boost</a></p></details><details class="record" id="F09"><summary>F09 · 候选合法性 <span class="badge">静态确认</span></summary><p>前置、互斥、技能标记、星级、父子关系限制候选；同批技能ID去重，父技能继续解析一个合法子分支。</p><pre>{
+}</pre><p>适用：client 1.0.16 / chapter 1 / base variant</p><p class="callout">空池、槽位、去重、升档和纠偏改变最终结果；类别权重不等于每张最终卡概率</p><p>依据：<a href="#src-N-choice-topic-HeroComponentRandomSkill--Init">N:choice-topic-HeroComponentRandomSkill--Init</a> · <a href="#src-N-choice-topic-BattleWorldContext--IsDankeSkill">N:choice-topic-BattleWorldContext--IsDankeSkill</a> · <a href="#src-N-choice-topic-HeroComponentRandomSkill--GetNormalSkill">N:choice-topic-HeroComponentRandomSkill--GetNormalSkill</a> · <a href="#src-N-choice-topic-DankeSkillCreator--GetNormalSkill">N:choice-topic-DankeSkillCreator--GetNormalSkill</a> · <a href="#src-N-choice-topic-DankeSkillCreator--GetRandomSkills">N:choice-topic-DankeSkillCreator--GetRandomSkills</a> · <a href="#src-N-choice-topic-LocalModels.Const--.cctor">N:choice-topic-LocalModels.Const--.cctor</a></p></details><details class="record" id="F08"><summary>F08 · 刷新与类别升档 <span class="badge">静态确认</span></summary><p>Danke刷新复用保存的类别索引，qualityUp可将起始索引上移一档；主线传入独立Danke权重数组。LevelUpSkillUpRate%修改另一个普通品质数组，不能直接算进主线类别权重。</p><pre>{
+  &quot;refresh_reuses_category_index&quot;: true
+}</pre><p>适用：client 1.0.16 / chapter 1 / base variant</p><p class="callout">不等于保留三张各自的品质或保证稀有度提升</p><p>依据：<a href="#src-N-choice-topic-HeroComponentRandomSkill--GetNormalSkill">N:choice-topic-HeroComponentRandomSkill--GetNormalSkill</a> · <a href="#src-N-choice-topic-DankeSkillCreator--GetRandomSkills">N:choice-topic-DankeSkillCreator--GetRandomSkills</a></p></details><details class="record" id="F09"><summary>F09 · 候选合法性 <span class="badge">静态确认</span></summary><p>前置、互斥、技能标记、星级、父子关系限制候选；同批技能ID去重，父技能继续解析一个合法子分支。</p><pre>{
   &quot;duplicate_skill_ids_in_same_draw&quot;: false
-}</pre><p>适用：client 1.0.16 / chapter 1 / base variant</p><p>依据：<a href="#src-T-Skill_Main">T:Skill_Main</a> · <a href="#src-N-weighted-draw">N:weighted-draw</a> · <a href="#src-N-branch-choice">N:branch-choice</a></p></details><details class="record" id="F10"><summary>F10 · 初始池 <span class="badge">静态确认</span></summary><p>Init计数大于0使用独立初始池并消费计数，配置目标1次；读档恢复计数。</p><pre>{
-  &quot;configured_init_count&quot;: 1
-}</pre><p>适用：client 1.0.16 / chapter 1 / base variant</p><p class="callout">新开局写入1的路径未闭合；不能保证每局首屏必走该池</p><p>依据：<a href="#src-T-Consts_Const">T:Consts_Const</a> · <a href="#src-N-init-boost">N:init-boost</a> · <a href="#src-N-save-init">N:save-init</a></p></details><details class="record" id="F11"><summary>F11 · 新手临时扶正 <span class="badge">静态确认</span></summary><p>配置指定10000101、10000601、10001701各+10%临时权重；正常技能抽取路径支持Boost后Revert。</p><pre>{
+}</pre><p>适用：client 1.0.16 / chapter 1 / base variant</p><p>依据：<a href="#src-T-Skill_Main">T:Skill_Main</a> · <a href="#src-N-weighted-draw">N:weighted-draw</a> · <a href="#src-N-branch-choice">N:branch-choice</a></p></details><details class="record" id="F10"><summary>F10 · 独立初始池 <span class="badge">静态确认</span></summary><p>Init计数大于0时，Danke路径使用独立初始池并消费计数；InitSurvivorGroup配置10个武器入口。</p><pre>{
+  &quot;configured_init_count&quot;: 1,
+  &quot;init_weapon_entries&quot;: 10
+}</pre><p>适用：client 1.0.16 / chapter 1 / base variant</p><p class="callout">新开局计数写入仍未闭合，不能保证每局首屏必走Init池</p><p>依据：<a href="#src-N-choice-topic-DankeSkillCreator--GetNormalSkill">N:choice-topic-DankeSkillCreator--GetNormalSkill</a> · <a href="#src-T-Consts_Const">T:Consts_Const</a> · <a href="#src-N-save-init">N:save-init</a></p></details><details class="record" id="F11"><summary>F11 · 章节临时保护 <span class="badge">静态确认</span></summary><p>WorldType=1、章节保护数组含3且尚未持有10000101时，尝试对三个配置入口临时增权10%并在抽后撤销。第一章数组为空；第2—10章含3。</p><pre>{
   &quot;boost_percent&quot;: 10,
   &quot;skill_ids&quot;: [
     10000101,
     10000601,
     10001701
+  ],
+  &quot;configured_chapters&quot;: [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
   ]
-}</pre><p>适用：client 1.0.16 / chapter 1 / base variant</p><p class="callout">适用保护条件时生效，不是所有抽取普遍增加10%；不是最终概率增加10个百分点</p><p>依据：<a href="#src-T-Consts_Const">T:Consts_Const</a> · <a href="#src-N-init-boost">N:init-boost</a></p></details><details class="record" id="F12"><summary>F12 · 同类增权的启用边界 <span class="badge">设计存在，未证实启用</span></summary><p>同类型每次+50%、上限+500%的公式存在，但APK的组增权fallback没有写入实现，不计入已生效规则。</p><pre>{
+}</pre><p>适用：client 1.0.16 / main chapters / chapter-and-build conditional</p><p class="callout">本分支不直接判断账号注册时间，不能称为新账号专属；增权不是概率加10个百分点，也不是必出</p><p>依据：<a href="#src-N-choice-topic-DankeSkillCreator--GetNormalSkill">N:choice-topic-DankeSkillCreator--GetNormalSkill</a> · <a href="#src-T-choice-topic-chapters">T:choice-topic-chapters</a> · <a href="#src-T-Consts_Const">T:Consts_Const</a></p></details><details class="record" id="F12"><summary>F12 · 同类增权的启用边界 <span class="badge">设计存在，未证实启用</span></summary><p>同类型每次+50%、上限+500%的公式存在，但APK的组增权fallback没有写入实现，不计入已生效规则。</p><pre>{
   &quot;intended_delta_per_count&quot;: 0.5,
   &quot;intended_delta_cap&quot;: 5,
   &quot;apk_fallback_applies_delta&quot;: false
@@ -77,13 +88,14 @@ python3 research-data/tools/research.py validate</pre><h2 id="facts">规则索�
   &quot;branches&quot;: 57,
   &quot;deep_upgrades&quot;: 111,
   &quot;breakthroughs&quot;: 22
-}</pre><p>适用：client 1.0.16 / chapter 1 / base variant</p><p class="callout">不等于同时合法候选数或线上开放数</p><p>依据：<a href="#src-T-SkillGroup_SurvivorGroup">T:SkillGroup_SurvivorGroup</a> · <a href="#src-T-SkillGroup_BranchSurvivorGroup">T:SkillGroup_BranchSurvivorGroup</a> · <a href="#src-T-SkillGroup_UpgradeSurvivorGroup">T:SkillGroup_UpgradeSurvivorGroup</a> · <a href="#src-T-SkillGroup_UpgradeSkillGroup">T:SkillGroup_UpgradeSkillGroup</a> · <a href="#src-T-Skill_Main">T:Skill_Main</a></p></details><details class="record" id="F14"><summary>F14 · 突破配方 <span class="badge">静态确认</span></summary><p>速射机炮节点10000103与暴击模块11000701关联突破10500101；模块还关联灼热射线突破。</p><pre>{
+}</pre><p>适用：client 1.0.16 / chapter 1 / base variant</p><p class="callout">不等于同时合法候选数或线上开放数</p><p>依据：<a href="#src-T-SkillGroup_SurvivorGroup">T:SkillGroup_SurvivorGroup</a> · <a href="#src-T-SkillGroup_BranchSurvivorGroup">T:SkillGroup_BranchSurvivorGroup</a> · <a href="#src-T-SkillGroup_UpgradeSurvivorGroup">T:SkillGroup_UpgradeSurvivorGroup</a> · <a href="#src-T-SkillGroup_UpgradeSkillGroup">T:SkillGroup_UpgradeSkillGroup</a> · <a href="#src-T-Skill_Main">T:Skill_Main</a></p></details><details class="record" id="F14"><summary>F14 · 突破配方 <span class="badge">静态确认</span></summary><p>非_B下速射机炮10000103与暴击模块11000701满足配方时，将10500101按配置权重5000加入常规与Init候选池；随后仍需抽取和选择。_B在此配方函数提前返回。</p><pre>{
   &quot;example&quot;: {
     &quot;weapon_node&quot;: 10000103,
     &quot;module&quot;: 11000701,
     &quot;result&quot;: 10500101
-  }
-}</pre><p>适用：client 1.0.16 / chapter 1 / base variant</p><p class="callout">配置依赖成立仍需通过其它合法性过滤</p><p>依据：<a href="#src-T-Skill_Main">T:Skill_Main</a></p></details><details class="record" id="F15"><summary>F15 · 阶段技能事件 <span class="badge">静态确认</span></summary><p>W6/105s、W11/240s、W15/345s配置Punchboard；Boss任务在347s。</p><pre>{
+  },
+  &quot;candidate_weight&quot;: 5000
+}</pre><p>适用：client 1.0.16 / chapter 1 / base variant</p><p class="callout">不是材料齐全就自动进化，5000不是50%概率；_B必须读另一条特殊升级路径</p><p>依据：<a href="#src-T-Skill_Main">T:Skill_Main</a> · <a href="#src-N-choice-topic-DankeSkillCreator--TryUnlockUpgradeSkills">N:choice-topic-DankeSkillCreator--TryUnlockUpgradeSkills</a></p></details><details class="record" id="F15"><summary>F15 · 阶段技能事件 <span class="badge">静态确认</span></summary><p>W6/105s、W11/240s、W15/345s配置Punchboard；Boss任务在347s。</p><pre>{
   &quot;waves&quot;: [
     6,
     11,
@@ -95,7 +107,16 @@ python3 research-data/tools/research.py validate</pre><h2 id="facts">规则索�
     345
   ],
   &quot;boss_task_seconds&quot;: 347
-}</pre><p>适用：client 1.0.16 / chapter 1 / base variant</p><p class="callout">脚本相差2秒不是玩家操作限时</p><p>依据：<a href="#src-T-MissionWaterfallMission_WaterfallMission">T:MissionWaterfallMission_WaterfallMission</a> · <a href="#src-N-punch-count">N:punch-count</a></p></details><details class="record" id="F16"><summary>F16 · 事件收益边界 <span class="badge">静态确认</span></summary><p>阶段事件数量走独立加权随机，并受属性与已有技能状态修正；不是固定普通三选一。</p><pre>{}</pre><p>适用：client 1.0.16 / chapter 1 / base variant</p><p class="callout">数量基础权重数组、净增减和替换结果未完整还原</p><p>依据：<a href="#src-N-punch-count">N:punch-count</a> · <a href="#src-T-Consts_Const">T:Consts_Const</a> · <a href="#src-N-punch-state">N:punch-state</a> · <a href="#src-N-punch-init">N:punch-init</a> · <a href="#src-N-punch-result">N:punch-result</a></p></details><details class="record" id="F17"><summary>F17 · 资源分工 <span class="badge">静态确认</span></summary><p>局内经验用于构筑，生命用于存活和终局评价，持久奖励由结束与领取流程处理。</p><pre>{}</pre><p>适用：client 1.0.16 / chapter 1 / base variant</p><p class="callout">HPPickUpAddPercent=0.04不独立证明单个血包回复公式</p><p>依据：<a href="#src-T-Chapter_MainChapter">T:Chapter_MainChapter</a> · <a href="#src-N-wave-upgrade">N:wave-upgrade</a> · <a href="#src-N-star-hp">N:star-hp</a> · <a href="#src-N-end-state">N:end-state</a></p></details><details class="record" id="F18"><summary>F18 · 复活优先级 <span class="badge">静态确认</span></summary><p>优先技能复活次数，再比较满血/普通复活属性与同一随机值，再检查剩余弹窗复活资格。</p><pre>{
+}</pre><p>适用：client 1.0.16 / chapter 1 / base variant</p><p class="callout">脚本相差2秒不是玩家操作限时</p><p>依据：<a href="#src-T-MissionWaterfallMission_WaterfallMission">T:MissionWaterfallMission_WaterfallMission</a> · <a href="#src-N-punch-count">N:punch-count</a></p></details><details class="record" id="F16"><summary>F16 · 事件收益边界 <span class="badge">静态确认</span></summary><p>阶段事件基础数量权重[60,0,30,0,10]对应1/3/5档；已有不同战斗技能组≤4时关闭5档，FiveSkillRate%只修正5档权重。</p><pre>{
+  &quot;base_count_weights&quot;: [
+    60,
+    0,
+    30,
+    0,
+    10
+  ],
+  &quot;five_skill_block_threshold&quot;: 4
+}</pre><p>适用：client 1.0.16 / chapter 1 / base variant</p><p class="callout">基础分布60%/30%/10%仅在5档开放且无属性修正时成立；净增减与替换收益不能由数量档直接推算</p><p>依据：<a href="#src-N-punch-count">N:punch-count</a> · <a href="#src-T-Consts_Const">T:Consts_Const</a> · <a href="#src-N-punch-state">N:punch-state</a> · <a href="#src-N-punch-init">N:punch-init</a> · <a href="#src-N-punch-result">N:punch-result</a> · <a href="#src-N-choice-topic-LocalModels.Const--.cctor">N:choice-topic-LocalModels.Const--.cctor</a> · <a href="#src-N-choice-topic-HeroComponentRandomSkill--GetPunchboardRandomCount">N:choice-topic-HeroComponentRandomSkill--GetPunchboardRandomCount</a></p></details><details class="record" id="F17"><summary>F17 · 资源分工 <span class="badge">静态确认</span></summary><p>局内经验用于构筑，生命用于存活和终局评价，持久奖励由结束与领取流程处理。</p><pre>{}</pre><p>适用：client 1.0.16 / chapter 1 / base variant</p><p class="callout">HPPickUpAddPercent=0.04不独立证明单个血包回复公式</p><p>依据：<a href="#src-T-Chapter_MainChapter">T:Chapter_MainChapter</a> · <a href="#src-N-wave-upgrade">N:wave-upgrade</a> · <a href="#src-N-star-hp">N:star-hp</a> · <a href="#src-N-end-state">N:end-state</a></p></details><details class="record" id="F18"><summary>F18 · 复活优先级 <span class="badge">静态确认</span></summary><p>优先技能复活次数，再比较满血/普通复活属性与同一随机值，再检查剩余弹窗复活资格。</p><pre>{
   &quot;ordered_types&quot;: [
     4,
     2,
@@ -1918,4 +1939,186 @@ python3 research-data/tools/research.py validate</pre><h2 id="facts">规则索�
     &quot;sha256&quot;: &quot;c808a81fc497efee3ea0cc653e787fc39cd5fd26f4a7cefb2000f126c01dc613&quot;
   },
   &quot;scope&quot;: &quot;APK ARM64 fallback; hotfix/indirect branches not fully resolved; original export may be capped at 16000 bytes&quot;
-}</pre></details><h2 id="questions">待证问题与深查条件</h2><p>下列条目没有被当成已确认规则。已有查证范围一起保存，避免下次从头重做。</p><details id="Q01"><summary>Q01 · 新开局Init计数如何赋值？</summary><p><strong>影响：</strong>影响首轮候选保证</p><p><strong>已查：</strong>检查PrepareBattle、BattleData.Init、读档及DoInitSkillGroup直接调用；读档已确认，直接调用无命中。</p><p><strong>所需：</strong>追BattleData字段直接写入、内联或实际hotfix</p><p><strong>何时继续：</strong>任务需要该结论的定量保证，或获得新的版本/运行态材料；否则复用已有结论并保留边界</p></details><details id="Q02"><summary>Q02 · 线上是否启用同类长期增权？</summary><p><strong>影响：</strong>影响Build概率模型</p><p><strong>已查：</strong>APK组增权fallback为空，公式与底层引擎存在。</p><p><strong>所需：</strong>实际热更新方法体或运行时权重采样</p><p><strong>何时继续：</strong>任务需要该结论的定量保证，或获得新的版本/运行态材料；否则复用已有结论并保留边界</p></details><details id="Q03"><summary>Q03 · Punchboard各数量档概率与技能净变化？</summary><p><strong>影响：</strong>影响Boss前实际构筑规模</p><p><strong>已查：</strong>独立状态和数量抽样已定位；内置表未找到数量权重数组。</p><p><strong>所需：</strong>常量初始化/远端配置与PlayerPunchboard结果应用</p><p><strong>何时继续：</strong>任务需要该结论的定量保证，或获得新的版本/运行态材料；否则复用已有结论并保留边界</p></details><details id="Q04"><summary>Q04 · 复活资格上限、无敌与清弹规则？</summary><p><strong>影响：</strong>影响失败成本与生存定量分析</p><p><strong>已查：</strong>资格优先级、flag接收、计数、返回战斗均已核对。</p><p><strong>所需：</strong>资格初始化、HeroComponentDie.ReBorn后Buff和敌人系统</p><p><strong>何时继续：</strong>任务需要该结论的定量保证，或获得新的版本/运行态材料；否则复用已有结论并保留边界</p></details><details id="Q05"><summary>Q05 · 终局精确UI顺序与HP采样时刻？</summary><p><strong>影响：</strong>影响最后一次成长/回血价值</p><p><strong>已查：</strong>末波无普通升级UI；结束态处理掉落；成功事件收集星级；CheckHp直接引用仅CollectStar。</p><p><strong>所需：</strong>结束状态全链或同版本终局录像</p><p><strong>何时继续：</strong>任务需要该结论的定量保证，或获得新的版本/运行态材料；否则复用已有结论并保留边界</p></details><details id="Q06"><summary>Q06 · 奖励数组、失败保留与实际到账？</summary><p><strong>影响：</strong>影响局外回流收益</p><p><strong>已查：</strong>章节和累计星级奖励配置可见；服务端发放未验证。</p><p><strong>所需：</strong>奖励解析、响应字段及领取状态；需要服务端或运行态证据</p><p><strong>何时继续：</strong>任务需要该结论的定量保证，或获得新的版本/运行态材料；否则复用已有结论并保留边界</p></details><details id="Q07"><summary>Q07 · 线上实际采用基础还是_B分支？</summary><p><strong>影响：</strong>不能将本基线推及全部线上玩家</p><p><strong>已查：</strong>本数据集明确采用非_B配置，输入快照保留_B列。</p><p><strong>所需：</strong>版本对应的分流设置/运行态选择证据</p><p><strong>何时继续：</strong>任务需要该结论的定量保证，或获得新的版本/运行态材料；否则复用已有结论并保留边界</p></details><h2 id="dictionary">字段与校验</h2><p><a href="https://github.com/chitanda233/xxyzd-research/blob/main/research-data/in-run/DICTIONARY.md">完整数据字典</a> · <a href="https://github.com/chitanda233/xxyzd-research/blob/main/research-data/in-run/facts.json">规则JSON</a> · <a href="https://github.com/chitanda233/xxyzd-research/blob/main/research-data/in-run/sources.json">来源JSON</a> · <a href="https://github.com/chitanda233/xxyzd-research/blob/main/research-data/in-run/questions.json">问题JSON</a></p><p>校验覆盖文件哈希、记录引用、输入复算与关键数值约束，不代表线上行为已验证。完整定点数、_B列与语言模板保存在输入快照，派生数据限定基础配置。</p></article></main><a class="back" href="core.html">← 正式报告</a></body></html>
+}</pre></details><details id="src-N-choice-topic-HeroComponentRandomSkill--Init"><summary>N:choice-topic-HeroComponentRandomSkill--Init · RVA 0x686BAC4</summary><p>HotFix.BattleLogic.HeroComponentRandomSkill$$Init</p><p><a href="https://github.com/chitanda233/xxyzd-research/blob/main/research-data/in-run/../topics/choices-box-evolution/evidence/HeroComponentRandomSkill--Init.asm">打开快照或函数摘录</a></p><pre>{
+  &quot;id&quot;: &quot;N:choice-topic-HeroComponentRandomSkill--Init&quot;,
+  &quot;kind&quot;: &quot;native_excerpt&quot;,
+  &quot;path&quot;: &quot;../topics/choices-box-evolution/evidence/HeroComponentRandomSkill--Init.asm&quot;,
+  &quot;sha256&quot;: &quot;a2af6cc50c0d821f23f3836144fa3fc59445917211c39ba69a5e4cf23e1d8bcb&quot;,
+  &quot;method&quot;: &quot;HotFix.BattleLogic.HeroComponentRandomSkill$$Init&quot;,
+  &quot;rva&quot;: &quot;RVA 0x686BAC4&quot;,
+  &quot;origin&quot;: {
+    &quot;path&quot;: &quot;research-data/topics/choices-box-evolution/evidence/HeroComponentRandomSkill--Init.asm&quot;
+  },
+  &quot;scope&quot;: &quot;APK fallback / cross-topic canonical evidence&quot;
+}</pre></details><details id="src-N-choice-topic-BattleWorldContext--IsDankeSkill"><summary>N:choice-topic-BattleWorldContext--IsDankeSkill · RVA 0x6A04794</summary><p>HotFix.BattleLogic.BattleWorldContext$$IsDankeSkill</p><p><a href="https://github.com/chitanda233/xxyzd-research/blob/main/research-data/in-run/../topics/choices-box-evolution/evidence/BattleWorldContext--IsDankeSkill.asm">打开快照或函数摘录</a></p><pre>{
+  &quot;id&quot;: &quot;N:choice-topic-BattleWorldContext--IsDankeSkill&quot;,
+  &quot;kind&quot;: &quot;native_excerpt&quot;,
+  &quot;path&quot;: &quot;../topics/choices-box-evolution/evidence/BattleWorldContext--IsDankeSkill.asm&quot;,
+  &quot;sha256&quot;: &quot;eb171bb8341001ec627d81990cc13f1906470d1fe25eb644a98c67a25df3ca9a&quot;,
+  &quot;method&quot;: &quot;HotFix.BattleLogic.BattleWorldContext$$IsDankeSkill&quot;,
+  &quot;rva&quot;: &quot;RVA 0x6A04794&quot;,
+  &quot;origin&quot;: {
+    &quot;path&quot;: &quot;research-data/topics/choices-box-evolution/evidence/BattleWorldContext--IsDankeSkill.asm&quot;
+  },
+  &quot;scope&quot;: &quot;APK fallback / cross-topic canonical evidence&quot;
+}</pre></details><details id="src-N-choice-topic-HeroComponentRandomSkill--GetNormalSkill"><summary>N:choice-topic-HeroComponentRandomSkill--GetNormalSkill · RVA 0x686E0A0</summary><p>HotFix.BattleLogic.HeroComponentRandomSkill$$GetNormalSkill</p><p><a href="https://github.com/chitanda233/xxyzd-research/blob/main/research-data/in-run/../topics/choices-box-evolution/evidence/HeroComponentRandomSkill--GetNormalSkill.asm">打开快照或函数摘录</a></p><pre>{
+  &quot;id&quot;: &quot;N:choice-topic-HeroComponentRandomSkill--GetNormalSkill&quot;,
+  &quot;kind&quot;: &quot;native_excerpt&quot;,
+  &quot;path&quot;: &quot;../topics/choices-box-evolution/evidence/HeroComponentRandomSkill--GetNormalSkill.asm&quot;,
+  &quot;sha256&quot;: &quot;33c466bf0ff564a2f631b556b73490309d79980e4ed4e29de5bc45738461a50f&quot;,
+  &quot;method&quot;: &quot;HotFix.BattleLogic.HeroComponentRandomSkill$$GetNormalSkill&quot;,
+  &quot;rva&quot;: &quot;RVA 0x686E0A0&quot;,
+  &quot;origin&quot;: {
+    &quot;path&quot;: &quot;research-data/topics/choices-box-evolution/evidence/HeroComponentRandomSkill--GetNormalSkill.asm&quot;
+  },
+  &quot;scope&quot;: &quot;APK fallback / cross-topic canonical evidence&quot;
+}</pre></details><details id="src-N-choice-topic-DankeSkillCreator--GetNormalSkill"><summary>N:choice-topic-DankeSkillCreator--GetNormalSkill · RVA 0x685DFAC</summary><p>HotFix.BattleLogic.DankeSkillCreator$$GetNormalSkill</p><p><a href="https://github.com/chitanda233/xxyzd-research/blob/main/research-data/in-run/../topics/choices-box-evolution/evidence/DankeSkillCreator--GetNormalSkill.asm">打开快照或函数摘录</a></p><pre>{
+  &quot;id&quot;: &quot;N:choice-topic-DankeSkillCreator--GetNormalSkill&quot;,
+  &quot;kind&quot;: &quot;native_excerpt&quot;,
+  &quot;path&quot;: &quot;../topics/choices-box-evolution/evidence/DankeSkillCreator--GetNormalSkill.asm&quot;,
+  &quot;sha256&quot;: &quot;941e1ce6f82663465002348c41550c70a536b68e99803d5d36956cdcd036a605&quot;,
+  &quot;method&quot;: &quot;HotFix.BattleLogic.DankeSkillCreator$$GetNormalSkill&quot;,
+  &quot;rva&quot;: &quot;RVA 0x685DFAC&quot;,
+  &quot;origin&quot;: {
+    &quot;path&quot;: &quot;research-data/topics/choices-box-evolution/evidence/DankeSkillCreator--GetNormalSkill.asm&quot;
+  },
+  &quot;scope&quot;: &quot;APK fallback / cross-topic canonical evidence&quot;
+}</pre></details><details id="src-N-choice-topic-DankeSkillCreator--GetRandomSkills"><summary>N:choice-topic-DankeSkillCreator--GetRandomSkills · RVA 0x685F434</summary><p>HotFix.BattleLogic.DankeSkillCreator$$GetRandomSkills</p><p><a href="https://github.com/chitanda233/xxyzd-research/blob/main/research-data/in-run/../topics/choices-box-evolution/evidence/DankeSkillCreator--GetRandomSkills.asm">打开快照或函数摘录</a></p><pre>{
+  &quot;id&quot;: &quot;N:choice-topic-DankeSkillCreator--GetRandomSkills&quot;,
+  &quot;kind&quot;: &quot;native_excerpt&quot;,
+  &quot;path&quot;: &quot;../topics/choices-box-evolution/evidence/DankeSkillCreator--GetRandomSkills.asm&quot;,
+  &quot;sha256&quot;: &quot;805cb37c453bc5c8035a31b1317875d5bbe263c1aa953d4b842da3636bb066f6&quot;,
+  &quot;method&quot;: &quot;HotFix.BattleLogic.DankeSkillCreator$$GetRandomSkills&quot;,
+  &quot;rva&quot;: &quot;RVA 0x685F434&quot;,
+  &quot;origin&quot;: {
+    &quot;path&quot;: &quot;research-data/topics/choices-box-evolution/evidence/DankeSkillCreator--GetRandomSkills.asm&quot;
+  },
+  &quot;scope&quot;: &quot;APK fallback / cross-topic canonical evidence&quot;
+}</pre></details><details id="src-N-choice-topic-LocalModelEx--GetSkillDeepType"><summary>N:choice-topic-LocalModelEx--GetSkillDeepType · RVA 0x64C91A0</summary><p>LocalModelEx$$GetSkillDeepType</p><p><a href="https://github.com/chitanda233/xxyzd-research/blob/main/research-data/in-run/../topics/choices-box-evolution/evidence/LocalModelEx--GetSkillDeepType.asm">打开快照或函数摘录</a></p><pre>{
+  &quot;id&quot;: &quot;N:choice-topic-LocalModelEx--GetSkillDeepType&quot;,
+  &quot;kind&quot;: &quot;native_excerpt&quot;,
+  &quot;path&quot;: &quot;../topics/choices-box-evolution/evidence/LocalModelEx--GetSkillDeepType.asm&quot;,
+  &quot;sha256&quot;: &quot;e3f14da72b3a0669735c77c1ed530571ae67b3a89b7daa69ef94d002b992f7a1&quot;,
+  &quot;method&quot;: &quot;LocalModelEx$$GetSkillDeepType&quot;,
+  &quot;rva&quot;: &quot;RVA 0x64C91A0&quot;,
+  &quot;origin&quot;: {
+    &quot;path&quot;: &quot;research-data/topics/choices-box-evolution/evidence/LocalModelEx--GetSkillDeepType.asm&quot;
+  },
+  &quot;scope&quot;: &quot;APK fallback / cross-topic canonical evidence&quot;
+}</pre></details><details id="src-N-choice-topic-LocalModels.Const--.cctor"><summary>N:choice-topic-LocalModels.Const--.cctor · RVA 0x64CC3D0</summary><p>LocalModels.Const$$.cctor</p><p><a href="https://github.com/chitanda233/xxyzd-research/blob/main/research-data/in-run/../topics/choices-box-evolution/evidence/LocalModels.Const--.cctor.asm">打开快照或函数摘录</a></p><pre>{
+  &quot;id&quot;: &quot;N:choice-topic-LocalModels.Const--.cctor&quot;,
+  &quot;kind&quot;: &quot;native_excerpt&quot;,
+  &quot;path&quot;: &quot;../topics/choices-box-evolution/evidence/LocalModels.Const--.cctor.asm&quot;,
+  &quot;sha256&quot;: &quot;418dce717bc1417ff6dfc41f2e97b4119d0da007675da52a73f366310407220a&quot;,
+  &quot;method&quot;: &quot;LocalModels.Const$$.cctor&quot;,
+  &quot;rva&quot;: &quot;RVA 0x64CC3D0&quot;,
+  &quot;origin&quot;: {
+    &quot;path&quot;: &quot;research-data/topics/choices-box-evolution/evidence/LocalModels.Const--.cctor.asm&quot;
+  },
+  &quot;scope&quot;: &quot;APK fallback / cross-topic canonical evidence&quot;
+}</pre></details><details id="src-N-choice-topic-DankeSkillCreator--TryUnlockUpgradeSkills"><summary>N:choice-topic-DankeSkillCreator--TryUnlockUpgradeSkills · RVA 0x686145C</summary><p>HotFix.BattleLogic.DankeSkillCreator$$TryUnlockUpgradeSkills</p><p><a href="https://github.com/chitanda233/xxyzd-research/blob/main/research-data/in-run/../topics/choices-box-evolution/evidence/DankeSkillCreator--TryUnlockUpgradeSkills.asm">打开快照或函数摘录</a></p><pre>{
+  &quot;id&quot;: &quot;N:choice-topic-DankeSkillCreator--TryUnlockUpgradeSkills&quot;,
+  &quot;kind&quot;: &quot;native_excerpt&quot;,
+  &quot;path&quot;: &quot;../topics/choices-box-evolution/evidence/DankeSkillCreator--TryUnlockUpgradeSkills.asm&quot;,
+  &quot;sha256&quot;: &quot;dea92e3e9ce3f4824064f620e86bacacfc0032b5fea26fec714fd264b3123a79&quot;,
+  &quot;method&quot;: &quot;HotFix.BattleLogic.DankeSkillCreator$$TryUnlockUpgradeSkills&quot;,
+  &quot;rva&quot;: &quot;RVA 0x686145C&quot;,
+  &quot;origin&quot;: {
+    &quot;path&quot;: &quot;research-data/topics/choices-box-evolution/evidence/DankeSkillCreator--TryUnlockUpgradeSkills.asm&quot;
+  },
+  &quot;scope&quot;: &quot;APK fallback / cross-topic canonical evidence&quot;
+}</pre></details><details id="src-N-choice-topic-HeroComponentRandomSkill--GetPunchboardRandomCount"><summary>N:choice-topic-HeroComponentRandomSkill--GetPunchboardRandomCount · RVA 0x686F88C</summary><p>HotFix.BattleLogic.HeroComponentRandomSkill$$GetPunchboardRandomCount</p><p><a href="https://github.com/chitanda233/xxyzd-research/blob/main/research-data/in-run/../topics/choices-box-evolution/evidence/HeroComponentRandomSkill--GetPunchboardRandomCount.asm">打开快照或函数摘录</a></p><pre>{
+  &quot;id&quot;: &quot;N:choice-topic-HeroComponentRandomSkill--GetPunchboardRandomCount&quot;,
+  &quot;kind&quot;: &quot;native_excerpt&quot;,
+  &quot;path&quot;: &quot;../topics/choices-box-evolution/evidence/HeroComponentRandomSkill--GetPunchboardRandomCount.asm&quot;,
+  &quot;sha256&quot;: &quot;7d9c36ff9a8070fab03de31b249b8425c0ec98a06a9b35ab06259b075328bfc6&quot;,
+  &quot;method&quot;: &quot;HotFix.BattleLogic.HeroComponentRandomSkill$$GetPunchboardRandomCount&quot;,
+  &quot;rva&quot;: &quot;RVA 0x686F88C&quot;,
+  &quot;origin&quot;: {
+    &quot;path&quot;: &quot;research-data/topics/choices-box-evolution/evidence/HeroComponentRandomSkill--GetPunchboardRandomCount.asm&quot;
+  },
+  &quot;scope&quot;: &quot;APK fallback / cross-topic canonical evidence&quot;
+}</pre></details><details id="src-T-choice-topic-chapters"><summary>T:choice-topic-chapters · 71行</summary><p>T:choice-topic-chapters</p><p><a href="https://github.com/chitanda233/xxyzd-research/blob/main/research-data/in-run/../topics/choices-box-evolution/inputs/Chapter_MainChapter.json">打开快照或函数摘录</a></p><pre>{
+  &quot;id&quot;: &quot;T:choice-topic-chapters&quot;,
+  &quot;kind&quot;: &quot;config_rows&quot;,
+  &quot;path&quot;: &quot;../topics/choices-box-evolution/inputs/Chapter_MainChapter.json&quot;,
+  &quot;sha256&quot;: &quot;df13c03c5bf20f943bb7f26ae740b5f058d476899c2e93de3fd258f8b574a7b0&quot;,
+  &quot;row_key&quot;: &quot;id&quot;,
+  &quot;row_ids&quot;: [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    9999
+  ],
+  &quot;record_count&quot;: 71,
+  &quot;origin&quot;: {
+    &quot;path&quot;: &quot;restored/configs/tables/Chapter_MainChapter.json&quot;
+  }
+}</pre></details><h2 id="questions">待证问题与深查条件</h2><p>下列条目没有被当成已确认规则。已有查证范围一起保存，避免下次从头重做。</p><details id="Q01"><summary>Q01 · 新开局Init计数如何赋值？</summary><p><strong>影响：</strong>影响首轮候选保证</p><p><strong>已查：</strong>检查PrepareBattle、BattleData.Init、读档及DoInitSkillGroup直接调用；读档已确认，直接调用无命中。</p><p><strong>所需：</strong>追BattleData字段直接写入、内联或实际hotfix</p><p><strong>何时继续：</strong>任务需要该结论的定量保证，或获得新的版本/运行态材料；否则复用已有结论并保留边界</p></details><details id="Q02"><summary>Q02 · 线上是否启用同类长期增权？</summary><p><strong>影响：</strong>影响Build概率模型</p><p><strong>已查：</strong>APK组增权fallback为空，公式与底层引擎存在。</p><p><strong>所需：</strong>实际热更新方法体或运行时权重采样</p><p><strong>何时继续：</strong>任务需要该结论的定量保证，或获得新的版本/运行态材料；否则复用已有结论并保留边界</p></details><details id="Q03"><summary>Q03 · Punchboard结果的净增减与替换收益？</summary><p><strong>影响：</strong>影响Boss前实际构筑规模</p><p><strong>已查：</strong>基础数量权重60/0/30/0/10、FiveSkillRate修正和不同技能组≤4关闭5档已确认；独立状态与结果列表已定位。</p><p><strong>所需：</strong>沿PlayerPunchboard结果应用核对具体构筑状态下的净变化</p><p><strong>何时继续：</strong>任务需要该结论的定量保证，或获得新的版本/运行态材料；否则复用已有结论并保留边界</p></details><details id="Q04"><summary>Q04 · 复活资格上限、无敌与清弹规则？</summary><p><strong>影响：</strong>影响失败成本与生存定量分析</p><p><strong>已查：</strong>资格优先级、flag接收、计数、返回战斗均已核对。</p><p><strong>所需：</strong>资格初始化、HeroComponentDie.ReBorn后Buff和敌人系统</p><p><strong>何时继续：</strong>任务需要该结论的定量保证，或获得新的版本/运行态材料；否则复用已有结论并保留边界</p></details><details id="Q05"><summary>Q05 · 终局精确UI顺序与HP采样时刻？</summary><p><strong>影响：</strong>影响最后一次成长/回血价值</p><p><strong>已查：</strong>末波无普通升级UI；结束态处理掉落；成功事件收集星级；CheckHp直接引用仅CollectStar。</p><p><strong>所需：</strong>结束状态全链或同版本终局录像</p><p><strong>何时继续：</strong>任务需要该结论的定量保证，或获得新的版本/运行态材料；否则复用已有结论并保留边界</p></details><details id="Q06"><summary>Q06 · 奖励数组、失败保留与实际到账？</summary><p><strong>影响：</strong>影响局外回流收益</p><p><strong>已查：</strong>章节和累计星级奖励配置可见；服务端发放未验证。</p><p><strong>所需：</strong>奖励解析、响应字段及领取状态；需要服务端或运行态证据</p><p><strong>何时继续：</strong>任务需要该结论的定量保证，或获得新的版本/运行态材料；否则复用已有结论并保留边界</p></details><details id="Q07"><summary>Q07 · 线上实际采用基础还是_B分支？</summary><p><strong>影响：</strong>不能将本基线推及全部线上玩家</p><p><strong>已查：</strong>本数据集明确采用非_B配置，输入快照保留_B列。</p><p><strong>所需：</strong>版本对应的分流设置/运行态选择证据</p><p><strong>何时继续：</strong>任务需要该结论的定量保证，或获得新的版本/运行态材料；否则复用已有结论并保留边界</p></details><h2 id="dictionary">字段与校验</h2><p><a href="https://github.com/chitanda233/xxyzd-research/blob/main/research-data/in-run/DICTIONARY.md">完整数据字典</a> · <a href="https://github.com/chitanda233/xxyzd-research/blob/main/research-data/in-run/facts.json">规则JSON</a> · <a href="https://github.com/chitanda233/xxyzd-research/blob/main/research-data/in-run/sources.json">来源JSON</a> · <a href="https://github.com/chitanda233/xxyzd-research/blob/main/research-data/in-run/questions.json">问题JSON</a></p><p>校验覆盖文件哈希、记录引用、输入复算与关键数值约束，不代表线上行为已验证。完整定点数、_B列与语言模板保存在输入快照，派生数据限定基础配置。</p></article></main><a class="back" href="core.html">← 正式报告</a></body></html>
