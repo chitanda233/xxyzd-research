@@ -2,18 +2,16 @@
   {
     "id": "CQ01",
     "topic": "treasure_monster",
-    "question": "击杀哪一个实体后，哪一种拾取物进入三选一？",
+    "question": "是否还存在独立于已闭合NPC宝箱链的杀怪掉箱入口？",
     "checked": [
-      "EntityTreasure碰撞造怪",
-      "EntityMonster死亡、BaseSurvival死亡通知",
-      "Item_battle与MainDropManager",
-      "DropItemScroll/Equip收集",
-      "BaseBoxState与NormalSkillCreator箱子结果",
-      "RandomSkill直接调用者"
+      "entity8从章节脚本、模型、AI拾取、state11、UI提交到技能到账闭合",
+      "宝箱退出→待处理特殊技能→state12闭合",
+      "entity7两结果Box、死亡普通DropMgr路径及特殊掉落fallback已区分",
+      "全部20,912行任务检查RandomNpc；142个主线基础/B映射、416条宝箱事件归档"
     ],
-    "breakpoint": "缺少 monster ID → drop ID → pickup handler → three-choice state 的闭合边；部分fallback为空",
-    "next_evidence": "同版本热更方法体或一段显示怪物外观、掉落物与三选一界面的实机记录",
-    "do_not_repeat": "不要仅因Treasure/Box/Punchboard命名相似就认定同一入口"
+    "breakpoint": "已闭合当前静态主线宝箱；另一个杀怪掉箱入口缺少具体实现证据，不作为既定机制。",
+    "next_evidence": "仅在出现同版本额外实现或实机不一致证据时，复核MainDropManager热更分支；不以记忆中的三选一要求强行拼链。",
+    "do_not_repeat": "先复用treasure-chain.json和treasure-schedule.json；用户已明确以代码为准。"
   },
   {
     "id": "CQ02",

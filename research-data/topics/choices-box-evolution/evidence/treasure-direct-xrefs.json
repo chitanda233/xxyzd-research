@@ -1,0 +1,94 @@
+{
+  "targets": {
+    "CreateDropNpc": 106695684,
+    "AddDropNpc": 107404976,
+    "TryShowBox": 106531360,
+    "NpcDropParam": 106557136,
+    "CreateTreasure": 111240528
+  },
+  "hits": {
+    "CreateDropNpc": [
+      {
+        "pc": 106750048,
+        "kind": "BL",
+        "caller_address": 106748672,
+        "caller_names": [
+          "HotFix.BattleLogic.WaterfallBattleManager$$CreateTileNpc"
+        ]
+      }
+    ],
+    "AddDropNpc": [
+      {
+        "pc": 106696056,
+        "kind": "BL",
+        "caller_address": 106695684,
+        "caller_names": [
+          "HotFix.BattleLogic.SinglePlayerBattleManager$$CreateDropNpc"
+        ]
+      }
+    ],
+    "TryShowBox": [
+      {
+        "pc": 106531320,
+        "kind": "BL",
+        "caller_address": 106531236,
+        "caller_names": [
+          "HotFix.BattleLogic.BaseDropNpcState$$TryShowNpc"
+        ]
+      }
+    ],
+    "NpcDropParam": [
+      {
+        "pc": 106557080,
+        "kind": "BL",
+        "caller_address": 106556904,
+        "caller_names": [
+          "HotFix.BattleLogic.BaseInitState$$.ctor"
+        ]
+      }
+    ],
+    "CreateTreasure": [
+      {
+        "pc": 106505312,
+        "kind": "BL",
+        "caller_address": 106505032,
+        "caller_names": [
+          "HotFix.BattleLogic.BattleManager$$CreatePunchboardNpc"
+        ]
+      },
+      {
+        "pc": 106508872,
+        "kind": "BL",
+        "caller_address": 106507984,
+        "caller_names": [
+          "HotFix.BattleLogic.BattleManager$$CreateNpc"
+        ]
+      },
+      {
+        "pc": 106531692,
+        "kind": "BL",
+        "caller_address": 106531360,
+        "caller_names": [
+          "HotFix.BattleLogic.BaseDropNpcState$$TryShowBox"
+        ]
+      },
+      {
+        "pc": 106552524,
+        "kind": "BL",
+        "caller_address": 106552264,
+        "caller_names": [
+          "HotFix.BattleLogic.BaseInitState$$TryShowGold"
+        ]
+      },
+      {
+        "pc": 106569580,
+        "kind": "BL",
+        "caller_address": 106569268,
+        "caller_names": [
+          "HotFix.BattleLogic.BaseSkillFortuneState$$OnDropBox"
+        ]
+      }
+    ]
+  },
+  "scope": "Direct B/BL only; virtual and hotfix excluded"
+}

@@ -64,4 +64,4 @@ python3 research-data/tools/research.py export
 - 唯一专题报告：`docs/choices-box-evolution.html`。
 - 结构化数据：`research-data/topics/choices-box-evolution/`（规则、71章权重映射、22条配方、常量、证据和未闭合断点）。
 - 校验：`python3 research-data/tools/choice_topic.py validate`。
-- 宝箱怪按“击杀→拾取物→三选一”定义，目前身份链未闭合；中途商店未确认，停止扩大搜索。不要用Punchboard或传统两结果Box替代。
+- 以实际代码为准：主线宝箱实体8已接通章节生成→接触拾取→批量奖励→条件性武器特殊选择；调用链见treasure-chain.json，416条事件见treasure-schedule.json。额外杀怪掉箱未获证据，不能作为既定机制；中途商店仍未确认。

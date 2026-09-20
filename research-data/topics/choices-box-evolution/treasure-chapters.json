@@ -1,0 +1,2406 @@
+[
+  {
+    "chapter": 1,
+    "variant": "base",
+    "mission_prefix": 1001,
+    "mission_rows": 78,
+    "scripted_chest_count": 3,
+    "waves": [
+      6,
+      11,
+      15
+    ],
+    "random_npc_values": {
+      "0": 78
+    },
+    "random_npc_9_rows": 0,
+    "is_hidden": 0
+  },
+  {
+    "chapter": 1,
+    "variant": "B",
+    "mission_prefix": 4001,
+    "mission_rows": 78,
+    "scripted_chest_count": 3,
+    "waves": [
+      6,
+      11,
+      15
+    ],
+    "random_npc_values": {
+      "0": 78
+    },
+    "random_npc_9_rows": 0,
+    "is_hidden": 0
+  },
+  {
+    "chapter": 2,
+    "variant": "base",
+    "mission_prefix": 1002,
+    "mission_rows": 154,
+    "scripted_chest_count": 3,
+    "waves": [
+      6,
+      11,
+      15
+    ],
+    "random_npc_values": {
+      "0": 154
+    },
+    "random_npc_9_rows": 0,
+    "is_hidden": 0
+  },
+  {
+    "chapter": 2,
+    "variant": "B",
+    "mission_prefix": 4002,
+    "mission_rows": 154,
+    "scripted_chest_count": 3,
+    "waves": [
+      6,
+      11,
+      15
+    ],
+    "random_npc_values": {
+      "0": 154
+    },
+    "random_npc_9_rows": 0,
+    "is_hidden": 0
+  },
+  {
+    "chapter": 3,
+    "variant": "base",
+    "mission_prefix": 1003,
+    "mission_rows": 129,
+    "scripted_chest_count": 3,
+    "waves": [
+      6,
+      11,
+      15
+    ],
+    "random_npc_values": {
+      "0": 125,
+      "1": 4
+    },
+    "random_npc_9_rows": 0,
+    "is_hidden": 0
+  },
+  {
+    "chapter": 3,
+    "variant": "B",
+    "mission_prefix": 4003,
+    "mission_rows": 129,
+    "scripted_chest_count": 3,
+    "waves": [
+      6,
+      11,
+      15
+    ],
+    "random_npc_values": {
+      "0": 125,
+      "1": 4
+    },
+    "random_npc_9_rows": 0,
+    "is_hidden": 0
+  },
+  {
+    "chapter": 4,
+    "variant": "base",
+    "mission_prefix": 1004,
+    "mission_rows": 111,
+    "scripted_chest_count": 3,
+    "waves": [
+      6,
+      11,
+      15
+    ],
+    "random_npc_values": {
+      "0": 111
+    },
+    "random_npc_9_rows": 0,
+    "is_hidden": 0
+  },
+  {
+    "chapter": 4,
+    "variant": "B",
+    "mission_prefix": 4004,
+    "mission_rows": 111,
+    "scripted_chest_count": 3,
+    "waves": [
+      6,
+      11,
+      15
+    ],
+    "random_npc_values": {
+      "0": 111
+    },
+    "random_npc_9_rows": 0,
+    "is_hidden": 0
+  },
+  {
+    "chapter": 5,
+    "variant": "base",
+    "mission_prefix": 1005,
+    "mission_rows": 66,
+    "scripted_chest_count": 3,
+    "waves": [
+      4,
+      7,
+      10
+    ],
+    "random_npc_values": {
+      "0": 66
+    },
+    "random_npc_9_rows": 0,
+    "is_hidden": 0
+  },
+  {
+    "chapter": 5,
+    "variant": "B",
+    "mission_prefix": 4005,
+    "mission_rows": 66,
+    "scripted_chest_count": 3,
+    "waves": [
+      4,
+      7,
+      10
+    ],
+    "random_npc_values": {
+      "0": 66
+    },
+    "random_npc_9_rows": 0,
+    "is_hidden": 0
+  },
+  {
+    "chapter": 6,
+    "variant": "base",
+    "mission_prefix": 1006,
+    "mission_rows": 162,
+    "scripted_chest_count": 3,
+    "waves": [
+      6,
+      11,
+      15
+    ],
+    "random_npc_values": {
+      "0": 162
+    },
+    "random_npc_9_rows": 0,
+    "is_hidden": 0
+  },
+  {
+    "chapter": 6,
+    "variant": "B",
+    "mission_prefix": 4006,
+    "mission_rows": 162,
+    "scripted_chest_count": 3,
+    "waves": [
+      6,
+      11,
+      15
+    ],
+    "random_npc_values": {
+      "0": 162
+    },
+    "random_npc_9_rows": 0,
+    "is_hidden": 0
+  },
+  {
+    "chapter": 7,
+    "variant": "base",
+    "mission_prefix": 1007,
+    "mission_rows": 196,
+    "scripted_chest_count": 3,
+    "waves": [
+      6,
+      11,
+      15
+    ],
+    "random_npc_values": {
+      "0": 196
+    },
+    "random_npc_9_rows": 0,
+    "is_hidden": 0
+  },
+  {
+    "chapter": 7,
+    "variant": "B",
+    "mission_prefix": 4007,
+    "mission_rows": 196,
+    "scripted_chest_count": 3,
+    "waves": [
+      6,
+      11,
+      15
+    ],
+    "random_npc_values": {
+      "0": 196
+    },
+    "random_npc_9_rows": 0,
+    "is_hidden": 0
+  },
+  {
+    "chapter": 8,
+    "variant": "base",
+    "mission_prefix": 1008,
+    "mission_rows": 135,
+    "scripted_chest_count": 3,
+    "waves": [
+      6,
+      11,
+      15
+    ],
+    "random_npc_values": {
+      "0": 135
+    },
+    "random_npc_9_rows": 0,
+    "is_hidden": 0
+  },
+  {
+    "chapter": 8,
+    "variant": "B",
+    "mission_prefix": 4008,
+    "mission_rows": 135,
+    "scripted_chest_count": 3,
+    "waves": [
+      6,
+      11,
+      15
+    ],
+    "random_npc_values": {
+      "0": 135
+    },
+    "random_npc_9_rows": 0,
+    "is_hidden": 0
+  },
+  {
+    "chapter": 9,
+    "variant": "base",
+    "mission_prefix": 1009,
+    "mission_rows": 144,
+    "scripted_chest_count": 3,
+    "waves": [
+      6,
+      11,
+      15
+    ],
+    "random_npc_values": {
+      "0": 144
+    },
+    "random_npc_9_rows": 0,
+    "is_hidden": 0
+  },
+  {
+    "chapter": 9,
+    "variant": "B",
+    "mission_prefix": 4009,
+    "mission_rows": 144,
+    "scripted_chest_count": 3,
+    "waves": [
+      6,
+      11,
+      15
+    ],
+    "random_npc_values": {
+      "0": 144
+    },
+    "random_npc_9_rows": 0,
+    "is_hidden": 0
+  },
+  {
+    "chapter": 10,
+    "variant": "base",
+    "mission_prefix": 1010,
+    "mission_rows": 130,
+    "scripted_chest_count": 2,
+    "waves": [
+      11,
+      15
+    ],
+    "random_npc_values": {
+      "0": 130
+    },
+    "random_npc_9_rows": 0,
+    "is_hidden": 0
+  },
+  {
+    "chapter": 10,
+    "variant": "B",
+    "mission_prefix": 4010,
+    "mission_rows": 130,
+    "scripted_chest_count": 2,
+    "waves": [
+      11,
+      15
+    ],
+    "random_npc_values": {
+      "0": 130
+    },
+    "random_npc_9_rows": 0,
+    "is_hidden": 0
+  },
+  {
+    "chapter": 11,
+    "variant": "base",
+    "mission_prefix": 1011,
+    "mission_rows": 115,
+    "scripted_chest_count": 3,
+    "waves": [
+      6,
+      11,
+      15
+    ],
+    "random_npc_values": {
+      "0": 115
+    },
+    "random_npc_9_rows": 0,
+    "is_hidden": 0
+  },
+  {
+    "chapter": 11,
+    "variant": "B",
+    "mission_prefix": 4011,
+    "mission_rows": 115,
+    "scripted_chest_count": 3,
+    "waves": [
+      6,
+      11,
+      15
+    ],
+    "random_npc_values": {
+      "0": 115
+    },
+    "random_npc_9_rows": 0,
+    "is_hidden": 0
+  },
+  {
+    "chapter": 12,
+    "variant": "base",
+    "mission_prefix": 1012,
+    "mission_rows": 149,
+    "scripted_chest_count": 3,
+    "waves": [
+      6,
+      11,
+      15
+    ],
+    "random_npc_values": {
+      "0": 149
+    },
+    "random_npc_9_rows": 0,
+    "is_hidden": 0
+  },
+  {
+    "chapter": 12,
+    "variant": "B",
+    "mission_prefix": 4012,
+    "mission_rows": 149,
+    "scripted_chest_count": 3,
+    "waves": [
+      6,
+      11,
+      15
+    ],
+    "random_npc_values": {
+      "0": 149
+    },
+    "random_npc_9_rows": 0,
+    "is_hidden": 0
+  },
+  {
+    "chapter": 13,
+    "variant": "base",
+    "mission_prefix": 1013,
+    "mission_rows": 156,
+    "scripted_chest_count": 3,
+    "waves": [
+      6,
+      11,
+      15
+    ],
+    "random_npc_values": {
+      "0": 156
+    },
+    "random_npc_9_rows": 0,
+    "is_hidden": 0
+  },
+  {
+    "chapter": 13,
+    "variant": "B",
+    "mission_prefix": 4013,
+    "mission_rows": 156,
+    "scripted_chest_count": 3,
+    "waves": [
+      6,
+      11,
+      15
+    ],
+    "random_npc_values": {
+      "0": 156
+    },
+    "random_npc_9_rows": 0,
+    "is_hidden": 0
+  },
+  {
+    "chapter": 14,
+    "variant": "base",
+    "mission_prefix": 1014,
+    "mission_rows": 162,
+    "scripted_chest_count": 3,
+    "waves": [
+      6,
+      11,
+      15
+    ],
+    "random_npc_values": {
+      "0": 162
+    },
+    "random_npc_9_rows": 0,
+    "is_hidden": 0
+  },
+  {
+    "chapter": 14,
+    "variant": "B",
+    "mission_prefix": 4014,
+    "mission_rows": 162,
+    "scripted_chest_count": 3,
+    "waves": [
+      6,
+      11,
+      15
+    ],
+    "random_npc_values": {
+      "0": 162
+    },
+    "random_npc_9_rows": 0,
+    "is_hidden": 0
+  },
+  {
+    "chapter": 15,
+    "variant": "base",
+    "mission_prefix": 1015,
+    "mission_rows": 66,
+    "scripted_chest_count": 3,
+    "waves": [
+      4,
+      7,
+      10
+    ],
+    "random_npc_values": {
+      "0": 66
+    },
+    "random_npc_9_rows": 0,
+    "is_hidden": 0
+  },
+  {
+    "chapter": 15,
+    "variant": "B",
+    "mission_prefix": 4015,
+    "mission_rows": 66,
+    "scripted_chest_count": 3,
+    "waves": [
+      4,
+      7,
+      10
+    ],
+    "random_npc_values": {
+      "0": 66
+    },
+    "random_npc_9_rows": 0,
+    "is_hidden": 0
+  },
+  {
+    "chapter": 16,
+    "variant": "base",
+    "mission_prefix": 1016,
+    "mission_rows": 177,
+    "scripted_chest_count": 3,
+    "waves": [
+      6,
+      11,
+      15
+    ],
+    "random_npc_values": {
+      "0": 177
+    },
+    "random_npc_9_rows": 0,
+    "is_hidden": 0
+  },
+  {
+    "chapter": 16,
+    "variant": "B",
+    "mission_prefix": 4016,
+    "mission_rows": 177,
+    "scripted_chest_count": 3,
+    "waves": [
+      6,
+      11,
+      15
+    ],
+    "random_npc_values": {
+      "0": 177
+    },
+    "random_npc_9_rows": 0,
+    "is_hidden": 0
+  },
+  {
+    "chapter": 17,
+    "variant": "base",
+    "mission_prefix": 1017,
+    "mission_rows": 134,
+    "scripted_chest_count": 3,
+    "waves": [
+      6,
+      11,
+      15
+    ],
+    "random_npc_values": {
+      "0": 134
+    },
+    "random_npc_9_rows": 0,
+    "is_hidden": 0
+  },
+  {
+    "chapter": 17,
+    "variant": "B",
+    "mission_prefix": 4017,
+    "mission_rows": 134,
+    "scripted_chest_count": 3,
+    "waves": [
+      6,
+      11,
+      15
+    ],
+    "random_npc_values": {
+      "0": 134
+    },
+    "random_npc_9_rows": 0,
+    "is_hidden": 0
+  },
+  {
+    "chapter": 18,
+    "variant": "base",
+    "mission_prefix": 1018,
+    "mission_rows": 153,
+    "scripted_chest_count": 3,
+    "waves": [
+      6,
+      11,
+      15
+    ],
+    "random_npc_values": {
+      "0": 153
+    },
+    "random_npc_9_rows": 0,
+    "is_hidden": 0
+  },
+  {
+    "chapter": 18,
+    "variant": "B",
+    "mission_prefix": 4018,
+    "mission_rows": 153,
+    "scripted_chest_count": 3,
+    "waves": [
+      6,
+      11,
+      15
+    ],
+    "random_npc_values": {
+      "0": 153
+    },
+    "random_npc_9_rows": 0,
+    "is_hidden": 0
+  },
+  {
+    "chapter": 19,
+    "variant": "base",
+    "mission_prefix": 1019,
+    "mission_rows": 239,
+    "scripted_chest_count": 3,
+    "waves": [
+      6,
+      11,
+      15
+    ],
+    "random_npc_values": {
+      "0": 239
+    },
+    "random_npc_9_rows": 0,
+    "is_hidden": 0
+  },
+  {
+    "chapter": 19,
+    "variant": "B",
+    "mission_prefix": 4019,
+    "mission_rows": 239,
+    "scripted_chest_count": 3,
+    "waves": [
+      6,
+      11,
+      15
+    ],
+    "random_npc_values": {
+      "0": 239
+    },
+    "random_npc_9_rows": 0,
+    "is_hidden": 0
+  },
+  {
+    "chapter": 20,
+    "variant": "base",
+    "mission_prefix": 1020,
+    "mission_rows": 213,
+    "scripted_chest_count": 3,
+    "waves": [
+      6,
+      11,
+      15
+    ],
+    "random_npc_values": {
+      "0": 213
+    },
+    "random_npc_9_rows": 0,
+    "is_hidden": 0
+  },
+  {
+    "chapter": 20,
+    "variant": "B",
+    "mission_prefix": 4020,
+    "mission_rows": 213,
+    "scripted_chest_count": 3,
+    "waves": [
+      6,
+      11,
+      15
+    ],
+    "random_npc_values": {
+      "0": 213
+    },
+    "random_npc_9_rows": 0,
+    "is_hidden": 0
+  },
+  {
+    "chapter": 21,
+    "variant": "base",
+    "mission_prefix": 1021,
+    "mission_rows": 137,
+    "scripted_chest_count": 3,
+    "waves": [
+      6,
+      11,
+      15
+    ],
+    "random_npc_values": {
+      "0": 137
+    },
+    "random_npc_9_rows": 0,
+    "is_hidden": 0
+  },
+  {
+    "chapter": 21,
+    "variant": "B",
+    "mission_prefix": 4021,
+    "mission_rows": 137,
+    "scripted_chest_count": 3,
+    "waves": [
+      6,
+      11,
+      15
+    ],
+    "random_npc_values": {
+      "0": 137
+    },
+    "random_npc_9_rows": 0,
+    "is_hidden": 0
+  },
+  {
+    "chapter": 22,
+    "variant": "base",
+    "mission_prefix": 1022,
+    "mission_rows": 114,
+    "scripted_chest_count": 3,
+    "waves": [
+      6,
+      11,
+      15
+    ],
+    "random_npc_values": {
+      "0": 114
+    },
+    "random_npc_9_rows": 0,
+    "is_hidden": 0
+  },
+  {
+    "chapter": 22,
+    "variant": "B",
+    "mission_prefix": 4022,
+    "mission_rows": 114,
+    "scripted_chest_count": 3,
+    "waves": [
+      6,
+      11,
+      15
+    ],
+    "random_npc_values": {
+      "0": 114
+    },
+    "random_npc_9_rows": 0,
+    "is_hidden": 0
+  },
+  {
+    "chapter": 23,
+    "variant": "base",
+    "mission_prefix": 1023,
+    "mission_rows": 131,
+    "scripted_chest_count": 3,
+    "waves": [
+      6,
+      11,
+      15
+    ],
+    "random_npc_values": {
+      "0": 131
+    },
+    "random_npc_9_rows": 0,
+    "is_hidden": 0
+  },
+  {
+    "chapter": 23,
+    "variant": "B",
+    "mission_prefix": 4023,
+    "mission_rows": 131,
+    "scripted_chest_count": 3,
+    "waves": [
+      6,
+      11,
+      15
+    ],
+    "random_npc_values": {
+      "0": 131
+    },
+    "random_npc_9_rows": 0,
+    "is_hidden": 0
+  },
+  {
+    "chapter": 24,
+    "variant": "base",
+    "mission_prefix": 1024,
+    "mission_rows": 160,
+    "scripted_chest_count": 3,
+    "waves": [
+      6,
+      11,
+      15
+    ],
+    "random_npc_values": {
+      "0": 160
+    },
+    "random_npc_9_rows": 0,
+    "is_hidden": 0
+  },
+  {
+    "chapter": 24,
+    "variant": "B",
+    "mission_prefix": 4024,
+    "mission_rows": 160,
+    "scripted_chest_count": 3,
+    "waves": [
+      6,
+      11,
+      15
+    ],
+    "random_npc_values": {
+      "0": 160
+    },
+    "random_npc_9_rows": 0,
+    "is_hidden": 0
+  },
+  {
+    "chapter": 25,
+    "variant": "base",
+    "mission_prefix": 1025,
+    "mission_rows": 76,
+    "scripted_chest_count": 3,
+    "waves": [
+      4,
+      7,
+      10
+    ],
+    "random_npc_values": {
+      "0": 76
+    },
+    "random_npc_9_rows": 0,
+    "is_hidden": 0
+  },
+  {
+    "chapter": 25,
+    "variant": "B",
+    "mission_prefix": 4025,
+    "mission_rows": 76,
+    "scripted_chest_count": 3,
+    "waves": [
+      4,
+      7,
+      10
+    ],
+    "random_npc_values": {
+      "0": 76
+    },
+    "random_npc_9_rows": 0,
+    "is_hidden": 0
+  },
+  {
+    "chapter": 26,
+    "variant": "base",
+    "mission_prefix": 1026,
+    "mission_rows": 182,
+    "scripted_chest_count": 3,
+    "waves": [
+      6,
+      11,
+      15
+    ],
+    "random_npc_values": {
+      "0": 182
+    },
+    "random_npc_9_rows": 0,
+    "is_hidden": 0
+  },
+  {
+    "chapter": 26,
+    "variant": "B",
+    "mission_prefix": 4026,
+    "mission_rows": 182,
+    "scripted_chest_count": 3,
+    "waves": [
+      6,
+      11,
+      15
+    ],
+    "random_npc_values": {
+      "0": 182
+    },
+    "random_npc_9_rows": 0,
+    "is_hidden": 0
+  },
+  {
+    "chapter": 27,
+    "variant": "base",
+    "mission_prefix": 1027,
+    "mission_rows": 158,
+    "scripted_chest_count": 3,
+    "waves": [
+      6,
+      11,
+      15
+    ],
+    "random_npc_values": {
+      "0": 158
+    },
+    "random_npc_9_rows": 0,
+    "is_hidden": 0
+  },
+  {
+    "chapter": 27,
+    "variant": "B",
+    "mission_prefix": 4027,
+    "mission_rows": 158,
+    "scripted_chest_count": 3,
+    "waves": [
+      6,
+      11,
+      15
+    ],
+    "random_npc_values": {
+      "0": 158
+    },
+    "random_npc_9_rows": 0,
+    "is_hidden": 0
+  },
+  {
+    "chapter": 28,
+    "variant": "base",
+    "mission_prefix": 1028,
+    "mission_rows": 152,
+    "scripted_chest_count": 3,
+    "waves": [
+      6,
+      11,
+      15
+    ],
+    "random_npc_values": {
+      "0": 152
+    },
+    "random_npc_9_rows": 0,
+    "is_hidden": 0
+  },
+  {
+    "chapter": 28,
+    "variant": "B",
+    "mission_prefix": 4028,
+    "mission_rows": 152,
+    "scripted_chest_count": 3,
+    "waves": [
+      6,
+      11,
+      15
+    ],
+    "random_npc_values": {
+      "0": 152
+    },
+    "random_npc_9_rows": 0,
+    "is_hidden": 0
+  },
+  {
+    "chapter": 29,
+    "variant": "base",
+    "mission_prefix": 1029,
+    "mission_rows": 131,
+    "scripted_chest_count": 3,
+    "waves": [
+      6,
+      11,
+      15
+    ],
+    "random_npc_values": {
+      "0": 131
+    },
+    "random_npc_9_rows": 0,
+    "is_hidden": 0
+  },
+  {
+    "chapter": 29,
+    "variant": "B",
+    "mission_prefix": 4029,
+    "mission_rows": 131,
+    "scripted_chest_count": 3,
+    "waves": [
+      6,
+      11,
+      15
+    ],
+    "random_npc_values": {
+      "0": 131
+    },
+    "random_npc_9_rows": 0,
+    "is_hidden": 0
+  },
+  {
+    "chapter": 30,
+    "variant": "base",
+    "mission_prefix": 1030,
+    "mission_rows": 141,
+    "scripted_chest_count": 3,
+    "waves": [
+      6,
+      11,
+      15
+    ],
+    "random_npc_values": {
+      "0": 141
+    },
+    "random_npc_9_rows": 0,
+    "is_hidden": 0
+  },
+  {
+    "chapter": 30,
+    "variant": "B",
+    "mission_prefix": 4030,
+    "mission_rows": 141,
+    "scripted_chest_count": 3,
+    "waves": [
+      6,
+      11,
+      15
+    ],
+    "random_npc_values": {
+      "0": 141
+    },
+    "random_npc_9_rows": 0,
+    "is_hidden": 0
+  },
+  {
+    "chapter": 31,
+    "variant": "base",
+    "mission_prefix": 1031,
+    "mission_rows": 155,
+    "scripted_chest_count": 3,
+    "waves": [
+      6,
+      11,
+      15
+    ],
+    "random_npc_values": {
+      "0": 155
+    },
+    "random_npc_9_rows": 0,
+    "is_hidden": 0
+  },
+  {
+    "chapter": 31,
+    "variant": "B",
+    "mission_prefix": 4031,
+    "mission_rows": 155,
+    "scripted_chest_count": 3,
+    "waves": [
+      6,
+      11,
+      15
+    ],
+    "random_npc_values": {
+      "0": 155
+    },
+    "random_npc_9_rows": 0,
+    "is_hidden": 0
+  },
+  {
+    "chapter": 32,
+    "variant": "base",
+    "mission_prefix": 1032,
+    "mission_rows": 240,
+    "scripted_chest_count": 3,
+    "waves": [
+      6,
+      11,
+      15
+    ],
+    "random_npc_values": {
+      "0": 240
+    },
+    "random_npc_9_rows": 0,
+    "is_hidden": 0
+  },
+  {
+    "chapter": 32,
+    "variant": "B",
+    "mission_prefix": 4032,
+    "mission_rows": 240,
+    "scripted_chest_count": 3,
+    "waves": [
+      6,
+      11,
+      15
+    ],
+    "random_npc_values": {
+      "0": 240
+    },
+    "random_npc_9_rows": 0,
+    "is_hidden": 0
+  },
+  {
+    "chapter": 33,
+    "variant": "base",
+    "mission_prefix": 1033,
+    "mission_rows": 143,
+    "scripted_chest_count": 3,
+    "waves": [
+      6,
+      11,
+      15
+    ],
+    "random_npc_values": {
+      "0": 143
+    },
+    "random_npc_9_rows": 0,
+    "is_hidden": 0
+  },
+  {
+    "chapter": 33,
+    "variant": "B",
+    "mission_prefix": 4033,
+    "mission_rows": 143,
+    "scripted_chest_count": 3,
+    "waves": [
+      6,
+      11,
+      15
+    ],
+    "random_npc_values": {
+      "0": 143
+    },
+    "random_npc_9_rows": 0,
+    "is_hidden": 0
+  },
+  {
+    "chapter": 34,
+    "variant": "base",
+    "mission_prefix": 1034,
+    "mission_rows": 161,
+    "scripted_chest_count": 3,
+    "waves": [
+      6,
+      11,
+      15
+    ],
+    "random_npc_values": {
+      "0": 161
+    },
+    "random_npc_9_rows": 0,
+    "is_hidden": 0
+  },
+  {
+    "chapter": 34,
+    "variant": "B",
+    "mission_prefix": 4034,
+    "mission_rows": 161,
+    "scripted_chest_count": 3,
+    "waves": [
+      6,
+      11,
+      15
+    ],
+    "random_npc_values": {
+      "0": 161
+    },
+    "random_npc_9_rows": 0,
+    "is_hidden": 0
+  },
+  {
+    "chapter": 35,
+    "variant": "base",
+    "mission_prefix": 1035,
+    "mission_rows": 106,
+    "scripted_chest_count": 3,
+    "waves": [
+      4,
+      7,
+      10
+    ],
+    "random_npc_values": {
+      "0": 106
+    },
+    "random_npc_9_rows": 0,
+    "is_hidden": 0
+  },
+  {
+    "chapter": 35,
+    "variant": "B",
+    "mission_prefix": 4035,
+    "mission_rows": 106,
+    "scripted_chest_count": 3,
+    "waves": [
+      4,
+      7,
+      10
+    ],
+    "random_npc_values": {
+      "0": 106
+    },
+    "random_npc_9_rows": 0,
+    "is_hidden": 0
+  },
+  {
+    "chapter": 36,
+    "variant": "base",
+    "mission_prefix": 1036,
+    "mission_rows": 149,
+    "scripted_chest_count": 3,
+    "waves": [
+      6,
+      11,
+      15
+    ],
+    "random_npc_values": {
+      "0": 149
+    },
+    "random_npc_9_rows": 0,
+    "is_hidden": 0
+  },
+  {
+    "chapter": 36,
+    "variant": "B",
+    "mission_prefix": 4036,
+    "mission_rows": 149,
+    "scripted_chest_count": 3,
+    "waves": [
+      6,
+      11,
+      15
+    ],
+    "random_npc_values": {
+      "0": 149
+    },
+    "random_npc_9_rows": 0,
+    "is_hidden": 0
+  },
+  {
+    "chapter": 37,
+    "variant": "base",
+    "mission_prefix": 1037,
+    "mission_rows": 131,
+    "scripted_chest_count": 3,
+    "waves": [
+      6,
+      11,
+      15
+    ],
+    "random_npc_values": {
+      "0": 131
+    },
+    "random_npc_9_rows": 0,
+    "is_hidden": 0
+  },
+  {
+    "chapter": 37,
+    "variant": "B",
+    "mission_prefix": 4037,
+    "mission_rows": 131,
+    "scripted_chest_count": 3,
+    "waves": [
+      6,
+      11,
+      15
+    ],
+    "random_npc_values": {
+      "0": 131
+    },
+    "random_npc_9_rows": 0,
+    "is_hidden": 0
+  },
+  {
+    "chapter": 38,
+    "variant": "base",
+    "mission_prefix": 1038,
+    "mission_rows": 169,
+    "scripted_chest_count": 3,
+    "waves": [
+      6,
+      11,
+      15
+    ],
+    "random_npc_values": {
+      "0": 169
+    },
+    "random_npc_9_rows": 0,
+    "is_hidden": 0
+  },
+  {
+    "chapter": 38,
+    "variant": "B",
+    "mission_prefix": 4038,
+    "mission_rows": 169,
+    "scripted_chest_count": 3,
+    "waves": [
+      6,
+      11,
+      15
+    ],
+    "random_npc_values": {
+      "0": 169
+    },
+    "random_npc_9_rows": 0,
+    "is_hidden": 0
+  },
+  {
+    "chapter": 39,
+    "variant": "base",
+    "mission_prefix": 1039,
+    "mission_rows": 229,
+    "scripted_chest_count": 3,
+    "waves": [
+      6,
+      11,
+      15
+    ],
+    "random_npc_values": {
+      "0": 229
+    },
+    "random_npc_9_rows": 0,
+    "is_hidden": 0
+  },
+  {
+    "chapter": 39,
+    "variant": "B",
+    "mission_prefix": 4039,
+    "mission_rows": 229,
+    "scripted_chest_count": 3,
+    "waves": [
+      6,
+      11,
+      15
+    ],
+    "random_npc_values": {
+      "0": 229
+    },
+    "random_npc_9_rows": 0,
+    "is_hidden": 0
+  },
+  {
+    "chapter": 40,
+    "variant": "base",
+    "mission_prefix": 1040,
+    "mission_rows": 185,
+    "scripted_chest_count": 3,
+    "waves": [
+      6,
+      11,
+      15
+    ],
+    "random_npc_values": {
+      "0": 185
+    },
+    "random_npc_9_rows": 0,
+    "is_hidden": 0
+  },
+  {
+    "chapter": 40,
+    "variant": "B",
+    "mission_prefix": 4040,
+    "mission_rows": 185,
+    "scripted_chest_count": 3,
+    "waves": [
+      6,
+      11,
+      15
+    ],
+    "random_npc_values": {
+      "0": 185
+    },
+    "random_npc_9_rows": 0,
+    "is_hidden": 0
+  },
+  {
+    "chapter": 41,
+    "variant": "base",
+    "mission_prefix": 1041,
+    "mission_rows": 152,
+    "scripted_chest_count": 3,
+    "waves": [
+      6,
+      11,
+      15
+    ],
+    "random_npc_values": {
+      "0": 149,
+      "1": 3
+    },
+    "random_npc_9_rows": 0,
+    "is_hidden": 0
+  },
+  {
+    "chapter": 41,
+    "variant": "B",
+    "mission_prefix": 4041,
+    "mission_rows": 152,
+    "scripted_chest_count": 3,
+    "waves": [
+      6,
+      11,
+      15
+    ],
+    "random_npc_values": {
+      "0": 149,
+      "1": 3
+    },
+    "random_npc_9_rows": 0,
+    "is_hidden": 0
+  },
+  {
+    "chapter": 42,
+    "variant": "base",
+    "mission_prefix": 1042,
+    "mission_rows": 149,
+    "scripted_chest_count": 3,
+    "waves": [
+      6,
+      11,
+      15
+    ],
+    "random_npc_values": {
+      "0": 149
+    },
+    "random_npc_9_rows": 0,
+    "is_hidden": 0
+  },
+  {
+    "chapter": 42,
+    "variant": "B",
+    "mission_prefix": 4042,
+    "mission_rows": 149,
+    "scripted_chest_count": 3,
+    "waves": [
+      6,
+      11,
+      15
+    ],
+    "random_npc_values": {
+      "0": 149
+    },
+    "random_npc_9_rows": 0,
+    "is_hidden": 0
+  },
+  {
+    "chapter": 43,
+    "variant": "base",
+    "mission_prefix": 1043,
+    "mission_rows": 151,
+    "scripted_chest_count": 3,
+    "waves": [
+      6,
+      11,
+      15
+    ],
+    "random_npc_values": {
+      "0": 150,
+      "1": 1
+    },
+    "random_npc_9_rows": 0,
+    "is_hidden": 0
+  },
+  {
+    "chapter": 43,
+    "variant": "B",
+    "mission_prefix": 4043,
+    "mission_rows": 151,
+    "scripted_chest_count": 3,
+    "waves": [
+      6,
+      11,
+      15
+    ],
+    "random_npc_values": {
+      "0": 150,
+      "1": 1
+    },
+    "random_npc_9_rows": 0,
+    "is_hidden": 0
+  },
+  {
+    "chapter": 44,
+    "variant": "base",
+    "mission_prefix": 1044,
+    "mission_rows": 130,
+    "scripted_chest_count": 3,
+    "waves": [
+      6,
+      11,
+      15
+    ],
+    "random_npc_values": {
+      "0": 130
+    },
+    "random_npc_9_rows": 0,
+    "is_hidden": 0
+  },
+  {
+    "chapter": 44,
+    "variant": "B",
+    "mission_prefix": 4044,
+    "mission_rows": 130,
+    "scripted_chest_count": 3,
+    "waves": [
+      6,
+      11,
+      15
+    ],
+    "random_npc_values": {
+      "0": 130
+    },
+    "random_npc_9_rows": 0,
+    "is_hidden": 0
+  },
+  {
+    "chapter": 45,
+    "variant": "base",
+    "mission_prefix": 1045,
+    "mission_rows": 82,
+    "scripted_chest_count": 3,
+    "waves": [
+      4,
+      7,
+      10
+    ],
+    "random_npc_values": {
+      "0": 82
+    },
+    "random_npc_9_rows": 0,
+    "is_hidden": 0
+  },
+  {
+    "chapter": 45,
+    "variant": "B",
+    "mission_prefix": 4045,
+    "mission_rows": 82,
+    "scripted_chest_count": 3,
+    "waves": [
+      4,
+      7,
+      10
+    ],
+    "random_npc_values": {
+      "0": 82
+    },
+    "random_npc_9_rows": 0,
+    "is_hidden": 0
+  },
+  {
+    "chapter": 46,
+    "variant": "base",
+    "mission_prefix": 1046,
+    "mission_rows": 137,
+    "scripted_chest_count": 3,
+    "waves": [
+      6,
+      11,
+      15
+    ],
+    "random_npc_values": {
+      "0": 137
+    },
+    "random_npc_9_rows": 0,
+    "is_hidden": 0
+  },
+  {
+    "chapter": 46,
+    "variant": "B",
+    "mission_prefix": 4046,
+    "mission_rows": 137,
+    "scripted_chest_count": 3,
+    "waves": [
+      6,
+      11,
+      15
+    ],
+    "random_npc_values": {
+      "0": 137
+    },
+    "random_npc_9_rows": 0,
+    "is_hidden": 0
+  },
+  {
+    "chapter": 47,
+    "variant": "base",
+    "mission_prefix": 1047,
+    "mission_rows": 198,
+    "scripted_chest_count": 3,
+    "waves": [
+      6,
+      11,
+      15
+    ],
+    "random_npc_values": {
+      "0": 198
+    },
+    "random_npc_9_rows": 0,
+    "is_hidden": 0
+  },
+  {
+    "chapter": 47,
+    "variant": "B",
+    "mission_prefix": 4047,
+    "mission_rows": 198,
+    "scripted_chest_count": 3,
+    "waves": [
+      6,
+      11,
+      15
+    ],
+    "random_npc_values": {
+      "0": 198
+    },
+    "random_npc_9_rows": 0,
+    "is_hidden": 0
+  },
+  {
+    "chapter": 48,
+    "variant": "base",
+    "mission_prefix": 1048,
+    "mission_rows": 203,
+    "scripted_chest_count": 3,
+    "waves": [
+      6,
+      11,
+      15
+    ],
+    "random_npc_values": {
+      "0": 203
+    },
+    "random_npc_9_rows": 0,
+    "is_hidden": 0
+  },
+  {
+    "chapter": 48,
+    "variant": "B",
+    "mission_prefix": 4048,
+    "mission_rows": 203,
+    "scripted_chest_count": 3,
+    "waves": [
+      6,
+      11,
+      15
+    ],
+    "random_npc_values": {
+      "0": 203
+    },
+    "random_npc_9_rows": 0,
+    "is_hidden": 0
+  },
+  {
+    "chapter": 49,
+    "variant": "base",
+    "mission_prefix": 1049,
+    "mission_rows": 168,
+    "scripted_chest_count": 3,
+    "waves": [
+      6,
+      11,
+      15
+    ],
+    "random_npc_values": {
+      "0": 168
+    },
+    "random_npc_9_rows": 0,
+    "is_hidden": 0
+  },
+  {
+    "chapter": 49,
+    "variant": "B",
+    "mission_prefix": 4049,
+    "mission_rows": 168,
+    "scripted_chest_count": 3,
+    "waves": [
+      6,
+      11,
+      15
+    ],
+    "random_npc_values": {
+      "0": 168
+    },
+    "random_npc_9_rows": 0,
+    "is_hidden": 0
+  },
+  {
+    "chapter": 50,
+    "variant": "base",
+    "mission_prefix": 1050,
+    "mission_rows": 142,
+    "scripted_chest_count": 3,
+    "waves": [
+      6,
+      11,
+      15
+    ],
+    "random_npc_values": {
+      "0": 142
+    },
+    "random_npc_9_rows": 0,
+    "is_hidden": 0
+  },
+  {
+    "chapter": 50,
+    "variant": "B",
+    "mission_prefix": 4050,
+    "mission_rows": 142,
+    "scripted_chest_count": 3,
+    "waves": [
+      6,
+      11,
+      15
+    ],
+    "random_npc_values": {
+      "0": 142
+    },
+    "random_npc_9_rows": 0,
+    "is_hidden": 0
+  },
+  {
+    "chapter": 51,
+    "variant": "base",
+    "mission_prefix": 1051,
+    "mission_rows": 182,
+    "scripted_chest_count": 3,
+    "waves": [
+      6,
+      11,
+      15
+    ],
+    "random_npc_values": {
+      "0": 182
+    },
+    "random_npc_9_rows": 0,
+    "is_hidden": 0
+  },
+  {
+    "chapter": 51,
+    "variant": "B",
+    "mission_prefix": 4051,
+    "mission_rows": 182,
+    "scripted_chest_count": 3,
+    "waves": [
+      6,
+      11,
+      15
+    ],
+    "random_npc_values": {
+      "0": 182
+    },
+    "random_npc_9_rows": 0,
+    "is_hidden": 0
+  },
+  {
+    "chapter": 52,
+    "variant": "base",
+    "mission_prefix": 1052,
+    "mission_rows": 158,
+    "scripted_chest_count": 3,
+    "waves": [
+      6,
+      11,
+      15
+    ],
+    "random_npc_values": {
+      "0": 158
+    },
+    "random_npc_9_rows": 0,
+    "is_hidden": 0
+  },
+  {
+    "chapter": 52,
+    "variant": "B",
+    "mission_prefix": 4052,
+    "mission_rows": 158,
+    "scripted_chest_count": 3,
+    "waves": [
+      6,
+      11,
+      15
+    ],
+    "random_npc_values": {
+      "0": 158
+    },
+    "random_npc_9_rows": 0,
+    "is_hidden": 0
+  },
+  {
+    "chapter": 53,
+    "variant": "base",
+    "mission_prefix": 1053,
+    "mission_rows": 152,
+    "scripted_chest_count": 3,
+    "waves": [
+      6,
+      11,
+      15
+    ],
+    "random_npc_values": {
+      "0": 152
+    },
+    "random_npc_9_rows": 0,
+    "is_hidden": 0
+  },
+  {
+    "chapter": 53,
+    "variant": "B",
+    "mission_prefix": 4053,
+    "mission_rows": 152,
+    "scripted_chest_count": 3,
+    "waves": [
+      6,
+      11,
+      15
+    ],
+    "random_npc_values": {
+      "0": 152
+    },
+    "random_npc_9_rows": 0,
+    "is_hidden": 0
+  },
+  {
+    "chapter": 54,
+    "variant": "base",
+    "mission_prefix": 1054,
+    "mission_rows": 134,
+    "scripted_chest_count": 3,
+    "waves": [
+      6,
+      11,
+      15
+    ],
+    "random_npc_values": {
+      "0": 134
+    },
+    "random_npc_9_rows": 0,
+    "is_hidden": 0
+  },
+  {
+    "chapter": 54,
+    "variant": "B",
+    "mission_prefix": 4054,
+    "mission_rows": 134,
+    "scripted_chest_count": 3,
+    "waves": [
+      6,
+      11,
+      15
+    ],
+    "random_npc_values": {
+      "0": 134
+    },
+    "random_npc_9_rows": 0,
+    "is_hidden": 0
+  },
+  {
+    "chapter": 55,
+    "variant": "base",
+    "mission_prefix": 1055,
+    "mission_rows": 76,
+    "scripted_chest_count": 3,
+    "waves": [
+      4,
+      7,
+      10
+    ],
+    "random_npc_values": {
+      "0": 76
+    },
+    "random_npc_9_rows": 0,
+    "is_hidden": 0
+  },
+  {
+    "chapter": 55,
+    "variant": "B",
+    "mission_prefix": 4055,
+    "mission_rows": 76,
+    "scripted_chest_count": 3,
+    "waves": [
+      4,
+      7,
+      10
+    ],
+    "random_npc_values": {
+      "0": 76
+    },
+    "random_npc_9_rows": 0,
+    "is_hidden": 0
+  },
+  {
+    "chapter": 56,
+    "variant": "base",
+    "mission_prefix": 1056,
+    "mission_rows": 178,
+    "scripted_chest_count": 3,
+    "waves": [
+      6,
+      11,
+      15
+    ],
+    "random_npc_values": {
+      "0": 178
+    },
+    "random_npc_9_rows": 0,
+    "is_hidden": 0
+  },
+  {
+    "chapter": 56,
+    "variant": "B",
+    "mission_prefix": 4056,
+    "mission_rows": 178,
+    "scripted_chest_count": 3,
+    "waves": [
+      6,
+      11,
+      15
+    ],
+    "random_npc_values": {
+      "0": 178
+    },
+    "random_npc_9_rows": 0,
+    "is_hidden": 0
+  },
+  {
+    "chapter": 57,
+    "variant": "base",
+    "mission_prefix": 1057,
+    "mission_rows": 131,
+    "scripted_chest_count": 3,
+    "waves": [
+      6,
+      11,
+      15
+    ],
+    "random_npc_values": {
+      "0": 131
+    },
+    "random_npc_9_rows": 0,
+    "is_hidden": 0
+  },
+  {
+    "chapter": 57,
+    "variant": "B",
+    "mission_prefix": 4057,
+    "mission_rows": 131,
+    "scripted_chest_count": 3,
+    "waves": [
+      6,
+      11,
+      15
+    ],
+    "random_npc_values": {
+      "0": 131
+    },
+    "random_npc_9_rows": 0,
+    "is_hidden": 0
+  },
+  {
+    "chapter": 58,
+    "variant": "base",
+    "mission_prefix": 1058,
+    "mission_rows": 142,
+    "scripted_chest_count": 3,
+    "waves": [
+      6,
+      11,
+      15
+    ],
+    "random_npc_values": {
+      "0": 142
+    },
+    "random_npc_9_rows": 0,
+    "is_hidden": 0
+  },
+  {
+    "chapter": 58,
+    "variant": "B",
+    "mission_prefix": 4058,
+    "mission_rows": 142,
+    "scripted_chest_count": 3,
+    "waves": [
+      6,
+      11,
+      15
+    ],
+    "random_npc_values": {
+      "0": 142
+    },
+    "random_npc_9_rows": 0,
+    "is_hidden": 0
+  },
+  {
+    "chapter": 59,
+    "variant": "base",
+    "mission_prefix": 1059,
+    "mission_rows": 136,
+    "scripted_chest_count": 3,
+    "waves": [
+      6,
+      11,
+      15
+    ],
+    "random_npc_values": {
+      "0": 136
+    },
+    "random_npc_9_rows": 0,
+    "is_hidden": 0
+  },
+  {
+    "chapter": 59,
+    "variant": "B",
+    "mission_prefix": 4059,
+    "mission_rows": 136,
+    "scripted_chest_count": 3,
+    "waves": [
+      6,
+      11,
+      15
+    ],
+    "random_npc_values": {
+      "0": 136
+    },
+    "random_npc_9_rows": 0,
+    "is_hidden": 0
+  },
+  {
+    "chapter": 60,
+    "variant": "base",
+    "mission_prefix": 1060,
+    "mission_rows": 160,
+    "scripted_chest_count": 2,
+    "waves": [
+      6,
+      15
+    ],
+    "random_npc_values": {
+      "0": 160
+    },
+    "random_npc_9_rows": 0,
+    "is_hidden": 0
+  },
+  {
+    "chapter": 60,
+    "variant": "B",
+    "mission_prefix": 4060,
+    "mission_rows": 160,
+    "scripted_chest_count": 2,
+    "waves": [
+      6,
+      15
+    ],
+    "random_npc_values": {
+      "0": 160
+    },
+    "random_npc_9_rows": 0,
+    "is_hidden": 0
+  },
+  {
+    "chapter": 61,
+    "variant": "base",
+    "mission_prefix": 1061,
+    "mission_rows": 157,
+    "scripted_chest_count": 3,
+    "waves": [
+      6,
+      11,
+      15
+    ],
+    "random_npc_values": {
+      "0": 157
+    },
+    "random_npc_9_rows": 0,
+    "is_hidden": 0
+  },
+  {
+    "chapter": 61,
+    "variant": "B",
+    "mission_prefix": 4061,
+    "mission_rows": 157,
+    "scripted_chest_count": 3,
+    "waves": [
+      6,
+      11,
+      15
+    ],
+    "random_npc_values": {
+      "0": 157
+    },
+    "random_npc_9_rows": 0,
+    "is_hidden": 0
+  },
+  {
+    "chapter": 62,
+    "variant": "base",
+    "mission_prefix": 1062,
+    "mission_rows": 149,
+    "scripted_chest_count": 3,
+    "waves": [
+      6,
+      11,
+      15
+    ],
+    "random_npc_values": {
+      "0": 149
+    },
+    "random_npc_9_rows": 0,
+    "is_hidden": 0
+  },
+  {
+    "chapter": 62,
+    "variant": "B",
+    "mission_prefix": 4062,
+    "mission_rows": 149,
+    "scripted_chest_count": 3,
+    "waves": [
+      6,
+      11,
+      15
+    ],
+    "random_npc_values": {
+      "0": 149
+    },
+    "random_npc_9_rows": 0,
+    "is_hidden": 0
+  },
+  {
+    "chapter": 63,
+    "variant": "base",
+    "mission_prefix": 1063,
+    "mission_rows": 182,
+    "scripted_chest_count": 3,
+    "waves": [
+      6,
+      11,
+      15
+    ],
+    "random_npc_values": {
+      "0": 182
+    },
+    "random_npc_9_rows": 0,
+    "is_hidden": 0
+  },
+  {
+    "chapter": 63,
+    "variant": "B",
+    "mission_prefix": 4063,
+    "mission_rows": 182,
+    "scripted_chest_count": 3,
+    "waves": [
+      6,
+      11,
+      15
+    ],
+    "random_npc_values": {
+      "0": 182
+    },
+    "random_npc_9_rows": 0,
+    "is_hidden": 0
+  },
+  {
+    "chapter": 64,
+    "variant": "base",
+    "mission_prefix": 1064,
+    "mission_rows": 158,
+    "scripted_chest_count": 3,
+    "waves": [
+      6,
+      11,
+      15
+    ],
+    "random_npc_values": {
+      "0": 158
+    },
+    "random_npc_9_rows": 0,
+    "is_hidden": 0
+  },
+  {
+    "chapter": 64,
+    "variant": "B",
+    "mission_prefix": 4064,
+    "mission_rows": 158,
+    "scripted_chest_count": 3,
+    "waves": [
+      6,
+      11,
+      15
+    ],
+    "random_npc_values": {
+      "0": 158
+    },
+    "random_npc_9_rows": 0,
+    "is_hidden": 0
+  },
+  {
+    "chapter": 65,
+    "variant": "base",
+    "mission_prefix": 1065,
+    "mission_rows": 72,
+    "scripted_chest_count": 3,
+    "waves": [
+      4,
+      7,
+      10
+    ],
+    "random_npc_values": {
+      "0": 72
+    },
+    "random_npc_9_rows": 0,
+    "is_hidden": 0
+  },
+  {
+    "chapter": 65,
+    "variant": "B",
+    "mission_prefix": 4065,
+    "mission_rows": 72,
+    "scripted_chest_count": 3,
+    "waves": [
+      4,
+      7,
+      10
+    ],
+    "random_npc_values": {
+      "0": 72
+    },
+    "random_npc_9_rows": 0,
+    "is_hidden": 0
+  },
+  {
+    "chapter": 66,
+    "variant": "base",
+    "mission_prefix": 1066,
+    "mission_rows": 155,
+    "scripted_chest_count": 3,
+    "waves": [
+      6,
+      11,
+      15
+    ],
+    "random_npc_values": {
+      "0": 155
+    },
+    "random_npc_9_rows": 0,
+    "is_hidden": 0
+  },
+  {
+    "chapter": 66,
+    "variant": "B",
+    "mission_prefix": 4066,
+    "mission_rows": 155,
+    "scripted_chest_count": 3,
+    "waves": [
+      6,
+      11,
+      15
+    ],
+    "random_npc_values": {
+      "0": 155
+    },
+    "random_npc_9_rows": 0,
+    "is_hidden": 0
+  },
+  {
+    "chapter": 67,
+    "variant": "base",
+    "mission_prefix": 1067,
+    "mission_rows": 240,
+    "scripted_chest_count": 3,
+    "waves": [
+      6,
+      11,
+      15
+    ],
+    "random_npc_values": {
+      "0": 240
+    },
+    "random_npc_9_rows": 0,
+    "is_hidden": 0
+  },
+  {
+    "chapter": 67,
+    "variant": "B",
+    "mission_prefix": 4067,
+    "mission_rows": 240,
+    "scripted_chest_count": 3,
+    "waves": [
+      6,
+      11,
+      15
+    ],
+    "random_npc_values": {
+      "0": 240
+    },
+    "random_npc_9_rows": 0,
+    "is_hidden": 0
+  },
+  {
+    "chapter": 68,
+    "variant": "base",
+    "mission_prefix": 1068,
+    "mission_rows": 142,
+    "scripted_chest_count": 3,
+    "waves": [
+      6,
+      11,
+      15
+    ],
+    "random_npc_values": {
+      "0": 142
+    },
+    "random_npc_9_rows": 0,
+    "is_hidden": 0
+  },
+  {
+    "chapter": 68,
+    "variant": "B",
+    "mission_prefix": 4068,
+    "mission_rows": 142,
+    "scripted_chest_count": 3,
+    "waves": [
+      6,
+      11,
+      15
+    ],
+    "random_npc_values": {
+      "0": 142
+    },
+    "random_npc_9_rows": 0,
+    "is_hidden": 0
+  },
+  {
+    "chapter": 69,
+    "variant": "base",
+    "mission_prefix": 1069,
+    "mission_rows": 160,
+    "scripted_chest_count": 3,
+    "waves": [
+      6,
+      11,
+      15
+    ],
+    "random_npc_values": {
+      "0": 160
+    },
+    "random_npc_9_rows": 0,
+    "is_hidden": 0
+  },
+  {
+    "chapter": 69,
+    "variant": "B",
+    "mission_prefix": 4069,
+    "mission_rows": 160,
+    "scripted_chest_count": 3,
+    "waves": [
+      6,
+      11,
+      15
+    ],
+    "random_npc_values": {
+      "0": 160
+    },
+    "random_npc_9_rows": 0,
+    "is_hidden": 0
+  },
+  {
+    "chapter": 70,
+    "variant": "base",
+    "mission_prefix": 1070,
+    "mission_rows": 161,
+    "scripted_chest_count": 3,
+    "waves": [
+      6,
+      11,
+      15
+    ],
+    "random_npc_values": {
+      "0": 161
+    },
+    "random_npc_9_rows": 0,
+    "is_hidden": 0
+  },
+  {
+    "chapter": 70,
+    "variant": "B",
+    "mission_prefix": 4070,
+    "mission_rows": 161,
+    "scripted_chest_count": 3,
+    "waves": [
+      6,
+      11,
+      15
+    ],
+    "random_npc_values": {
+      "0": 161
+    },
+    "random_npc_9_rows": 0,
+    "is_hidden": 0
+  },
+  {
+    "chapter": 9999,
+    "variant": "base",
+    "mission_prefix": 9999,
+    "mission_rows": 0,
+    "scripted_chest_count": 0,
+    "waves": [],
+    "random_npc_values": {},
+    "random_npc_9_rows": 0,
+    "is_hidden": 1
+  },
+  {
+    "chapter": 9999,
+    "variant": "B",
+    "mission_prefix": 9999,
+    "mission_rows": 0,
+    "scripted_chest_count": 0,
+    "waves": [],
+    "random_npc_values": {},
+    "random_npc_9_rows": 0,
+    "is_hidden": 1
+  }
+]

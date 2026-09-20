@@ -25,6 +25,8 @@ for key in sys.argv[1:]:
     d=re.search(r'^\w+\s+\w+\s+(x\d+),',line)
     if d:regs.pop(d[1],None)
    lines.append(line)
-  name=m['Name'].replace('HotFix.BattleLogic.','').replace('$$','--').replace('/','_')+'.asm'
+  name=m['Name'].replace('HotFix.BattleLogic.','').replace('$$','--').replace('/','_')
+  if sum(x['Name']==m['Name'] for x in methods)>1:name+='--'+hex(m['Address'])
+  name+='.asm'
   (out/name).write_text('\n'.join(lines)+'\n')
  print(key,len(methods))

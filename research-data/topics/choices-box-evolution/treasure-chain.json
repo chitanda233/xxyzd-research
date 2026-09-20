@@ -1,0 +1,155 @@
+{
+  "scope": "同APK主线WorldType=1静态实现；用户外观与三选一记忆仅作线索",
+  "entity_id": 8,
+  "entity_type": 5,
+  "npc_type": 8,
+  "model_id": 400010,
+  "reward_state": 11,
+  "special_followup_state": 12,
+  "chain": [
+    {
+      "step": 1,
+      "label": "配置入口",
+      "behavior": "Chapter_MainChapter.missionIdPrev / _B → MissionWaterfallMission.missinType=9",
+      "evidence": [
+        "treasure-schedule.json",
+        "inputs/treasure-config-snapshot.json"
+      ]
+    },
+    {
+      "step": 2,
+      "label": "生成事件",
+      "behavior": "Waterfall.RefreshMonsters → CreatePunchboardNpc → BaseSurvival.CreatePunchboard → TriggerMissionEvent(type=8)",
+      "evidence": [
+        "evidence/WaterfallBattleManager--RefreshMonsters.asm",
+        "evidence/WaterfallBattleManager--CreatePunchboardNpc.asm",
+        "evidence/BaseSurvivalBattleManager--CreatePunchboard.asm",
+        "evidence/BattleManager--TriggerMissionEvent.asm"
+      ]
+    },
+    {
+      "step": 3,
+      "label": "创建实体",
+      "behavior": "事件回调 → BattleManager.CreatePunchboardNpc → World.CreateNpc(entityId=8,npcType=8)",
+      "evidence": [
+        "evidence/BattleManager.<>c__DisplayClass89_0--<TriggerMissionEvent>b__0.asm",
+        "evidence/BattleManager--CreatePunchboardNpc.asm",
+        "evidence/BattleWorldContext--CreateNpc.asm"
+      ]
+    },
+    {
+      "step": 4,
+      "label": "外观和出生规则",
+      "behavior": "Character_entity[8] → Model[400010] Battle_Treasure_Chest_1.prefab；WorldType=1用默认MissionNpcPos/Fixed",
+      "evidence": [
+        "inputs/treasure-config-snapshot.json",
+        "evidence/BattleWorldContext--GetPunchboardGameplayRule.asm",
+        "evidence/PunchboardGameplayCustomTable--GetRule.asm",
+        "evidence/PunchboardGameplayCustomTable--.cctor.asm",
+        "evidence/PunchboardGameplayCustomTable--CreateDefaultRule.asm",
+        "evidence/BattleManager--GetPunchboardSpawnPos.asm"
+      ]
+    },
+    {
+      "step": 5,
+      "label": "接触拾取",
+      "behavior": "AIPunchboard.OnEventHook记录/清除接触玩家；OnUpdate累加拾取进度，超过1转入NPC交互",
+      "evidence": [
+        "evidence/AIPunchboard--OnEventHook.asm",
+        "evidence/AIPunchboard--OnUpdate.asm",
+        "evidence/BattleManager--OnHeroColliderWithNpc.asm",
+        "evidence/BattleManager--CheckCacheNpcCollider.asm",
+        "evidence/BattleManager--RealColliderWithNpc.asm"
+      ]
+    },
+    {
+      "step": 6,
+      "label": "奖励状态",
+      "behavior": "SinglePlayer.OnHeroInteractWithNpc无参重载：npcType=8 → state=11；参数携带npc字段0x644",
+      "evidence": [
+        "evidence/SinglePlayerBattleManager--OnHeroInteractWithNpc--0x65c1c84.asm",
+        "evidence/WaterfallStatePunchboard--OnEnter.asm",
+        "evidence/BasePunchboardState--OnEnter.asm"
+      ]
+    },
+    {
+      "step": 7,
+      "label": "生成奖励",
+      "behavior": "GetPunchboardRandomCount → PlayerPunchboard.Show / GetResultSkillList；1/3/5是奖励数量档",
+      "evidence": [
+        "evidence/WaterfallStatePunchboard--GetPunchboardRandomCount.asm",
+        "evidence/HeroComponentRandomSkill--GetPunchboardRandomCount.asm",
+        "evidence/PlayerPunchboard--Show.asm",
+        "evidence/PlayerPunchboard--GetResultSkillList.asm"
+      ]
+    },
+    {
+      "step": 8,
+      "label": "展示和提交",
+      "behavior": "ShowPunchboadEvent → PunchboardViewModule → DispatchSelectCmd把结果列表传入PunchboardCommand.SkillIds",
+      "evidence": [
+        "evidence/HotFix.ShowPunchboardMsgProcessor--OnExec.asm",
+        "evidence/HotFix.ShowPunchboardMsgProcessor.<>c--<OnExec>b__0_0.asm",
+        "evidence/HotFix.PunchboardViewModule--DispatchSelectCmd.asm",
+        "evidence/PunchboardCommand--Exec.asm"
+      ]
+    },
+    {
+      "step": 9,
+      "label": "奖励到账",
+      "behavior": "ApplyPunchboardSkillsToPlayer遍历结果，调用AddSkillToCharacter；部分类型先补依赖；失败有错误分支，非无条件全部成功",
+      "evidence": [
+        "evidence/BattleWorldContext--ApplyPunchboardSkillsToPlayer.asm"
+      ]
+    },
+    {
+      "step": 10,
+      "label": "后续特殊选择",
+      "behavior": "WaterfallStatePunchboard.OnExit检查CheckNeedOpenSpecialSkill，true才转StateSpecialSelectSkill=12；可以接上武器后续选择",
+      "evidence": [
+        "evidence/WaterfallStatePunchboard--OnExit.asm",
+        "evidence/WaterfallStateSpecialSelectSkill--OnEnter.asm",
+        "evidence/HeroComponentRandomSkill--OpenSelectSpecialSkill.asm",
+        "evidence/WaterfallStateSpecialSelectSkill--OnPlayerLevelUp.asm"
+      ]
+    }
+  ],
+  "npc_dispatch_table": {
+    "native_address": "0x1A71FC7",
+    "bytes_hex": "0007090c0e0910120923",
+    "npc_type_to_state": {
+      "1": 7,
+      "2": 9,
+      "4": 4,
+      "5": 5,
+      "7": 6,
+      "8": 11,
+      "10": 10
+    },
+    "no_action": [
+      3,
+      6,
+      9
+    ]
+  },
+  "pickup": {
+    "countdown_seconds": 0.2,
+    "back_seconds": 10,
+    "completion_condition": "progress > 1; frame-quantized, not exact 0.200s guarantee",
+    "main_move_mode": "Fixed (2)",
+    "death_on_finish_config": 1,
+    "death_on_finish_used_in_OnBorn": false
+  },
+  "extra_spawn": {
+    "condition": "IWaterfallMission.RandomNpc == 9",
+    "comparison": "RandomNext(0,100) <= 35 * m_PunchboardMissCount",
+    "counter_increment": "CreatePunchboardNpc before event scheduling",
+    "counter_reset": "WaterfallStatePunchboard.OnEnter writes 0",
+    "enabled_in_current_main_and_B": false,
+    "note": "Do not describe as current active compensation. Counter is not kill count or failed-roll count."
+  },
+  "death_link": {
+    "status": "not_established",
+    "statement": "已确认链从章节刷新生成NPC开始，无怪物ID→掉落ID作为必要前置。死亡→普通掉落可到DropMgr；CheckSpecialDrop fallback=false、AddDropItemFromGroup fallback空，不能据此断言所有热更均无杀怪掉箱。"
+  }
+}
