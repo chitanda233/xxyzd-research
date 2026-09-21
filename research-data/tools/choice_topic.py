@@ -100,7 +100,7 @@ def render():
   for s in f['limitations']:parts.append('<p>'+e(s)+'</p>')
   for p in f['evidence']:parts.append(f'<p><a href="{base+e(p)}">{e(p)}</a></p>')
   parts.append('</details>')
- parts.append('</article></main><a class="back" href="core.html">← 整体链路报告</a></body></html>')
+ parts.append('</article></main><a class="back" href="core.html">← 整体链路报告</a><script src="assets/term-tips.js"></script></body></html>')
  (ROOT/'docs/choices-box-evolution.html').write_text(''.join(parts))
 if __name__=='__main__':
  arg=sys.argv[1] if len(sys.argv)>1 else 'validate'

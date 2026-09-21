@@ -17,7 +17,9 @@ for w in waves:
  window='终局' if w['nominal_window_seconds'] is None else f"{w['nominal_window_seconds']:g}s"
  rows.append('<tr>'+''.join('<td>'+esc(v)+'</td>' for v in [w['wave'],f"{w['script_start_seconds']:g}s",window,count,comp,nature,w['experience_budget']])+'</tr>')
 table='<div class="scroll"><table><thead><tr>'+''.join('<th>'+x+'</th>' for x in ['波','脚本起点','名义窗口','配置怪量','怪物组合','推进与事件','经验预算'])+'</tr></thead><tbody>'+''.join(rows)+'</tbody></table></div>'
-p=ROOT/'docs/core.html';s=p.read_text();s,n=re.subn(r'<!-- BEGIN GENERATED WAVES -->.*?<!-- END GENERATED WAVES -->','<!-- BEGIN GENERATED WAVES -->\n'+table+'\n<!-- END GENERATED WAVES -->',s,flags=re.S);assert n==1;p.write_text(s)
+p=ROOT/'docs/core.html';s=p.read_text();s,n=re.subn(r'<!-- BEGIN GENERATED WAVES -->.*?<!-- END GENERATED WAVES -->','<!-- BEGIN GENERATED WAVES -->\n'+table+'\n<!-- END GENERATED WAVES -->',s,flags=re.S);assert n==1
+if 'assets/term-tips.js' not in s:s=s.replace('</body>','<script src="assets/term-tips.js"></script></body>')
+p.write_text(s)
 base='https://github.com/chitanda233/xxyzd-research/blob/main/research-data/in-run/' if (ROOT/'restored').exists() else '../research-data/in-run/'
 parts=['''<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>局内研究数据 · 规则与证据</title><link rel="stylesheet" href="assets/style.css"><style>pre{white-space:pre-wrap;overflow-wrap:anywhere;background:#f3f7f6;padding:16px;border-radius:8px;font-size:13px}details{border-bottom:1px solid #d4e2de;padding:14px 0}summary{cursor:pointer;font-weight:bold}summary:focus-visible{outline:2px solid #0a756c}details:target{background:#edf4fb} .record{scroll-margin-top:18px}</style></head><body><header class="page-head"><div class="hero"><div class="eyebrow">REUSABLE RESEARCH DATA</div><h1>局内研究数据</h1><p>从规则查到参数，从数据查到依据。默认复用本数据集，遇到明确缺口再深入源码。</p><div class="chips"><span>客户端1.0.16</span><span>第一章基础配置</span><span>25条规则</span><span>15波明细</span><span>离线可用</span></div></div></header><main class="layout"><nav class="toc"><strong>数据目录</strong><ul>''']
 for anchor,label in [('overview','使用方式'),('facts','规则索引'),('waves','波次数据'),('build-data','技能关系'),('sources','来源索引'),('questions','待证问题'),('dictionary','字段与校验')]:parts.append(f'<li><a href="#{anchor}">{label}</a></li>')
@@ -39,6 +41,6 @@ for r in sources:
 parts.append('<h2 id="questions">待证问题与深查条件</h2><p>下列条目没有被当成已确认规则。已有查证范围一起保存，避免下次从头重做。</p>')
 for q in questions:
  parts.append(f'<details id="{q["id"]}"><summary>{q["id"]} · {esc(q["question"])}</summary><p><strong>影响：</strong>{esc(q["impact"])}</p><p><strong>已查：</strong>{esc(q["already_checked"])}</p><p><strong>所需：</strong>{esc(q["required_evidence"])}</p><p><strong>何时继续：</strong>{esc(q["reopen_when"])}</p></details>')
-parts.append('<h2 id="dictionary">字段与校验</h2><p><a href="'+base+'DICTIONARY.md">完整数据字典</a> · <a href="'+base+'facts.json">规则JSON</a> · <a href="'+base+'sources.json">来源JSON</a> · <a href="'+base+'questions.json">问题JSON</a></p><p>校验覆盖文件哈希、记录引用、输入复算与关键数值约束，不代表线上行为已验证。完整定点数、_B列与语言模板保存在输入快照，派生数据限定基础配置。</p></article></main><a class="back" href="core.html">← 正式报告</a></body></html>')
+parts.append('<h2 id="dictionary">字段与校验</h2><p><a href="'+base+'DICTIONARY.md">完整数据字典</a> · <a href="'+base+'facts.json">规则JSON</a> · <a href="'+base+'sources.json">来源JSON</a> · <a href="'+base+'questions.json">问题JSON</a></p><p>校验覆盖文件哈希、记录引用、输入复算与关键数值约束，不代表线上行为已验证。完整定点数、_B列与语言模板保存在输入快照，派生数据限定基础配置。</p></article></main><a class="back" href="core.html">← 正式报告</a><script src="assets/term-tips.js"></script></body></html>')
 (ROOT/'docs/research-data.html').write_text(''.join(parts))
 print('Rendered data page and report wave table from canonical JSON')
