@@ -59,6 +59,13 @@ python3 research-data/tools/research.py export
 
 先查询→再计算→最后定向反编译。交接包保存的不只是结论，还包含推导所需输入和最小证据，避免下一位同事重复购买同一次分析成本。对已验证规则只在版本变化、出现反证或任务需要更精确结论时复核。
 
+## 章节规划专题
+
+- 唯一报告：`docs/chapter-planning.html`，含70章对照、2032条双分支逐波明细与章节随机规则。
+- 中间数据：`research-data/topics/chapter-planning/`；大型输入用标准gzip压缩，保留完整字段与定点数。
+- 查询与校验：`python3 research-data/tools/chapter_topic.py chapter:55` / `validate`。
+- 专题交接包：`docs/downloads/xxyzd-chapter-planning.zip`，解压后即可离线读报告与复算。
+
 ## 三选一与武器进化专题
 
 - 唯一专题报告：`docs/choices-box-evolution.html`。

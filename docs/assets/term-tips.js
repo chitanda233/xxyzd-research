@@ -6,6 +6,24 @@
     document.head.append(stylesheet);
   }
   const glossary = {
+    "SkillGroupWeight": "章节选择技能权重列的编号：0取默认Weight，非0取相应Weight_n。",
+    "NewPlayerProtect": "章节保护代码列表。当前主线第2—10章含3，仍需满足本局构筑条件才触发增权。",
+    "ProtectTemplate": "章节引用的血量保护模板编号；当前四个模板所有倍率均为1。",
+    "HpRate": "血量倍率。当前保护模板的10档均为1，没有配置降血量幅度。",
+    "mapStyle": "地图样式配置ID；相同ID表示复用同一配置，不代表关卡敌人和数值相同。",
+    "NewMonsters": "章节新怪展示标记列表，不能替代实际刷怪任务表。",
+    "SuggestedSkills": "章节界面的推荐技能列表，不保证随机抽中这些技能。",
+    "SuggestedFunction": "章节推荐功能代码列表；具体功能名需要对应定义才能解释。",
+    "randomMonster": "任务可以抽取的怪物组ID数组；一项代表一个组，不一定只有一只怪。",
+    "entityId": "怪物组包含的实体ID列表。",
+    "CreateRandomMonster": "把缓存的怪物组选择转成实际生成计划，并处理成员位置的方法。",
+    "Mission_RandomMonsterFlushConfig": "随机刷新怪物组配置。其weight/height字段在已查路径中用于队形坐标。",
+    "weight": "此处特指随机怪物组的小写weight字段，参与成员横向坐标计算；不同于技能大写Weight。",
+    "height": "随机怪物组中参与另一轴成员坐标计算的字段。",
+    "hpUpgrade": "血量相关配置倍率。最终怪物生命还涉及其他层的属性与计算。",
+    "attackUp": "攻击相关倍率；本版本章节层值均为1，波次层有独立数值，需要区分配置层级。",
+    "ResurrectionTimes": "章节复活相关配置值；实际可复活资格与次数还需结合完整复活流程。",
+    "skill3SelectCreditsRandom": "章节中的旧命名随机数组，当前证据不足以把它视为主线三选一概率。",
     "A/B": "A/B 分流：同一功能的两套配置或实现，用于对照实验；报告中的 _B 表示 B 分支。",
     "_B": "B 分支字段或实现。它代表配置分流，不等同于老玩家版本。",
     "APK": "Android 安装包。本报告以客户端 1.0.16 的 APK 静态内容为研究基线。",
@@ -52,6 +70,7 @@
     "L3": "面向策划阅读的最终报告层。"
   };
 
+  for (let i = 2; i <= 10; i++) glossary[`Weight_${i}`] = `技能第${i}组章节权重列；由章节SkillGroupWeight选择，编号不直接等于章号。`;
   const terms = Object.keys(glossary).sort((a, b) => b.length - a.length);
   const escaped = terms.map(term => term.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"));
   const matcher = new RegExp(`(^|[^A-Za-z0-9_])(${escaped.join("|")})(?=$|[^A-Za-z0-9_])`, "g");
