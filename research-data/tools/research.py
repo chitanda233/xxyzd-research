@@ -118,7 +118,7 @@ def main():
         validate();manifest();out=ROOT/a.output;out.parent.mkdir(parents=True,exist_ok=True)
         paths=[p for p in (ROOT/'research-data').rglob('*') if p.is_file() and '__pycache__' not in p.parts]
         paths += [ROOT/'RESEARCH.md',ROOT/'docs/core.html',ROOT/'docs/choices-box-evolution.html',ROOT/'docs/research-data.html',ROOT/'docs/assets/style.css',ROOT/'docs/assets/term-tips.css',ROOT/'docs/assets/term-tips.js']
-        with zipfile.ZipFile(out,'w',zipfile.ZIP_DEFLATED) as z:
+        with zipfile.ZipFile(out,'w',zipfile.ZIP_DEFLATED,compresslevel=9) as z:
             for p in paths:
                 content=p.read_bytes()
                 if p.name in ['core.html','research-data.html','choices-box-evolution.html']:
