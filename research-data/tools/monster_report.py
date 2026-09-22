@@ -164,7 +164,7 @@ def render():
  out.append('<p><a href="downloads/xxyzd-monsters.zip">下载怪物专题＋中间数据＋代码证据（离线可用）</a></p>')
  out.append(table(['文件','用途'],[['<a href="'+base+k+'">'+k+'</a>',v] for k,v in [('README.md','数据字典与复用流程'),('facts.json','已核实规则与证据索引'),('questions.json','具体边界与继续研究入口'),('sources.json','原始来源与哈希'),('catalog.json.gz','完整305条怪物档案'),('occurrences.json.gz','任务级投放、候选与属性因子'),('manifest.json','文件完整性清单')]]))
  out+=['<p>尚未把全部运动处理器复现为逐帧仿真，未测量像素命中框、线上动作频率或热更新差异。需要这些精度时，可从具体怪物ID、关联武器、路径和原生方法继续；当前章节分布和名义数值不依赖重新反编译。</p><pre>python3 research-data/tools/monster_topic.py validate\npython3 research-data/tools/monster_topic.py monster:320007\npython3 research-data/tools/monster_topic.py chapter:19\npython3 research-data/tools/monster_topic.py rebuild\npython3 research-data/tools/monster_topic.py render</pre></article></main><script>const cards=[...document.querySelectorAll(".monster-card")];function filter(){const q=document.getElementById("monster-search").value.trim().toLowerCase(),t=document.getElementById("monster-type").value,c=Number(document.getElementById("monster-chapter").value);let count=0;for(const x of cards){x.hidden=!!((q&&!x.dataset.search.includes(q))||(t&&x.dataset.type!==t)||(c&&!JSON.parse(x.dataset.chapters).includes(c)));if(!x.hidden)count++;}document.getElementById("monster-count").textContent=count+"种怪物";}document.querySelectorAll(".filters input,.filters select").forEach(x=>x.addEventListener("input",filter));function reveal(){const x=document.getElementById(location.hash.slice(1));if(x&&x.tagName==="DETAILS"){x.hidden=false;x.open=true;setTimeout(()=>x.scrollIntoView(),0);}}window.addEventListener("hashchange",reveal);reveal();</script><script src="assets/term-tips.js"></script></body></html>']
- p=ROOT/'docs/monsters.html';p.parent.mkdir(exist_ok=True);p.write_text('\n'.join(out));print('rendered',p,p.stat().st_size)
+ p=ROOT/'docs/monsters.html';p.parent.mkdir(exist_ok=True);p.write_text(__import__('site_structure').normalize('\n'.join(out),'monsters.html'));print('rendered',p,p.stat().st_size)
 def manifest():
  m.write(D/'manifest.json',{'files':[dict(path=str(p.relative_to(D)),sha256=m.sha(p),bytes=p.stat().st_size) for p in sorted(D.rglob('*')) if p.is_file() and p.name!='manifest.json']})
 def validate():
@@ -188,13 +188,13 @@ def validate():
  print('PASS: offline derivation, 110 enemies, 2030 waves, 140 branches, spawn totals, joins, evidence and hashes')
 def export():
  manifest();validate();dest=ROOT/'docs/downloads/xxyzd-monsters.zip';dest.parent.mkdir(exist_ok=True)
- files=[p for p in D.rglob('*') if p.is_file()]+[ROOT/'research-data/tools/monster_topic.py',ROOT/'research-data/tools/monster_report.py',ROOT/'docs/monsters.html']+[ROOT/'docs/assets'/n for n in ['style.css','term-tips.css','term-tips.js']]
+ files=[p for p in D.rglob('*') if p.is_file()]+[ROOT/'research-data/tools/monster_topic.py',ROOT/'research-data/tools/monster_report.py',ROOT/'research-data/tools/site_structure.py',ROOT/'docs/monsters.html']+[ROOT/'docs/assets'/n for n in ['style.css','term-tips.css','term-tips.js']]
  with zipfile.ZipFile(dest,'w',zipfile.ZIP_DEFLATED,compresslevel=9) as z:
   for p in sorted(files):
    content=p.read_bytes()
    if p.name=='monsters.html':
     s=content.decode().replace('https://github.com/chitanda233/xxyzd-research/blob/main/research-data/','../research-data/').replace('href="downloads/xxyzd-monsters.zip"','href="../research-data/topics/monsters/README.md"')
-    for page in ['core.html','chapter-planning.html','choices-box-evolution.html']:s=s.replace('href="'+page+'"','href="https://chitanda233.github.io/xxyzd-research/'+page+'"')
+    for page in ['index.html','core.html','chapter-planning.html','choices-box-evolution.html','skills.html','aircraft.html','systems.html','config.html','research-data.html']:s=s.replace('href="'+page+'"','href="https://chitanda233.github.io/xxyzd-research/'+page+'"')
     content=s.encode()
    z.writestr(str(p.relative_to(ROOT)),content)
   z.writestr('START-HERE.txt','打开 docs/monsters.html；数据字典在 research-data/topics/monsters/README.md。\n离线校验：python3 research-data/tools/monster_topic.py validate\n无需APK或反编译环境。站内其他专题链接需联网。\n')

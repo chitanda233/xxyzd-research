@@ -101,7 +101,7 @@ def render():
   for p in f['evidence']:parts.append(f'<p><a href="{base+e(p)}">{e(p)}</a></p>')
   parts.append('</details>')
  parts.append('</article></main><a class="back" href="core.html">← 整体链路报告</a><script src="assets/term-tips.js"></script></body></html>')
- (ROOT/'docs/choices-box-evolution.html').write_text(''.join(parts))
+ (ROOT/'docs/choices-box-evolution.html').write_text(__import__('site_structure').normalize(''.join(parts),'choices-box-evolution.html'))
 if __name__=='__main__':
  arg=sys.argv[1] if len(sys.argv)>1 else 'validate'
  if arg=='manifest':manifest();print(json.dumps(validate(),ensure_ascii=False))

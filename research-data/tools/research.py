@@ -117,14 +117,14 @@ def main():
     elif a.command=='export':
         validate();manifest();out=ROOT/a.output;out.parent.mkdir(parents=True,exist_ok=True)
         paths=[p for p in (ROOT/'research-data').rglob('*') if p.is_file() and '__pycache__' not in p.parts]
-        paths += [ROOT/'RESEARCH.md',ROOT/'docs/core.html',ROOT/'docs/choices-box-evolution.html',ROOT/'docs/research-data.html',ROOT/'docs/assets/style.css',ROOT/'docs/assets/term-tips.css',ROOT/'docs/assets/term-tips.js']
+        paths += [ROOT/'RESEARCH.md',ROOT/'docs/index.html',ROOT/'docs/core.html',ROOT/'docs/choices-box-evolution.html',ROOT/'docs/research-data.html',ROOT/'docs/assets/style.css',ROOT/'docs/assets/term-tips.css',ROOT/'docs/assets/term-tips.js']
         if (ROOT/'docs/chapter-planning.html').exists(): paths.append(ROOT/'docs/chapter-planning.html')
         if (ROOT/'docs/monsters.html').exists(): paths.append(ROOT/'docs/monsters.html')
         with zipfile.ZipFile(out,'w',zipfile.ZIP_DEFLATED,compresslevel=9) as z:
             for p in paths:
                 content=p.read_bytes()
-                if p.name in ['core.html','research-data.html','choices-box-evolution.html','chapter-planning.html','monsters.html']:
-                    text=content.decode();text=re.sub(r'href="(index.html|skills.html|skill-config.html|config.html)"',lambda m:'href="https://chitanda233.github.io/xxyzd-research/'+m[1]+'"',text)
+                if p.name in ['index.html','core.html','research-data.html','choices-box-evolution.html','chapter-planning.html','monsters.html']:
+                    text=content.decode();text=re.sub(r'href="(skills.html|skill-config.html|config.html|aircraft.html|systems.html)"',lambda m:'href="https://chitanda233.github.io/xxyzd-research/'+m[1]+'"',text)
                     text=text.replace('href="downloads/xxyzd-in-run-handoff.zip"','href="../RESEARCH.md"')
                     text=text.replace('href="downloads/xxyzd-chapter-planning.zip"','href="../RESEARCH.md"')
                     text=text.replace('href="downloads/xxyzd-monsters.zip"','href="../research-data/topics/monsters/README.md"')
