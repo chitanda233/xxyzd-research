@@ -91,7 +91,7 @@ def render():
  ['EntityTreasure','当前方法是碰撞后创建怪物；仅凭类名不能等同主线奖励箱。'],
  ['中途商店','当前基线未确认局内购买链；保留断点，不影响本节已闭合的宝箱流程。']]))
  parts.append(refs('C16','C13'))
- parts.append('''<h2 id="data">7. 数据如何交接与复用</h2><p>报告是L3；专题目录是可移交的L2。先读facts和配方/权重JSON，再按证据路径核实。只有缺口要求新方法或新版本时，才回到L1反编译和L0 APK。</p><p><a href="downloads/xxyzd-in-run-handoff.zip">下载整体报告＋专题＋结构化数据</a> · <a href="research-data.html">整体研究数据</a></p>''')
+ parts.append('''<h2 id="data">7. 数据如何交接与复用</h2><p>报告是L3；专题目录是可移交的L2。先读facts和配方/权重JSON，再按证据路径核实。只有缺口要求新方法或新版本时，才回到L1反编译和L0 APK。</p><p><a href="https://github.com/chitanda233/xxyzd-research/tree/main/research-data/">查看研究数据与证据目录</a> · <a href="research-data.html">整体研究数据</a></p>''')
  for p,label in [('README.md','专题数据说明'),('facts.json','规则与边界'),('chapters.json','71章配置映射'),('pool-weights.json','技能权重'),('evolution-recipes.json','22条配方'),('constants.json','原生常量'),('treasure-chain.json','宝箱完整调用链'),('treasure-schedule.json','416条宝箱事件'),('treasure-chapters.json','142组章节/分支汇总'),('probability-examples.json','概率示例'),('questions.json','缺口与断点'),('sources.json','证据来源'),('manifest.json','哈希清单')]:parts.append(f'<p><a href="{base+p}">{label}</a></p>')
  parts.append('<pre>python3 research-data/tools/choice_topic.py validate\npython3 research-data/tools/choice_topic.py C05\npython3 research-data/tools/choice_topic.py skill:10000103</pre><h2 id="evidence">8. 规则与直接证据</h2>')
  for f in read('facts.json'):

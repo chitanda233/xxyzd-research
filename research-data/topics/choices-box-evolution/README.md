@@ -27,4 +27,4 @@
 
 用实际代码校正外观记忆：NPC宝箱奖励数量1/3/5不是三选一；若奖励后有待处理特殊技能才接state12。RandomNpc=9补偿逻辑存在，但当前主线基础/B配置未启用。
 
-完整L1环境可运行 `python3 scripts/extract-treasure-chain.py` 重建事件数据；轻量交接包直接查询JSON即可。
+完整L1环境可运行 `python3 scripts/extract-treasure-chain.py` 重建事件数据；轻量研究目录直接查询JSON即可。

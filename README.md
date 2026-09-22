@@ -13,7 +13,6 @@
 python3 research-data/tools/research.py query 复活
 python3 research-data/tools/research.py query wave:10
 python3 research-data/tools/research.py validate
-python3 research-data/tools/research.py export
 ```
 
 四层职责：APK/解包原件 → 配置解码与原生实现 → 可复用中间数据 → 策划报告。原件和底层路径保持不动，避免破坏可追溯性。正式报告、波次计算器与局内数据入口各保留一套。

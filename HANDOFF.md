@@ -23,7 +23,6 @@ python3 research-data/tools/research.py validate
 python3 research-data/tools/research.py rebuild
 python3 research-data/tools/render.py
 python3 research-data/tools/research.py validate
-python3 research-data/tools/research.py export
 ```
 
 ## 三选一与武器进化专题

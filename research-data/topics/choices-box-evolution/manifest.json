@@ -1,5 +1,5 @@
 {
-  "README.md": "abbe0bdbf82c0b0f1f70c2cc1d766eba7a174d30546c21487db1bb1535fc3d9d",
+  "README.md": "c3a13b989e65019e51c9bd14251b9ccaf6d97d2e51dd7809641a7a8d6e51d9c9",
   "baseline.json": "b18c79eee9eda6cd94af6039f415c8d9cc593333370308a3ff962b0d2211e33c",
   "chapters.json": "32bf8f41b01ef0452e02510ac8718382c6626545b0da79b9b1781fa4d426aa0d",
   "constants.json": "047d9d06066c99698d092ce7c0a4802a3ea33ed5d21e50a3b42d7a6a6f7a6907",
@@ -260,8 +260,10 @@
   "pool-weights.json": "0f26e5158147c14e361859564d209a75520ea7943b9be91788f9467c3bf4171d",
   "probability-examples.json": "8d485545fadb3ed9149a4c113b14f9e2f5305c2e788fa7bb71af59ce5a03c588",
   "questions.json": "76d21695418c510ab7cd11f5e29e48079337d7f26825e45cda144a7258bd79d2",
-  "sources.json": "42ae369033d328a7ca9cfc1e3197a2ce7a64eef278cb666e4177b56bd35ca3c5",
+  "sources.json": "3bbf82a608d32b94ad75655cdb5f7bcb9f33c52c0462e87bd119f569094e763a",
   "treasure-chain.json": "cbb02e0b4d999c5aba75cb069172b9693c292ffda4d57d25598c9993e8fd7e17",
   "treasure-chapters.json": "6568b817864683df2eba382fd3571ea10ae55bbf39aa7881243a9a6e43f1b4ba",
-  "treasure-schedule.json": "f9bc4949a74b8c3d7413999a34d411f44a7c0145d528c38029295b85fb9b5487"
+  "treasure-schedule.json": "f9bc4949a74b8c3d7413999a34d411f44a7c0145d528c38029295b85fb9b5487",
+  "evidence/WeightRandom--GetAlreadyStudySkill.asm": "3249198b6a3530c1f474ec6b59d4d8f24de57f9de6f6329e717c2a8b3ed5b394",
+  "mainline-chest-pool.json": "bcf24b5f003f09ab755bb11a6febb4352fe1bc9b19eb454973bf5441bf20e366"
 }

@@ -97,7 +97,7 @@ def manifest():
     write(DATA/'manifest.json',{'schema_version':'1.0.0','dataset_id':read(DATA/'baseline.json')['dataset_id'],'files':files})
 
 def main():
-    ap=argparse.ArgumentParser(description=__doc__);ap.add_argument('command',choices=['validate','rebuild','query','manifest','export']);ap.add_argument('term',nargs='?');ap.add_argument('--output',default='deliverables/xxyzd-in-run-handoff.zip');a=ap.parse_args()
+    ap=argparse.ArgumentParser(description=__doc__);ap.add_argument('command',choices=['validate','rebuild','query','manifest','export']);ap.add_argument('term',nargs='?');a=ap.parse_args()
     if a.command=='rebuild':rebuild();print(json.dumps(validate(),ensure_ascii=False));manifest()
     elif a.command=='validate':
         result=validate()
@@ -115,22 +115,5 @@ def main():
             found=[f for f in read(DATA/'facts.json') if term.lower() in json.dumps(f,ensure_ascii=False).lower()];needed={i for f in found for i in f['source_ids']};result={'facts':found,'sources':[s for s in read(DATA/'sources.json') if s['id'] in needed],'questions':[q for q in read(DATA/'questions.json') if set(q['fact_ids']) & {f['id'] for f in found}]}
         print(json.dumps(result,ensure_ascii=False,indent=2))
     elif a.command=='export':
-        validate();manifest();out=ROOT/a.output;out.parent.mkdir(parents=True,exist_ok=True)
-        paths=[p for p in (ROOT/'research-data').rglob('*') if p.is_file() and '__pycache__' not in p.parts]
-        paths += [ROOT/'RESEARCH.md',ROOT/'docs/index.html',ROOT/'docs/core.html',ROOT/'docs/choices-box-evolution.html',ROOT/'docs/research-data.html',ROOT/'docs/assets/style.css',ROOT/'docs/assets/term-tips.css',ROOT/'docs/assets/term-tips.js']
-        if (ROOT/'docs/chapter-planning.html').exists(): paths.append(ROOT/'docs/chapter-planning.html')
-        if (ROOT/'docs/monsters.html').exists(): paths.append(ROOT/'docs/monsters.html')
-        with zipfile.ZipFile(out,'w',zipfile.ZIP_DEFLATED,compresslevel=9) as z:
-            for p in paths:
-                content=p.read_bytes()
-                if p.name in ['index.html','core.html','research-data.html','choices-box-evolution.html','chapter-planning.html','monsters.html']:
-                    text=content.decode();text=re.sub(r'href="(skills.html|skill-config.html|config.html|aircraft.html|systems.html)"',lambda m:'href="https://chitanda233.github.io/xxyzd-research/'+m[1]+'"',text)
-                    text=text.replace('href="downloads/xxyzd-in-run-handoff.zip"','href="../RESEARCH.md"')
-                    text=text.replace('href="downloads/xxyzd-chapter-planning.zip"','href="../RESEARCH.md"')
-                    text=text.replace('href="downloads/xxyzd-monsters.zip"','href="../research-data/topics/monsters/README.md"')
-                    text=text.replace('https://github.com/chitanda233/xxyzd-research/blob/main/research-data/','../research-data/')
-                    content=text.encode()
-                z.writestr(str(p.relative_to(ROOT)),content)
-            z.writestr('START-HERE.txt','先打开 docs/core.html 阅读正式报告，或 docs/research-data.html 查看数据。\n专题报告 docs/choices-box-evolution.html；专题数据 research-data/topics/choices-box-evolution/。\n数据与证据在 research-data/in-run/；离线校验：python3 research-data/tools/research.py validate\n研究结构：RESEARCH.md。APK和反编译环境不包含在此包中。\n')
-        print(json.dumps({'package':str(out),'bytes':out.stat().st_size,'sha256':digest(out),'files':len(paths)+1},ensure_ascii=False))
+        raise SystemExit('证据按目录交接，不生成压缩包；请查看 research-data/。')
 if __name__=='__main__':main()

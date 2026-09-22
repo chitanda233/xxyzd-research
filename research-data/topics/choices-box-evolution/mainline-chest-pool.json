@@ -1,0 +1,99 @@
+{
+  "scope": "com.fhzj.game 1.0.16 versionCode 40，静态原生基础实现；未验证线上热更",
+  "appearance": {
+    "type": "章节脚本 missinType=9 定点事件，非击杀掉落概率",
+    "default_waves": [
+      6,
+      11,
+      15
+    ],
+    "ten_wave_chapters": [
+      5,
+      15,
+      25,
+      35,
+      45,
+      55,
+      65
+    ],
+    "ten_wave_chest_waves": [
+      4,
+      7,
+      10
+    ],
+    "exceptions": {
+      "10": [
+        11,
+        15
+      ],
+      "60": [
+        6,
+        15
+      ]
+    },
+    "random_npc_gate": {
+      "required": 9,
+      "matching_current_rows": 0,
+      "note": "35*计数的比较分支未被当前主线配置启用，不能称35%出现率"
+    },
+    "source": "treasure-chain.json"
+  },
+  "quantity": {
+    "base_weights": [
+      60,
+      0,
+      30,
+      0,
+      10
+    ],
+    "battle_skill_distinct_groups_lte4": {
+      "1": 0.6666666666666666,
+      "3": 0.3333333333333333,
+      "5": 0
+    },
+    "battle_skill_distinct_groups_gt4_without_modifier": {
+      "1": 0.6,
+      "3": 0.3,
+      "5": 0.1
+    },
+    "five_weight_modifier": "Round(10*(1+a))；组数<=4时仍归零",
+    "source": "facts.json:C11"
+  },
+  "pool": {
+    "entry": "PlayerPunchboard.Show -> DankeSkillCreator.GetRandomPunchboardSkills",
+    "capacity": 16,
+    "capacity_meaning": "内部候选构建容量，不等于最终获得16项",
+    "category_weights_source": "PlayerPunchboard.Show 0x659F6D8 GetDankeSkillWeight；0x659F74C传入宝箱随机器",
+    "category_weights": [
+      0,
+      200,
+      300,
+      300
+    ],
+    "initial_filter": "GetAlreadyStudyRandomPool -> WeightRandom.GetAlreadyStudySkill：SkillStar<2跳过，>=2复制有效权重、需求标记、技能标记和前置技能条件",
+    "interpretation": "以当前技能池中升级条目为基础，不是全技能表或一星新武器统一抽取；最终合法性还取决于条件筛选",
+    "per_draw": "RandomPunchboardSkill逐次调用GetRandomSkills；处理移除条目、后续技能、依赖满足和TryUnlockUpgradeSkillsForPunchboard",
+    "shortage": "GetInginiteSkill从补位池按合法性抽取；FillRandomSkillList补足奖励数量",
+    "finalization": [
+      "GetResultSkillList",
+      "MakeResultSkillListContinuous",
+      "ShuffleList"
+    ],
+    "probability_boundary": "类别权重不是单技能最终概率；合法池及连续升级改变后续抽取条件，不给固定武器百分比"
+  },
+  "shop": {
+    "status": "unresolved",
+    "conclusion": "尚未闭合主线中途商店的购买入口、出现条件和商品池；未知不等于0%",
+    "source": "questions.json:CQ02"
+  },
+  "evidence": [
+    "evidence/WeightRandom--GetAlreadyStudySkill.asm",
+    "evidence/PlayerPunchboard--Show.asm",
+    "evidence/DankeSkillCreator--GetRandomPunchboardSkills.asm",
+    "evidence/DankeSkillCreator--GetAlreadyStudyRandomPool.asm",
+    "evidence/DankeSkillCreator--RandomPunchboardSkill.asm",
+    "evidence/SinglePlayerSkillCreator--GetInginiteSkill.asm",
+    "evidence/PlayerPunchboard--FillRandomSkillList.asm",
+    "evidence/PlayerPunchboard--GetResultSkillList.asm"
+  ]
+}

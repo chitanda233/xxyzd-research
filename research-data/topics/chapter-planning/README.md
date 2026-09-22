@@ -19,7 +19,6 @@ python3 research-data/tools/chapter_topic.py validate
 python3 research-data/tools/chapter_topic.py chapter:55
 python3 research-data/tools/chapter_topic.py rebuild
 python3 research-data/tools/chapter_topic.py render
-python3 research-data/tools/chapter_topic.py export
 ```
 
 `snapshot`只用于从本机L1更新输入；移交者通常不需要执行。`rebuild`由包内输入复算所有对照数据。`validate`检查哈希、引用、重算结果和关键分布。

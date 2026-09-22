@@ -24,7 +24,7 @@ base='https://github.com/chitanda233/xxyzd-research/blob/main/research-data/in-r
 parts=['''<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>局内研究数据 · 规则与证据</title><link rel="stylesheet" href="assets/style.css"><style>pre{white-space:pre-wrap;overflow-wrap:anywhere;background:#f3f7f6;padding:16px;border-radius:8px;font-size:13px}details{border-bottom:1px solid #d4e2de;padding:14px 0}summary{cursor:pointer;font-weight:bold}summary:focus-visible{outline:2px solid #0a756c}details:target{background:#edf4fb} .record{scroll-margin-top:18px}</style></head><body><header class="page-head"><div class="hero"><div class="eyebrow">REUSABLE RESEARCH DATA</div><h1>局内研究数据</h1><p>从规则查到参数，从数据查到依据。默认复用本数据集，遇到明确缺口再深入源码。</p><div class="chips"><span>客户端1.0.16</span><span>第一章基础配置</span><span>25条规则</span><span>15波明细</span><span>离线可用</span></div></div></header><main class="layout"><nav class="toc"><strong>数据目录</strong><ul>''']
 for anchor,label in [('overview','使用方式'),('facts','规则索引'),('waves','波次数据'),('build-data','技能关系'),('sources','来源索引'),('questions','待证问题'),('dictionary','字段与校验')]:parts.append(f'<li><a href="#{anchor}">{label}</a></li>')
 parts.append('</ul><a href="core.html">返回正式报告</a><p><a href="choices-box-evolution.html">三选一与武器进化专题</a></p></nav><article class="article"><h2 id="overview">使用方式</h2>')
-parts.append('<p class="summary">先查规则F编号或15波表，再按来源ID定位包内配置行或函数摘录。这里保存的是可复用研究结果；证据状态与适用条件不会因页面展示而省略。</p><p><a href="downloads/xxyzd-in-run-handoff.zip">下载报告＋中间数据交接包</a> · <a href="'+base+'baseline.json">版本指纹</a> · <a href="'+base+'manifest.json">文件哈希清单</a></p>')
+parts.append('<p class="summary">先查规则F编号或15波表，再按来源ID定位目录中的配置行或函数摘录。这里保存的是可复用研究结果；证据状态与适用条件不会因页面展示而省略。</p><p><a href="https://github.com/chitanda233/xxyzd-research/tree/main/research-data/">查看研究数据与证据目录</a> · <a href="'+base+'baseline.json">版本指纹</a> · <a href="'+base+'manifest.json">文件哈希清单</a></p>')
 parts.append('<pre>python3 research-data/tools/research.py query wave:10\npython3 research-data/tools/research.py query skill:10000103\npython3 research-data/tools/research.py query 复活\npython3 research-data/tools/research.py validate</pre><h2 id="facts">规则索引</h2><p>静态确认：配置和APK实现范围内成立。设计存在：不能作为实际启用规则。每条记录可展开参数和限制。</p>')
 labels={'verified_static':'静态确认','designed_only':'设计存在，未证实启用','interpretation':'策划解释'}
 for f in facts:
@@ -34,7 +34,7 @@ for f in facts:
  parts.append('<p>依据：'+' · '.join(f'<a href="#src-{esc(i.replace(":","-"))}">{esc(i)}</a>' for i in f['source_ids'])+'</p></details>')
 parts.append('<h2 id="waves">15波数据</h2><p>由包内输入计算生成；时间单位为配置脚本秒，硬门槛波怪量按最大脚本规模表达。<a href="'+base+'datasets/chapter-1.json">读取完整JSON（含逐事件来源）</a></p>'+table)
 parts.append('<h2 id="build-data">技能与依赖关系</h2><p>'+str(len(skills['nodes']))+'个相关技能节点，'+str(len(skills['edges']))+'条配置关系，'+str(len(skills['recipes']))+'条方向性配方记录。节点包含四个池及相关依赖闭包，不等于玩家可选数量。</p><p><a href="'+base+'datasets/skill-build.json">技能图JSON</a> · <a href="'+base+'flow.json">局内流程关系JSON</a></p>')
-parts.append('<h2 id="sources">来源索引</h2><p>链接打开最小证据快照，完整底层来源由origin字段定位。交接包内无需下载完整反编译库。</p>')
+parts.append('<h2 id="sources">来源索引</h2><p>链接打开最小证据快照，完整底层来源由origin字段定位。使用本目录无需下载完整反编译库。</p>')
 for r in sources:
  label=r.get('method',r['id']);detail=(str(r['record_count'])+'行' if r['kind']=='config_rows' else r['rva'])
  parts.append(f'<details id="src-{esc(r["id"].replace(":","-"))}"><summary>{esc(r["id"])} · {esc(detail)}</summary><p>{esc(label)}</p><p><a href="{base+esc(r["path"])}">打开快照或函数摘录</a></p><pre>{esc(show(r))}</pre></details>')

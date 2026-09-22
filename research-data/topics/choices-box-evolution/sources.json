@@ -2490,5 +2490,13 @@
     "origin": "unpacked/apk/lib/arm64-v8a/libil2cpp.so + restored/code/il2cpp/script.json",
     "limitations": "ARM64 static fallback; hotfix/runtime not verified",
     "sha256": "984faae069adc8fb8b05b0e17b2084214173415f0ab257d4ba73592b7b5baaf7"
+  },
+  {
+    "id": "N:WeightRandom--GetAlreadyStudySkill",
+    "path": "evidence/WeightRandom--GetAlreadyStudySkill.asm",
+    "kind": "native",
+    "method": "HotFix.BattleLogic.WeightRandom$$GetAlreadyStudySkill",
+    "rva": "0x6634F18",
+    "sha256": "3249198b6a3530c1f474ec6b59d4d8f24de57f9de6f6329e717c2a8b3ed5b394"
   }
 ]

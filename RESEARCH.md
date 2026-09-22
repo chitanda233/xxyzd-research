@@ -50,7 +50,6 @@ APK与SHA-256   →     配置表/字段结构     →     版本基线+输入�
 python3 research-data/tools/research.py validate
 python3 research-data/tools/research.py rebuild
 python3 research-data/tools/render.py
-python3 research-data/tools/research.py export
 ```
 
 轻量ZIP包含报告、数据页、样式、L2全部数据与最小摘录、查询/复算工具。接手者解压即可离线读报告和JSON，Python标准库即可校验。不含APK、完整native库、美术、SQLite数据库。独立页面上的外围研究站链接可能仍需联网。
@@ -59,14 +58,14 @@ python3 research-data/tools/research.py export
 
 ## 成本控制
 
-先查询→再计算→最后定向反编译。交接包保存的不只是结论，还包含推导所需输入和最小证据，避免下一位同事重复购买同一次分析成本。对已验证规则只在版本变化、出现反证或任务需要更精确结论时复核。
+先查询→再计算→最后定向反编译。研究目录保存的不只是结论，还包含推导所需输入和最小证据，避免下一位同事重复购买同一次分析成本。对已验证规则只在版本变化、出现反证或任务需要更精确结论时复核。
 
 ## 章节规划专题
 
 - 唯一报告：`docs/chapter-planning.html`，含70章对照、2032条双分支逐波明细与章节随机规则。
 - 中间数据：`research-data/topics/chapter-planning/`；大型输入用标准gzip压缩，保留完整字段与定点数。
 - 查询与校验：`python3 research-data/tools/chapter_topic.py chapter:55` / `validate`。
-- 专题交接包：`docs/downloads/xxyzd-chapter-planning.zip`，解压后即可离线读报告与复算。
+- 交接方式：直接使用对应的 `research-data/topics/` 数据与证据目录，以及 `docs/` 中的报告文件，不生成压缩包。
 
 ## 三选一与武器进化专题
 
@@ -80,4 +79,4 @@ python3 research-data/tools/research.py export
 - 唯一报告：`docs/monsters.html`，含110种主线怪物档案、15类行为、基础属性与抗性、武器/子弹、基础碰撞形状、70章双分支2030波投放。
 - 中间数据：`research-data/topics/monsters/`，保留完整305条敌方实体、任务级投放、188个编队、30条路径和必要原生证据；文件与字段说明见目录README。
 - 日常查询：`python3 research-data/tools/monster_topic.py monster:320007` / `chapter:19`；独立复算与校验：`rebuild` / `validate`。
-- 专题包：`docs/downloads/xxyzd-monsters.zip`；无需APK即可离线阅读和复算。数量为脚本预算，不含动态召唤；形状为基础配置，不冒充实机像素命中框。
+- 交接方式：直接使用对应的 `research-data/topics/` 数据与证据目录，以及 `docs/` 中的报告文件，不生成压缩包。
