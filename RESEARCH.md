@@ -4,8 +4,8 @@
 
 网站入口为 `docs/index.html`。策划反拆按独立模块并列组织：局内整体链路、怪物与弹幕、三选一与武器进化、章节规划、升级词条、战机与皮肤、局外系统。各模块不是局内整体链路的下级；工具区只承担查表与数据查询。导航由 `research-data/tools/site_structure.py` 统一维护。
 
-- 最终报告：`docs/core.html`（网页正文）。
-- 中间数据：`research-data/in-run/`（规则、可计算数据与最小证据）。
+- 报告入口：`docs/index.html`，各策划模块独立进入。
+- 中间数据：`research-data/in-run/` 与 `research-data/topics/`（各模块规则、可计算数据与最小证据）。
 - 人工阅览：`docs/research-data.html`（由中间数据生成）。
 - 日常工具：`research-data/tools/research.py`。
 
@@ -21,8 +21,8 @@ APK与SHA-256   →     配置表/字段结构     →     版本基线+输入�
 |---|---|---|---|
 | L0 原件 | `original/`（本机可选）、`unpacked/`、`indexes/apk-summary.json`、`indexes/apk-files.json` | 保存不可混淆的版本和原始内容；APK缺失时明确缺失，不冒称在包中 | 否；只在L2带版本指纹 |
 | L1 解码/反编译 | `restored/configs/{tables,schemas,textassets}`、`restored/code/`、`evidence/` | 保留配置结构、函数地址与原生实现；空C#方法体不作为实现证据 | 否；需要时按L2来源索引取对应文件 |
-| L2 中间数据 | `research-data/in-run/` | 让已完成的研究可以检索、计算和复用；每条规则有状态、范围、依据 | 是；含必要配置行与函数摘录 |
-| L3 报告 | `docs/core.html` | 给策划讲明单局规则与设计关系，不混入工作日志或分析版本对比 | 是 |
+| L2 中间数据 | `research-data/in-run/`、`research-data/topics/` | 让各独立模块的研究可以检索、计算和复用；每条规则有状态、范围、依据 | 是；含必要配置行与函数摘录 |
+| L3 报告 | `docs/index.html`下的各独立模块 | 给策划讲明对应系统的规则与设计关系，不混入工作日志或分析版本对比 | 是 |
 
 物理上不搬动数百MB的L0/L1文件，以免破坏现有路径；层级由职责、清单和引用建立。L2为自包含快照，不依赖原仓库的绝对路径。
 
