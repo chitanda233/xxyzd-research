@@ -1,32 +1,5 @@
 [
   {
-    "id": "CQ01",
-    "topic": "treasure_monster",
-    "question": "是否还存在独立于已闭合NPC宝箱链的杀怪掉箱入口？",
-    "checked": [
-      "entity8从章节脚本、模型、AI拾取、state11、UI提交到技能到账闭合",
-      "宝箱退出→待处理特殊技能→state12闭合",
-      "entity7两结果Box、死亡普通DropMgr路径及特殊掉落fallback已区分",
-      "全部20,912行任务检查RandomNpc；142个主线基础/B映射、416条宝箱事件归档"
-    ],
-    "breakpoint": "已闭合当前静态主线宝箱；另一个杀怪掉箱入口缺少具体实现证据，不作为既定机制。",
-    "next_evidence": "仅在出现同版本额外实现或实机不一致证据时，复核MainDropManager热更分支；不以记忆中的三选一要求强行拼链。",
-    "do_not_repeat": "先复用treasure-chain.json和treasure-schedule.json；用户已明确以代码为准。"
-  },
-  {
-    "id": "CQ02",
-    "topic": "mid_stage_shop",
-    "question": "小关中途商店入口是否在当前可读基线中？",
-    "checked": [
-      "战斗类与UI类命名检索",
-      "TrackShopTrade/TrackSupplyStation直接交叉引用",
-      "技能选择UI方法名与章节特殊UI配置"
-    ],
-    "breakpoint": "已发现埋点落到局外，未找到战斗购买链",
-    "next_evidence": "新的明确局内商店入口或对应版本资源；当前停止扩大搜索",
-    "do_not_repeat": "不要重新全库泛搜商店关键词"
-  },
-  {
     "id": "CQ03",
     "topic": "initialization",
     "question": "新开局Init计数、引导覆盖及线上A/B如何赋值？",

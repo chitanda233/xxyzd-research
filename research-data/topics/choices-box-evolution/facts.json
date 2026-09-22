@@ -258,8 +258,7 @@
       "evidence/PlayerPunchboard--FillRandomSkillList.asm"
     ],
     "limitations": [
-      "基础概率只适用于不同战斗技能组数>4且没有属性修正；数量不等于净新增",
-      "数量不等于净新增，也不证明它就是用户描述的击杀宝箱怪"
+      "基础概率只适用于不同战斗技能组数>4且没有属性修正；数量不等于净新增"
     ]
   },
   {
@@ -313,23 +312,8 @@
       "evidence/HeroComponentRandomSkill--OpenSelectSpecialSkill.asm"
     ],
     "limitations": [
-      "静态链路确认；不把用户印象强行映射为必须击杀的怪物。",
       "1/3/5为奖励数量，不是三选一候选数；奖励后可能接武器特殊选择。",
       "脚本时间不是含暂停和战斗等待的现实秒表时间。"
-    ]
-  },
-  {
-    "id": "C13",
-    "title": "中途商店未确认",
-    "status": "unresolved",
-    "statement": "已检索战斗/界面商店命名和相关埋点引用；TrackSupplyStation直接调用者为UIDepotViewModule.OnOpen，TrackShopTrade由Tracker.TrackShopBuy调用，尚未找到小关中途购买入口。",
-    "parameters": {},
-    "evidence": [
-      "evidence/direct-xrefs.json"
-    ],
-    "limitations": [
-      "没有证据给出出现波次、库存、价格、刷新率；不把局外商店当成局内商店",
-      "直接引用扫描不覆盖虚调用、反射与热更；未找到不等于证明不存在"
     ]
   },
   {
@@ -410,6 +394,40 @@
     ],
     "limitations": [
       "没有给传统Box指定某个主线死亡怪物；也没有把native空fallback当作线上无功能证明。"
+    ]
+  },
+  {
+    "id": "C17",
+    "title": "主线接触宝箱的内容池与逐项抽取",
+    "status": "verified_static",
+    "statement": "PlayerPunchboard.Show传入类别权重[0,200,300,300]与内部容量16；GetAlreadyStudyRandomPool提取SkillStar>=2的升级条目，保留权重及前置条件。RandomPunchboardSkill逐项抽取并处理后续技能与进化依赖；不足时补位，最后整理连续升级结果。",
+    "parameters": {
+      "category_weights": [
+        0,
+        200,
+        300,
+        300
+      ],
+      "internal_capacity": 16,
+      "reward_counts": [
+        1,
+        3,
+        5
+      ]
+    },
+    "evidence": [
+      "evidence/WeightRandom--GetAlreadyStudySkill.asm",
+      "evidence/PlayerPunchboard--Show.asm",
+      "evidence/DankeSkillCreator--GetRandomPunchboardSkills.asm",
+      "evidence/DankeSkillCreator--GetAlreadyStudyRandomPool.asm",
+      "evidence/DankeSkillCreator--RandomPunchboardSkill.asm",
+      "evidence/SinglePlayerSkillCreator--GetInginiteSkill.asm",
+      "evidence/PlayerPunchboard--FillRandomSkillList.asm",
+      "evidence/PlayerPunchboard--GetResultSkillList.asm"
+    ],
+    "limitations": [
+      "16是候选构建容量，不是实际奖励数量；奖励可能升级或覆盖已有技能。",
+      "最终概率取决于当前合法候选、权重及逐项更新，不能把类别权重当作单技能固定概率。"
     ]
   }
 ]

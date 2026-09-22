@@ -81,11 +81,6 @@
     ],
     "probability_boundary": "类别权重不是单技能最终概率；合法池及连续升级改变后续抽取条件，不给固定武器百分比"
   },
-  "shop": {
-    "status": "unresolved",
-    "conclusion": "尚未闭合主线中途商店的购买入口、出现条件和商品池；未知不等于0%",
-    "source": "questions.json:CQ02"
-  },
   "evidence": [
     "evidence/WeightRandom--GetAlreadyStudySkill.asm",
     "evidence/PlayerPunchboard--Show.asm",
@@ -95,5 +90,6 @@
     "evidence/SinglePlayerSkillCreator--GetInginiteSkill.asm",
     "evidence/PlayerPunchboard--FillRandomSkillList.asm",
     "evidence/PlayerPunchboard--GetResultSkillList.asm"
-  ]
+  ],
+  "mechanism": "主线接触宝箱：飞机接触拾取，随机获得1／3／5项词条奖励，按结果批量学习；可能推进已有技能升级或触发后续武器特殊选择。"
 }
