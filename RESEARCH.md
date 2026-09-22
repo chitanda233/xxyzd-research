@@ -72,3 +72,10 @@ python3 research-data/tools/research.py export
 - 结构化数据：`research-data/topics/choices-box-evolution/`（规则、71章权重映射、22条配方、常量、证据和未闭合断点）。
 - 校验：`python3 research-data/tools/choice_topic.py validate`。
 - 以实际代码为准：主线宝箱实体8已接通章节生成→接触拾取→批量奖励→条件性武器特殊选择；调用链见treasure-chain.json，416条事件见treasure-schedule.json。额外杀怪掉箱未获证据，不能作为既定机制；中途商店仍未确认。
+
+## 怪物专题
+
+- 唯一报告：`docs/monsters.html`，含110种主线怪物档案、15类行为、基础属性与抗性、武器/子弹、基础碰撞形状、70章双分支2030波投放。
+- 中间数据：`research-data/topics/monsters/`，保留完整305条敌方实体、任务级投放、188个编队、30条路径和必要原生证据；文件与字段说明见目录README。
+- 日常查询：`python3 research-data/tools/monster_topic.py monster:320007` / `chapter:19`；独立复算与校验：`rebuild` / `validate`。
+- 专题包：`docs/downloads/xxyzd-monsters.zip`；无需APK即可离线阅读和复算。数量为脚本预算，不含动态召唤；形状为基础配置，不冒充实机像素命中框。
