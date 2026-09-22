@@ -1,0 +1,272 @@
+{
+  "title": "局外循环：资源、养成与长期目标怎样连接",
+  "lead": "局外系统给战斗结果一个去处，也为下一局提供准备目标。能力成长消耗材料，资源兑换补足缺口，公会、竞技和活动提供持续参与的目标。",
+  "question": "怎样把单局战斗接成长线追求，而不是堆出彼此无关的系统入口？",
+  "sections": [
+    {
+      "id": "overview",
+      "title": "1. 用资源去向组织外围系统",
+      "text": "从现有配置关系看，可以将外围分成永久能力、资源供应、长期挑战、周期活动四类。以下是产品结构归纳，不表示所有线上入口都已验证。",
+      "rows": [
+        [
+          "战斗与奖励入口产生资源",
+          "进入角色、装备、收藏等成长消耗",
+          "把单局成果转成下次挑战准备"
+        ],
+        [
+          "养成存在材料缺口",
+          "通过掉落、兑换、抽取或活动补充",
+          "为玩家提供不同获得路径"
+        ],
+        [
+          "基础章节之外需要长期目标",
+          "由竞技、公会与各类首领入口承接",
+          "扩展重复参与动机"
+        ],
+        [
+          "需要阶段性目标",
+          "用活动日历、任务条件和专属奖励组织",
+          "把有限周期内的行为聚焦到具体追求"
+        ]
+      ],
+      "heads": [
+        "什么情况下",
+        "系统做什么",
+        "玩家结果／策划意义"
+      ],
+      "refs": [],
+      "kind": "interpretation"
+    },
+    {
+      "id": "growth",
+      "title": "2. 永久能力：不同系统提供什么成长",
+      "text": "这里只写配置能支持的能力结构。最终战力贡献还需要把各系统属性统一合并后评估。",
+      "rows": [
+        [
+          "武器达到升星条件并消耗材料",
+          "星级记录包含属性提升及技能／特性连接",
+          "成长可同时增加数值与能力"
+        ],
+        [
+          "收藏达到升级／升星条件",
+          "提供生命、攻击等属性，使用独立材料及等级限制",
+          "形成另一条长期战力线"
+        ],
+        [
+          "更换或培养机体",
+          "机体拥有独立机制成长",
+          "在数值之外提供玩法差异"
+        ],
+        [
+          "飞行员相关资源存在",
+          "可确认独立数据域",
+          "完整能力合并未闭合，不据此编写战力比例"
+        ]
+      ],
+      "heads": [
+        "什么情况下",
+        "系统做什么",
+        "玩家结果／策划意义"
+      ],
+      "refs": [
+        "planner/inputs/AirplaneGun_Star.json",
+        "planner/inputs/Collection_TreasureStar.json",
+        "planner/inputs/CrossArena_CrossArenaSeason.json",
+        "planner/inputs/Calendar_CalendarFig.json",
+        "planner/inputs/Guild_guildcontribute.json",
+        "planner/inputs/Shop_Shop.json",
+        "planner/inputs/Shop_LootBox.json",
+        "planner/inputs/Shop_ShopGoods.json"
+      ],
+      "kind": "configuration"
+    },
+    {
+      "id": "resources",
+      "title": "3. 资源入口：在什么需求下使用哪种交换",
+      "text": "配置显示钻石可以兑换基础资源，局外抽取还带钥匙、免费周期和单／十次成本。它们分别控制补给与抽取节奏。",
+      "rows": [
+        [
+          "需要金币",
+          "金币兑换入口使用钻石与对应商品配置",
+          "将硬通货转换为基础养成资源"
+        ],
+        [
+          "需要体力",
+          "体力兑换配置注明递增购买",
+          "重复补给可能采用阶梯成本；准确价格要关联商品记录"
+        ],
+        [
+          "符合局外抽取条件",
+          "按钥匙、免费周期或抽取成本执行相应入口",
+          "为资源获得设置不同频率与成本"
+        ],
+        [
+          "商品有刷新或限购配置",
+          "按该商品和商店的实际规则限制",
+          "不能把某一商店的次数推广到所有入口"
+        ]
+      ],
+      "heads": [
+        "什么情况下",
+        "系统做什么",
+        "玩家结果／策划意义"
+      ],
+      "refs": [
+        "planner/inputs/AirplaneGun_Star.json",
+        "planner/inputs/Collection_TreasureStar.json",
+        "planner/inputs/CrossArena_CrossArenaSeason.json",
+        "planner/inputs/Calendar_CalendarFig.json",
+        "planner/inputs/Guild_guildcontribute.json",
+        "planner/inputs/Shop_Shop.json",
+        "planner/inputs/Shop_LootBox.json",
+        "planner/inputs/Shop_ShopGoods.json"
+      ],
+      "kind": "configuration"
+    },
+    {
+      "id": "longterm",
+      "title": "4. 长期挑战的具体例子：竞技与公会",
+      "text": "竞技把时间周期、入场次数和专属资源结合起来；公会则通过贡献、兑换及首领战建立额外参与目标。",
+      "rows": [
+        [
+          "竞技赛季配置",
+          "一条已核对记录为7天，开放时间00:00—23:50",
+          "把挑战组织成有周期的竞争目标"
+        ],
+        [
+          "竞技日常入场资源",
+          "独立票券配置每日恢复5张，并关联商店",
+          "通过票券控制参与节奏；线上执行需对应赛季"
+        ],
+        [
+          "公会贡献",
+          "配置消耗物品与产出的公会资源",
+          "将资源投入连接到公会经济"
+        ],
+        [
+          "公会或世界首领入口",
+          "有独立战斗管理入口",
+          "说明存在模式连接，但不据此推定刷新周期"
+        ]
+      ],
+      "heads": [
+        "什么情况下",
+        "系统做什么",
+        "玩家结果／策划意义"
+      ],
+      "refs": [
+        "planner/inputs/AirplaneGun_Star.json",
+        "planner/inputs/Collection_TreasureStar.json",
+        "planner/inputs/CrossArena_CrossArenaSeason.json",
+        "planner/inputs/Calendar_CalendarFig.json",
+        "planner/inputs/Guild_guildcontribute.json",
+        "planner/inputs/Shop_Shop.json",
+        "planner/inputs/Shop_LootBox.json",
+        "planner/inputs/Shop_ShopGoods.json"
+      ],
+      "kind": "configuration"
+    },
+    {
+      "id": "events",
+      "title": "5. 活动组织：时间条件＋行为目标＋奖励去向",
+      "text": "部分活动日历描述采用开服后第N天开启；任务目标和奖励将玩家行为连接到活动进度。机体专属资源兑换则提供了明确的奖励去向。",
+      "rows": [
+        [
+          "到达配置的开服天数条件",
+          "日历定义活动开启计划",
+          "适合组织开服阶段目标"
+        ],
+        [
+          "玩家达成活动任务目标",
+          "配置连接进度与奖励",
+          "形成可理解的参与理由"
+        ],
+        [
+          "获得专属活动货币",
+          "进入对应兑换项，例如机体资源",
+          "奖励有后续养成用途"
+        ],
+        [
+          "客户端存在某活动表但无开放证据",
+          "只记录为配置内容",
+          "不将历史或储备活动写成当前必开玩法"
+        ]
+      ],
+      "heads": [
+        "什么情况下",
+        "系统做什么",
+        "玩家结果／策划意义"
+      ],
+      "refs": [
+        "planner/inputs/AirplaneGun_Star.json",
+        "planner/inputs/Collection_TreasureStar.json",
+        "planner/inputs/CrossArena_CrossArenaSeason.json",
+        "planner/inputs/Calendar_CalendarFig.json",
+        "planner/inputs/Guild_guildcontribute.json",
+        "planner/inputs/Shop_Shop.json",
+        "planner/inputs/Shop_LootBox.json",
+        "planner/inputs/Shop_ShopGoods.json"
+      ],
+      "kind": "configuration"
+    },
+    {
+      "id": "reference",
+      "title": "6. 可参考的外围系统设计单",
+      "text": "先画资源如何流向永久能力，再决定哪些入口承担周期和参与限制。不要仅用系统数量衡量内容深度。",
+      "rows": [
+        [
+          "每种核心资源",
+          "列明产出、消耗、每日／每周限制和主要缺口",
+          "检查是否有稳定用途及替代路径"
+        ],
+        [
+          "每条养成线",
+          "写明属性、能力节点、所需材料和目标周期",
+          "区分数值沉淀与玩法变化"
+        ],
+        [
+          "每个周期玩法",
+          "写明开启条件、参与次数、周期目标和奖励去向",
+          "让参与目标与养成需求接上"
+        ],
+        [
+          "每个兑换入口",
+          "检查货币获取周期与商品限购是否匹配",
+          "避免奖励名义可得、实际长期无从完成"
+        ]
+      ],
+      "heads": [
+        "设计对象",
+        "需要填写的规则",
+        "验证目的"
+      ],
+      "refs": [],
+      "kind": "reference"
+    },
+    {
+      "id": "limits",
+      "title": "使用范围",
+      "text": "局外部分以配置事实为主，未闭合全量运行和服务器规则。因此本页可作为系统结构参考，不能直接当作经济平衡、真实付费价格或当前运营排期。",
+      "rows": [],
+      "heads": [
+        "什么情况下",
+        "系统做什么",
+        "玩家结果／策划意义"
+      ],
+      "refs": [],
+      "kind": "rule"
+    }
+  ],
+  "sources": [
+    "planner/inputs/AirplaneGun_Star.json",
+    "planner/inputs/Collection_TreasureStar.json",
+    "planner/inputs/CrossArena_CrossArenaSeason.json",
+    "planner/inputs/Calendar_CalendarFig.json",
+    "planner/inputs/Guild_guildcontribute.json",
+    "planner/inputs/Shop_Shop.json",
+    "planner/inputs/Shop_LootBox.json",
+    "planner/inputs/Shop_ShopGoods.json",
+    "planner/sources.json"
+  ],
+  "lookup": "config.html"
+}

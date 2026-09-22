@@ -1,0 +1,50 @@
+[
+  {
+    "ID": 2010101,
+    "AirplaneGunId": 20101,
+    "Star": 1,
+    "StarCost": [
+      [
+        20101,
+        1
+      ]
+    ],
+    "AttrOnStarUp": [
+      "PhysicalDamageAdd%=10",
+      "CritValue%=10"
+    ],
+    "FeatureInitSkill": [
+      "{\"Type\":\"Skill\",\"Args\":\"10000101\"}"
+    ],
+    "FeatureOnStarUp": [
+      "{\"Type\":\"Skill\",\"Args\":\"10601011\"}"
+    ],
+    "NewPower": [],
+    "UnlockSkinIds": []
+  },
+  {
+    "ID": 2010102,
+    "AirplaneGunId": 20101,
+    "Star": 2,
+    "StarCost": [
+      [
+        20101,
+        1
+      ]
+    ],
+    "AttrOnStarUp": [
+      "PhysicalDamageAdd%=20",
+      "CritValue%=20"
+    ],
+    "FeatureInitSkill": [
+      "{\"Type\":\"Skill\",\"Args\":\"10000101\"}"
+    ],
+    "FeatureOnStarUp": [
+      "{\"Type\":\"Skill\",\"Args\":\"10601012\"}"
+    ],
+    "NewPower": [
+      "PowerA%=4"
+    ],
+    "UnlockSkinIds": []
+  }
+]

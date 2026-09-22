@@ -1,0 +1,305 @@
+[
+  {
+    "id": 1,
+    "note": "钻石换金币1",
+    "nameId": "8309",
+    "price": [
+      [
+        2,
+        20
+      ]
+    ],
+    "iapPrice": 0,
+    "DiscountLanguageid": "",
+    "IncreaseValue": 0,
+    "limit": 200,
+    "refresh": 1,
+    "reward": [
+      [
+        1,
+        2000
+      ]
+    ],
+    "firstReward": [],
+    "type": 0,
+    "Unlock": "",
+    "adPrice": 9,
+    "iconAtlasID": 32,
+    "iconName": "IconShopCoin1",
+    "useImmediately": 0,
+    "perLimit": 10,
+    "Discount": 0,
+    "showReward": [
+      [
+        1,
+        2000
+      ]
+    ]
+  },
+  {
+    "id": 2,
+    "note": "钻石换金币2",
+    "nameId": "8310",
+    "price": [
+      [
+        2,
+        100
+      ]
+    ],
+    "iapPrice": 0,
+    "DiscountLanguageid": "",
+    "IncreaseValue": 0,
+    "limit": 200,
+    "refresh": 1,
+    "reward": [
+      [
+        1,
+        10000
+      ]
+    ],
+    "firstReward": [],
+    "type": 0,
+    "Unlock": "",
+    "adPrice": 0,
+    "iconAtlasID": 32,
+    "iconName": "IconShopCoin2",
+    "useImmediately": 0,
+    "perLimit": 10,
+    "Discount": 0,
+    "showReward": [
+      [
+        1,
+        10000
+      ]
+    ]
+  },
+  {
+    "id": 1302,
+    "note": "每日特惠:毒蝎永久8次",
+    "nameId": "",
+    "price": [
+      [
+        102,
+        1200
+      ]
+    ],
+    "iapPrice": 0,
+    "DiscountLanguageid": "",
+    "IncreaseValue": 0,
+    "limit": 8,
+    "refresh": -1,
+    "reward": [
+      [
+        10106,
+        1
+      ]
+    ],
+    "firstReward": [],
+    "type": 0,
+    "Unlock": "",
+    "adPrice": 0,
+    "iconAtlasID": 0,
+    "iconName": "",
+    "useImmediately": 0,
+    "perLimit": 0,
+    "Discount": 0,
+    "showReward": []
+  },
+  {
+    "id": 3011,
+    "note": "公会商店:金色飞机-飞鹰号周1次",
+    "nameId": "",
+    "price": [
+      [
+        128,
+        15000
+      ]
+    ],
+    "iapPrice": 0,
+    "DiscountLanguageid": "",
+    "IncreaseValue": 0,
+    "limit": 1,
+    "refresh": 7,
+    "reward": [
+      [
+        10105,
+        1
+      ]
+    ],
+    "firstReward": [],
+    "type": 0,
+    "Unlock": "{\"GuildLv\":7}",
+    "adPrice": 0,
+    "iconAtlasID": 0,
+    "iconName": "",
+    "useImmediately": 0,
+    "perLimit": 0,
+    "Discount": 0,
+    "showReward": []
+  },
+  {
+    "id": 300131,
+    "note": "幻影x1",
+    "nameId": "",
+    "price": [
+      [
+        1002,
+        10
+      ]
+    ],
+    "iapPrice": 0,
+    "DiscountLanguageid": "",
+    "IncreaseValue": 0,
+    "limit": 8,
+    "refresh": -1,
+    "reward": [
+      [
+        10108,
+        1
+      ]
+    ],
+    "firstReward": [],
+    "type": 9,
+    "Unlock": "",
+    "adPrice": 0,
+    "iconAtlasID": 0,
+    "iconName": "",
+    "useImmediately": 0,
+    "perLimit": 0,
+    "Discount": 0,
+    "showReward": []
+  },
+  {
+    "id": 400131,
+    "note": "黑武士x1",
+    "nameId": "",
+    "price": [
+      [
+        1008,
+        50
+      ]
+    ],
+    "iapPrice": 0,
+    "DiscountLanguageid": "",
+    "IncreaseValue": 0,
+    "limit": 8,
+    "refresh": -1,
+    "reward": [
+      [
+        10107,
+        1
+      ]
+    ],
+    "firstReward": [],
+    "type": 11,
+    "Unlock": "",
+    "adPrice": 0,
+    "iconAtlasID": 0,
+    "iconName": "",
+    "useImmediately": 0,
+    "perLimit": 0,
+    "Discount": 0,
+    "showReward": []
+  },
+  {
+    "id": 500131,
+    "note": "黑武士x1",
+    "nameId": "",
+    "price": [
+      [
+        1012,
+        25
+      ]
+    ],
+    "iapPrice": 0,
+    "DiscountLanguageid": "",
+    "IncreaseValue": 0,
+    "limit": 8,
+    "refresh": -1,
+    "reward": [
+      [
+        10107,
+        1
+      ]
+    ],
+    "firstReward": [],
+    "type": 12,
+    "Unlock": "{\"FishingWeight\":324000}",
+    "adPrice": 0,
+    "iconAtlasID": 0,
+    "iconName": "",
+    "useImmediately": 0,
+    "perLimit": 0,
+    "Discount": 0,
+    "showReward": []
+  },
+  {
+    "id": 1100131,
+    "note": "幻影x1",
+    "nameId": "",
+    "price": [
+      [
+        1021,
+        30
+      ]
+    ],
+    "iapPrice": 0,
+    "DiscountLanguageid": "",
+    "IncreaseValue": 0,
+    "limit": 8,
+    "refresh": -1,
+    "reward": [
+      [
+        10108,
+        1
+      ]
+    ],
+    "firstReward": [],
+    "type": 13,
+    "Unlock": "",
+    "adPrice": 0,
+    "iconAtlasID": 0,
+    "iconName": "",
+    "useImmediately": 0,
+    "perLimit": 0,
+    "Discount": 0,
+    "showReward": []
+  },
+  {
+    "id": 1001,
+    "note": "20钻石换竞技场门票",
+    "nameId": "15044",
+    "price": [
+      [
+        2,
+        20
+      ]
+    ],
+    "iapPrice": 0,
+    "DiscountLanguageid": "",
+    "IncreaseValue": 0,
+    "limit": 5,
+    "refresh": 0,
+    "reward": [
+      [
+        1,
+        50
+      ]
+    ],
+    "firstReward": [],
+    "type": 0,
+    "Unlock": "",
+    "adPrice": 0,
+    "iconAtlasID": 32,
+    "iconName": "IconShopGem6",
+    "useImmediately": 0,
+    "perLimit": 0,
+    "Discount": 0,
+    "showReward": [
+      [
+        1,
+        50
+      ]
+    ]
+  }
+]

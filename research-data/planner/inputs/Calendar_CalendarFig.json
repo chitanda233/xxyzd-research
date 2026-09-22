@@ -1,0 +1,22 @@
+[
+  {
+    "key": "ActivityCalendarStartTime",
+    "Desc": "冲刺活动循环的开启时间(开服+N天)",
+    "TypeInt": 1,
+    "TypeIntArray": [],
+    "TypeString": "",
+    "TypeFloat": 0.0,
+    "TypeFloatArray": [],
+    "TypeStringArray": []
+  },
+  {
+    "key": "CalendarRoundTarget",
+    "Desc": "冲刺活动目标类型-参数",
+    "TypeInt": 0,
+    "TypeIntArray": [],
+    "TypeString": "101,1,3|102,1,5",
+    "TypeFloat": 0.0,
+    "TypeFloatArray": [],
+    "TypeStringArray": []
+  }
+]

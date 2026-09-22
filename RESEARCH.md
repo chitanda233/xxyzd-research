@@ -80,3 +80,7 @@ python3 research-data/tools/render.py
 - 中间数据：`research-data/topics/monsters/`，保留完整305条敌方实体、任务级投放、188个编队、30条路径和必要原生证据；文件与字段说明见目录README。
 - 日常查询：`python3 research-data/tools/monster_topic.py monster:320007` / `chapter:19`；独立复算与校验：`rebuild` / `validate`。
 - 交接方式：直接使用对应的 `research-data/topics/` 数据与证据目录，以及 `docs/` 中的报告文件，不生成压缩包。
+
+## 策划报告的正式结构
+
+以 `docs/index.html` 为总入口，七个模块并列：局内节奏、怪物与弹幕、三选一/宝箱/进化、章节规划、武器构筑、战机养成、局外循环。正文源位于 `research-data/planner/`，统一执行 `python3 research-data/tools/planner_reports.py`。正文按设计问题、条件与动作、具体案例、设计参考组织，代码和字段解释通过来源链接下沉。全量查表独立放在 `monster-query.html`、`chapter-query.html`、`skill-query.html`，不与正文混排。

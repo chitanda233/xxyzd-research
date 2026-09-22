@@ -34,3 +34,7 @@ python3 research-data/tools/chapter_topic.py chapter:55
 ```
 
 更新数据后执行对应模块的 rebuild、render、validate；不执行打包。新增证据放进所属专题的 evidence/，补充来源与适用范围；没有证据的结论保留未确认状态。只有需要新方法或新版本时才深入 L1/L0。
+
+## 策划正文维护
+
+七个策划模块的正文源在 [planner/](planner/README.md)，以条件、系统动作、玩家结果和设计参考组织。统一渲染：`python3 research-data/tools/planner_reports.py`。怪物、章节和技能全量数据保留在独立查询工具。

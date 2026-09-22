@@ -1,0 +1,40 @@
+[
+  {
+    "id": 6300100,
+    "tagId": 1001,
+    "treasureId": 63001,
+    "star": 0,
+    "basicAttribute": [
+      "Attack=40",
+      "HPMax=160"
+    ],
+    "effectTimes": 0,
+    "effectAttributeEx": "",
+    "starItemCost": [
+      [
+        601,
+        100
+      ]
+    ],
+    "levelLimit": 1
+  },
+  {
+    "id": 6300101,
+    "tagId": 1001,
+    "treasureId": 63001,
+    "star": 1,
+    "basicAttribute": [
+      "Attack=60",
+      "HPMax=240"
+    ],
+    "effectTimes": 0,
+    "effectAttributeEx": "",
+    "starItemCost": [
+      [
+        601,
+        200
+      ]
+    ],
+    "levelLimit": 1
+  }
+]

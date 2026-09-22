@@ -1,0 +1,194 @@
+[
+  {
+    "Id": 10101,
+    "IfClose": 0,
+    "UnlockCost": [
+      [
+        10101,
+        1
+      ]
+    ],
+    "RoleEntity": 100002,
+    "Quality": 40,
+    "NameId": "RoleSkinName_10101",
+    "Icon": "Stg_Equip_plane_06",
+    "IconQualityBg": "stg_aircraft_quality_blue",
+    "Atlas": 3,
+    "ShopGoodsId": 0,
+    "ShowModelID": 1002,
+    "StoryId": 6500,
+    "ShowModel": "Assets/_Resources/Prefab/UI/PlaneUI/model_plane_7.prefab",
+    "ShowModelForBase": "Assets/_Resources/Prefab/UI/CampPlane/CampPlane7.prefab",
+    "ShowModelForShop": "stg_Task_plane_01",
+    "RoleQualityBgRes": "Assets/_Resources/Texture/ui_plane/stg_aircraft_bg_30.png",
+    "RoleRes": "Assets/_Resources/Texture/ui_plane/YellowPlane.png"
+  },
+  {
+    "Id": 10102,
+    "IfClose": 1,
+    "UnlockCost": [
+      [
+        10102,
+        1
+      ]
+    ],
+    "RoleEntity": 100003,
+    "Quality": 40,
+    "NameId": "RoleSkinName_10102",
+    "Icon": "Stg_Equip_plane_07",
+    "IconQualityBg": "stg_aircraft_quality_blue",
+    "Atlas": 3,
+    "ShopGoodsId": 0,
+    "ShowModelID": 120004,
+    "StoryId": 6500,
+    "ShowModel": "Assets/_Resources/Prefab/UI/PlaneUI/model_plane_8.prefab",
+    "ShowModelForBase": "Assets/_Resources/Prefab/UI/CampPlane/CampPlane8.prefab",
+    "ShowModelForShop": "",
+    "RoleQualityBgRes": "Assets/_Resources/Texture/ui_plane/stg_aircraft_bg_40.png",
+    "RoleRes": "Assets/_Resources/Texture/ui_plane/OrangePlane.png"
+  },
+  {
+    "Id": 10103,
+    "IfClose": 0,
+    "UnlockCost": [
+      [
+        10103,
+        1
+      ]
+    ],
+    "RoleEntity": 100004,
+    "Quality": 50,
+    "NameId": "RoleSkinName_10103",
+    "Icon": "Stg_Equip_plane_08",
+    "IconQualityBg": "stg_aircraft_quality_purple",
+    "Atlas": 3,
+    "ShopGoodsId": 0,
+    "ShowModelID": 120004,
+    "StoryId": 6500,
+    "ShowModel": "Assets/_Resources/Prefab/UI/PlaneUI/model_plane_9.prefab",
+    "ShowModelForBase": "Assets/_Resources/Prefab/UI/CampPlane/CampPlane9.prefab",
+    "ShowModelForShop": "",
+    "RoleQualityBgRes": "Assets/_Resources/Texture/ui_plane/stg_aircraft_bg_40.png",
+    "RoleRes": "Assets/_Resources/Texture/ui_plane/OrangePlane.png"
+  },
+  {
+    "Id": 10104,
+    "IfClose": 0,
+    "UnlockCost": [
+      [
+        10104,
+        1
+      ]
+    ],
+    "RoleEntity": 100005,
+    "Quality": 50,
+    "NameId": "RoleSkinName_10104",
+    "Icon": "Stg_Equip_plane_09",
+    "IconQualityBg": "stg_aircraft_quality_purple",
+    "Atlas": 3,
+    "ShopGoodsId": 0,
+    "ShowModelID": 120004,
+    "StoryId": 6500,
+    "ShowModel": "Assets/_Resources/Prefab/UI/PlaneUI/model_plane_10.prefab",
+    "ShowModelForBase": "Assets/_Resources/Prefab/UI/CampPlane/CampPlane10.prefab",
+    "ShowModelForShop": "",
+    "RoleQualityBgRes": "Assets/_Resources/Texture/ui_plane/stg_aircraft_bg_40.png",
+    "RoleRes": "Assets/_Resources/Texture/ui_plane/OrangePlane.png"
+  },
+  {
+    "Id": 10105,
+    "IfClose": 0,
+    "UnlockCost": [
+      [
+        10105,
+        1
+      ]
+    ],
+    "RoleEntity": 100007,
+    "Quality": 50,
+    "NameId": "RoleSkinName_10105",
+    "Icon": "Stg_Equip_plane_11",
+    "IconQualityBg": "stg_aircraft_quality_purple",
+    "Atlas": 3,
+    "ShopGoodsId": 0,
+    "ShowModelID": 120004,
+    "StoryId": 6500,
+    "ShowModel": "Assets/_Resources/Prefab/UI/PlaneUI/model_plane_14.prefab",
+    "ShowModelForBase": "Assets/_Resources/Prefab/UI/CampPlane/CampPlane14.prefab",
+    "ShowModelForShop": "",
+    "RoleQualityBgRes": "Assets/_Resources/Texture/ui_plane/stg_aircraft_bg_40.png",
+    "RoleRes": "Assets/_Resources/Texture/ui_plane/OrangePlane.png"
+  },
+  {
+    "Id": 10106,
+    "IfClose": 0,
+    "UnlockCost": [
+      [
+        10106,
+        1
+      ]
+    ],
+    "RoleEntity": 100008,
+    "Quality": 60,
+    "NameId": "RoleSkinName_10106",
+    "Icon": "Stg_Equip_plane_12",
+    "IconQualityBg": "stg_aircraft_quality_yellow",
+    "Atlas": 3,
+    "ShopGoodsId": 0,
+    "ShowModelID": 120004,
+    "StoryId": 6500,
+    "ShowModel": "Assets/_Resources/Prefab/UI/PlaneUI/model_plane_12.prefab",
+    "ShowModelForBase": "Assets/_Resources/Prefab/UI/CampPlane/CampPlane12.prefab",
+    "ShowModelForShop": "",
+    "RoleQualityBgRes": "Assets/_Resources/Texture/ui_plane/stg_aircraft_bg_40.png",
+    "RoleRes": "Assets/_Resources/Texture/ui_plane/OrangePlane.png"
+  },
+  {
+    "Id": 10107,
+    "IfClose": 0,
+    "UnlockCost": [
+      [
+        10107,
+        1
+      ]
+    ],
+    "RoleEntity": 100009,
+    "Quality": 60,
+    "NameId": "RoleSkinName_10107",
+    "Icon": "Stg_Equip_plane_13",
+    "IconQualityBg": "stg_aircraft_quality_yellow",
+    "Atlas": 3,
+    "ShopGoodsId": 0,
+    "ShowModelID": 120004,
+    "StoryId": 6500,
+    "ShowModel": "Assets/_Resources/Prefab/UI/PlaneUI/model_plane_13.prefab",
+    "ShowModelForBase": "Assets/_Resources/Prefab/UI/CampPlane/CampPlane13.prefab",
+    "ShowModelForShop": "",
+    "RoleQualityBgRes": "Assets/_Resources/Texture/ui_plane/stg_aircraft_bg_40.png",
+    "RoleRes": "Assets/_Resources/Texture/ui_plane/OrangePlane.png"
+  },
+  {
+    "Id": 10108,
+    "IfClose": 0,
+    "UnlockCost": [
+      [
+        10108,
+        1
+      ]
+    ],
+    "RoleEntity": 100006,
+    "Quality": 60,
+    "NameId": "RoleSkinName_10108",
+    "Icon": "Stg_Equip_plane_10",
+    "IconQualityBg": "stg_aircraft_quality_yellow",
+    "Atlas": 3,
+    "ShopGoodsId": 0,
+    "ShowModelID": 120004,
+    "StoryId": 6500,
+    "ShowModel": "Assets/_Resources/Prefab/UI/PlaneUI/model_plane_11.prefab",
+    "ShowModelForBase": "Assets/_Resources/Prefab/UI/CampPlane/CampPlane11.prefab",
+    "ShowModelForShop": "",
+    "RoleQualityBgRes": "Assets/_Resources/Texture/ui_plane/stg_aircraft_bg_40.png",
+    "RoleRes": "Assets/_Resources/Texture/ui_plane/OrangePlane.png"
+  }
+]

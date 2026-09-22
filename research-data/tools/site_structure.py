@@ -3,6 +3,7 @@ import re
 from pathlib import Path
 MODULES=[('core.html','局内整体链路'),('monsters.html','怪物、弹幕与章节分布'),('choices-box-evolution.html','三选一、宝箱与武器进化'),('chapter-planning.html','章节规划与规则差异'),('skills.html','局内升级词条'),('aircraft.html','战机与皮肤'),('systems.html','局外系统')]
 def normalize(text,current):
+ if 'assets/planner.css' in text:return text
  def nav(match):
   old=match.group(0);anchors=re.findall(r'<li>\s*(<a href="#[^"]+">.*?</a>)\s*</li>',old,re.S)
   local='<strong>本页目录</strong><ul>'+''.join('<li>'+a+'</li>' for a in anchors)+'</ul>' if anchors else ''
@@ -10,6 +11,7 @@ def normalize(text,current):
  text=re.sub(r'<nav class="toc">.*?</nav>',nav,text,flags=re.S)
  return re.sub(r'<a class="back" href="[^"]+">.*?</a>','<a class="back" href="index.html">← 研究首页</a>',text)
 def homepage(text):
+ if 'assets/planner.css' in text:return text
  cards={re.search(r'href="([^"]+)"',c)[1]:c for c in re.findall(r'<a class="card".*?</a>',text,re.S)}
  planner='<h2>策划反拆</h2><p>独立模块并列组织，分别解释各系统的设计逻辑、规则与配置关系。</p><section class="grid">'+''.join(cards[p] for p,_ in MODULES)+'</section>'
  tools='<h2 style="margin-top:34px">工具</h2><p>按表名、字段、ID和结论编号查询数据。</p><section class="grid">'+cards['config.html']+cards['research-data.html']+'</section>'

@@ -177,7 +177,8 @@ def render():
     parts.append('''<h2 id="evidence">7. 证据、边界与同事复用</h2><p>配置事实来自本专题inputs中的章节、波次、任务、随机刷新组与保护模板；技能算法复用已核实的三选一专题C01—C08，原生方法摘录保存在evidence。正文涉及章节规划目的的表述为策划解读。完整来源路径、原始文件哈希和方法名见sources.json。</p>''')
     for name,label in [('facts.json','规则与策划解读'),('chapters.json','71条章节汇总'),('waves.json','双分支逐波数据'),('branch-differences.json','完整基础/B字段差异'),('sources.json','输入和原生方法来源'),('questions.json','待证问题与继续条件'),('manifest.json','数据哈希清单')]:parts.append('<p><a href="'+base+name+'">'+label+'</a></p>')
     parts.append('<p><a href="https://github.com/chitanda233/xxyzd-research/tree/main/research-data/topics/chapter-planning/">查看章节专题数据与证据目录</a></p><pre>python3 research-data/tools/chapter_topic.py validate\npython3 research-data/tools/chapter_topic.py chapter:55\npython3 research-data/tools/chapter_topic.py rebuild\npython3 research-data/tools/chapter_topic.py render</pre><p>离线复算只需目录中的输入和Python标准库，不需要APK或反编译环境。时间为配置值，倍率为解码十进制；输入同时保留运行定点数。未验证服务端开放、线上热更新、实际分流比例及玩家胜率。</p></article></main><a class="back" href="core.html">← 整体链路报告</a><script src="assets/term-tips.js"></script></body></html>')
-    (ROOT/'docs/chapter-planning.html').write_text(__import__('site_structure').normalize(''.join(parts),'chapter-planning.html'))
+    __import__('planner_reports').render_lookup('chapters', ''.join(parts))
+    __import__('planner_reports').render_page('chapter-planning')
 
 def export():
     raise SystemExit('证据按目录交接，不生成压缩包；请查看 research-data/。')

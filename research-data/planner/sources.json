@@ -1,0 +1,100 @@
+[
+  {
+    "path": "inputs/Role_Role.json",
+    "origin": "restored/configs/tables/Role_Role.json",
+    "sha256": "3bc35a06e2de6ecefa99c0fcc843812e0b406615005143d9ea07204f13fee694",
+    "selection": "完整表，支持本报告规则与来源核对",
+    "rows": 1
+  },
+  {
+    "path": "inputs/Role_Skin.json",
+    "origin": "restored/configs/tables/Role_Skin.json",
+    "sha256": "8afdd1483cb16a69ae7a3afd5c5295d93ea679274635acfb1ed168a3a1dcb1a2",
+    "selection": "完整表，支持本报告规则与来源核对",
+    "rows": 8
+  },
+  {
+    "path": "inputs/Role_SkinStar.json",
+    "origin": "restored/configs/tables/Role_SkinStar.json",
+    "sha256": "3cbef642cf09ea2d9342145f1d13c975b0bc1459bc450ce8c48058234b2a053f",
+    "selection": "完整表，支持本报告规则与来源核对",
+    "rows": 40
+  },
+  {
+    "path": "inputs/CrossArena_CrossArenaSeason.json",
+    "origin": "restored/configs/tables/CrossArena_CrossArenaSeason.json",
+    "sha256": "c555dcb6972794f65dc669049fc688827127ca3cdc5a6a7e57656a2a22154ad4",
+    "selection": "完整表，支持本报告规则与来源核对",
+    "rows": 1
+  },
+  {
+    "path": "inputs/Calendar_CalendarFig.json",
+    "origin": "restored/configs/tables/Calendar_CalendarFig.json",
+    "sha256": "26ca5bf2cb8da64c0a32cc5ab5d766189a8f5fe9942e4f51c1ba8c9f6cdd52a3",
+    "selection": "完整表，支持本报告规则与来源核对",
+    "rows": 2
+  },
+  {
+    "path": "inputs/Guild_guildcontribute.json",
+    "origin": "restored/configs/tables/Guild_guildcontribute.json",
+    "sha256": "bd955970f507f06dfff654fc719db1f1267f52384793b292e080a1e8f05e2b55",
+    "selection": "完整表，支持本报告规则与来源核对",
+    "rows": 5
+  },
+  {
+    "path": "inputs/Shop_Shop.json",
+    "origin": "restored/configs/tables/Shop_Shop.json",
+    "sha256": "ca692c6e499f03e8598185a0c00944a2bd08d424c25398efdb48d6b8ddf81653",
+    "selection": "完整表，支持本报告规则与来源核对",
+    "rows": 34
+  },
+  {
+    "path": "inputs/Shop_LootBox.json",
+    "origin": "restored/configs/tables/Shop_LootBox.json",
+    "sha256": "6a2f995335203f031823c60e51dc0c9a5cb33d7077513c9bf29dc6a31be21e9f",
+    "selection": "完整表，支持本报告规则与来源核对",
+    "rows": 7
+  },
+  {
+    "path": "inputs/AirplaneGun_Star.json",
+    "origin": "restored/configs/tables/AirplaneGun_Star.json",
+    "sha256": "2fb1f0adcef9a3959b355bd5fe6e827edcea14a597852fff3d3b6652c6f77962",
+    "selection": "前两条配置样例，仅用于核实本报告所述字段结构或第一周签到",
+    "rows": 2
+  },
+  {
+    "path": "inputs/Collection_TreasureStar.json",
+    "origin": "restored/configs/tables/Collection_TreasureStar.json",
+    "sha256": "106071b2b1f1aed567532cd141df81e51bee71462edde684a5fd6044a4d74e41",
+    "selection": "前两条配置样例，仅用于核实本报告所述字段结构或第一周签到",
+    "rows": 2
+  },
+  {
+    "path": "inputs/SignIn_SignIn.json",
+    "origin": "restored/configs/tables/SignIn_SignIn.json",
+    "sha256": "75de9e4e65bd094924061eb290211dc4427e044076a736172a27272f5166a92f",
+    "selection": "前两条配置样例，仅用于核实本报告所述字段结构或第一周签到",
+    "rows": 2
+  },
+  {
+    "path": "inputs/Shop_ShopGoods.json",
+    "origin": "restored/configs/tables/Shop_ShopGoods.json",
+    "sha256": "11d24cbb1339f3b30c8f715242dd5c80b36dae61e33504c43cfaaed007799594",
+    "selection": "金币兑换、竞技票券与全部机体资源兑换项",
+    "rows": 9
+  },
+  {
+    "path": "inputs/Skill_Main.json",
+    "origin": "restored/configs/tables/Skill_Main.json",
+    "sha256": "9c0e675459c13d0e844be2d904e4b449c606d0a73106238616524a86c6611e5b",
+    "selection": "机体升星显式关联的技能节点",
+    "rows": 30
+  },
+  {
+    "path": "inputs/Language_languagetable.json",
+    "origin": "restored/configs/tables/Language_languagetable.json",
+    "sha256": "7ad04e135b6212900f7418b01da03c600fdb972dc3ff38e43993fe44649ffe50",
+    "selection": "机体名称与升星能力文案；保留原始行，作为配置文案而非运行证据",
+    "rows": 68
+  }
+]
