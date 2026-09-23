@@ -92,7 +92,7 @@ def choices():
         c=next(x for x in chapters if x['chapter']==n)
         schedule.append([f'第{n}章',c['waves'],'／'.join('W'+str(w) for w in c['variants']['base']['chest_waves']),', '.join(f'{k}: {v}行' for k,v in c['variants']['base']['random_npc_values'].items())])
     cweight=[x for x in weights if x['pool']=='InitSurvivorGroup']
-    sample=[x for x in cweight if x['skill_id'] in [10000101,10000601,10001701,10002001]]
+    sample=[x for x in cweight if x['skill_id'] in [10000101,10000401,10000601,10001701]]
     sample_rows=[[x['name'],x['weight']]+[x['chapter_group_weights'][str(i)] for i in [1,2,3,4,5,6]] for x in sample]
     out=['<div class="compendium-intro"><h2>先把三种“选择”拆开</h2><p>普通波末的三选一、接触宝箱的1／3／5项批量奖励、突破后的武器专属选择，入口、候选池和结算方式不同。先分清是哪一种，再谈概率与词条来源。</p></div>',process([('普通升级','筛合法池'),('三选一','逐张抽、玩家选一'),('接触宝箱','定项数、逐项抽、批量学'),('进化','配方入池、抽到后专属选')])]
     out.append(section('1 · 三种入口如何接力',['普通升级来自经验与待升级次数：每次生成三张可选牌，玩家只取得一张。接触宝箱来自章节missinType=9任务：飞机拾取后，系统生成1、3或5项结果并批量学习。突破后的专属选择则由特殊升级节点排队，在前一状态退出后进入。','同一时段可能连续经过普通选牌、宝箱、专属选择，玩家会感到“接连选很多次”。但策划计算时必须逐个入口核对：普通三选一的展示率不能用宝箱的1／3／5项权重计算，宝箱也不是先展示三张再让玩家只拿一张。'],['入口','何时触发','玩家动作','结算数量'],[['普通波末','待升级次数>0','三张候选选一张','一次学习一张，可连续触发多次'],['接触宝箱','章节任务生成，接触进度完成','拾取并进入批量奖励状态','一次生成1／3／5项，逐项处理'],['武器专属','已获得IsUpgrade特殊节点并有待处理列表','在后续状态选择专属方向','按该武器的分支候选处理']],['topics/choices-box-evolution/facts.json','topics/choices-box-evolution/treasure-chain.json']))

@@ -4,6 +4,7 @@
 
 - 日常修改正文：开篇和设计参考改对应模块 JSON，全链路机制改 `../tools/planner_compendium.py`，配置附表改 `../tools/planner_details.py`；再运行 `python3 research-data/tools/planner_reports.py`。
 - 校验：`python3 research-data/tools/planner_reports.py validate`。
+- 正文数字复核：`python3 research-data/tools/planner_audit.py`；只读取 L2 快照，不需要 APK。
 - 证据优先复用 `../in-run/` 与 `../topics/`，通过 refs 直接引用；不复制反编译工程。
 - `inputs/` 补充战机与局外系统所需的最小配置，`sources.json` 记录原始路径、选取范围和哈希。
 - 查询层：docs/monster-query.html、chapter-query.html、skill-query.html；全量档案不进入正文。
