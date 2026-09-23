@@ -52,7 +52,7 @@ python3 research-data/tools/research.py rebuild
 python3 research-data/tools/render.py
 ```
 
-轻量ZIP包含报告、数据页、样式、L2全部数据与最小摘录、查询/复算工具。接手者解压即可离线读报告和JSON，Python标准库即可校验。不含APK、完整native库、美术、SQLite数据库。独立页面上的外围研究站链接可能仍需联网。
+交接时直接移交 `docs/` 报告与 `research-data/` 中间数据、证据、清单和查询/复算工具；各目录以普通文件形式保存，不打包。Python标准库即可校验。包内不放APK、完整native库、美术或SQLite数据库。独立页面上的外围研究站链接可能仍需联网。
 
 所有L2文件带哈希清单；F编号引用来源ID，来源提供L1原路径、函数RVA或表行键。变更时保留Git提交记录即可，不维护多份相互竞争的“最终分析”。历史研究笔记不是新的事实入口。
 
@@ -72,7 +72,7 @@ python3 research-data/tools/render.py
 - 唯一专题报告：`docs/choices-box-evolution.html`。
 - 结构化数据：`research-data/topics/choices-box-evolution/`（规则、71章权重映射、22条配方、常量、证据和未闭合断点）。
 - 校验：`python3 research-data/tools/choice_topic.py validate`。
-- 以实际代码为准：主线宝箱实体8已接通章节生成→接触拾取→批量奖励→条件性武器特殊选择；调用链见treasure-chain.json，416条事件见treasure-schedule.json。额外杀怪掉箱未获证据，不能作为既定机制；中途商店仍未确认。
+- 以实际代码为准：主线宝箱实体8已接通章节生成→接触拾取→批量奖励→条件性武器特殊选择；调用链见treasure-chain.json，416条事件见treasure-schedule.json。额外杀怪掉箱未获证据，不能作为既定机制。
 
 ## 怪物专题
 
@@ -83,4 +83,4 @@ python3 research-data/tools/render.py
 
 ## 策划报告的正式结构
 
-以 `docs/index.html` 为总入口，七个模块并列：局内节奏、怪物与弹幕、三选一/宝箱/进化、章节规划、武器构筑、战机养成、局外循环。正文源位于 `research-data/planner/`，统一执行 `python3 research-data/tools/planner_reports.py`。正文按设计问题、条件与动作、具体案例、设计参考组织，代码和字段解释通过来源链接下沉。全量查表独立放在 `monster-query.html`、`chapter-query.html`、`skill-query.html`，不与正文混排。
+以 `docs/index.html` 为总入口，七个模块并列：局内节奏、怪物与弹幕、三选一/宝箱/进化、章节规划、武器构筑、战机养成、局外循环。策划提要在 `research-data/planner/`，完整规则由 `research-data/tools/planner_details.py` 依据 L2 数据生成，统一执行 `python3 research-data/tools/planner_reports.py`。正文按设计问题、条件与动作、具体案例、设计参考组织，代码和字段解释通过来源链接下沉。全量查表独立放在 `monster-query.html`、`chapter-query.html`、`skill-query.html`，不与正文混排。

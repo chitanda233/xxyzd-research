@@ -26,7 +26,7 @@ verified_static只表示静态实现与配置范围，不等于live verified。�
 | 字段 | 含义 |
 |---|---|
 | id | T:表名 或 N:函数别名 |
-| kind | config_rows / native_excerpt |
+| kind | config_rows / native_excerpt / derived_rows |
 | path | 相对本数据集根目录，可离线读取 |
 | sha256 | 包内快照/摘录的指纹 |
 | row_key / row_ids / record_count | 精确行键、所保留行、行数 |
@@ -43,18 +43,18 @@ verified_static只表示静态实现与配置范围，不等于live verified。�
 |---|---|
 | script_start_seconds / next_script_start_seconds | 配置脚本秒；不是玩家墙钟时间 |
 | nominal_window_seconds | 相邻波脚本起点差；末波null，不估计Boss耗时 |
-| configured_monster_count | 配置刷新总数；硬门槛波可能提前截断 |
+| configured_monster_count | 按组合编队成员、固定刷新和随机任务目标量展开后的配置计划总数；硬门槛波可能提前截断 |
 | count_semantics | 普通配置数 / 脚本最大数量，不表示实战必出 |
 | composition | 实体ID→配置数量 |
 | death_gate / special_entities | 是否需特殊目标死亡 / 目标ID |
 | experience_budget | 波总经验预算，与静态怪物exp之和不同 |
 | cumulative_experience / level_threshold | 截至该波的累计预算与对应等级阈值 |
 | ordinary_growth_node | 是否配置普通波末升级UI，不表示必定只升级一次 |
-| events | 刷新与阶段任务明细，保留mission_id、source_ref、脚本时间 |
+| events | 刷新计划与阶段任务明细，保留mission_id、source_ref、脚本时间；成员延迟和模板位置保留在routes内 |
 | events.source_ref.entry_index | 位置组flushPool内的零基序号 |
 | events.source_ref.row_ids | 随机候选配置ID列表；数量由F03解释 |
 
-规则：`numberRandom`是总目标怪量，不是“池数×组大小×抽取次数”。当前包只支持随机候选实体集合单一的精确计算；混合实体池会报错，要求补充概率模型，不输出猜测组合。时间计算使用配置decimal；完整Q16运行值仍在inputs里。
+规则：`numberRandom`是总目标怪量，不是“池数×组大小×抽取次数”。`inputs/chapter-1-spawn-plans.json`是怪物专题逐任务投放数据在第一章的可移交切片，保存位置组、组合成员、随机路线、重复和间隔。它已按实际成员展开数量；含不确定范围的任务会拒绝输出精确总量，不猜测组合。时间计算使用配置decimal；完整Q16运行值仍在inputs里。
 
 ## 技能 datasets/skill-build.json
 

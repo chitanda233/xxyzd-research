@@ -12,10 +12,13 @@ def nav(current,sections=[]):
 def shell(title,lead,content,slug='',sections=[],eyebrow='策划参考 · 客户端1.0.16'):
  return '<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>'+esc(title)+' · 小小远征队</title><link rel="stylesheet" href="assets/planner.css"><link rel="stylesheet" href="assets/term-tips.css"></head><body><header class="masthead"><a href="index.html">小小远征队 / 研究资料库</a><span>'+eyebrow+'</span></header><div class="layout">'+nav(slug,sections)+'<main id="main"><header class="hero"><h1>'+esc(title)+'</h1><p class="lead">'+esc(lead)+'</p></header>'+content+'</main></div><footer>策划报告与查表工具分开维护 · 中间数据和证据按专题目录保存</footer><script src="assets/term-tips.js"></script></body></html>'
 def render_page(slug):
- d=read(slug);out=['<details class="mobile-contents"><summary>本页内容</summary><ul>'+''.join('<li><a href="#'+v['id']+'">'+esc(v['title'])+'</a></li>' for v in d['sections'])+'</ul></details>','<div class="question"><span>本模块回答</span><p>'+esc(d['question'])+'</p></div>']
+ d=read(slug);out=['<details class="mobile-contents"><summary>本页内容</summary><ul>'+''.join('<li><a href="#'+v['id']+'">'+esc(v['title'])+'</a></li>' for v in d['sections']+[{'id':'mechanism-detail','title':'完整规则与数据'}])+'</ul></details>','<div class="question"><span>本模块回答</span><p>'+esc(d['question'])+'</p><a class="detail-jump" href="#mechanism-detail">直达完整规则与数据 ↓</a></div>']
  if slug=='core':
   out.append('<ol class="timeline" aria-label="第一章阶段节奏">'+''.join('<li><b>'+a+'</b><span>'+b+'</span></li>' for a,b in [('1—4波','选择方向'),('5波','首次压力峰'),('6波','宝箱补强'),('10波','精英检验'),('11波','宝箱补强'),('15波','宝箱＋首领')])+'</ol>')
+ detail_done=False
  for s in d['sections']:
+  if not detail_done and s['kind']=='reference':
+   out.append(__import__('planner_details').render(slug));detail_done=True
   kind=s['kind'];label={'reference':'设计参考 · 非原作新增规则','interpretation':'策划归纳','configuration':'配置规则','rule':'运行规则与案例'}[kind]
   out.append('<section id="'+s['id']+'" class="section '+kind+'"><div class="label">'+label+'</div><h2>'+esc(s['title'])+'</h2><p>'+esc(s['text'])+'</p>')
   if s['rows']:
@@ -24,9 +27,10 @@ def render_page(slug):
    out.append('</tbody></table></div>')
   if s['refs']:out.append('<details class="sources"><summary>查看本节数据依据</summary>'+''.join('<a href="'+BASE+esc(r)+'">'+esc(r.split('/')[-1])+'</a> ' for r in s['refs'])+'</details>')
   out.append('</section>')
+ if not detail_done:out.append(__import__('planner_details').render(slug))
  out.append('<aside class="lookup"><h2>需要具体数值或逐条核查？</h2><p>正文用于理解规则和参考设计，完整配置、逐条数据与证据保留在查询层。</p><a class="button" href="'+d['lookup']+'">打开本模块查表工具</a> <a href="https://github.com/chitanda233/xxyzd-research/tree/main/research-data/">查看数据与证据目录</a></aside>')
  if d['sources']:out.append('<details class="sources"><summary>本模块来源与适用范围</summary>'+''.join('<p><a href="'+BASE+r+'">'+esc(r)+'</a></p>' for r in d['sources'])+'</details>')
- (DOCS/(slug+'.html')).write_text(shell(d['title'],d['lead'],''.join(out),slug,d['sections']))
+ (DOCS/(slug+'.html')).write_text(shell(d['title'],d['lead'],''.join(out),slug,d['sections']+[{'id':'mechanism-detail','title':'完整规则与数据'}]))
 def render_lookup(kind,text):
  if kind=='monsters':
   start=text.index('<h2 id="catalog">');end=text.index('<h2 id="evidence">',start)

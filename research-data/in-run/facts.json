@@ -51,7 +51,8 @@
     },
     "source_ids": [
       "T:Mission_RandomMonsterFlushConfig",
-      "N:wave-random"
+      "N:wave-random",
+      "D:chapter-1-spawn-plans"
     ],
     "applies_to": "client 1.0.16 / chapter 1 / base variant",
     "limitations": [],
@@ -72,12 +73,13 @@
         201,
         3
       ],
-      "w10_configured_max": 18
+      "w10_configured_max": 21
     },
     "source_ids": [
       "T:ChapterWave_Waves",
       "T:Character_entity",
-      "N:wave-gate"
+      "N:wave-gate",
+      "D:chapter-1-spawn-plans"
     ],
     "applies_to": "client 1.0.16 / chapter 1 / base variant",
     "limitations": [

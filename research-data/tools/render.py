@@ -34,7 +34,7 @@ parts.append('<h2 id="waves">15波数据</h2><p>由包内输入计算生成；�
 parts.append('<h2 id="build-data">技能与依赖关系</h2><p>'+str(len(skills['nodes']))+'个相关技能节点，'+str(len(skills['edges']))+'条配置关系，'+str(len(skills['recipes']))+'条方向性配方记录。节点包含四个池及相关依赖闭包，不等于玩家可选数量。</p><p><a href="'+base+'datasets/skill-build.json">技能图JSON</a> · <a href="'+base+'flow.json">局内流程关系JSON</a></p>')
 parts.append('<h2 id="sources">来源索引</h2><p>链接打开最小证据快照，完整底层来源由origin字段定位。使用本目录无需下载完整反编译库。</p>')
 for r in sources:
- label=r.get('method',r['id']);detail=(str(r['record_count'])+'行' if r['kind']=='config_rows' else r['rva'])
+ label=r.get('method',r['id']);detail=(str(r['record_count'])+'行' if r['kind'] in ['config_rows','derived_rows'] else r['rva'])
  parts.append(f'<details id="src-{esc(r["id"].replace(":","-"))}"><summary>{esc(r["id"])} · {esc(detail)}</summary><p>{esc(label)}</p><p><a href="{base+esc(r["path"])}">打开快照或函数摘录</a></p><pre>{esc(show(r))}</pre></details>')
 parts.append('<h2 id="questions">待证问题与深查条件</h2><p>下列条目没有被当成已确认规则。已有查证范围一起保存，避免下次从头重做。</p>')
 for q in questions:

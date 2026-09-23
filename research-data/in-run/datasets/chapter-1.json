@@ -8,11 +8,11 @@
       "script_start_seconds": 0.0,
       "next_script_start_seconds": 15.0,
       "nominal_window_seconds": 15.0,
-      "configured_monster_count": 20,
+      "configured_monster_count": 28,
       "count_semantics": "configured_spawn_count",
       "composition": {
         "320021": 2,
-        "330006": 18
+        "330006": 26
       },
       "special_entities": [],
       "death_gate": false,
@@ -31,263 +31,599 @@
       ],
       "events": [
         {
-          "kind": "spawn",
+          "kind": "spawn_plan",
           "script_time_seconds": 0.0,
           "mission_id": 1001001,
           "composition": {
-            "330006": 1
+            "330006": 26,
+            "320021": 2
           },
+          "routes": [
+            {
+              "route": "group",
+              "options": [
+                {
+                  "id": 3001056,
+                  "items": [
+                    {
+                      "config": 1001019,
+                      "options": [
+                        {
+                          "template": "S_1_46_021",
+                          "override": 330006,
+                          "slots": 1,
+                          "counts": {
+                            "330006": [
+                              1,
+                              1
+                            ]
+                          }
+                        }
+                      ],
+                      "counts": {
+                        "330006": [
+                          1,
+                          1
+                        ]
+                      },
+                      "total": [
+                        1,
+                        1
+                      ],
+                      "delay": 0
+                    },
+                    {
+                      "config": 1001019,
+                      "options": [
+                        {
+                          "template": "S_1_46_021",
+                          "override": 330006,
+                          "slots": 1,
+                          "counts": {
+                            "330006": [
+                              1,
+                              1
+                            ]
+                          }
+                        }
+                      ],
+                      "counts": {
+                        "330006": [
+                          1,
+                          1
+                        ]
+                      },
+                      "total": [
+                        1,
+                        1
+                      ],
+                      "delay": 0.2
+                    },
+                    {
+                      "config": 1001019,
+                      "options": [
+                        {
+                          "template": "S_1_46_021",
+                          "override": 330006,
+                          "slots": 1,
+                          "counts": {
+                            "330006": [
+                              1,
+                              1
+                            ]
+                          }
+                        }
+                      ],
+                      "counts": {
+                        "330006": [
+                          1,
+                          1
+                        ]
+                      },
+                      "total": [
+                        1,
+                        1
+                      ],
+                      "delay": 0.4
+                    },
+                    {
+                      "config": 1001020,
+                      "options": [
+                        {
+                          "template": "S_1_46_022",
+                          "override": 330006,
+                          "slots": 1,
+                          "counts": {
+                            "330006": [
+                              1,
+                              1
+                            ]
+                          }
+                        }
+                      ],
+                      "counts": {
+                        "330006": [
+                          1,
+                          1
+                        ]
+                      },
+                      "total": [
+                        1,
+                        1
+                      ],
+                      "delay": 1.3
+                    },
+                    {
+                      "config": 1001020,
+                      "options": [
+                        {
+                          "template": "S_1_46_022",
+                          "override": 330006,
+                          "slots": 1,
+                          "counts": {
+                            "330006": [
+                              1,
+                              1
+                            ]
+                          }
+                        }
+                      ],
+                      "counts": {
+                        "330006": [
+                          1,
+                          1
+                        ]
+                      },
+                      "total": [
+                        1,
+                        1
+                      ],
+                      "delay": 1.5
+                    },
+                    {
+                      "config": 1001020,
+                      "options": [
+                        {
+                          "template": "S_1_46_022",
+                          "override": 330006,
+                          "slots": 1,
+                          "counts": {
+                            "330006": [
+                              1,
+                              1
+                            ]
+                          }
+                        }
+                      ],
+                      "counts": {
+                        "330006": [
+                          1,
+                          1
+                        ]
+                      },
+                      "total": [
+                        1,
+                        1
+                      ],
+                      "delay": 1.7
+                    },
+                    {
+                      "config": 1003024,
+                      "options": [
+                        {
+                          "template": "S_1_47_1024",
+                          "override": 330006,
+                          "slots": 1,
+                          "counts": {
+                            "330006": [
+                              1,
+                              1
+                            ]
+                          }
+                        }
+                      ],
+                      "counts": {
+                        "330006": [
+                          1,
+                          1
+                        ]
+                      },
+                      "total": [
+                        1,
+                        1
+                      ],
+                      "delay": 2.6
+                    },
+                    {
+                      "config": 1003024,
+                      "options": [
+                        {
+                          "template": "S_1_47_1024",
+                          "override": 330006,
+                          "slots": 1,
+                          "counts": {
+                            "330006": [
+                              1,
+                              1
+                            ]
+                          }
+                        }
+                      ],
+                      "counts": {
+                        "330006": [
+                          1,
+                          1
+                        ]
+                      },
+                      "total": [
+                        1,
+                        1
+                      ],
+                      "delay": 2.8
+                    },
+                    {
+                      "config": 1003024,
+                      "options": [
+                        {
+                          "template": "S_1_47_1024",
+                          "override": 330006,
+                          "slots": 1,
+                          "counts": {
+                            "330006": [
+                              1,
+                              1
+                            ]
+                          }
+                        }
+                      ],
+                      "counts": {
+                        "330006": [
+                          1,
+                          1
+                        ]
+                      },
+                      "total": [
+                        1,
+                        1
+                      ],
+                      "delay": 3
+                    },
+                    {
+                      "config": 1002014,
+                      "options": [
+                        {
+                          "template": "S_1_47_014",
+                          "override": 320021,
+                          "slots": 1,
+                          "counts": {
+                            "320021": [
+                              1,
+                              1
+                            ]
+                          }
+                        }
+                      ],
+                      "counts": {
+                        "320021": [
+                          1,
+                          1
+                        ]
+                      },
+                      "total": [
+                        1,
+                        1
+                      ],
+                      "delay": 3
+                    },
+                    {
+                      "config": 1001019,
+                      "options": [
+                        {
+                          "template": "S_1_46_021",
+                          "override": 330006,
+                          "slots": 1,
+                          "counts": {
+                            "330006": [
+                              1,
+                              1
+                            ]
+                          }
+                        }
+                      ],
+                      "counts": {
+                        "330006": [
+                          1,
+                          1
+                        ]
+                      },
+                      "total": [
+                        1,
+                        1
+                      ],
+                      "delay": 3.5
+                    },
+                    {
+                      "config": 1001019,
+                      "options": [
+                        {
+                          "template": "S_1_46_021",
+                          "override": 330006,
+                          "slots": 1,
+                          "counts": {
+                            "330006": [
+                              1,
+                              1
+                            ]
+                          }
+                        }
+                      ],
+                      "counts": {
+                        "330006": [
+                          1,
+                          1
+                        ]
+                      },
+                      "total": [
+                        1,
+                        1
+                      ],
+                      "delay": 3.7
+                    },
+                    {
+                      "config": 1001030,
+                      "options": [
+                        {
+                          "template": "S_1_46_004",
+                          "override": 330006,
+                          "slots": 5,
+                          "counts": {
+                            "330006": [
+                              5,
+                              5
+                            ]
+                          }
+                        }
+                      ],
+                      "counts": {
+                        "330006": [
+                          5,
+                          5
+                        ]
+                      },
+                      "total": [
+                        5,
+                        5
+                      ],
+                      "delay": 4.8
+                    },
+                    {
+                      "config": 1001020,
+                      "options": [
+                        {
+                          "template": "S_1_46_022",
+                          "override": 330006,
+                          "slots": 1,
+                          "counts": {
+                            "330006": [
+                              1,
+                              1
+                            ]
+                          }
+                        }
+                      ],
+                      "counts": {
+                        "330006": [
+                          1,
+                          1
+                        ]
+                      },
+                      "total": [
+                        1,
+                        1
+                      ],
+                      "delay": 6.5
+                    },
+                    {
+                      "config": 1001020,
+                      "options": [
+                        {
+                          "template": "S_1_46_022",
+                          "override": 330006,
+                          "slots": 1,
+                          "counts": {
+                            "330006": [
+                              1,
+                              1
+                            ]
+                          }
+                        }
+                      ],
+                      "counts": {
+                        "330006": [
+                          1,
+                          1
+                        ]
+                      },
+                      "total": [
+                        1,
+                        1
+                      ],
+                      "delay": 6.7
+                    },
+                    {
+                      "config": 1002013,
+                      "options": [
+                        {
+                          "template": "S_1_47_013",
+                          "override": 320021,
+                          "slots": 1,
+                          "counts": {
+                            "320021": [
+                              1,
+                              1
+                            ]
+                          }
+                        }
+                      ],
+                      "counts": {
+                        "320021": [
+                          1,
+                          1
+                        ]
+                      },
+                      "total": [
+                        1,
+                        1
+                      ],
+                      "delay": 5
+                    },
+                    {
+                      "config": 1001029,
+                      "options": [
+                        {
+                          "template": "S_1_46_003",
+                          "override": 330006,
+                          "slots": 5,
+                          "counts": {
+                            "330006": [
+                              5,
+                              5
+                            ]
+                          }
+                        }
+                      ],
+                      "counts": {
+                        "330006": [
+                          5,
+                          5
+                        ]
+                      },
+                      "total": [
+                        5,
+                        5
+                      ],
+                      "delay": 7
+                    },
+                    {
+                      "config": 1001019,
+                      "options": [
+                        {
+                          "template": "S_1_46_021",
+                          "override": 330006,
+                          "slots": 1,
+                          "counts": {
+                            "330006": [
+                              1,
+                              1
+                            ]
+                          }
+                        }
+                      ],
+                      "counts": {
+                        "330006": [
+                          1,
+                          1
+                        ]
+                      },
+                      "total": [
+                        1,
+                        1
+                      ],
+                      "delay": 9.5
+                    },
+                    {
+                      "config": 1001019,
+                      "options": [
+                        {
+                          "template": "S_1_46_021",
+                          "override": 330006,
+                          "slots": 1,
+                          "counts": {
+                            "330006": [
+                              1,
+                              1
+                            ]
+                          }
+                        }
+                      ],
+                      "counts": {
+                        "330006": [
+                          1,
+                          1
+                        ]
+                      },
+                      "total": [
+                        1,
+                        1
+                      ],
+                      "delay": 9.7
+                    },
+                    {
+                      "config": 1001019,
+                      "options": [
+                        {
+                          "template": "S_1_46_021",
+                          "override": 330006,
+                          "slots": 1,
+                          "counts": {
+                            "330006": [
+                              1,
+                              1
+                            ]
+                          }
+                        }
+                      ],
+                      "counts": {
+                        "330006": [
+                          1,
+                          1
+                        ]
+                      },
+                      "total": [
+                        1,
+                        1
+                      ],
+                      "delay": 9.9
+                    }
+                  ],
+                  "counts": {
+                    "330006": [
+                      26,
+                      26
+                    ],
+                    "320021": [
+                      2,
+                      2
+                    ]
+                  },
+                  "total": [
+                    28,
+                    28
+                  ]
+                }
+              ],
+              "counts": {
+                "330006": [
+                  26,
+                  26
+                ],
+                "320021": [
+                  2,
+                  2
+                ]
+              },
+              "total": [
+                28,
+                28
+              ]
+            }
+          ],
+          "repeat": 1,
+          "interval": [],
+          "time_basis": "mission_start; member delays and template positions remain in routes",
           "source_ref": {
-            "source_id": "T:Mission_PositionGroupMonsterFlushConfig",
-            "row_id": 3001056,
-            "entry_index": 0
-          }
-        },
-        {
-          "kind": "spawn",
-          "script_time_seconds": 0.2,
-          "mission_id": 1001001,
-          "composition": {
-            "330006": 1
-          },
-          "source_ref": {
-            "source_id": "T:Mission_PositionGroupMonsterFlushConfig",
-            "row_id": 3001056,
-            "entry_index": 1
-          }
-        },
-        {
-          "kind": "spawn",
-          "script_time_seconds": 0.4,
-          "mission_id": 1001001,
-          "composition": {
-            "330006": 1
-          },
-          "source_ref": {
-            "source_id": "T:Mission_PositionGroupMonsterFlushConfig",
-            "row_id": 3001056,
-            "entry_index": 2
-          }
-        },
-        {
-          "kind": "spawn",
-          "script_time_seconds": 1.3,
-          "mission_id": 1001001,
-          "composition": {
-            "330006": 1
-          },
-          "source_ref": {
-            "source_id": "T:Mission_PositionGroupMonsterFlushConfig",
-            "row_id": 3001056,
-            "entry_index": 3
-          }
-        },
-        {
-          "kind": "spawn",
-          "script_time_seconds": 1.5,
-          "mission_id": 1001001,
-          "composition": {
-            "330006": 1
-          },
-          "source_ref": {
-            "source_id": "T:Mission_PositionGroupMonsterFlushConfig",
-            "row_id": 3001056,
-            "entry_index": 4
-          }
-        },
-        {
-          "kind": "spawn",
-          "script_time_seconds": 1.7,
-          "mission_id": 1001001,
-          "composition": {
-            "330006": 1
-          },
-          "source_ref": {
-            "source_id": "T:Mission_PositionGroupMonsterFlushConfig",
-            "row_id": 3001056,
-            "entry_index": 5
-          }
-        },
-        {
-          "kind": "spawn",
-          "script_time_seconds": 2.6,
-          "mission_id": 1001001,
-          "composition": {
-            "330006": 1
-          },
-          "source_ref": {
-            "source_id": "T:Mission_PositionGroupMonsterFlushConfig",
-            "row_id": 3001056,
-            "entry_index": 6
-          }
-        },
-        {
-          "kind": "spawn",
-          "script_time_seconds": 2.8,
-          "mission_id": 1001001,
-          "composition": {
-            "330006": 1
-          },
-          "source_ref": {
-            "source_id": "T:Mission_PositionGroupMonsterFlushConfig",
-            "row_id": 3001056,
-            "entry_index": 7
-          }
-        },
-        {
-          "kind": "spawn",
-          "script_time_seconds": 3.0,
-          "mission_id": 1001001,
-          "composition": {
-            "330006": 1
-          },
-          "source_ref": {
-            "source_id": "T:Mission_PositionGroupMonsterFlushConfig",
-            "row_id": 3001056,
-            "entry_index": 8
-          }
-        },
-        {
-          "kind": "spawn",
-          "script_time_seconds": 3.0,
-          "mission_id": 1001001,
-          "composition": {
-            "320021": 1
-          },
-          "source_ref": {
-            "source_id": "T:Mission_PositionGroupMonsterFlushConfig",
-            "row_id": 3001056,
-            "entry_index": 9
-          }
-        },
-        {
-          "kind": "spawn",
-          "script_time_seconds": 3.5,
-          "mission_id": 1001001,
-          "composition": {
-            "330006": 1
-          },
-          "source_ref": {
-            "source_id": "T:Mission_PositionGroupMonsterFlushConfig",
-            "row_id": 3001056,
-            "entry_index": 10
-          }
-        },
-        {
-          "kind": "spawn",
-          "script_time_seconds": 3.7,
-          "mission_id": 1001001,
-          "composition": {
-            "330006": 1
-          },
-          "source_ref": {
-            "source_id": "T:Mission_PositionGroupMonsterFlushConfig",
-            "row_id": 3001056,
-            "entry_index": 11
-          }
-        },
-        {
-          "kind": "spawn",
-          "script_time_seconds": 4.8,
-          "mission_id": 1001001,
-          "composition": {
-            "330006": 1
-          },
-          "source_ref": {
-            "source_id": "T:Mission_PositionGroupMonsterFlushConfig",
-            "row_id": 3001056,
-            "entry_index": 12
-          }
-        },
-        {
-          "kind": "spawn",
-          "script_time_seconds": 5.0,
-          "mission_id": 1001001,
-          "composition": {
-            "320021": 1
-          },
-          "source_ref": {
-            "source_id": "T:Mission_PositionGroupMonsterFlushConfig",
-            "row_id": 3001056,
-            "entry_index": 15
-          }
-        },
-        {
-          "kind": "spawn",
-          "script_time_seconds": 6.5,
-          "mission_id": 1001001,
-          "composition": {
-            "330006": 1
-          },
-          "source_ref": {
-            "source_id": "T:Mission_PositionGroupMonsterFlushConfig",
-            "row_id": 3001056,
-            "entry_index": 13
-          }
-        },
-        {
-          "kind": "spawn",
-          "script_time_seconds": 6.7,
-          "mission_id": 1001001,
-          "composition": {
-            "330006": 1
-          },
-          "source_ref": {
-            "source_id": "T:Mission_PositionGroupMonsterFlushConfig",
-            "row_id": 3001056,
-            "entry_index": 14
-          }
-        },
-        {
-          "kind": "spawn",
-          "script_time_seconds": 7.0,
-          "mission_id": 1001001,
-          "composition": {
-            "330006": 1
-          },
-          "source_ref": {
-            "source_id": "T:Mission_PositionGroupMonsterFlushConfig",
-            "row_id": 3001056,
-            "entry_index": 16
-          }
-        },
-        {
-          "kind": "spawn",
-          "script_time_seconds": 9.5,
-          "mission_id": 1001001,
-          "composition": {
-            "330006": 1
-          },
-          "source_ref": {
-            "source_id": "T:Mission_PositionGroupMonsterFlushConfig",
-            "row_id": 3001056,
-            "entry_index": 17
-          }
-        },
-        {
-          "kind": "spawn",
-          "script_time_seconds": 9.7,
-          "mission_id": 1001001,
-          "composition": {
-            "330006": 1
-          },
-          "source_ref": {
-            "source_id": "T:Mission_PositionGroupMonsterFlushConfig",
-            "row_id": 3001056,
-            "entry_index": 18
-          }
-        },
-        {
-          "kind": "spawn",
-          "script_time_seconds": 9.9,
-          "mission_id": 1001001,
-          "composition": {
-            "330006": 1
-          },
-          "source_ref": {
-            "source_id": "T:Mission_PositionGroupMonsterFlushConfig",
-            "row_id": 3001056,
-            "entry_index": 19
+            "source_id": "D:chapter-1-spawn-plans",
+            "row_id": 1001001
           }
         }
       ],
@@ -308,11 +644,11 @@
       "script_start_seconds": 15.0,
       "next_script_start_seconds": 30.0,
       "nominal_window_seconds": 15.0,
-      "configured_monster_count": 10,
+      "configured_monster_count": 18,
       "count_semantics": "configured_spawn_count",
       "composition": {
         "320022": 2,
-        "330006": 8
+        "330006": 16
       },
       "special_entities": [],
       "death_gate": false,
@@ -331,133 +667,329 @@
       ],
       "events": [
         {
-          "kind": "spawn",
+          "kind": "spawn_plan",
           "script_time_seconds": 15.0,
           "mission_id": 1001002,
           "composition": {
-            "330006": 1
+            "320022": 2,
+            "330006": 16
           },
+          "routes": [
+            {
+              "route": "group",
+              "options": [
+                {
+                  "id": 3001057,
+                  "items": [
+                    {
+                      "config": 1001019,
+                      "options": [
+                        {
+                          "template": "S_1_46_021",
+                          "override": 330006,
+                          "slots": 1,
+                          "counts": {
+                            "330006": [
+                              1,
+                              1
+                            ]
+                          }
+                        }
+                      ],
+                      "counts": {
+                        "330006": [
+                          1,
+                          1
+                        ]
+                      },
+                      "total": [
+                        1,
+                        1
+                      ],
+                      "delay": 0
+                    },
+                    {
+                      "config": 1001019,
+                      "options": [
+                        {
+                          "template": "S_1_46_021",
+                          "override": 330006,
+                          "slots": 1,
+                          "counts": {
+                            "330006": [
+                              1,
+                              1
+                            ]
+                          }
+                        }
+                      ],
+                      "counts": {
+                        "330006": [
+                          1,
+                          1
+                        ]
+                      },
+                      "total": [
+                        1,
+                        1
+                      ],
+                      "delay": 0.2
+                    },
+                    {
+                      "config": 1001019,
+                      "options": [
+                        {
+                          "template": "S_1_46_021",
+                          "override": 330006,
+                          "slots": 1,
+                          "counts": {
+                            "330006": [
+                              1,
+                              1
+                            ]
+                          }
+                        }
+                      ],
+                      "counts": {
+                        "330006": [
+                          1,
+                          1
+                        ]
+                      },
+                      "total": [
+                        1,
+                        1
+                      ],
+                      "delay": 0.4
+                    },
+                    {
+                      "config": 1002033,
+                      "options": [
+                        {
+                          "template": "S_1_47_033",
+                          "override": 320022,
+                          "slots": 1,
+                          "counts": {
+                            "320022": [
+                              1,
+                              1
+                            ]
+                          }
+                        }
+                      ],
+                      "counts": {
+                        "320022": [
+                          1,
+                          1
+                        ]
+                      },
+                      "total": [
+                        1,
+                        1
+                      ],
+                      "delay": 1
+                    },
+                    {
+                      "config": 1001030,
+                      "options": [
+                        {
+                          "template": "S_1_46_004",
+                          "override": 330006,
+                          "slots": 5,
+                          "counts": {
+                            "330006": [
+                              5,
+                              5
+                            ]
+                          }
+                        }
+                      ],
+                      "counts": {
+                        "330006": [
+                          5,
+                          5
+                        ]
+                      },
+                      "total": [
+                        5,
+                        5
+                      ],
+                      "delay": 2
+                    },
+                    {
+                      "config": 1002034,
+                      "options": [
+                        {
+                          "template": "S_1_47_034",
+                          "override": 320022,
+                          "slots": 1,
+                          "counts": {
+                            "320022": [
+                              1,
+                              1
+                            ]
+                          }
+                        }
+                      ],
+                      "counts": {
+                        "320022": [
+                          1,
+                          1
+                        ]
+                      },
+                      "total": [
+                        1,
+                        1
+                      ],
+                      "delay": 3
+                    },
+                    {
+                      "config": 1001020,
+                      "options": [
+                        {
+                          "template": "S_1_46_022",
+                          "override": 330006,
+                          "slots": 1,
+                          "counts": {
+                            "330006": [
+                              1,
+                              1
+                            ]
+                          }
+                        }
+                      ],
+                      "counts": {
+                        "330006": [
+                          1,
+                          1
+                        ]
+                      },
+                      "total": [
+                        1,
+                        1
+                      ],
+                      "delay": 4
+                    },
+                    {
+                      "config": 1001020,
+                      "options": [
+                        {
+                          "template": "S_1_46_022",
+                          "override": 330006,
+                          "slots": 1,
+                          "counts": {
+                            "330006": [
+                              1,
+                              1
+                            ]
+                          }
+                        }
+                      ],
+                      "counts": {
+                        "330006": [
+                          1,
+                          1
+                        ]
+                      },
+                      "total": [
+                        1,
+                        1
+                      ],
+                      "delay": 4.2
+                    },
+                    {
+                      "config": 1001020,
+                      "options": [
+                        {
+                          "template": "S_1_46_022",
+                          "override": 330006,
+                          "slots": 1,
+                          "counts": {
+                            "330006": [
+                              1,
+                              1
+                            ]
+                          }
+                        }
+                      ],
+                      "counts": {
+                        "330006": [
+                          1,
+                          1
+                        ]
+                      },
+                      "total": [
+                        1,
+                        1
+                      ],
+                      "delay": 4.4
+                    },
+                    {
+                      "config": 1001029,
+                      "options": [
+                        {
+                          "template": "S_1_46_003",
+                          "override": 330006,
+                          "slots": 5,
+                          "counts": {
+                            "330006": [
+                              5,
+                              5
+                            ]
+                          }
+                        }
+                      ],
+                      "counts": {
+                        "330006": [
+                          5,
+                          5
+                        ]
+                      },
+                      "total": [
+                        5,
+                        5
+                      ],
+                      "delay": 5.5
+                    }
+                  ],
+                  "counts": {
+                    "330006": [
+                      16,
+                      16
+                    ],
+                    "320022": [
+                      2,
+                      2
+                    ]
+                  },
+                  "total": [
+                    18,
+                    18
+                  ]
+                }
+              ],
+              "counts": {
+                "320022": [
+                  2,
+                  2
+                ],
+                "330006": [
+                  16,
+                  16
+                ]
+              },
+              "total": [
+                18,
+                18
+              ]
+            }
+          ],
+          "repeat": 1,
+          "interval": [],
+          "time_basis": "mission_start; member delays and template positions remain in routes",
           "source_ref": {
-            "source_id": "T:Mission_PositionGroupMonsterFlushConfig",
-            "row_id": 3001057,
-            "entry_index": 0
-          }
-        },
-        {
-          "kind": "spawn",
-          "script_time_seconds": 15.2,
-          "mission_id": 1001002,
-          "composition": {
-            "330006": 1
-          },
-          "source_ref": {
-            "source_id": "T:Mission_PositionGroupMonsterFlushConfig",
-            "row_id": 3001057,
-            "entry_index": 1
-          }
-        },
-        {
-          "kind": "spawn",
-          "script_time_seconds": 15.4,
-          "mission_id": 1001002,
-          "composition": {
-            "330006": 1
-          },
-          "source_ref": {
-            "source_id": "T:Mission_PositionGroupMonsterFlushConfig",
-            "row_id": 3001057,
-            "entry_index": 2
-          }
-        },
-        {
-          "kind": "spawn",
-          "script_time_seconds": 16.0,
-          "mission_id": 1001002,
-          "composition": {
-            "320022": 1
-          },
-          "source_ref": {
-            "source_id": "T:Mission_PositionGroupMonsterFlushConfig",
-            "row_id": 3001057,
-            "entry_index": 3
-          }
-        },
-        {
-          "kind": "spawn",
-          "script_time_seconds": 17.0,
-          "mission_id": 1001002,
-          "composition": {
-            "330006": 1
-          },
-          "source_ref": {
-            "source_id": "T:Mission_PositionGroupMonsterFlushConfig",
-            "row_id": 3001057,
-            "entry_index": 4
-          }
-        },
-        {
-          "kind": "spawn",
-          "script_time_seconds": 18.0,
-          "mission_id": 1001002,
-          "composition": {
-            "320022": 1
-          },
-          "source_ref": {
-            "source_id": "T:Mission_PositionGroupMonsterFlushConfig",
-            "row_id": 3001057,
-            "entry_index": 5
-          }
-        },
-        {
-          "kind": "spawn",
-          "script_time_seconds": 19.0,
-          "mission_id": 1001002,
-          "composition": {
-            "330006": 1
-          },
-          "source_ref": {
-            "source_id": "T:Mission_PositionGroupMonsterFlushConfig",
-            "row_id": 3001057,
-            "entry_index": 6
-          }
-        },
-        {
-          "kind": "spawn",
-          "script_time_seconds": 19.2,
-          "mission_id": 1001002,
-          "composition": {
-            "330006": 1
-          },
-          "source_ref": {
-            "source_id": "T:Mission_PositionGroupMonsterFlushConfig",
-            "row_id": 3001057,
-            "entry_index": 7
-          }
-        },
-        {
-          "kind": "spawn",
-          "script_time_seconds": 19.4,
-          "mission_id": 1001002,
-          "composition": {
-            "330006": 1
-          },
-          "source_ref": {
-            "source_id": "T:Mission_PositionGroupMonsterFlushConfig",
-            "row_id": 3001057,
-            "entry_index": 8
-          }
-        },
-        {
-          "kind": "spawn",
-          "script_time_seconds": 20.5,
-          "mission_id": 1001002,
-          "composition": {
-            "330006": 1
-          },
-          "source_ref": {
-            "source_id": "T:Mission_PositionGroupMonsterFlushConfig",
-            "row_id": 3001057,
-            "entry_index": 9
+            "source_id": "D:chapter-1-spawn-plans",
+            "row_id": 1001002
           }
         }
       ],
@@ -478,12 +1010,12 @@
       "script_start_seconds": 30.0,
       "next_script_start_seconds": 45.0,
       "nominal_window_seconds": 15.0,
-      "configured_monster_count": 5,
+      "configured_monster_count": 26,
       "count_semantics": "configured_spawn_count",
       "composition": {
-        "320017": 2,
-        "320021": 1,
-        "330006": 2
+        "320017": 4,
+        "320021": 2,
+        "330006": 20
       },
       "special_entities": [],
       "death_gate": false,
@@ -502,68 +1034,203 @@
       ],
       "events": [
         {
-          "kind": "spawn",
+          "kind": "spawn_plan",
           "script_time_seconds": 30.0,
           "mission_id": 1001003,
           "composition": {
-            "320021": 1
+            "320017": 4,
+            "330006": 20,
+            "320021": 2
           },
+          "routes": [
+            {
+              "route": "group",
+              "options": [
+                {
+                  "id": 3001058,
+                  "items": [
+                    {
+                      "config": 1002005,
+                      "options": [
+                        {
+                          "template": "S_1_47_005",
+                          "override": 320021,
+                          "slots": 2,
+                          "counts": {
+                            "320021": [
+                              2,
+                              2
+                            ]
+                          }
+                        }
+                      ],
+                      "counts": {
+                        "320021": [
+                          2,
+                          2
+                        ]
+                      },
+                      "total": [
+                        2,
+                        2
+                      ],
+                      "delay": 0
+                    },
+                    {
+                      "config": 1001023,
+                      "options": [
+                        {
+                          "template": "S_1_46_025",
+                          "override": 330006,
+                          "slots": 10,
+                          "counts": {
+                            "330006": [
+                              10,
+                              10
+                            ]
+                          }
+                        }
+                      ],
+                      "counts": {
+                        "330006": [
+                          10,
+                          10
+                        ]
+                      },
+                      "total": [
+                        10,
+                        10
+                      ],
+                      "delay": 0.5
+                    },
+                    {
+                      "config": 1003020,
+                      "options": [
+                        {
+                          "template": "S_1_47_1020",
+                          "override": 320017,
+                          "slots": 2,
+                          "counts": {
+                            "320017": [
+                              2,
+                              2
+                            ]
+                          }
+                        }
+                      ],
+                      "counts": {
+                        "320017": [
+                          2,
+                          2
+                        ]
+                      },
+                      "total": [
+                        2,
+                        2
+                      ],
+                      "delay": 2.8
+                    },
+                    {
+                      "config": 1001023,
+                      "options": [
+                        {
+                          "template": "S_1_46_025",
+                          "override": 330006,
+                          "slots": 10,
+                          "counts": {
+                            "330006": [
+                              10,
+                              10
+                            ]
+                          }
+                        }
+                      ],
+                      "counts": {
+                        "330006": [
+                          10,
+                          10
+                        ]
+                      },
+                      "total": [
+                        10,
+                        10
+                      ],
+                      "delay": 5.1
+                    },
+                    {
+                      "config": 1003020,
+                      "options": [
+                        {
+                          "template": "S_1_47_1020",
+                          "override": 320017,
+                          "slots": 2,
+                          "counts": {
+                            "320017": [
+                              2,
+                              2
+                            ]
+                          }
+                        }
+                      ],
+                      "counts": {
+                        "320017": [
+                          2,
+                          2
+                        ]
+                      },
+                      "total": [
+                        2,
+                        2
+                      ],
+                      "delay": 7.4
+                    }
+                  ],
+                  "counts": {
+                    "320021": [
+                      2,
+                      2
+                    ],
+                    "330006": [
+                      20,
+                      20
+                    ],
+                    "320017": [
+                      4,
+                      4
+                    ]
+                  },
+                  "total": [
+                    26,
+                    26
+                  ]
+                }
+              ],
+              "counts": {
+                "320017": [
+                  4,
+                  4
+                ],
+                "330006": [
+                  20,
+                  20
+                ],
+                "320021": [
+                  2,
+                  2
+                ]
+              },
+              "total": [
+                26,
+                26
+              ]
+            }
+          ],
+          "repeat": 1,
+          "interval": [],
+          "time_basis": "mission_start; member delays and template positions remain in routes",
           "source_ref": {
-            "source_id": "T:Mission_PositionGroupMonsterFlushConfig",
-            "row_id": 3001058,
-            "entry_index": 0
-          }
-        },
-        {
-          "kind": "spawn",
-          "script_time_seconds": 30.5,
-          "mission_id": 1001003,
-          "composition": {
-            "330006": 1
-          },
-          "source_ref": {
-            "source_id": "T:Mission_PositionGroupMonsterFlushConfig",
-            "row_id": 3001058,
-            "entry_index": 1
-          }
-        },
-        {
-          "kind": "spawn",
-          "script_time_seconds": 32.8,
-          "mission_id": 1001003,
-          "composition": {
-            "320017": 1
-          },
-          "source_ref": {
-            "source_id": "T:Mission_PositionGroupMonsterFlushConfig",
-            "row_id": 3001058,
-            "entry_index": 2
-          }
-        },
-        {
-          "kind": "spawn",
-          "script_time_seconds": 35.1,
-          "mission_id": 1001003,
-          "composition": {
-            "330006": 1
-          },
-          "source_ref": {
-            "source_id": "T:Mission_PositionGroupMonsterFlushConfig",
-            "row_id": 3001058,
-            "entry_index": 3
-          }
-        },
-        {
-          "kind": "spawn",
-          "script_time_seconds": 37.4,
-          "mission_id": 1001003,
-          "composition": {
-            "320017": 1
-          },
-          "source_ref": {
-            "source_id": "T:Mission_PositionGroupMonsterFlushConfig",
-            "row_id": 3001058,
-            "entry_index": 4
+            "source_id": "D:chapter-1-spawn-plans",
+            "row_id": 1001003
           }
         }
       ],
@@ -584,12 +1251,12 @@
       "script_start_seconds": 45.0,
       "next_script_start_seconds": 62.0,
       "nominal_window_seconds": 17.0,
-      "configured_monster_count": 7,
+      "configured_monster_count": 36,
       "count_semantics": "configured_spawn_count",
       "composition": {
-        "320017": 2,
+        "320017": 4,
         "320019": 2,
-        "330006": 3
+        "330006": 30
       },
       "special_entities": [],
       "death_gate": false,
@@ -608,94 +1275,257 @@
       ],
       "events": [
         {
-          "kind": "spawn",
+          "kind": "spawn_plan",
           "script_time_seconds": 45.0,
           "mission_id": 1001004,
           "composition": {
-            "320019": 1
+            "320017": 4,
+            "330006": 30,
+            "320019": 2
           },
+          "routes": [
+            {
+              "route": "group",
+              "options": [
+                {
+                  "id": 3001059,
+                  "items": [
+                    {
+                      "config": 1003013,
+                      "options": [
+                        {
+                          "template": "S_1_47_1013",
+                          "override": 320019,
+                          "slots": 1,
+                          "counts": {
+                            "320019": [
+                              1,
+                              1
+                            ]
+                          }
+                        }
+                      ],
+                      "counts": {
+                        "320019": [
+                          1,
+                          1
+                        ]
+                      },
+                      "total": [
+                        1,
+                        1
+                      ],
+                      "delay": 0
+                    },
+                    {
+                      "config": 1003005,
+                      "options": [
+                        {
+                          "template": "S_1_47_1005",
+                          "override": 320017,
+                          "slots": 2,
+                          "counts": {
+                            "320017": [
+                              2,
+                              2
+                            ]
+                          }
+                        }
+                      ],
+                      "counts": {
+                        "320017": [
+                          2,
+                          2
+                        ]
+                      },
+                      "total": [
+                        2,
+                        2
+                      ],
+                      "delay": 3.5
+                    },
+                    {
+                      "config": 1003014,
+                      "options": [
+                        {
+                          "template": "S_1_47_1014",
+                          "override": 320019,
+                          "slots": 1,
+                          "counts": {
+                            "320019": [
+                              1,
+                              1
+                            ]
+                          }
+                        }
+                      ],
+                      "counts": {
+                        "320019": [
+                          1,
+                          1
+                        ]
+                      },
+                      "total": [
+                        1,
+                        1
+                      ],
+                      "delay": 7
+                    },
+                    {
+                      "config": 1003005,
+                      "options": [
+                        {
+                          "template": "S_1_47_1005",
+                          "override": 320017,
+                          "slots": 2,
+                          "counts": {
+                            "320017": [
+                              2,
+                              2
+                            ]
+                          }
+                        }
+                      ],
+                      "counts": {
+                        "320017": [
+                          2,
+                          2
+                        ]
+                      },
+                      "total": [
+                        2,
+                        2
+                      ],
+                      "delay": 10.5
+                    },
+                    {
+                      "config": 1001023,
+                      "options": [
+                        {
+                          "template": "S_1_46_025",
+                          "override": 330006,
+                          "slots": 10,
+                          "counts": {
+                            "330006": [
+                              10,
+                              10
+                            ]
+                          }
+                        }
+                      ],
+                      "counts": {
+                        "330006": [
+                          10,
+                          10
+                        ]
+                      },
+                      "total": [
+                        10,
+                        10
+                      ],
+                      "delay": 1
+                    },
+                    {
+                      "config": 1001023,
+                      "options": [
+                        {
+                          "template": "S_1_46_025",
+                          "override": 330006,
+                          "slots": 10,
+                          "counts": {
+                            "330006": [
+                              10,
+                              10
+                            ]
+                          }
+                        }
+                      ],
+                      "counts": {
+                        "330006": [
+                          10,
+                          10
+                        ]
+                      },
+                      "total": [
+                        10,
+                        10
+                      ],
+                      "delay": 4.5
+                    },
+                    {
+                      "config": 1001023,
+                      "options": [
+                        {
+                          "template": "S_1_46_025",
+                          "override": 330006,
+                          "slots": 10,
+                          "counts": {
+                            "330006": [
+                              10,
+                              10
+                            ]
+                          }
+                        }
+                      ],
+                      "counts": {
+                        "330006": [
+                          10,
+                          10
+                        ]
+                      },
+                      "total": [
+                        10,
+                        10
+                      ],
+                      "delay": 8
+                    }
+                  ],
+                  "counts": {
+                    "320019": [
+                      2,
+                      2
+                    ],
+                    "320017": [
+                      4,
+                      4
+                    ],
+                    "330006": [
+                      30,
+                      30
+                    ]
+                  },
+                  "total": [
+                    36,
+                    36
+                  ]
+                }
+              ],
+              "counts": {
+                "320017": [
+                  4,
+                  4
+                ],
+                "330006": [
+                  30,
+                  30
+                ],
+                "320019": [
+                  2,
+                  2
+                ]
+              },
+              "total": [
+                36,
+                36
+              ]
+            }
+          ],
+          "repeat": 1,
+          "interval": [],
+          "time_basis": "mission_start; member delays and template positions remain in routes",
           "source_ref": {
-            "source_id": "T:Mission_PositionGroupMonsterFlushConfig",
-            "row_id": 3001059,
-            "entry_index": 0
-          }
-        },
-        {
-          "kind": "spawn",
-          "script_time_seconds": 46.0,
-          "mission_id": 1001004,
-          "composition": {
-            "330006": 1
-          },
-          "source_ref": {
-            "source_id": "T:Mission_PositionGroupMonsterFlushConfig",
-            "row_id": 3001059,
-            "entry_index": 4
-          }
-        },
-        {
-          "kind": "spawn",
-          "script_time_seconds": 48.5,
-          "mission_id": 1001004,
-          "composition": {
-            "320017": 1
-          },
-          "source_ref": {
-            "source_id": "T:Mission_PositionGroupMonsterFlushConfig",
-            "row_id": 3001059,
-            "entry_index": 1
-          }
-        },
-        {
-          "kind": "spawn",
-          "script_time_seconds": 49.5,
-          "mission_id": 1001004,
-          "composition": {
-            "330006": 1
-          },
-          "source_ref": {
-            "source_id": "T:Mission_PositionGroupMonsterFlushConfig",
-            "row_id": 3001059,
-            "entry_index": 5
-          }
-        },
-        {
-          "kind": "spawn",
-          "script_time_seconds": 52.0,
-          "mission_id": 1001004,
-          "composition": {
-            "320019": 1
-          },
-          "source_ref": {
-            "source_id": "T:Mission_PositionGroupMonsterFlushConfig",
-            "row_id": 3001059,
-            "entry_index": 2
-          }
-        },
-        {
-          "kind": "spawn",
-          "script_time_seconds": 53.0,
-          "mission_id": 1001004,
-          "composition": {
-            "330006": 1
-          },
-          "source_ref": {
-            "source_id": "T:Mission_PositionGroupMonsterFlushConfig",
-            "row_id": 3001059,
-            "entry_index": 6
-          }
-        },
-        {
-          "kind": "spawn",
-          "script_time_seconds": 55.5,
-          "mission_id": 1001004,
-          "composition": {
-            "320017": 1
-          },
-          "source_ref": {
-            "source_id": "T:Mission_PositionGroupMonsterFlushConfig",
-            "row_id": 3001059,
-            "entry_index": 3
+            "source_id": "D:chapter-1-spawn-plans",
+            "row_id": 1001004
           }
         }
       ],
@@ -716,13 +1546,13 @@
       "script_start_seconds": 62.0,
       "next_script_start_seconds": 105.0,
       "nominal_window_seconds": 43.0,
-      "configured_monster_count": 16,
+      "configured_monster_count": 39,
       "count_semantics": "configured_spawn_count",
       "composition": {
         "320005": 1,
         "320017": 3,
-        "320021": 1,
-        "330006": 11
+        "320021": 4,
+        "330006": 31
       },
       "special_entities": [],
       "death_gate": false,
@@ -757,194 +1587,706 @@
       ],
       "events": [
         {
-          "kind": "spawn",
+          "kind": "spawn_plan",
           "script_time_seconds": 62.0,
           "mission_id": 1001005,
           "composition": {
             "320005": 1
           },
+          "routes": [
+            {
+              "config": 1002002,
+              "options": [
+                {
+                  "template": "S_1_47_002",
+                  "override": 320005,
+                  "slots": 1,
+                  "counts": {
+                    "320005": [
+                      1,
+                      1
+                    ]
+                  }
+                }
+              ],
+              "counts": {
+                "320005": [
+                  1,
+                  1
+                ]
+              },
+              "total": [
+                1,
+                1
+              ],
+              "route": "position"
+            }
+          ],
+          "repeat": 1,
+          "interval": [],
+          "time_basis": "mission_start; member delays and template positions remain in routes",
           "source_ref": {
-            "source_id": "T:MissionWaterfallMission_WaterfallMission",
+            "source_id": "D:chapter-1-spawn-plans",
             "row_id": 1001005
           }
         },
         {
-          "kind": "spawn",
+          "kind": "spawn_plan",
           "script_time_seconds": 62.5,
           "mission_id": 1001006,
           "composition": {
-            "320021": 1
+            "320021": 4
           },
+          "routes": [
+            {
+              "config": 1002007,
+              "options": [
+                {
+                  "template": "S_1_47_007",
+                  "override": 320021,
+                  "slots": 4,
+                  "counts": {
+                    "320021": [
+                      4,
+                      4
+                    ]
+                  }
+                }
+              ],
+              "counts": {
+                "320021": [
+                  4,
+                  4
+                ]
+              },
+              "total": [
+                4,
+                4
+              ],
+              "route": "position"
+            }
+          ],
+          "repeat": 1,
+          "interval": [],
+          "time_basis": "mission_start; member delays and template positions remain in routes",
           "source_ref": {
-            "source_id": "T:MissionWaterfallMission_WaterfallMission",
+            "source_id": "D:chapter-1-spawn-plans",
             "row_id": 1001006
           }
         },
         {
-          "kind": "spawn",
+          "kind": "spawn_plan",
           "script_time_seconds": 62.5,
           "mission_id": 1001010,
           "composition": {
-            "330006": 1
+            "330006": 6
           },
+          "routes": [
+            {
+              "config": 1001050,
+              "options": [
+                {
+                  "template": "S_1_46_050",
+                  "override": 330006,
+                  "slots": 6,
+                  "counts": {
+                    "330006": [
+                      6,
+                      6
+                    ]
+                  }
+                }
+              ],
+              "counts": {
+                "330006": [
+                  6,
+                  6
+                ]
+              },
+              "total": [
+                6,
+                6
+              ],
+              "route": "position"
+            }
+          ],
+          "repeat": 1,
+          "interval": [],
+          "time_basis": "mission_start; member delays and template positions remain in routes",
           "source_ref": {
-            "source_id": "T:MissionWaterfallMission_WaterfallMission",
+            "source_id": "D:chapter-1-spawn-plans",
             "row_id": 1001010
           }
         },
         {
-          "kind": "spawn",
+          "kind": "spawn_plan",
           "script_time_seconds": 64.0,
           "mission_id": 1001011,
           "composition": {
             "330006": 1
           },
+          "routes": [
+            {
+              "config": 1003024,
+              "options": [
+                {
+                  "template": "S_1_47_1024",
+                  "override": 330006,
+                  "slots": 1,
+                  "counts": {
+                    "330006": [
+                      1,
+                      1
+                    ]
+                  }
+                }
+              ],
+              "counts": {
+                "330006": [
+                  1,
+                  1
+                ]
+              },
+              "total": [
+                1,
+                1
+              ],
+              "route": "position"
+            }
+          ],
+          "repeat": 1,
+          "interval": [],
+          "time_basis": "mission_start; member delays and template positions remain in routes",
           "source_ref": {
-            "source_id": "T:MissionWaterfallMission_WaterfallMission",
+            "source_id": "D:chapter-1-spawn-plans",
             "row_id": 1001011
           }
         },
         {
-          "kind": "spawn",
+          "kind": "spawn_plan",
           "script_time_seconds": 64.2,
           "mission_id": 1001012,
           "composition": {
             "330006": 1
           },
+          "routes": [
+            {
+              "config": 1003024,
+              "options": [
+                {
+                  "template": "S_1_47_1024",
+                  "override": 330006,
+                  "slots": 1,
+                  "counts": {
+                    "330006": [
+                      1,
+                      1
+                    ]
+                  }
+                }
+              ],
+              "counts": {
+                "330006": [
+                  1,
+                  1
+                ]
+              },
+              "total": [
+                1,
+                1
+              ],
+              "route": "position"
+            }
+          ],
+          "repeat": 1,
+          "interval": [],
+          "time_basis": "mission_start; member delays and template positions remain in routes",
           "source_ref": {
-            "source_id": "T:MissionWaterfallMission_WaterfallMission",
+            "source_id": "D:chapter-1-spawn-plans",
             "row_id": 1001012
           }
         },
         {
-          "kind": "spawn",
+          "kind": "spawn_plan",
           "script_time_seconds": 64.4,
           "mission_id": 1001013,
           "composition": {
             "330006": 1
           },
+          "routes": [
+            {
+              "config": 1003024,
+              "options": [
+                {
+                  "template": "S_1_47_1024",
+                  "override": 330006,
+                  "slots": 1,
+                  "counts": {
+                    "330006": [
+                      1,
+                      1
+                    ]
+                  }
+                }
+              ],
+              "counts": {
+                "330006": [
+                  1,
+                  1
+                ]
+              },
+              "total": [
+                1,
+                1
+              ],
+              "route": "position"
+            }
+          ],
+          "repeat": 1,
+          "interval": [],
+          "time_basis": "mission_start; member delays and template positions remain in routes",
           "source_ref": {
-            "source_id": "T:MissionWaterfallMission_WaterfallMission",
+            "source_id": "D:chapter-1-spawn-plans",
             "row_id": 1001013
           }
         },
         {
-          "kind": "spawn",
+          "kind": "spawn_plan",
           "script_time_seconds": 65.0,
           "mission_id": 1001007,
           "composition": {
             "320017": 1
           },
+          "routes": [
+            {
+              "config": 1003013,
+              "options": [
+                {
+                  "template": "S_1_47_1013",
+                  "override": 320017,
+                  "slots": 1,
+                  "counts": {
+                    "320017": [
+                      1,
+                      1
+                    ]
+                  }
+                }
+              ],
+              "counts": {
+                "320017": [
+                  1,
+                  1
+                ]
+              },
+              "total": [
+                1,
+                1
+              ],
+              "route": "position"
+            }
+          ],
+          "repeat": 1,
+          "interval": [],
+          "time_basis": "mission_start; member delays and template positions remain in routes",
           "source_ref": {
-            "source_id": "T:MissionWaterfallMission_WaterfallMission",
+            "source_id": "D:chapter-1-spawn-plans",
             "row_id": 1001007
           }
         },
         {
-          "kind": "spawn",
+          "kind": "spawn_plan",
           "script_time_seconds": 65.5,
           "mission_id": 1001014,
           "composition": {
-            "330006": 1
+            "330006": 6
           },
+          "routes": [
+            {
+              "config": 1001051,
+              "options": [
+                {
+                  "template": "S_1_46_051",
+                  "override": 330006,
+                  "slots": 6,
+                  "counts": {
+                    "330006": [
+                      6,
+                      6
+                    ]
+                  }
+                }
+              ],
+              "counts": {
+                "330006": [
+                  6,
+                  6
+                ]
+              },
+              "total": [
+                6,
+                6
+              ],
+              "route": "position"
+            }
+          ],
+          "repeat": 1,
+          "interval": [],
+          "time_basis": "mission_start; member delays and template positions remain in routes",
           "source_ref": {
-            "source_id": "T:MissionWaterfallMission_WaterfallMission",
+            "source_id": "D:chapter-1-spawn-plans",
             "row_id": 1001014
           }
         },
         {
-          "kind": "spawn",
+          "kind": "spawn_plan",
           "script_time_seconds": 67.0,
           "mission_id": 1001015,
           "composition": {
             "330006": 1
           },
+          "routes": [
+            {
+              "config": 1003025,
+              "options": [
+                {
+                  "template": "S_1_47_1025",
+                  "override": 330006,
+                  "slots": 1,
+                  "counts": {
+                    "330006": [
+                      1,
+                      1
+                    ]
+                  }
+                }
+              ],
+              "counts": {
+                "330006": [
+                  1,
+                  1
+                ]
+              },
+              "total": [
+                1,
+                1
+              ],
+              "route": "position"
+            }
+          ],
+          "repeat": 1,
+          "interval": [],
+          "time_basis": "mission_start; member delays and template positions remain in routes",
           "source_ref": {
-            "source_id": "T:MissionWaterfallMission_WaterfallMission",
+            "source_id": "D:chapter-1-spawn-plans",
             "row_id": 1001015
           }
         },
         {
-          "kind": "spawn",
+          "kind": "spawn_plan",
           "script_time_seconds": 67.2,
           "mission_id": 1001016,
           "composition": {
             "330006": 1
           },
+          "routes": [
+            {
+              "config": 1003025,
+              "options": [
+                {
+                  "template": "S_1_47_1025",
+                  "override": 330006,
+                  "slots": 1,
+                  "counts": {
+                    "330006": [
+                      1,
+                      1
+                    ]
+                  }
+                }
+              ],
+              "counts": {
+                "330006": [
+                  1,
+                  1
+                ]
+              },
+              "total": [
+                1,
+                1
+              ],
+              "route": "position"
+            }
+          ],
+          "repeat": 1,
+          "interval": [],
+          "time_basis": "mission_start; member delays and template positions remain in routes",
           "source_ref": {
-            "source_id": "T:MissionWaterfallMission_WaterfallMission",
+            "source_id": "D:chapter-1-spawn-plans",
             "row_id": 1001016
           }
         },
         {
-          "kind": "spawn",
+          "kind": "spawn_plan",
           "script_time_seconds": 68.0,
           "mission_id": 1001008,
           "composition": {
             "320017": 1
           },
+          "routes": [
+            {
+              "config": 1003014,
+              "options": [
+                {
+                  "template": "S_1_47_1014",
+                  "override": 320017,
+                  "slots": 1,
+                  "counts": {
+                    "320017": [
+                      1,
+                      1
+                    ]
+                  }
+                }
+              ],
+              "counts": {
+                "320017": [
+                  1,
+                  1
+                ]
+              },
+              "total": [
+                1,
+                1
+              ],
+              "route": "position"
+            }
+          ],
+          "repeat": 1,
+          "interval": [],
+          "time_basis": "mission_start; member delays and template positions remain in routes",
           "source_ref": {
-            "source_id": "T:MissionWaterfallMission_WaterfallMission",
+            "source_id": "D:chapter-1-spawn-plans",
             "row_id": 1001008
           }
         },
         {
-          "kind": "spawn",
+          "kind": "spawn_plan",
           "script_time_seconds": 68.0,
           "mission_id": 1001017,
           "composition": {
-            "330006": 1
+            "330006": 6
           },
+          "routes": [
+            {
+              "config": 1001052,
+              "options": [
+                {
+                  "template": "S_1_46_052",
+                  "override": 330006,
+                  "slots": 6,
+                  "counts": {
+                    "330006": [
+                      6,
+                      6
+                    ]
+                  }
+                }
+              ],
+              "counts": {
+                "330006": [
+                  6,
+                  6
+                ]
+              },
+              "total": [
+                6,
+                6
+              ],
+              "route": "position"
+            }
+          ],
+          "repeat": 1,
+          "interval": [],
+          "time_basis": "mission_start; member delays and template positions remain in routes",
           "source_ref": {
-            "source_id": "T:MissionWaterfallMission_WaterfallMission",
+            "source_id": "D:chapter-1-spawn-plans",
             "row_id": 1001017
           }
         },
         {
-          "kind": "spawn",
+          "kind": "spawn_plan",
           "script_time_seconds": 69.5,
           "mission_id": 1001018,
           "composition": {
             "330006": 1
           },
+          "routes": [
+            {
+              "config": 1003025,
+              "options": [
+                {
+                  "template": "S_1_47_1025",
+                  "override": 330006,
+                  "slots": 1,
+                  "counts": {
+                    "330006": [
+                      1,
+                      1
+                    ]
+                  }
+                }
+              ],
+              "counts": {
+                "330006": [
+                  1,
+                  1
+                ]
+              },
+              "total": [
+                1,
+                1
+              ],
+              "route": "position"
+            }
+          ],
+          "repeat": 1,
+          "interval": [],
+          "time_basis": "mission_start; member delays and template positions remain in routes",
           "source_ref": {
-            "source_id": "T:MissionWaterfallMission_WaterfallMission",
+            "source_id": "D:chapter-1-spawn-plans",
             "row_id": 1001018
           }
         },
         {
-          "kind": "spawn",
+          "kind": "spawn_plan",
           "script_time_seconds": 69.7,
           "mission_id": 1001019,
           "composition": {
             "330006": 1
           },
+          "routes": [
+            {
+              "config": 1003025,
+              "options": [
+                {
+                  "template": "S_1_47_1025",
+                  "override": 330006,
+                  "slots": 1,
+                  "counts": {
+                    "330006": [
+                      1,
+                      1
+                    ]
+                  }
+                }
+              ],
+              "counts": {
+                "330006": [
+                  1,
+                  1
+                ]
+              },
+              "total": [
+                1,
+                1
+              ],
+              "route": "position"
+            }
+          ],
+          "repeat": 1,
+          "interval": [],
+          "time_basis": "mission_start; member delays and template positions remain in routes",
           "source_ref": {
-            "source_id": "T:MissionWaterfallMission_WaterfallMission",
+            "source_id": "D:chapter-1-spawn-plans",
             "row_id": 1001019
           }
         },
         {
-          "kind": "spawn",
+          "kind": "spawn_plan",
           "script_time_seconds": 70.5,
           "mission_id": 1001020,
           "composition": {
-            "330006": 1
+            "330006": 6
           },
+          "routes": [
+            {
+              "config": 1001051,
+              "options": [
+                {
+                  "template": "S_1_46_051",
+                  "override": 330006,
+                  "slots": 6,
+                  "counts": {
+                    "330006": [
+                      6,
+                      6
+                    ]
+                  }
+                }
+              ],
+              "counts": {
+                "330006": [
+                  6,
+                  6
+                ]
+              },
+              "total": [
+                6,
+                6
+              ],
+              "route": "position"
+            }
+          ],
+          "repeat": 1,
+          "interval": [],
+          "time_basis": "mission_start; member delays and template positions remain in routes",
           "source_ref": {
-            "source_id": "T:MissionWaterfallMission_WaterfallMission",
+            "source_id": "D:chapter-1-spawn-plans",
             "row_id": 1001020
           }
         },
         {
-          "kind": "spawn",
+          "kind": "spawn_plan",
           "script_time_seconds": 71.0,
           "mission_id": 1001009,
           "composition": {
             "320017": 1
           },
+          "routes": [
+            {
+              "config": 1003013,
+              "options": [
+                {
+                  "template": "S_1_47_1013",
+                  "override": 320017,
+                  "slots": 1,
+                  "counts": {
+                    "320017": [
+                      1,
+                      1
+                    ]
+                  }
+                }
+              ],
+              "counts": {
+                "320017": [
+                  1,
+                  1
+                ]
+              },
+              "total": [
+                1,
+                1
+              ],
+              "route": "position"
+            }
+          ],
+          "repeat": 1,
+          "interval": [],
+          "time_basis": "mission_start; member delays and template positions remain in routes",
           "source_ref": {
-            "source_id": "T:MissionWaterfallMission_WaterfallMission",
+            "source_id": "D:chapter-1-spawn-plans",
             "row_id": 1001009
           }
         }
@@ -966,11 +2308,11 @@
       "script_start_seconds": 105.0,
       "next_script_start_seconds": 135.0,
       "nominal_window_seconds": 30.0,
-      "configured_monster_count": 5,
+      "configured_monster_count": 41,
       "count_semantics": "configured_spawn_count",
       "composition": {
         "320005": 1,
-        "330006": 4
+        "330006": 40
       },
       "special_entities": [],
       "death_gate": false,
@@ -1000,68 +2342,194 @@
           }
         },
         {
-          "kind": "spawn",
+          "kind": "spawn_plan",
           "script_time_seconds": 107.0,
           "mission_id": 1001022,
           "composition": {
-            "320005": 1
+            "320005": 1,
+            "330006": 40
           },
+          "routes": [
+            {
+              "route": "group",
+              "options": [
+                {
+                  "id": 3001060,
+                  "items": [
+                    {
+                      "config": 1002002,
+                      "options": [
+                        {
+                          "template": "S_1_47_002",
+                          "override": 320005,
+                          "slots": 1,
+                          "counts": {
+                            "320005": [
+                              1,
+                              1
+                            ]
+                          }
+                        }
+                      ],
+                      "counts": {
+                        "320005": [
+                          1,
+                          1
+                        ]
+                      },
+                      "total": [
+                        1,
+                        1
+                      ],
+                      "delay": 0
+                    },
+                    {
+                      "config": 1001056,
+                      "options": [
+                        {
+                          "template": "S_1_46_056",
+                          "override": 330006,
+                          "slots": 10,
+                          "counts": {
+                            "330006": [
+                              10,
+                              10
+                            ]
+                          }
+                        }
+                      ],
+                      "counts": {
+                        "330006": [
+                          10,
+                          10
+                        ]
+                      },
+                      "total": [
+                        10,
+                        10
+                      ],
+                      "delay": 0
+                    },
+                    {
+                      "config": 1001057,
+                      "options": [
+                        {
+                          "template": "S_1_46_057",
+                          "override": 330006,
+                          "slots": 10,
+                          "counts": {
+                            "330006": [
+                              10,
+                              10
+                            ]
+                          }
+                        }
+                      ],
+                      "counts": {
+                        "330006": [
+                          10,
+                          10
+                        ]
+                      },
+                      "total": [
+                        10,
+                        10
+                      ],
+                      "delay": 2.2
+                    },
+                    {
+                      "config": 1001056,
+                      "options": [
+                        {
+                          "template": "S_1_46_056",
+                          "override": 330006,
+                          "slots": 10,
+                          "counts": {
+                            "330006": [
+                              10,
+                              10
+                            ]
+                          }
+                        }
+                      ],
+                      "counts": {
+                        "330006": [
+                          10,
+                          10
+                        ]
+                      },
+                      "total": [
+                        10,
+                        10
+                      ],
+                      "delay": 4.4
+                    },
+                    {
+                      "config": 1001057,
+                      "options": [
+                        {
+                          "template": "S_1_46_057",
+                          "override": 330006,
+                          "slots": 10,
+                          "counts": {
+                            "330006": [
+                              10,
+                              10
+                            ]
+                          }
+                        }
+                      ],
+                      "counts": {
+                        "330006": [
+                          10,
+                          10
+                        ]
+                      },
+                      "total": [
+                        10,
+                        10
+                      ],
+                      "delay": 6.6
+                    }
+                  ],
+                  "counts": {
+                    "320005": [
+                      1,
+                      1
+                    ],
+                    "330006": [
+                      40,
+                      40
+                    ]
+                  },
+                  "total": [
+                    41,
+                    41
+                  ]
+                }
+              ],
+              "counts": {
+                "320005": [
+                  1,
+                  1
+                ],
+                "330006": [
+                  40,
+                  40
+                ]
+              },
+              "total": [
+                41,
+                41
+              ]
+            }
+          ],
+          "repeat": 1,
+          "interval": [],
+          "time_basis": "mission_start; member delays and template positions remain in routes",
           "source_ref": {
-            "source_id": "T:Mission_PositionGroupMonsterFlushConfig",
-            "row_id": 3001060,
-            "entry_index": 0
-          }
-        },
-        {
-          "kind": "spawn",
-          "script_time_seconds": 107.0,
-          "mission_id": 1001022,
-          "composition": {
-            "330006": 1
-          },
-          "source_ref": {
-            "source_id": "T:Mission_PositionGroupMonsterFlushConfig",
-            "row_id": 3001060,
-            "entry_index": 1
-          }
-        },
-        {
-          "kind": "spawn",
-          "script_time_seconds": 109.2,
-          "mission_id": 1001022,
-          "composition": {
-            "330006": 1
-          },
-          "source_ref": {
-            "source_id": "T:Mission_PositionGroupMonsterFlushConfig",
-            "row_id": 3001060,
-            "entry_index": 2
-          }
-        },
-        {
-          "kind": "spawn",
-          "script_time_seconds": 111.4,
-          "mission_id": 1001022,
-          "composition": {
-            "330006": 1
-          },
-          "source_ref": {
-            "source_id": "T:Mission_PositionGroupMonsterFlushConfig",
-            "row_id": 3001060,
-            "entry_index": 3
-          }
-        },
-        {
-          "kind": "spawn",
-          "script_time_seconds": 113.6,
-          "mission_id": 1001022,
-          "composition": {
-            "330006": 1
-          },
-          "source_ref": {
-            "source_id": "T:Mission_PositionGroupMonsterFlushConfig",
-            "row_id": 3001060,
-            "entry_index": 4
+            "source_id": "D:chapter-1-spawn-plans",
+            "row_id": 1001022
           }
         }
       ],
@@ -1082,12 +2550,12 @@
       "script_start_seconds": 135.0,
       "next_script_start_seconds": 150.0,
       "nominal_window_seconds": 15.0,
-      "configured_monster_count": 7,
+      "configured_monster_count": 9,
       "count_semantics": "configured_spawn_count",
       "composition": {
         "320005": 1,
-        "320017": 4,
-        "320019": 2
+        "320017": 5,
+        "320019": 3
       },
       "special_entities": [],
       "death_gate": false,
@@ -1106,94 +2574,257 @@
       ],
       "events": [
         {
-          "kind": "spawn",
+          "kind": "spawn_plan",
           "script_time_seconds": 135.0,
           "mission_id": 1001023,
           "composition": {
-            "320017": 1
+            "320017": 5,
+            "320005": 1,
+            "320019": 3
           },
+          "routes": [
+            {
+              "route": "group",
+              "options": [
+                {
+                  "id": 3001061,
+                  "items": [
+                    {
+                      "config": 1003029,
+                      "options": [
+                        {
+                          "template": "S_1_47_1029",
+                          "override": 320017,
+                          "slots": 2,
+                          "counts": {
+                            "320017": [
+                              2,
+                              2
+                            ]
+                          }
+                        }
+                      ],
+                      "counts": {
+                        "320017": [
+                          2,
+                          2
+                        ]
+                      },
+                      "total": [
+                        2,
+                        2
+                      ],
+                      "delay": 0
+                    },
+                    {
+                      "config": 1003002,
+                      "options": [
+                        {
+                          "template": "S_1_47_1002",
+                          "override": 320017,
+                          "slots": 1,
+                          "counts": {
+                            "320017": [
+                              1,
+                              1
+                            ]
+                          }
+                        }
+                      ],
+                      "counts": {
+                        "320017": [
+                          1,
+                          1
+                        ]
+                      },
+                      "total": [
+                        1,
+                        1
+                      ],
+                      "delay": 1.5
+                    },
+                    {
+                      "config": 1002014,
+                      "options": [
+                        {
+                          "template": "S_1_47_014",
+                          "override": 320005,
+                          "slots": 1,
+                          "counts": {
+                            "320005": [
+                              1,
+                              1
+                            ]
+                          }
+                        }
+                      ],
+                      "counts": {
+                        "320005": [
+                          1,
+                          1
+                        ]
+                      },
+                      "total": [
+                        1,
+                        1
+                      ],
+                      "delay": 3
+                    },
+                    {
+                      "config": 1003025,
+                      "options": [
+                        {
+                          "template": "S_1_47_1025",
+                          "override": 320017,
+                          "slots": 1,
+                          "counts": {
+                            "320017": [
+                              1,
+                              1
+                            ]
+                          }
+                        }
+                      ],
+                      "counts": {
+                        "320017": [
+                          1,
+                          1
+                        ]
+                      },
+                      "total": [
+                        1,
+                        1
+                      ],
+                      "delay": 4
+                    },
+                    {
+                      "config": 1002013,
+                      "options": [
+                        {
+                          "template": "S_1_47_013",
+                          "override": 320017,
+                          "slots": 1,
+                          "counts": {
+                            "320017": [
+                              1,
+                              1
+                            ]
+                          }
+                        }
+                      ],
+                      "counts": {
+                        "320017": [
+                          1,
+                          1
+                        ]
+                      },
+                      "total": [
+                        1,
+                        1
+                      ],
+                      "delay": 5.5
+                    },
+                    {
+                      "config": 1003024,
+                      "options": [
+                        {
+                          "template": "S_1_47_1024",
+                          "override": 320019,
+                          "slots": 1,
+                          "counts": {
+                            "320019": [
+                              1,
+                              1
+                            ]
+                          }
+                        }
+                      ],
+                      "counts": {
+                        "320019": [
+                          1,
+                          1
+                        ]
+                      },
+                      "total": [
+                        1,
+                        1
+                      ],
+                      "delay": 7
+                    },
+                    {
+                      "config": 1003030,
+                      "options": [
+                        {
+                          "template": "S_1_47_1030",
+                          "override": 320019,
+                          "slots": 2,
+                          "counts": {
+                            "320019": [
+                              2,
+                              2
+                            ]
+                          }
+                        }
+                      ],
+                      "counts": {
+                        "320019": [
+                          2,
+                          2
+                        ]
+                      },
+                      "total": [
+                        2,
+                        2
+                      ],
+                      "delay": 8.5
+                    }
+                  ],
+                  "counts": {
+                    "320017": [
+                      5,
+                      5
+                    ],
+                    "320005": [
+                      1,
+                      1
+                    ],
+                    "320019": [
+                      3,
+                      3
+                    ]
+                  },
+                  "total": [
+                    9,
+                    9
+                  ]
+                }
+              ],
+              "counts": {
+                "320017": [
+                  5,
+                  5
+                ],
+                "320005": [
+                  1,
+                  1
+                ],
+                "320019": [
+                  3,
+                  3
+                ]
+              },
+              "total": [
+                9,
+                9
+              ]
+            }
+          ],
+          "repeat": 1,
+          "interval": [],
+          "time_basis": "mission_start; member delays and template positions remain in routes",
           "source_ref": {
-            "source_id": "T:Mission_PositionGroupMonsterFlushConfig",
-            "row_id": 3001061,
-            "entry_index": 0
-          }
-        },
-        {
-          "kind": "spawn",
-          "script_time_seconds": 136.5,
-          "mission_id": 1001023,
-          "composition": {
-            "320017": 1
-          },
-          "source_ref": {
-            "source_id": "T:Mission_PositionGroupMonsterFlushConfig",
-            "row_id": 3001061,
-            "entry_index": 1
-          }
-        },
-        {
-          "kind": "spawn",
-          "script_time_seconds": 138.0,
-          "mission_id": 1001023,
-          "composition": {
-            "320005": 1
-          },
-          "source_ref": {
-            "source_id": "T:Mission_PositionGroupMonsterFlushConfig",
-            "row_id": 3001061,
-            "entry_index": 2
-          }
-        },
-        {
-          "kind": "spawn",
-          "script_time_seconds": 139.0,
-          "mission_id": 1001023,
-          "composition": {
-            "320017": 1
-          },
-          "source_ref": {
-            "source_id": "T:Mission_PositionGroupMonsterFlushConfig",
-            "row_id": 3001061,
-            "entry_index": 3
-          }
-        },
-        {
-          "kind": "spawn",
-          "script_time_seconds": 140.5,
-          "mission_id": 1001023,
-          "composition": {
-            "320017": 1
-          },
-          "source_ref": {
-            "source_id": "T:Mission_PositionGroupMonsterFlushConfig",
-            "row_id": 3001061,
-            "entry_index": 4
-          }
-        },
-        {
-          "kind": "spawn",
-          "script_time_seconds": 142.0,
-          "mission_id": 1001023,
-          "composition": {
-            "320019": 1
-          },
-          "source_ref": {
-            "source_id": "T:Mission_PositionGroupMonsterFlushConfig",
-            "row_id": 3001061,
-            "entry_index": 5
-          }
-        },
-        {
-          "kind": "spawn",
-          "script_time_seconds": 143.5,
-          "mission_id": 1001023,
-          "composition": {
-            "320019": 1
-          },
-          "source_ref": {
-            "source_id": "T:Mission_PositionGroupMonsterFlushConfig",
-            "row_id": 3001061,
-            "entry_index": 6
+            "source_id": "D:chapter-1-spawn-plans",
+            "row_id": 1001023
           }
         }
       ],
@@ -1214,12 +2845,12 @@
       "script_start_seconds": 150.0,
       "next_script_start_seconds": 180.0,
       "nominal_window_seconds": 30.0,
-      "configured_monster_count": 18,
+      "configured_monster_count": 49,
       "count_semantics": "configured_spawn_count",
       "composition": {
-        "320005": 2,
+        "320005": 3,
         "320030": 4,
-        "330006": 12
+        "330006": 42
       },
       "special_entities": [],
       "death_gate": false,
@@ -1249,227 +2880,704 @@
       ],
       "events": [
         {
-          "kind": "spawn",
+          "kind": "spawn_plan",
           "script_time_seconds": 150.0,
           "mission_id": 1001024,
           "composition": {
-            "320005": 1
-          },
-          "source_ref": {
-            "source_id": "T:Mission_PositionGroupMonsterFlushConfig",
-            "row_id": 3001062,
-            "entry_index": 0
-          }
-        },
-        {
-          "kind": "spawn",
-          "script_time_seconds": 150.0,
-          "mission_id": 1001024,
-          "composition": {
-            "320030": 1
-          },
-          "source_ref": {
-            "source_id": "T:Mission_PositionGroupMonsterFlushConfig",
-            "row_id": 3001062,
-            "entry_index": 1
-          }
-        },
-        {
-          "kind": "spawn",
-          "script_time_seconds": 150.0,
-          "mission_id": 1001024,
-          "composition": {
+            "320005": 1,
+            "320030": 4,
             "330006": 2
           },
+          "routes": [
+            {
+              "route": "group",
+              "options": [
+                {
+                  "id": 3001062,
+                  "items": [
+                    {
+                      "config": 1002033,
+                      "options": [
+                        {
+                          "template": "S_1_47_033",
+                          "override": 320005,
+                          "slots": 1,
+                          "counts": {
+                            "320005": [
+                              1,
+                              1
+                            ]
+                          }
+                        }
+                      ],
+                      "counts": {
+                        "320005": [
+                          1,
+                          1
+                        ]
+                      },
+                      "total": [
+                        1,
+                        1
+                      ],
+                      "delay": 0
+                    },
+                    {
+                      "config": 1003013,
+                      "options": [
+                        {
+                          "template": "S_1_47_1013",
+                          "override": 320030,
+                          "slots": 1,
+                          "counts": {
+                            "320030": [
+                              1,
+                              1
+                            ]
+                          }
+                        }
+                      ],
+                      "counts": {
+                        "320030": [
+                          1,
+                          1
+                        ]
+                      },
+                      "total": [
+                        1,
+                        1
+                      ],
+                      "delay": 0
+                    },
+                    {
+                      "config": 1003013,
+                      "options": [
+                        {
+                          "template": "S_1_47_1013",
+                          "override": 320030,
+                          "slots": 1,
+                          "counts": {
+                            "320030": [
+                              1,
+                              1
+                            ]
+                          }
+                        }
+                      ],
+                      "counts": {
+                        "320030": [
+                          1,
+                          1
+                        ]
+                      },
+                      "total": [
+                        1,
+                        1
+                      ],
+                      "delay": 1.6
+                    },
+                    {
+                      "config": 1003013,
+                      "options": [
+                        {
+                          "template": "S_1_47_1013",
+                          "override": 320030,
+                          "slots": 1,
+                          "counts": {
+                            "320030": [
+                              1,
+                              1
+                            ]
+                          }
+                        }
+                      ],
+                      "counts": {
+                        "320030": [
+                          1,
+                          1
+                        ]
+                      },
+                      "total": [
+                        1,
+                        1
+                      ],
+                      "delay": 3.2
+                    },
+                    {
+                      "config": 1003013,
+                      "options": [
+                        {
+                          "template": "S_1_47_1013",
+                          "override": 320030,
+                          "slots": 1,
+                          "counts": {
+                            "320030": [
+                              1,
+                              1
+                            ]
+                          }
+                        }
+                      ],
+                      "counts": {
+                        "320030": [
+                          1,
+                          1
+                        ]
+                      },
+                      "total": [
+                        1,
+                        1
+                      ],
+                      "delay": 4.8
+                    }
+                  ],
+                  "counts": {
+                    "320005": [
+                      1,
+                      1
+                    ],
+                    "320030": [
+                      4,
+                      4
+                    ]
+                  },
+                  "total": [
+                    5,
+                    5
+                  ]
+                }
+              ],
+              "counts": {
+                "320005": [
+                  1,
+                  1
+                ],
+                "320030": [
+                  4,
+                  4
+                ]
+              },
+              "total": [
+                5,
+                5
+              ]
+            },
+            {
+              "route": "random",
+              "options": [
+                {
+                  "id": 5,
+                  "counts": {
+                    "330006": [
+                      2,
+                      2
+                    ]
+                  }
+                },
+                {
+                  "id": 13,
+                  "counts": {
+                    "330006": [
+                      3,
+                      3
+                    ]
+                  }
+                }
+              ],
+              "number": 2,
+              "counts": {
+                "330006": [
+                  2,
+                  2
+                ]
+              },
+              "total": [
+                2,
+                2
+              ]
+            }
+          ],
+          "repeat": 1,
+          "interval": [],
+          "time_basis": "mission_start; member delays and template positions remain in routes",
           "source_ref": {
-            "source_id": "T:Mission_RandomMonsterFlushConfig",
-            "row_ids": [
-              5,
-              13
-            ],
-            "rule_fact_id": "F03"
+            "source_id": "D:chapter-1-spawn-plans",
+            "row_id": 1001024
           }
         },
         {
-          "kind": "spawn",
+          "kind": "spawn_plan",
           "script_time_seconds": 150.0,
           "mission_id": 1001027,
           "composition": {
             "330006": 1
           },
+          "routes": [
+            {
+              "route": "random",
+              "options": [
+                {
+                  "id": 2,
+                  "counts": {
+                    "330006": [
+                      1,
+                      1
+                    ]
+                  }
+                }
+              ],
+              "number": 1,
+              "counts": {
+                "330006": [
+                  1,
+                  1
+                ]
+              },
+              "total": [
+                1,
+                1
+              ]
+            }
+          ],
+          "repeat": 1,
+          "interval": [],
+          "time_basis": "mission_start; member delays and template positions remain in routes",
           "source_ref": {
-            "source_id": "T:Mission_RandomMonsterFlushConfig",
-            "row_ids": [
-              2
-            ],
-            "rule_fact_id": "F03"
+            "source_id": "D:chapter-1-spawn-plans",
+            "row_id": 1001027
           }
         },
         {
-          "kind": "spawn",
-          "script_time_seconds": 151.6,
-          "mission_id": 1001024,
-          "composition": {
-            "320030": 1
-          },
-          "source_ref": {
-            "source_id": "T:Mission_PositionGroupMonsterFlushConfig",
-            "row_id": 3001062,
-            "entry_index": 2
-          }
-        },
-        {
-          "kind": "spawn",
+          "kind": "spawn_plan",
           "script_time_seconds": 151.6,
           "mission_id": 1001025,
           "composition": {
             "330006": 1
           },
+          "routes": [
+            {
+              "route": "random",
+              "options": [
+                {
+                  "id": 2,
+                  "counts": {
+                    "330006": [
+                      1,
+                      1
+                    ]
+                  }
+                }
+              ],
+              "number": 1,
+              "counts": {
+                "330006": [
+                  1,
+                  1
+                ]
+              },
+              "total": [
+                1,
+                1
+              ]
+            }
+          ],
+          "repeat": 1,
+          "interval": [],
+          "time_basis": "mission_start; member delays and template positions remain in routes",
           "source_ref": {
-            "source_id": "T:Mission_RandomMonsterFlushConfig",
-            "row_ids": [
-              2
-            ],
-            "rule_fact_id": "F03"
+            "source_id": "D:chapter-1-spawn-plans",
+            "row_id": 1001025
           }
         },
         {
-          "kind": "spawn",
+          "kind": "spawn_plan",
           "script_time_seconds": 153.0,
           "mission_id": 1001028,
           "composition": {
             "330006": 1
           },
+          "routes": [
+            {
+              "route": "random",
+              "options": [
+                {
+                  "id": 2,
+                  "counts": {
+                    "330006": [
+                      1,
+                      1
+                    ]
+                  }
+                }
+              ],
+              "number": 1,
+              "counts": {
+                "330006": [
+                  1,
+                  1
+                ]
+              },
+              "total": [
+                1,
+                1
+              ]
+            }
+          ],
+          "repeat": 1,
+          "interval": [],
+          "time_basis": "mission_start; member delays and template positions remain in routes",
           "source_ref": {
-            "source_id": "T:Mission_RandomMonsterFlushConfig",
-            "row_ids": [
-              2
-            ],
-            "rule_fact_id": "F03"
+            "source_id": "D:chapter-1-spawn-plans",
+            "row_id": 1001028
           }
         },
         {
-          "kind": "spawn",
-          "script_time_seconds": 153.2,
-          "mission_id": 1001024,
-          "composition": {
-            "320030": 1
-          },
-          "source_ref": {
-            "source_id": "T:Mission_PositionGroupMonsterFlushConfig",
-            "row_id": 3001062,
-            "entry_index": 3
-          }
-        },
-        {
-          "kind": "spawn",
+          "kind": "spawn_plan",
           "script_time_seconds": 153.2,
           "mission_id": 1001026,
           "composition": {
             "330006": 1
           },
+          "routes": [
+            {
+              "route": "random",
+              "options": [
+                {
+                  "id": 2,
+                  "counts": {
+                    "330006": [
+                      1,
+                      1
+                    ]
+                  }
+                }
+              ],
+              "number": 1,
+              "counts": {
+                "330006": [
+                  1,
+                  1
+                ]
+              },
+              "total": [
+                1,
+                1
+              ]
+            }
+          ],
+          "repeat": 1,
+          "interval": [],
+          "time_basis": "mission_start; member delays and template positions remain in routes",
           "source_ref": {
-            "source_id": "T:Mission_RandomMonsterFlushConfig",
-            "row_ids": [
-              2
-            ],
-            "rule_fact_id": "F03"
+            "source_id": "D:chapter-1-spawn-plans",
+            "row_id": 1001026
           }
         },
         {
-          "kind": "spawn",
-          "script_time_seconds": 154.8,
-          "mission_id": 1001024,
-          "composition": {
-            "320030": 1
-          },
-          "source_ref": {
-            "source_id": "T:Mission_PositionGroupMonsterFlushConfig",
-            "row_id": 3001062,
-            "entry_index": 4
-          }
-        },
-        {
-          "kind": "spawn",
+          "kind": "spawn_plan",
           "script_time_seconds": 165.0,
           "mission_id": 1001029,
           "composition": {
-            "320005": 1
+            "320005": 2
           },
+          "routes": [
+            {
+              "config": 1002005,
+              "options": [
+                {
+                  "template": "S_1_47_005",
+                  "override": 320005,
+                  "slots": 2,
+                  "counts": {
+                    "320005": [
+                      2,
+                      2
+                    ]
+                  }
+                }
+              ],
+              "counts": {
+                "320005": [
+                  2,
+                  2
+                ]
+              },
+              "total": [
+                2,
+                2
+              ],
+              "route": "position"
+            }
+          ],
+          "repeat": 1,
+          "interval": [],
+          "time_basis": "mission_start; member delays and template positions remain in routes",
           "source_ref": {
-            "source_id": "T:MissionWaterfallMission_WaterfallMission",
+            "source_id": "D:chapter-1-spawn-plans",
             "row_id": 1001029
           }
         },
         {
-          "kind": "spawn",
+          "kind": "spawn_plan",
           "script_time_seconds": 165.0,
           "mission_id": 1001030,
           "composition": {
-            "330006": 1
+            "330006": 6
           },
+          "routes": [
+            {
+              "config": 1001050,
+              "options": [
+                {
+                  "template": "S_1_46_050",
+                  "override": 330006,
+                  "slots": 6,
+                  "counts": {
+                    "330006": [
+                      6,
+                      6
+                    ]
+                  }
+                }
+              ],
+              "counts": {
+                "330006": [
+                  6,
+                  6
+                ]
+              },
+              "total": [
+                6,
+                6
+              ],
+              "route": "position"
+            }
+          ],
+          "repeat": 1,
+          "interval": [],
+          "time_basis": "mission_start; member delays and template positions remain in routes",
           "source_ref": {
-            "source_id": "T:MissionWaterfallMission_WaterfallMission",
+            "source_id": "D:chapter-1-spawn-plans",
             "row_id": 1001030
           }
         },
         {
-          "kind": "spawn",
+          "kind": "spawn_plan",
           "script_time_seconds": 165.8,
           "mission_id": 1001031,
           "composition": {
-            "330006": 1
+            "330006": 6
           },
+          "routes": [
+            {
+              "config": 1001051,
+              "options": [
+                {
+                  "template": "S_1_46_051",
+                  "override": 330006,
+                  "slots": 6,
+                  "counts": {
+                    "330006": [
+                      6,
+                      6
+                    ]
+                  }
+                }
+              ],
+              "counts": {
+                "330006": [
+                  6,
+                  6
+                ]
+              },
+              "total": [
+                6,
+                6
+              ],
+              "route": "position"
+            }
+          ],
+          "repeat": 1,
+          "interval": [],
+          "time_basis": "mission_start; member delays and template positions remain in routes",
           "source_ref": {
-            "source_id": "T:MissionWaterfallMission_WaterfallMission",
+            "source_id": "D:chapter-1-spawn-plans",
             "row_id": 1001031
           }
         },
         {
-          "kind": "spawn",
+          "kind": "spawn_plan",
           "script_time_seconds": 166.6,
           "mission_id": 1001032,
           "composition": {
-            "330006": 1
+            "330006": 6
           },
+          "routes": [
+            {
+              "config": 1001052,
+              "options": [
+                {
+                  "template": "S_1_46_052",
+                  "override": 330006,
+                  "slots": 6,
+                  "counts": {
+                    "330006": [
+                      6,
+                      6
+                    ]
+                  }
+                }
+              ],
+              "counts": {
+                "330006": [
+                  6,
+                  6
+                ]
+              },
+              "total": [
+                6,
+                6
+              ],
+              "route": "position"
+            }
+          ],
+          "repeat": 1,
+          "interval": [],
+          "time_basis": "mission_start; member delays and template positions remain in routes",
           "source_ref": {
-            "source_id": "T:MissionWaterfallMission_WaterfallMission",
+            "source_id": "D:chapter-1-spawn-plans",
             "row_id": 1001032
           }
         },
         {
-          "kind": "spawn",
+          "kind": "spawn_plan",
           "script_time_seconds": 167.4,
           "mission_id": 1001033,
           "composition": {
-            "330006": 1
+            "330006": 6
           },
+          "routes": [
+            {
+              "config": 1001052,
+              "options": [
+                {
+                  "template": "S_1_46_052",
+                  "override": 330006,
+                  "slots": 6,
+                  "counts": {
+                    "330006": [
+                      6,
+                      6
+                    ]
+                  }
+                }
+              ],
+              "counts": {
+                "330006": [
+                  6,
+                  6
+                ]
+              },
+              "total": [
+                6,
+                6
+              ],
+              "route": "position"
+            }
+          ],
+          "repeat": 1,
+          "interval": [],
+          "time_basis": "mission_start; member delays and template positions remain in routes",
           "source_ref": {
-            "source_id": "T:MissionWaterfallMission_WaterfallMission",
+            "source_id": "D:chapter-1-spawn-plans",
             "row_id": 1001033
           }
         },
         {
-          "kind": "spawn",
+          "kind": "spawn_plan",
           "script_time_seconds": 168.2,
           "mission_id": 1001034,
           "composition": {
-            "330006": 1
+            "330006": 6
           },
+          "routes": [
+            {
+              "config": 1001051,
+              "options": [
+                {
+                  "template": "S_1_46_051",
+                  "override": 330006,
+                  "slots": 6,
+                  "counts": {
+                    "330006": [
+                      6,
+                      6
+                    ]
+                  }
+                }
+              ],
+              "counts": {
+                "330006": [
+                  6,
+                  6
+                ]
+              },
+              "total": [
+                6,
+                6
+              ],
+              "route": "position"
+            }
+          ],
+          "repeat": 1,
+          "interval": [],
+          "time_basis": "mission_start; member delays and template positions remain in routes",
           "source_ref": {
-            "source_id": "T:MissionWaterfallMission_WaterfallMission",
+            "source_id": "D:chapter-1-spawn-plans",
             "row_id": 1001034
           }
         },
         {
-          "kind": "spawn",
+          "kind": "spawn_plan",
           "script_time_seconds": 169.0,
           "mission_id": 1001035,
           "composition": {
-            "330006": 1
+            "330006": 6
           },
+          "routes": [
+            {
+              "config": 1001050,
+              "options": [
+                {
+                  "template": "S_1_46_050",
+                  "override": 330006,
+                  "slots": 6,
+                  "counts": {
+                    "330006": [
+                      6,
+                      6
+                    ]
+                  }
+                }
+              ],
+              "counts": {
+                "330006": [
+                  6,
+                  6
+                ]
+              },
+              "total": [
+                6,
+                6
+              ],
+              "route": "position"
+            }
+          ],
+          "repeat": 1,
+          "interval": [],
+          "time_basis": "mission_start; member delays and template positions remain in routes",
           "source_ref": {
-            "source_id": "T:MissionWaterfallMission_WaterfallMission",
+            "source_id": "D:chapter-1-spawn-plans",
             "row_id": 1001035
           }
         }
@@ -1491,11 +3599,11 @@
       "script_start_seconds": 180.0,
       "next_script_start_seconds": 197.0,
       "nominal_window_seconds": 17.0,
-      "configured_monster_count": 2,
+      "configured_monster_count": 65,
       "count_semantics": "configured_spawn_count",
       "composition": {
-        "320017": 1,
-        "330006": 1
+        "320017": 5,
+        "330006": 60
       },
       "special_entities": [],
       "death_gate": false,
@@ -1515,26 +3623,93 @@
       ],
       "events": [
         {
-          "kind": "spawn",
+          "kind": "spawn_plan",
           "script_time_seconds": 180.0,
           "mission_id": 1001036,
           "composition": {
-            "320017": 1
+            "320017": 5
           },
+          "routes": [
+            {
+              "config": 1003023,
+              "options": [
+                {
+                  "template": "S_1_47_1023",
+                  "override": 320017,
+                  "slots": 5,
+                  "counts": {
+                    "320017": [
+                      5,
+                      5
+                    ]
+                  }
+                }
+              ],
+              "counts": {
+                "320017": [
+                  5,
+                  5
+                ]
+              },
+              "total": [
+                5,
+                5
+              ],
+              "route": "position"
+            }
+          ],
+          "repeat": 1,
+          "interval": [],
+          "time_basis": "mission_start; member delays and template positions remain in routes",
           "source_ref": {
-            "source_id": "T:MissionWaterfallMission_WaterfallMission",
+            "source_id": "D:chapter-1-spawn-plans",
             "row_id": 1001036
           }
         },
         {
-          "kind": "spawn",
+          "kind": "spawn_plan",
           "script_time_seconds": 180.0,
           "mission_id": 1001037,
           "composition": {
-            "330006": 1
+            "330006": 60
           },
+          "routes": [
+            {
+              "config": 1001008,
+              "options": [
+                {
+                  "template": "S_1_46_010",
+                  "override": 330006,
+                  "slots": 30,
+                  "counts": {
+                    "330006": [
+                      30,
+                      30
+                    ]
+                  }
+                }
+              ],
+              "counts": {
+                "330006": [
+                  30,
+                  30
+                ]
+              },
+              "total": [
+                30,
+                30
+              ],
+              "route": "position"
+            }
+          ],
+          "repeat": 2,
+          "interval": [
+            2.0,
+            4.0
+          ],
+          "time_basis": "mission_start; member delays and template positions remain in routes",
           "source_ref": {
-            "source_id": "T:MissionWaterfallMission_WaterfallMission",
+            "source_id": "D:chapter-1-spawn-plans",
             "row_id": 1001037
           }
         }
@@ -1556,13 +3731,13 @@
       "script_start_seconds": 197.0,
       "next_script_start_seconds": 240.0,
       "nominal_window_seconds": 43.0,
-      "configured_monster_count": 18,
+      "configured_monster_count": 21,
       "count_semantics": "scripted_maximum_not_guaranteed_realized",
       "composition": {
         "310008": 1,
         "320017": 4,
         "320019": 4,
-        "320021": 1,
+        "320021": 4,
         "330006": 8
       },
       "special_entities": [
@@ -1594,243 +3769,651 @@
       ],
       "events": [
         {
-          "kind": "spawn",
+          "kind": "spawn_plan",
           "script_time_seconds": 197.0,
           "mission_id": 1001038,
           "composition": {
             "310008": 1
           },
+          "routes": [
+            {
+              "config": 1002002,
+              "options": [
+                {
+                  "template": "S_1_47_002",
+                  "override": 310008,
+                  "slots": 1,
+                  "counts": {
+                    "310008": [
+                      1,
+                      1
+                    ]
+                  }
+                }
+              ],
+              "counts": {
+                "310008": [
+                  1,
+                  1
+                ]
+              },
+              "total": [
+                1,
+                1
+              ],
+              "route": "position"
+            }
+          ],
+          "repeat": 1,
+          "interval": [],
+          "time_basis": "mission_start; member delays and template positions remain in routes",
           "source_ref": {
-            "source_id": "T:MissionWaterfallMission_WaterfallMission",
+            "source_id": "D:chapter-1-spawn-plans",
             "row_id": 1001038
           }
         },
         {
-          "kind": "spawn",
+          "kind": "spawn_plan",
           "script_time_seconds": 197.0,
           "mission_id": 1001039,
           "composition": {
-            "320021": 1
+            "320021": 4
           },
+          "routes": [
+            {
+              "config": 1002019,
+              "options": [
+                {
+                  "template": "S_1_47_019",
+                  "override": 320021,
+                  "slots": 4,
+                  "counts": {
+                    "320021": [
+                      4,
+                      4
+                    ]
+                  }
+                }
+              ],
+              "counts": {
+                "320021": [
+                  4,
+                  4
+                ]
+              },
+              "total": [
+                4,
+                4
+              ],
+              "route": "position"
+            }
+          ],
+          "repeat": 1,
+          "interval": [],
+          "time_basis": "mission_start; member delays and template positions remain in routes",
           "source_ref": {
-            "source_id": "T:MissionWaterfallMission_WaterfallMission",
+            "source_id": "D:chapter-1-spawn-plans",
             "row_id": 1001039
           }
         },
         {
-          "kind": "spawn",
+          "kind": "spawn_plan",
           "script_time_seconds": 200.5,
           "mission_id": 1001040,
           "composition": {
-            "320017": 1
+            "320017": 1,
+            "330006": 1
           },
+          "routes": [
+            {
+              "config": 1003013,
+              "options": [
+                {
+                  "template": "S_1_47_1013",
+                  "override": 320017,
+                  "slots": 1,
+                  "counts": {
+                    "320017": [
+                      1,
+                      1
+                    ]
+                  }
+                }
+              ],
+              "counts": {
+                "320017": [
+                  1,
+                  1
+                ]
+              },
+              "total": [
+                1,
+                1
+              ],
+              "route": "position"
+            },
+            {
+              "route": "random",
+              "options": [
+                {
+                  "id": 2,
+                  "counts": {
+                    "330006": [
+                      1,
+                      1
+                    ]
+                  }
+                }
+              ],
+              "number": 1,
+              "counts": {
+                "330006": [
+                  1,
+                  1
+                ]
+              },
+              "total": [
+                1,
+                1
+              ]
+            }
+          ],
+          "repeat": 1,
+          "interval": [],
+          "time_basis": "mission_start; member delays and template positions remain in routes",
           "source_ref": {
-            "source_id": "T:MissionWaterfallMission_WaterfallMission",
+            "source_id": "D:chapter-1-spawn-plans",
             "row_id": 1001040
           }
         },
         {
-          "kind": "spawn",
-          "script_time_seconds": 200.5,
-          "mission_id": 1001040,
-          "composition": {
-            "330006": 1
-          },
-          "source_ref": {
-            "source_id": "T:Mission_RandomMonsterFlushConfig",
-            "row_ids": [
-              2
-            ],
-            "rule_fact_id": "F03"
-          }
-        },
-        {
-          "kind": "spawn",
+          "kind": "spawn_plan",
           "script_time_seconds": 204.0,
           "mission_id": 1001041,
           "composition": {
-            "320019": 1
+            "320019": 1,
+            "330006": 1
           },
+          "routes": [
+            {
+              "config": 1003014,
+              "options": [
+                {
+                  "template": "S_1_47_1014",
+                  "override": 320019,
+                  "slots": 1,
+                  "counts": {
+                    "320019": [
+                      1,
+                      1
+                    ]
+                  }
+                }
+              ],
+              "counts": {
+                "320019": [
+                  1,
+                  1
+                ]
+              },
+              "total": [
+                1,
+                1
+              ],
+              "route": "position"
+            },
+            {
+              "route": "random",
+              "options": [
+                {
+                  "id": 2,
+                  "counts": {
+                    "330006": [
+                      1,
+                      1
+                    ]
+                  }
+                }
+              ],
+              "number": 1,
+              "counts": {
+                "330006": [
+                  1,
+                  1
+                ]
+              },
+              "total": [
+                1,
+                1
+              ]
+            }
+          ],
+          "repeat": 1,
+          "interval": [],
+          "time_basis": "mission_start; member delays and template positions remain in routes",
           "source_ref": {
-            "source_id": "T:MissionWaterfallMission_WaterfallMission",
+            "source_id": "D:chapter-1-spawn-plans",
             "row_id": 1001041
           }
         },
         {
-          "kind": "spawn",
-          "script_time_seconds": 204.0,
-          "mission_id": 1001041,
-          "composition": {
-            "330006": 1
-          },
-          "source_ref": {
-            "source_id": "T:Mission_RandomMonsterFlushConfig",
-            "row_ids": [
-              2
-            ],
-            "rule_fact_id": "F03"
-          }
-        },
-        {
-          "kind": "spawn",
+          "kind": "spawn_plan",
           "script_time_seconds": 207.5,
           "mission_id": 1001042,
           "composition": {
-            "320017": 1
+            "320017": 1,
+            "330006": 1
           },
+          "routes": [
+            {
+              "config": 1003002,
+              "options": [
+                {
+                  "template": "S_1_47_1002",
+                  "override": 320017,
+                  "slots": 1,
+                  "counts": {
+                    "320017": [
+                      1,
+                      1
+                    ]
+                  }
+                }
+              ],
+              "counts": {
+                "320017": [
+                  1,
+                  1
+                ]
+              },
+              "total": [
+                1,
+                1
+              ],
+              "route": "position"
+            },
+            {
+              "route": "random",
+              "options": [
+                {
+                  "id": 2,
+                  "counts": {
+                    "330006": [
+                      1,
+                      1
+                    ]
+                  }
+                }
+              ],
+              "number": 1,
+              "counts": {
+                "330006": [
+                  1,
+                  1
+                ]
+              },
+              "total": [
+                1,
+                1
+              ]
+            }
+          ],
+          "repeat": 1,
+          "interval": [],
+          "time_basis": "mission_start; member delays and template positions remain in routes",
           "source_ref": {
-            "source_id": "T:MissionWaterfallMission_WaterfallMission",
+            "source_id": "D:chapter-1-spawn-plans",
             "row_id": 1001042
           }
         },
         {
-          "kind": "spawn",
-          "script_time_seconds": 207.5,
-          "mission_id": 1001042,
-          "composition": {
-            "330006": 1
-          },
-          "source_ref": {
-            "source_id": "T:Mission_RandomMonsterFlushConfig",
-            "row_ids": [
-              2
-            ],
-            "rule_fact_id": "F03"
-          }
-        },
-        {
-          "kind": "spawn",
+          "kind": "spawn_plan",
           "script_time_seconds": 211.0,
           "mission_id": 1001043,
           "composition": {
-            "320019": 1
+            "320019": 1,
+            "330006": 1
           },
+          "routes": [
+            {
+              "config": 1003013,
+              "options": [
+                {
+                  "template": "S_1_47_1013",
+                  "override": 320019,
+                  "slots": 1,
+                  "counts": {
+                    "320019": [
+                      1,
+                      1
+                    ]
+                  }
+                }
+              ],
+              "counts": {
+                "320019": [
+                  1,
+                  1
+                ]
+              },
+              "total": [
+                1,
+                1
+              ],
+              "route": "position"
+            },
+            {
+              "route": "random",
+              "options": [
+                {
+                  "id": 2,
+                  "counts": {
+                    "330006": [
+                      1,
+                      1
+                    ]
+                  }
+                }
+              ],
+              "number": 1,
+              "counts": {
+                "330006": [
+                  1,
+                  1
+                ]
+              },
+              "total": [
+                1,
+                1
+              ]
+            }
+          ],
+          "repeat": 1,
+          "interval": [],
+          "time_basis": "mission_start; member delays and template positions remain in routes",
           "source_ref": {
-            "source_id": "T:MissionWaterfallMission_WaterfallMission",
+            "source_id": "D:chapter-1-spawn-plans",
             "row_id": 1001043
           }
         },
         {
-          "kind": "spawn",
-          "script_time_seconds": 211.0,
-          "mission_id": 1001043,
-          "composition": {
-            "330006": 1
-          },
-          "source_ref": {
-            "source_id": "T:Mission_RandomMonsterFlushConfig",
-            "row_ids": [
-              2
-            ],
-            "rule_fact_id": "F03"
-          }
-        },
-        {
-          "kind": "spawn",
+          "kind": "spawn_plan",
           "script_time_seconds": 214.5,
           "mission_id": 1001044,
           "composition": {
-            "320017": 1
+            "320017": 1,
+            "330006": 1
           },
+          "routes": [
+            {
+              "config": 1003014,
+              "options": [
+                {
+                  "template": "S_1_47_1014",
+                  "override": 320017,
+                  "slots": 1,
+                  "counts": {
+                    "320017": [
+                      1,
+                      1
+                    ]
+                  }
+                }
+              ],
+              "counts": {
+                "320017": [
+                  1,
+                  1
+                ]
+              },
+              "total": [
+                1,
+                1
+              ],
+              "route": "position"
+            },
+            {
+              "route": "random",
+              "options": [
+                {
+                  "id": 2,
+                  "counts": {
+                    "330006": [
+                      1,
+                      1
+                    ]
+                  }
+                }
+              ],
+              "number": 1,
+              "counts": {
+                "330006": [
+                  1,
+                  1
+                ]
+              },
+              "total": [
+                1,
+                1
+              ]
+            }
+          ],
+          "repeat": 1,
+          "interval": [],
+          "time_basis": "mission_start; member delays and template positions remain in routes",
           "source_ref": {
-            "source_id": "T:MissionWaterfallMission_WaterfallMission",
+            "source_id": "D:chapter-1-spawn-plans",
             "row_id": 1001044
           }
         },
         {
-          "kind": "spawn",
-          "script_time_seconds": 214.5,
-          "mission_id": 1001044,
-          "composition": {
-            "330006": 1
-          },
-          "source_ref": {
-            "source_id": "T:Mission_RandomMonsterFlushConfig",
-            "row_ids": [
-              2
-            ],
-            "rule_fact_id": "F03"
-          }
-        },
-        {
-          "kind": "spawn",
+          "kind": "spawn_plan",
           "script_time_seconds": 218.0,
           "mission_id": 1001045,
           "composition": {
-            "320019": 1
+            "320019": 1,
+            "330006": 1
           },
+          "routes": [
+            {
+              "config": 1003002,
+              "options": [
+                {
+                  "template": "S_1_47_1002",
+                  "override": 320019,
+                  "slots": 1,
+                  "counts": {
+                    "320019": [
+                      1,
+                      1
+                    ]
+                  }
+                }
+              ],
+              "counts": {
+                "320019": [
+                  1,
+                  1
+                ]
+              },
+              "total": [
+                1,
+                1
+              ],
+              "route": "position"
+            },
+            {
+              "route": "random",
+              "options": [
+                {
+                  "id": 2,
+                  "counts": {
+                    "330006": [
+                      1,
+                      1
+                    ]
+                  }
+                }
+              ],
+              "number": 1,
+              "counts": {
+                "330006": [
+                  1,
+                  1
+                ]
+              },
+              "total": [
+                1,
+                1
+              ]
+            }
+          ],
+          "repeat": 1,
+          "interval": [],
+          "time_basis": "mission_start; member delays and template positions remain in routes",
           "source_ref": {
-            "source_id": "T:MissionWaterfallMission_WaterfallMission",
+            "source_id": "D:chapter-1-spawn-plans",
             "row_id": 1001045
           }
         },
         {
-          "kind": "spawn",
-          "script_time_seconds": 218.0,
-          "mission_id": 1001045,
-          "composition": {
-            "330006": 1
-          },
-          "source_ref": {
-            "source_id": "T:Mission_RandomMonsterFlushConfig",
-            "row_ids": [
-              2
-            ],
-            "rule_fact_id": "F03"
-          }
-        },
-        {
-          "kind": "spawn",
+          "kind": "spawn_plan",
           "script_time_seconds": 221.5,
           "mission_id": 1001046,
           "composition": {
-            "320017": 1
+            "320017": 1,
+            "330006": 1
           },
+          "routes": [
+            {
+              "config": 1003013,
+              "options": [
+                {
+                  "template": "S_1_47_1013",
+                  "override": 320017,
+                  "slots": 1,
+                  "counts": {
+                    "320017": [
+                      1,
+                      1
+                    ]
+                  }
+                }
+              ],
+              "counts": {
+                "320017": [
+                  1,
+                  1
+                ]
+              },
+              "total": [
+                1,
+                1
+              ],
+              "route": "position"
+            },
+            {
+              "route": "random",
+              "options": [
+                {
+                  "id": 2,
+                  "counts": {
+                    "330006": [
+                      1,
+                      1
+                    ]
+                  }
+                }
+              ],
+              "number": 1,
+              "counts": {
+                "330006": [
+                  1,
+                  1
+                ]
+              },
+              "total": [
+                1,
+                1
+              ]
+            }
+          ],
+          "repeat": 1,
+          "interval": [],
+          "time_basis": "mission_start; member delays and template positions remain in routes",
           "source_ref": {
-            "source_id": "T:MissionWaterfallMission_WaterfallMission",
+            "source_id": "D:chapter-1-spawn-plans",
             "row_id": 1001046
           }
         },
         {
-          "kind": "spawn",
-          "script_time_seconds": 221.5,
-          "mission_id": 1001046,
-          "composition": {
-            "330006": 1
-          },
-          "source_ref": {
-            "source_id": "T:Mission_RandomMonsterFlushConfig",
-            "row_ids": [
-              2
-            ],
-            "rule_fact_id": "F03"
-          }
-        },
-        {
-          "kind": "spawn",
+          "kind": "spawn_plan",
           "script_time_seconds": 225.0,
           "mission_id": 1001047,
           "composition": {
-            "320019": 1
+            "320019": 1,
+            "330006": 1
           },
+          "routes": [
+            {
+              "config": 1003014,
+              "options": [
+                {
+                  "template": "S_1_47_1014",
+                  "override": 320019,
+                  "slots": 1,
+                  "counts": {
+                    "320019": [
+                      1,
+                      1
+                    ]
+                  }
+                }
+              ],
+              "counts": {
+                "320019": [
+                  1,
+                  1
+                ]
+              },
+              "total": [
+                1,
+                1
+              ],
+              "route": "position"
+            },
+            {
+              "route": "random",
+              "options": [
+                {
+                  "id": 2,
+                  "counts": {
+                    "330006": [
+                      1,
+                      1
+                    ]
+                  }
+                }
+              ],
+              "number": 1,
+              "counts": {
+                "330006": [
+                  1,
+                  1
+                ]
+              },
+              "total": [
+                1,
+                1
+              ]
+            }
+          ],
+          "repeat": 1,
+          "interval": [],
+          "time_basis": "mission_start; member delays and template positions remain in routes",
           "source_ref": {
-            "source_id": "T:MissionWaterfallMission_WaterfallMission",
+            "source_id": "D:chapter-1-spawn-plans",
             "row_id": 1001047
-          }
-        },
-        {
-          "kind": "spawn",
-          "script_time_seconds": 225.0,
-          "mission_id": 1001047,
-          "composition": {
-            "330006": 1
-          },
-          "source_ref": {
-            "source_id": "T:Mission_RandomMonsterFlushConfig",
-            "row_ids": [
-              2
-            ],
-            "rule_fact_id": "F03"
           }
         }
       ],
@@ -1851,11 +4434,11 @@
       "script_start_seconds": 240.0,
       "next_script_start_seconds": 270.0,
       "nominal_window_seconds": 30.0,
-      "configured_monster_count": 8,
+      "configured_monster_count": 15,
       "count_semantics": "configured_spawn_count",
       "composition": {
-        "320019": 3,
-        "320021": 1,
+        "320019": 6,
+        "320021": 5,
         "330006": 4
       },
       "special_entities": [],
@@ -1889,82 +4472,248 @@
           }
         },
         {
-          "kind": "spawn",
+          "kind": "spawn_plan",
           "script_time_seconds": 242.0,
           "mission_id": 1001049,
           "composition": {
-            "320021": 1
+            "320021": 5
           },
+          "routes": [
+            {
+              "config": 1002056,
+              "options": [
+                {
+                  "template": "S_1_47_056",
+                  "override": 320021,
+                  "slots": 5,
+                  "counts": {
+                    "320021": [
+                      5,
+                      5
+                    ]
+                  }
+                }
+              ],
+              "counts": {
+                "320021": [
+                  5,
+                  5
+                ]
+              },
+              "total": [
+                5,
+                5
+              ],
+              "route": "position"
+            }
+          ],
+          "repeat": 1,
+          "interval": [],
+          "time_basis": "mission_start; member delays and template positions remain in routes",
           "source_ref": {
-            "source_id": "T:MissionWaterfallMission_WaterfallMission",
+            "source_id": "D:chapter-1-spawn-plans",
             "row_id": 1001049
           }
         },
         {
-          "kind": "spawn",
+          "kind": "spawn_plan",
           "script_time_seconds": 242.5,
           "mission_id": 1001050,
           "composition": {
-            "320019": 1
+            "320019": 2,
+            "330006": 2
           },
+          "routes": [
+            {
+              "config": 1003029,
+              "options": [
+                {
+                  "template": "S_1_47_1029",
+                  "override": 320019,
+                  "slots": 2,
+                  "counts": {
+                    "320019": [
+                      2,
+                      2
+                    ]
+                  }
+                }
+              ],
+              "counts": {
+                "320019": [
+                  2,
+                  2
+                ]
+              },
+              "total": [
+                2,
+                2
+              ],
+              "route": "position"
+            },
+            {
+              "route": "random",
+              "options": [
+                {
+                  "id": 5,
+                  "counts": {
+                    "330006": [
+                      2,
+                      2
+                    ]
+                  }
+                },
+                {
+                  "id": 13,
+                  "counts": {
+                    "330006": [
+                      3,
+                      3
+                    ]
+                  }
+                }
+              ],
+              "number": 2,
+              "counts": {
+                "330006": [
+                  2,
+                  2
+                ]
+              },
+              "total": [
+                2,
+                2
+              ]
+            }
+          ],
+          "repeat": 1,
+          "interval": [],
+          "time_basis": "mission_start; member delays and template positions remain in routes",
           "source_ref": {
-            "source_id": "T:MissionWaterfallMission_WaterfallMission",
+            "source_id": "D:chapter-1-spawn-plans",
             "row_id": 1001050
           }
         },
         {
-          "kind": "spawn",
-          "script_time_seconds": 242.5,
-          "mission_id": 1001050,
-          "composition": {
-            "330006": 2
-          },
-          "source_ref": {
-            "source_id": "T:Mission_RandomMonsterFlushConfig",
-            "row_ids": [
-              5,
-              13
-            ],
-            "rule_fact_id": "F03"
-          }
-        },
-        {
-          "kind": "spawn",
+          "kind": "spawn_plan",
           "script_time_seconds": 245.3,
           "mission_id": 1001051,
           "composition": {
-            "320019": 1
+            "320019": 2,
+            "330006": 2
           },
+          "routes": [
+            {
+              "config": 1003030,
+              "options": [
+                {
+                  "template": "S_1_47_1030",
+                  "override": 320019,
+                  "slots": 2,
+                  "counts": {
+                    "320019": [
+                      2,
+                      2
+                    ]
+                  }
+                }
+              ],
+              "counts": {
+                "320019": [
+                  2,
+                  2
+                ]
+              },
+              "total": [
+                2,
+                2
+              ],
+              "route": "position"
+            },
+            {
+              "route": "random",
+              "options": [
+                {
+                  "id": 5,
+                  "counts": {
+                    "330006": [
+                      2,
+                      2
+                    ]
+                  }
+                },
+                {
+                  "id": 13,
+                  "counts": {
+                    "330006": [
+                      3,
+                      3
+                    ]
+                  }
+                }
+              ],
+              "number": 2,
+              "counts": {
+                "330006": [
+                  2,
+                  2
+                ]
+              },
+              "total": [
+                2,
+                2
+              ]
+            }
+          ],
+          "repeat": 1,
+          "interval": [],
+          "time_basis": "mission_start; member delays and template positions remain in routes",
           "source_ref": {
-            "source_id": "T:MissionWaterfallMission_WaterfallMission",
+            "source_id": "D:chapter-1-spawn-plans",
             "row_id": 1001051
           }
         },
         {
-          "kind": "spawn",
-          "script_time_seconds": 245.3,
-          "mission_id": 1001051,
-          "composition": {
-            "330006": 2
-          },
-          "source_ref": {
-            "source_id": "T:Mission_RandomMonsterFlushConfig",
-            "row_ids": [
-              5,
-              13
-            ],
-            "rule_fact_id": "F03"
-          }
-        },
-        {
-          "kind": "spawn",
+          "kind": "spawn_plan",
           "script_time_seconds": 248.1,
           "mission_id": 1001052,
           "composition": {
-            "320019": 1
+            "320019": 2
           },
+          "routes": [
+            {
+              "config": 1003020,
+              "options": [
+                {
+                  "template": "S_1_47_1020",
+                  "override": 320019,
+                  "slots": 2,
+                  "counts": {
+                    "320019": [
+                      2,
+                      2
+                    ]
+                  }
+                }
+              ],
+              "counts": {
+                "320019": [
+                  2,
+                  2
+                ]
+              },
+              "total": [
+                2,
+                2
+              ],
+              "route": "position"
+            }
+          ],
+          "repeat": 1,
+          "interval": [],
+          "time_basis": "mission_start; member delays and template positions remain in routes",
           "source_ref": {
-            "source_id": "T:MissionWaterfallMission_WaterfallMission",
+            "source_id": "D:chapter-1-spawn-plans",
             "row_id": 1001052
           }
         }
@@ -1986,14 +4735,14 @@
       "script_start_seconds": 270.0,
       "next_script_start_seconds": 300.0,
       "nominal_window_seconds": 30.0,
-      "configured_monster_count": 21,
+      "configured_monster_count": 87,
       "count_semantics": "configured_spawn_count",
       "composition": {
-        "320005": 1,
-        "320017": 2,
-        "320019": 1,
+        "320005": 2,
+        "320017": 6,
+        "320019": 2,
         "320035": 2,
-        "330006": 15
+        "330006": 75
       },
       "special_entities": [],
       "death_gate": false,
@@ -2023,200 +4772,585 @@
       ],
       "events": [
         {
-          "kind": "spawn",
+          "kind": "spawn_plan",
           "script_time_seconds": 270.0,
           "mission_id": 1001053,
           "composition": {
-            "320017": 1
+            "320017": 3,
+            "330006": 2
           },
+          "routes": [
+            {
+              "config": 1003026,
+              "options": [
+                {
+                  "template": "S_1_47_1026",
+                  "override": 320017,
+                  "slots": 3,
+                  "counts": {
+                    "320017": [
+                      3,
+                      3
+                    ]
+                  }
+                }
+              ],
+              "counts": {
+                "320017": [
+                  3,
+                  3
+                ]
+              },
+              "total": [
+                3,
+                3
+              ],
+              "route": "position"
+            },
+            {
+              "route": "random",
+              "options": [
+                {
+                  "id": 5,
+                  "counts": {
+                    "330006": [
+                      2,
+                      2
+                    ]
+                  }
+                }
+              ],
+              "number": 2,
+              "counts": {
+                "330006": [
+                  2,
+                  2
+                ]
+              },
+              "total": [
+                2,
+                2
+              ]
+            }
+          ],
+          "repeat": 1,
+          "interval": [],
+          "time_basis": "mission_start; member delays and template positions remain in routes",
           "source_ref": {
-            "source_id": "T:MissionWaterfallMission_WaterfallMission",
+            "source_id": "D:chapter-1-spawn-plans",
             "row_id": 1001053
           }
         },
         {
-          "kind": "spawn",
-          "script_time_seconds": 270.0,
-          "mission_id": 1001053,
-          "composition": {
-            "330006": 2
-          },
-          "source_ref": {
-            "source_id": "T:Mission_RandomMonsterFlushConfig",
-            "row_ids": [
-              5
-            ],
-            "rule_fact_id": "F03"
-          }
-        },
-        {
-          "kind": "spawn",
+          "kind": "spawn_plan",
           "script_time_seconds": 272.7,
           "mission_id": 1001054,
           "composition": {
-            "320035": 1
+            "320035": 1,
+            "330006": 2
           },
+          "routes": [
+            {
+              "config": 1003025,
+              "options": [
+                {
+                  "template": "S_1_47_1025",
+                  "override": 320035,
+                  "slots": 1,
+                  "counts": {
+                    "320035": [
+                      1,
+                      1
+                    ]
+                  }
+                }
+              ],
+              "counts": {
+                "320035": [
+                  1,
+                  1
+                ]
+              },
+              "total": [
+                1,
+                1
+              ],
+              "route": "position"
+            },
+            {
+              "route": "random",
+              "options": [
+                {
+                  "id": 5,
+                  "counts": {
+                    "330006": [
+                      2,
+                      2
+                    ]
+                  }
+                }
+              ],
+              "number": 2,
+              "counts": {
+                "330006": [
+                  2,
+                  2
+                ]
+              },
+              "total": [
+                2,
+                2
+              ]
+            }
+          ],
+          "repeat": 1,
+          "interval": [],
+          "time_basis": "mission_start; member delays and template positions remain in routes",
           "source_ref": {
-            "source_id": "T:MissionWaterfallMission_WaterfallMission",
+            "source_id": "D:chapter-1-spawn-plans",
             "row_id": 1001054
           }
         },
         {
-          "kind": "spawn",
-          "script_time_seconds": 272.7,
-          "mission_id": 1001054,
-          "composition": {
-            "330006": 2
-          },
-          "source_ref": {
-            "source_id": "T:Mission_RandomMonsterFlushConfig",
-            "row_ids": [
-              5
-            ],
-            "rule_fact_id": "F03"
-          }
-        },
-        {
-          "kind": "spawn",
+          "kind": "spawn_plan",
           "script_time_seconds": 275.4,
           "mission_id": 1001055,
           "composition": {
-            "320017": 1
+            "320017": 3
           },
+          "routes": [
+            {
+              "config": 1003026,
+              "options": [
+                {
+                  "template": "S_1_47_1026",
+                  "override": 320017,
+                  "slots": 3,
+                  "counts": {
+                    "320017": [
+                      3,
+                      3
+                    ]
+                  }
+                }
+              ],
+              "counts": {
+                "320017": [
+                  3,
+                  3
+                ]
+              },
+              "total": [
+                3,
+                3
+              ],
+              "route": "position"
+            }
+          ],
+          "repeat": 1,
+          "interval": [],
+          "time_basis": "mission_start; member delays and template positions remain in routes",
           "source_ref": {
-            "source_id": "T:MissionWaterfallMission_WaterfallMission",
+            "source_id": "D:chapter-1-spawn-plans",
             "row_id": 1001055
           }
         },
         {
-          "kind": "spawn",
+          "kind": "spawn_plan",
           "script_time_seconds": 278.1,
           "mission_id": 1001056,
           "composition": {
-            "320035": 1
+            "320035": 1,
+            "330006": 2
           },
+          "routes": [
+            {
+              "config": 1003025,
+              "options": [
+                {
+                  "template": "S_1_47_1025",
+                  "override": 320035,
+                  "slots": 1,
+                  "counts": {
+                    "320035": [
+                      1,
+                      1
+                    ]
+                  }
+                }
+              ],
+              "counts": {
+                "320035": [
+                  1,
+                  1
+                ]
+              },
+              "total": [
+                1,
+                1
+              ],
+              "route": "position"
+            },
+            {
+              "route": "random",
+              "options": [
+                {
+                  "id": 5,
+                  "counts": {
+                    "330006": [
+                      2,
+                      2
+                    ]
+                  }
+                }
+              ],
+              "number": 2,
+              "counts": {
+                "330006": [
+                  2,
+                  2
+                ]
+              },
+              "total": [
+                2,
+                2
+              ]
+            }
+          ],
+          "repeat": 1,
+          "interval": [],
+          "time_basis": "mission_start; member delays and template positions remain in routes",
           "source_ref": {
-            "source_id": "T:MissionWaterfallMission_WaterfallMission",
+            "source_id": "D:chapter-1-spawn-plans",
             "row_id": 1001056
           }
         },
         {
-          "kind": "spawn",
-          "script_time_seconds": 278.1,
-          "mission_id": 1001056,
-          "composition": {
-            "330006": 2
-          },
-          "source_ref": {
-            "source_id": "T:Mission_RandomMonsterFlushConfig",
-            "row_ids": [
-              5
-            ],
-            "rule_fact_id": "F03"
-          }
-        },
-        {
-          "kind": "spawn",
+          "kind": "spawn_plan",
           "script_time_seconds": 280.8,
           "mission_id": 1001057,
           "composition": {
-            "320019": 1
+            "320019": 2
           },
+          "routes": [
+            {
+              "config": 1003020,
+              "options": [
+                {
+                  "template": "S_1_47_1020",
+                  "override": 320019,
+                  "slots": 2,
+                  "counts": {
+                    "320019": [
+                      2,
+                      2
+                    ]
+                  }
+                }
+              ],
+              "counts": {
+                "320019": [
+                  2,
+                  2
+                ]
+              },
+              "total": [
+                2,
+                2
+              ],
+              "route": "position"
+            }
+          ],
+          "repeat": 1,
+          "interval": [],
+          "time_basis": "mission_start; member delays and template positions remain in routes",
           "source_ref": {
-            "source_id": "T:MissionWaterfallMission_WaterfallMission",
+            "source_id": "D:chapter-1-spawn-plans",
             "row_id": 1001057
           }
         },
         {
-          "kind": "spawn",
+          "kind": "spawn_plan",
           "script_time_seconds": 285.0,
           "mission_id": 1001058,
           "composition": {
-            "320005": 1
+            "320005": 2
           },
+          "routes": [
+            {
+              "config": 1002008,
+              "options": [
+                {
+                  "template": "S_1_47_008",
+                  "override": 320005,
+                  "slots": 2,
+                  "counts": {
+                    "320005": [
+                      2,
+                      2
+                    ]
+                  }
+                }
+              ],
+              "counts": {
+                "320005": [
+                  2,
+                  2
+                ]
+              },
+              "total": [
+                2,
+                2
+              ],
+              "route": "position"
+            }
+          ],
+          "repeat": 1,
+          "interval": [],
+          "time_basis": "mission_start; member delays and template positions remain in routes",
           "source_ref": {
-            "source_id": "T:MissionWaterfallMission_WaterfallMission",
+            "source_id": "D:chapter-1-spawn-plans",
             "row_id": 1001058
           }
         },
         {
-          "kind": "spawn",
+          "kind": "spawn_plan",
           "script_time_seconds": 285.0,
           "mission_id": 1001059,
           "composition": {
-            "330006": 1
+            "330006": 21
           },
+          "routes": [
+            {
+              "config": 1001039,
+              "options": [
+                {
+                  "template": "S_1_46_039",
+                  "override": 330006,
+                  "slots": 21,
+                  "counts": {
+                    "330006": [
+                      21,
+                      21
+                    ]
+                  }
+                }
+              ],
+              "counts": {
+                "330006": [
+                  21,
+                  21
+                ]
+              },
+              "total": [
+                21,
+                21
+              ],
+              "route": "position"
+            }
+          ],
+          "repeat": 1,
+          "interval": [],
+          "time_basis": "mission_start; member delays and template positions remain in routes",
           "source_ref": {
-            "source_id": "T:MissionWaterfallMission_WaterfallMission",
+            "source_id": "D:chapter-1-spawn-plans",
             "row_id": 1001059
           }
         },
         {
-          "kind": "spawn",
+          "kind": "spawn_plan",
           "script_time_seconds": 285.0,
           "mission_id": 1001062,
           "composition": {
             "330006": 2
           },
+          "routes": [
+            {
+              "route": "random",
+              "options": [
+                {
+                  "id": 5,
+                  "counts": {
+                    "330006": [
+                      2,
+                      2
+                    ]
+                  }
+                }
+              ],
+              "number": 2,
+              "counts": {
+                "330006": [
+                  2,
+                  2
+                ]
+              },
+              "total": [
+                2,
+                2
+              ]
+            }
+          ],
+          "repeat": 1,
+          "interval": [],
+          "time_basis": "mission_start; member delays and template positions remain in routes",
           "source_ref": {
-            "source_id": "T:Mission_RandomMonsterFlushConfig",
-            "row_ids": [
-              5
-            ],
-            "rule_fact_id": "F03"
+            "source_id": "D:chapter-1-spawn-plans",
+            "row_id": 1001062
           }
         },
         {
-          "kind": "spawn",
+          "kind": "spawn_plan",
           "script_time_seconds": 288.0,
           "mission_id": 1001060,
           "composition": {
-            "330006": 1
+            "330006": 23
           },
+          "routes": [
+            {
+              "config": 1001040,
+              "options": [
+                {
+                  "template": "S_1_46_040",
+                  "override": 330006,
+                  "slots": 21,
+                  "counts": {
+                    "330006": [
+                      21,
+                      21
+                    ]
+                  }
+                }
+              ],
+              "counts": {
+                "330006": [
+                  21,
+                  21
+                ]
+              },
+              "total": [
+                21,
+                21
+              ],
+              "route": "position"
+            },
+            {
+              "route": "random",
+              "options": [
+                {
+                  "id": 5,
+                  "counts": {
+                    "330006": [
+                      2,
+                      2
+                    ]
+                  }
+                }
+              ],
+              "number": 2,
+              "counts": {
+                "330006": [
+                  2,
+                  2
+                ]
+              },
+              "total": [
+                2,
+                2
+              ]
+            }
+          ],
+          "repeat": 1,
+          "interval": [],
+          "time_basis": "mission_start; member delays and template positions remain in routes",
           "source_ref": {
-            "source_id": "T:MissionWaterfallMission_WaterfallMission",
+            "source_id": "D:chapter-1-spawn-plans",
             "row_id": 1001060
           }
         },
         {
-          "kind": "spawn",
-          "script_time_seconds": 288.0,
-          "mission_id": 1001060,
-          "composition": {
-            "330006": 2
-          },
-          "source_ref": {
-            "source_id": "T:Mission_RandomMonsterFlushConfig",
-            "row_ids": [
-              5
-            ],
-            "rule_fact_id": "F03"
-          }
-        },
-        {
-          "kind": "spawn",
+          "kind": "spawn_plan",
           "script_time_seconds": 290.0,
           "mission_id": 1001064,
           "composition": {
             "330006": 2
           },
+          "routes": [
+            {
+              "route": "random",
+              "options": [
+                {
+                  "id": 5,
+                  "counts": {
+                    "330006": [
+                      2,
+                      2
+                    ]
+                  }
+                }
+              ],
+              "number": 2,
+              "counts": {
+                "330006": [
+                  2,
+                  2
+                ]
+              },
+              "total": [
+                2,
+                2
+              ]
+            }
+          ],
+          "repeat": 1,
+          "interval": [],
+          "time_basis": "mission_start; member delays and template positions remain in routes",
           "source_ref": {
-            "source_id": "T:Mission_RandomMonsterFlushConfig",
-            "row_ids": [
-              5
-            ],
-            "rule_fact_id": "F03"
+            "source_id": "D:chapter-1-spawn-plans",
+            "row_id": 1001064
           }
         },
         {
-          "kind": "spawn",
+          "kind": "spawn_plan",
           "script_time_seconds": 291.0,
           "mission_id": 1001061,
           "composition": {
-            "330006": 1
+            "330006": 21
           },
+          "routes": [
+            {
+              "config": 1001039,
+              "options": [
+                {
+                  "template": "S_1_46_039",
+                  "override": 330006,
+                  "slots": 21,
+                  "counts": {
+                    "330006": [
+                      21,
+                      21
+                    ]
+                  }
+                }
+              ],
+              "counts": {
+                "330006": [
+                  21,
+                  21
+                ]
+              },
+              "total": [
+                21,
+                21
+              ],
+              "route": "position"
+            }
+          ],
+          "repeat": 1,
+          "interval": [],
+          "time_basis": "mission_start; member delays and template positions remain in routes",
           "source_ref": {
-            "source_id": "T:MissionWaterfallMission_WaterfallMission",
+            "source_id": "D:chapter-1-spawn-plans",
             "row_id": 1001061
           }
         }
@@ -2238,11 +5372,11 @@
       "script_start_seconds": 300.0,
       "next_script_start_seconds": 315.0,
       "nominal_window_seconds": 15.0,
-      "configured_monster_count": 4,
+      "configured_monster_count": 105,
       "count_semantics": "configured_spawn_count",
       "composition": {
-        "320017": 1,
-        "330006": 3
+        "320017": 15,
+        "330006": 90
       },
       "special_entities": [],
       "death_gate": false,
@@ -2264,50 +5398,181 @@
       ],
       "events": [
         {
-          "kind": "spawn",
+          "kind": "spawn_plan",
           "script_time_seconds": 300.0,
           "mission_id": 1001065,
           "composition": {
-            "320017": 1
+            "320017": 15
           },
+          "routes": [
+            {
+              "config": 1003023,
+              "options": [
+                {
+                  "template": "S_1_47_1023",
+                  "override": 320017,
+                  "slots": 5,
+                  "counts": {
+                    "320017": [
+                      5,
+                      5
+                    ]
+                  }
+                }
+              ],
+              "counts": {
+                "320017": [
+                  5,
+                  5
+                ]
+              },
+              "total": [
+                5,
+                5
+              ],
+              "route": "position"
+            }
+          ],
+          "repeat": 3,
+          "interval": [
+            3.0,
+            5.0
+          ],
+          "time_basis": "mission_start; member delays and template positions remain in routes",
           "source_ref": {
-            "source_id": "T:MissionWaterfallMission_WaterfallMission",
+            "source_id": "D:chapter-1-spawn-plans",
             "row_id": 1001065
           }
         },
         {
-          "kind": "spawn",
+          "kind": "spawn_plan",
           "script_time_seconds": 301.5,
           "mission_id": 1001066,
           "composition": {
-            "330006": 1
+            "330006": 30
           },
+          "routes": [
+            {
+              "config": 1001008,
+              "options": [
+                {
+                  "template": "S_1_46_010",
+                  "override": 330006,
+                  "slots": 30,
+                  "counts": {
+                    "330006": [
+                      30,
+                      30
+                    ]
+                  }
+                }
+              ],
+              "counts": {
+                "330006": [
+                  30,
+                  30
+                ]
+              },
+              "total": [
+                30,
+                30
+              ],
+              "route": "position"
+            }
+          ],
+          "repeat": 1,
+          "interval": [],
+          "time_basis": "mission_start; member delays and template positions remain in routes",
           "source_ref": {
-            "source_id": "T:MissionWaterfallMission_WaterfallMission",
+            "source_id": "D:chapter-1-spawn-plans",
             "row_id": 1001066
           }
         },
         {
-          "kind": "spawn",
+          "kind": "spawn_plan",
           "script_time_seconds": 306.5,
           "mission_id": 1001067,
           "composition": {
-            "330006": 1
+            "330006": 30
           },
+          "routes": [
+            {
+              "config": 1001008,
+              "options": [
+                {
+                  "template": "S_1_46_010",
+                  "override": 330006,
+                  "slots": 30,
+                  "counts": {
+                    "330006": [
+                      30,
+                      30
+                    ]
+                  }
+                }
+              ],
+              "counts": {
+                "330006": [
+                  30,
+                  30
+                ]
+              },
+              "total": [
+                30,
+                30
+              ],
+              "route": "position"
+            }
+          ],
+          "repeat": 1,
+          "interval": [],
+          "time_basis": "mission_start; member delays and template positions remain in routes",
           "source_ref": {
-            "source_id": "T:MissionWaterfallMission_WaterfallMission",
+            "source_id": "D:chapter-1-spawn-plans",
             "row_id": 1001067
           }
         },
         {
-          "kind": "spawn",
+          "kind": "spawn_plan",
           "script_time_seconds": 311.5,
           "mission_id": 1001068,
           "composition": {
-            "330006": 1
+            "330006": 30
           },
+          "routes": [
+            {
+              "config": 1001008,
+              "options": [
+                {
+                  "template": "S_1_46_010",
+                  "override": 330006,
+                  "slots": 30,
+                  "counts": {
+                    "330006": [
+                      30,
+                      30
+                    ]
+                  }
+                }
+              ],
+              "counts": {
+                "330006": [
+                  30,
+                  30
+                ]
+              },
+              "total": [
+                30,
+                30
+              ],
+              "route": "position"
+            }
+          ],
+          "repeat": 1,
+          "interval": [],
+          "time_basis": "mission_start; member delays and template positions remain in routes",
           "source_ref": {
-            "source_id": "T:MissionWaterfallMission_WaterfallMission",
+            "source_id": "D:chapter-1-spawn-plans",
             "row_id": 1001068
           }
         }
@@ -2329,13 +5594,13 @@
       "script_start_seconds": 315.0,
       "next_script_start_seconds": 345.0,
       "nominal_window_seconds": 30.0,
-      "configured_monster_count": 8,
+      "configured_monster_count": 130,
       "count_semantics": "configured_spawn_count",
       "composition": {
-        "320017": 2,
+        "320017": 4,
         "320019": 2,
-        "320021": 1,
-        "330006": 3
+        "320021": 4,
+        "330006": 120
       },
       "special_entities": [],
       "death_gate": false,
@@ -2361,98 +5626,363 @@
       ],
       "events": [
         {
-          "kind": "spawn",
+          "kind": "spawn_plan",
           "script_time_seconds": 315.0,
           "mission_id": 1001069,
           "composition": {
-            "320021": 1
+            "320021": 4
           },
+          "routes": [
+            {
+              "config": 1002030,
+              "options": [
+                {
+                  "template": "S_1_47_030",
+                  "override": 320021,
+                  "slots": 4,
+                  "counts": {
+                    "320021": [
+                      4,
+                      4
+                    ]
+                  }
+                }
+              ],
+              "counts": {
+                "320021": [
+                  4,
+                  4
+                ]
+              },
+              "total": [
+                4,
+                4
+              ],
+              "route": "position"
+            }
+          ],
+          "repeat": 1,
+          "interval": [],
+          "time_basis": "mission_start; member delays and template positions remain in routes",
           "source_ref": {
-            "source_id": "T:MissionWaterfallMission_WaterfallMission",
+            "source_id": "D:chapter-1-spawn-plans",
             "row_id": 1001069
           }
         },
         {
-          "kind": "spawn",
+          "kind": "spawn_plan",
           "script_time_seconds": 315.0,
           "mission_id": 1001070,
           "composition": {
             "320019": 1
           },
+          "routes": [
+            {
+              "config": 1003014,
+              "options": [
+                {
+                  "template": "S_1_47_1014",
+                  "override": 320019,
+                  "slots": 1,
+                  "counts": {
+                    "320019": [
+                      1,
+                      1
+                    ]
+                  }
+                }
+              ],
+              "counts": {
+                "320019": [
+                  1,
+                  1
+                ]
+              },
+              "total": [
+                1,
+                1
+              ],
+              "route": "position"
+            }
+          ],
+          "repeat": 1,
+          "interval": [],
+          "time_basis": "mission_start; member delays and template positions remain in routes",
           "source_ref": {
-            "source_id": "T:MissionWaterfallMission_WaterfallMission",
+            "source_id": "D:chapter-1-spawn-plans",
             "row_id": 1001070
           }
         },
         {
-          "kind": "spawn",
+          "kind": "spawn_plan",
           "script_time_seconds": 317.0,
           "mission_id": 1001071,
           "composition": {
-            "320017": 1
+            "320017": 2
           },
+          "routes": [
+            {
+              "config": 1003030,
+              "options": [
+                {
+                  "template": "S_1_47_1030",
+                  "override": 320017,
+                  "slots": 2,
+                  "counts": {
+                    "320017": [
+                      2,
+                      2
+                    ]
+                  }
+                }
+              ],
+              "counts": {
+                "320017": [
+                  2,
+                  2
+                ]
+              },
+              "total": [
+                2,
+                2
+              ],
+              "route": "position"
+            }
+          ],
+          "repeat": 1,
+          "interval": [],
+          "time_basis": "mission_start; member delays and template positions remain in routes",
           "source_ref": {
-            "source_id": "T:MissionWaterfallMission_WaterfallMission",
+            "source_id": "D:chapter-1-spawn-plans",
             "row_id": 1001071
           }
         },
         {
-          "kind": "spawn",
+          "kind": "spawn_plan",
           "script_time_seconds": 319.0,
           "mission_id": 1001072,
           "composition": {
             "320019": 1
           },
+          "routes": [
+            {
+              "config": 1003014,
+              "options": [
+                {
+                  "template": "S_1_47_1014",
+                  "override": 320019,
+                  "slots": 1,
+                  "counts": {
+                    "320019": [
+                      1,
+                      1
+                    ]
+                  }
+                }
+              ],
+              "counts": {
+                "320019": [
+                  1,
+                  1
+                ]
+              },
+              "total": [
+                1,
+                1
+              ],
+              "route": "position"
+            }
+          ],
+          "repeat": 1,
+          "interval": [],
+          "time_basis": "mission_start; member delays and template positions remain in routes",
           "source_ref": {
-            "source_id": "T:MissionWaterfallMission_WaterfallMission",
+            "source_id": "D:chapter-1-spawn-plans",
             "row_id": 1001072
           }
         },
         {
-          "kind": "spawn",
+          "kind": "spawn_plan",
           "script_time_seconds": 321.0,
           "mission_id": 1001073,
           "composition": {
-            "320017": 1
+            "320017": 2
           },
+          "routes": [
+            {
+              "config": 1003030,
+              "options": [
+                {
+                  "template": "S_1_47_1030",
+                  "override": 320017,
+                  "slots": 2,
+                  "counts": {
+                    "320017": [
+                      2,
+                      2
+                    ]
+                  }
+                }
+              ],
+              "counts": {
+                "320017": [
+                  2,
+                  2
+                ]
+              },
+              "total": [
+                2,
+                2
+              ],
+              "route": "position"
+            }
+          ],
+          "repeat": 1,
+          "interval": [],
+          "time_basis": "mission_start; member delays and template positions remain in routes",
           "source_ref": {
-            "source_id": "T:MissionWaterfallMission_WaterfallMission",
+            "source_id": "D:chapter-1-spawn-plans",
             "row_id": 1001073
           }
         },
         {
-          "kind": "spawn",
+          "kind": "spawn_plan",
           "script_time_seconds": 330.0,
           "mission_id": 1001074,
           "composition": {
-            "330006": 1
+            "330006": 40
           },
+          "routes": [
+            {
+              "config": 1001043,
+              "options": [
+                {
+                  "template": "S_1_46_043",
+                  "override": 330006,
+                  "slots": 8,
+                  "counts": {
+                    "330006": [
+                      8,
+                      8
+                    ]
+                  }
+                }
+              ],
+              "counts": {
+                "330006": [
+                  8,
+                  8
+                ]
+              },
+              "total": [
+                8,
+                8
+              ],
+              "route": "position"
+            }
+          ],
+          "repeat": 5,
+          "interval": [
+            5.0,
+            0.3
+          ],
+          "time_basis": "mission_start; member delays and template positions remain in routes",
           "source_ref": {
-            "source_id": "T:MissionWaterfallMission_WaterfallMission",
+            "source_id": "D:chapter-1-spawn-plans",
             "row_id": 1001074
           }
         },
         {
-          "kind": "spawn",
+          "kind": "spawn_plan",
           "script_time_seconds": 332.0,
           "mission_id": 1001075,
           "composition": {
-            "330006": 1
+            "330006": 40
           },
+          "routes": [
+            {
+              "config": 1001043,
+              "options": [
+                {
+                  "template": "S_1_46_043",
+                  "override": 330006,
+                  "slots": 8,
+                  "counts": {
+                    "330006": [
+                      8,
+                      8
+                    ]
+                  }
+                }
+              ],
+              "counts": {
+                "330006": [
+                  8,
+                  8
+                ]
+              },
+              "total": [
+                8,
+                8
+              ],
+              "route": "position"
+            }
+          ],
+          "repeat": 5,
+          "interval": [
+            5.0,
+            0.3
+          ],
+          "time_basis": "mission_start; member delays and template positions remain in routes",
           "source_ref": {
-            "source_id": "T:MissionWaterfallMission_WaterfallMission",
+            "source_id": "D:chapter-1-spawn-plans",
             "row_id": 1001075
           }
         },
         {
-          "kind": "spawn",
+          "kind": "spawn_plan",
           "script_time_seconds": 334.0,
           "mission_id": 1001076,
           "composition": {
-            "330006": 1
+            "330006": 40
           },
+          "routes": [
+            {
+              "config": 1001043,
+              "options": [
+                {
+                  "template": "S_1_46_043",
+                  "override": 330006,
+                  "slots": 8,
+                  "counts": {
+                    "330006": [
+                      8,
+                      8
+                    ]
+                  }
+                }
+              ],
+              "counts": {
+                "330006": [
+                  8,
+                  8
+                ]
+              },
+              "total": [
+                8,
+                8
+              ],
+              "route": "position"
+            }
+          ],
+          "repeat": 5,
+          "interval": [
+            5.0,
+            0.3
+          ],
+          "time_basis": "mission_start; member delays and template positions remain in routes",
           "source_ref": {
-            "source_id": "T:MissionWaterfallMission_WaterfallMission",
+            "source_id": "D:chapter-1-spawn-plans",
             "row_id": 1001076
           }
         }
@@ -2518,14 +6048,46 @@
           }
         },
         {
-          "kind": "spawn",
+          "kind": "spawn_plan",
           "script_time_seconds": 347.0,
           "mission_id": 1001078,
           "composition": {
             "340002": 1
           },
+          "routes": [
+            {
+              "config": 1002002,
+              "options": [
+                {
+                  "template": "S_1_47_002",
+                  "override": 340002,
+                  "slots": 1,
+                  "counts": {
+                    "340002": [
+                      1,
+                      1
+                    ]
+                  }
+                }
+              ],
+              "counts": {
+                "340002": [
+                  1,
+                  1
+                ]
+              },
+              "total": [
+                1,
+                1
+              ],
+              "route": "position"
+            }
+          ],
+          "repeat": 1,
+          "interval": [],
+          "time_basis": "mission_start; member delays and template positions remain in routes",
           "source_ref": {
-            "source_id": "T:MissionWaterfallMission_WaterfallMission",
+            "source_id": "D:chapter-1-spawn-plans",
             "row_id": 1001078
           }
         }

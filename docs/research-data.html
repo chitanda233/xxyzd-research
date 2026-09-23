@@ -12,7 +12,7 @@ python3 research-data/tools/research.py validate</pre><h2 id="facts">规则索�
 }</pre><p>适用：client 1.0.16 / chapter 1 / base variant</p><p class="callout">不提供真实单局用时估计</p><p>依据：<a href="#src-T-MissionWaterfallMission_WaterfallMission">T:MissionWaterfallMission_WaterfallMission</a> · <a href="#src-N-wave-upgrade">N:wave-upgrade</a></p></details><details class="record" id="F03"><summary>F03 · 随机怪数量 <span class="badge">静态确认</span></summary><p>随机刷新指令按numberRandom目标总数填充；本章随机池均只含330006，类型与数量可确定。</p><pre>{
   &quot;random_count_semantics&quot;: &quot;target_total_entities&quot;,
   &quot;random_entity_id&quot;: 330006
-}</pre><p>适用：client 1.0.16 / chapter 1 / base variant</p><p>依据：<a href="#src-T-Mission_RandomMonsterFlushConfig">T:Mission_RandomMonsterFlushConfig</a> · <a href="#src-N-wave-random">N:wave-random</a></p></details><details class="record" id="F04"><summary>F04 · 强节点门槛 <span class="badge">静态确认</span></summary><p>W5为软高潮；W10和W15要求特殊目标死亡，特殊目标计数归零后取消尚未执行的刷新。</p><pre>{
+}</pre><p>适用：client 1.0.16 / chapter 1 / base variant</p><p>依据：<a href="#src-T-Mission_RandomMonsterFlushConfig">T:Mission_RandomMonsterFlushConfig</a> · <a href="#src-N-wave-random">N:wave-random</a> · <a href="#src-D-chapter-1-spawn-plans">D:chapter-1-spawn-plans</a></p></details><details class="record" id="F04"><summary>F04 · 强节点门槛 <span class="badge">静态确认</span></summary><p>W5为软高潮；W10和W15要求特殊目标死亡，特殊目标计数归零后取消尚未执行的刷新。</p><pre>{
   &quot;death_gate_waves&quot;: [
     10,
     15
@@ -21,8 +21,8 @@ python3 research-data/tools/research.py validate</pre><h2 id="facts">规则索�
     201,
     3
   ],
-  &quot;w10_configured_max&quot;: 18
-}</pre><p>适用：client 1.0.16 / chapter 1 / base variant</p><p class="callout">不等于必须清空全部普通敌人；实战W10怪量可低于18</p><p>依据：<a href="#src-T-ChapterWave_Waves">T:ChapterWave_Waves</a> · <a href="#src-T-Character_entity">T:Character_entity</a> · <a href="#src-N-wave-gate">N:wave-gate</a></p></details><details class="record" id="F05"><summary>F05 · 经验预算 <span class="badge">静态确认</span></summary><p>每波总经验预算与前15级累计经验阈值的相邻差一致；总预算14800。</p><pre>{
+  &quot;w10_configured_max&quot;: 21
+}</pre><p>适用：client 1.0.16 / chapter 1 / base variant</p><p class="callout">不等于必须清空全部普通敌人；实战W10怪量可低于18</p><p>依据：<a href="#src-T-ChapterWave_Waves">T:ChapterWave_Waves</a> · <a href="#src-T-Character_entity">T:Character_entity</a> · <a href="#src-N-wave-gate">N:wave-gate</a> · <a href="#src-D-chapter-1-spawn-plans">D:chapter-1-spawn-plans</a></p></details><details class="record" id="F05"><summary>F05 · 经验预算 <span class="badge">静态确认</span></summary><p>每波总经验预算与前15级累计经验阈值的相邻差一致；总预算14800。</p><pre>{
   &quot;total_exp&quot;: 14800,
   &quot;one_wave_budget_equals_one_level_delta&quot;: true
 }</pre><p>适用：client 1.0.16 / chapter 1 / base variant</p><p>依据：<a href="#src-T-ChapterWave_Waves">T:ChapterWave_Waves</a> · <a href="#src-T-Exp_exp">T:Exp_exp</a> · <a href="#src-N-wave-exp">N:wave-exp</a></p></details><details class="record" id="F06"><summary>F06 · 普通成长节点 <span class="badge">静态确认</span></summary><p>W1～W14配置波末升级UI；波末吸收遗漏经验并串行处理待升级次数。W15未配置普通波末升级UI。</p><pre>{
@@ -148,7 +148,7 @@ python3 research-data/tools/research.py validate</pre><h2 id="facts">规则索�
   ],
   &quot;max_counted_revives&quot;: 0,
   &quot;hp_percent_required&quot;: 100
-}</pre><p>适用：client 1.0.16 / chapter 1 / base variant</p><p class="callout">不代表全程无伤；间接调用/热更及服务端覆核未验证</p><p>依据：<a href="#src-N-result">N:result</a> · <a href="#src-N-star-collect">N:star-collect</a> · <a href="#src-N-star-hp">N:star-hp</a> · <a href="#src-N-star-revive">N:star-revive</a> · <a href="#src-T-ChapterReward_Star">T:ChapterReward_Star</a> · <a href="#src-T-Language_languagetable">T:Language_languagetable</a></p></details><details class="record" id="F25"><summary>F25 · 奖励入口 <span class="badge">静态确认</span></summary><p>章节完成、首通与累计星级奖励分别配置。</p><pre>{}</pre><p>适用：client 1.0.16 / chapter 1 / base variant</p><p class="callout">失败保留、发放数组解码及到账未闭合；不提供固定收益</p><p>依据：<a href="#src-T-Chapter_MainChapter">T:Chapter_MainChapter</a> · <a href="#src-T-ChapterReward_StarReward">T:ChapterReward_StarReward</a></p></details><h2 id="waves">15波数据</h2><p>由包内输入计算生成；时间单位为配置脚本秒，硬门槛波怪量按最大脚本规模表达。<a href="https://github.com/chitanda233/xxyzd-research/blob/main/research-data/in-run/datasets/chapter-1.json">读取完整JSON（含逐事件来源）</a></p><div class="scroll"><table><thead><tr><th>波</th><th>脚本起点</th><th>名义窗口</th><th>配置怪量</th><th>怪物组合</th><th>推进与事件</th><th>经验预算</th></tr></thead><tbody><tr><td>1</td><td>0s</td><td>15s</td><td>20</td><td>320021×2 + 330006×18</td><td>脚本与波末流程</td><td>200</td></tr><tr><td>2</td><td>15s</td><td>15s</td><td>10</td><td>320022×2 + 330006×8</td><td>脚本与波末流程</td><td>550</td></tr><tr><td>3</td><td>30s</td><td>15s</td><td>5</td><td>320017×2 + 320021×1 + 330006×2</td><td>脚本与波末流程</td><td>600</td></tr><tr><td>4</td><td>45s</td><td>17s</td><td>7</td><td>320017×2 + 320019×2 + 330006×3</td><td>脚本与波末流程</td><td>600</td></tr><tr><td>5</td><td>62s</td><td>43s</td><td>16</td><td>320005×1 + 320017×3 + 320021×1 + 330006×11</td><td>脚本与波末流程</td><td>700</td></tr><tr><td>6</td><td>105s</td><td>30s</td><td>5</td><td>320005×1 + 330006×4</td><td>阶段技能事件 → 脚本与波末流程</td><td>800</td></tr><tr><td>7</td><td>135s</td><td>15s</td><td>7</td><td>320005×1 + 320017×4 + 320019×2</td><td>脚本与波末流程</td><td>800</td></tr><tr><td>8</td><td>150s</td><td>30s</td><td>18</td><td>320005×2 + 320030×4 + 330006×12</td><td>脚本与波末流程</td><td>950</td></tr><tr><td>9</td><td>180s</td><td>17s</td><td>2</td><td>320017×1 + 330006×1</td><td>脚本与波末流程</td><td>1000</td></tr><tr><td>10</td><td>197s</td><td>43s</td><td>最多18</td><td>310008×1 + 320017×4 + 320019×4 + 320021×1 + 330006×8</td><td>特殊目标死亡锁</td><td>1100</td></tr><tr><td>11</td><td>240s</td><td>30s</td><td>8</td><td>320019×3 + 320021×1 + 330006×4</td><td>阶段技能事件 → 脚本与波末流程</td><td>1200</td></tr><tr><td>12</td><td>270s</td><td>30s</td><td>21</td><td>320005×1 + 320017×2 + 320019×1 + 320035×2 + 330006×15</td><td>脚本与波末流程</td><td>1200</td></tr><tr><td>13</td><td>300s</td><td>15s</td><td>4</td><td>320017×1 + 330006×3</td><td>脚本与波末流程</td><td>1400</td></tr><tr><td>14</td><td>315s</td><td>30s</td><td>8</td><td>320017×2 + 320019×2 + 320021×1 + 330006×3</td><td>脚本与波末流程</td><td>1700</td></tr><tr><td>15</td><td>345s</td><td>终局</td><td>最多1</td><td>340002×1</td><td>阶段技能事件 → 特殊目标死亡锁</td><td>2000</td></tr></tbody></table></div><h2 id="build-data">技能与依赖关系</h2><p>333个相关技能节点，691条配置关系，44条方向性配方记录。节点包含四个池及相关依赖闭包，不等于玩家可选数量。</p><p><a href="https://github.com/chitanda233/xxyzd-research/blob/main/research-data/in-run/datasets/skill-build.json">技能图JSON</a> · <a href="https://github.com/chitanda233/xxyzd-research/blob/main/research-data/in-run/flow.json">局内流程关系JSON</a></p><h2 id="sources">来源索引</h2><p>链接打开最小证据快照，完整底层来源由origin字段定位。使用本目录无需下载完整反编译库。</p><details id="src-T-Chapter_MainChapter"><summary>T:Chapter_MainChapter · 1行</summary><p>T:Chapter_MainChapter</p><p><a href="https://github.com/chitanda233/xxyzd-research/blob/main/research-data/in-run/inputs/Chapter_MainChapter.json">打开快照或函数摘录</a></p><pre>{
+}</pre><p>适用：client 1.0.16 / chapter 1 / base variant</p><p class="callout">不代表全程无伤；间接调用/热更及服务端覆核未验证</p><p>依据：<a href="#src-N-result">N:result</a> · <a href="#src-N-star-collect">N:star-collect</a> · <a href="#src-N-star-hp">N:star-hp</a> · <a href="#src-N-star-revive">N:star-revive</a> · <a href="#src-T-ChapterReward_Star">T:ChapterReward_Star</a> · <a href="#src-T-Language_languagetable">T:Language_languagetable</a></p></details><details class="record" id="F25"><summary>F25 · 奖励入口 <span class="badge">静态确认</span></summary><p>章节完成、首通与累计星级奖励分别配置。</p><pre>{}</pre><p>适用：client 1.0.16 / chapter 1 / base variant</p><p class="callout">失败保留、发放数组解码及到账未闭合；不提供固定收益</p><p>依据：<a href="#src-T-Chapter_MainChapter">T:Chapter_MainChapter</a> · <a href="#src-T-ChapterReward_StarReward">T:ChapterReward_StarReward</a></p></details><h2 id="waves">15波数据</h2><p>由包内输入计算生成；时间单位为配置脚本秒，硬门槛波怪量按最大脚本规模表达。<a href="https://github.com/chitanda233/xxyzd-research/blob/main/research-data/in-run/datasets/chapter-1.json">读取完整JSON（含逐事件来源）</a></p><div class="scroll"><table><thead><tr><th>波</th><th>脚本起点</th><th>名义窗口</th><th>配置怪量</th><th>怪物组合</th><th>推进与事件</th><th>经验预算</th></tr></thead><tbody><tr><td>1</td><td>0s</td><td>15s</td><td>28</td><td>320021×2 + 330006×26</td><td>脚本与波末流程</td><td>200</td></tr><tr><td>2</td><td>15s</td><td>15s</td><td>18</td><td>320022×2 + 330006×16</td><td>脚本与波末流程</td><td>550</td></tr><tr><td>3</td><td>30s</td><td>15s</td><td>26</td><td>320017×4 + 320021×2 + 330006×20</td><td>脚本与波末流程</td><td>600</td></tr><tr><td>4</td><td>45s</td><td>17s</td><td>36</td><td>320017×4 + 320019×2 + 330006×30</td><td>脚本与波末流程</td><td>600</td></tr><tr><td>5</td><td>62s</td><td>43s</td><td>39</td><td>320005×1 + 320017×3 + 320021×4 + 330006×31</td><td>脚本与波末流程</td><td>700</td></tr><tr><td>6</td><td>105s</td><td>30s</td><td>41</td><td>320005×1 + 330006×40</td><td>阶段技能事件 → 脚本与波末流程</td><td>800</td></tr><tr><td>7</td><td>135s</td><td>15s</td><td>9</td><td>320005×1 + 320017×5 + 320019×3</td><td>脚本与波末流程</td><td>800</td></tr><tr><td>8</td><td>150s</td><td>30s</td><td>49</td><td>320005×3 + 320030×4 + 330006×42</td><td>脚本与波末流程</td><td>950</td></tr><tr><td>9</td><td>180s</td><td>17s</td><td>65</td><td>320017×5 + 330006×60</td><td>脚本与波末流程</td><td>1000</td></tr><tr><td>10</td><td>197s</td><td>43s</td><td>最多21</td><td>310008×1 + 320017×4 + 320019×4 + 320021×4 + 330006×8</td><td>特殊目标死亡锁</td><td>1100</td></tr><tr><td>11</td><td>240s</td><td>30s</td><td>15</td><td>320019×6 + 320021×5 + 330006×4</td><td>阶段技能事件 → 脚本与波末流程</td><td>1200</td></tr><tr><td>12</td><td>270s</td><td>30s</td><td>87</td><td>320005×2 + 320017×6 + 320019×2 + 320035×2 + 330006×75</td><td>脚本与波末流程</td><td>1200</td></tr><tr><td>13</td><td>300s</td><td>15s</td><td>105</td><td>320017×15 + 330006×90</td><td>脚本与波末流程</td><td>1400</td></tr><tr><td>14</td><td>315s</td><td>30s</td><td>130</td><td>320017×4 + 320019×2 + 320021×4 + 330006×120</td><td>脚本与波末流程</td><td>1700</td></tr><tr><td>15</td><td>345s</td><td>终局</td><td>最多1</td><td>340002×1</td><td>阶段技能事件 → 特殊目标死亡锁</td><td>2000</td></tr></tbody></table></div><h2 id="build-data">技能与依赖关系</h2><p>333个相关技能节点，691条配置关系，44条方向性配方记录。节点包含四个池及相关依赖闭包，不等于玩家可选数量。</p><p><a href="https://github.com/chitanda233/xxyzd-research/blob/main/research-data/in-run/datasets/skill-build.json">技能图JSON</a> · <a href="https://github.com/chitanda233/xxyzd-research/blob/main/research-data/in-run/flow.json">局内流程关系JSON</a></p><h2 id="sources">来源索引</h2><p>链接打开最小证据快照，完整底层来源由origin字段定位。使用本目录无需下载完整反编译库。</p><details id="src-T-Chapter_MainChapter"><summary>T:Chapter_MainChapter · 1行</summary><p>T:Chapter_MainChapter</p><p><a href="https://github.com/chitanda233/xxyzd-research/blob/main/research-data/in-run/inputs/Chapter_MainChapter.json">打开快照或函数摘录</a></p><pre>{
   &quot;id&quot;: &quot;T:Chapter_MainChapter&quot;,
   &quot;kind&quot;: &quot;config_rows&quot;,
   &quot;path&quot;: &quot;inputs/Chapter_MainChapter.json&quot;,
@@ -2120,5 +2120,94 @@ python3 research-data/tools/research.py validate</pre><h2 id="facts">规则索�
   &quot;record_count&quot;: 71,
   &quot;origin&quot;: {
     &quot;path&quot;: &quot;restored/configs/tables/Chapter_MainChapter.json&quot;
+  }
+}</pre></details><details id="src-D-chapter-1-spawn-plans"><summary>D:chapter-1-spawn-plans · 75行</summary><p>D:chapter-1-spawn-plans</p><p><a href="https://github.com/chitanda233/xxyzd-research/blob/main/research-data/in-run/inputs/chapter-1-spawn-plans.json">打开快照或函数摘录</a></p><pre>{
+  &quot;id&quot;: &quot;D:chapter-1-spawn-plans&quot;,
+  &quot;kind&quot;: &quot;derived_rows&quot;,
+  &quot;path&quot;: &quot;inputs/chapter-1-spawn-plans.json&quot;,
+  &quot;sha256&quot;: &quot;b1e168850de6435f9b9699d4e7abd4c88a11cdc8bbcf0d497f1179d3106dfd90&quot;,
+  &quot;row_key&quot;: &quot;mission&quot;,
+  &quot;row_ids&quot;: [
+    1001001,
+    1001002,
+    1001003,
+    1001004,
+    1001005,
+    1001006,
+    1001007,
+    1001008,
+    1001009,
+    1001010,
+    1001011,
+    1001012,
+    1001013,
+    1001014,
+    1001015,
+    1001016,
+    1001017,
+    1001018,
+    1001019,
+    1001020,
+    1001022,
+    1001023,
+    1001024,
+    1001025,
+    1001026,
+    1001027,
+    1001028,
+    1001029,
+    1001030,
+    1001031,
+    1001032,
+    1001033,
+    1001034,
+    1001035,
+    1001036,
+    1001037,
+    1001038,
+    1001039,
+    1001040,
+    1001041,
+    1001042,
+    1001043,
+    1001044,
+    1001045,
+    1001046,
+    1001047,
+    1001049,
+    1001050,
+    1001051,
+    1001052,
+    1001053,
+    1001054,
+    1001055,
+    1001056,
+    1001057,
+    1001058,
+    1001059,
+    1001060,
+    1001061,
+    1001062,
+    1001063,
+    1001064,
+    1001065,
+    1001066,
+    1001067,
+    1001068,
+    1001069,
+    1001070,
+    1001071,
+    1001072,
+    1001073,
+    1001074,
+    1001075,
+    1001076,
+    1001078
+  ],
+  &quot;record_count&quot;: 75,
+  &quot;origin&quot;: {
+    &quot;path&quot;: &quot;research-data/topics/monsters/occurrences.json.gz&quot;,
+    &quot;sha256&quot;: &quot;3bac5f19fcf13c2dff59c8d338794cb0ab3415ee26f6454764e12adcdd0d0af8&quot;,
+    &quot;derivation&quot;: &quot;monster_topic.py derive: expands decoded map template members, parallel spawn routes and repeats; selected chapter1 base only&quot;
   }
 }</pre></details><h2 id="questions">待证问题与深查条件</h2><p>下列条目没有被当成已确认规则。已有查证范围一起保存，避免下次从头重做。</p><details id="Q01"><summary>Q01 · 新开局Init计数如何赋值？</summary><p><strong>影响：</strong>影响首轮候选保证</p><p><strong>已查：</strong>检查PrepareBattle、BattleData.Init、读档及DoInitSkillGroup直接调用；读档已确认，直接调用无命中。</p><p><strong>所需：</strong>追BattleData字段直接写入、内联或实际hotfix</p><p><strong>何时继续：</strong>任务需要该结论的定量保证，或获得新的版本/运行态材料；否则复用已有结论并保留边界</p></details><details id="Q02"><summary>Q02 · 线上是否启用同类长期增权？</summary><p><strong>影响：</strong>影响Build概率模型</p><p><strong>已查：</strong>APK组增权fallback为空，公式与底层引擎存在。</p><p><strong>所需：</strong>实际热更新方法体或运行时权重采样</p><p><strong>何时继续：</strong>任务需要该结论的定量保证，或获得新的版本/运行态材料；否则复用已有结论并保留边界</p></details><details id="Q03"><summary>Q03 · Punchboard结果的净增减与替换收益？</summary><p><strong>影响：</strong>影响Boss前实际构筑规模</p><p><strong>已查：</strong>基础数量权重60/0/30/0/10、FiveSkillRate修正和不同技能组≤4关闭5档已确认；独立状态与结果列表已定位。</p><p><strong>所需：</strong>沿PlayerPunchboard结果应用核对具体构筑状态下的净变化</p><p><strong>何时继续：</strong>任务需要该结论的定量保证，或获得新的版本/运行态材料；否则复用已有结论并保留边界</p></details><details id="Q04"><summary>Q04 · 复活资格上限、无敌与清弹规则？</summary><p><strong>影响：</strong>影响失败成本与生存定量分析</p><p><strong>已查：</strong>资格优先级、flag接收、计数、返回战斗均已核对。</p><p><strong>所需：</strong>资格初始化、HeroComponentDie.ReBorn后Buff和敌人系统</p><p><strong>何时继续：</strong>任务需要该结论的定量保证，或获得新的版本/运行态材料；否则复用已有结论并保留边界</p></details><details id="Q05"><summary>Q05 · 终局精确UI顺序与HP采样时刻？</summary><p><strong>影响：</strong>影响最后一次成长/回血价值</p><p><strong>已查：</strong>末波无普通升级UI；结束态处理掉落；成功事件收集星级；CheckHp直接引用仅CollectStar。</p><p><strong>所需：</strong>结束状态全链或同版本终局录像</p><p><strong>何时继续：</strong>任务需要该结论的定量保证，或获得新的版本/运行态材料；否则复用已有结论并保留边界</p></details><details id="Q06"><summary>Q06 · 奖励数组、失败保留与实际到账？</summary><p><strong>影响：</strong>影响局外回流收益</p><p><strong>已查：</strong>章节和累计星级奖励配置可见；服务端发放未验证。</p><p><strong>所需：</strong>奖励解析、响应字段及领取状态；需要服务端或运行态证据</p><p><strong>何时继续：</strong>任务需要该结论的定量保证，或获得新的版本/运行态材料；否则复用已有结论并保留边界</p></details><details id="Q07"><summary>Q07 · 线上实际采用基础还是_B分支？</summary><p><strong>影响：</strong>不能将本基线推及全部线上玩家</p><p><strong>已查：</strong>本数据集明确采用非_B配置，输入快照保留_B列。</p><p><strong>所需：</strong>版本对应的分流设置/运行态选择证据</p><p><strong>何时继续：</strong>任务需要该结论的定量保证，或获得新的版本/运行态材料；否则复用已有结论并保留边界</p></details><h2 id="dictionary">字段与校验</h2><p><a href="https://github.com/chitanda233/xxyzd-research/blob/main/research-data/in-run/DICTIONARY.md">完整数据字典</a> · <a href="https://github.com/chitanda233/xxyzd-research/blob/main/research-data/in-run/facts.json">规则JSON</a> · <a href="https://github.com/chitanda233/xxyzd-research/blob/main/research-data/in-run/sources.json">来源JSON</a> · <a href="https://github.com/chitanda233/xxyzd-research/blob/main/research-data/in-run/questions.json">问题JSON</a></p><p>校验覆盖文件哈希、记录引用、输入复算与关键数值约束，不代表线上行为已验证。完整定点数、_B列与语言模板保存在输入快照，派生数据限定基础配置。</p></article></main><a class="back" href="core.html">← 正式报告</a><script src="assets/term-tips.js"></script></body></html>

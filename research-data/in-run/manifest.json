@@ -3,16 +3,16 @@
   "dataset_id": "xxyzd-in-run-1.0.16-base",
   "files": {
     "DICTIONARY.md": {
-      "sha256": "29a41e19f44c6a20d56260da2655bedfe788255cdb354b45cc2bba59840c90a5",
-      "bytes": 4748
+      "sha256": "67fd65d33961f3b22d6c668ba49ea1248da89f2da3b2ee43b21099c029674dc6",
+      "bytes": 5026
     },
     "baseline.json": {
       "sha256": "d26c7ea1a650585140558c4f182ecdafe94484dbc36e6d49777876f0d18ed175",
       "bytes": 733
     },
     "datasets/chapter-1.json": {
-      "sha256": "2d2d84be60a6022736cd408e696820de7b02b90b745ea223e0dba3366acdb204",
-      "bytes": 64338
+      "sha256": "693a7bc138972df56fe6a33bd64213d06fbb26ecb1015b3a0548b79d85c3f8a7",
+      "bytes": 162396
     },
     "datasets/skill-build.json": {
       "sha256": "e38fe4f204e6631ff09583d65ad2cd8ebe85385135f772c82fff5c980a19623b",
@@ -131,8 +131,8 @@
       "bytes": 21863
     },
     "facts.json": {
-      "sha256": "4c1529bfb9d9afdb3559a8781eddce401e7a0df8eb9a652039d4ec0b88f2db7f",
-      "bytes": 17211
+      "sha256": "2b786c4c6efdaa0243fc2c2e266f9a51be36b762705c0f69cf629522b5dc9bba",
+      "bytes": 17277
     },
     "flow.json": {
       "sha256": "64cf8611c224c9d3bbc4b6ede3259b8c63d775166c9c56e2eb4c5ae8af9870f7",
@@ -210,13 +210,17 @@
       "sha256": "78f301d2fda910be6169d3c1fc3bca3197c002c83cc2aa3cd4a23d13a1317f14",
       "bytes": 1839
     },
+    "inputs/chapter-1-spawn-plans.json": {
+      "sha256": "b1e168850de6435f9b9699d4e7abd4c88a11cdc8bbcf0d497f1179d3106dfd90",
+      "bytes": 128702
+    },
     "questions.json": {
       "sha256": "fe0ca6840bb52294ca3fcc1bbf4ce207f9f38e13d8a4f614afa01a70068b3975",
       "bytes": 3845
     },
     "sources.json": {
-      "sha256": "6184b891533edd6eebbc6c43efbc165e4ee964fc463d6ddc3cebbba00ef081d8",
-      "bytes": 59080
+      "sha256": "6fb9b9e6beec2756183313d9284c3aec4724d35041df0394a1a62fff5eecb982",
+      "bytes": 60804
     }
   }
 }
