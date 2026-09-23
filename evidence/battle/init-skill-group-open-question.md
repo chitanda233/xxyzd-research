@@ -1,6 +1,6 @@
-# Init 技能池初始化链：当前证据与最后缺口
+# Init 技能池初始化链：静态证据闭合
 
-> 目标：证明 `Consts_Const.UseInitSkillGroupCout = 1` 在开局初始化时如何进入 `BattleData.InitSkillGroupCount`，从而把“首轮使用一次 Init 技能池”从高置信结构推到完整 native 调用链。
+> 2026-09-23 复核：此前仅搜索对 `DoInitSkillGroupCount` 的直接 `BL/B`，漏掉了 `SinglePlayerBattleManager.CreatePlayer` 中的热更新分派和内联写入。以下结论取代本文件旧的“写入未闭合”表述。
 
 ## 已经确认
 
@@ -28,18 +28,18 @@
 
 因此“存在首轮专用技能池、且运行时有独立消费计数”已经是确定事实。
 
-## 仍缺的唯一关键调用
+## 新找到的写入链
 
-目前仓库保存的 native evidence 集没有包含 `BattleWorldContext`，所以还没有抓到：
+证据见 [`SinglePlayerBattleManager--CreatePlayer.asm`](../../research-data/topics/choices-box-evolution/evidence/SinglePlayerBattleManager--CreatePlayer.asm) 的 `0x65C6738—0x65C67C0`。创建玩家时：
 
-`Const.UseInitSkillGroupCout`
-→ 战斗初始化调用者
-→ `BattleWorldContext.DoInitSkillGroupCount(1)` 或等价写入
-→ `BattleData.InitSkillGroupCount = 1`
+- 从 `LocalModels.Const` 静态对象偏移 `0x208` 读取 `UseInitSkillGroupCout`，本版本配置值为 `1`；
+- 取得 `WorldInitInfo` 后通过虚方法判定是否为继续战斗；若不是继续战斗，则在无热更替换的本地路径将值写入 `BattleWorldContext` 偏移 `0x2c4`；
+- 若热更替换了 `DoInitSkillGroupCount`，则通过方法元数据偏移 `0x60` 的函数指针调用，并传入同一个值。该热更函数体需运行态确认；
+- `BattleWorldContext.DoInitSkillGroupCount` 的本地实现对该字段也是覆盖赋值，不是递增，见 [`BattleWorldContext-DoInitSkillGroup.asm`](../report-native/BattleWorldContext-DoInitSkillGroup.asm) `0x6A0362C—0x6A03690`。
 
-现有 `WaterfallBattleManager`、`BaseSurvivalBattleManager`、`SinglePlayerSkillCreator`、`HeroComponentRandomSkill` asm 中也没有对 `DoInitSkillGroup*` 的直接符号/RVA 引用。因此不能把“配置值 1 已经由这条具体调用写入 BattleData”写成完成证明。
+`BattleData.InitSkillGroupCount` 保存同一计数；继续战斗的反序列化路径从 `BattleSaveData.initSkillGroupCount` 恢复，见 [`findings.md`](../continuation-2026-09-19/findings.md)。因此普通新局的本地写入链已闭合，但“每局首屏必展示初始池”仍不成立：引导指定结果可覆盖普通随机，线上热更也可能替换函数。
 
-## 已补的复现入口
+## 复现入口与剩余范围
 
 `scripts/04_native_evidence.py` 已加入：
 
@@ -60,24 +60,22 @@
 
 `python scripts/04_native_evidence.py`
 
-应生成 `HotFix.BattleLogic.BattleWorldContext.asm` 并在 `indexes/native-direct-xrefs.json` 中给出所有直接调用者。
+会生成 `HotFix.BattleLogic.BattleWorldContext.asm`；直接 `BL/B` 扫描不覆盖 `CreatePlayer` 的热更新间接调用，必须同时检查 `SinglePlayerBattleManager.CreatePlayer` 的 `0x65C6738—0x65C67C0`。
 
 优先检查：
 
-1. `PrepareBattle` 是否直接/间接调用 `DoInitSkillGroup*`；
-2. 调用前是否读取 `LocalModels.Const.UseInitSkillGroupCout`；
-3. 新开局与读档分支是否不同；
-4. `DoInitSkillGroupCount` 是覆盖赋值还是递增/递减；
-5. 恢复存档时是否跳过配置初始化，直接沿用 `BattleSaveData.initSkillGroupCount`。
+1. 验证线上热更是否替换该方法；
+2. 查引导指定列表的赋值来源，确认何时覆盖第一次普通随机；
+3. 用同版本实机记录新局与读档的首屏候选，校验静态路径。
 
 ## 当前策划结论的安全写法
 
 现在可以写：
 
-> 主线存在首轮专用 Init 技能池；运行时用独立计数决定它还能使用几次，配置目标值为 1，且该计数会进入战斗存档。普通抽取在计数耗尽后转入 Default 池。
+> 本版本普通新局的本地 `CreatePlayer` 路径把配置值 1 写入 Init 计数；普通抽取在计数大于 0 时走10武器初始池并消费，随后转入常规池。继续战斗沿用存档计数。
 
 暂时不要写：
 
-> 开局一定执行了 `DoInitSkillGroupCount(1)`。
+> 每局玩家首屏一定从10武器初始池随机展示。
 
-后一句需要等新增的 `BattleWorldContext.asm` 跑出来后再完成最后闭环。
+后一句还需要排除引导覆盖和线上热更，不能只靠本地计数写入推出。

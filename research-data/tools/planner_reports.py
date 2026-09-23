@@ -19,6 +19,8 @@ def render_page(slug):
   elif s['id']=='reference':s['title']='策划应用：怎样迁移这套结构'
   elif s['id']=='limits':s['title']='证据边界与继续核对'
  navigation=[shown[0],{'id':'full-walkthrough','title':'全链路机制拆解'},{'id':'mechanism-detail','title':'配置明细与参数'}]+shown[1:]
+ if slug=='skills':
+  navigation=[shown[0],{'id':'chapter-differences','title':'不同章节的武器权重'},{'id':'full-walkthrough','title':'开放、选择与进化'},{'id':'chapter-matrix','title':'70章逐章对照'},{'id':'mechanism-detail','title':'配方与参数明细'}]+shown[1:]
  out=['<details class="mobile-contents"><summary>本页内容</summary><ul>'+''.join('<li><a href="#'+v['id']+'">'+esc(v['title'])+'</a></li>' for v in navigation)+'</ul></details>','<div class="question"><span>本模块回答</span><p>'+esc(d['question'])+'</p><a class="detail-jump" href="#full-walkthrough">直达全链路机制拆解 ↓</a></div>']
  if slug=='core':
   out.append('<ol class="timeline" aria-label="第一章阶段节奏">'+''.join('<li><b>'+a+'</b><span>'+b+'</span></li>' for a,b in [('1—4波','选择方向'),('5波','首次压力峰'),('6波','宝箱补强'),('10波','精英检验'),('11波','宝箱补强'),('15波','宝箱＋首领')])+'</ol>')

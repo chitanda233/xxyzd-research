@@ -36,6 +36,8 @@
 
 - 已检查PrepareBattle、BattleData.Init、InitFromSaveData，以及DoInitSkillGroup/DoInitSkillGroupCount。新局BattleData.Init仅写markKey和回调；读档InitFromSaveData在0x658E510读取存档offset0x20的向量并在0x658E520写到BattleData offset0x34，覆盖Init计数及后续复活计数。结构声明提供字段对应。
 - 对DoInitSkillGroup和DoInitSkillGroupCount的直接BL/B扫描均无引用。说明继续只找这两个函数的直接调用不会闭环；下一步应查内联写入、虚调用或热更新，不将“无直接引用”误写成机制不存在。
+
+**2026-09-23补证：**后续在`SinglePlayerBattleManager.CreatePlayer`的`0x65C6738—0x65C67C0`找到配置值经热更新分派或本地内联写入Init计数的路径。上段是当日搜索结论，不再表示此缺口未闭合。详见[`init-skill-group-open-question.md`](../battle/init-skill-group-open-question.md)。
 - 数量权重缺失仍限制Punchboard定量结论。已有Const构造函数导出不等于数组已解码。本次正文只采用确认的三次事件、独立池和重构结构，没有补猜概率与净收益。
 - 动态增权fallback为空的证据已经明确，继续翻同一个fallback无法证明线上启用；需要实际hotfix方法体或运行时采样。
 - 服务端到账、失败保留规则不在当前原生证据覆盖范围，正文不写固定收益。

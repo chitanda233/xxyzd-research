@@ -6,6 +6,7 @@
 |---|---|
 | 局内整体链路 | [in-run/](in-run/) |
 | 三选一、宝箱与武器进化 | [topics/choices-box-evolution/](topics/choices-box-evolution/) |
+| 武器构筑与章节控制 | [topics/choices-box-evolution/chapter-weapon-control.json](topics/choices-box-evolution/chapter-weapon-control.json)；[正式专题](../docs/skills.html) |
 | 章节规划 | [topics/chapter-planning/](topics/chapter-planning/) |
 | 怪物与弹幕 | [topics/monsters/](topics/monsters/) |
 

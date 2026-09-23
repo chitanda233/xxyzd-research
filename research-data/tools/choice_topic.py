@@ -20,6 +20,21 @@ def validate():
   for owner in row['source_rows']:
    a=s[owner];dep=next(i for i in row['required_skill_ids'] if i!=owner)
    assert (dep,row['result_skill_id']) in list(zip(a['UnlockUpgradeNeddSkill'],a['UnlockUpgradeId']))
+ families={}
+ for row in r:
+  family=row['result_skill_id']//100;families.setdefault(family,{})[row['result_skill_id']%100]=row
+ assert len(families)==11 and all(set(stages)=={1,2} for stages in families.values())
+ for stages in families.values():
+  first,second=stages[1],stages[2]
+  assert s[first['required_skill_ids'][0]]['SkillStar']==3
+  assert s[second['required_skill_ids'][0]]['SkillStar']==6
+  assert s[first['required_skill_ids'][1]]['SkillStar']==1
+  assert s[second['required_skill_ids'][1]]['SkillStar']==2
+  assert s[second['result_skill_id']]['NeedSkills']==[first['result_skill_id']]
+  assert 'BulletAttack%=50' in s[second['result_skill_id']]['AddAttributes']
+ base_modules={x['skill_id'] for x in read('pool-weights.json') if x['pool']=='SurvivorGroup' and x['skill_type']==2}
+ recipe_modules={row['required_skill_ids'][1] for row in r if row['result_skill_id']%100==1}
+ assert len(base_modules)==7 and len(recipe_modules)==6 and base_modules-recipe_modules=={11000301}
  for ex in read('probability-examples.json'):
   assert abs(sum(ex['probabilities'])-1)<1e-12
   if 'weights' in ex:assert all(abs(w/sum(ex['weights'])-p)<1e-12 for w,p in zip(ex['weights'],ex['probabilities']))

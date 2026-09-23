@@ -94,11 +94,40 @@ def skills():
    if 10000000<=id<11000000:
     family=(id//100)%1000;group[family][p['id']]+=1
  out=['<h2 id="mechanism-detail">完整规则与数据：武器构筑怎样持续生成选择</h2>']
- out.append(block('四个词条池及11条武器线的内容规模',['基础池18入口中有11把武器、7个通用模块；专属分支57条、后续升级111条、高阶进化22条。下表按技能ID中间家族码汇总配置行数；它是内容树深度，不是玩家本局能同时取得的条目数。'],['武器家族码','名称','基础入口','分支节点','后续升级','高阶节点'],[[f'{code:03d}',names.get(10000000+code*100+1,'按武器ID查询'),group[code]['SurvivorGroup'],group[code]['BranchSurvivorGroup'],group[code]['UpgradeSurvivorGroup'],group[code]['UpgradeSkillGroup']] for code in sorted(group)],['in-run/datasets/skill-build.json','topics/choices-box-evolution/pool-weights.json']))
+ controls=data('topics/choices-box-evolution/chapter-weapon-control.json')['records']
+ control_rows=[]
+ for c in controls:
+  if c['hidden']:continue
+  v=c['variants']['base']
+  control_rows.append([c['chapter'],c['weight_column'],'是' if c['new_player_protect_3'] else '否',v['waves'],v['exp_budget'],v['ordinary_end_ui_flags'],'、'.join(map(str,v['chest_waves'])) or '无','、'.join(map(str,c['suggested_skill_ids'])) or '无'])
+ out.append(block('70章的武器控制与成长窗口',['权重列与保护直接参与普通武器候选；推荐技能ID是独立字段，不能据此判定抽中或解锁。波末成长界面标记只是脚本机会，实际选牌次数可能因累计升级改变；宝箱波是固定任务配置。基础/B的章节权重组相同，表中成长预算列用基础分支。'],['章节','权重列','保护代码3','波数','经验预算','波末标记','宝箱波','推荐技能ID'],control_rows,['topics/choices-box-evolution/chapter-weapon-control.json']).replace('<section class="section deep">','<section id="chapter-matrix" class="section deep">',1))
+ entry_rows=[]
+ for pool in ['InitSurvivorGroup','SurvivorGroup']:
+  for w in weights:
+   if w['pool']!=pool:continue
+   entry_rows.append(['起步10' if pool=='InitSurvivorGroup' else '常规18',w['name']+' '+str(w['skill_id']),w['weight']]+[w['chapter_group_weights'][str(i)] for i in range(1,7)])
+ out.append(block('10武器起步池与18入口常规池的原始权重',['Weight_1—6实际分别用于第1、2、3、4、6、8章；其他可见章节读默认Weight。初始池没有酸性黑洞；常规池的增幅模块所有列为0。这里只列原始权重，尚未应用第2—10章条件保护、槽位与前置过滤。'],['池','入口','默认','第1章','第2章','第3章','第4章','第6章','第8章'],entry_rows,['topics/choices-box-evolution/pool-weights.json','topics/choices-box-evolution/chapter-weapon-control.json']))
+ out.append(block('四个词条池及11条武器线的内容规模',['基础池18入口中有11把武器、7个模块配置入口，其中增幅模块普通随机权重为0；专属分支57条、后续升级111条、高阶进化22条。下表按技能ID中间家族码汇总配置行数；它是内容树深度，不是玩家本局能同时取得的条目数。'],['武器家族码','名称','基础入口','分支节点','后续升级','高阶节点'],[[f'{code:03d}',names.get(10000000+code*100+1,'按武器ID查询'),group[code]['SurvivorGroup'],group[code]['BranchSurvivorGroup'],group[code]['UpgradeSurvivorGroup'],group[code]['UpgradeSkillGroup']] for code in sorted(group)],['in-run/datasets/skill-build.json','topics/choices-box-evolution/pool-weights.json']))
  out.append(block('玩家拿到一张武器之后，系统怎样更新可学内容',['首次取得武器入口后，NextSkill连接下一星；CoverSkill用于覆盖旧阶段。达到相应节点后，104系武器分支加入相应候选；被动模块占自己的槽位，并可能满足105系进化配方。候选生成时还要检查PreSkillIds、NeedSkills、RejectSkills、技能标记及已有技能。','以机炮为例：10000101→10000102→10000103推进主线。达到10000103并已有暴击模块11000701后，10500101按配置权重5000进入候选；未抽到则仍未进化。获得IsUpgrade=1的节点后，再处理9个专属深层选项。B配置采用另一条特殊升级路径，不能直接套这个基础分支配方。'],refs=['in-run/datasets/skill-build.json','topics/choices-box-evolution/evolution-recipes.json']))
  bymod=collections.defaultdict(list)
  for r in recipes:bymod[r['required_names'][-1]].append(r['required_names'][0])
  out.append(block('模块的双重价值：立即属性＋未来配方',['通用模块不仅有当下属性增益，还可能进入多把武器的配方。以下按已核对的22条配方归纳；同名武器可能存在两个不同进化节点。最终取得概率还取决于章节权重、候选池和玩家状态。'],['模块','关联的武器配方条目','条目数'],[[k,'、'.join(v),len(v)] for k,v in sorted(bymod.items())],['topics/choices-box-evolution/evolution-recipes.json']))
+ skill_rows={x['id']:x for x in data('topics/choices-box-evolution/inputs/Skill_Main.json')}
+ first={r['result_skill_id']//100:r for r in recipes if r['result_skill_id']%100==1}
+ second={r['result_skill_id']//100:r for r in recipes if r['result_skill_id']%100==2}
+ evolution_rows=[]
+ for family,r1 in first.items():
+  r2=second[family];n2=skill_rows[r2['result_skill_id']]
+  assert n2['NeedSkills']==[r1['result_skill_id']]
+  evolution_rows.append([r1['result_name'],r1['required_names'][1],f"{r1['required_skill_ids'][0]}＋{r1['required_skill_ids'][1]} → {r1['result_skill_id']}",f"{r2['required_skill_ids'][0]}＋{r2['required_skill_ids'][1]} → {r2['result_skill_id']}",len(r1['subchoice_ids']),len(r2['subchoice_ids'])])
+ out.append(block('11把武器的两档进化配方',['左列是第一档：武器3星＋模块1星；右列是第二档：武器6星＋模块2星，且第二档105系节点均以第一档105系节点为NeedSkills。箭头只表示解锁进化候选，非自动获得。最后两列是两档节点配置的专属选项ID数量，并非一次展示数量。'],['武器','共用模块','第一档门槛 → 候选','第二档门槛 → 候选','第一档子项','第二档子项'],evolution_rows,['topics/choices-box-evolution/evolution-recipes.json','topics/choices-box-evolution/inputs/Skill_Main.json']))
+ module_rows=[]
+ first_by_module=collections.defaultdict(list)
+ for r in first.values():first_by_module[r['required_names'][1]].append(r['result_name'])
+ for x in weights:
+  if x['pool']=='SurvivorGroup' and x['skill_type']==2:
+   module_rows.append([x['name']+' '+str(x['skill_id']),len(first_by_module[x['name']]),'、'.join(first_by_module[x['name']]) or '无105系配方'])
+ out.append(block('基础模块的配方覆盖面',['同名模块的1星和2星分别参与对应武器的两档进化。增幅模块有基础入口，但在当前22条105系配方中没有关联；这只说明该配方集合，不代表模块无其他战斗价值。'],['模块入口','关联武器数','关联武器'],module_rows,['topics/choices-box-evolution/pool-weights.json','topics/choices-box-evolution/evolution-recipes.json']))
  out.append(block('一张牌的价值为什么会随关卡进度改变',['开局武器入口扩大攻击方式，已有武器升级集中投入。中段拿到模块，除了即刻面板收益，还可能把下一次进化放进候选池。终局前尚未完成配方时，即时输出与等待后续进化的机会成本不同。','基础武器／被动槽位各4个；B分支有另一套槽位与开放规则。已经满槽时新增路线和已有路线升级的合法性不同。初始池、常规池与分支／深层池层层推进，不等于208条池记录可以同时抽到。'],refs=['topics/choices-box-evolution/facts.json','in-run/datasets/skill-build.json']))
  return ''.join(out)
 def aircraft():

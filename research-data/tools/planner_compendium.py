@@ -173,26 +173,8 @@ def monsters():
     return ''.join(out)+fact_index('monsters')
 
 def skills():
-    build=read('in-run/datasets/skill-build.json');nodes={x['id']:x for x in build['nodes']}
-    pools={x['id']:x for x in build['pools']}
-    weapons=[nodes[i] for i in pools['SurvivorGroup']['skill_ids'] if nodes[i]['type']==1]
-    families=defaultdict(lambda:Counter())
-    for name,pool in pools.items():
-        for i in pool['skill_ids']:
-            if 10000000<=i<11000000:families[(i//100)%1000][name]+=1
-    rows=[]
-    for x in weapons:
-        code=(x['id']//100)%1000;desc=x['description_template'].replace('<color=yellow>','').replace('</color>','')
-        rows.append([x['name']+' '+str(x['id']),desc,families[code]['BranchSurvivorGroup'],families[code]['UpgradeSurvivorGroup'],families[code]['UpgradeSkillGroup']])
-    edges=[x for x in build['edges'] if x['source'] in [10000101,10000102,10000103,10500101] and x['relation'] in ['NextSkill','CoverSkill','UpgradeSkillId']]
-    out=['<div class="compendium-intro"><h2>武器不是单张牌，而是随局内状态展开的内容树</h2><p>先得到基础攻击方式，再通过星级、分支和模块依赖进入更深层。玩家每次看到的候选只是当前合法树枝，配置总行数不能当成整局可见内容。</p></div>',process([('入口','选攻击方式'),('主线','升级星级'),('分支','改变覆盖/取舍'),('模块','满足进化配方'),('突破','抽中后开专属选择')])]
-    out.append(section('1 · 11把基础武器各负责什么攻击方式',['基础池18个入口由11把武器与7个通用模块组成。起步池另有10个武器入口，章节可以改其相对权重。下面用配置入口文案描述最初攻击方式；后续星级、分支和高阶节点会改变行为。','例如机炮打正前方，酸液枪弹跳，电弧枪在敌人间弹射，冰刃弹自动追踪，能量光剑覆盖近身180度。玩家选一把武器，本质是在选择下一段升级池和战斗覆盖形态。'],['武器入口','取得时的攻击方式','分支节点','深层节点','进化节点'],rows,['in-run/datasets/skill-build.json','topics/choices-box-evolution/pool-weights.json']))
-    out.append(section('2 · 四类池如何逐层开放',['SurvivorGroup是常规基础入口，BranchSurvivorGroup是武器分支，UpgradeSurvivorGroup是后续深化，UpgradeSkillGroup存放22个高阶节点。它们分别有18、57、111、22条配置，合计208条池记录，但不是一次三选一有208个候选。','每次抽牌先判槽位和当前可学关系，再找具体合法节点。NextSkill连接下一星，CoverSkill说明取得新节点后覆盖什么，PreSkillIds/NeedSkills/RejectSkills/技能标记决定合法性；UpgradeSkillId是进一步候选连接。不同字段不能统一画成一条“直线升级”。'],['池','静态配置行','何时有意义','容易误读的地方'],[['基础入口',18,'建立新的武器或被动模块','不等于开局18个都能抽'],['分支强化',57,'已有相应武器和开放条件','不等于每条分支都可同时叠加'],['后续深化',111,'达到前置节点后继续加深','不是新增111个装备槽'],['高阶节点',22,'模块配方满足后进入候选','不是满足门槛立即取得']],['in-run/datasets/skill-build.json','topics/choices-box-evolution/facts.json']))
-    out.append(section('3 · 机炮路线逐步追到突破',['机炮10000101首先给正前方持续攻击。沿NextSkill进入10000102，再到10000103。此时若同时持有暴击模块11000701，基础分支的配方将10500101按权重5000加入合法候选。玩家仍要等到后续抽取并选中它，才真正取得突破；随后还有9个专属选项。','配置还允许在主线星级阶段挂接104系分支，例如增加正向子弹但付出攻击力代价。这个取舍需要用弹数、命中率、攻击倍率和目标类型一起估价，不应只比较单发伤害数字。'],['关系','源节点','目标节点','策划含义'],[[x['relation'],x['source'],x['target'],'继续成长／覆盖／开放候选' if x['relation']!='CoverSkill' else '新阶段替换旧阶段'] for x in edges]+[['配方', '10000103 + 11000701',10500101,'满足依赖后加入高阶候选，仍需抽到']],['in-run/datasets/skill-build.json','topics/choices-box-evolution/evolution-recipes.json']))
-    out.append(section('4 · 同一张模块有即时价值与未来价值',['7个通用模块占用被动槽，能给当前属性或机制收益；其中若干还作为22条配方的依赖。同一个模块可关联多把武器，所以即使玩家尚未确定主武器，也可能保留未来转向空间。','但“能组成配方”与“最后会进化”隔着武器节点、合法池、权重、同屏抽取和玩家选择。制定模块权重时应分别看它的即期面板价值、对多少条路线开放高阶候选，以及关卡剩余成长次数是否足够把配方兑现。'],refs=['topics/choices-box-evolution/evolution-recipes.json','in-run/datasets/skill-build.json']))
-    out.append(section('5 · 三个实际构筑时刻的选择逻辑',['开局缺覆盖时，一把新武器可能比给单一武器升星更能处理不同方向的敌人；已有稳定主武器时，继续升星可能更快达到分支或配方前置；槽位接近满额时，新路线合法性下降，成长更偏向已有路线。','这是基于机制的策划研究框架，不是固定攻略：局内怪物密度、弹幕、章节权重和当前词条决定哪个选择更好。若要计算某张牌实际出现率，应回到三选一专题记录完整状态，而不能只看这里的路线树。'],['当前状态','系统层的约束','玩家面前的真实取舍'],[['早期，武器槽有空位','新武器入口与已有升级竞争','扩大覆盖还是集中主输出'],['中段，模块槽有空位','模块既增益又可能解锁配方','即时收益还是未来进化机会'],['后段，接近满槽','新增路线减少、后继节点仍可学','深化一条路线还是补关键短板']],['in-run/datasets/skill-build.json','topics/choices-box-evolution/facts.json']))
-    out.append(section('6 · 研究一条武器线时应该交付什么',['给每把武器保留“入口攻击方式—主线星级—分支取舍—模块配方—高阶节点—特殊选择”六段关系，并写明每段的前置、权重、互斥与覆盖。完整节点、技能ID和描述已放在武器与词条查询页。','横向比较11把武器时，再按单体/清杂/近身/追踪/持续伤害等战斗职责对照章节怪物需求。不能用静态208行池记录推导所有武器都具有同等实战可达性。'],refs=['in-run/datasets/skill-build.json','topics/choices-box-evolution/evolution-recipes.json']))
-    return ''.join(out)
+    from weapon_build_report import render as render_weapon_build
+    return render_weapon_build()
 
 def aircraft():
     skins=read('planner/inputs/Role_Skin.json');stars=read('planner/inputs/Role_SkinStar.json')

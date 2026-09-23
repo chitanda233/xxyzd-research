@@ -1893,56 +1893,56 @@
     "id": "T:Chapter_MainChapter",
     "path": "inputs/Chapter_MainChapter.json",
     "kind": "config_or_literal_snapshot",
-    "sha256": "df13c03c5bf20f943bb7f26ae740b5f058d476899c2e93de3fd258f8b574a7b0",
+    "sha256": "0951dad8dee91008ce9869299144a719871def4afe068d673a53f2ab1da1b5f5",
     "origin": "restored/configs/tables/Chapter_MainChapter.json"
   },
   {
     "id": "T:Item_battle",
     "path": "inputs/Item_battle.json",
     "kind": "config_or_literal_snapshot",
-    "sha256": "4a2450e57de558ed9267dc76209e7183bba947a84d190f58e99e30cb77323d33",
+    "sha256": "5d241667ec7d8df954d20b1305c1811c19ff10d696e6949056a57b5513753432",
     "origin": "restored/configs/tables/Item_battle.json"
   },
   {
     "id": "T:Npc_Npc",
     "path": "inputs/Npc_Npc.json",
     "kind": "config_or_literal_snapshot",
-    "sha256": "99ff6d2a435e80a5d9f4d44839bc4b63cd7d6b65c57b554e4e54c4e81d6d5108",
+    "sha256": "fc4118adfb139fe64a3cad7ff7059df3e79bd5a7f5325c50a83c2bf24c41c715",
     "origin": "restored/configs/tables/Npc_Npc.json"
   },
   {
     "id": "T:SkillGroup_BranchSurvivorGroup",
     "path": "inputs/SkillGroup_BranchSurvivorGroup.json",
     "kind": "config_or_literal_snapshot",
-    "sha256": "ec55ae3bae42dfea54043138d4ef7219be4ed515faffac820b8b342c94c133f4",
+    "sha256": "5a8b45140aeb050a2e83bd1071586d2a444e8b66f2244431eb3dd360a8af4025",
     "origin": "restored/configs/tables/SkillGroup_BranchSurvivorGroup.json"
   },
   {
     "id": "T:SkillGroup_InitSurvivorGroup",
     "path": "inputs/SkillGroup_InitSurvivorGroup.json",
     "kind": "config_or_literal_snapshot",
-    "sha256": "b5799a3141533801060fa77092aa4c20e3a54bc38f4de8c0a53fd10cc02d422e",
+    "sha256": "3dae0e5209a12b331455d782da95ccf99dba40fb6ce8dc0f2047efb8ad12f40a",
     "origin": "restored/configs/tables/SkillGroup_InitSurvivorGroup.json"
   },
   {
     "id": "T:SkillGroup_SurvivorGroup",
     "path": "inputs/SkillGroup_SurvivorGroup.json",
     "kind": "config_or_literal_snapshot",
-    "sha256": "33f3f782558af459aa9890dc65351803af462e60a7a1a33798c9e31fc3eb92e2",
+    "sha256": "86b65947700907bdef6ced6ff32f8499b34b1937437f9ad5e4374cf2295b4c79",
     "origin": "restored/configs/tables/SkillGroup_SurvivorGroup.json"
   },
   {
     "id": "T:SkillGroup_UpgradeSkillGroup",
     "path": "inputs/SkillGroup_UpgradeSkillGroup.json",
     "kind": "config_or_literal_snapshot",
-    "sha256": "8c78082f7fda5eed1e9bdc3f5ccbbeb6d65bf496c86f1f06c70f441eccb233ab",
+    "sha256": "005d973c4b774551672e85b883a4fc6c8756c4e079b076674ef15ebc10a8ad93",
     "origin": "restored/configs/tables/SkillGroup_UpgradeSkillGroup.json"
   },
   {
     "id": "T:SkillGroup_UpgradeSurvivorGroup",
     "path": "inputs/SkillGroup_UpgradeSurvivorGroup.json",
     "kind": "config_or_literal_snapshot",
-    "sha256": "d4e41614440e964f3e8f14e70be51759c86efcbab28e3fdfe159f91de6f38960",
+    "sha256": "b34025372d0b7f33ac9a101812d6e3d6d4b000b1286578a59a193867b914cdef",
     "origin": "restored/configs/tables/SkillGroup_UpgradeSurvivorGroup.json"
   },
   {
@@ -2498,5 +2498,13 @@
     "method": "HotFix.BattleLogic.WeightRandom$$GetAlreadyStudySkill",
     "rva": "0x6634F18",
     "sha256": "3249198b6a3530c1f474ec6b59d4d8f24de57f9de6f6329e717c2a8b3ed5b394"
+  },
+  {
+    "id": "D:chapter-weapon-control",
+    "path": "chapter-weapon-control.json",
+    "kind": "derived_snapshot",
+    "sha256": "b8a2c60565826b57fd0833a4b380cd5a1bc690e8c5a8115e584808792298acf7",
+    "origin": "research-data/tools/weapon_chapter.py from packaged chapter, pool-weight and wave snapshots",
+    "limitations": "Configured weights and opportunities; not final display probabilities or live-game observations"
   }
 ]

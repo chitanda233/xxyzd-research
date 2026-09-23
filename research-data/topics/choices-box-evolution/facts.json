@@ -72,11 +72,12 @@
     },
     "evidence": [
       "evidence/DankeSkillCreator--GetNormalSkill.asm",
+      "evidence/SinglePlayerBattleManager--CreatePlayer.asm",
       "inputs/SkillGroup_InitSurvivorGroup.json",
       "inputs/SkillGroup_SurvivorGroup.json"
     ],
     "limitations": [
-      "尚未闭合新开局计数写入，不能承诺每局首屏必走初始池",
+      "普通CreatePlayer路径从Const偏移0x208读取计数并在非读档分支写入BattleWorldContext偏移0x2c4；静态证据仍不能承诺引导覆盖后每局首屏必展示初始池",
       "池会随学习更新，10是配置初始入口数"
     ]
   },
@@ -428,6 +429,183 @@
     "limitations": [
       "16是候选构建容量，不是实际奖励数量；奖励可能升级或覆盖已有技能。",
       "最终概率取决于当前合法候选、权重及逐项更新，不能把类别权重当作单技能固定概率。"
+    ]
+  },
+  {
+    "id": "C18",
+    "title": "11条武器线各有两档进化门槛",
+    "status": "verified_static",
+    "statement": "22条去重配方对应11把武器各两档：3星武器节点+1星配套模块解锁第一档105系候选；6星武器节点+2星同名模块对应第二档105系候选。所有第二档105系节点还以本武器第一档105系节点为NeedSkills，并配置BulletAttack%=50。",
+    "parameters": {
+      "weapon_lines": 11,
+      "evolution_nodes": 22,
+      "first_weapon_star": 3,
+      "second_weapon_star": 6,
+      "first_module_star": 1,
+      "second_module_star": 2
+    },
+    "evidence": [
+      "evolution-recipes.json",
+      "inputs/Skill_Main.json",
+      "inputs/SkillGroup_UpgradeSkillGroup.json"
+    ],
+    "limitations": [
+      "这里只证明基础配置的静态依赖和入池关系；满足门槛不等于必定抽中或取得",
+      "BulletAttack%=50是节点配置，不等同于最终伤害必增50%；还需运行时公式",
+      "模块升星会覆盖旧节点，依赖匹配按具体技能ID核对"
+    ]
+  },
+  {
+    "id": "C19",
+    "title": "六种模块连接11把武器的进化配方",
+    "status": "verified_static",
+    "statement": "常规池7个基础模块入口中，6个出现在22条105系配方中：暴击、缩小、生命、攻击、维修强化各连接2把武器，冷却连接1把；增幅模块11000301没有该配方集合中的关联。",
+    "parameters": {
+      "base_modules": 7,
+      "modules_with_recipe": 6,
+      "weapon_lines": 11
+    },
+    "evidence": [
+      "pool-weights.json",
+      "evolution-recipes.json"
+    ],
+    "limitations": [
+      "没有105系配方不表示没有其他战斗用途",
+      "同一武器的两档配方在统计模块覆盖面时只计作一条武器线"
+    ]
+  },
+  {
+    "id": "C20",
+    "title": "章节武器权重分为六个特设章与默认章",
+    "status": "verified_static",
+    "statement": "70个可见主线章节全部SkillType=2；第1、2、3、4、6、8章分别读Weight_1至Weight_6，第5、7、9、10章及第11—70章读Weight。基础/B章节组号逐章相同；第2—10章NewPlayerProtect含3，且保护另需WorldType=1、未持有机炮等运行条件。",
+    "parameters": {
+      "special_chapters": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        8
+      ],
+      "protected_chapters": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "visible_chapters": 70
+    },
+    "evidence": [
+      "chapter-weapon-control.json",
+      "inputs/Chapter_MainChapter.json",
+      "pool-weights.json",
+      "evidence/LocalModels.Bean.Chapter_MainChapter--GetSkillGroupWeight.asm",
+      "evidence/HeroSkillCreator--GetEffectiveWeight.asm",
+      "evidence/DankeSkillCreator--GetNormalSkill.asm"
+    ],
+    "limitations": [
+      "章节权重是池内相对权重，不是三张展示率",
+      "WeightForNewplayer有配置值但该主线路由不读取",
+      "保护还受当前池中目标入口是否存在约束"
+    ]
+  },
+  {
+    "id": "C21",
+    "title": "入口名单与章节推荐不是同一种开放条件",
+    "status": "verified_static",
+    "statement": "11把常规武器一星入口的UnlockStage均为0且各章节常规权重为正；起步池只有10把，不含酸性黑洞10000901。增幅模块11000301虽在常规池18入口中，但默认及Weight_1至Weight_10全为0。第5、7、9、10章的SuggestedSkills与默认权重并存，推荐字段不能直接解释为抽取加权或保底。",
+    "parameters": {
+      "regular_weapon_entrances": 11,
+      "initial_weapon_entrances": 10,
+      "regular_module_rows": 7,
+      "positive_regular_module_rows": 6
+    },
+    "evidence": [
+      "inputs/Skill_Main.json",
+      "inputs/SkillGroup_InitSurvivorGroup.json",
+      "inputs/SkillGroup_SurvivorGroup.json",
+      "inputs/Chapter_MainChapter.json",
+      "chapter-weapon-control.json"
+    ],
+    "limitations": [
+      "UnlockStage=0和正权重不排除运行态槽位、前置、已学、热更等额外限制",
+      "SuggestedSkills的UI用途不在本条断言范围内",
+      "增幅模块权重0仅证明不能按正权重走该普通池，不能证明其他来源不存在"
+    ]
+  },
+  {
+    "id": "C22",
+    "title": "章节成长预算改变进化兑现窗口",
+    "status": "verified_static",
+    "statement": "可见主线多数15波章配置14个波末成长界面标记和14800经验预算；第4章15波的终波也有标记，合计15个。10波模板配置9个标记和7300经验预算。通常每分支每章3次固定宝箱，第10和60章各2次；短章宝箱位于第4、7、10波。",
+    "parameters": {
+      "short_chapters": [
+        5,
+        15,
+        25,
+        35,
+        45,
+        55,
+        65
+      ],
+      "two_chest_chapters": [
+        10,
+        60
+      ],
+      "long_exp_budget": 14800,
+      "short_exp_budget": 7300,
+      "extra_end_ui_chapter": 4
+    },
+    "evidence": [
+      "chapter-weapon-control.json",
+      "treasure-schedule.json",
+      "inputs/Chapter_MainChapter.json"
+    ],
+    "limitations": [
+      "波末成长界面标记不等于实际选牌次数，待升级可能累计",
+      "宝箱生成、接触、奖励内容分别有运行门控",
+      "经验预算不直接给出某条进化的实际达成率"
+    ]
+  },
+  {
+    "id": "C23",
+    "title": "基础和B有不同武器槽位与突破阶段",
+    "status": "verified_static",
+    "statement": "基础武器/被动各4槽且武器主线MaxStar=6；B武器/被动各5槽，后两槽常量阈值6，武器主线MaxStar_B=9。11把武器基础3/6星节点IsUpgrade=2并配模块105进化，B在3/6/9星节点IsUpgrade_B=1且配置UpgradeSkillId_B专属选项。GetIsUpgrade/GetUpgradeSkillId在本地按技能AB标志读取基础或_B列；BattleLogicWorld.InitBaseBattleData把WorldInitInfo.ABTestMap交给SetSkillABTest（键2001）；基础配方函数在B分支提前返回。",
+    "parameters": {
+      "base_weapon_slots": 4,
+      "B_weapon_slots": 5,
+      "base_max_weapon_star": 6,
+      "B_max_weapon_star": 9,
+      "B_special_stars": [
+        3,
+        6,
+        9
+      ]
+    },
+    "evidence": [
+      "constants.json",
+      "inputs/Skill_Main.json",
+      "evidence/DankeSkillCreator--GetCanStudyCount.asm",
+      "evidence/LocalModelEx--CheckSkillIndexIsOpen.asm",
+      "evidence/DankeSkillCreator--TryUnlockUpgradeSkills.asm",
+      "evidence/Skill_Main--GetIsUpgrade.asm",
+      "evidence/Skill_Main--GetUpgradeSkillId.asm",
+      "evidence/BattleLogicWorld--InitBaseBattleData.asm",
+      "evidence/LocalModels.Const--SetSkillABTest-64cb414.asm",
+      "evidence/DankeSkillCreator--CheckIsSpecialSkill.asm",
+      "evidence/DankeSkillCreator--OpenSelectSpecialSkill.asm"
+    ],
+    "limitations": [
+      "槽位阈值由GetLevel()+1参与检查；其玩家界面显示等级需实机对应",
+      "技能AB标志读取WorldInitInfo.ABTestMap键2001；映射由谁线上分配未闭合，不按账号新旧解释",
+      "本地取_B列已由原生函数证明，具体特殊选择界面展示节奏仍待实机验证"
     ]
   }
 ]

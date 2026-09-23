@@ -6,6 +6,8 @@
 - `chapters.json`：71章技能模式、权重组、新手保护开关。
 - `pool-weights.json`：初始/常规技能入口及10组权重，含中文名。
 - `evolution-recipes.json`：对称配置去重后的配方、候选权重与二次选项。
+- 武器构筑专题从上述配方和 `inputs/Skill_Main.json` 复算：11把武器各有3星＋模块1星、6星＋模块2星两档进化；第二档105系节点还需要第一档节点。对应规则见 `facts.json` 的C18、C19，报告见 `docs/skills.html`。
+- `chapter-weapon-control.json`：70个可见主线章节及隐藏测试章的实际权重列、起步/常规池逐入口权重、保护代码、推荐字段、波末成长标记与宝箱波。由 `python3 research-data/tools/weapon_chapter.py rebuild` 复算，`validate` 核对；章节差异、开放门槛与B配置见C20—C23。
 - `constants.json`、`probability-examples.json`：常量与带前提概率示例。
 - `questions.json`：已查范围、断点、下一份所需证据。商店当前停止扩大搜索。
 - `inputs/`：最小配置快照及常量字节哈希恢复结果。

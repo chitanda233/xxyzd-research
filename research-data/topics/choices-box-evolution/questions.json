@@ -2,14 +2,15 @@
   {
     "id": "CQ03",
     "topic": "initialization",
-    "question": "新开局Init计数、引导覆盖及线上A/B如何赋值？",
+    "question": "普通新局Init计数已定位；引导覆盖与线上A/B怎样赋值、触发？",
     "checked": [
+      "SinglePlayerBattleManager.CreatePlayer从Const+0x208读取并在非读档分支写入WorldContext+0x2c4",
       "Init池消费",
       "引导覆盖消费并清空",
       "基础和_B配置读取"
     ],
-    "breakpoint": "消费端确认，实际玩家初始化/热更路由未闭合",
-    "next_evidence": "初始化字段写入或同版本运行态",
+    "breakpoint": "普通新局计数写入及技能AB列读取已闭合；引导指定结果来源和线上ABTestMap键2001由谁赋值仍未闭合",
+    "next_evidence": "定向追引导列表赋值、ABTestMap上游，或采集同版本运行态",
     "do_not_repeat": "不从变量NewPlayer/IsFirst字面推断注册时长"
   },
   {

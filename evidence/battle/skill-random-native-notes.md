@@ -126,3 +126,5 @@ Structure source: `restored/code/il2cpp/assemblies/HotFixBattle.dll.cs`.
 Combined with `SinglePlayerSkillCreator.GetNormalSkill` (RVA **0x6875450**) reading/decrementing the runtime counter and switching to `_initRandoms`, this proves the counter has a deliberate runtime and save-data lifecycle.
 
 Still missing: a stored native caller that connects battle preparation directly to `Const.UseInitSkillGroupCout = 1`. Do not upgrade that last link to hard proof yet.
+
+2026-09-23 update: `SinglePlayerBattleManager.CreatePlayer` now supplies that native link through a hotfix dispatch or local inline write, rather than a direct `BL/B` to `DoInitSkillGroupCount`. See [`init-skill-group-open-question.md`](init-skill-group-open-question.md). The earlier sentence records the 2026-09-19 evidence state.
