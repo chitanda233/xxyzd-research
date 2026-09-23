@@ -19,7 +19,13 @@ def links(*paths):
     return '<p class="evidence-line">可复核数据：'+' · '.join(f'<a href="{BASE}{e(p)}">{e(p)}</a>' for p in paths)+'</p>'
 def table(head,rows):
     assert all(len(r)==len(head) for r in rows)
-    return '<div class="table-wrap" tabindex="0"><table><thead><tr>'+''.join(f'<th scope="col">{e(x)}</th>' for x in head)+'</tr></thead><tbody>'+''.join('<tr>'+''.join((f'<th scope="row">{e(v)}</th>' if j==0 else f'<td>{e(v)}</td>') for j,v in enumerate(row))+'</tr>' for row in rows)+'</tbody></table></div>'
+    def cell(value, first):
+        tag='th' if first else 'td'
+        scope=' scope="row"' if first else ''
+        kind='cell-prose' if len(str(value))>24 else 'cell-compact'
+        return f'<{tag}{scope} class="{kind}">{e(value)}</{tag}>'
+    wrap='table-wrap report-data-wrap'+(' is-long' if len(rows)>12 else '')
+    return f'<div class="{wrap}" tabindex="0"><table class="report-data-table"><thead><tr>'+''.join(f'<th scope="col">{e(x)}</th>' for x in head)+'</tr></thead><tbody>'+''.join('<tr>'+''.join(cell(v,j==0) for j,v in enumerate(row))+'</tr>' for row in rows)+'</tbody></table></div>'
 def section(title,paragraphs=(),head=None,rows=(),refs=()):
     result=['<section class="section compendium"><h2>'+e(title)+'</h2>']
     result.extend('<p>'+e(p)+'</p>' for p in paragraphs)

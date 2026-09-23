@@ -9,7 +9,13 @@ def data(p):
  b=(R/p).read_bytes()
  return json.loads(gzip.decompress(b) if p.endswith('.gz') else b)
 def table(headers,rows,caption=''):
- return '<div class="table-wrap" tabindex="0"><table>'+('<caption>'+h(caption)+'</caption>' if caption else '')+'<thead><tr>'+''.join('<th scope="col">'+h(x)+'</th>' for x in headers)+'</tr></thead><tbody>'+''.join('<tr>'+''.join('<th scope="row">'+h(v)+'</th>' if i==0 else '<td>'+h(v)+'</td>' for i,v in enumerate(row))+'</tr>' for row in rows)+'</tbody></table></div>'
+ def cell(value, first):
+  tag='th' if first else 'td'
+  scope=' scope="row"' if first else ''
+  kind='cell-prose' if len(str(value))>24 else 'cell-compact'
+  return f'<{tag}{scope} class="{kind}">{h(value)}</{tag}>'
+ wrap='table-wrap report-data-wrap'+(' is-long' if len(rows)>12 else '')
+ return f'<div class="{wrap}" tabindex="0"><table class="report-data-table">'+('<caption>'+h(caption)+'</caption>' if caption else '')+'<thead><tr>'+''.join('<th scope="col">'+h(x)+'</th>' for x in headers)+'</tr></thead><tbody>'+''.join('<tr>'+''.join(cell(v,i==0) for i,v in enumerate(row))+'</tr>' for row in rows)+'</tbody></table></div>'
 def source(*paths):
  for p in paths:
   assert (R/p).is_file(),p
