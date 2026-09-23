@@ -2,6 +2,7 @@
 from pathlib import Path
 import json,html,re,hashlib,sys
 ROOT=Path(__file__).resolve().parents[2];DATA=ROOT/'research-data/planner';DOCS=ROOT/'docs'
+CSS_VERSION=hashlib.sha256((DOCS/'assets/planner.css').read_bytes()).hexdigest()[:12]
 MODULES=[('core','局内节奏'),('monsters','怪物与弹幕'),('choices-box-evolution','三选一、宝箱与进化'),('chapter-planning','章节规划'),('skills','武器构筑'),('aircraft','战机养成'),('systems','局外循环')]
 TOOLS=[('monster-query.html','怪物与逐波查询'),('chapter-query.html','章节配置查询'),('skill-query.html','武器与词条查询'),('config.html','全部配置查询'),('research-data.html','规则与证据查询')]
 BASE='https://github.com/chitanda233/xxyzd-research/blob/main/research-data/'
@@ -10,7 +11,7 @@ def read(slug):return json.loads((DATA/(slug+'.json')).read_text())
 def nav(current,sections=[]):
  return '<nav class="toc" aria-label="报告目录"><a href="index.html">研究首页</a><strong>策划反拆</strong><ul>'+''.join('<li>'+('<b aria-current="page">'+label+'</b>' if current==slug else '<a href="'+slug+'.html">'+label+'</a>')+'</li>' for slug,label in MODULES)+'</ul>'+('<strong>本页</strong><ul>'+''.join('<li><a href="#'+s['id']+'">'+esc(s['title'])+'</a></li>' for s in sections)+'</ul>' if sections else '')+'<strong>工具 · 查表</strong><ul>'+''.join('<li><a href="'+p+'">'+n+'</a></li>' for p,n in TOOLS)+'</ul></nav>'
 def shell(title,lead,content,slug='',sections=[],eyebrow='策划参考 · 客户端1.0.16'):
- return '<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>'+esc(title)+' · 小小远征队</title><link rel="stylesheet" href="assets/planner.css"><link rel="stylesheet" href="assets/term-tips.css"></head><body><header class="masthead"><a href="index.html">小小远征队 / 研究资料库</a><span>'+eyebrow+'</span></header><div class="layout">'+nav(slug,sections)+'<main id="main"><header class="hero"><h1>'+esc(title)+'</h1><p class="lead">'+esc(lead)+'</p></header>'+content+'</main></div><footer>策划报告与查表工具分开维护 · 中间数据和证据按专题目录保存</footer><script src="assets/term-tips.js"></script></body></html>'
+ return '<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>'+esc(title)+' · 小小远征队</title><link rel="stylesheet" href="assets/planner.css?v='+CSS_VERSION+'"><link rel="stylesheet" href="assets/term-tips.css"></head><body><header class="masthead"><a href="index.html">小小远征队 / 研究资料库</a><span>'+eyebrow+'</span></header><div class="layout">'+nav(slug,sections)+'<main id="main"><header class="hero"><h1>'+esc(title)+'</h1><p class="lead">'+esc(lead)+'</p></header>'+content+'</main></div><footer>策划报告与查表工具分开维护 · 中间数据和证据按专题目录保存</footer><script src="assets/term-tips.js"></script></body></html>'
 def render_page(slug):
  d=read(slug);shown=[dict(s) for s in d['sections'] if s['id'] in ['overview','reference','limits']]
  for s in shown:
