@@ -2,7 +2,7 @@
 
 ## 唯一入口
 
-网站入口为 `docs/index.html`。策划反拆按独立模块并列组织：局内整体链路、怪物与弹幕、三选一与武器进化、章节规划、升级词条、战机与皮肤、局外系统。各模块不是局内整体链路的下级；工具区只承担查表与数据查询。导航由 `research-data/tools/site_structure.py` 统一维护。
+网站入口为 `docs/index.html`。策划反拆按独立模块并列组织：局内整体链路、怪物与弹幕、三选一与武器进化、章节规划、升级词条、战机与皮肤、局外系统。各模块不是局内整体链路的下级；工具区只承担查表与数据查询。正式报告与导航由 `research-data/tools/planner_reports.py` 统一生成。
 
 - 报告入口：`docs/index.html`，各策划模块独立进入。
 - 中间数据：`research-data/in-run/` 与 `research-data/topics/`（各模块规则、可计算数据与最小证据）。
