@@ -5,10 +5,10 @@
     "fact_ids": [
       "F10"
     ],
-    "question": "新开局Init计数如何赋值？",
-    "already_checked": "检查PrepareBattle、BattleData.Init、读档及DoInitSkillGroup直接调用；读档已确认，直接调用无命中。",
-    "required_evidence": "追BattleData字段直接写入、内联或实际hotfix",
-    "impact": "影响首轮候选保证",
+    "question": "普通新局Init计数已定位写入；引导覆盖与线上热更函数体是否改变首屏？",
+    "already_checked": "SinglePlayerBattleManager.CreatePlayer在0x65C6738—0x65C67C0读取配置Init计数1并写入本局状态；GetNormalSkill消费该计数。直接BL/B搜索曾漏掉热更函数指针调用。",
+    "required_evidence": "追引导指定结果列表、线上hotfix分派和同版本运行态首屏记录；原生写入证据见topics/choices-box-evolution/evidence/SinglePlayerBattleManager--CreatePlayer.asm",
+    "impact": "影响是否能把本地普通新局的起步池规则推广到所有线上首屏",
     "reopen_when": "任务需要该结论的定量保证，或获得新的版本/运行态材料；否则复用已有结论并保留边界"
   },
   {

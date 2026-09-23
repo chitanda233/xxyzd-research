@@ -44,6 +44,17 @@ assert sum(nodes[i]['type']==1 for i in build['pools'][0]['skill_ids'])==11
 
 skins=data('planner/inputs/Role_Skin.json');stars=data('planner/inputs/Role_SkinStar.json')
 assert len(skins)==8 and len(stars)==40
+assert {x['Quality'] for x in skins}=={40,50,60}
+assert sum(bool(x['FeatureOnStarUp']) for x in stars)==30
+assert all(sum(row[1] for row in x['UnlockCost'])+sum(row[1] for y in stars if y['skinId']==x['Id'] for row in y['StarCost'])==8 for x in skins)
+goods=data('planner/inputs/Shop_ShopGoods.json');goods_by_id={x['id']:x for x in goods}
+assert len(goods)==9 and goods_by_id[1001]['price']==[[2,20]] and goods_by_id[1001]['reward']==[[1,50]]
+assert '门票' in goods_by_id[1001]['note']
+assert data('planner/inputs/CrossArena_CrossArenaSeason.json')[0]['TicketGoodsId']==1001
+assert data('planner/inputs/Shop_Shop.json')[0]['goods'][:2]==[1,2]
+assert goods_by_id[1]['price']==[[2,20]] and goods_by_id[1]['reward']==[[1,2000]]
+assert goods_by_id[2]['price']==[[2,100]] and goods_by_id[2]['reward']==[[1,10000]]
+assert len(data('planner/inputs/AirplaneGun_Star.json'))==2 and len(data('planner/inputs/Collection_TreasureStar.json'))==2
 loot=data('planner/inputs/Shop_LootBox.json')
-assert len(loot)==7
+assert len(loot)==7 and all(not x['BoxRateIDs'] for x in loot)
 print('PASS: editorial numbers for 7 topics match packaged L2 data')

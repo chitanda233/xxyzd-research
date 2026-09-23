@@ -1,12 +1,12 @@
 {
   "title": "局外循环：资源、养成与长期目标怎样连接",
-  "lead": "局外系统给战斗结果一个去处，也为下一局提供准备目标。能力成长消耗材料，资源兑换补足缺口，公会、竞技和活动提供持续参与的目标。",
+  "lead": "局外配置可核对部分资源用途、商品价格与玩法周期；当前武器、收藏及商品快照是抽样，尚不能形成完整经济产销报告。",
   "question": "怎样把单局战斗接成长线追求，而不是堆出彼此无关的系统入口？",
   "sections": [
     {
       "id": "overview",
       "title": "1. 用资源去向组织外围系统",
-      "text": "从现有配置关系看，可以将外围分成永久能力、资源供应、长期挑战、周期活动四类。以下是产品结构归纳，不表示所有线上入口都已验证。",
+      "text": "目前可将外围配置分为永久能力、资源供应、长期挑战与周期活动，但武器升星、收藏升星和商品只保留抽样。此处是结构梳理，非完整经济链或线上开放证明。",
       "rows": [
         [
           "战斗与奖励入口产生资源",
@@ -40,7 +40,7 @@
     {
       "id": "growth",
       "title": "2. 永久能力：不同系统提供什么成长",
-      "text": "这里只写配置能支持的能力结构。最终战力贡献还需要把各系统属性统一合并后评估。",
+      "text": "武器升星与收藏只抽样2/110、2/496条，能证明字段结构和样例消耗；不能据此推算全套养成成本或最终战力。",
       "rows": [
         [
           "武器达到升星条件并消耗材料",
@@ -71,19 +71,15 @@
       "refs": [
         "planner/inputs/AirplaneGun_Star.json",
         "planner/inputs/Collection_TreasureStar.json",
-        "planner/inputs/CrossArena_CrossArenaSeason.json",
-        "planner/inputs/Calendar_CalendarFig.json",
-        "planner/inputs/Guild_guildcontribute.json",
-        "planner/inputs/Shop_Shop.json",
-        "planner/inputs/Shop_LootBox.json",
-        "planner/inputs/Shop_ShopGoods.json"
+        "planner/inputs/Role_SkinStar.json",
+        "planner/sources.json"
       ],
       "kind": "configuration"
     },
     {
       "id": "resources",
       "title": "3. 资源入口：在什么需求下使用哪种交换",
-      "text": "配置显示钻石可以兑换基础资源，局外抽取还带钥匙、免费周期和单／十次成本。它们分别控制补给与抽取节奏。",
+      "text": "34条店铺配置完整，商品只选取9/704条；商品1、2的金币兑换已核，体力商店递增阶梯尚未核商品行。局外抽取7条BoxRateIDs均为空，不能据此计算掉落率。",
       "rows": [
         [
           "需要金币",
@@ -92,8 +88,8 @@
         ],
         [
           "需要体力",
-          "体力兑换配置注明递增购买",
-          "重复补给可能采用阶梯成本；准确价格要关联商品记录"
+          "体力商店note注明递增购买，具体商品阶梯尚未打包核对",
+          "只能记录待核，不能给准确阶梯价格"
         ],
         [
           "符合局外抽取条件",
@@ -112,14 +108,10 @@
         "玩家结果／策划意义"
       ],
       "refs": [
-        "planner/inputs/AirplaneGun_Star.json",
-        "planner/inputs/Collection_TreasureStar.json",
-        "planner/inputs/CrossArena_CrossArenaSeason.json",
-        "planner/inputs/Calendar_CalendarFig.json",
-        "planner/inputs/Guild_guildcontribute.json",
         "planner/inputs/Shop_Shop.json",
+        "planner/inputs/Shop_ShopGoods.json",
         "planner/inputs/Shop_LootBox.json",
-        "planner/inputs/Shop_ShopGoods.json"
+        "planner/sources.json"
       ],
       "kind": "configuration"
     },
@@ -155,13 +147,9 @@
         "玩家结果／策划意义"
       ],
       "refs": [
-        "planner/inputs/AirplaneGun_Star.json",
-        "planner/inputs/Collection_TreasureStar.json",
         "planner/inputs/CrossArena_CrossArenaSeason.json",
-        "planner/inputs/Calendar_CalendarFig.json",
         "planner/inputs/Guild_guildcontribute.json",
         "planner/inputs/Shop_Shop.json",
-        "planner/inputs/Shop_LootBox.json",
         "planner/inputs/Shop_ShopGoods.json"
       ],
       "kind": "configuration"
@@ -198,13 +186,7 @@
         "玩家结果／策划意义"
       ],
       "refs": [
-        "planner/inputs/AirplaneGun_Star.json",
-        "planner/inputs/Collection_TreasureStar.json",
-        "planner/inputs/CrossArena_CrossArenaSeason.json",
         "planner/inputs/Calendar_CalendarFig.json",
-        "planner/inputs/Guild_guildcontribute.json",
-        "planner/inputs/Shop_Shop.json",
-        "planner/inputs/Shop_LootBox.json",
         "planner/inputs/Shop_ShopGoods.json"
       ],
       "kind": "configuration"
@@ -246,7 +228,7 @@
     {
       "id": "limits",
       "title": "使用范围",
-      "text": "局外部分以配置事实为主，未闭合全量运行和服务器规则。因此本页可作为系统结构参考，不能直接当作经济平衡、真实付费价格或当前运营排期。",
+      "text": "本页只闭合部分客户端配置字段：武器升星2/110、收藏升星2/496、商品9/704。奖励到账、商品1001门票文案与reward冲突、抽取概率、属性合成及服务器开放均待核；不能据此推算真实收入、付费价格或毕业天数。",
       "rows": [],
       "heads": [
         "什么情况下",

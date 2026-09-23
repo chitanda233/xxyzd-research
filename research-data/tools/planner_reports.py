@@ -37,7 +37,7 @@ def render_page(slug):
    out.append('</tbody></table></div>')
   if s['refs']:out.append('<details class="sources"><summary>查看本节数据依据</summary>'+''.join('<a href="'+BASE+esc(r)+'">'+esc(r.split('/')[-1])+'</a> ' for r in s['refs'])+'</details>')
   out.append('</section>')
- out.append('<aside class="lookup"><h2>需要具体数值或逐条核查？</h2><p>正文用于理解规则和参考设计，完整配置、逐条数据与证据保留在查询层。</p><a class="button" href="'+d['lookup']+'">打开本模块查表工具</a> <a href="https://github.com/chitanda233/xxyzd-research/tree/main/research-data/">查看数据与证据目录</a></aside>')
+ out.append('<aside class="lookup"><h2>需要具体数值或逐条核查？</h2><p>正文用于理解规则和参考设计，完整配置、逐条数据与证据保留在查询层。</p><a class="button" href="'+d['lookup']+'">打开本模块查表工具</a> <a href="https://github.com/chitanda233/xxyzd-research/tree/main/research-data/">查看数据与证据目录</a> <a href="https://github.com/chitanda233/xxyzd-research/blob/main/research-data/planner/evidence-audit.md">查看非武器专题复核</a></aside>')
  if d['sources']:out.append('<details class="sources"><summary>本模块来源与适用范围</summary>'+''.join('<p><a href="'+BASE+r+'">'+esc(r)+'</a></p>' for r in d['sources'])+'</details>')
  (DOCS/(slug+'.html')).write_text(shell(d['title'],d['lead'],''.join(out),slug,navigation))
 def render_lookup(kind,text):
@@ -66,7 +66,7 @@ def render_lookup(kind,text):
 def index():
  cards=''.join('<a class="card" href="'+slug+'.html"><span>0'+str(i+1)+' / 专题</span><h2>'+label+'</h2><p>'+esc(read(slug)['lead'])+'</p><b>阅读全链路拆解 →</b></a>' for i,(slug,label) in enumerate(MODULES))
  tools=''.join('<a href="'+p+'">'+label+' →</a>' for p,label in TOOLS)
- body='<div class="site-stats"><span>客户端 1.0.16 静态基线</span><span>70章逐波配置</span><span>110种主线脚本怪</span><span>22条武器进化配方</span></div><div class="question"><span>怎样阅读</span><p>每个专题先解释系统目标，再按触发、判定、计算、例外、玩家结果和证据走完一条机制。全量配置附表保留在专题后半段；工具区只用于查具体ID和逐条原值。</p></div><h2>策划反拆 · 七个独立专题</h2><div class="cards">'+cards+'</div><section class="section"><h2>工具 · 查具体数据</h2><p>需要全量名单、逐波记录或配置字段时，从查询工具进入；报告正文负责说明机制。</p><div class="tool-links">'+tools+'</div></section><section class="section"><h2>证据怎样交接</h2><p>APK → 反编译 → 中间数据与证据 → 最终报告。报告里的规则链接到可复核的JSON快照、来源和指纹；日常研究先用中间数据，具体缺口才定向查源码。</p><a href="https://github.com/chitanda233/xxyzd-research/tree/main/research-data/">打开数据与证据目录 →</a></section>'
+ body='<div class="site-stats"><span>客户端 1.0.16 静态基线</span><span>70章逐波配置</span><span>110种主线脚本怪</span><span>22条武器进化配方</span></div><div class="question"><span>怎样阅读</span><p>每个专题先解释系统目标，再按触发、判定、计算、例外、玩家结果和证据走完一条机制。全量配置附表保留在专题后半段；工具区只用于查具体ID和逐条原值。</p></div><h2>策划反拆 · 七个独立专题</h2><div class="cards">'+cards+'</div><section class="section"><h2>工具 · 查具体数据</h2><p>需要全量名单、逐波记录或配置字段时，从查询工具进入；报告正文负责说明机制。</p><div class="tool-links">'+tools+'</div></section><section class="section"><h2>证据怎样交接</h2><p>APK → 反编译 → 中间数据与证据 → 最终报告。报告里的规则链接到可复核的JSON快照、来源和指纹；日常研究先用中间数据，具体缺口才定向查源码。</p><a href="https://github.com/chitanda233/xxyzd-research/tree/main/research-data/">打开数据与证据目录 →</a> · <a href="https://github.com/chitanda233/xxyzd-research/blob/main/research-data/planner/evidence-audit.md">查看非武器专题复核 →</a></section>'
  (DOCS/'index.html').write_text(shell('小小远征队 · 策划反拆研究库','把局内节奏、章节、怪物、随机成长、武器构筑和长期养成放在一套可复核的专题里；每页解释实际规则和策划可借鉴的结构。',body))
 def validate():
  for slug,_ in MODULES:
