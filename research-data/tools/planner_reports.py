@@ -12,13 +12,20 @@ def nav(current,sections=[]):
 def shell(title,lead,content,slug='',sections=[],eyebrow='策划参考 · 客户端1.0.16'):
  return '<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>'+esc(title)+' · 小小远征队</title><link rel="stylesheet" href="assets/planner.css"><link rel="stylesheet" href="assets/term-tips.css"></head><body><header class="masthead"><a href="index.html">小小远征队 / 研究资料库</a><span>'+eyebrow+'</span></header><div class="layout">'+nav(slug,sections)+'<main id="main"><header class="hero"><h1>'+esc(title)+'</h1><p class="lead">'+esc(lead)+'</p></header>'+content+'</main></div><footer>策划报告与查表工具分开维护 · 中间数据和证据按专题目录保存</footer><script src="assets/term-tips.js"></script></body></html>'
 def render_page(slug):
- d=read(slug);out=['<details class="mobile-contents"><summary>本页内容</summary><ul>'+''.join('<li><a href="#'+v['id']+'">'+esc(v['title'])+'</a></li>' for v in d['sections']+[{'id':'mechanism-detail','title':'完整规则与数据'}])+'</ul></details>','<div class="question"><span>本模块回答</span><p>'+esc(d['question'])+'</p><a class="detail-jump" href="#mechanism-detail">直达完整规则与数据 ↓</a></div>']
+ d=read(slug);shown=[dict(s) for s in d['sections'] if s['id'] in ['overview','reference','limits']]
+ for s in shown:
+  if s['id']=='overview':s['title']='一页结论与策划定位'
+  elif s['id']=='reference':s['title']='策划应用：怎样迁移这套结构'
+  elif s['id']=='limits':s['title']='证据边界与继续核对'
+ navigation=[shown[0],{'id':'full-walkthrough','title':'全链路机制拆解'},{'id':'mechanism-detail','title':'配置明细与参数'}]+shown[1:]
+ out=['<details class="mobile-contents"><summary>本页内容</summary><ul>'+''.join('<li><a href="#'+v['id']+'">'+esc(v['title'])+'</a></li>' for v in navigation)+'</ul></details>','<div class="question"><span>本模块回答</span><p>'+esc(d['question'])+'</p><a class="detail-jump" href="#full-walkthrough">直达全链路机制拆解 ↓</a></div>']
  if slug=='core':
   out.append('<ol class="timeline" aria-label="第一章阶段节奏">'+''.join('<li><b>'+a+'</b><span>'+b+'</span></li>' for a,b in [('1—4波','选择方向'),('5波','首次压力峰'),('6波','宝箱补强'),('10波','精英检验'),('11波','宝箱补强'),('15波','宝箱＋首领')])+'</ol>')
- detail_done=False
- for s in d['sections']:
-  if not detail_done and s['kind']=='reference':
-   out.append(__import__('planner_details').render(slug));detail_done=True
+ out.append('<p class="report-basis">研究口径：客户端 1.0.16 静态实现与配置；机制结论、配置数量和策划参考分别标明。运行态分流与服务端结算未验证的地方保留边界。</p>')
+ for s in shown:
+  if s['id']=='reference':
+   out.append(__import__('planner_compendium').render(slug))
+   out.append(__import__('planner_details').render(slug))
   kind=s['kind'];label={'reference':'设计参考 · 非原作新增规则','interpretation':'策划归纳','configuration':'配置规则','rule':'运行规则与案例'}[kind]
   out.append('<section id="'+s['id']+'" class="section '+kind+'"><div class="label">'+label+'</div><h2>'+esc(s['title'])+'</h2><p>'+esc(s['text'])+'</p>')
   if s['rows']:
@@ -27,10 +34,9 @@ def render_page(slug):
    out.append('</tbody></table></div>')
   if s['refs']:out.append('<details class="sources"><summary>查看本节数据依据</summary>'+''.join('<a href="'+BASE+esc(r)+'">'+esc(r.split('/')[-1])+'</a> ' for r in s['refs'])+'</details>')
   out.append('</section>')
- if not detail_done:out.append(__import__('planner_details').render(slug))
  out.append('<aside class="lookup"><h2>需要具体数值或逐条核查？</h2><p>正文用于理解规则和参考设计，完整配置、逐条数据与证据保留在查询层。</p><a class="button" href="'+d['lookup']+'">打开本模块查表工具</a> <a href="https://github.com/chitanda233/xxyzd-research/tree/main/research-data/">查看数据与证据目录</a></aside>')
  if d['sources']:out.append('<details class="sources"><summary>本模块来源与适用范围</summary>'+''.join('<p><a href="'+BASE+r+'">'+esc(r)+'</a></p>' for r in d['sources'])+'</details>')
- (DOCS/(slug+'.html')).write_text(shell(d['title'],d['lead'],''.join(out),slug,d['sections']+[{'id':'mechanism-detail','title':'完整规则与数据'}]))
+ (DOCS/(slug+'.html')).write_text(shell(d['title'],d['lead'],''.join(out),slug,navigation))
 def render_lookup(kind,text):
  if kind=='monsters':
   start=text.index('<h2 id="catalog">');end=text.index('<h2 id="evidence">',start)
@@ -55,10 +61,10 @@ def render_lookup(kind,text):
   (DOCS/'skill-query.html').write_text(shell('武器与词条查询','按武器家族、池类型、名称和ID查词条。配置行数与权重不等于当前可抽数量或最终概率。',body))
  else:raise ValueError(kind)
 def index():
- cards=''.join('<a class="card" href="'+slug+'.html"><span>0'+str(i+1)+'</span><h2>'+label+'</h2><p>'+esc(read(slug)['question'])+'</p><b>查看策划反拆 →</b></a>' for i,(slug,label) in enumerate(MODULES))
+ cards=''.join('<a class="card" href="'+slug+'.html"><span>0'+str(i+1)+' / 专题</span><h2>'+label+'</h2><p>'+esc(read(slug)['lead'])+'</p><b>阅读全链路拆解 →</b></a>' for i,(slug,label) in enumerate(MODULES))
  tools=''.join('<a href="'+p+'">'+label+' →</a>' for p,label in TOOLS)
- body='<div class="question"><span>阅读方式</span><p>每个模块先讲设计作用，再给“条件 → 系统行为 → 玩家结果”的规则与案例，最后提供可借鉴的设计方案。策划归纳和设计参考均单独标明。</p></div><h2>策划反拆 · 独立模块</h2><div class="cards">'+cards+'</div><section class="section"><h2>工具 · 只做查询</h2><p>需要全量名单、逐波数据或配置字段时，从这里进入。</p><div class="tool-links">'+tools+'</div></section><section class="section"><h2>研究材料怎样交接</h2><p>APK → 反编译 → 中间数据与证据 → 最终报告。日常研究直接使用中间数据，只有规则缺口需要时才继续定向查源码。</p><a href="https://github.com/chitanda233/xxyzd-research/tree/main/research-data/">打开数据与证据目录 →</a></section>'
- (DOCS/'index.html').write_text(shell('小小远征队 · 策划反拆参考','从玩家要处理的问题出发，解释系统在什么情况下做什么，以及这些规则怎样组成可参考的设计方案。',body))
+ body='<div class="site-stats"><span>客户端 1.0.16 静态基线</span><span>70章逐波配置</span><span>110种主线脚本怪</span><span>22条武器进化配方</span></div><div class="question"><span>怎样阅读</span><p>每个专题先解释系统目标，再按触发、判定、计算、例外、玩家结果和证据走完一条机制。全量配置附表保留在专题后半段；工具区只用于查具体ID和逐条原值。</p></div><h2>策划反拆 · 七个独立专题</h2><div class="cards">'+cards+'</div><section class="section"><h2>工具 · 查具体数据</h2><p>需要全量名单、逐波记录或配置字段时，从查询工具进入；报告正文负责说明机制。</p><div class="tool-links">'+tools+'</div></section><section class="section"><h2>证据怎样交接</h2><p>APK → 反编译 → 中间数据与证据 → 最终报告。报告里的规则链接到可复核的JSON快照、来源和指纹；日常研究先用中间数据，具体缺口才定向查源码。</p><a href="https://github.com/chitanda233/xxyzd-research/tree/main/research-data/">打开数据与证据目录 →</a></section>'
+ (DOCS/'index.html').write_text(shell('小小远征队 · 策划反拆研究库','把局内节奏、章节、怪物、随机成长、武器构筑和长期养成放在一套可复核的专题里；每页解释实际规则和策划可借鉴的结构。',body))
 def validate():
  for slug,_ in MODULES:
   d=read(slug);assert len(d['sections'])>=5

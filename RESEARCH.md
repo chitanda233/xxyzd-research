@@ -83,4 +83,4 @@ python3 research-data/tools/render.py
 
 ## 策划报告的正式结构
 
-以 `docs/index.html` 为总入口，七个模块并列：局内节奏、怪物与弹幕、三选一/宝箱/进化、章节规划、武器构筑、战机养成、局外循环。策划提要在 `research-data/planner/`，完整规则由 `research-data/tools/planner_details.py` 依据 L2 数据生成，统一执行 `python3 research-data/tools/planner_reports.py`。正文按设计问题、条件与动作、具体案例、设计参考组织，代码和字段解释通过来源链接下沉。全量查表独立放在 `monster-query.html`、`chapter-query.html`、`skill-query.html`，不与正文混排。
+以 `docs/index.html` 为总入口，七个模块并列：局内节奏、怪物与弹幕、三选一/宝箱/进化、章节规划、武器构筑、战机养成、局外循环。策划开篇与设计参考在 `research-data/planner/`，全链路机制由 `research-data/tools/planner_compendium.py`、配置附表由 `research-data/tools/planner_details.py` 依据 L2 数据生成，统一执行 `python3 research-data/tools/planner_reports.py`。正文按触发、判定、计算、例外、玩家结果、证据组织，代码和字段解释通过来源链接下沉。全量查表独立放在 `monster-query.html`、`chapter-query.html`、`skill-query.html`，不与正文混排。

@@ -31,7 +31,7 @@ def core():
   if any(e['kind']=='punchboard' for e in w['events']):stage='接触宝箱；'+stage
   rows.append([f"W{w['wave']}",f"{w['script_start_seconds']:g}秒",str(w['configured_monster_count']),names,str(w['experience_budget']),str(w['cumulative_experience']),stage])
  out=['<h2 id="mechanism-detail">完整规则与数据：第一章一局怎样执行</h2>']
- out.append(block('15波完整计划、成长和门槛',['逐波怪量已按编队模板实际成员展开，修正了早期按一条编队算一只怪的漏计。以下是任务完整执行时的计划数量，关键目标提前死亡会截断后续刷新。第15波虽有经验预算，未配置普通波末选牌界面。'],['波','脚本起点','计划怪量','怪物构成','本波经验','累计经验','本波处理'],rows,['in-run/datasets/chapter-1.json','in-run/inputs/chapter-1-spawn-plans.json'],note='脚本秒数不包含暂停、选牌和等待击杀。'))
+ out.append(block('15波完整计划、成长和门槛',['逐波怪量按编队模板实际成员展开。以下是任务完整执行时的计划数量，关键目标提前死亡会截断后续刷新。第15波虽有经验预算，未配置普通波末选牌界面。'],['波','脚本起点','计划怪量','怪物构成','本波经验','累计经验','本波处理'],rows,['in-run/datasets/chapter-1.json','in-run/inputs/chapter-1-spawn-plans.json'],note='脚本秒数不包含暂停、选牌和等待击杀。'))
  out.append(block('单局状态衔接的判断顺序',['每波读取脚本任务，位置组、组合编队与随机路线可能在同一任务中并行；按任务和模板时点创建怪物。普通波结束先收场上经验掉落，经验动画结束后按待升级次数逐次展示候选，全部处理后才进入下一波。','第10波与第15波的推进条件是特殊目标死亡；目标死亡后可清除尚未执行的怪物计划。因此完整计划数和一次实战的实际生成、击杀数不同。第6、11、15波的宝箱是独立事件，拾取与批量成长完成后继续本波流程。终局先收束掉落再结算星级、奖励。'],refs=['in-run/facts.json','in-run/flow.json']))
  out.append(block('死亡、复活与评价逐步判断',['死亡后优先检查技能剩余复活次数；其后将满血复活概率、普通复活概率与同一个随机值比较，再查弹窗复活资格。这两种概率不是独立掷两次骰。','弹窗购买成功或广告成功走类型3复活：购买入口绑定商品601、内置价格50钻石；广告先增加广告计数，再进入类型3。该类型会消耗资格并增加评价使用的复活计数。技能和属性复活不沿这条计数路径。成功恢复后返回战斗，并尝试续接被打断的波末成长。','成功通关且启用星级收集时，第一章检查通关、已计入的复活次数不超过0、结果收集时生命百分比达到100。满血条件看结束时，不是全程无伤。'],refs=['in-run/facts.json','in-run/inputs/Chapter_MainChapter.json']))
  return ''.join(out)
